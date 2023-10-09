@@ -32,11 +32,6 @@ Great, thank you!
 1. [Open issue directly][] (green `New Issue` in upper-right, GitHub account required) - you can track the progress, get notifications, help us by answering possibly follow-up questions and help us better!
 
 ## Links ##
-[Links]: #links
-
-* [Project wiki][]
-* [BattleScribe homepage][]
-* [BattleScribe Data on Appspot][]
 <!-- * [Getting Started wiki][] -->
 
 [Report it on Appspot]: http://battlescribedata.appspot.com/#/repo/TemplateDataRepo
