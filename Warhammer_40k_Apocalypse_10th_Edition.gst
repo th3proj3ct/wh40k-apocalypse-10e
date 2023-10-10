@@ -1083,16 +1083,6 @@ If this unit is garrisoning Defensible Terrain, unmodified saving throws of 5+ a
         <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Distances are measured to and from this unit’s hull, even though it has a base.</characteristic>
       </characteristics>
     </profile>
-    <profile id="579c-8bac-e6e9-5668" name="New Profile" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-      <characteristics>
-        <characteristic name="Type" typeId="359f-19b3-6670-21f5"/>
-        <characteristic name="Range" typeId="bea7-7040-8485-6f0f"/>
-        <characteristic name="A" typeId="2883-af07-d4e8-d8d0"/>
-        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758"/>
-        <characteristic name="SAT" typeId="4b6c-996a-d317-affb"/>
-        <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
-      </characteristics>
-    </profile>
     <profile id="edc1-b0c9-7ca6-0ba2" name="Deadly Demise (X&quot;)" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Deadly Demise x: When this model is destroyed, roll one D6. On a 6, place a blast marker on all units within X&quot;</characteristic>
