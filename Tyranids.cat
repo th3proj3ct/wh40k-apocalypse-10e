@@ -919,7 +919,7 @@
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -1125,6 +1125,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -1416,7 +1419,7 @@
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin-Linked</characteristic>
@@ -1426,6 +1429,9 @@
           <infoLinks>
             <infoLink id="329b-5d29-9a4e-299a" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1626,6 +1632,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1797,6 +1806,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2655,6 +2667,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3724,7 +3739,7 @@
         </profile>
         <profile id="0b45-3189-8c69-5b86" name="Terror from the Deep" publicationId="a37b-2844-afcc-f4eb" page="35" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When this unit uses the Deep Strike ability, you can set it up anywhere on the battlefield that is more than 1&quot; away from any enemy units, instead of 9&quot;. After setting this unit up using the Deep Strike ability, if there are any enemy units within 3&quot; of it, select one of those units and roll one D12. On a 3-8 place one blast marker next to that unit, on a 9+ place two blast markers next to that unit.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When this unit uses the Deep Strike ability, if there are any enemy units within 12&quot; of it, select one of those units and roll one D6. On a 2+ place one blast marker next to that unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="22ae-6c83-e596-142c" name="Serpentine Coils" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -3758,14 +3773,26 @@
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="02cd-0517-e05d-a3f3" name="Mawloc Scything Talons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87f4-1755-ba2a-f9b7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96fe-fb3c-23e2-e245" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="78e8-b961-66cd-a2a0" name="Mawloc Scything Talons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="7464-855d-80f9-2b58" name="Scything Talons" hidden="false" collective="false" import="true" targetId="64a6-397a-7fd6-1742" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bac1-c710-db1c-13cc" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0005-5f3a-2e31-29fd" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="f2f1-bbd1-8645-5da0" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -4624,7 +4651,7 @@
         <entryLink id="3325-0a47-7d42-4078" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dfc8-23b4-6714-4703" name="Scythed Hierodule" hidden="false" collective="false" import="true" type="unit">
@@ -4637,7 +4664,12 @@
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9b18-c4b8-1e77-7f53" name="Irresistible Force" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can end in Engagement range in a turn in which it Fell Back.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4653,7 +4685,7 @@
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
@@ -4673,7 +4705,7 @@
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">8&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
@@ -4781,7 +4813,7 @@
       <profiles>
         <profile id="4488-1c92-ecd5-36e7" name="Hierophant Bio-titan" publicationId="5101-ac41-4666-a01a" page="8" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
@@ -4790,14 +4822,9 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="fc97-60fb-8396-4ec2" name="Hypertoxic Poison Cloud" publicationId="5101-ac41-4666-a01a" page="8" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+        <profile id="4d04-0b1d-63f1-db51" name="Apex-beast" publicationId="5101-ac41-4666-a01a" page="8" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the end of the Action phase, roll one D6 for each unit within 6&quot; of any enemy units with this ability; on a 5+ place one blast marker next to the unit being rolled for.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="4d04-0b1d-63f1-db51" name="Frenzied Metabolism" publicationId="5101-ac41-4666-a01a" page="8" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When this unit makes a Shoot action, you can place one blast marker next to this unit. If you do so, add 1 to wound rolls for attacks made by this unit for that action.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes an attack against a unit with less Wounds than it, add 1 to the Hit roll.</characteristic>
           </characteristics>
         </profile>
         <profile id="0033-6cfd-f42f-dd05" name="Hierophant Bio-titan" publicationId="5101-ac41-4666-a01a" page="8" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
@@ -4819,14 +4846,11 @@
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="a61b-e549-e073-456f" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
@@ -4841,9 +4865,9 @@
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
@@ -4861,9 +4885,9 @@
             <profile id="d550-fa93-2b26-8d9c" name="Bio-plasma Torrent" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">8&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">5</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
               </characteristics>
@@ -4905,7 +4929,7 @@
         <entryLink id="4400-287b-1e12-89fe" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="43.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3787-e5ef-0999-71c7" name="Carnifex Brood" hidden="false" collective="false" import="true" type="upgrade">
@@ -5276,6 +5300,9 @@
           <infoLinks>
             <infoLink id="6b5a-f14d-b362-7c27" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -5390,6 +5417,9 @@
           <infoLinks>
             <infoLink id="b932-90d8-3a18-2c58" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -5446,6 +5476,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="41e6-a73a-3d3a-a3d4" name="Von Ryan&apos;s Leapers" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -5506,6 +5539,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b49f-7d69-f28e-6747" name="Norn Assimilator" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5543,7 +5579,7 @@
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
             <profile id="34f1-d9da-a0d8-a2ad" name="Toxinjector Harpoon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -5557,6 +5593,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -5599,6 +5638,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ff4-8bce-f28d-a0ca" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="628b-6001-c035-38d0" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6b75-a36d-8fbf-c0a1" name="Psychic Tendril" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -5617,6 +5659,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -5685,6 +5730,9 @@
           <infoLinks>
             <infoLink id="6e84-3ea4-2621-99e9" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5336-e105-3e46-7dbe" name="Talons and Betentacled Maw" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -5699,10 +5747,13 @@
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>

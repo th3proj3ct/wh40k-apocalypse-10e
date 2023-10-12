@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7774-c573-6697-5bd1" name="Imperium - Dark Angels" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7774-c573-6697-5bd1" name="Imperium - Dark Angels" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -60,28 +60,6 @@
         <categoryLink id="ff92-3972-35e9-28be" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5f51-e234-3cd0-0877" name="Chaplain" hidden="false" collective="false" import="true" targetId="b371-3bcc-b91b-03e6" type="selectionEntry">
-      <modifiers>
-        <modifier type="add" field="category" value="d673-6f6d-5df6-035c">
-          <conditions>
-            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3726-f1d3-1b96-0eb0" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <infoLinks>
-        <infoLink id="b317-e91d-ad1a-22ad" name="Litanies of Hate" hidden="false" targetId="1020-199d-b194-0218" type="profile"/>
-        <infoLink id="2484-00d9-b32c-7c6a" name="Spritiual Leader" hidden="false" targetId="f2e9-2ae6-3afd-0024" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="88c8-130e-3d0d-51e3" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="aec0-993a-2bce-9cf5" name="Librarian" hidden="false" collective="false" import="true" targetId="791d-6d90-4c77-c0ed" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="7035-ff2b-6293-c47d" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
-        <categoryLink id="cbf2-8de8-c43b-c506" name="Faction: Deathwing" hidden="false" targetId="d673-6f6d-5df6-035c" primary="false"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="3b11-222b-8636-7b88" name="Primaris Librarian" hidden="false" collective="false" import="true" targetId="8896-4617-12f7-2495" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e342-71df-6c63-8721" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
@@ -98,14 +76,6 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="4ace-3d05-e47b-7416" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="9ffb-6f51-e202-7f14" name="Lieutenants" hidden="false" collective="false" import="true" targetId="63dd-5f7e-f7ca-1ed2" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="7037-bc90-824c-6654" name="Tactical Precision" hidden="false" targetId="a59a-956d-9741-2423" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="801a-f84b-84f2-2f2c" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6c75-9fba-7d92-b938" name="Land Raider Excelsior" hidden="false" collective="false" import="true" targetId="f1d3-df65-80bc-5292" type="selectionEntry">
@@ -772,23 +742,6 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
     <entryLink id="fae4-7111-bd59-bff5" name="Primaris Captain" hidden="false" collective="false" import="true" targetId="b734-ce0c-dd48-e51f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0a3e-4bf2-c3d1-34b4" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="da1e-6d17-5f49-b4ed" name="Captain" hidden="false" collective="false" import="true" targetId="3ce2-d370-361d-3409" type="selectionEntry">
-      <modifiers>
-        <modifier type="add" field="category" value="d673-6f6d-5df6-035c">
-          <conditions>
-            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3726-f1d3-1b96-0eb0" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="add" field="category" value="e2b5-b600-9791-7010">
-          <conditions>
-            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c8b5-9ad5-d8df-45f2" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="ac7e-478a-4880-61d6" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2a05-07d7-980e-aa9b" name="Primaris Techmarine" hidden="false" collective="false" import="true" targetId="c4c4-5b9e-8ea6-1ca1" type="selectionEntry">
@@ -1905,7 +1858,7 @@ Hit roll</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7104-9703-476c-2745" name="5 - 10 Models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7104-9703-476c-2745" name="5 - 10 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="80a6-030f-2181-79e9">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c23-9fc0-23a7-fb3c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c899-0c27-8e82-a956" type="max"/>
@@ -2043,7 +1996,7 @@ Hit roll</characteristic>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9188-1ce2-c835-d85d" name="5 - 10 Models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9188-1ce2-c835-d85d" name="5 - 10 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="7090-39df-5e26-09e6">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fc8-9948-60f7-7524" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec69-16cd-d172-7e93" type="max"/>
@@ -2093,46 +2046,6 @@ Hit roll</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="592e-22e1-a212-71b2" name="Ravenwing Bike Squad" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="1c50-072b-7a9b-24f9" name="Ravenwing Bike Squad" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-          <modifiers>
-            <modifier type="increment" field="7c7f-f763-1f39-410c" value="1">
-              <conditions>
-                <condition field="selections" scope="592e-22e1-a212-71b2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa43-2a6c-4631-9b33" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <modifierGroups>
-            <modifierGroup>
-              <conditions>
-                <condition field="selections" scope="592e-22e1-a212-71b2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8593-349a-e033-266b" type="equalTo"/>
-              </conditions>
-              <modifiers>
-                <modifier type="increment" field="ddfe-6a9e-32c1-a51c" value="1"/>
-                <modifier type="increment" field="7c7f-f763-1f39-410c" value="1"/>
-              </modifiers>
-            </modifierGroup>
-            <modifierGroup>
-              <conditions>
-                <condition field="selections" scope="592e-22e1-a212-71b2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="335a-d51a-9f6d-434c" type="equalTo"/>
-              </conditions>
-              <modifiers>
-                <modifier type="increment" field="ddfe-6a9e-32c1-a51c" value="2"/>
-                <modifier type="increment" field="7c7f-f763-1f39-410c" value="2"/>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
-          <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="3ae1-7f3f-5771-61d3" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="0112-9cdd-96d5-2f38" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
@@ -2143,8 +2056,53 @@ Hit roll</characteristic>
         <categoryLink id="e71b-c2c8-e782-ecd7" name="Faction: Ravenwing" hidden="false" targetId="e2b5-b600-9791-7010" primary="false"/>
         <categoryLink id="82bd-a25e-5a8e-4847" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7600-7b42-5fe9-14b5" name="3 - 6 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="111c-1466-19ea-c3b8">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f342-a784-7fb2-1fbe" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da9a-1633-066c-5c10" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="111c-1466-19ea-c3b8" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="4353-e7f5-4d8e-1697" name="Ravenwing Bike Squad (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6637-62ba-1585-61ea" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="21de-7b8c-e8f2-e3c4" name="Ravenwing Bike Squad (6 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="8523-724b-4d0e-d69a" name="3 - 9 models" hidden="false" collective="false" import="true" targetId="1077-9dc0-05df-beb9" type="selectionEntryGroup"/>
         <entryLink id="aa43-2a6c-4631-9b33" name="Attack Bike" hidden="false" collective="false" import="true" targetId="7f74-8e98-1524-fa78" type="selectionEntry"/>
         <entryLink id="cea2-d095-2040-3007" name="Twin Boltguns" hidden="false" collective="false" import="true" targetId="2911-f56b-eec4-ad12" type="selectionEntry">
           <constraints>
@@ -2494,7 +2452,7 @@ Hit roll</characteristic>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0f5c-7da2-2f4d-90e0" name="3 - 6 Models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0f5c-7da2-2f4d-90e0" name="3 - 6 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="caa7-b979-f9f4-f42f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c4e-c516-33c5-90a1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16f8-e038-ce8e-2f2d" type="max"/>
@@ -3002,6 +2960,9 @@ Hit roll</characteristic>
             <categoryLink id="1119-d244-5348-8ae1" name="Terminator" hidden="false" targetId="3726-f1d3-1b96-0eb0" primary="false"/>
             <categoryLink id="ef34-3652-838e-6b8e" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
           </categoryLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5bac-5ec6-e40c-c566" name="Deathwing Champion" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -3026,6 +2987,9 @@ Hit roll</characteristic>
             <categoryLink id="8854-2715-3ac9-2663" name="Terminator" hidden="false" targetId="3726-f1d3-1b96-0eb0" primary="false"/>
             <categoryLink id="bde3-9233-787c-1fa2" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
           </categoryLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0a43-91e9-df31-9501" name="Deathwing Apothecary" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -3046,6 +3010,9 @@ Hit roll</characteristic>
             <categoryLink id="9c08-0a3b-b229-383e" name="Terminator" hidden="false" targetId="3726-f1d3-1b96-0eb0" primary="false"/>
             <categoryLink id="2b5c-1a1b-88ed-91de" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
           </categoryLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="cd42-d594-2635-f981" name="Deathwing Power Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3070,7 +3037,7 @@ Hit roll</characteristic>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="36ba-81c8-41fe-68e1" name="5 - 10 Models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="36ba-81c8-41fe-68e1" name="5 - 10 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e6c-c450-90e5-4b0e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cbe-3002-6c3f-b738" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24f4-d3da-1931-f285" type="max"/>
@@ -3162,6 +3129,9 @@ Hit roll</characteristic>
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c0b5-7a94-e6a5-a83e" name="Ravenwing Command Squad" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -3198,6 +3168,9 @@ Hit roll</characteristic>
             <categoryLink id="4db0-2cf5-3c09-cce4" name="Terminator" hidden="false" targetId="3726-f1d3-1b96-0eb0" primary="false"/>
             <categoryLink id="cd8a-efa8-07bc-b445" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
           </categoryLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="89bf-777a-1181-8b7c" name="Ravenwing Champion" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -3222,6 +3195,9 @@ Hit roll</characteristic>
             <categoryLink id="e064-407c-77a6-dcff" name="Terminator" hidden="false" targetId="3726-f1d3-1b96-0eb0" primary="false"/>
             <categoryLink id="c69a-7152-c505-f77c" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
           </categoryLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9ba9-cc01-e09f-afcf" name="Ravenwing Apothecary" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -3242,6 +3218,9 @@ Hit roll</characteristic>
             <categoryLink id="1c9f-0d89-acef-181b" name="Terminator" hidden="false" targetId="3726-f1d3-1b96-0eb0" primary="false"/>
             <categoryLink id="da84-a0ba-a38b-0b60" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
           </categoryLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9e60-9b56-1208-bc72" name="Black Knight Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3266,7 +3245,7 @@ Hit roll</characteristic>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7a8c-5242-bd15-e98a" name="3 - 6 Models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7a8c-5242-bd15-e98a" name="3 - 6 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="dd44-6175-bd55-99a2">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9c8-38da-1d97-acc2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40ff-c251-5364-d355" type="max"/>
@@ -3314,6 +3293,9 @@ Hit roll</characteristic>
       <entryLinks>
         <entryLink id="fe9f-0770-35bf-846f" name="Bike Weapon" hidden="false" collective="false" import="true" targetId="5474-a305-b25f-d315" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

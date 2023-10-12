@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90da-8269-fc9b-ef01" name="Chaos - World Eaters" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90da-8269-fc9b-ef01" name="Chaos - World Eaters" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="c913-9d94-a2e1-c4a0" name="Helbrute" hidden="false" collective="false" import="true" targetId="3ca7-9758-48ff-235b" type="selectionEntry">
       <categoryLinks>
@@ -255,6 +255,11 @@
         <profile id="c955-83e1-e84e-1647" name="Counter-attacks" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is leading a unit, that unit can end their movement within Engagement Range of enemy models, and is also eligible to shoot and fight in a turn in which it Fell Back.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9c64-195e-79dd-3c42" name="Aggressive Advance" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is leading a unit, add 2&quot; to the movement characteristic and Blood Surge moves of models in that unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>

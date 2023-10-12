@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d8d-c2f6-d13b-8174" name="Imperium - Adeptus Custodes" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3d8d-c2f6-d13b-8174" name="Imperium - Adeptus Custodes" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a70b-b27c-4926-d99c" name="Faction: Adeptus Custodes" hidden="false"/>
     <categoryEntry id="e6c3-ba23-fdf0-2498" name="Captain-General Trajann Valoris" hidden="false"/>
@@ -180,7 +180,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <categoryLink id="1d9c-e936-a6ab-83da" name="Shield Captain" hidden="false" targetId="af37-16cc-82fd-38b6" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2ad9-13cf-c41e-a117" name="Balistus Grenade Launcher" hidden="false" collective="false" import="true" targetId="8ac1-d011-2fc6-dc9c" type="selectionEntry"/>
+        <entryLink id="2ad9-13cf-c41e-a117" name="Balistus Grenade Launcher" hidden="false" collective="false" import="true" targetId="a78f-f0a0-a839-4468" type="selectionEntry"/>
         <entryLink id="5318-ee43-2534-273c" name="Relics of Terra" hidden="false" collective="false" import="true" targetId="2376-49ec-e176-a257" type="selectionEntry"/>
         <entryLink id="d1e7-89f4-0afe-09c3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
@@ -255,7 +255,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
@@ -284,43 +284,15 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="67bc-abe0-7211-42ff" name="Custodian Weapons" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d69-060d-7661-d241" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="386a-1434-e7c5-2080" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="72fd-4650-b7cc-9464" name="Custodian Weapons (Ranged)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="e84b-518a-9e87-890c" name="Custodian Weapons (Melee)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="66f3-612c-3ed0-82a2" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="b0f1-7e2e-35bc-1dd6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="af09-262b-1931-78ee" name="Custodian Weapons" hidden="false" collective="false" import="true" targetId="ae45-a4e0-1c0f-5cf1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4271-c8d4-60d0-6332" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96db-286b-5633-5e4f" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
@@ -345,42 +317,6 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <categoryLink id="eae4-2bad-313c-8dda" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="2f65-9278-336f-c685" name="Allarus Custodians" hidden="false" targetId="a4aa-4425-bb3f-a98b" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="5a7f-380b-fdba-48d1" name="Custodian Weapons" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51e8-9086-ba57-891a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="743f-e7b6-6d06-f3ba" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="7043-9f98-f7ad-7b6e" name="Custodian Weapons (Ranged)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="bf53-7efc-5930-79fc" name="Custodian Weapons (Melee)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="5dfc-b0cf-e13a-5130" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="361c-115b-9c6d-7504" name="3 - 6 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="9a58-e7b5-3a9e-2ec2">
           <constraints>
@@ -395,7 +331,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
@@ -413,7 +349,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
@@ -428,12 +364,14 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="8c6f-7a18-b7cf-06b2" name="Balistus Grenade Launcher" hidden="false" collective="false" import="true" targetId="8ac1-d011-2fc6-dc9c" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="name" value="Balistus Grenade Launchers"/>
-          </modifiers>
-        </entryLink>
+        <entryLink id="8c6f-7a18-b7cf-06b2" name="Balistus Grenade Launcher" hidden="false" collective="false" import="true" targetId="a78f-f0a0-a839-4468" type="selectionEntry"/>
         <entryLink id="5467-01c6-67c1-5ca5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="a7cb-1a00-1aed-b061" name="Custodian Weapons" hidden="false" collective="false" import="true" targetId="ae45-a4e0-1c0f-5cf1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa7d-8032-9fe7-f25e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a21-f300-a8e8-1111" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -733,7 +671,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1130,7 +1068,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -1156,7 +1094,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
@@ -1174,7 +1112,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
@@ -1256,7 +1194,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
@@ -1276,29 +1214,6 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <categoryLink id="8d73-d4af-7e9b-1ff0" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="8175-6987-95d2-4aaf" name="Custodian Guard" hidden="false" targetId="c60e-fb1a-958f-b85d" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="816d-a1ba-a38a-93b1" name="Custodian Weapons" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62f7-90b5-8c80-ba53" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe43-b359-49bc-95fc" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="a6fd-2619-84e4-4377" name="Custodian Weapons (Melee)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="0ccd-dd1b-8fbc-1cfe" name="Spears" hidden="false" collective="false" import="true">
           <constraints>
@@ -1345,6 +1260,12 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="9d72-3ca8-6e6b-df2e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="6892-f249-9df3-ad0f" name="Custodian Weapons" hidden="false" collective="false" import="true" targetId="ae45-a4e0-1c0f-5cf1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02e7-ee88-2f45-ab92" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9122-61a7-46c0-4632" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
@@ -2002,7 +1923,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
@@ -2025,44 +1946,14 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <categoryLink id="be8d-36f9-4cb2-5f44" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="48af-5049-043b-3bff" name="Custodian Wardens" hidden="false" targetId="1cf4-4da9-04a8-417c" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="e381-f178-5127-80d5" name="Custodian Weapons" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eebc-7346-9f53-10e1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8462-b552-5ca6-97e9" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="577d-7aa9-99b8-5d0d" name="Custodian Weapons (Ranged)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="eef4-0df3-b253-8f52" name="Custodian Weapons (Melee)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="dfe3-7134-1e9d-403f" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="f8b7-1ed4-de55-0ffe" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="b201-8d2a-0c49-0b8b" name="Custodian Weapons" hidden="false" collective="false" import="true" targetId="ae45-a4e0-1c0f-5cf1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8753-d0ee-29be-3aaa" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ff0-b2cf-891c-6d14" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
@@ -2685,30 +2576,9 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
           <characteristics>
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8ac1-d011-2fc6-dc9c" name="Balistus Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2515-424e-908b-b099" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7142-eba8-842e-392f" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="7151-1459-8b9d-cb07" name="Balistus Grenade Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-          <characteristics>
-            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -2945,6 +2815,58 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae45-a4e0-1c0f-5cf1" name="Custodian Weapons" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f56-87dc-4126-5a8c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4400-c3a9-ed43-7c05" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9f47-4a0a-d449-a17b" name="Custodian Weapons (Ranged)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e325-5a95-ee22-0142" name="Custodian Weapons (Melee)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a78f-f0a0-a839-4468" name="Balistus Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="807d-e4da-be13-dd53" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8845-7e49-f91e-3d8a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fae2-3df7-a4aa-acd3" name="Balistus Grenade Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

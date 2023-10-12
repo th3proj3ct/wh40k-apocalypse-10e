@@ -452,6 +452,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a537-d541-d6d8-b998" name="Intercessor Squad" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="13df-5f04-27b9-0556" name="Objective Secured" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If this model is in range of an objective marker, each time a model in this unit makes an attack you may re-roll the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="0899-a39a-e939-7fc0" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="03b9-c906-148e-d2da" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
@@ -484,7 +491,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0dc2-6507-d0f2-6c28" name="5 - 10 models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0dc2-6507-d0f2-6c28" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="8944-6808-32f5-74af">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7cd-b73b-9d22-f301" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de01-732d-980d-a0a2" type="max"/>
@@ -497,7 +504,7 @@
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
@@ -515,7 +522,7 @@
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
@@ -561,8 +568,8 @@
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">30&quot;</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
           </characteristics>
         </profile>
@@ -936,7 +943,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1143,7 +1150,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1783,7 +1790,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
           </characteristics>
         </profile>
@@ -2256,7 +2263,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -3087,6 +3094,11 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
+        <profile id="fcd0-5a41-4dce-bb19" name="Close-Quarters Firepower" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a model in this unit makes a ranged attack that targets the closest eligible target, add 1 to the Wound roll.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="2a08-bc04-0cc5-dff8" name="Aggressor Squad" hidden="false" targetId="c608-6a5b-42d5-48e2" primary="false"/>
@@ -3108,13 +3120,16 @@
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin-Linked</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="4a12-3b01-ae39-8e22" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
@@ -3159,10 +3174,13 @@
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin-Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="e1af-fa0e-a983-1bbf" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+      </infoLinks>
       <selectionEntries>
         <selectionEntry id="19bc-c43d-7f71-bda2" name="Fragstorm Grenade Launchers" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3174,7 +3192,7 @@
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -3195,16 +3213,17 @@
         <profile id="5920-5612-99a4-b676" name="Flamestorm Gauntlets" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">8&quot;</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno, Twin-Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="43de-7c09-c10c-7da7" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
+        <infoLink id="d1f5-006c-5f4a-fab3" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -3300,7 +3319,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -4384,7 +4403,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -4739,30 +4758,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="de74-5084-23cb-8519" name="Inceptor Squad" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="2ca6-d247-c59f-9050" name="Inceptor Squad" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-          <modifierGroups>
-            <modifierGroup>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8593-349a-e033-266b" type="equalTo"/>
-              </conditions>
-              <modifiers>
-                <modifier type="set" field="ddfe-6a9e-32c1-a51c" value="2"/>
-                <modifier type="set" field="7c7f-f763-1f39-410c" value="4"/>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
-          <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <infoLinks>
         <infoLink id="5e71-e51a-7824-1a87" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
@@ -4802,58 +4797,108 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="eaf9-1294-92b5-748e" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="c2b2-a71d-1114-cf3e">
+        <selectionEntryGroup id="eaf9-1294-92b5-748e" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="b233-ee68-9483-8bfb">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f05d-9e7e-1230-7972" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f02-acaf-8593-d6ab" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="c2b2-a71d-1114-cf3e" name="Assault Bolters" hidden="false" collective="false" import="true" targetId="cd4d-0d06-c8fa-aea0" type="selectionEntry"/>
-            <entryLink id="bf3f-daa0-bef0-5788" name="Plasma Exterminators" hidden="false" collective="false" import="true" targetId="5496-02cf-9377-7f0b" type="selectionEntry"/>
-          </entryLinks>
+          <selectionEntries>
+            <selectionEntry id="b233-ee68-9483-8bfb" name="Assault Bolters" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="c618-9785-c527-8757" name="Assault Bolters" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 2, Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="5d6c-562b-68d3-b137" name="Sustained Hits X" hidden="false" targetId="d0a7-26e1-b2cb-2bce" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Sustained Hits 2"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="43f8-5d11-bf3c-fe35" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e6f4-1085-f3bd-f37b" name="Plasma Exterminators" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e3aa-b50a-a030-2488" name="Plasma Exterminators" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Supercharge, Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="1520-06d2-5554-80b2" name="Supercharge" hidden="false" targetId="9988-c2ea-2f30-09c1" type="rule"/>
+                <infoLink id="4b20-b5dd-3afc-78ad" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1926-a1ce-f8d2-3e9d" name="3 - 6 models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aa8-fcff-77f6-87f5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2117-960f-a85f-6387" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c2c3-687f-98e5-5320" name="03 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="bd27-2646-346a-db74" name="Inceptor (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="75a0-b2b6-46bc-dbbb" name="06 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="03b2-b295-6582-8f8f" name="Inceptor (6 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="3687-3bf4-65b2-e78a" name="3 - 6 models" hidden="false" collective="false" import="true" targetId="fd57-db55-b1b1-9b16" type="selectionEntryGroup"/>
         <entryLink id="a8c5-038f-40d9-9f66" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="cd4d-0d06-c8fa-aea0" name="Assault Bolters" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="12f4-06d8-3c90-6a96" name="Assault Bolters" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-          <characteristics>
-            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5496-02cf-9377-7f0b" name="Plasma Exterminators" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="69aa-1dfc-dd06-ea4a" name="Plasma Exterminators" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-          <characteristics>
-            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Supercharge</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="526c-3a6b-37f0-c686" name="Supercharge" hidden="false" targetId="9988-c2ea-2f30-09c1" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
@@ -4865,7 +4910,7 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
@@ -4897,9 +4942,9 @@
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
@@ -5080,7 +5125,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
           </characteristics>
         </profile>
@@ -5168,7 +5213,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -5426,7 +5471,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -5647,7 +5692,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -5774,7 +5819,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -5924,7 +5969,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -5949,7 +5994,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -6048,9 +6093,9 @@
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -6066,9 +6111,9 @@
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -6163,7 +6208,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -6559,7 +6604,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -6767,7 +6812,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -6821,7 +6866,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -7074,7 +7119,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -7179,7 +7224,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -7299,7 +7344,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -7419,7 +7464,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -7556,7 +7601,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -7667,7 +7712,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -7727,7 +7772,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -8297,7 +8342,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -9265,7 +9310,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -9385,7 +9430,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -9489,7 +9534,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -9607,7 +9652,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -9708,7 +9753,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -9801,7 +9846,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -9868,7 +9913,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">8</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -10107,7 +10152,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -10205,7 +10250,7 @@
                 <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                 <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">-</characteristic>
                 <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
                 <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
               </characteristics>
             </profile>
@@ -10270,7 +10315,7 @@
                 <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                 <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                 <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
                 <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
               </characteristics>
             </profile>
@@ -10456,7 +10501,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">-</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -10674,7 +10719,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">-</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -11698,24 +11743,13 @@ otherwise, place one blast marker next to it.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="811d-be8d-23fb-7100" name="Assault Intercessor Squad" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="8623-e5f1-9b6c-0e8d" name="Primaris Profile" hidden="false" targetId="b2c7-a677-95c3-6c20" type="profile">
-          <modifiers>
-            <modifier type="set" field="name" value="Assault Intercessor Squad"/>
-          </modifiers>
-          <modifierGroups>
-            <modifierGroup>
-              <conditions>
-                <condition field="selections" scope="811d-be8d-23fb-7100" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b387-d691-5e15-e5cc" type="equalTo"/>
-              </conditions>
-              <modifiers>
-                <modifier type="set" field="ddfe-6a9e-32c1-a51c" value="2"/>
-                <modifier type="set" field="7c7f-f763-1f39-410c" value="4"/>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
-        </infoLink>
-      </infoLinks>
+      <profiles>
+        <profile id="fe71-f802-2266-860c" name="Shock Assault" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="dc8f-9e42-be65-db14" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="fd53-69af-6344-1f8d" name="Assault Intercessor Squad" hidden="false" targetId="5d9c-2492-402c-a0be" primary="false"/>
@@ -11748,8 +11782,53 @@ otherwise, place one blast marker next to it.</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8c6f-e2be-3099-35e0" name="5 - 10 models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29e3-db84-56cf-e97c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72d6-753b-4032-2802" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4152-5a54-7782-8dc6" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="d7fd-1c1d-6499-c9c0" name="Assault Intercessor (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7007-e34e-74e8-7f3b" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="164e-7151-5710-0da0" name="Assault Intercessor (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="9d93-d447-5395-9ef5" name="5 - 10 models" hidden="false" collective="false" import="true" targetId="dfca-1772-18d0-ab91" type="selectionEntryGroup"/>
         <entryLink id="435c-e95e-67fa-9722" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="e5d8-0466-4454-a356" name="Heavy Bolt Pistols" hidden="false" collective="false" import="true" targetId="35bb-c4c0-0e46-cd22" type="selectionEntry">
           <constraints>
@@ -11764,33 +11843,12 @@ otherwise, place one blast marker next to it.</characteristic>
     </selectionEntry>
     <selectionEntry id="daf6-0fd3-3356-b4cd" name="Heavy Intercessor Squad" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="0fc8-e111-b68f-bd5b" name="Heavy Intercessor Squad" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+        <profile id="053e-3ea0-6b24-00af" name="Unyielding in the Face of the Foe" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly </characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this unit is within range of an objective marker, re-roll saving throws of 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="70a9-614c-79ab-f744" name="Primaris Profile" hidden="false" targetId="b2c7-a677-95c3-6c20" type="profile">
-          <modifiers>
-            <modifier type="set" field="name" value="Heavy Intercessor Squad"/>
-            <modifier type="set" field="a56f-38ae-3917-aadc" value="5+"/>
-            <modifier type="set" field="7c7f-f763-1f39-410c" value="3"/>
-            <modifier type="set" field="606d-344a-bc3d-9dce" value="5&quot;"/>
-          </modifiers>
-          <modifierGroups>
-            <modifierGroup>
-              <conditions>
-                <condition field="selections" scope="daf6-0fd3-3356-b4cd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b387-d691-5e15-e5cc" type="equalTo"/>
-              </conditions>
-              <modifiers>
-                <modifier type="set" field="ddfe-6a9e-32c1-a51c" value="2"/>
-                <modifier type="set" field="7c7f-f763-1f39-410c" value="6"/>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
-        </infoLink>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="d28e-e451-f8e9-3869" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="c896-9b77-1993-af83" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
@@ -11844,8 +11902,53 @@ otherwise, place one blast marker next to it.</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="df0e-3f5f-a117-3ea7" name="5 - 10 models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2678-7b34-af50-6429" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8122-76e5-b911-8074" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f9e3-487d-5a59-1820" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="4a45-8516-4aba-335a" name="Heavy Intercessor (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="690b-92d8-3941-5a77" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="37f5-a64f-729c-353e" name="Heavy Intercessor (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="8b8e-3572-17dc-ae6f" name="5 - 10 models" hidden="false" collective="false" import="true" targetId="dfca-1772-18d0-ab91" type="selectionEntryGroup"/>
         <entryLink id="5606-5aed-19fb-99ea" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -11861,7 +11964,7 @@ otherwise, place one blast marker next to it.</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -12134,7 +12237,7 @@ otherwise, place one blast marker next to it.</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -12197,20 +12300,9 @@ that target this unit.</characteristic>
     </selectionEntry>
     <selectionEntry id="778d-e22c-27cb-5b1b" name="Outrider Squad" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="355d-aab8-177c-dff4" name="Outrider Squad" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
-          </characteristics>
-        </profile>
         <profile id="1aaa-9c65-9a50-23d0" name="Devastating Charge" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When this unit makes a Fight Action, if it has not remained stationary or Piled In this turn, double it&apos;s Attacks characteristic for that action.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When this unit makes a Fight Action, if it has not remained stationary or Piled In this turn, add 1 to its Attacks characteristic for that action.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12235,12 +12327,15 @@ that target this unit.</characteristic>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">30&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin-Linked</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="2bb2-2231-06db-50d0" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
@@ -12255,7 +12350,7 @@ that target this unit.</characteristic>
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -12267,6 +12362,52 @@ that target this unit.</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f78e-51cd-02eb-8a26" name="3 - 6 models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="963d-447f-5222-3255" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32c6-9bb1-5aa4-9327" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8894-e07d-de3c-4311" name="03 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="fd4d-f34f-32a8-2b57" name="Outriders (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5230-826b-82ba-6724" name="06 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="9edd-2bb6-e978-63cf" name="Outriders (6 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="36be-c92c-7696-fc15" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
@@ -12553,7 +12694,7 @@ that target this unit.</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -12630,7 +12771,7 @@ that target this unit.</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">-</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -13701,6 +13842,13 @@ that target this unit.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="92b2-7e44-c99d-2692" name="Infernus Squad" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4d54-cf97-887e-fcdc" name="Purge the Foe" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">In your Shooting phase, after this unit has shot, you can select one enemy INFANTRY unit hit by one or more of those attacks made with a pyreblaster. That enemy unit must take a leadership test. If failed, place a Blast marker next to that unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="4cc0-40cc-d45e-5b40" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="6f40-5637-3ca1-814a" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
@@ -13738,7 +13886,7 @@ that target this unit.</characteristic>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
               </characteristics>
@@ -14750,7 +14898,7 @@ that target this unit.</characteristic>
         <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
         <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
         <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-        <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+        <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
         <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
       </characteristics>
     </profile>
@@ -14826,7 +14974,7 @@ that target this unit.</characteristic>
         <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
         <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
         <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-        <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
+        <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
         <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
       </characteristics>
     </profile>

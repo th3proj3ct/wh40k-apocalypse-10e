@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6ff1-b8b9-e2c5-392a" name="Chaos - Chaos Space Marines" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6ff1-b8b9-e2c5-392a" name="Chaos - Chaos Space Marines" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="9ce0-92a4-75e9-c09f" name="Faction: Skulltakers" hidden="false"/>
     <categoryEntry id="77e2-0635-9df5-4f43" name="Zhufor the Impaler" hidden="false"/>
@@ -168,11 +168,7 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="5e3a-9e52-abb6-9692" name="Hellforged Mastodon" hidden="false" collective="false" import="true" targetId="033e-f9c8-c4b0-2f34" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="002e-a7c1-a4f2-cf68" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="5e3a-9e52-abb6-9692" name="Chaos Mastodon" hidden="false" collective="false" import="true" targetId="033e-f9c8-c4b0-2f34" type="selectionEntry"/>
     <entryLink id="69ee-7e64-a5d6-88d6" name="Kytan Ravager" hidden="false" collective="false" import="true" targetId="43af-be45-7918-425b" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -220,11 +216,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="6777-843f-eccb-99e8" name="Chaos Decimator" hidden="false" collective="false" import="true" targetId="9e88-67db-d4e3-fb01" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="fa93-3fdd-a025-2882" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="6777-843f-eccb-99e8" name="Decimator" hidden="false" collective="false" import="true" targetId="9e88-67db-d4e3-fb01" type="selectionEntry"/>
     <entryLink id="a658-5cef-8c45-21f1" name="Greater Brass Scorpion of Khorne" hidden="false" collective="false" import="true" targetId="f692-9c00-d320-323c" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -234,113 +226,29 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="734e-b1a1-afb9-cb91" name="Chaos Contemptor Dreadnought" hidden="false" collective="false" import="true" targetId="a237-dcd0-5abf-c97f" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="e6ac-e3ec-a502-4d36" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="47aa-da3e-34f5-292d" name="Hellforged Cerberus Heavy Destroyer" hidden="false" collective="false" import="true" targetId="e39f-1bdb-b3aa-1d6c" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="c726-5f44-0b52-c0a9" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="51a1-5833-2922-d11c" name="Hellforged Deredeo Dreadnought" hidden="false" collective="false" import="true" targetId="b186-9dcb-3dc3-2454" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="7fd0-0836-2a38-5de7" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="0550-6bc0-a338-3e88" name="Hellforged Dreadclaw Drop Pod" hidden="false" collective="false" import="true" targetId="6962-3f8f-63d3-803c" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="d1ce-f4bf-1ad9-0157" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="194e-297b-685a-f7d2" name="Hellforged Falchion" hidden="false" collective="false" import="true" targetId="7c0d-9c5e-91ba-ced6" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="9d75-d28e-146d-fa88" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="1c88-5737-0d07-b7de" name="Hellforged Fellblade" hidden="false" collective="false" import="true" targetId="1481-8054-00fd-6add" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="8ce3-bdea-57b6-c7e4" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="6e66-8d6b-9337-19ef" name="Hellforged Kharybdis Assault Claw" hidden="false" collective="false" import="true" targetId="9b56-60e3-1ec2-2be6" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="16cd-8f8c-fc45-b8f1" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="51ee-645a-8843-a836" name="Hellforged Land Raider Achilles" hidden="false" collective="false" import="true" targetId="84f5-0ff1-0c1b-a0c6" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="e65a-6a88-f93e-1561" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="db55-735f-36fa-8fe9" name="Hellforged Land Raider Proteus" hidden="false" collective="false" import="true" targetId="dc43-f0a2-58b7-b478" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="555b-4a7d-9e30-f3d0" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="af2e-88ad-66dc-5c64" name="Chaos Leviathan Dreadnought" hidden="false" collective="false" import="true" targetId="ba52-d3a1-0032-94b0" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="30cc-42d7-50dd-fb26" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="7c08-87ce-6a09-9044" name="Hellforged Rapier Battery" hidden="false" collective="false" import="true" targetId="b6f8-5507-d8a2-6cd1" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="1457-c828-5f0f-3f95" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="0d8f-ca36-f0ac-bfb8" name="Hellforged Scorpius" hidden="false" collective="false" import="true" targetId="660d-f9b6-ddc9-9946" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="0acf-6b6d-2779-4dd2" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="094a-1564-8739-1789" name="Hellforged Sicaran" hidden="false" collective="false" import="true" targetId="1234-dc9e-04cd-a218" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="a61c-7bfd-6011-7649" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="cee6-ae14-b5b8-18ef" name="Hellforged Sicaran Venator" hidden="false" collective="false" import="true" targetId="721a-be95-29eb-4766" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="81c6-1841-0fed-740a" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="9224-d21c-bd71-bee6" name="Hellforged Spartan Assault Tank" hidden="false" collective="false" import="true" targetId="5f94-7327-3258-42fb" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="669e-6c27-eaad-79b0" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="b733-7a6c-3de7-275d" name="Hellforged Typhon Heavy Siege Tank" hidden="false" collective="false" import="true" targetId="3503-4ef7-b6f7-6c37" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="afb5-5525-6444-7874" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="b7fc-ae1e-8e00-3248" name="Chaos Fire Raptor Assault Gunship" hidden="false" collective="false" import="true" targetId="a0f9-589e-8b1a-a844" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="f245-8a61-3b01-0b89" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="734e-b1a1-afb9-cb91" name="Chaos Contemptor Dreadnought" hidden="false" collective="false" import="true" targetId="a237-dcd0-5abf-c97f" type="selectionEntry"/>
+    <entryLink id="47aa-da3e-34f5-292d" name="Chaos Cerberus" hidden="false" collective="false" import="true" targetId="e39f-1bdb-b3aa-1d6c" type="selectionEntry"/>
+    <entryLink id="51a1-5833-2922-d11c" name="Chaos Deredeo Dreadnought" hidden="false" collective="false" import="true" targetId="b186-9dcb-3dc3-2454" type="selectionEntry"/>
+    <entryLink id="0550-6bc0-a338-3e88" name="Dreadclaw Drop Pod" hidden="false" collective="false" import="true" targetId="6962-3f8f-63d3-803c" type="selectionEntry"/>
+    <entryLink id="194e-297b-685a-f7d2" name="Chaos Falchion" hidden="false" collective="false" import="true" targetId="7c0d-9c5e-91ba-ced6" type="selectionEntry"/>
+    <entryLink id="1c88-5737-0d07-b7de" name="Chaos Fellblade" hidden="false" collective="false" import="true" targetId="1481-8054-00fd-6add" type="selectionEntry"/>
+    <entryLink id="6e66-8d6b-9337-19ef" name="Kharybdis Assault Claw" hidden="false" collective="false" import="true" targetId="9b56-60e3-1ec2-2be6" type="selectionEntry"/>
+    <entryLink id="51ee-645a-8843-a836" name="Chaos Land Raider Achilles" hidden="false" collective="false" import="true" targetId="84f5-0ff1-0c1b-a0c6" type="selectionEntry"/>
+    <entryLink id="db55-735f-36fa-8fe9" name="Chaos Land Raider Proteus" hidden="false" collective="false" import="true" targetId="dc43-f0a2-58b7-b478" type="selectionEntry"/>
+    <entryLink id="af2e-88ad-66dc-5c64" name="Chaos Leviathan Dreadnought" hidden="false" collective="false" import="true" targetId="ba52-d3a1-0032-94b0" type="selectionEntry"/>
+    <entryLink id="7c08-87ce-6a09-9044" name="Chaos Rapier Carrier" hidden="false" collective="false" import="true" targetId="b6f8-5507-d8a2-6cd1" type="selectionEntry"/>
+    <entryLink id="0d8f-ca36-f0ac-bfb8" name="Chaos Whirlwind Scorpius" hidden="false" collective="false" import="true" targetId="660d-f9b6-ddc9-9946" type="selectionEntry"/>
+    <entryLink id="094a-1564-8739-1789" name="Chaos Sicaran Battle Tank" hidden="false" collective="false" import="true" targetId="1234-dc9e-04cd-a218" type="selectionEntry"/>
+    <entryLink id="cee6-ae14-b5b8-18ef" name="Chaos Sicaran Venator" hidden="false" collective="false" import="true" targetId="721a-be95-29eb-4766" type="selectionEntry"/>
+    <entryLink id="9224-d21c-bd71-bee6" name="Chaos Spartan" hidden="false" collective="false" import="true" targetId="5f94-7327-3258-42fb" type="selectionEntry"/>
+    <entryLink id="b733-7a6c-3de7-275d" name="Chaos Typhon" hidden="false" collective="false" import="true" targetId="3503-4ef7-b6f7-6c37" type="selectionEntry"/>
+    <entryLink id="b7fc-ae1e-8e00-3248" name="Chaos Fire Raptor Gunship" hidden="false" collective="false" import="true" targetId="a0f9-589e-8b1a-a844" type="selectionEntry"/>
     <entryLink id="c014-bf59-7f47-2230" name="Hell Blade" hidden="false" collective="false" import="true" targetId="b299-fe4e-bf7e-f9b1" type="selectionEntry"/>
     <entryLink id="4ca0-6ddb-2f4e-4064" name="Hell Talon" hidden="false" collective="false" import="true" targetId="b8d9-844d-d0fb-1ac2" type="selectionEntry"/>
-    <entryLink id="58e0-472a-7239-821b" name="Chaos Sokar Pattern Stormbird Gunship" hidden="false" collective="false" import="true" targetId="ff97-c9c5-ad18-6f68" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="32a2-8fa5-93ae-50b3" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="fa1e-270d-adb6-c2cf" name="Chaos Storm Eagle Assault Gunship" hidden="false" collective="false" import="true" targetId="e8ee-b78e-6d77-a8ad" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="fe72-9f39-1843-ccd0" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="33f6-e527-6541-4de4" name="Chaos Thunderhawk Assault Gunship" hidden="false" collective="false" import="true" targetId="bb86-f1fb-b77f-2ba1" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="160e-3d2f-1368-504f" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="5b34-b36b-83d5-b5d9" name="Chaos Xiphon Interceptor" hidden="false" collective="false" import="true" targetId="30f0-cfb8-37dd-16b0" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="23d5-b689-f766-c24d" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="58e0-472a-7239-821b" name="Chaos Sokar Pattern Stormbird" hidden="false" collective="false" import="true" targetId="ff97-c9c5-ad18-6f68" type="selectionEntry"/>
+    <entryLink id="fa1e-270d-adb6-c2cf" name="Chaos Storm Eagle Gunship" hidden="false" collective="false" import="true" targetId="e8ee-b78e-6d77-a8ad" type="selectionEntry"/>
+    <entryLink id="33f6-e527-6541-4de4" name="Chaos Thunderhawk Assault Gunship" hidden="false" collective="false" import="true" targetId="bb86-f1fb-b77f-2ba1" type="selectionEntry"/>
+    <entryLink id="5b34-b36b-83d5-b5d9" name="Chaos Xiphon Interceptor" hidden="false" collective="false" import="true" targetId="30f0-cfb8-37dd-16b0" type="selectionEntry"/>
     <entryLink id="a499-7820-b1e8-9241" name="Zhufor the Impaler" hidden="false" collective="false" import="true" targetId="4cdf-0f1f-0d39-5750" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -386,11 +294,7 @@
     <entryLink id="bac0-fed8-ee01-e6ac" name="Chaos Hellwright on Dark Abeyant" hidden="false" collective="false" import="true" targetId="4e60-26b8-110a-7b4c" type="selectionEntry"/>
     <entryLink id="2278-7a88-e630-d164" name="Chaos Hellwright" hidden="false" collective="false" import="true" targetId="2ba6-7d4e-f1d6-9db6" type="selectionEntry"/>
     <entryLink id="506c-189c-a691-c93e" name="Helbrute" hidden="false" collective="false" import="true" targetId="b978-c539-6a6e-43c9" type="selectionEntry"/>
-    <entryLink id="1aeb-fbe1-4141-a32a" name="Ferrum Infernus Chaos Dreadnought" hidden="false" collective="false" import="true" targetId="0de5-74b3-8e23-e51e" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="26ed-d190-0276-57cb" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="1aeb-fbe1-4141-a32a" name="Ferrum Infernus Chaos Dreadnought" hidden="false" collective="false" import="true" targetId="0de5-74b3-8e23-e51e" type="selectionEntry"/>
     <entryLink id="33d0-9424-b644-dd6a" name="Sonic Dreadnought" hidden="false" collective="false" import="true" targetId="0bb5-c411-fce8-4b76" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -486,59 +390,23 @@
     <entryLink id="96a2-9146-1f8e-f303" name="Greater Possessed" hidden="false" collective="false" import="true" targetId="34b6-85e2-752a-3600" type="selectionEntry"/>
     <entryLink id="9038-8361-058d-79f3" name="Mutilators" hidden="false" collective="false" import="true" targetId="02d7-241e-ea40-ac7b" type="selectionEntry"/>
     <entryLink id="cf12-eb66-a69c-08be" name="Chaos Space Marines" hidden="false" collective="false" import="true" targetId="5031-c476-9dc3-3f9c" type="selectionEntry"/>
-    <entryLink id="52c1-cee0-36ca-b35c" name="Chaos Cultists" hidden="false" collective="false" import="true" targetId="ccff-966b-bc9a-05c8" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="47b0-48ee-dbe2-93c0" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="52c1-cee0-36ca-b35c" name="Chaos Cultists" hidden="false" collective="false" import="true" targetId="ccff-966b-bc9a-05c8" type="selectionEntry"/>
     <entryLink id="00df-c8e2-e28c-7fa5" name="Chaos Vindicator Laser Destroyer" hidden="false" collective="false" import="true" targetId="a89c-60d1-ab95-cb47" type="selectionEntry"/>
-    <entryLink id="1d99-f365-f27e-7c0c" name="Chaos Spawn" hidden="false" collective="false" import="true" targetId="ed66-68de-c8bb-af54" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="1363-735e-aa9f-3657" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="1d99-f365-f27e-7c0c" name="Chaos Spawn" hidden="false" collective="false" import="true" targetId="ed66-68de-c8bb-af54" type="selectionEntry"/>
     <entryLink id="2732-d183-8eed-023f" name="Chaos Bikers" hidden="false" collective="false" import="true" targetId="a877-d244-52cd-e73e" type="selectionEntry"/>
     <entryLink id="aa6e-5f3d-5d4f-ae57" name="Raptors" hidden="false" collective="false" import="true" targetId="90e2-3f76-0fa7-206f" type="selectionEntry"/>
     <entryLink id="e47b-1858-e9ca-b34f" name="Warp Talons" hidden="false" collective="false" import="true" targetId="c5d6-2c31-59f2-3100" type="selectionEntry"/>
     <entryLink id="ce8a-5630-a015-33d4" name="Havocs" hidden="false" collective="false" import="true" targetId="135f-675d-50a5-bef3" type="selectionEntry"/>
     <entryLink id="9536-1c34-b5ef-6160" name="Venomcrawler" hidden="false" collective="false" import="true" targetId="6d15-d727-272e-7325" type="selectionEntry"/>
-    <entryLink id="628b-0ea3-2048-c3ba" name="Defiler" hidden="false" collective="false" import="true" targetId="7278-4a41-c1ee-16f3" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="af29-633e-ec14-8dd8" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="628b-0ea3-2048-c3ba" name="Defiler" hidden="false" collective="false" import="true" targetId="7278-4a41-c1ee-16f3" type="selectionEntry"/>
     <entryLink id="db4b-1cbc-a048-ccf0" name="Forgefiend" hidden="false" collective="false" import="true" targetId="1359-fe10-690b-d846" type="selectionEntry"/>
-    <entryLink id="eda1-9a5d-88e6-64fd" name="Maulerfiend" hidden="false" collective="false" import="true" targetId="a3df-c6a8-8b25-46ee" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="04b8-3f68-2a18-6e52" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="e21a-0e02-aacf-f7bb" name="Chaos Predator" hidden="false" collective="false" import="true" targetId="8dbc-6837-ede6-1e74" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="8909-50ef-fd38-8376" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="3826-10b2-1bbf-6866" name="Chaos Rhino" hidden="false" collective="false" import="true" targetId="274e-d2a4-8f7b-e69d" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="71bb-1258-1d1c-73c5" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="ee79-fec0-8b4c-5f6f" name="Chaos Vindicator" hidden="false" collective="false" import="true" targetId="54cb-7a5f-9c51-8129" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="9e57-4d77-e411-ae9d" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="75ed-6a73-5a5f-d068" name="Terrax-Pattern Termite Assault Drill" hidden="false" collective="false" import="true" targetId="56e4-bce0-be0a-9f92" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="d6c3-f618-c2bb-d632" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="eda1-9a5d-88e6-64fd" name="Maulerfiend" hidden="false" collective="false" import="true" targetId="a3df-c6a8-8b25-46ee" type="selectionEntry"/>
+    <entryLink id="e21a-0e02-aacf-f7bb" name="Chaos Predator Annihilator" hidden="false" collective="false" import="true" targetId="8dbc-6837-ede6-1e74" type="selectionEntry"/>
+    <entryLink id="3826-10b2-1bbf-6866" name="Chaos Rhino" hidden="false" collective="false" import="true" targetId="274e-d2a4-8f7b-e69d" type="selectionEntry"/>
+    <entryLink id="ee79-fec0-8b4c-5f6f" name="Chaos Vindicator" hidden="false" collective="false" import="true" targetId="54cb-7a5f-9c51-8129" type="selectionEntry"/>
+    <entryLink id="75ed-6a73-5a5f-d068" name="Chaos Terrax-Pattern Termite" hidden="false" collective="false" import="true" targetId="56e4-bce0-be0a-9f92" type="selectionEntry"/>
     <entryLink id="2799-c482-f5cb-09f1" name="Obliterators" hidden="false" collective="false" import="true" targetId="7145-43ba-3475-5010" type="selectionEntry"/>
-    <entryLink id="c534-8914-1563-55ea" name="Chaos Land Raider" hidden="false" collective="false" import="true" targetId="a0a7-ca99-f182-aa7c" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="da1b-a278-3027-2d4c" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="c534-8914-1563-55ea" name="Chaos Land Raider" hidden="false" collective="false" import="true" targetId="a0a7-ca99-f182-aa7c" type="selectionEntry"/>
     <entryLink id="feff-75fc-e4d1-b720" name="Heldrake" hidden="false" collective="false" import="true" targetId="92bd-5224-16c2-5754" type="selectionEntry"/>
     <entryLink id="8579-2d15-061d-0e46" name="Khorne Lord of Skulls" hidden="false" collective="false" import="true" targetId="1536-8af0-7c68-ca5d" type="selectionEntry">
       <modifiers>
@@ -550,7 +418,6 @@
       </modifiers>
     </entryLink>
     <entryLink id="f142-2a0a-e306-4ee1" name="Noctilith Crown" hidden="false" collective="false" import="true" targetId="cf79-176b-1748-c2c0" type="selectionEntry"/>
-    <entryLink id="873d-cb9b-40f4-d276" name="Cypher" hidden="false" collective="false" import="true" targetId="164d-0e66-0c90-401a" type="selectionEntry"/>
     <entryLink id="0346-0d9d-2d6d-b4eb" name="Fallen" hidden="false" collective="false" import="true" targetId="52d2-d4af-cd26-b7e4" type="selectionEntry"/>
     <entryLink id="e707-39e0-4feb-b3a9" name="Lucius the Eternal" hidden="false" collective="false" import="true" targetId="501e-82b8-325c-024a" type="selectionEntry">
       <modifiers>
@@ -712,11 +579,7 @@
         <categoryLink id="8e1b-88a7-ccc7-c570" name="New CategoryLink" hidden="false" targetId="9f9b-a0ff-1523-746d" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9d11-1240-c1c2-e899" name="Possessed" hidden="false" collective="false" import="true" targetId="e46c-12ce-964f-3b7f" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="a481-d171-4ede-dcb0" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
+    <entryLink id="9d11-1240-c1c2-e899" name="Possessed" hidden="false" collective="false" import="true" targetId="e46c-12ce-964f-3b7f" type="selectionEntry"/>
     <entryLink id="c4fb-bcb0-00da-dab0" name="Legion Filter" hidden="false" collective="false" import="true" targetId="5663-4c4a-cbc3-0a31" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b13c-8f13-a42d-461d" name="New CategoryLink" hidden="false" targetId="b1fd-719c-4789-4656" primary="true"/>
@@ -854,14 +717,25 @@
         </profile>
         <profile id="06d9-a141-32af-ad39" name="Lord of the Faithless" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made by friendly THE FAITHLESS units whilst they are within 6&quot; of this unit.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is leading a unit, models in that unit gain the Infiltrators keyword</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3d3e-e33c-5335-8d18" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
+• Chosen
+• Legionaries</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="56a7-81a0-6710-161e" name="Aura of Dark Majesty" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is leading a unit, models in this unit gain the Stealth keyword</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="8bee-5103-7dcf-1b95" name="Infiltrators" hidden="false" targetId="f07d-6c22-ac83-604c" type="rule"/>
-        <infoLink id="f6e0-7f27-b25a-89a3" name="Arch-villain" hidden="false" targetId="e0e8-105f-ef9e-0de5" type="profile"/>
-        <infoLink id="1c4b-8ba5-af87-67d1" name="Aura of Dark Majesty" hidden="false" targetId="b474-97ac-d320-abac" type="profile"/>
+        <infoLink id="5605-7e46-5c2b-74b1" name="Stealth" hidden="false" targetId="b133-8e04-3e7b-9fd6" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ba7e-61da-24a8-b52c" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
@@ -1009,7 +883,6 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="7d85-51c9-c92e-048b" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
         <entryLink id="ebed-37a9-5e9b-427f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -1081,7 +954,6 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="1e8a-602b-e372-830e" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
         <entryLink id="5639-1fde-aa0b-dfd2" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -1579,7 +1451,6 @@
         <categoryLink id="efe2-d886-6a96-aeb1" name="Warpsmith" hidden="false" targetId="b7be-d1cd-3ff0-d385" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="845d-c77c-0288-7e98" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
         <entryLink id="9989-ea7b-3392-87f2" name="Power Axe" hidden="false" collective="false" import="true" targetId="6155-b849-f7db-1be4" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd71-b688-eae2-e518" type="min"/>
@@ -1880,7 +1751,7 @@
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
@@ -1898,7 +1769,7 @@
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
@@ -2047,7 +1918,7 @@
       <profiles>
         <profile id="dea2-9d54-4ef7-abab" name="Chosen Marauders" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This unit is eligible to shoot and end in Engagement Range in a turn in which it Advanced or Fell Back</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This unit is eligible to shoot and end in Engagement Range in a turn in which it Fell Back</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2106,7 +1977,6 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="7d28-0c04-8cb7-9781" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
         <entryLink id="ccca-5580-87f7-e34c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="515e-bef0-a49d-ab24" name="Accursed Weapons" hidden="false" collective="false" import="true" targetId="1409-3304-40d8-164d" type="selectionEntry"/>
         <entryLink id="b513-e097-57f7-9359" name="Boltguns" hidden="false" collective="false" import="true" targetId="2d61-a814-63d8-0398" type="selectionEntry"/>
@@ -2311,9 +2181,6 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
-          <entryLinks>
-            <entryLink id="d22a-462d-79fa-e82c" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-          </entryLinks>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
           </costs>
@@ -2377,7 +2244,6 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="36c2-c61e-18fb-a144" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
         <entryLink id="e5b1-2685-cd1f-13a6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -3314,7 +3180,6 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="a6a6-7520-bf86-55dd" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
         <entryLink id="3069-3c2f-3790-6e87" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -4340,7 +4205,7 @@ When this unit is selected to perform its action, you may remove a damage marker
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -5017,41 +4882,21 @@ When this unit is selected to perform its action, you may remove a damage marker
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2ce7-d928-79ab-afc2" name="Ectoplasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntries>
-                <selectionEntry id="1f90-fad9-3859-77ee" name="Ectoplasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8367-e854-66a4-5cfc" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eae-5776-6aeb-6033" type="max"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="2abf-075d-2c58-c325" name="Ectoplasma Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
-                        <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-                        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-                        <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+            <selectionEntry id="3127-aea7-88f9-6dcd" name="Ectoplasm Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
-                <entryLink id="cba2-dc0c-205a-bb80" name="Armoured Feet" hidden="false" collective="false" import="true" targetId="3627-6f4b-6f82-b078" type="selectionEntry">
+                <entryLink id="11ac-81cf-f817-046d" name="Armoured Feet" hidden="false" collective="false" import="true" targetId="3627-6f4b-6f82-b078" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10b5-374c-caea-761c" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="402d-d18e-a420-5df3" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e66-3922-76a2-7152" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7afa-921c-d18b-8506" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="a436-818a-036c-79e2" name="Ectoplasma Cannon" hidden="false" collective="false" import="true" targetId="8e81-49f0-bd2b-f680" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0d1-b9ec-b1d8-6496" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41eb-4786-0a7d-2a09" type="min"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
-              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -5062,29 +4907,14 @@ When this unit is selected to perform its action, you may remove a damage marker
           </constraints>
           <selectionEntries>
             <selectionEntry id="e734-c09f-0173-3d0b" name="Two Ectoplasma Cannons" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntries>
-                <selectionEntry id="0fb4-7cf3-c137-322a" name="Ectoplasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="1612-5054-5379-af33" name="Ectoplasma Cannon" hidden="false" collective="false" import="true" targetId="8e81-49f0-bd2b-f680" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ff1-be09-53da-4d70" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b19-472c-8c0d-6102" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9859-0380-1f92-c058" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2cc-1bc3-2a24-7760" type="min"/>
                   </constraints>
-                  <profiles>
-                    <profile id="8b26-4014-21ab-cc7e" name="Ectoplasma Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
-                        <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-                        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-                        <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
               </costs>
@@ -5320,93 +5150,8 @@ When this unit is selected to perform its action, you may remove a damage marker
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="a31f-0d6e-6f6f-4b48" name="Mark of Chaos" hidden="false" collective="false" import="true" defaultSelectionEntryId="8792-60e9-a515-8ff2">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="250a-33b8-7d14-559d" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a9f-8599-074c-6f0c" type="min"/>
-      </constraints>
-      <selectionEntries>
-        <selectionEntry id="fd52-863a-edd4-7ba2" name="Khorne" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4de4-bea8-4f0e-7f9c" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="3169-cd36-1539-103d" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7cbf-8f21-28c3-2166" type="equalTo"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="63a0-9329-4342-a4d3" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3169-cd36-1539-103d" type="min"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="b321-cdaa-a16d-48b1" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8792-60e9-a515-8ff2" name="*No Mark*" hidden="false" collective="false" import="true" type="upgrade">
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f8f0-b7b4-d0f0-d728" name="Nurgle" hidden="false" collective="false" import="true" type="upgrade">
-          <categoryLinks>
-            <categoryLink id="ed2f-2247-4476-6ae2" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d6eb-6723-a7a0-7b51" name="Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="7ca4-91da-6bc0-814c" value="1.0">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2886-149d-e9ed-45b0" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ca4-91da-6bc0-814c" type="min"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="85ea-1823-cb5f-62c1" name="Faction: Slaanesh" hidden="false" targetId="efae-e219-8ca0-ec58" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9cf7-cf1c-005f-edc3" name="Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
-          <categoryLinks>
-            <categoryLink id="9002-9992-6a6a-677e" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedProfiles>
-    <profile id="b474-97ac-d320-abac" name="Aura of Dark Majesty" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-      <characteristics>
-        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Subtract 1 from hit rolls for attacks made with ranged weapons by enemy units that target this unit.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="e0e8-105f-ef9e-0de5" name="Arch-villain" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-      <characteristics>
-        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the start of the Generate Command Assets step, if this unit is a WARLORD and is on the battlefield, you generate one extra Command Asset.</characteristic>
-      </characteristics>
-    </profile>
     <profile id="47d2-a904-327e-3800" name="Master of Mechanisms" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This unit can attempt to repair one friendly &lt;LEGION&gt; VEHICLE unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage or blast marker from that VEHICLE unit. Each model can only be repaired once per turn. Additionally, add 1 to that model&apos;s hit roll until the end of the turn.</characteristic>
