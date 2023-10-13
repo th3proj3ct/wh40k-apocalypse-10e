@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7774-c573-6697-5bd1" name="Imperium - Dark Angels" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7774-c573-6697-5bd1" name="Imperium - Dark Angels" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -60,7 +60,7 @@
         <categoryLink id="ff92-3972-35e9-28be" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3b11-222b-8636-7b88" name="Primaris Librarian" hidden="false" collective="false" import="true" targetId="8896-4617-12f7-2495" type="selectionEntry">
+    <entryLink id="3b11-222b-8636-7b88" name="Librarian" hidden="false" collective="false" import="true" targetId="8896-4617-12f7-2495" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e342-71df-6c63-8721" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
         <categoryLink id="598e-9765-33a3-a2a1" name="Faction: Deathwing" hidden="false" targetId="d673-6f6d-5df6-035c" primary="false"/>
@@ -112,7 +112,7 @@
         <categoryLink id="4bf5-fa7a-58d2-d869" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0937-b575-b813-5ada" name="Primaris Lieutenants" hidden="false" collective="false" import="true" targetId="bbe6-4a4c-8477-4b34" type="selectionEntry">
+    <entryLink id="0937-b575-b813-5ada" name="Lieutenant" hidden="false" collective="false" import="true" targetId="bbe6-4a4c-8477-4b34" type="selectionEntry">
       <infoLinks>
         <infoLink id="21b9-18d8-b344-67e2" name="Tactical Precision" hidden="false" targetId="a59a-956d-9741-2423" type="profile"/>
       </infoLinks>
@@ -739,7 +739,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
         <categoryLink id="093d-010e-435f-d93c" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="fae4-7111-bd59-bff5" name="Primaris Captain" hidden="false" collective="false" import="true" targetId="b734-ce0c-dd48-e51f" type="selectionEntry">
+    <entryLink id="fae4-7111-bd59-bff5" name="Captain" hidden="false" collective="false" import="true" targetId="b734-ce0c-dd48-e51f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0a3e-4bf2-c3d1-34b4" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
       </categoryLinks>
@@ -949,6 +949,16 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
       </categoryLinks>
     </entryLink>
     <entryLink id="1683-f82b-2772-45cf" name="Lazarus" hidden="false" collective="false" import="true" targetId="b139-64d6-2db2-d741" type="selectionEntry"/>
+    <entryLink id="6483-0271-b245-fab2" name="Lion El&apos;Jonson" hidden="false" collective="false" import="true" targetId="edd4-824f-943e-fcae" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9a4a-ffb6-fd61-17c4" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="4800-f05b-dd27-63cd" primary="true"/>
+        <categoryLink id="1609-d1e4-4feb-f84f" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
+        <categoryLink id="0453-e4e7-c659-4a05" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="b89c-f63f-54e3-93ec" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e3a5-f98b-24e8-9d32" name="Deathwing Strikemaster" hidden="false" collective="false" import="true" targetId="e12d-3541-c4c4-9a83" type="selectionEntry"/>
+    <entryLink id="1b2b-e84e-a98b-53a5" name="Deathwing Command Squad" hidden="false" collective="false" import="true" targetId="84ab-dd8e-8b54-29e1" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3cbe-c8ba-c8b4-3f8e" name="Azrael" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -1823,7 +1833,7 @@ Hit roll</characteristic>
           <modifiers>
             <modifier type="set" field="9a8e-4346-e851-e128" value="2.0">
               <conditions>
-                <condition field="selections" scope="cdbf-a940-ae27-4048" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b387-d691-5e15-e5cc" type="equalTo"/>
+                <condition field="selections" scope="cdbf-a940-ae27-4048" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc21-4e7b-d54a-8d72" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1831,31 +1841,11 @@ Hit roll</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a8e-4346-e851-e128" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="2e23-f7b6-ef98-6bb4" name="Assault Cannon" hidden="false" collective="false" import="true" targetId="8678-7b89-1980-47b2" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
-            </entryLink>
-            <entryLink id="1968-4d9e-414b-6c97" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="46e7-d278-1268-caaf" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
-            </entryLink>
-            <entryLink id="584a-7831-4389-00e4" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="257b-2e43-40d4-aebe" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
-            </entryLink>
-            <entryLink id="69ac-14d4-e5cc-1836" name="Reaper Autocannon" hidden="false" collective="false" import="true" targetId="f64a-1bed-f155-67e4" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
-            </entryLink>
-            <entryLink id="0b5d-0c53-e4bd-6fec" name="Cyclone Missile Launcher" hidden="false" collective="false" import="true" targetId="13e7-3fe9-3197-065d" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
-            </entryLink>
+            <entryLink id="2e23-f7b6-ef98-6bb4" name="Assault Cannon" hidden="false" collective="false" import="true" targetId="8678-7b89-1980-47b2" type="selectionEntry"/>
+            <entryLink id="1968-4d9e-414b-6c97" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="46e7-d278-1268-caaf" type="selectionEntry"/>
+            <entryLink id="584a-7831-4389-00e4" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="257b-2e43-40d4-aebe" type="selectionEntry"/>
+            <entryLink id="69ac-14d4-e5cc-1836" name="Reaper Autocannon" hidden="false" collective="false" import="true" targetId="f64a-1bed-f155-67e4" type="selectionEntry"/>
+            <entryLink id="0b5d-0c53-e4bd-6fec" name="Cyclone Missile Launcher" hidden="false" collective="false" import="true" targetId="13e7-3fe9-3197-065d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="7104-9703-476c-2745" name="5 - 10 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="80a6-030f-2181-79e9">
@@ -3093,31 +3083,11 @@ Hit roll</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d71-48c3-f16a-fa69" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="2e06-ebf7-6445-8364" name="Assault Cannon" hidden="false" collective="false" import="true" targetId="8678-7b89-1980-47b2" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
-            </entryLink>
-            <entryLink id="dca3-163d-3c0f-8be3" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="46e7-d278-1268-caaf" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
-            </entryLink>
-            <entryLink id="c397-dc91-a150-f9ae" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="257b-2e43-40d4-aebe" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
-            </entryLink>
-            <entryLink id="fdcd-2233-7739-32ac" name="Reaper Autocannon" hidden="false" collective="false" import="true" targetId="f64a-1bed-f155-67e4" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
-            </entryLink>
-            <entryLink id="2c97-8e2f-6541-c998" name="Cyclone Missile Launcher" hidden="false" collective="false" import="true" targetId="13e7-3fe9-3197-065d" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
-            </entryLink>
+            <entryLink id="2e06-ebf7-6445-8364" name="Assault Cannon" hidden="false" collective="false" import="true" targetId="8678-7b89-1980-47b2" type="selectionEntry"/>
+            <entryLink id="dca3-163d-3c0f-8be3" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="46e7-d278-1268-caaf" type="selectionEntry"/>
+            <entryLink id="c397-dc91-a150-f9ae" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="257b-2e43-40d4-aebe" type="selectionEntry"/>
+            <entryLink id="fdcd-2233-7739-32ac" name="Reaper Autocannon" hidden="false" collective="false" import="true" targetId="f64a-1bed-f155-67e4" type="selectionEntry"/>
+            <entryLink id="2c97-8e2f-6541-c998" name="Cyclone Missile Launcher" hidden="false" collective="false" import="true" targetId="13e7-3fe9-3197-065d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
