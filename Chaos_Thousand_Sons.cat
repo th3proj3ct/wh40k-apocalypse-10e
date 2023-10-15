@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b3f9-0064-26dc-658f" name="Chaos - Thousand Sons" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cefd-23d8-33a7-a63b" name="Chaos - Thousand Sons" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="042b-9cd7-f7fa-78e0" name="Warp Vortex - D3 Roll">
       <characteristicTypes>
@@ -232,8 +232,6 @@
     <entryLink id="268a-d32d-0839-ca69" name="Infernal Master" hidden="false" collective="false" import="true" targetId="453b-b240-c01f-7392" type="selectionEntry"/>
     <entryLink id="4ce6-8c07-17ab-0d12" name="Exalted Sorcerer" hidden="false" collective="false" import="true" targetId="6bd8-e916-284d-b4c8" type="selectionEntry"/>
     <entryLink id="0435-01fd-5cb6-dd49" name="Magnus the Red" hidden="false" collective="false" import="true" targetId="c147-5621-32d7-ae8b" type="selectionEntry"/>
-    <entryLink id="4d57-b53c-1b5a-8502" name="Sorcerer in Terminator Armor" hidden="false" collective="false" import="true" targetId="19ae-b765-5c9a-fb80" type="selectionEntry"/>
-    <entryLink id="2e0a-1053-cb47-cc3e" name="Sorcerer" hidden="false" collective="false" import="true" targetId="1dab-bb81-d853-d9ed" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="f783-3b8c-244e-2784" name="Ahriman" hidden="false" collective="false" import="true" type="upgrade">
@@ -1324,7 +1322,7 @@
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
                   </characteristics>
                 </profile>
               </profiles>
