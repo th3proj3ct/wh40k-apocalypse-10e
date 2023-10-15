@@ -632,7 +632,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -682,7 +682,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -781,7 +781,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -954,7 +954,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1915,7 +1915,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -2343,7 +2343,7 @@ All weapons equipped by this model have [SUSTAINED HITS 1].</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
