@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e51a-1e21-6ae4-2d6c" name="Chaos - Chaos Daemons" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e51a-1e21-6ae4-2d6c" name="Chaos - Chaos Daemons" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="bb5c-0fba-06fd-2fcb" name="Tally of Pestilence">
       <characteristicTypes>
@@ -380,17 +380,13 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f1bb-4a5a-9d23-6bda" name="Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="f1bb-4a5a-9d23-6bda" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="4372-4e44-fb5e-d347">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06f7-25f7-491b-4f75" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a245-439a-edba-f605" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="923a-f2f7-8436-fb75" name="Lash of Khorne" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9240-e9b8-acc9-c422" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="508e-4cb4-42c9-0005" type="max"/>
-              </constraints>
               <profiles>
                 <profile id="ff01-8f1e-d28a-d827" name="Lash of Khorne" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
                   <characteristics>
@@ -416,10 +412,6 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="4372-4e44-fb5e-d347" name="Great Axe of Khorne" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28b8-29ef-cb2a-568d" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b3b-1f1a-bf0d-56bb" type="max"/>
-              </constraints>
               <profiles>
                 <profile id="8094-4bcb-2ff1-ec9b" name="Great Axe of Khorne" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
                   <characteristics>
@@ -440,10 +432,6 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="b442-c39e-a1fe-a895" name="Bloodflail" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0865-fe91-8b21-fe4a" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5ce-1d22-ef8b-815b" type="max"/>
-              </constraints>
               <profiles>
                 <profile id="6506-bbf9-371f-8a6d" name="Bloodflail" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
                   <characteristics>

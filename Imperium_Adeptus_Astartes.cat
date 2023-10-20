@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d4ea-b52d-6a66-df94" name="Imperium - Adeptus Astartes" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d4ea-b52d-6a66-df94" name="Imperium - Adeptus Astartes" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -3151,80 +3151,67 @@
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="6b0a-a05a-0131-4088" name="Victrix Honour Guard" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a615-e219-e746-adf6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c604-99a3-5733-11c7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d185-fc6b-3b62-c47a" name="Victrix Honour Guard (2 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                <characteristic name="Ld" typeId="91b0-3d37-1843-1290"/>
+                <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="f30b-43e7-3739-765e" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+            <categoryLink id="56ee-387c-c9cb-fdbb" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+            <categoryLink id="8891-d425-41c6-4ccc" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+            <categoryLink id="6094-c0de-6883-74bd" name="Faction: Ultramarines" hidden="false" targetId="0f44-4bfd-acaf-7de9" primary="false"/>
+            <categoryLink id="371a-c72c-ca20-a59d" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+            <categoryLink id="0688-edbb-f26b-3852" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+            <categoryLink id="7c61-da2a-81b2-1644" name="Primaris" hidden="false" targetId="34ee-2cee-93bf-b3c3" primary="false"/>
+            <categoryLink id="1a39-26df-6eef-16f7" name="Victrix Honour Guard" hidden="false" targetId="8709-d6f5-a34d-d3c6" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="54d4-de50-2217-241a" name="Honour Guard Power Weapons" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3449-5be9-66c2-2fce" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9de9-b969-afa2-5bab" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b3bc-e3f8-c453-4320" name="Honour Guard Power Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="5383-bb3b-9def-0d66" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e3c4-7279-e8ba-80e0" name="Victrix Honour Guard" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0cb6-4d82-b69c-886a" type="atLeast"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3452-3268-cdfd-b119" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile id="c189-6c71-4909-ff22" name="Victrix Honour Guard (2 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290"/>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="7835-0c8a-4497-4203" name="Honour Guard of Macragge" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the start of the Damage phase, you can select one friendly ULTRAMARINES LIGHT CHARACTER unit that has at least one blast marker next to it and is within 6&quot; of this unit. Remove up to D3 blast markers from that CHARACTER unit and place them next to this unit.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="4df8-e38d-1554-b15b" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
-        <categoryLink id="a805-828e-68a2-64f2" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
-        <categoryLink id="642d-9023-6fad-5c85" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
-        <categoryLink id="bd80-ada4-d479-917e" name="Faction: Ultramarines" hidden="false" targetId="0f44-4bfd-acaf-7de9" primary="false"/>
-        <categoryLink id="07e6-f059-c77f-b6fc" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="d773-f5f7-479b-73f0" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="5095-9e4a-6cc8-f743" name="Primaris" hidden="false" targetId="34ee-2cee-93bf-b3c3" primary="false"/>
-        <categoryLink id="c3f7-78aa-496c-4827" name="Victrix Honour Guard" hidden="false" targetId="8709-d6f5-a34d-d3c6" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="6a4c-89e0-218f-b849" name="Honour Guard Power Weapons" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="870e-c111-8275-8ffa" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3467-fd73-ddf9-aec6" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="ee86-a18a-0f39-5861" name="Honour Guard Power Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5b3f-8def-314b-e155" name="Chaplain Cassius" hidden="false" collective="false" import="true" type="unit">
@@ -5829,35 +5816,12 @@ friendly IMPERIAL FISTS units that target VEHICLE or BUILDING units.</characteri
       </categoryLinks>
     </entryLink>
     <entryLink id="ee4b-b497-1d96-5e59" name="Land Raider" hidden="false" collective="false" import="true" targetId="03e6-d2f0-4433-9ecb" type="selectionEntry">
-      <profiles>
-        <profile id="14b8-4593-e00e-8ee1" name="Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly &lt;CHAPTER&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other Infantry models. It cannot transport PRIMARIS units.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="a0a8-2806-0436-69f2" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="63fc-3b5f-1176-4943" name="Land Raider Crusader" hidden="false" collective="false" import="true" targetId="e090-e09a-3fc2-625e" type="selectionEntry">
-      <profiles>
-        <profile id="84c0-cf3e-c200-fa07" name="Land Raider Crusader" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 16 friendly &lt;CHAPTER&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other Infantry models. It cannot transport PRIMARIS units.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </entryLink>
-    <entryLink id="3e72-db65-e138-b03f" name="Land Raider Redeemer" hidden="false" collective="false" import="true" targetId="2c85-0fe0-d71b-b759" type="selectionEntry">
-      <profiles>
-        <profile id="763f-6030-2212-ea64" name="Land Raider Redeemer" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other Infantry models. It cannot transport PRIMARIS units.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </entryLink>
+    <entryLink id="63fc-3b5f-1176-4943" name="Land Raider Crusader" hidden="false" collective="false" import="true" targetId="e090-e09a-3fc2-625e" type="selectionEntry"/>
+    <entryLink id="3e72-db65-e138-b03f" name="Land Raider Redeemer" hidden="false" collective="false" import="true" targetId="2c85-0fe0-d71b-b759" type="selectionEntry"/>
     <entryLink id="87da-1646-d484-17b3" name="Eliminator Squad" hidden="false" collective="false" import="true" targetId="0e7e-b907-6bf2-d536" type="selectionEntry"/>
     <entryLink id="81cc-6385-4d5d-e13e" name="Bike Squad" hidden="false" collective="false" import="true" targetId="10c9-b4bb-9816-ee1b" type="selectionEntry">
       <categoryLinks>
@@ -5891,37 +5855,16 @@ friendly IMPERIAL FISTS units that target VEHICLE or BUILDING units.</characteri
       </categoryLinks>
     </entryLink>
     <entryLink id="3153-d31b-2f9a-ec44" name="Rhino" hidden="false" collective="false" import="true" targetId="7763-55dd-8812-7d23" type="selectionEntry">
-      <profiles>
-        <profile id="f8c5-198a-9809-b12c" name="Rhino" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly &lt;CHAPTER&gt; INFANTRY models. It cannot transport PRIMARIS, TERMINATOR, CENTURION or JUMP PACK units.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="01a5-6ca5-a316-daec" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e810-d1f0-2502-8f73" name="Razorback" hidden="false" collective="false" import="true" targetId="7621-272e-ffe5-27d8" type="selectionEntry">
-      <profiles>
-        <profile id="e2c3-5817-24b1-3f21" name="Razorback" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly &lt;CHAPTER&gt; INFANTRY models. It cannot transport PRIMARIS, TERMINATOR, CENTURION or JUMP PACK units.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="9edc-7860-9aab-3728" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3efc-d8d4-a4ac-3802" name="Drop Pod" hidden="false" collective="false" import="true" targetId="3b41-4746-fc8a-35ce" type="selectionEntry">
-      <profiles>
-        <profile id="264c-0331-097d-cd55" name="Drop Pod" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly &lt;CHAPTER&gt; INFANTRY models. It cannot transport PRIMARIS, TERMINATOR, CENTURION or JUMP PACK units.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="ad9d-6a06-5430-3099" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
@@ -5936,13 +5879,6 @@ friendly IMPERIAL FISTS units that target VEHICLE or BUILDING units.</characteri
       </profiles>
     </entryLink>
     <entryLink id="e723-29c7-a66c-7a86" name="Repulsor" hidden="false" collective="false" import="true" targetId="5da0-0fe0-081a-1339" type="selectionEntry">
-      <profiles>
-        <profile id="af87-b675-f186-874a" name="Repulsor" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly &lt;CHAPTER&gt; PRIMARIS INFANTRY models. Each MK X GRAVIS model takes up the space of 2 other models. It cannot transport JUMP PACK units.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="6c81-504f-6876-6d5c" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
@@ -5953,13 +5889,6 @@ friendly IMPERIAL FISTS units that target VEHICLE or BUILDING units.</characteri
       </categoryLinks>
     </entryLink>
     <entryLink id="ca52-3224-a8f3-2402" name="Stormraven Gunship" hidden="false" collective="false" import="true" targetId="70d0-691d-94eb-12d5" type="selectionEntry">
-      <profiles>
-        <profile id="883f-d424-3a37-e58c" name="Stormraven Gunship" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models and 1 friendly &lt;CHAPTER&gt; DREADNOUGHT. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other INFANTRY models. It cannot transport PRIMARIS units.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="d7e1-ec58-29c6-30e5" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
@@ -5985,61 +5914,26 @@ friendly IMPERIAL FISTS units that target VEHICLE or BUILDING units.</characteri
       </categoryLinks>
     </entryLink>
     <entryLink id="45c6-6a7f-b516-8f55" name="Relic Land Raider Proteus" hidden="false" collective="false" import="true" targetId="2468-48de-617e-2258" type="selectionEntry">
-      <profiles>
-        <profile id="7241-d8ab-9ecc-69c9" name="Relic Land Raider Proteus" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly &lt;CHAPTER&gt; INFANTRY models. TERMINATOR and JUMP PACK models take up the space of 2 other models and each CENTURION model takes up the space of 3 other models. It cannot transport PRIMARIS models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="57da-5405-37d0-8fdb" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2071-4499-2e42-51ca" name="Land Raider Helios" hidden="false" collective="false" import="true" targetId="81de-15ce-d9d3-f684" type="selectionEntry">
-      <profiles>
-        <profile id="198d-b722-5c69-a26f" name="Land Raider Helios" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly &lt;CHAPTER&gt; INFANTRY models. TERMINATOR and JUMP PACK models take up the space of 2 other models and each CENTURION model takes up the space of 3 other models. It cannot transport PRIMARIS models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="a8aa-a1d7-d12b-9bd9" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9507-5054-3ad5-901b" name="Terrax-pattern Termite Assault Drill" hidden="false" collective="false" import="true" targetId="2235-b44c-a7d2-d517" type="selectionEntry">
-      <profiles>
-        <profile id="7682-e465-1362-1aa9" name="Terrax-pattern Termite Assault Drill" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. It cannot transport JUMP PACK, TERMINATOR, CENTURION, PRIMARIS or WULFEN models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="ac92-95a7-4369-b11c" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2ae8-704b-4796-b98a" name="Land Raider Prometheus" hidden="false" collective="false" import="true" targetId="2c96-5e9d-5061-c166" type="selectionEntry">
-      <profiles>
-        <profile id="9897-ab07-a672-eb95" name="Land Raider Prometheus" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly &lt;CHAPTER&gt; INFANTRY models. TERMINATOR and JUMP PACK models take up the space of 2 other models and each CENTURION model takes up the space of 3 other models. It cannot transport PRIMARIS models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="c579-afe9-496d-2b7f" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="68bc-17df-8bf3-2a0c" name="Land Raider Achilles" hidden="false" collective="false" import="true" targetId="ba17-8566-b04c-09d3" type="selectionEntry">
-      <profiles>
-        <profile id="89f5-71c7-ed50-8825" name="Land Raider Achilles" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly &lt;CHAPTER&gt; INFANTRY models. TERMINATOR and JUMP PACK models take up the space of 2 other models and each CENTURION model takes up the space of 3 other models. It cannot transport PRIMARIS models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="8f05-65d6-9ce6-5295" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
@@ -6060,13 +5954,6 @@ friendly IMPERIAL FISTS units that target VEHICLE or BUILDING units.</characteri
       </categoryLinks>
     </entryLink>
     <entryLink id="b8a9-9799-e541-64de" name="Relic Spartan Assault Tank" hidden="false" collective="false" import="true" targetId="68f5-0eaf-e33d-6992" type="selectionEntry">
-      <profiles>
-        <profile id="dbfc-0850-696f-adb9" name="Relic Spartan Assault Tank" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 25 friendly &lt;CHAPTER&gt; INFANTRY models. TERMINATOR and JUMP PACK models take up the space of 2 other models and each CENTURION model takes up the space of 3 other models. It cannot transport PRIMARIS models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="7a0a-c6ac-7eee-a3a2" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
@@ -6088,17 +5975,6 @@ friendly IMPERIAL FISTS units that target VEHICLE or BUILDING units.</characteri
     </entryLink>
     <entryLink id="0718-3f09-473a-8de7" name="Relic Falchion Super-heavy Tank Destroyer" hidden="false" collective="false" import="true" targetId="0f93-c25d-2b63-2f39" type="selectionEntry"/>
     <entryLink id="9487-850a-640a-178c" name="Relic Mastodon Super-heavy Siege Transport" hidden="false" collective="false" import="true" targetId="bbb9-54eb-4f59-e9dc" type="selectionEntry">
-      <profiles>
-        <profile id="b811-df15-b26a-5372" name="Relic Mastodon Super-heavy Siege Transport" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport friendly &lt;CHAPTER&gt; models in one of the following combinations:
-- Up to 40 INFANTRY models.
-- Up to 30 INFANTRY models and 1 DREADNOUGHT model.
-- Up to 20 INFANTRY models and up to 2 DREADNOUGHT models. 
-TERMINATOR and JUMP PACK models take up the space of 2 other models and each CENTURION model takes up the space of 3 other models. It cannot transport PRIMARIS models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="f85f-dc8f-ff3f-1b41" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
@@ -6166,13 +6042,6 @@ TERMINATOR and JUMP PACK models take up the space of 2 other models and each CEN
       </categoryLinks>
     </entryLink>
     <entryLink id="294d-1699-6789-9f29" name="Storm Eagle Assault Gunship" hidden="false" collective="false" import="true" targetId="a66b-42aa-4c20-300b" type="selectionEntry">
-      <profiles>
-        <profile id="1588-8602-077e-a2ff" name="Storm Eagle Assault Gunship" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 20 friendly &lt;CHAPTER&gt; INFANTRY models. TERMINATOR and JUMP PACK models take up the space of 2 other models and each CENTURION model takes up the space of 3 other models. It cannot transport PRIMARIS models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="76d4-68b5-0d14-5b68" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
@@ -6209,47 +6078,16 @@ TERMINATOR and JUMP PACK models take up the space of 2 other models and each CEN
       </categoryLinks>
     </entryLink>
     <entryLink id="b31f-237a-6a10-274e" name="Thunderhawk Assault Gunship" hidden="false" collective="false" import="true" targetId="a2db-2d39-b71f-baad" type="selectionEntry">
-      <profiles>
-        <profile id="6fd1-6ac9-95a8-76eb" name="Thunderhawk Assault Gunship" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport friendly &lt;CHAPTER&gt; models in one of the following combinations:
-- Up to 30 INFANTRY (excluding PRIMARIS) or BIKER models.
-- Up to 15 PRIMARIS INFANTRY models.
-Each TERMINATOR and JUMP PACK model takes up the space of 2 other models and each CENTURION and BIKER model takes up the space of 3 other models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="9c20-6cff-1145-79af" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ca1c-af18-7c84-5036" name="Thunderhawk Transporter" hidden="false" collective="false" import="true" targetId="4944-fdb4-2e47-e4a5" type="selectionEntry">
-      <profiles>
-        <profile id="beaa-9b82-ca56-9f4a" name="Thunderhawk Transporter" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 15 friendly &lt;CHAPTER&gt; INFANTRY or BIKER models. Each TERMINATOR and JUMP PACK model takes up the space of 2 other models and each CENTURION and BIKER model takes up the space of 3 other models. It cannot transport PRIMARIS models.
-
-In addition, this unit can also transport one of the following:
-- 1 LAND RAIDER model or RELIC SPARTAN ASSAULT TANK model.
-- Up to 2 of the following models: RHINO, RAZORBACK, PREDATOR, WHIRLWIND, HUNTER, STALKER, VINDICATOR. 
-
-LAND RAIDER, RELIC SPARTAN ASSAULT TANK, RHINO and RAZORBACK models can transport models whilst they are embarked aboard this unit.
-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="d388-690c-0290-b4c1" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="63b9-25db-4a10-6a49" name="Sokar Pattern Stormbird" hidden="false" collective="false" import="true" targetId="d978-4ed0-3aa8-ae11" type="selectionEntry">
-      <profiles>
-        <profile id="d295-2631-695d-dcc7" name="Sokar Pattern Stormbird" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 50 friendly &lt;CHAPTER&gt; INFANTRY or BIKER models, or up to 25 friendly &lt;CHAPTER&gt; INFANTRY or BIKER models amd 1 RHINO model. Each TERMINATOR and JUMP PACK model takes up the space of 2 other models and each CENTURION and BIKER model takes up the space of 3 other models. A RHINO can transport models whilst it is embarked aboard this unit.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="8370-99ca-8fc1-39dd" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
@@ -6292,13 +6130,6 @@ LAND RAIDER, RELIC SPARTAN ASSAULT TANK, RHINO and RAZORBACK models can transpor
       </categoryLinks>
     </entryLink>
     <entryLink id="7d68-3c53-2c5f-4f1d" name="Lucius Pattern Dreadnought Drop Pod" hidden="false" collective="false" import="true" targetId="4a13-6a66-aa3a-4763" type="selectionEntry">
-      <profiles>
-        <profile id="41e1-d704-4a3d-8145" name="Lucius Pattern Dreadnought Drop Pod" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport 1 friendly &lt;CHAPTER&gt; DREADNOUGHT model.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="e8a7-ecc4-0505-bcf7" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
@@ -6359,13 +6190,6 @@ LAND RAIDER, RELIC SPARTAN ASSAULT TANK, RHINO and RAZORBACK models can transpor
       </categoryLinks>
     </entryLink>
     <entryLink id="43b7-7572-1904-4a45" name="Repulsor Executioner" hidden="false" collective="false" import="true" targetId="6d30-c860-3c7b-3357" type="selectionEntry">
-      <profiles>
-        <profile id="f38f-ad2d-2f4e-18c4" name="Repulsor Executioner" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly &lt;CHAPTER&gt; PRIMARIS INFANTRY models. Each MK X GRAVIS model takes up the space of 2 other models. It cannot transport JUMP PACK units.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="a143-6912-9933-34a6" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
@@ -6381,13 +6205,6 @@ LAND RAIDER, RELIC SPARTAN ASSAULT TANK, RHINO and RAZORBACK models can transpor
       </categoryLinks>
     </entryLink>
     <entryLink id="5c61-c7e1-53ba-430f" name="Impulsor" hidden="false" collective="false" import="true" targetId="ed0d-c99c-3497-a919" type="selectionEntry">
-      <profiles>
-        <profile id="8988-29d6-1b4e-a863" name="Impulsor" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly &lt;CHAPTER&gt; PRIMARIS INFANTRY models. It cannot transport JUMP PACK or MK X GRAVIS units.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="7513-cca4-57c4-8b3a" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>

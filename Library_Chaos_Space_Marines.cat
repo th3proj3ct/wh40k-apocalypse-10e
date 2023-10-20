@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10f2-2ae7-897d-0d3d" name="Library - Chaos Space Marines" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10f2-2ae7-897d-0d3d" name="Library - Chaos Space Marines" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4b4e-76cf-b61c-81df" name="Mutated Beyond Reason - D3">
       <characteristicTypes>
@@ -1039,7 +1039,7 @@
       <profiles>
         <profile id="d992-7103-892c-00be" name="Chaos Land Raider Proteus" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly &lt;LEGION&gt; INFANTRY models. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models. If this model has an Accursed Phylactery, it can only transport up to 6 models.</characteristic>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;LEGION&gt; INFANTRY models. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models. If this model has an Accursed Phylactery, it can only transport up to 6 models.</characteristic>
           </characteristics>
         </profile>
         <profile id="42f6-31a0-6118-c2a0" name="Chaos Land Raider Proteus" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
@@ -1141,7 +1141,7 @@
       <profiles>
         <profile id="a98b-08bc-faa3-1e48" name="Chaos Land Raider Achilles" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly &lt;LEGION&gt; INFANTRY models. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models. If this model has an Accursed Phylactery, it can only transport up to 6 models.</characteristic>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;LEGION&gt; INFANTRY models. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models. If this model has an Accursed Phylactery, it can only transport up to 6 models.</characteristic>
           </characteristics>
         </profile>
         <profile id="21c6-d3fc-5437-dd79" name="Chaos Land Raider Achilles" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
@@ -1451,7 +1451,7 @@
         </profile>
         <profile id="95f4-b9a2-72eb-4baa" name="Chaos Spartan Assault Tank" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 25 friendly LEGION INFANTRY models. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models.</characteristic>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 28 friendly LEGION INFANTRY models. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1515,13 +1515,40 @@
             <entryLink id="60d4-89ba-3ec2-2b1e" name="Twin Heavy Flamer" hidden="false" collective="false" import="true" targetId="ef0f-d8ec-5be7-d039" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="b196-9d84-d56e-deb1" name="Pintle weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15dd-c87b-7cfb-8200" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d7e6-5cbd-243f-ebb0" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="57e6-ac63-2cee-f434" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="46e7-d278-1268-caaf" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="c71b-f952-a71b-f3ee" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="0c6c-362a-f58c-b049" name="Storm Bolter" hidden="false" collective="false" import="true" targetId="7457-58c5-d5f1-11a0" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="0a9b-55c6-a2e8-6d5a" name="Infernal Hunger" hidden="false" collective="false" import="true" targetId="3605-e17c-9a43-200d" type="selectionEntry"/>
         <entryLink id="ace8-94e9-58c1-d27e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b186-9dcb-3dc3-2454" name="Chaos Deredeo Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -1946,7 +1973,7 @@
         </profile>
         <profile id="4b56-7504-2a82-e9f2" name="Dreadclaw Drop Pod" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly &lt;LEGION&gt; INFANTRY models, or 1 friendly CHAOS DECIMATOR model, or 1 friendly HELBRUTE model. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models.</characteristic>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;LEGION&gt; INFANTRY models, or 1 friendly CHAOS DECIMATOR model, or 1 friendly HELBRUTE model. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2034,7 +2061,7 @@
         </profile>
         <profile id="3810-cf8e-7bb6-a60c" name="Kharyndis Assault Claw" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 20 friendly &lt;LEGION&gt; INFANTRY models, or up to 3 friendly &lt;LEGION&gt; HELLFORGED RAPIER units or 1 friendly CHAOS DECIMATOR model, or 1 friendly HELBRUTE model. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models.</characteristic>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up 22 friendly &lt;LEGION&gt; INFANTRY models, or up to 3 friendly &lt;LEGION&gt; HELLFORGED RAPIER units or 1 friendly CHAOS DECIMATOR model, or 1 friendly HELBRUTE model. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2842,7 +2869,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         </profile>
         <profile id="0117-40fd-06a2-b0c6" name="Chaos Storm Eagle Gunship" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 20 friendly LEGION INFANTRY models. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models.</characteristic>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 22 friendly LEGION INFANTRY models. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4681,7 +4708,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly &lt;LEGION&gt; INFANTRY models. It cannot transport TERMINATORS, CULT OF DESTRUCTION or JUMP PACK units.</characteristic>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;LEGION&gt; INFANTRY models. It cannot transport TERMINATORS, CULT OF DESTRUCTION or JUMP PACK units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4724,6 +4751,11 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c053-96d5-b300-f966" name="Chaos Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;LEGION&gt; INFANTRY models. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models. If this model has an Accursed Phylactery, it can only transport up to 6 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="98c2-e7ca-4cd2-d189" name="Library - Space Marines" revision="6" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="98c2-e7ca-4cd2-d189" name="Library - Space Marines" revision="7" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -172,24 +172,19 @@
   </rules>
   <sharedSelectionEntries>
     <selectionEntry id="1fa2-88c4-2c7e-5d33" name="Tactical Squad" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="b1c0-2ddd-f938-c4d4" name="Marine Profile" hidden="false" targetId="9fd5-e263-b9aa-02b7" type="profile">
-          <modifiers>
-            <modifier type="set" field="name" value="Tactical Squad"/>
-          </modifiers>
-          <modifierGroups>
-            <modifierGroup>
-              <conditions>
-                <condition field="selections" scope="1fa2-88c4-2c7e-5d33" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b387-d691-5e15-e5cc" type="equalTo"/>
-              </conditions>
-              <modifiers>
-                <modifier type="increment" field="ddfe-6a9e-32c1-a51c" value="1"/>
-                <modifier type="increment" field="7c7f-f763-1f39-410c" value="1"/>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
-        </infoLink>
-      </infoLinks>
+      <profiles>
+        <profile id="c233-f6d5-f796-aca0" name="Tactical Squad (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="7c21-a83f-0872-b1ed" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="f9dc-10ce-3958-04b9" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
@@ -200,13 +195,6 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="fca2-f817-1b0f-415e" name="Weapons" hidden="true" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="1fa2-88c4-2c7e-5d33" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b387-d691-5e15-e5cc" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c055-7a57-29c8-3796" type="max"/>
           </constraints>
@@ -261,7 +249,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aff0-2e55-54a9-eae7" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="e011-a197-e7e0-7dea" name="5 - 10 models" hidden="false" collective="false" import="true" targetId="dfca-1772-18d0-ab91" type="selectionEntryGroup"/>
         <entryLink id="f8e6-0cd4-ed49-e6d1" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="6144-aa85-b770-2f33" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9679-9134-c822-1095" type="max"/>
@@ -271,7 +258,7 @@
         <entryLink id="6c8d-d932-215f-c39b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b91b-0612-96f4-e29d" name="5 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1482,6 +1469,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f1d3-df65-80bc-5292" name="Land Raider Excelsior" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d5d7-34f2-3be7-5780" name="Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other Infantry models. It cannot transport PRIMARIS units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="9bde-a10c-6549-bdb0" name="Land Raider" hidden="false" targetId="1de9-50a7-0fd9-6a37" type="profile"/>
       </infoLinks>
@@ -3366,21 +3360,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="db91-485c-ca74-9d54" name="Devastator Squad" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="3620-8d4a-221a-3dae" name="Marine Profile" hidden="false" targetId="9fd5-e263-b9aa-02b7" type="profile">
-          <modifierGroups>
-            <modifierGroup>
-              <conditions>
-                <condition field="selections" scope="db91-485c-ca74-9d54" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b387-d691-5e15-e5cc" type="equalTo"/>
-              </conditions>
-              <modifiers>
-                <modifier type="set" field="ddfe-6a9e-32c1-a51c" value="2"/>
-                <modifier type="set" field="7c7f-f763-1f39-410c" value="2"/>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
-        </infoLink>
-      </infoLinks>
+      <profiles>
+        <profile id="1804-daa2-1e38-f184" name="Signum" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="2a38-61ba-a2a0-4028" name="Devastator Squad" hidden="false" targetId="59c0-a118-fb6b-177e" primary="false"/>
         <categoryLink id="00d3-e545-a416-8780" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
@@ -3390,96 +3376,99 @@
         <categoryLink id="0caf-a597-0fc7-bf53" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5a2b-957d-a7b5-cf98" name="Heavy Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5a2b-957d-a7b5-cf98" name="Heavy Weapons (cumulative)" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97bd-ee36-ab0f-54da" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97bd-ee36-ab0f-54da" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8351-6b83-f506-49ee" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="4d1e-c628-95d0-bf08" name="Grav-Cannon" hidden="false" collective="false" import="true" targetId="2767-582b-0ce4-bab4" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08c8-71df-8256-ba3f" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0c4-87e2-10f7-56b2" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="3d34-af4f-2745-8146" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe56-6769-bfe7-889c" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d10-1f92-d5f3-daaa" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="5925-9f7e-6442-5659" name="Lascannon" hidden="false" collective="false" import="true" targetId="dd55-a2c1-238b-569f" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39f9-93d3-c387-be11" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5202-347f-d2c0-19bd" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="3ae1-fe71-ab8d-7ba9" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="a524-9ae0-16b9-cd61" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03e0-2611-078f-f2f4" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dbe-889a-3378-fa20" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="c265-2c4d-8db8-f38c" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d532-9252-dde4-46e7" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3de-fd42-0854-1ba0" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="a57c-1c44-fe45-ec44" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="257b-2e43-40d4-aebe" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f42-54fe-7574-b80e" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fefc-b4d9-3bdd-06c8" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="3e60-4cc2-a293-a371" name="Boltguns" hidden="false" collective="false" import="true" targetId="2d61-a814-63d8-0398" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d758-8535-b0d0-6a01" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="c663-9826-ca41-af6e" name="5 - 10 models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0204-4495-fbb6-bd16" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b55-83c8-b197-4d8d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e41d-2784-b4bc-d8f5" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e860-02dd-7e51-9e8d" name="Devastator Marines (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f8e0-2505-1371-9104" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="81ef-8bfd-e7d9-fa71" name="Devastator Marines (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e97a-2c2b-7bc4-f2cf" name="5 - 10 models" hidden="false" collective="false" import="true" targetId="dfca-1772-18d0-ab91" type="selectionEntryGroup"/>
         <entryLink id="6415-7592-7d57-b9eb" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="6144-aa85-b770-2f33" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f59d-d3ab-6cef-fe81" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57e7-680b-3717-2379" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="0dca-92ee-ee45-2423" name="Boltguns" hidden="false" collective="false" import="true" targetId="2d61-a814-63d8-0398" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="36e9-b16d-122a-8540" value="0.0">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="db91-485c-ca74-9d54" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5a2b-957d-a7b5-cf98" type="atLeast"/>
-                    <condition field="selections" scope="db91-485c-ca74-9d54" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b91b-0612-96f4-e29d" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" field="0d3f-ff46-06c2-9f76" value="0.0">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="db91-485c-ca74-9d54" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5a2b-957d-a7b5-cf98" type="atLeast"/>
-                    <condition field="selections" scope="db91-485c-ca74-9d54" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b91b-0612-96f4-e29d" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36e9-b16d-122a-8540" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d3f-ff46-06c2-9f76" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="aecb-abc1-18a2-55ca" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
@@ -3839,6 +3828,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="03e6-d2f0-4433-9ecb" name="Land Raider" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0fbe-302b-3bbe-6a3b" name="Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other Infantry models. It cannot transport PRIMARIS units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="c3f2-ea5d-1a64-04ef" name="Land Raider" hidden="false" targetId="1de9-50a7-0fd9-6a37" type="profile"/>
       </infoLinks>
@@ -3885,6 +3881,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e090-e09a-3fc2-625e" name="Land Raider Crusader" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ee3f-7054-99aa-d64c" name="Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other Infantry models. It cannot transport PRIMARIS units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="013d-c361-3c96-0453" name="Land Raider" hidden="false" targetId="1de9-50a7-0fd9-6a37" type="profile">
           <modifiers>
@@ -3996,6 +3999,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2c85-0fe0-d71b-b759" name="Land Raider Redeemer" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fe89-3b1d-a139-6c94" name="Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other Infantry models. It cannot transport PRIMARIS units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="0a59-2f2d-ffa9-348b" name="Land Raider" hidden="false" targetId="1de9-50a7-0fd9-6a37" type="profile">
           <modifiers>
@@ -4980,6 +4990,11 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
+        <profile id="4215-db5f-e3b9-af7c" name="Rhino" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. It cannot transport PRIMARIS, TERMINATOR, CENTURION or JUMP PACK units.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="2c54-18b4-4c6a-7666" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
@@ -5015,6 +5030,11 @@
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8010-fad5-c3e5-8b67" name="Razorback" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly &lt;CHAPTER&gt; INFANTRY models. It cannot transport PRIMARIS, TERMINATOR, CENTURION or JUMP PACK units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5063,6 +5083,11 @@
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dd34-7197-b1e3-337c" name="Drop Pod" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly &lt;CHAPTER&gt; INFANTRY models. It cannot transport PRIMARIS, TERMINATOR, CENTURION or JUMP PACK units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5215,6 +5240,11 @@
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="18f4-abb7-f7f4-19aa" name="Repulsor" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; PRIMARIS INFANTRY models. Each MK X GRAVIS model takes up the space of 2 other models. It cannot transport JUMP PACK units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5480,6 +5510,11 @@
             <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;Chapter&gt; Infantry models and 1 friendly &lt;Chapter&gt; Dreadnought. Each Jump Pack, Wulfen, or Terminator model takes the space of 2 other Infantry models, and each Centurion model takes the space of 3 other Infantry models. It cannot transport Primaris units.</characteristic>
           </characteristics>
         </profile>
+        <profile id="adc7-1a5a-8231-09b1" name="Stormraven Gunship" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models and 1 friendly &lt;CHAPTER&gt; DREADNOUGHT. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other INFANTRY models. It cannot transport PRIMARIS units.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="ea83-bef9-c0b3-db5b" name="Supersonic" hidden="false" targetId="a828-c8a3-c4ed-f34b" type="profile"/>
@@ -5680,8 +5715,8 @@
                 <condition field="selections" scope="c0b0-6b0b-7f09-d62c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b387-d691-5e15-e5cc" type="equalTo"/>
               </conditions>
               <modifiers>
-                <modifier type="set" field="ddfe-6a9e-32c1-a51c" value="2"/>
-                <modifier type="set" field="7c7f-f763-1f39-410c" value="4"/>
+                <modifier type="set" field="ddfe-6a9e-32c1-a51c" value="6"/>
+                <modifier type="set" field="7c7f-f763-1f39-410c" value="6"/>
                 <modifier type="set" field="name" value="Terminator Squad"/>
               </modifiers>
             </modifierGroup>
@@ -5690,8 +5725,8 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
@@ -6217,6 +6252,11 @@
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When this unit makes a Shoot action, if it has remained stationary or moved a distance less than half its Move characteristic this turn, double the Attacks characteristic of its Heavy Laser Destroyer and Macro Plasma Incinerator for that action.</characteristic>
           </characteristics>
         </profile>
+        <profile id="d9c5-cd1b-a646-1a98" name="Repulsor Executioner" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly &lt;CHAPTER&gt; PRIMARIS INFANTRY models. Each MK X GRAVIS model takes up the space of 2 other models. It cannot transport JUMP PACK units.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="f0e8-aa87-2933-8291" name="Hover" hidden="false" targetId="5711-082b-6f95-d8ef" type="profile"/>
@@ -6532,6 +6572,11 @@
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Enemy units cannot be set up within 12&quot; of this unit during the Set Up Reinforcements step.</characteristic>
           </characteristics>
         </profile>
+        <profile id="134d-6620-9591-ba7f" name="Relic Land Raider Proteus" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. TERMINATOR and JUMP PACK models take up the space of 2 other models and each CENTURION model takes up the space of 3 other models. It cannot transport PRIMARIS models.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="2950-66a6-ce2c-ba85" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
@@ -6608,6 +6653,11 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
+        <profile id="7b08-a409-260d-6be5" name="Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other Infantry models. It cannot transport PRIMARIS units.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="6248-8cbd-023c-5fd8" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
@@ -6668,6 +6718,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2235-b44c-a7d2-d517" name="Terrax-pattern Termite Assault Drill" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d2f8-b349-ef77-8b05" name="Terrax-pattern Termite Assault Drill" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. It cannot transport JUMP PACK, TERMINATOR, CENTURION, PRIMARIS or WULFEN models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="71b4-bd1e-a822-9cbc" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
@@ -6816,6 +6873,11 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
+        <profile id="4327-e60b-8f03-6444" name="Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other Infantry models. It cannot transport PRIMARIS units.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="640e-7f10-2304-6b16" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
@@ -6868,6 +6930,11 @@
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9a3c-58d9-def1-17c0" name="Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other Infantry models. It cannot transport PRIMARIS units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7123,6 +7190,11 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
+        <profile id="9469-2bee-c2a8-a27c" name="Relic Spartan Assault Tank" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 28 friendly &lt;CHAPTER&gt; INFANTRY models. TERMINATOR and JUMP PACK models take up the space of 2 other models and each CENTURION model takes up the space of 3 other models. It cannot transport PRIMARIS models.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="6961-51da-3e8e-313c" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
@@ -7212,7 +7284,7 @@
         <entryLink id="42ee-7226-f065-074b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="818c-71cb-91b8-14c6" name="Relic Typhon Heavy Siege Tank" hidden="false" collective="false" import="true" type="unit">
@@ -7714,6 +7786,15 @@
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="20f1-6586-cb29-2240" name="Relic Mastodon Super-heavy Siege Transport" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport friendly &lt;CHAPTER&gt; models in one of the following combinations:
+- Up to 40 INFANTRY models.
+- Up to 30 INFANTRY models and 1 DREADNOUGHT model.
+- Up to 20 INFANTRY models and up to 2 DREADNOUGHT models. 
+TERMINATOR and JUMP PACK models take up the space of 2 other models and each CENTURION model takes up the space of 3 other models. It cannot transport PRIMARIS models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9314,6 +9395,11 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
+        <profile id="c9bf-e73e-ad37-79bb" name="Storm Eagle Assault Gunship" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 20 friendly &lt;CHAPTER&gt; INFANTRY models. TERMINATOR and JUMP PACK models take up the space of 2 other models and each CENTURION model takes up the space of 3 other models. It cannot transport PRIMARIS models.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="2c06-1fb5-116f-5645" name="Hover Jet" hidden="false" targetId="0092-c629-e49c-5650" type="profile"/>
@@ -9757,6 +9843,14 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
+        <profile id="a773-84f8-4753-9f34" name="Thunderhawk Assault Gunship" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport friendly &lt;CHAPTER&gt; models in one of the following combinations:
+- Up to 30 INFANTRY (excluding PRIMARIS) or BIKER models.
+- Up to 15 PRIMARIS INFANTRY models.
+Each TERMINATOR and JUMP PACK model takes up the space of 2 other models and each CENTURION and BIKER model takes up the space of 3 other models.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="e353-316d-bd7f-6934" name="Hover Jet" hidden="false" targetId="0092-c629-e49c-5650" type="profile"/>
@@ -9850,6 +9944,18 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
+        <profile id="ebdc-a35f-ec52-77f7" name="Thunderhawk Transporter" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 15 friendly &lt;CHAPTER&gt; INFANTRY or BIKER models. Each TERMINATOR and JUMP PACK model takes up the space of 2 other models and each CENTURION and BIKER model takes up the space of 3 other models. It cannot transport PRIMARIS models.
+
+In addition, this unit can also transport one of the following:
+- 1 LAND RAIDER model or RELIC SPARTAN ASSAULT TANK model.
+- Up to 2 of the following models: RHINO, RAZORBACK, PREDATOR, WHIRLWIND, HUNTER, STALKER, VINDICATOR. 
+
+LAND RAIDER, RELIC SPARTAN ASSAULT TANK, RHINO and RAZORBACK models can transport models whilst they are embarked aboard this unit.
+</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="750a-95fa-4a84-4150" name="Supersonic" hidden="false" targetId="a828-c8a3-c4ed-f34b" type="profile"/>
@@ -9920,6 +10026,11 @@
         <profile id="7eaa-c639-096b-b5d9" name="Projected Void Shields" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Improve the Save characteristic (to a maximum of 3+) of friendly units by 1 whilst they are wholly within 8&quot; of any units with this ability that do not have the Supersonic ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0776-e6da-3583-8307" name="Sokar Pattern Stormbird" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 50 friendly &lt;CHAPTER&gt; INFANTRY or BIKER models, or up to 25 friendly &lt;CHAPTER&gt; INFANTRY or BIKER models amd 1 RHINO model. Each TERMINATOR and JUMP PACK model takes up the space of 2 other models and each CENTURION and BIKER model takes up the space of 3 other models. A RHINO can transport models whilst it is embarked aboard this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10379,6 +10490,11 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
+        <profile id="5da7-ebea-b0a4-12ec" name="Lucius Pattern Dreadnought Drop Pod" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport 1 friendly &lt;CHAPTER&gt; DREADNOUGHT model.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="47d4-4e28-db58-67f8" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
@@ -10413,6 +10529,11 @@
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7469-42a6-78c3-fb35" name="Drop Pod" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly &lt;CHAPTER&gt; INFANTRY models. It cannot transport PRIMARIS, TERMINATOR, CENTURION or JUMP PACK units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11057,6 +11178,11 @@ otherwise, place one blast marker next to it.</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
+        <profile id="7c60-1d08-c9d3-4b8f" name="Impulsor" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly &lt;CHAPTER&gt; PRIMARIS INFANTRY models. It cannot transport JUMP PACK or MK X GRAVIS units.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="1b17-47f3-3ff1-c8ed" name="Hover" hidden="false" targetId="5711-082b-6f95-d8ef" type="profile"/>
@@ -11645,7 +11771,7 @@ otherwise, place one blast marker next to it.</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
         <profile id="c224-452d-233e-c34a" name="Blessing of the Omnissiah" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
