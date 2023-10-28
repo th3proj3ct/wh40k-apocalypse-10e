@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3568-97f7-47a9-5157" name="Chaos - Chaos Space Marines" revision="5" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3568-97f7-47a9-5157" name="Chaos - Chaos Space Marines" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="9ce0-92a4-75e9-c09f" name="Faction: Skulltakers" hidden="false"/>
     <categoryEntry id="77e2-0635-9df5-4f43" name="Zhufor the Impaler" hidden="false"/>
@@ -53,18 +53,6 @@
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="c206-bec8-fd54-b551" name="Cultists of the Abyss" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="345d-9813-b00b-fb17" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9bce-7b4a-ce17-aea9" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile id="dc64-f87d-3427-32ae" name="Cultists of the Abyss (8 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
@@ -73,17 +61,17 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="5ae3-1f76-16e9-7cd6" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="5ae3-1f76-16e9-7cd6" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
         <categoryLink id="e4ca-3b8b-ac09-c3e0" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="0b9a-9307-927b-c7dc" name="Faction: Servants of the Abyss" hidden="false" targetId="24b1-d03e-7c15-b914" primary="false"/>
         <categoryLink id="09cf-04a7-f2bb-8dfd" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="ea9f-4c13-753d-5ddd" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="ea9f-4c13-753d-5ddd" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="bf88-6a68-adf0-4ad3" name="Cultists of the Abyss" hidden="false" targetId="7a29-6c65-5685-6480" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -168,7 +156,11 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="5e3a-9e52-abb6-9692" name="Chaos Mastodon" hidden="false" collective="false" import="true" targetId="033e-f9c8-c4b0-2f34" type="selectionEntry"/>
+    <entryLink id="5e3a-9e52-abb6-9692" name="Chaos Mastodon" hidden="false" collective="false" import="true" targetId="033e-f9c8-c4b0-2f34" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bd41-fb31-d558-d0db" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="69ee-7e64-a5d6-88d6" name="Kytan Ravager" hidden="false" collective="false" import="true" targetId="43af-be45-7918-425b" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -177,6 +169,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink id="09af-7de8-bf28-0544" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
     </entryLink>
     <entryLink id="3ed5-c6f4-b557-0550" name="Blood Slaughterer" hidden="false" collective="false" import="true" targetId="e7d3-3095-e373-d4b3" type="selectionEntry">
       <modifiers>
@@ -186,6 +181,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink id="e929-238e-27f1-c3b0" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
     </entryLink>
     <entryLink id="2a7e-e6f1-7c71-7040" name="Greater Blight Drone" hidden="false" collective="false" import="true" targetId="77e3-c8b6-ae89-11fd" type="selectionEntry">
       <modifiers>
@@ -200,6 +198,9 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink id="fc51-ab97-75ce-0277" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
     </entryLink>
     <entryLink id="2177-7869-c848-d68b" name="Plague Hulk of Nurgle" hidden="false" collective="false" import="true" targetId="8268-103d-a625-da03" type="selectionEntry">
       <modifiers>
@@ -215,9 +216,16 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink id="1e0a-14bf-ed79-b0bb" name="New CategoryLink" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="6777-843f-eccb-99e8" name="Decimator" hidden="false" collective="false" import="true" targetId="9e88-67db-d4e3-fb01" type="selectionEntry"/>
-    <entryLink id="a658-5cef-8c45-21f1" name="Greater Brass Scorpion of Khorne" hidden="false" collective="false" import="true" targetId="f692-9c00-d320-323c" type="selectionEntry">
+    <entryLink id="6777-843f-eccb-99e8" name="Decimator" hidden="false" collective="false" import="true" targetId="9e88-67db-d4e3-fb01" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c699-1982-074b-086b" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a658-5cef-8c45-21f1" name="Greater Brass Scorpion" hidden="false" collective="false" import="true" targetId="f692-9c00-d320-323c" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -225,30 +233,125 @@
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink id="95d6-a720-dd12-6a4b" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="734e-b1a1-afb9-cb91" name="Chaos Contemptor Dreadnought" hidden="false" collective="false" import="true" targetId="a237-dcd0-5abf-c97f" type="selectionEntry"/>
-    <entryLink id="47aa-da3e-34f5-292d" name="Chaos Cerberus" hidden="false" collective="false" import="true" targetId="e39f-1bdb-b3aa-1d6c" type="selectionEntry"/>
-    <entryLink id="51a1-5833-2922-d11c" name="Chaos Deredeo Dreadnought" hidden="false" collective="false" import="true" targetId="b186-9dcb-3dc3-2454" type="selectionEntry"/>
-    <entryLink id="0550-6bc0-a338-3e88" name="Dreadclaw Drop Pod" hidden="false" collective="false" import="true" targetId="6962-3f8f-63d3-803c" type="selectionEntry"/>
-    <entryLink id="194e-297b-685a-f7d2" name="Chaos Falchion" hidden="false" collective="false" import="true" targetId="7c0d-9c5e-91ba-ced6" type="selectionEntry"/>
-    <entryLink id="1c88-5737-0d07-b7de" name="Chaos Fellblade" hidden="false" collective="false" import="true" targetId="1481-8054-00fd-6add" type="selectionEntry"/>
-    <entryLink id="6e66-8d6b-9337-19ef" name="Kharybdis Assault Claw" hidden="false" collective="false" import="true" targetId="9b56-60e3-1ec2-2be6" type="selectionEntry"/>
-    <entryLink id="51ee-645a-8843-a836" name="Chaos Land Raider Achilles" hidden="false" collective="false" import="true" targetId="84f5-0ff1-0c1b-a0c6" type="selectionEntry"/>
-    <entryLink id="db55-735f-36fa-8fe9" name="Chaos Land Raider Proteus" hidden="false" collective="false" import="true" targetId="dc43-f0a2-58b7-b478" type="selectionEntry"/>
-    <entryLink id="af2e-88ad-66dc-5c64" name="Chaos Leviathan Dreadnought" hidden="false" collective="false" import="true" targetId="ba52-d3a1-0032-94b0" type="selectionEntry"/>
-    <entryLink id="7c08-87ce-6a09-9044" name="Chaos Rapier Carrier" hidden="false" collective="false" import="true" targetId="b6f8-5507-d8a2-6cd1" type="selectionEntry"/>
-    <entryLink id="0d8f-ca36-f0ac-bfb8" name="Chaos Whirlwind Scorpius" hidden="false" collective="false" import="true" targetId="660d-f9b6-ddc9-9946" type="selectionEntry"/>
-    <entryLink id="094a-1564-8739-1789" name="Chaos Sicaran Battle Tank" hidden="false" collective="false" import="true" targetId="1234-dc9e-04cd-a218" type="selectionEntry"/>
-    <entryLink id="cee6-ae14-b5b8-18ef" name="Chaos Sicaran Venator" hidden="false" collective="false" import="true" targetId="721a-be95-29eb-4766" type="selectionEntry"/>
-    <entryLink id="9224-d21c-bd71-bee6" name="Chaos Spartan" hidden="false" collective="false" import="true" targetId="5f94-7327-3258-42fb" type="selectionEntry"/>
-    <entryLink id="b733-7a6c-3de7-275d" name="Chaos Typhon" hidden="false" collective="false" import="true" targetId="3503-4ef7-b6f7-6c37" type="selectionEntry"/>
-    <entryLink id="b7fc-ae1e-8e00-3248" name="Chaos Fire Raptor Gunship" hidden="false" collective="false" import="true" targetId="a0f9-589e-8b1a-a844" type="selectionEntry"/>
-    <entryLink id="c014-bf59-7f47-2230" name="Hell Blade" hidden="false" collective="false" import="true" targetId="b299-fe4e-bf7e-f9b1" type="selectionEntry"/>
-    <entryLink id="4ca0-6ddb-2f4e-4064" name="Hell Talon" hidden="false" collective="false" import="true" targetId="b8d9-844d-d0fb-1ac2" type="selectionEntry"/>
-    <entryLink id="58e0-472a-7239-821b" name="Chaos Sokar Pattern Stormbird" hidden="false" collective="false" import="true" targetId="ff97-c9c5-ad18-6f68" type="selectionEntry"/>
-    <entryLink id="fa1e-270d-adb6-c2cf" name="Chaos Storm Eagle Gunship" hidden="false" collective="false" import="true" targetId="e8ee-b78e-6d77-a8ad" type="selectionEntry"/>
-    <entryLink id="33f6-e527-6541-4de4" name="Chaos Thunderhawk Assault Gunship" hidden="false" collective="false" import="true" targetId="bb86-f1fb-b77f-2ba1" type="selectionEntry"/>
-    <entryLink id="5b34-b36b-83d5-b5d9" name="Chaos Xiphon Interceptor" hidden="false" collective="false" import="true" targetId="30f0-cfb8-37dd-16b0" type="selectionEntry"/>
+    <entryLink id="734e-b1a1-afb9-cb91" name="Chaos Contemptor Dreadnought" hidden="false" collective="false" import="true" targetId="a237-dcd0-5abf-c97f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6426-e962-33f6-9587" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="47aa-da3e-34f5-292d" name="Chaos Cerberus" hidden="false" collective="false" import="true" targetId="e39f-1bdb-b3aa-1d6c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b999-d1b8-c74f-48be" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="51a1-5833-2922-d11c" name="Chaos Deredeo Dreadnought" hidden="false" collective="false" import="true" targetId="b186-9dcb-3dc3-2454" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1dd5-4ccf-e42b-d85d" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0550-6bc0-a338-3e88" name="Dreadclaw Drop Pod" hidden="false" collective="false" import="true" targetId="6962-3f8f-63d3-803c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="81f9-126f-2b9b-1290" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="194e-297b-685a-f7d2" name="Chaos Falchion" hidden="false" collective="false" import="true" targetId="7c0d-9c5e-91ba-ced6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="277c-5864-25a4-ca7d" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1c88-5737-0d07-b7de" name="Chaos Fellblade" hidden="false" collective="false" import="true" targetId="1481-8054-00fd-6add" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2e91-4406-7161-f931" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6e66-8d6b-9337-19ef" name="Kharybdis Assault Claw" hidden="false" collective="false" import="true" targetId="9b56-60e3-1ec2-2be6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a847-98c2-77ea-db54" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="51ee-645a-8843-a836" name="Chaos Land Raider Achilles" hidden="false" collective="false" import="true" targetId="84f5-0ff1-0c1b-a0c6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="435d-a6bc-6fb9-f147" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="db55-735f-36fa-8fe9" name="Chaos Land Raider Proteus" hidden="false" collective="false" import="true" targetId="dc43-f0a2-58b7-b478" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="448b-16d0-21cb-a326" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="af2e-88ad-66dc-5c64" name="Chaos Leviathan Dreadnought" hidden="false" collective="false" import="true" targetId="ba52-d3a1-0032-94b0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1458-fce9-a0b1-b06c" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7c08-87ce-6a09-9044" name="Chaos Rapier Carrier" hidden="false" collective="false" import="true" targetId="b6f8-5507-d8a2-6cd1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e466-05db-0051-f9ad" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0d8f-ca36-f0ac-bfb8" name="Chaos Whirlwind Scorpius" hidden="false" collective="false" import="true" targetId="660d-f9b6-ddc9-9946" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="57fc-5464-70e0-8fc7" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="094a-1564-8739-1789" name="Chaos Sicaran Battle Tank" hidden="false" collective="false" import="true" targetId="1234-dc9e-04cd-a218" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ef29-34cd-cdf9-ff59" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cee6-ae14-b5b8-18ef" name="Chaos Sicaran Venator" hidden="false" collective="false" import="true" targetId="721a-be95-29eb-4766" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="26b4-ef09-f0f9-9a18" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9224-d21c-bd71-bee6" name="Chaos Spartan" hidden="false" collective="false" import="true" targetId="5f94-7327-3258-42fb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3c81-8e96-6150-d08a" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b733-7a6c-3de7-275d" name="Chaos Typhon" hidden="false" collective="false" import="true" targetId="3503-4ef7-b6f7-6c37" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d813-8dd1-fd86-0ef6" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b7fc-ae1e-8e00-3248" name="Chaos Fire Raptor Gunship" hidden="false" collective="false" import="true" targetId="a0f9-589e-8b1a-a844" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e760-7c63-0912-ea2a" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c014-bf59-7f47-2230" name="Hell Blade" hidden="false" collective="false" import="true" targetId="b299-fe4e-bf7e-f9b1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7e63-81ed-87ec-6dc9" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4ca0-6ddb-2f4e-4064" name="Hell Talon" hidden="false" collective="false" import="true" targetId="b8d9-844d-d0fb-1ac2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="537d-6d71-e9d6-c7db" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="58e0-472a-7239-821b" name="Chaos Sokar Pattern Stormbird" hidden="false" collective="false" import="true" targetId="ff97-c9c5-ad18-6f68" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e645-f41b-fb91-8424" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fa1e-270d-adb6-c2cf" name="Chaos Storm Eagle Gunship" hidden="false" collective="false" import="true" targetId="e8ee-b78e-6d77-a8ad" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="16a4-3753-c376-c797" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="33f6-e527-6541-4de4" name="Chaos Thunderhawk Assault Gunship" hidden="false" collective="false" import="true" targetId="bb86-f1fb-b77f-2ba1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2da2-587a-e494-508a" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5b34-b36b-83d5-b5d9" name="Chaos Xiphon Interceptor" hidden="false" collective="false" import="true" targetId="30f0-cfb8-37dd-16b0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3ff5-4a02-ca34-9463" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="a499-7820-b1e8-9241" name="Zhufor the Impaler" hidden="false" collective="false" import="true" targetId="4cdf-0f1f-0d39-5750" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -269,6 +372,9 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink id="8495-da64-cabb-f622" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+      </categoryLinks>
     </entryLink>
     <entryLink id="88ed-b0f2-ec66-490f" name="Lord Arkos" hidden="false" collective="false" import="true" targetId="5feb-92ea-7846-e533" type="selectionEntry">
       <modifiers>
@@ -290,11 +396,30 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink id="ad1a-aa72-d4cd-9842" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="bac0-fed8-ee01-e6ac" name="Chaos Hellwright on Dark Abeyant" hidden="false" collective="false" import="true" targetId="4e60-26b8-110a-7b4c" type="selectionEntry"/>
-    <entryLink id="2278-7a88-e630-d164" name="Chaos Hellwright" hidden="false" collective="false" import="true" targetId="2ba6-7d4e-f1d6-9db6" type="selectionEntry"/>
-    <entryLink id="506c-189c-a691-c93e" name="Helbrute" hidden="false" collective="false" import="true" targetId="b978-c539-6a6e-43c9" type="selectionEntry"/>
-    <entryLink id="1aeb-fbe1-4141-a32a" name="Ferrum Infernus Chaos Dreadnought" hidden="false" collective="false" import="true" targetId="0de5-74b3-8e23-e51e" type="selectionEntry"/>
+    <entryLink id="bac0-fed8-ee01-e6ac" name="Chaos Hellwright on Dark Abeyant" hidden="false" collective="false" import="true" targetId="4e60-26b8-110a-7b4c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b3a3-9074-5d7c-e8cc" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2278-7a88-e630-d164" name="Chaos Hellwright" hidden="false" collective="false" import="true" targetId="2ba6-7d4e-f1d6-9db6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3b16-5aa0-c4cb-63e6" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="506c-189c-a691-c93e" name="Helbrute" hidden="false" collective="false" import="true" targetId="b978-c539-6a6e-43c9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5a42-c68b-cad3-f034" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1aeb-fbe1-4141-a32a" name="Ferrum Infernus Chaos Dreadnought" hidden="false" collective="false" import="true" targetId="0de5-74b3-8e23-e51e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1264-d58d-8177-4cea" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="33d0-9424-b644-dd6a" name="Sonic Dreadnought" hidden="false" collective="false" import="true" targetId="0bb5-c411-fce8-4b76" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -308,24 +433,34 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink id="c179-6cd2-7a6c-bab4" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="ec79-4dd7-b600-4db6" name="Chaos Lord" hidden="false" collective="false" import="true" targetId="93bb-a877-fb4b-85e4" type="selectionEntry"/>
-    <entryLink id="67fa-8c2e-4b06-3bf3" name="Master of Executions" hidden="false" collective="false" import="true" targetId="c51c-abfe-ae51-585b" type="selectionEntry"/>
-    <entryLink id="0cbc-70c8-1411-ade6" name="Lord Discordant on Helstalker" hidden="false" collective="false" import="true" targetId="b28b-28bd-fd5c-ff7f" type="selectionEntry"/>
-    <entryLink id="f39c-6d0f-616f-852b" name="Master of Possession" hidden="false" collective="false" import="true" targetId="dcfd-ac95-21bd-1407" type="selectionEntry"/>
+    <entryLink id="ec79-4dd7-b600-4db6" name="Chaos Lord" hidden="false" collective="false" import="true" targetId="93bb-a877-fb4b-85e4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3fbd-6324-39df-67cb" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="67fa-8c2e-4b06-3bf3" name="Master of Executions" hidden="false" collective="false" import="true" targetId="c51c-abfe-ae51-585b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4900-2ad4-cf05-180e" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0cbc-70c8-1411-ade6" name="Lord Discordant on Helstalker" hidden="false" collective="false" import="true" targetId="b28b-28bd-fd5c-ff7f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ad57-5a41-2438-b78f" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f39c-6d0f-616f-852b" name="Master of Possession" hidden="false" collective="false" import="true" targetId="dcfd-ac95-21bd-1407" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5239-c20d-b945-ad1b" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="db0f-b330-d67e-b8bf" name="Abaddon the Despoiler" hidden="false" collective="false" import="true" targetId="962f-8f89-5ca7-2f65" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="345d-9813-b00b-fb17" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3d44-ceda-f259-42ad" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
+      <categoryLinks>
+        <categoryLink id="4017-5166-a3cf-f3ff" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+      </categoryLinks>
     </entryLink>
     <entryLink id="8252-177d-6bc9-7206" name="Haarken Worldclaimer" hidden="false" collective="false" import="true" targetId="60b8-432b-96a5-491b" type="selectionEntry">
       <modifiers>
@@ -340,17 +475,41 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink id="76b1-caa0-d0ef-fd39" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="97e1-45ef-af83-8a1d" name="Daemon Prince" hidden="false" collective="false" import="true" targetId="161f-9924-a939-7d8e" type="selectionEntry"/>
+    <entryLink id="97e1-45ef-af83-8a1d" name="Heretic Astartes Daemon Prince" hidden="false" collective="false" import="true" targetId="161f-9924-a939-7d8e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c191-b554-008e-6dea" name="New CategoryLink" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="3b91-4ffc-c583-5f9f" name="Sorcerer" hidden="false" collective="false" import="true" targetId="4b24-a3f2-703a-3f86" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b7dc-73ea-9b36-d4f9" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="f38e-ff94-98fd-15d3" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e435-c0e9-796c-2593" name="Dark Apostle" hidden="false" collective="false" import="true" targetId="edcf-66a0-3dda-fabd" type="selectionEntry"/>
-    <entryLink id="7022-a8a5-092b-e449" name="Warpsmith" hidden="false" collective="false" import="true" targetId="510a-2904-aac4-1cce" type="selectionEntry"/>
-    <entryLink id="d7e7-3251-53f2-f4f0" name="Exalted Champion" hidden="false" collective="false" import="true" targetId="4528-413f-4697-b3fc" type="selectionEntry"/>
-    <entryLink id="74ea-84d2-d687-d4a0" name="Fabius Bile" hidden="false" collective="false" import="true" targetId="cf6d-bc14-89ad-091f" type="selectionEntry"/>
+    <entryLink id="e435-c0e9-796c-2593" name="Dark Apostle" hidden="false" collective="false" import="true" targetId="edcf-66a0-3dda-fabd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cdba-df69-eb28-b1aa" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7022-a8a5-092b-e449" name="Warpsmith" hidden="false" collective="false" import="true" targetId="510a-2904-aac4-1cce" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="961f-1200-526a-20a8" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d7e7-3251-53f2-f4f0" name="Exalted Champion" hidden="false" collective="false" import="true" targetId="4528-413f-4697-b3fc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2588-9659-b75c-65da" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="74ea-84d2-d687-d4a0" name="Fabius Bile" hidden="false" collective="false" import="true" targetId="cf6d-bc14-89ad-091f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2ede-4c78-97a0-81af" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="6e3d-3290-7607-136f" name="Khorne Berserkers" hidden="false" collective="false" import="true" targetId="d156-9638-9ec3-55d5" type="selectionEntry">
       <modifierGroups>
         <modifierGroup>
@@ -365,7 +524,8 @@
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="20b6-15f8-2ee4-5947" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="20b6-15f8-2ee4-5947" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
+        <categoryLink id="b62d-29a2-3fb1-3d2e" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a8d1-bd24-6dfe-6a4a" name="Noise Marines" hidden="false" collective="false" import="true" targetId="f5bb-3a0f-d9ef-3016" type="selectionEntry">
@@ -382,32 +542,125 @@
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="60f6-a70d-7f6d-2e82" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="60f6-a70d-7f6d-2e82" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
+        <categoryLink id="136d-1916-f7a2-ff8e" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="07c2-babc-3012-6330" name="Chosen" hidden="false" collective="false" import="true" targetId="5a68-84e4-6544-0681" type="selectionEntry"/>
-    <entryLink id="d38f-ee29-c139-bc9e" name="Terminators" hidden="false" collective="false" import="true" targetId="df26-fe50-9f0f-2535" type="selectionEntry"/>
-    <entryLink id="96a2-9146-1f8e-f303" name="Greater Possessed" hidden="false" collective="false" import="true" targetId="34b6-85e2-752a-3600" type="selectionEntry"/>
-    <entryLink id="9038-8361-058d-79f3" name="Mutilators" hidden="false" collective="false" import="true" targetId="02d7-241e-ea40-ac7b" type="selectionEntry"/>
-    <entryLink id="cf12-eb66-a69c-08be" name="Chaos Space Marines" hidden="false" collective="false" import="true" targetId="5031-c476-9dc3-3f9c" type="selectionEntry"/>
-    <entryLink id="52c1-cee0-36ca-b35c" name="Chaos Cultists" hidden="false" collective="false" import="true" targetId="ccff-966b-bc9a-05c8" type="selectionEntry"/>
-    <entryLink id="00df-c8e2-e28c-7fa5" name="Chaos Vindicator Laser Destroyer" hidden="false" collective="false" import="true" targetId="a89c-60d1-ab95-cb47" type="selectionEntry"/>
-    <entryLink id="1d99-f365-f27e-7c0c" name="Chaos Spawn" hidden="false" collective="false" import="true" targetId="ed66-68de-c8bb-af54" type="selectionEntry"/>
-    <entryLink id="2732-d183-8eed-023f" name="Chaos Bikers" hidden="false" collective="false" import="true" targetId="a877-d244-52cd-e73e" type="selectionEntry"/>
-    <entryLink id="aa6e-5f3d-5d4f-ae57" name="Raptors" hidden="false" collective="false" import="true" targetId="90e2-3f76-0fa7-206f" type="selectionEntry"/>
-    <entryLink id="e47b-1858-e9ca-b34f" name="Warp Talons" hidden="false" collective="false" import="true" targetId="c5d6-2c31-59f2-3100" type="selectionEntry"/>
-    <entryLink id="ce8a-5630-a015-33d4" name="Havocs" hidden="false" collective="false" import="true" targetId="135f-675d-50a5-bef3" type="selectionEntry"/>
-    <entryLink id="9536-1c34-b5ef-6160" name="Venomcrawler" hidden="false" collective="false" import="true" targetId="6d15-d727-272e-7325" type="selectionEntry"/>
-    <entryLink id="628b-0ea3-2048-c3ba" name="Defiler" hidden="false" collective="false" import="true" targetId="7278-4a41-c1ee-16f3" type="selectionEntry"/>
-    <entryLink id="db4b-1cbc-a048-ccf0" name="Forgefiend" hidden="false" collective="false" import="true" targetId="1359-fe10-690b-d846" type="selectionEntry"/>
-    <entryLink id="eda1-9a5d-88e6-64fd" name="Maulerfiend" hidden="false" collective="false" import="true" targetId="a3df-c6a8-8b25-46ee" type="selectionEntry"/>
-    <entryLink id="e21a-0e02-aacf-f7bb" name="Chaos Predator Annihilator" hidden="false" collective="false" import="true" targetId="8dbc-6837-ede6-1e74" type="selectionEntry"/>
-    <entryLink id="3826-10b2-1bbf-6866" name="Chaos Rhino" hidden="false" collective="false" import="true" targetId="274e-d2a4-8f7b-e69d" type="selectionEntry"/>
-    <entryLink id="ee79-fec0-8b4c-5f6f" name="Chaos Vindicator" hidden="false" collective="false" import="true" targetId="54cb-7a5f-9c51-8129" type="selectionEntry"/>
-    <entryLink id="75ed-6a73-5a5f-d068" name="Chaos Terrax-Pattern Termite" hidden="false" collective="false" import="true" targetId="56e4-bce0-be0a-9f92" type="selectionEntry"/>
-    <entryLink id="2799-c482-f5cb-09f1" name="Obliterators" hidden="false" collective="false" import="true" targetId="7145-43ba-3475-5010" type="selectionEntry"/>
-    <entryLink id="c534-8914-1563-55ea" name="Chaos Land Raider" hidden="false" collective="false" import="true" targetId="a0a7-ca99-f182-aa7c" type="selectionEntry"/>
-    <entryLink id="feff-75fc-e4d1-b720" name="Heldrake" hidden="false" collective="false" import="true" targetId="92bd-5224-16c2-5754" type="selectionEntry"/>
+    <entryLink id="07c2-babc-3012-6330" name="Chosen" hidden="false" collective="false" import="true" targetId="5a68-84e4-6544-0681" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="209e-212e-6160-fd1d" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d38f-ee29-c139-bc9e" name="Chaos Terminator Squad" hidden="false" collective="false" import="true" targetId="df26-fe50-9f0f-2535" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="02e2-8fbe-7799-1d16" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="96a2-9146-1f8e-f303" name="Greater Possessed" hidden="false" collective="false" import="true" targetId="34b6-85e2-752a-3600" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dc87-ae73-c05d-ac4c" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9038-8361-058d-79f3" name="Mutilators" hidden="false" collective="false" import="true" targetId="02d7-241e-ea40-ac7b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fee5-f4f4-0c05-935e" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cf12-eb66-a69c-08be" name="Legionaries" hidden="false" collective="false" import="true" targetId="5031-c476-9dc3-3f9c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="94e2-a724-807f-57d4" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="52c1-cee0-36ca-b35c" name="Chaos Cultists" hidden="false" collective="false" import="true" targetId="ccff-966b-bc9a-05c8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ce1d-7ad1-ee37-30d0" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="00df-c8e2-e28c-7fa5" name="Chaos Vindicator Laser Destroyer" hidden="false" collective="false" import="true" targetId="a89c-60d1-ab95-cb47" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cb97-e07a-3db0-2e24" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1d99-f365-f27e-7c0c" name="Chaos Spawn" hidden="false" collective="false" import="true" targetId="ed66-68de-c8bb-af54" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5603-098d-08bf-0bba" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2732-d183-8eed-023f" name="Chaos Bikers" hidden="false" collective="false" import="true" targetId="a877-d244-52cd-e73e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b8e8-d7eb-c97e-b4c8" name="New CategoryLink" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="aa6e-5f3d-5d4f-ae57" name="Raptors" hidden="false" collective="false" import="true" targetId="90e2-3f76-0fa7-206f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9210-d8b3-7ec5-1759" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e47b-1858-e9ca-b34f" name="Warp Talons" hidden="false" collective="false" import="true" targetId="c5d6-2c31-59f2-3100" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dc55-f74d-f9af-73d3" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ce8a-5630-a015-33d4" name="Havocs" hidden="false" collective="false" import="true" targetId="135f-675d-50a5-bef3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f3a5-e077-3c71-8beb" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9536-1c34-b5ef-6160" name="Venomcrawler" hidden="false" collective="false" import="true" targetId="6d15-d727-272e-7325" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="41db-0e25-6904-aea7" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="628b-0ea3-2048-c3ba" name="Defiler" hidden="false" collective="false" import="true" targetId="7278-4a41-c1ee-16f3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="98b0-a45b-edbb-270b" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="db4b-1cbc-a048-ccf0" name="Forgefiend" hidden="false" collective="false" import="true" targetId="1359-fe10-690b-d846" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4669-11cb-6387-47dd" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="eda1-9a5d-88e6-64fd" name="Maulerfiend" hidden="false" collective="false" import="true" targetId="a3df-c6a8-8b25-46ee" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fd43-d76a-f5cb-8b86" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e21a-0e02-aacf-f7bb" name="Chaos Predator Annihilator" hidden="false" collective="false" import="true" targetId="8dbc-6837-ede6-1e74" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4dc2-2abb-1f66-23f5" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3826-10b2-1bbf-6866" name="Chaos Rhino" hidden="false" collective="false" import="true" targetId="274e-d2a4-8f7b-e69d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9521-16c5-7264-b508" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ee79-fec0-8b4c-5f6f" name="Chaos Vindicator" hidden="false" collective="false" import="true" targetId="54cb-7a5f-9c51-8129" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a68a-8ecd-5780-315f" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="75ed-6a73-5a5f-d068" name="Chaos Terrax-Pattern Termite" hidden="false" collective="false" import="true" targetId="56e4-bce0-be0a-9f92" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d565-0b59-3006-7393" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2799-c482-f5cb-09f1" name="Obliterators" hidden="false" collective="false" import="true" targetId="7145-43ba-3475-5010" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cacf-31c2-d404-1225" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c534-8914-1563-55ea" name="Chaos Land Raider" hidden="false" collective="false" import="true" targetId="a0a7-ca99-f182-aa7c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3079-aaa3-0b41-08e6" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="feff-75fc-e4d1-b720" name="Heldrake" hidden="false" collective="false" import="true" targetId="92bd-5224-16c2-5754" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5162-29b9-7f81-b683" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="8579-2d15-061d-0e46" name="Khorne Lord of Skulls" hidden="false" collective="false" import="true" targetId="1536-8af0-7c68-ca5d" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -416,9 +669,20 @@
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink id="1211-7910-cda6-7f28" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="f142-2a0a-e306-4ee1" name="Noctilith Crown" hidden="false" collective="false" import="true" targetId="cf79-176b-1748-c2c0" type="selectionEntry"/>
-    <entryLink id="0346-0d9d-2d6d-b4eb" name="Fallen" hidden="false" collective="false" import="true" targetId="52d2-d4af-cd26-b7e4" type="selectionEntry"/>
+    <entryLink id="f142-2a0a-e306-4ee1" name="Noctilith Crown" hidden="false" collective="false" import="true" targetId="cf79-176b-1748-c2c0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="038b-ed2a-c5aa-1e61" name="New CategoryLink" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0346-0d9d-2d6d-b4eb" name="Fallen" hidden="false" collective="false" import="true" targetId="52d2-d4af-cd26-b7e4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ae45-a70c-beef-e093" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="e707-39e0-4feb-b3a9" name="Lucius the Eternal" hidden="false" collective="false" import="true" targetId="501e-82b8-325c-024a" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -432,6 +696,9 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink id="b440-dfdc-8c30-360b" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+      </categoryLinks>
     </entryLink>
     <entryLink id="1659-b446-fcce-aa57" name="Kharn the Betrayer" hidden="false" collective="false" import="true" targetId="c649-1195-a01a-1f27" type="selectionEntry">
       <modifiers>
@@ -446,6 +713,9 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink id="efb6-715c-a2f1-671b" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+      </categoryLinks>
     </entryLink>
     <entryLink id="bd9c-4d57-f2a8-8179" name="Plague Marines" hidden="false" collective="false" import="true" targetId="d31e-96b7-567b-db1d" type="selectionEntry">
       <modifiers>
@@ -462,124 +732,42 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="ce6a-c31e-c33b-c435" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="ce6a-c31e-c33b-c435" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
+        <categoryLink id="898b-673f-e019-4263" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="c80d-6f11-2f75-c857" name="Rubric Marines" hidden="false" collective="false" import="true" targetId="245e-1cea-9d5d-0e2a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="2c04-3bc4-4524-cd39" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="2c04-3bc4-4524-cd39" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
+        <categoryLink id="c281-6da7-ecbf-c590" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0a7c-47e0-550e-b754" name="Chaos Lord on Daemonic Mount" hidden="false" collective="false" import="true" targetId="2ba9-3e73-c2ec-32fe" type="selectionEntry"/>
+    <entryLink id="0a7c-47e0-550e-b754" name="Chaos Lord on Daemonic Mount" hidden="false" collective="false" import="true" targetId="2ba9-3e73-c2ec-32fe" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="00ae-bf22-60b9-31d6" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="5928-2b3a-3d1a-29d0" name="Obsidius Mallex" hidden="false" collective="false" import="true" targetId="3586-abbc-7a9e-ad55" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="345d-9813-b00b-fb17" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9bce-7b4a-ce17-aea9" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
+      <categoryLinks>
+        <categoryLink id="1580-3036-9380-821b" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+      </categoryLinks>
     </entryLink>
     <entryLink id="f2a7-fd0e-95e8-0eba" name="Rogue Psyker" hidden="false" collective="false" import="true" targetId="189b-8336-dcde-b488" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9299-ab5b-aef6-1e06" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="345d-9813-b00b-fb17" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9bce-7b4a-ce17-aea9" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
-        <categoryLink id="148c-ae06-d6df-bd91" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="148c-ae06-d6df-bd91" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
+        <categoryLink id="2b63-3ecf-61f6-e462" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="8e5b-f878-55d8-b586" name="Negavolt Cultists" hidden="false" collective="false" import="true" targetId="fd17-86e4-1609-fe64" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="345d-9813-b00b-fb17" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9bce-7b4a-ce17-aea9" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink id="07f5-cdcb-5934-8d69" name="Chaos Beastmen" hidden="false" collective="false" import="true" targetId="6d6c-a1eb-ffbb-3a88" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9299-ab5b-aef6-1e06" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="345d-9813-b00b-fb17" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9bce-7b4a-ce17-aea9" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
-        <categoryLink id="c718-de88-6253-4424" name="New CategoryLink" hidden="false" targetId="9f9b-a0ff-1523-746d" primary="true"/>
+        <categoryLink id="9e54-6c1b-0098-153f" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bf85-ad5f-b318-00fb" name="Traitor Guardsmen" hidden="false" collective="false" import="true" targetId="9d64-9495-3147-ecdd" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="345d-9813-b00b-fb17" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9bce-7b4a-ce17-aea9" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink id="1a36-d0de-0608-9af9" name="Rogue Psyker" hidden="false" collective="false" import="true" targetId="189b-8336-dcde-b488" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9299-ab5b-aef6-1e06" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="345d-9813-b00b-fb17" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9bce-7b4a-ce17-aea9" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
+    <entryLink id="9d11-1240-c1c2-e899" name="Possessed" hidden="false" collective="false" import="true" targetId="e46c-12ce-964f-3b7f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8e1b-88a7-ccc7-c570" name="New CategoryLink" hidden="false" targetId="9f9b-a0ff-1523-746d" primary="true"/>
+        <categoryLink id="2bc6-63c6-0707-b84f" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9d11-1240-c1c2-e899" name="Possessed" hidden="false" collective="false" import="true" targetId="e46c-12ce-964f-3b7f" type="selectionEntry"/>
     <entryLink id="c4fb-bcb0-00da-dab0" name="Legion Filter" hidden="false" collective="false" import="true" targetId="5663-4c4a-cbc3-0a31" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b13c-8f13-a42d-461d" name="New CategoryLink" hidden="false" targetId="b1fd-719c-4789-4656" primary="true"/>
@@ -598,33 +786,44 @@
           </conditionGroups>
         </modifier>
       </modifiers>
-    </entryLink>
-    <entryLink id="b995-5a9d-6e53-cc84" name="Dark Commune" hidden="false" collective="false" import="true" targetId="1606-f6b3-c088-97aa" type="selectionEntry"/>
-    <entryLink id="17d8-e823-164b-f970" name="Chaos Lord in Terminator Armor" hidden="false" collective="false" import="true" targetId="d322-0311-740f-8a04" type="selectionEntry"/>
-    <entryLink id="4bed-7d0a-31d4-87eb" name="Chaos Beastmen" hidden="false" collective="false" import="true" targetId="6d6c-a1eb-ffbb-3a88" type="selectionEntry"/>
-    <entryLink id="04ab-39a5-e5fc-9923" name="Accursed Cultists" hidden="false" collective="false" import="true" targetId="da06-c951-23fd-0cb4" type="selectionEntry"/>
-    <entryLink id="e8dc-8a49-002f-401f" name="Traitor Enforcer" hidden="false" collective="false" import="true" targetId="40c2-caac-2369-2363" type="selectionEntry"/>
-    <entryLink id="d0b5-f361-0592-13d6" name="Abaddon the Despoiler" hidden="false" collective="false" import="true" targetId="962f-8f89-5ca7-2f65" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="345d-9813-b00b-fb17" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3d44-ceda-f259-42ad" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
-        <categoryLink id="8917-5111-c04b-d6ed" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="a04c-842e-cbc2-77d0" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="34ed-03c7-c4a2-1f1b" name="Cypher" hidden="false" collective="false" import="true" targetId="6b45-4252-f055-ad36" type="selectionEntry"/>
+    <entryLink id="b995-5a9d-6e53-cc84" name="Dark Commune" hidden="false" collective="false" import="true" targetId="1606-f6b3-c088-97aa" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2429-dd39-b3b9-098f" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="17d8-e823-164b-f970" name="Chaos Lord in Terminator Armor" hidden="false" collective="false" import="true" targetId="d322-0311-740f-8a04" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2fc0-5167-c330-f3fb" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4bed-7d0a-31d4-87eb" name="Chaos Beastmen" hidden="false" collective="false" import="true" targetId="6d6c-a1eb-ffbb-3a88" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4ec8-ed74-b94a-8390" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="04ab-39a5-e5fc-9923" name="Accursed Cultists" hidden="false" collective="false" import="true" targetId="da06-c951-23fd-0cb4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e9a3-c207-ed09-09be" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e8dc-8a49-002f-401f" name="Traitor Enforcer" hidden="false" collective="false" import="true" targetId="40c2-caac-2369-2363" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="915c-2f42-0c26-a54a" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="34ed-03c7-c4a2-1f1b" name="Cypher" hidden="false" collective="false" import="true" targetId="6b45-4252-f055-ad36" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="902d-10db-c6aa-e997" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="1d80-5afa-80be-e5ef" name="Sorcerer in Terminator Armor" hidden="false" collective="false" import="true" targetId="fd4a-c535-8e8a-cff0" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6936-9c0b-6707-d6dd" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="0707-a4fb-6f05-a0f4" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7b1e-325c-ab4f-3c6e" name="Warsmith" hidden="false" collective="false" import="true" targetId="84cb-b970-8530-e6eb" type="selectionEntry">
@@ -635,6 +834,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink id="d3df-2460-8790-da3c" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
     </entryLink>
     <entryLink id="fa21-ed6f-4cbd-275c" name="Tyrant Siege Terminator Squad" hidden="false" collective="false" import="true" targetId="87df-cae4-2cbb-8e47" type="selectionEntry">
       <modifiers>
@@ -644,6 +846,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink id="c16a-902c-fce4-af2a" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -659,7 +864,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -729,7 +934,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -806,7 +1011,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -916,7 +1121,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -987,7 +1192,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -1053,7 +1258,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1151,7 +1356,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1203,7 +1408,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -1297,7 +1502,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1369,7 +1574,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -1443,7 +1648,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1490,7 +1695,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -1564,7 +1769,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -1650,7 +1855,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1771,7 +1976,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -1789,7 +1994,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -1889,7 +2094,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -1907,7 +2112,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -1964,7 +2169,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -1982,7 +2187,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -2064,7 +2269,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -2082,7 +2287,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -2151,7 +2356,7 @@
                 <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                 <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                 <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                 <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
               </characteristics>
             </profile>
@@ -2214,7 +2419,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -2294,7 +2499,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -2312,7 +2517,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">8</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -2456,7 +2661,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -2474,7 +2679,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -2536,7 +2741,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -2554,7 +2759,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -2623,7 +2828,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">24</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -2641,7 +2846,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -2713,7 +2918,7 @@
                 <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                 <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                 <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                 <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
               </characteristics>
             </profile>
@@ -2780,7 +2985,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -2931,7 +3136,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -2949,7 +3154,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -2977,7 +3182,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -3210,7 +3415,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -3313,7 +3518,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -3429,7 +3634,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -3451,7 +3656,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -3477,7 +3682,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -3501,7 +3706,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -3569,7 +3774,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -3591,7 +3796,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -3617,7 +3822,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -3652,13 +3857,20 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
         <profile id="4bef-184d-3685-11b7" name="Lord of Chaos" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made by friendly BLACK LEGION and friendly SERVANTS OF THE ABYSS units whilst they are within 6&quot; of this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e474-dbc7-65ad-0f4e" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
+• Chosen
+• Legionaries</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3691,7 +3903,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
           </characteristics>
         </profile>
@@ -3746,7 +3958,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
           </characteristics>
         </profile>
@@ -3872,48 +4084,6 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9d64-9495-3147-ecdd" name="Traitor Guardsmen" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="d9c5-3ad3-a07d-7df2" name="Traitor Guardsmen (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="5fde-6d96-e55a-3160" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
-        <categoryLink id="8434-f717-9f82-1091" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
-        <categoryLink id="14d3-d2f5-b034-77e1" name="Faction: Servants of the Abyss" hidden="false" targetId="24b1-d03e-7c15-b914" primary="false"/>
-        <categoryLink id="71fe-9b92-ae87-7eba" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="0af8-3e00-afe6-dac2" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="69cc-4286-b229-3e07" name="Traitor Guardsmen" hidden="false" targetId="62cf-a525-5eb0-30a3" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="715f-10d8-f2cf-3f0a" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="6144-aa85-b770-2f33" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1aac-c6bd-76e2-0107" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7a4-a6e0-6f81-3f99" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="521d-c8db-f78e-9397" name="Flamer" hidden="false" collective="false" import="true" targetId="0367-a01f-0c7d-7b64" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="374c-d778-fe06-f3da" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbf8-0770-c301-9b31" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="2302-93fa-3ac1-dcf1" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="31ce-ca3a-3013-e847" name="Las Weapons" hidden="false" collective="false" import="true" targetId="0bb7-054e-7e45-7162" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="5663-4c4a-cbc3-0a31" name="Legion Filter" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b28-c3ed-ab6f-7256" type="min"/>
@@ -3955,7 +4125,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">11+</characteristic>
                   </characteristics>
                 </profile>
@@ -3973,7 +4143,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">11+</characteristic>
                   </characteristics>
                 </profile>
@@ -4113,7 +4283,7 @@ When this unit is selected to perform its action, you may remove a damage marker
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -4166,7 +4336,7 @@ When this unit is selected to perform its action, you may remove a damage marker
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">11+</characteristic>
           </characteristics>
         </profile>
@@ -4274,7 +4444,7 @@ When this unit is selected to perform its action, you may remove a damage marker
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
           </characteristics>
         </profile>
@@ -4290,7 +4460,13 @@ When this unit is selected to perform its action, you may remove a damage marker
         </profile>
         <profile id="4236-54aa-a050-05c6" name="Forward, for the Dark Gods!" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per turn, when a friendly TRAITOR GUARDSMEN SQUAD within 6&quot; of this unit fails a Morale test, that unit automatically passes instead.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is leading a unit, that unit automatically passes Leadership tests.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="511f-930e-a505-44a4" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
+• Cultist Mob</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4305,16 +4481,16 @@ When this unit is selected to perform its action, you may remove a damage marker
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="435a-49c3-de64-abdd" name="Gellerpox Infexted" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="435a-49c3-de64-abdd" name="Gellerpox Infected" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="934e-001e-5ff7-bf74" name="Gellerpox Infexted" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="934e-001e-5ff7-bf74" name="Gellerpox Infected" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">6+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
           </characteristics>
         </profile>
@@ -4364,7 +4540,7 @@ When this unit is selected to perform its action, you may remove a damage marker
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">13+</characteristic>
           </characteristics>
         </profile>
@@ -4406,7 +4582,7 @@ When this unit is selected to perform its action, you may remove a damage marker
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -4481,7 +4657,7 @@ When this unit is selected to perform its action, you may remove a damage marker
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -4550,7 +4726,7 @@ When this unit is selected to perform its action, you may remove a damage marker
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -4597,7 +4773,7 @@ When this unit is selected to perform its action, you may remove a damage marker
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -4644,7 +4820,7 @@ When this unit is selected to perform its action, you may remove a damage marker
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -4697,7 +4873,7 @@ When this unit is selected to perform its action, you may remove a damage marker
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -4800,7 +4976,7 @@ When this unit is selected to perform its action, you may remove a damage marker
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -4818,7 +4994,7 @@ When this unit is selected to perform its action, you may remove a damage marker
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -4846,7 +5022,7 @@ When this unit is selected to perform its action, you may remove a damage marker
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -4994,7 +5170,7 @@ When this unit is selected to perform its action, you may remove a damage marker
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -5048,7 +5224,7 @@ When this unit is selected to perform its action, you may remove a damage marker
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -5260,7 +5436,7 @@ When this unit is selected to perform its action, you may remove a damage marker
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -5278,7 +5454,7 @@ When this unit is selected to perform its action, you may remove a damage marker
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -5447,7 +5623,7 @@ When this unit is selected to perform its action, you may remove a damage marker
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="10f2-2ae7-897d-0d3d" name="Library - Chaos Space Marines" targetId="10f2-2ae7-897d-0d3d" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="a0ed-ec42-00ac-fd5b" name="Library - Weapons" targetId="02de-a64c-225d-8e88" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="8a94-e862-c384-d68b" name="Library - Chaos Space Marines" targetId="8a94-e862-c384-d68b" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="a0ed-ec42-00ac-fd5b" name="Library - Weapons" targetId="d2e9-8c51-33c4-d440" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

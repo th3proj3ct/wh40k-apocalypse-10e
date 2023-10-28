@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b705-9ea8-d8d9-d3f3" name="Imperium - Dark Angels" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b705-9ea8-d8d9-d3f3" name="Imperium - Dark Angels" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -378,9 +378,17 @@
         <categoryLink id="1d5d-43b7-a189-2d7f" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3492-9fa2-1625-69db" name="Azrael" hidden="false" collective="false" import="true" targetId="3cbe-c8ba-c8b4-3f8e" type="selectionEntry"/>
+    <entryLink id="3492-9fa2-1625-69db" name="Azrael" hidden="false" collective="false" import="true" targetId="3cbe-c8ba-c8b4-3f8e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2e6d-0137-70f2-3997" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="2f24-698b-bcee-3385" name="Belial" hidden="false" collective="false" import="true" targetId="3973-fc63-a673-ec32" type="selectionEntry"/>
-    <entryLink id="05f1-46a5-d852-d868" name="Asmodai" hidden="false" collective="false" import="true" targetId="c207-bb2b-3bf3-20ca" type="selectionEntry"/>
+    <entryLink id="05f1-46a5-d852-d868" name="Asmodai" hidden="false" collective="false" import="true" targetId="c207-bb2b-3bf3-20ca" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1fc2-8690-efbe-3eac" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="88df-ef3c-2ace-dbec" name="Talonmaster" hidden="false" collective="false" import="true" targetId="de97-eb8f-895e-ccf9" type="selectionEntry"/>
     <entryLink id="8d33-11b7-0f75-d983" name="Sammael" hidden="false" collective="false" import="true" targetId="905d-d514-3d6a-8ff1" type="selectionEntry"/>
     <entryLink id="84e2-64a1-7fca-9a87" name="Primaris Chaplain" hidden="false" collective="false" import="true" targetId="7813-d97a-0510-14e6" type="selectionEntry">
@@ -973,7 +981,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -1014,7 +1022,8 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
         <categoryLink id="e151-46c6-74a3-8875" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="5fd5-2f04-eb5a-16f3" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="04d4-0d14-58e3-622a" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="7894-8736-6435-1cc1" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="7894-8736-6435-1cc1" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="4810-4ebf-9639-5a81" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e6ec-eedc-dc1a-c14d" name="The Sword of Secrets" hidden="false" collective="false" import="true" type="upgrade">
@@ -1058,7 +1067,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -1090,10 +1099,11 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
         <categoryLink id="f4b2-9a45-521d-7b63" name="Belial" hidden="false" targetId="8121-541f-b6a2-36c7" primary="false"/>
         <categoryLink id="5e83-1222-9ff8-5562" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="3a77-3ba9-cdf2-fca0" name="Grand Master" hidden="false" targetId="d836-97e1-c391-f3e0" primary="false"/>
-        <categoryLink id="0022-0d3c-3c96-ca62" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="0022-0d3c-3c96-ca62" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="f2ed-9b8b-7bbe-2fd0" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="14d5-e522-b7a8-dd09" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="5d05-a174-ab1f-34ec" name="Terminator" hidden="false" targetId="3726-f1d3-1b96-0eb0" primary="false"/>
+        <categoryLink id="9bda-2caa-fa3b-94d1" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2ca8-e57f-df1c-7499" name="The Sword of Silence" hidden="false" collective="false" import="true" type="upgrade">
@@ -1144,7 +1154,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1177,9 +1187,10 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
         <categoryLink id="4fe0-ba3d-f900-7a62" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="8819-6dcf-7d13-5469" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="27d3-f8d3-b84e-3654" name="Grand Master" hidden="false" targetId="d836-97e1-c391-f3e0" primary="false"/>
-        <categoryLink id="665c-a61a-6fb7-10cc" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="665c-a61a-6fb7-10cc" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="93e5-f4af-1ffb-9daf" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="d324-95e0-fc2b-4336" name="Sammael" hidden="false" targetId="6693-a499-f60d-c30c" primary="false"/>
+        <categoryLink id="fd17-2f2c-b5c3-ec35" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="dfca-6a41-e6a6-babe" name="The Raven Sword" hidden="false" collective="false" import="true" type="upgrade">
@@ -1257,10 +1268,11 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
         <categoryLink id="7c56-70df-b3ff-bec7" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="73ef-e849-87ba-85c3" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="81a0-e296-fb33-ca97" name="Grand Master" hidden="false" targetId="d836-97e1-c391-f3e0" primary="false"/>
-        <categoryLink id="80e5-0d10-1962-8bde" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="80e5-0d10-1962-8bde" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="db0f-b144-1dc4-8778" name="Sammael" hidden="false" targetId="6693-a499-f60d-c30c" primary="false"/>
         <categoryLink id="94c4-3198-388f-5dc3" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="8961-a4f8-999c-6fbf" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="ce56-3904-41df-24a0" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9972-5564-40a5-c40a" name="The Raven Sword" hidden="false" collective="false" import="true" type="upgrade">
@@ -1343,11 +1355,11 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1451-9575-620e-aafc" name="Chaplain" hidden="false" targetId="89c1-3354-3e0d-279e" primary="false"/>
-        <categoryLink id="40c3-0e0c-7f50-cd02" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="40c3-0e0c-7f50-cd02" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="071c-1ded-d3b8-9550" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="fab5-bd92-75d7-74c6" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
         <categoryLink id="1977-a1f3-21db-e6a0" name="Faction: Deathwing" hidden="false" targetId="d673-6f6d-5df6-035c" primary="false"/>
-        <categoryLink id="e5de-29d4-c1e0-3f5e" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="e5de-29d4-c1e0-3f5e" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="5aa5-a5e7-3f6c-70ed" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="967c-618a-3955-b221" name="Interrogator-Chaplain" hidden="false" targetId="ebcd-c838-e016-6604" primary="false"/>
         <categoryLink id="2e4c-a8da-b109-e040" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
@@ -1407,7 +1419,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1416,14 +1428,14 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
         <infoLink id="0c47-e6d2-4335-1c3d" name="No Escape" hidden="false" targetId="1824-e730-c4b6-910a" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="568d-9120-24f5-50c1" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="568d-9120-24f5-50c1" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="c837-cd2d-571b-d858" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="78dc-aee2-f051-bde5" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
         <categoryLink id="b06d-c255-fa46-96df" name="Faction: Ravenwing" hidden="false" targetId="e2b5-b600-9791-7010" primary="false"/>
         <categoryLink id="fe7c-f04f-2c80-7258" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="5d56-21f2-3e8d-0bf1" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="a2ca-3255-2ca9-7796" name="Grand Master" hidden="false" targetId="d836-97e1-c391-f3e0" primary="false"/>
-        <categoryLink id="c045-766a-d5c3-8368" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="c045-766a-d5c3-8368" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="156f-513e-f41e-7fc6" name="Talonmaster" hidden="false" targetId="6c28-92e8-fde7-8b86" primary="false"/>
         <categoryLink id="17e3-8985-2aed-9688" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="f09e-6563-0e73-7e17" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
@@ -1482,7 +1494,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1507,12 +1519,13 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
         <categoryLink id="6549-6995-8f10-06bb" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
         <categoryLink id="e6dd-0119-3f4e-cfd8" name="Faction: Deathwing" hidden="false" targetId="d673-6f6d-5df6-035c" primary="false"/>
         <categoryLink id="3f41-cb18-10b2-3f1a" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
-        <categoryLink id="dc6c-e5ea-f224-3ea1" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="dc6c-e5ea-f224-3ea1" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="2161-1122-38aa-911b" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="c106-31c9-391d-7b61" name="Interrogator-Chaplain" hidden="false" targetId="ebcd-c838-e016-6604" primary="false"/>
         <categoryLink id="88a4-378e-ba27-72a5" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="0a91-e0d6-e61c-61cc" name="Priest" hidden="false" targetId="0642-3d2d-db41-9ddd" primary="false"/>
         <categoryLink id="8fdf-a110-0221-fd82" name="Chaplain" hidden="false" targetId="89c1-3354-3e0d-279e" primary="false"/>
+        <categoryLink id="c7cc-54eb-d6e7-f81a" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="993c-6f84-e3be-e02a" name="The Blades oF Reason" hidden="false" collective="false" import="true" type="upgrade">
@@ -1562,7 +1575,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -1593,7 +1606,8 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
         <categoryLink id="2fd6-1bf1-a96c-815e" name="Librarian" hidden="false" targetId="e934-b1d0-35ff-8cc4" primary="false"/>
         <categoryLink id="447e-4d36-cffc-df56" name="Ezekiel" hidden="false" targetId="2328-6a93-eccb-5303" primary="false"/>
         <categoryLink id="02d6-8b0f-0974-3a0d" name="Chief Librarian" hidden="false" targetId="50cb-96c6-f120-0e77" primary="false"/>
-        <categoryLink id="3d57-40c7-1c8b-e016" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="3d57-40c7-1c8b-e016" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="dc36-b293-185d-3711" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8305-df12-5849-7551" name="Traitor&apos;s Bane" hidden="false" collective="false" import="true" type="upgrade">
@@ -1659,11 +1673,11 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="0507-e23f-1803-d88c" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="0507-e23f-1803-d88c" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="e64b-0a33-8a73-3093" name="Commander" hidden="false" targetId="dd2e-b7ed-76c8-a4d9" primary="false"/>
         <categoryLink id="d3ab-c318-cb90-be5a" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="7d37-8e9a-f45b-2ff1" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
-        <categoryLink id="93f5-f72a-f0c6-e88d" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="93f5-f72a-f0c6-e88d" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="ddf0-e4c8-0306-5808" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="f940-4177-e740-b838" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="c382-3113-e12f-6e45" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
@@ -1734,11 +1748,11 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="e0f3-aa39-4ae4-3630" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="e0f3-aa39-4ae4-3630" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="6dc1-1662-dfe1-e52f" name="Commander" hidden="false" targetId="dd2e-b7ed-76c8-a4d9" primary="false"/>
         <categoryLink id="84e4-5321-0cda-7775" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="6ec7-2935-c8e7-7791" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
-        <categoryLink id="ba14-abe5-76fa-1f60" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="ba14-abe5-76fa-1f60" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="1416-81b7-7845-12ee" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="edfd-b03a-5c94-98e1" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="b89a-516e-80af-0b35" name="Master" hidden="false" targetId="06fe-0fb5-1263-898f" primary="false"/>
@@ -1798,12 +1812,12 @@ Hit roll</characteristic>
         <categoryLink id="c037-36c7-434b-4775" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="d8b1-c9cb-a186-3e51" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="a744-5f8b-d602-fbf0" name="Faction: Deathwing" hidden="false" targetId="d673-6f6d-5df6-035c" primary="false"/>
-        <categoryLink id="735a-5150-22af-9d87" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="735a-5150-22af-9d87" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="9d72-6014-5d8b-92bc" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="fbbe-5f0c-427b-bce3" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="7cc1-3869-173a-495b" name="Terminator" hidden="false" targetId="3726-f1d3-1b96-0eb0" primary="false"/>
         <categoryLink id="5547-3835-7735-a12b" name="Terminator Squad" hidden="false" targetId="bbab-ae5c-37ce-fdd1" primary="false"/>
-        <categoryLink id="a92c-4284-0f86-e2c8" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="a92c-4284-0f86-e2c8" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1ccd-29bc-854d-867f" name="Deathwing Power Weapons" hidden="false" collective="false" import="true" type="upgrade">
@@ -1863,7 +1877,7 @@ Hit roll</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -1881,7 +1895,7 @@ Hit roll</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -1955,12 +1969,12 @@ Hit roll</characteristic>
         <categoryLink id="e774-1040-0c39-6764" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="e583-e574-f451-c6f4" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="7966-a55c-fee9-063b" name="Faction: Deathwing" hidden="false" targetId="d673-6f6d-5df6-035c" primary="false"/>
-        <categoryLink id="91e2-062e-1220-a64f" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="91e2-062e-1220-a64f" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="7aad-1d9e-c4d9-6fc4" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="ca91-57a1-938c-75fa" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="210d-8f7a-bce8-2ac1" name="Terminator" hidden="false" targetId="3726-f1d3-1b96-0eb0" primary="false"/>
         <categoryLink id="afbe-0bb4-8077-34b0" name="Deathwing Knights" hidden="false" targetId="dc53-b0b5-4da5-1ad4" primary="false"/>
-        <categoryLink id="519a-1442-70f6-950e" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="519a-1442-70f6-950e" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9eed-ce6a-780b-6f4f" name="Deathwing Knight Weapons" hidden="false" collective="false" import="true" type="upgrade">
@@ -2001,7 +2015,7 @@ Hit roll</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -2019,7 +2033,7 @@ Hit roll</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -2042,9 +2056,10 @@ Hit roll</characteristic>
         <categoryLink id="b7a5-1c5d-caaa-1b8f" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="bba9-3351-c71f-7808" name="Biker" hidden="false" targetId="c8b5-9ad5-d8df-45f2" primary="false"/>
         <categoryLink id="f11a-93a5-21fc-0606" name="Bike Squad" hidden="false" targetId="b757-ee1d-19d8-135c" primary="false"/>
-        <categoryLink id="3d04-0d73-f563-25f2" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="3d04-0d73-f563-25f2" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="e71b-c2c8-e782-ecd7" name="Faction: Ravenwing" hidden="false" targetId="e2b5-b600-9791-7010" primary="false"/>
         <categoryLink id="82bd-a25e-5a8e-4847" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
+        <categoryLink id="e245-9ff0-0ef6-6990" name="New CategoryLink" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7600-7b42-5fe9-14b5" name="3 - 6 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="111c-1466-19ea-c3b8">
@@ -2062,7 +2077,7 @@ Hit roll</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -2080,7 +2095,7 @@ Hit roll</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -2150,11 +2165,12 @@ Hit roll</characteristic>
         <categoryLink id="5a73-d4d0-51bb-edb2" name="Attack Bike Squad" hidden="false" targetId="7652-b76a-a5c3-f1f9" primary="false"/>
         <categoryLink id="68f2-d811-9a39-d9b4" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="323d-50b9-f028-3fec" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
-        <categoryLink id="a170-be4b-773b-0ac7" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="a170-be4b-773b-0ac7" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="dc8a-02f5-5576-3e80" name="Biker" hidden="false" targetId="c8b5-9ad5-d8df-45f2" primary="false"/>
         <categoryLink id="e541-21b4-04f1-eb0c" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="ca25-6ce7-964e-81a5" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
         <categoryLink id="3a73-07f6-ecac-9390" name="Faction: Ravenwing" hidden="false" targetId="e2b5-b600-9791-7010" primary="false"/>
+        <categoryLink id="545e-1b86-3922-0c07" name="New CategoryLink" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7b48-3b1c-f072-6575" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
@@ -2250,7 +2266,7 @@ Hit roll</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -2265,7 +2281,8 @@ Hit roll</characteristic>
         <categoryLink id="6c92-f4be-0a5b-9721" name="Land Speeder" hidden="false" targetId="c13a-5687-1804-8a19" primary="false"/>
         <categoryLink id="25a7-167e-9dd0-c536" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="e9ef-2066-48c5-0a6b" name="Darkshroud" hidden="false" targetId="1408-2c87-9fd5-3bdf" primary="false"/>
-        <categoryLink id="d0f8-977e-1375-0a98" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="d0f8-977e-1375-0a98" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
+        <categoryLink id="42dd-4c8a-2200-a254" name="New CategoryLink" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5d14-b5dd-bd2c-329f" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
@@ -2320,7 +2337,7 @@ Hit roll</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -2335,7 +2352,8 @@ Hit roll</characteristic>
         <categoryLink id="13a2-bb47-6513-7aaa" name="Land Speeder" hidden="false" targetId="c13a-5687-1804-8a19" primary="false"/>
         <categoryLink id="ba15-de91-29a1-cea3" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="2f96-ff66-820f-50e5" name="Darkshroud" hidden="false" targetId="1408-2c87-9fd5-3bdf" primary="false"/>
-        <categoryLink id="b8fc-f224-3237-9cba" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="b8fc-f224-3237-9cba" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
+        <categoryLink id="44a4-4822-7e0f-f215" name="New CategoryLink" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b66a-c808-f322-88e9" name="Plasma Storm Battery" hidden="false" collective="false" import="true" type="upgrade">
@@ -2416,7 +2434,8 @@ Hit roll</characteristic>
         <categoryLink id="c344-18fc-fdae-6e02" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="db07-ef4d-9343-5b0b" name="Biker" hidden="false" targetId="c8b5-9ad5-d8df-45f2" primary="false"/>
         <categoryLink id="9bd4-1709-493c-91dc" name="Ravenwing Black Knights" hidden="false" targetId="e3bd-cef6-9d66-30f1" primary="false"/>
-        <categoryLink id="bbd7-053e-aa2a-dcff" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="bbd7-053e-aa2a-dcff" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
+        <categoryLink id="31b6-43b2-0e64-ee45" name="New CategoryLink" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2dd1-f5c9-6649-0b65" name="Black Knight Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
@@ -2457,7 +2476,7 @@ Hit roll</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -2475,7 +2494,7 @@ Hit roll</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -2503,7 +2522,7 @@ Hit roll</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -2522,9 +2541,9 @@ Hit roll</characteristic>
         <categoryLink id="bbeb-6f87-530d-ce50" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
         <categoryLink id="9db1-ddda-bd03-7202" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="c91a-2711-55c8-de74" name="Faction: Ravenwing" hidden="false" targetId="e2b5-b600-9791-7010" primary="false"/>
-        <categoryLink id="d20f-2115-f387-ced2" name="New CategoryLink" hidden="false" targetId="551a-ed52-fd35-9078" primary="true"/>
+        <categoryLink id="d20f-2115-f387-ced2" name="New CategoryLink" hidden="false" targetId="551a-ed52-fd35-9078" primary="false"/>
         <categoryLink id="2a44-0414-99a5-3598" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-        <categoryLink id="ee68-93dc-7f63-a84b" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="ee68-93dc-7f63-a84b" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="0bca-18e4-35d1-8e36" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="9ae3-2c1b-aecf-0300" name="Aircraft" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="false"/>
         <categoryLink id="14c3-4629-da45-c3ef" name="Dark Talon" hidden="false" targetId="aa71-2348-e01f-c59d" primary="false"/>
@@ -2588,7 +2607,7 @@ Hit roll</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -2601,9 +2620,9 @@ Hit roll</characteristic>
         <categoryLink id="6d8c-7d41-9870-4038" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
         <categoryLink id="9dc9-93a1-48bf-04d0" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="5a6e-14bc-5d07-d058" name="Faction: Ravenwing" hidden="false" targetId="e2b5-b600-9791-7010" primary="false"/>
-        <categoryLink id="afcc-53ab-dcec-9d76" name="New CategoryLink" hidden="false" targetId="551a-ed52-fd35-9078" primary="true"/>
+        <categoryLink id="afcc-53ab-dcec-9d76" name="New CategoryLink" hidden="false" targetId="551a-ed52-fd35-9078" primary="false"/>
         <categoryLink id="9a4d-2456-a73d-e6fb" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-        <categoryLink id="e023-4ab5-9e9e-8170" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="e023-4ab5-9e9e-8170" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="cec3-d50a-d60e-e973" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="925b-e2b5-88d0-7e38" name="Aircraft" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="false"/>
       </categoryLinks>
@@ -2682,7 +2701,7 @@ Hit roll</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -2718,7 +2737,7 @@ Hit roll</characteristic>
         <categoryLink id="1dbe-b063-fd0f-5e42" name="Commander" hidden="false" targetId="dd2e-b7ed-76c8-a4d9" primary="false"/>
         <categoryLink id="8e95-0784-0283-f0cd" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="23ec-5c42-27df-4fa0" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
-        <categoryLink id="b752-89cf-db52-f2a6" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="b752-89cf-db52-f2a6" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="c473-e496-9f90-6e42" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="075d-ef3c-b9d7-a097" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="a556-454e-8cb5-c2fb" name="Master" hidden="false" targetId="06fe-0fb5-1263-898f" primary="false"/>
@@ -2727,6 +2746,7 @@ Hit roll</characteristic>
         <categoryLink id="beb0-b036-ac7c-7938" name="Primaris" hidden="false" targetId="34ee-2cee-93bf-b3c3" primary="false"/>
         <categoryLink id="b48a-47c6-3027-c92a" name="Captain" hidden="false" targetId="7151-56f9-0163-eadc" primary="false"/>
         <categoryLink id="386b-ba6e-5b91-0537" name="Inner Circle" hidden="false" targetId="d537-b50c-719d-d101" primary="false"/>
+        <categoryLink id="1b7c-4997-8f95-603d" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="31d3-00ca-beb0-2899" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
@@ -2755,7 +2775,7 @@ Hit roll</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">
 3+</characteristic>
           </characteristics>
@@ -2784,8 +2804,9 @@ Hit roll</characteristic>
         <categoryLink id="d90e-c0c5-3643-0a7e" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="573b-7a20-5ef5-79e3" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="f27f-1988-8430-58e7" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
-        <categoryLink id="d78f-d2f2-9ec2-8a13" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="d78f-d2f2-9ec2-8a13" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="a8b5-9d22-b767-cbbf" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="4800-f05b-dd27-63cd" primary="false"/>
+        <categoryLink id="2d49-9809-8253-7c63" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5a3a-699f-dcbe-36fe" name="Arma Luminus" hidden="false" collective="false" import="true" type="upgrade">
@@ -2796,8 +2817,8 @@ Hit roll</characteristic>
           <profiles>
             <profile id="3fdb-c2f6-c9da-c5b7" name="Arma Luminus" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
@@ -2850,7 +2871,7 @@ Hit roll</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -2881,10 +2902,10 @@ Hit roll</characteristic>
         <categoryLink id="dfa6-424e-7020-2b51" name="Faction: Deathwing" hidden="false" targetId="d673-6f6d-5df6-035c" primary="false"/>
         <categoryLink id="71db-3baf-052d-cd0f" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="d3fc-98bb-d1b4-e504" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="baf0-528a-0722-2db8" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="baf0-528a-0722-2db8" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="c165-8d32-be3a-c36c" name="Ancient" hidden="false" targetId="69b9-2dfd-81e6-5540" primary="false"/>
         <categoryLink id="b584-33f3-6417-a26a" name="Terminator" hidden="false" targetId="3726-f1d3-1b96-0eb0" primary="false"/>
-        <categoryLink id="8400-85e5-3a22-ab95" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="8400-85e5-3a22-ab95" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d8e8-b81e-e516-4388" name="Exalted Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2918,13 +2939,14 @@ Hit roll</characteristic>
         <infoLink id="7bb5-9291-8823-b674" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="020a-c2c9-dc0b-6c6c" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="020a-c2c9-dc0b-6c6c" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="9d72-044f-2ef1-9743" name="Faction: Deathwing" hidden="false" targetId="d673-6f6d-5df6-035c" primary="false"/>
         <categoryLink id="c6ba-8b1c-e20c-c150" name="Deathwing Knights" hidden="false" targetId="dc53-b0b5-4da5-1ad4" primary="false"/>
         <categoryLink id="9f83-2ed2-e180-75ae" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="42bb-1828-d7cc-a37d" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
         <categoryLink id="1fac-28a1-c08b-6048" name="Terminator" hidden="false" targetId="3726-f1d3-1b96-0eb0" primary="false"/>
         <categoryLink id="58ee-d6e4-31d5-286f" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="7110-c61b-0141-4f93" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3ed9-928e-0794-8f5a" name="Deathwing Ancient" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -3042,7 +3064,7 @@ Hit roll</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -3060,7 +3082,7 @@ Hit roll</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -3105,7 +3127,7 @@ Hit roll</characteristic>
     </selectionEntry>
     <selectionEntry id="c0b5-7a94-e6a5-a83e" name="Ravenwing Command Squad" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink id="2a81-3747-c0fe-edaf" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="2a81-3747-c0fe-edaf" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="c806-3243-6642-f93f" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="8108-ba0e-3f74-bc2e" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
         <categoryLink id="bf04-a87e-bfd9-8a07" name="Faction: Ravenwing" hidden="false" targetId="e2b5-b600-9791-7010" primary="false"/>
@@ -3113,6 +3135,7 @@ Hit roll</characteristic>
         <categoryLink id="ddde-745b-73ff-83a2" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="2e92-1a32-dcb4-23eb" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="4ddf-4fb8-159e-a9bd" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="487d-d6a9-87de-b3da" name="New CategoryLink" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="34b9-498e-12e1-0223" name="Ravenwing Ancient" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -3230,7 +3253,7 @@ Hit roll</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -3248,7 +3271,7 @@ Hit roll</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -3418,6 +3441,6 @@ Hit roll</characteristic>
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="849a-f744-5200-d47b" name="Library - Space Marines" targetId="98c2-e7ca-4cd2-d189" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="849a-f744-5200-d47b" name="Library - Space Marines" targetId="7c79-7dbd-6585-0846" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

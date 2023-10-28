@@ -1,82 +1,141 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="722e-4aa1-aa02-0a8e" name="Chaos - World Eaters" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="722e-4aa1-aa02-0a8e" name="Chaos - World Eaters" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="c913-9d94-a2e1-c4a0" name="Helbrute" hidden="false" collective="false" import="true" targetId="3ca7-9758-48ff-235b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c861-e3c3-d126-e460" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
         <categoryLink id="057e-ad21-6023-a8f3" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+        <categoryLink id="95a2-752f-e9bc-f49d" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bfe1-68f2-b3e8-eb73" name="Chaos Spawn" hidden="false" collective="false" import="true" targetId="ed66-68de-c8bb-af54" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ef17-07d6-5298-2536" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
         <categoryLink id="17a5-3051-8a49-bc66" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+        <categoryLink id="3195-038b-9541-e9ea" name="New CategoryLink" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="32ae-67b9-197e-bb81" name="Defiler" hidden="false" collective="false" import="true" targetId="7278-4a41-c1ee-16f3" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="db40-cb01-c321-b240" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
         <categoryLink id="0572-182a-5073-3631" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+        <categoryLink id="88c0-c3f3-acab-de20" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9826-4d83-3488-0808" name="Forgefiend" hidden="false" collective="false" import="true" targetId="c977-6ee2-730c-59f6" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0651-fdf8-899c-d1f7" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
         <categoryLink id="79ce-62d7-1bd1-41cc" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+        <categoryLink id="765c-a145-3daa-412f" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0345-7e43-3227-cfa8" name="Maulerfiend" hidden="false" collective="false" import="true" targetId="a3df-c6a8-8b25-46ee" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5776-eaef-3c7b-f688" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
         <categoryLink id="9c2b-045b-acab-460d" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
+        <categoryLink id="c7b6-0f35-bfb8-541a" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="d206-c52f-90c9-6235" name="Chaos Rhino" hidden="false" collective="false" import="true" targetId="274e-d2a4-8f7b-e69d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="554d-22fd-c50a-71ce" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
         <categoryLink id="e7af-e1a0-2131-b1cc" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
+        <categoryLink id="0279-1fa1-1dec-4364" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f163-4249-df63-591d" name="Heldrake" hidden="false" collective="false" import="true" targetId="92bd-5224-16c2-5754" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="d942-6c6d-334c-fafe" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
         <categoryLink id="2500-9234-b1a0-8df2" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="8738-063f-1547-55bb" name="Angron" hidden="false" collective="false" import="true" targetId="80f8-50fb-e106-f63a" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="321b-41be-e3dd-291f" name="New CategoryLink" hidden="false" targetId="4800-f05b-dd27-63cd" primary="true"/>
+        <categoryLink id="2080-539e-179d-1da9" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="cc4d-e75e-3ac1-dbc9" name="Angron" hidden="false" collective="false" import="true" targetId="80f8-50fb-e106-f63a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0da9-b7ef-72e2-e429" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+        <categoryLink id="0da9-b7ef-72e2-e429" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
+        <categoryLink id="c49c-5b2f-820a-6bed" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5f2c-44bf-08e9-3fc4" name="Eightbound" hidden="false" collective="false" import="true" targetId="c326-87d1-b2bd-f1d5" type="selectionEntry"/>
-    <entryLink id="a152-ddc7-7fcd-605b" name="Exalted Eightbound" hidden="false" collective="false" import="true" targetId="a1a3-e2c8-cb04-9011" type="selectionEntry"/>
-    <entryLink id="6ee4-240b-c01a-60fd" name="Kharn the Betrayer" hidden="false" collective="false" import="true" targetId="a7af-8df1-b912-c801" type="selectionEntry"/>
-    <entryLink id="57c4-b4aa-aa21-6cd9" name="Lord Invocatus" hidden="false" collective="false" import="true" targetId="ea70-026b-0f33-ab4d" type="selectionEntry"/>
-    <entryLink id="a4e0-c6e6-e422-c334" name="World Eaters Daemon Prince" hidden="false" collective="false" import="true" targetId="36b4-26df-117e-04f4" type="selectionEntry"/>
-    <entryLink id="d51b-74bc-1a04-9da5" name="World Eaters Lord on Juggernaut" hidden="false" collective="false" import="true" targetId="e7c0-7fdc-c72b-80d9" type="selectionEntry"/>
-    <entryLink id="996c-d648-762b-78af" name="World Eaters Master of Executions" hidden="false" collective="false" import="true" targetId="5b7c-2563-e494-458a" type="selectionEntry"/>
-    <entryLink id="6b4d-9b0a-7f65-2a07" name="Jakhals" hidden="false" collective="false" import="true" targetId="9bf9-e308-cfa2-32ec" type="selectionEntry"/>
-    <entryLink id="ee36-ae7e-98bc-5727" name="Khorne Berzerkers" hidden="false" collective="false" import="true" targetId="d230-ec57-8507-7c32" type="selectionEntry"/>
-    <entryLink id="bed8-5235-49d2-0773" name="World EatersTerminator Squad" hidden="false" collective="false" import="true" targetId="7c4c-eae3-69bb-e23a" type="selectionEntry"/>
-    <entryLink id="3031-ecaa-fb1f-fe3a" name="Khorne Lord of Skulls" hidden="false" collective="false" import="true" targetId="2e75-ac4c-1430-5baf" type="selectionEntry"/>
+    <entryLink id="5f2c-44bf-08e9-3fc4" name="Eightbound" hidden="false" collective="false" import="true" targetId="c326-87d1-b2bd-f1d5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f7ac-a1dd-231f-2b33" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a152-ddc7-7fcd-605b" name="Exalted Eightbound" hidden="false" collective="false" import="true" targetId="a1a3-e2c8-cb04-9011" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d800-8e49-76b4-5843" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6ee4-240b-c01a-60fd" name="Kharn the Betrayer" hidden="false" collective="false" import="true" targetId="a7af-8df1-b912-c801" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="967f-2849-c8f7-962b" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="57c4-b4aa-aa21-6cd9" name="Lord Invocatus" hidden="false" collective="false" import="true" targetId="ea70-026b-0f33-ab4d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0409-f1aa-9ea5-7d34" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a4e0-c6e6-e422-c334" name="World Eaters Daemon Prince" hidden="false" collective="false" import="true" targetId="36b4-26df-117e-04f4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1960-8b74-6945-431b" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d51b-74bc-1a04-9da5" name="World Eaters Lord on Juggernaut" hidden="false" collective="false" import="true" targetId="e7c0-7fdc-c72b-80d9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6121-ebd1-8376-bbb1" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="996c-d648-762b-78af" name="World Eaters Master of Executions" hidden="false" collective="false" import="true" targetId="5b7c-2563-e494-458a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f9b3-3bae-68d3-60f2" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6b4d-9b0a-7f65-2a07" name="Jakhals" hidden="false" collective="false" import="true" targetId="9bf9-e308-cfa2-32ec" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="52a5-82f8-c8c8-136f" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ee36-ae7e-98bc-5727" name="Khorne Berzerkers" hidden="false" collective="false" import="true" targetId="d230-ec57-8507-7c32" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5f14-1581-48d9-712b" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bed8-5235-49d2-0773" name="World Eaters Terminator Squad" hidden="false" collective="false" import="true" targetId="7c4c-eae3-69bb-e23a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="09b0-954e-a504-a569" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3031-ecaa-fb1f-fe3a" name="Khorne Lord of Skulls" hidden="false" collective="false" import="true" targetId="2e75-ac4c-1430-5baf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7d8c-528f-f656-2de4" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="828b-3bbc-85ae-4fbe" name="Chaos Predator Annihilator" hidden="false" collective="false" import="true" targetId="8dbc-6837-ede6-1e74" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="9a86-53f0-c608-1aba" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
         <categoryLink id="0d83-e059-4f76-c8e2" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+        <categoryLink id="dcb2-bf67-60b5-ec75" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="12a3-2a55-8386-d063" name="Chaos Predator Destructor" hidden="false" collective="false" import="true" targetId="2646-38f6-549d-e80d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f61c-31c4-6208-f02d" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
         <categoryLink id="1efd-3a64-8bd2-2ce2" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+        <categoryLink id="0071-d8b5-f3b2-837e" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5034-f2f0-4cc7-0f2e" name="World Eaters Land Raider" hidden="false" collective="false" import="true" targetId="a764-69a9-9820-694b" type="selectionEntry"/>
+    <entryLink id="5034-f2f0-4cc7-0f2e" name="World Eaters Land Raider" hidden="false" collective="false" import="true" targetId="a764-69a9-9820-694b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cca4-07d5-669b-a447" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bc70-3956-20a6-d66d" name="Greater Brass Scorpion" hidden="false" collective="false" import="true" targetId="f692-9c00-d320-323c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="813c-0fff-dec2-8e5b" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+        <categoryLink id="3599-6274-640c-4889" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="80f8-50fb-e106-f63a" name="Angron" hidden="false" collective="false" import="true" type="unit">
@@ -97,7 +156,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -163,7 +222,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -235,7 +294,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -293,7 +352,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -368,7 +427,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -426,7 +485,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -562,7 +621,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -580,7 +639,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -777,7 +836,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -923,7 +982,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -941,7 +1000,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -1020,7 +1079,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -1038,7 +1097,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">8</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -1235,7 +1294,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -1299,7 +1358,7 @@ can re-roll the Hit roll and you can re-roll the Wound roll. If, at the end of t
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1359,7 +1418,7 @@ can re-roll the Hit roll and you can re-roll the Wound roll. If, at the end of t
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="603f-b38c-e872-4870" name="Library - Chaos Space Marines" targetId="10f2-2ae7-897d-0d3d" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="2958-e29d-870c-2808" name="Weapons" targetId="02de-a64c-225d-8e88" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="603f-b38c-e872-4870" name="Library - Chaos Space Marines" targetId="8a94-e862-c384-d68b" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="2958-e29d-870c-2808" name="Weapons" targetId="d2e9-8c51-33c4-d440" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

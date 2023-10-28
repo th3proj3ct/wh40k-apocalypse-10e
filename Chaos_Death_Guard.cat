@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5731-5979-9f63-f103" name="Chaos - Death Guard" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5731-5979-9f63-f103" name="Chaos - Death Guard" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="466a-33f5-0faf-5cd1" name="Faction: The Tainted" hidden="false"/>
     <categoryEntry id="f6d9-ab1f-fe48-ea06" name="Necrosius the Undying" hidden="false"/>
@@ -28,216 +28,327 @@
     <categoryEntry id="a60c-03d3-7296-7e30" name="Bubonic Astartes" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="b7e7-f43e-54e7-8da0" name="Chaos Decimator" hidden="false" collective="false" import="true" targetId="9e88-67db-d4e3-fb01" type="selectionEntry">
+    <entryLink id="b7e7-f43e-54e7-8da0" name="Decimator" hidden="false" collective="false" import="true" targetId="9e88-67db-d4e3-fb01" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0891-45c1-cebb-15d4" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="d7b4-3ced-8a2d-f898" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="8293-9b68-2173-b9d6" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a171-3d6c-2fd7-d8ce" name="Chaos Contemptor Dreadnought" hidden="false" collective="false" import="true" targetId="a237-dcd0-5abf-c97f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="64c9-f952-fdf1-f08b" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="85c1-eed4-67c8-d079" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="a91f-61eb-f227-d3b7" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6700-43ea-a58f-ee3e" name="Hellforged Land Raider Proteus" hidden="false" collective="false" import="true" targetId="dc43-f0a2-58b7-b478" type="selectionEntry">
+    <entryLink id="6700-43ea-a58f-ee3e" name="Chaos Land Raider Proteus" hidden="false" collective="false" import="true" targetId="dc43-f0a2-58b7-b478" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="498f-904a-2234-21ef" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="fc65-92fc-b177-9ef7" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="aeea-327d-4aee-a11b" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e47c-89fd-e79a-0b07" name="Hellforged Land Raider Achilles" hidden="false" collective="false" import="true" targetId="84f5-0ff1-0c1b-a0c6" type="selectionEntry">
+    <entryLink id="e47c-89fd-e79a-0b07" name="Chaos Land Raider Achilles" hidden="false" collective="false" import="true" targetId="84f5-0ff1-0c1b-a0c6" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ee8b-feb0-6edf-45d6" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="9673-2c5a-2a65-a6e3" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="19a1-0154-1971-3dbd" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="aefc-16f8-466d-70b4" name="Hellforged Scorpius" hidden="false" collective="false" import="true" targetId="660d-f9b6-ddc9-9946" type="selectionEntry">
+    <entryLink id="aefc-16f8-466d-70b4" name="Chaos Whirlwind Scorpius" hidden="false" collective="false" import="true" targetId="660d-f9b6-ddc9-9946" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="d832-3461-750b-b0f6" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="b9b5-95f3-b9e4-9016" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="7f4c-c33d-8343-347a" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="54d4-545f-7a66-1977" name="Hellforged Sicaran Venator" hidden="false" collective="false" import="true" targetId="721a-be95-29eb-4766" type="selectionEntry">
+    <entryLink id="54d4-545f-7a66-1977" name="Chaos Sicaran Venator" hidden="false" collective="false" import="true" targetId="721a-be95-29eb-4766" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="cda0-424a-ee99-90ce" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="845f-9ce4-1ea3-53f1" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="bc98-e214-6076-a53b" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f858-8823-30e7-acd5" name="Hellforged Spartan Assault Tank" hidden="false" collective="false" import="true" targetId="5f94-7327-3258-42fb" type="selectionEntry">
+    <entryLink id="f858-8823-30e7-acd5" name="Chaos Spartan" hidden="false" collective="false" import="true" targetId="5f94-7327-3258-42fb" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="d181-1da3-0d8a-e3bd" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="4b44-f08b-856f-22bc" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="acb4-d830-3ed7-1dff" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="809f-5811-d9bf-2112" name="Hellforged Deredeo Dreadnought" hidden="false" collective="false" import="true" targetId="b186-9dcb-3dc3-2454" type="selectionEntry">
+    <entryLink id="809f-5811-d9bf-2112" name="Chaos Deredeo Dreadnought" hidden="false" collective="false" import="true" targetId="b186-9dcb-3dc3-2454" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="d68d-ce64-85cb-f492" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="2fd7-dc4d-4be7-8527" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="c42a-07a7-9f99-721d" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c9e9-42b1-b7ce-4f9b" name="Hellforged Leviathan Dreadnought" hidden="false" collective="false" import="true" targetId="ba52-d3a1-0032-94b0" type="selectionEntry">
+    <entryLink id="c9e9-42b1-b7ce-4f9b" name="Chaos Leviathan Dreadnought" hidden="false" collective="false" import="true" targetId="ba52-d3a1-0032-94b0" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b8ab-8455-5193-bcb7" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="5157-4040-eae3-e7fc" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="7535-280d-81be-bcd8" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7022-23e0-d3ac-5ccf" name="Hellforged Dreadclaw Drop Pod" hidden="false" collective="false" import="true" targetId="6962-3f8f-63d3-803c" type="selectionEntry">
+    <entryLink id="7022-23e0-d3ac-5ccf" name="Dreadclaw Drop Pod" hidden="false" collective="false" import="true" targetId="6962-3f8f-63d3-803c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ba90-0cc3-b781-ab90" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="87f6-a0a8-b27f-e470" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="0a2e-996c-bf65-b69c" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="fccb-a7c8-90e7-14a6" name="Hellforged Cerberus Heavy Destroyer" hidden="false" collective="false" import="true" targetId="e39f-1bdb-b3aa-1d6c" type="selectionEntry">
+    <entryLink id="fccb-a7c8-90e7-14a6" name="Chaos Cerberus" hidden="false" collective="false" import="true" targetId="e39f-1bdb-b3aa-1d6c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c3a1-ac61-a6be-d63d" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="90c6-0a79-8edf-95f5" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="d36a-8462-4e58-2958" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a26a-f22f-74ec-2ee7" name="Hellforged Typhon Heavy Siege Tank" hidden="false" collective="false" import="true" targetId="3503-4ef7-b6f7-6c37" type="selectionEntry">
+    <entryLink id="a26a-f22f-74ec-2ee7" name="Chaos Typhon" hidden="false" collective="false" import="true" targetId="3503-4ef7-b6f7-6c37" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="326c-102d-5d94-7d2d" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="8c85-1431-c261-2fad" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="fc81-7039-b856-c383" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f6ee-1c10-da94-7d9f" name="Hellforged Fellblade" hidden="false" collective="false" import="true" targetId="1481-8054-00fd-6add" type="selectionEntry">
+    <entryLink id="f6ee-1c10-da94-7d9f" name="Chaos Fellblade" hidden="false" collective="false" import="true" targetId="1481-8054-00fd-6add" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="dc15-c48e-e76b-7f18" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="0e66-b4c0-5fd6-7994" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="36a3-9dd8-7e3b-665c" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5f92-13d8-dec5-f473" name="Hellforged Falchion" hidden="false" collective="false" import="true" targetId="7c0d-9c5e-91ba-ced6" type="selectionEntry">
+    <entryLink id="5f92-13d8-dec5-f473" name="Chaos Falchion" hidden="false" collective="false" import="true" targetId="7c0d-9c5e-91ba-ced6" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5fdd-78ee-2782-d471" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="48f2-083a-87e9-2a58" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="180b-a64d-e1ab-949d" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8886-de3f-e844-4e9f" name="Hellforged Mastodon" hidden="false" collective="false" import="true" targetId="033e-f9c8-c4b0-2f34" type="selectionEntry">
+    <entryLink id="8886-de3f-e844-4e9f" name="Chaos Mastodon" hidden="false" collective="false" import="true" targetId="033e-f9c8-c4b0-2f34" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="51cd-e6fd-370e-73f2" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="27fb-5aa6-cb66-13ac" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="74a1-f232-d0cb-0a73" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9fcb-61af-3edc-a385" name="Chaos Hell Blade" hidden="false" collective="false" import="true" targetId="b299-fe4e-bf7e-f9b1" type="selectionEntry">
+    <entryLink id="9fcb-61af-3edc-a385" name="Hell Blade" hidden="false" collective="false" import="true" targetId="b299-fe4e-bf7e-f9b1" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="2069-aca2-fd39-715e" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="4603-f081-f2ef-833d" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="1c04-3a48-fe0c-986b" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="96ed-530f-dfac-04d8" name="Chaos Hell Talon" hidden="false" collective="false" import="true" targetId="b8d9-844d-d0fb-1ac2" type="selectionEntry">
+    <entryLink id="96ed-530f-dfac-04d8" name="Hell Talon" hidden="false" collective="false" import="true" targetId="b8d9-844d-d0fb-1ac2" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7913-83b4-9d8d-5b43" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="0d99-e989-55f9-08eb" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="bb31-4ee1-7718-61e7" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ad20-5e15-0650-629c" name="Chaos Storm Eagle Assault Gunship" hidden="false" collective="false" import="true" targetId="e8ee-b78e-6d77-a8ad" type="selectionEntry">
+    <entryLink id="ad20-5e15-0650-629c" name="Chaos Storm Eagle Gunship" hidden="false" collective="false" import="true" targetId="e8ee-b78e-6d77-a8ad" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e5db-0a88-b7d8-d738" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="de01-5af6-7294-825a" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="f38f-529e-6b1d-2e6e" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f740-8ca9-b999-9bce" name="Chaos Fire Raptor Assault Gunship" hidden="false" collective="false" import="true" targetId="a0f9-589e-8b1a-a844" type="selectionEntry">
+    <entryLink id="f740-8ca9-b999-9bce" name="Chaos Fire Raptor Gunship" hidden="false" collective="false" import="true" targetId="a0f9-589e-8b1a-a844" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3349-1a15-7be2-650a" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="abd1-6cd5-fe1e-b156" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="d571-9623-a8e1-5078" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0af3-8c62-b3c4-6683" name="Chaos Thunderhawk Assault Gunship" hidden="false" collective="false" import="true" targetId="bb86-f1fb-b77f-2ba1" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4075-7b42-168f-1a00" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="36d5-24a0-cfa2-9a7f" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="5070-cd75-d477-8d4a" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e235-7f3f-0296-ca89" name="Chaos Sokar Pattern Stormbird Gunship" hidden="false" collective="false" import="true" targetId="ff97-c9c5-ad18-6f68" type="selectionEntry">
+    <entryLink id="e235-7f3f-0296-ca89" name="Chaos Sokar Pattern Stormbird" hidden="false" collective="false" import="true" targetId="ff97-c9c5-ad18-6f68" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3610-4b96-e7f9-b49a" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="2614-acfc-3e62-fe39" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="e696-94e3-996b-8d64" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="cb31-cc56-4e50-81ea" name="Chaos Xiphon Interceptor" hidden="false" collective="false" import="true" targetId="30f0-cfb8-37dd-16b0" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="cc0f-6c18-4ff7-dad9" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="ab20-1562-bd9e-341d" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="4646-7151-25de-b1d7" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="d085-8483-5a60-961f" name="Chaos Vindicator Laser Destroyer" hidden="false" collective="false" import="true" targetId="a89c-60d1-ab95-cb47" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="012b-295a-649c-9f75" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="d0ed-9862-fb9c-be6b" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="2c42-4e6c-1514-6c43" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7b46-c220-1bba-ce3c" name="Terrax-Pattern Termite Assault Drill" hidden="false" collective="false" import="true" targetId="56e4-bce0-be0a-9f92" type="selectionEntry">
+    <entryLink id="7b46-c220-1bba-ce3c" name="Chaos Terrax-Pattern Termite" hidden="false" collective="false" import="true" targetId="56e4-bce0-be0a-9f92" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="97fe-ccb4-6d74-05b1" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="7c55-aec6-52ba-0c45" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="31de-8a40-db0c-b4fe" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="578d-41d1-26cc-3d54" name="Helbrute" hidden="false" collective="false" import="true" targetId="3ca7-9758-48ff-235b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1084-889b-163d-10d6" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="2416-d9f3-52d7-d6da" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="1187-297c-d2ad-22aa" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a850-8730-bd60-e0c1" name="Death Guard Daemon Prince" hidden="false" collective="false" import="true" targetId="e830-e821-04db-978a" type="selectionEntry"/>
-    <entryLink id="7803-ebef-60c8-1d8b" name="Typhus" hidden="false" collective="false" import="true" targetId="32de-ce1a-25c3-af45" type="selectionEntry"/>
-    <entryLink id="b404-56e2-8f2a-3c01" name="Lord of Contagion" hidden="false" collective="false" import="true" targetId="ea83-76e7-98a4-88a2" type="selectionEntry"/>
-    <entryLink id="4746-e56e-73c5-7ff6" name="Malignant Plaguecaster" hidden="false" collective="false" import="true" targetId="4b4f-14f0-0b4c-cc6d" type="selectionEntry"/>
+    <entryLink id="a850-8730-bd60-e0c1" name="Death Guard Daemon Prince" hidden="false" collective="false" import="true" targetId="e830-e821-04db-978a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b2b9-f7d2-adbc-4b3e" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7803-ebef-60c8-1d8b" name="Typhus" hidden="false" collective="false" import="true" targetId="32de-ce1a-25c3-af45" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0253-2805-04cd-4844" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b404-56e2-8f2a-3c01" name="Lord of Contagion" hidden="false" collective="false" import="true" targetId="ea83-76e7-98a4-88a2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5585-3395-e6ab-be95" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4746-e56e-73c5-7ff6" name="Malignant Plaguecaster" hidden="false" collective="false" import="true" targetId="4b4f-14f0-0b4c-cc6d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1c28-9bbf-347c-d711" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="6788-682e-bcc1-e717" name="Death Guard Cultists" hidden="false" collective="false" import="true" targetId="e209-2218-7454-b324" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="05a1-8b28-19f9-6461" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="5e67-5cf7-ed1d-e1a3" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="ec40-53a9-d511-ae43" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c4c1-258a-a8c9-085e" name="Poxwalkers" hidden="false" collective="false" import="true" targetId="cde4-c2c1-7c7a-48b9" type="selectionEntry"/>
-    <entryLink id="9f0d-07ca-a09b-f316" name="Noxious Blightbringer" hidden="false" collective="false" import="true" targetId="6af6-3215-797b-12e2" type="selectionEntry"/>
-    <entryLink id="c9ad-bc47-5004-1d97" name="Foul Blightspawn" hidden="false" collective="false" import="true" targetId="2d13-480a-5844-85b3" type="selectionEntry"/>
-    <entryLink id="4178-c358-e30f-e797" name="Biologus Putrifier" hidden="false" collective="false" import="true" targetId="37e3-0854-8c53-c733" type="selectionEntry"/>
-    <entryLink id="b4c1-ab59-38b8-037e" name="Plague Surgeon" hidden="false" collective="false" import="true" targetId="08e5-28a9-c6a7-b368" type="selectionEntry"/>
-    <entryLink id="d4d0-d6ab-ee1d-2960" name="Tallyman" hidden="false" collective="false" import="true" targetId="e216-8853-44ec-ae04" type="selectionEntry"/>
-    <entryLink id="8acb-fbc5-e8fb-0222" name="Deathshroud Terminators" hidden="false" collective="false" import="true" targetId="0783-92b7-7154-7712" type="selectionEntry"/>
-    <entryLink id="9eb4-cd19-cefc-fe75" name="Blightlord Terminators" hidden="false" collective="false" import="true" targetId="9eb2-5986-16c0-7cca" type="selectionEntry"/>
-    <entryLink id="691a-ca1b-33af-cd79" name="Foetid Bloat Drone" hidden="false" collective="false" import="true" targetId="1484-36d3-a9b5-cdbc" type="selectionEntry"/>
-    <entryLink id="7ffe-45ac-84ab-8db3" name="Myphitic Blight-haulers" hidden="false" collective="false" import="true" targetId="0804-2d70-7e49-fd40" type="selectionEntry"/>
+    <entryLink id="c4c1-258a-a8c9-085e" name="Poxwalkers" hidden="false" collective="false" import="true" targetId="cde4-c2c1-7c7a-48b9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8413-3943-48c2-1b79" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9f0d-07ca-a09b-f316" name="Noxious Blightbringer" hidden="false" collective="false" import="true" targetId="6af6-3215-797b-12e2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="da24-2a23-2300-7feb" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c9ad-bc47-5004-1d97" name="Foul Blightspawn" hidden="false" collective="false" import="true" targetId="2d13-480a-5844-85b3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6568-e550-5643-b41f" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4178-c358-e30f-e797" name="Biologus Putrifier" hidden="false" collective="false" import="true" targetId="37e3-0854-8c53-c733" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f9d8-abe1-ff9f-3207" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b4c1-ab59-38b8-037e" name="Plague Surgeon" hidden="false" collective="false" import="true" targetId="08e5-28a9-c6a7-b368" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2f58-b9fe-d7fb-1ef2" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d4d0-d6ab-ee1d-2960" name="Tallyman" hidden="false" collective="false" import="true" targetId="e216-8853-44ec-ae04" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6de0-465b-d23b-3d63" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8acb-fbc5-e8fb-0222" name="Deathshroud Terminators" hidden="false" collective="false" import="true" targetId="0783-92b7-7154-7712" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2a85-c491-dcc0-8dc1" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9eb4-cd19-cefc-fe75" name="Blightlord Terminators" hidden="false" collective="false" import="true" targetId="9eb2-5986-16c0-7cca" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e2f7-82f8-5188-d1dc" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="691a-ca1b-33af-cd79" name="Foetid Bloat Drone" hidden="false" collective="false" import="true" targetId="1484-36d3-a9b5-cdbc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="047c-74cf-9d1c-4c9c" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7ffe-45ac-84ab-8db3" name="Myphitic Blight-haulers" hidden="false" collective="false" import="true" targetId="0804-2d70-7e49-fd40" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c62c-1fb8-7795-d9d1" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="bd19-ebea-01e1-c0a3" name="Chaos Spawn" hidden="false" collective="false" import="true" targetId="ed66-68de-c8bb-af54" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0d14-160d-3724-d9de" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
         <categoryLink id="01dd-9a3d-c682-7e6c" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
+        <categoryLink id="f1df-b523-2b75-bfb3" name="New CategoryLink" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6df8-2bfd-24a2-0f53" name="Chaos Land Raider" hidden="false" collective="false" import="true" targetId="a0a7-ca99-f182-aa7c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="50ef-4bb9-b50b-43c2" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
         <categoryLink id="1921-d220-6627-c4c7" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
+        <categoryLink id="8d25-567f-9bc6-0cff" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6229-75e2-969d-319e" name="Plagueburst Crawler" hidden="false" collective="false" import="true" targetId="d6bb-f063-6e45-7e39" type="selectionEntry"/>
+    <entryLink id="6229-75e2-969d-319e" name="Plagueburst Crawler" hidden="false" collective="false" import="true" targetId="d6bb-f063-6e45-7e39" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="86b0-97b0-d2ed-1288" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="7a66-01fa-9559-4f59" name="Defiler" hidden="false" collective="false" import="true" targetId="7278-4a41-c1ee-16f3" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="bbf8-4d0a-ab58-ca4d" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
         <categoryLink id="14c1-b2f4-a07d-a570" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
+        <categoryLink id="ac9d-1154-0bc2-f0b2" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6530-c6dd-636e-c7f3" name="Chaos Predator" hidden="false" collective="false" import="true" targetId="8dbc-6837-ede6-1e74" type="selectionEntry">
+    <entryLink id="6530-c6dd-636e-c7f3" name="Chaos Predator Annihilator" hidden="false" collective="false" import="true" targetId="8dbc-6837-ede6-1e74" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6965-4b45-8741-8809" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
         <categoryLink id="35a6-563a-c0c5-20e9" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
+        <categoryLink id="1755-99d5-6b47-ceeb" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5779-ca01-35da-93d0" name="Chaos Rhino" hidden="false" collective="false" import="true" targetId="274e-d2a4-8f7b-e69d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a77f-c906-4745-b219" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
         <categoryLink id="1136-174f-f5c1-9615" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
+        <categoryLink id="804d-0309-c089-3624" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0b2f-87a1-775f-f506" name="Mortarion" hidden="false" collective="false" import="true" targetId="4960-c06e-c1c6-1657" type="selectionEntry"/>
-    <entryLink id="03dc-fc1e-b6c0-5f84" name="Plague Marines" hidden="false" collective="false" import="true" targetId="aae6-7b1d-3d9c-f6af" type="selectionEntry"/>
-    <entryLink id="3978-ef95-9f4d-a054" name="Miasmic Malignifier" hidden="false" collective="false" import="true" targetId="5433-a692-859c-b8d4" type="selectionEntry"/>
-    <entryLink id="8f7b-cb4b-35bf-6a13" name="Death Guard Chaos Lord" hidden="false" collective="false" import="true" targetId="0715-41f7-2439-d7f5" type="selectionEntry"/>
-    <entryLink id="a4f9-bbae-d43a-1f6c" name="Lord of Virulence" hidden="false" collective="false" import="true" targetId="acb9-e818-c285-d1b1" type="selectionEntry"/>
-    <entryLink id="34b6-3cf8-c20a-abf4" name="Death Guard Possessed" hidden="false" collective="false" import="true" targetId="63e9-88c9-c32c-5b6b" type="selectionEntry"/>
+    <entryLink id="03dc-fc1e-b6c0-5f84" name="Plague Marines" hidden="false" collective="false" import="true" targetId="aae6-7b1d-3d9c-f6af" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a3b8-6909-d595-f6f6" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3978-ef95-9f4d-a054" name="Miasmic Malignifier" hidden="false" collective="false" import="true" targetId="5433-a692-859c-b8d4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3e06-86ed-bad7-3baa" name="New CategoryLink" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8f7b-cb4b-35bf-6a13" name="Death Guard Chaos Lord" hidden="false" collective="false" import="true" targetId="0715-41f7-2439-d7f5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e25f-3162-26e9-d300" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a4f9-bbae-d43a-1f6c" name="Lord of Virulence" hidden="false" collective="false" import="true" targetId="acb9-e818-c285-d1b1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4e41-11a0-617d-bc2c" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="34b6-3cf8-c20a-abf4" name="Death Guard Possessed" hidden="false" collective="false" import="true" targetId="63e9-88c9-c32c-5b6b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c15f-0459-0178-56d7" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="c6c0-46b4-ede7-b7db" name="Mortarion" hidden="false" collective="false" import="true" targetId="4960-c06e-c1c6-1657" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="2e22-a149-680b-d0cd" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+        <categoryLink id="2e22-a149-680b-d0cd" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
+        <categoryLink id="6e57-1ffd-2cf3-9e2f" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -251,7 +362,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -338,7 +449,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -396,7 +507,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -456,7 +567,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -536,6 +647,11 @@
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a model in this unit makes an attack that places a blast marker next to an enemy model (excluding Monster and Vehicle models), you can remove a damage marker from this unit.</characteristic>
           </characteristics>
         </profile>
+        <profile id="9e5e-dd32-e633-b23c" name="Mindless" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This unit automatically passed Leadership tests.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="1ecb-4499-4208-cc3c" name="Ignore Damage (5+)" hidden="false" targetId="958c-7037-989a-6da0" type="profile"/>
@@ -592,7 +708,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">2</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">12+</characteristic>
                   </characteristics>
                 </profile>
@@ -610,7 +726,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">2</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">12+</characteristic>
                   </characteristics>
                 </profile>
@@ -638,7 +754,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -712,7 +828,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -803,7 +919,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -886,7 +1002,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -962,7 +1078,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -1093,7 +1209,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -1111,7 +1227,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">8</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -1217,7 +1333,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -1235,7 +1351,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -1304,7 +1420,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1889,7 +2005,7 @@ or all modifiers to its characteristics and to any roll or test made for it (exc
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -2029,7 +2145,7 @@ or all modifiers to its characteristics and to any roll or test made for it (exc
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -2047,7 +2163,7 @@ or all modifiers to its characteristics and to any roll or test made for it (exc
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -2123,7 +2239,7 @@ or all modifiers to its characteristics and to any roll or test made for it (exc
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
                   </characteristics>
                 </profile>
@@ -2141,7 +2257,7 @@ or all modifiers to its characteristics and to any roll or test made for it (exc
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
                   </characteristics>
                 </profile>
@@ -2265,7 +2381,7 @@ or all modifiers to its characteristics and to any roll or test made for it (exc
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -2469,7 +2585,7 @@ or all modifiers to its characteristics and to any roll or test made for it (exc
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -2570,7 +2686,7 @@ or all modifiers to its characteristics and to any roll or test made for it (exc
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -2621,7 +2737,7 @@ or all modifiers to its characteristics and to any roll or test made for it (exc
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -2692,7 +2808,7 @@ or all modifiers to its characteristics and to any roll or test made for it (exc
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -2762,7 +2878,7 @@ or all modifiers to its characteristics and to any roll or test made for it (exc
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="4099-0c9f-eae7-0a14" name="Chaos - Chaos Space Marines" targetId="10f2-2ae7-897d-0d3d" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="7369-fef8-6ea5-e989" name="Weapons" targetId="02de-a64c-225d-8e88" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="4099-0c9f-eae7-0a14" name="Chaos - Chaos Space Marines" targetId="8a94-e862-c384-d68b" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="7369-fef8-6ea5-e989" name="Weapons" targetId="d2e9-8c51-33c4-d440" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

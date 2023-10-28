@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0a97-63bd-1f47-6b26" name="Tyranids" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0a97-63bd-1f47-6b26" name="Tyranids" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="a37b-2844-afcc-f4eb" name="Tyranid Hive Fleets"/>
     <publication id="5101-ac41-4666-a01a" name="Forge World Tyranids"/>
@@ -62,14 +62,14 @@
   <entryLinks>
     <entryLink id="ba9b-43de-53b3-415a" name="Broodlord" hidden="false" collective="false" import="true" targetId="1b06-fb81-fd21-a23e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="1a56-efd5-a45e-1358" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="1a56-efd5-a45e-1358" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="0e34-2b11-315b-6227" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="9fac-c7a4-db42-7d83" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="2c5d-2897-1ece-6af3" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="2185-44a2-7ba1-e249" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="4106-f361-07c6-2ef2" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="40ab-1cc5-5888-39cd" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="0816-d464-28fc-184f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="0816-d464-28fc-184f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="d75f-4abb-2afb-2fb5" name="Genestealer" hidden="false" targetId="cf6e-9231-1de2-581a" primary="false"/>
         <categoryLink id="9bc9-232a-464f-c8dd" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
         <categoryLink id="259d-dca9-5363-b152" name="Broodlord" hidden="false" targetId="cf20-cf00-b52f-5ae8" primary="false"/>
@@ -77,21 +77,21 @@
     </entryLink>
     <entryLink id="70e3-51aa-d3c0-8c17" name="Hive Tyrant" hidden="false" collective="false" import="true" targetId="4419-f173-a82d-a935" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="67f9-bc30-015f-4e82" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="67f9-bc30-015f-4e82" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="2645-dea6-dca8-cd8b" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="94e9-289c-315f-031d" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="2ac1-9c49-6bea-5b37" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="127d-e4e3-e2fd-92db" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="f250-f457-9ce1-8bc1" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="a60b-b7a3-0e6e-2d6d" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="e044-2dd4-6f15-bc58" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="e044-2dd4-6f15-bc58" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="337b-2a6e-4f6e-b22a" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
         <categoryLink id="f59c-64ce-7048-883c" name="Hive Tyrant" hidden="false" targetId="93b8-74e7-70bf-bf53" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="501f-5034-71ff-bb02" name="The Swarmlord" hidden="false" collective="false" import="true" targetId="19a5-2767-70cb-c20b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f27b-506a-eab5-0748" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="f27b-506a-eab5-0748" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="2355-ee30-96bd-1918" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="aeff-bde5-8d74-ae84" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="d67a-bcc0-76e2-a9ab" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
@@ -102,45 +102,46 @@
         <categoryLink id="67d3-d92e-d1c4-1ed1" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
         <categoryLink id="1f04-6fa6-ef38-28ee" name="Hive Tyrant" hidden="false" targetId="93b8-74e7-70bf-bf53" primary="false"/>
         <categoryLink id="f015-314b-93ec-2abe" name="The Swarmlord" hidden="false" targetId="88b3-fa3c-1c54-237b" primary="false"/>
+        <categoryLink id="d22b-287e-6c32-6bd9" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="c072-3550-0aae-2c0e" name="Winged Tyranid Prime" hidden="false" collective="false" import="true" targetId="2eab-6d96-5b70-6388" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="25d5-7f05-a97e-99c1" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="25d5-7f05-a97e-99c1" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="3946-d09d-0ba4-fc30" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="8c30-749f-094a-e163" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="b034-c999-a5e3-77cd" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="1297-5963-913f-eecd" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="5c5a-258d-198a-fa47" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="34dc-2d96-1d59-2b14" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="34dc-2d96-1d59-2b14" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="dd47-5ab9-421c-5872" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
         <categoryLink id="a12c-148d-5f2b-231a" name="Tyranid Prime" hidden="false" targetId="9551-1dc7-e4c7-23a3" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1c7e-f826-e227-91a9" name="Tervigon" hidden="false" collective="false" import="true" targetId="1b67-8353-eac5-8eda" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="4f53-5b6c-9bc6-4ae5" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="4f53-5b6c-9bc6-4ae5" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="0169-3cf2-f2a7-cb1d" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="c647-911c-dd9a-953e" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="5121-b169-6704-61e6" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="2a11-4eda-a872-1fe0" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="bba3-1b13-3432-10c8" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="ff13-3a54-b28f-931b" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="62e7-e44b-7383-9087" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="c62e-22a0-11bd-0806" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
         <categoryLink id="513e-48ad-3797-bff0" name="Tervigon" hidden="false" targetId="4236-e8f5-cfb7-5dcd" primary="false"/>
+        <categoryLink id="7ff5-7f54-b0ac-3c47" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6b13-93d2-86dd-4a3d" name="Neurothrope" hidden="false" collective="false" import="true" targetId="5f35-7147-d328-4efb" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="eed1-d894-7a4f-ed0c" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="eed1-d894-7a4f-ed0c" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="27fe-9128-4bf1-b78d" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="cd9b-5588-32f1-2e71" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="aa49-f241-e778-f18c" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="1997-0a48-569a-1416" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="5980-87d0-6333-46bb" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="3c79-6c04-e66b-d81a" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="6b3b-4f4d-e979-5ec1" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="6b3b-4f4d-e979-5ec1" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="d800-ff71-a19a-64ef" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="7798-1ec8-dd47-e9e5" name="Zoanthrope" hidden="false" targetId="c999-8388-a8dc-773f" primary="false"/>
         <categoryLink id="5d89-cf96-9e4e-0116" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
@@ -149,7 +150,7 @@
     </entryLink>
     <entryLink id="a8d1-138b-74ba-d04b" name="Old One Eye" hidden="false" collective="false" import="true" targetId="d95a-4dfc-913a-ad29" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="734f-3304-8a98-b89f" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="734f-3304-8a98-b89f" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="0f37-1f79-59d2-33ad" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="a623-3514-bfb5-dbc5" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="59bc-fba9-2cb6-18d3" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
@@ -158,16 +159,17 @@
         <categoryLink id="978f-fb5f-0666-13ef" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="1337-3fdf-6ef3-2128" name="Carnifex" hidden="false" targetId="f8da-5058-2d2f-59f8" primary="false"/>
         <categoryLink id="89d0-2074-7276-7b59" name="Old One Eye" hidden="false" targetId="0a35-359a-54f2-81e7" primary="false"/>
+        <categoryLink id="4f11-334e-23ec-91af" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f421-c2bf-c730-febc" name="Tyranid Warriors with Melee Bio-Weapons" hidden="false" collective="false" import="true" targetId="8ef9-e682-ce7f-150b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7a33-db2f-5733-a307" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="7a33-db2f-5733-a307" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
         <categoryLink id="907f-e0a3-ae83-8561" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="a519-9191-03c2-e9a0" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="cf3c-e7c3-8d8b-9f6f" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="e81f-a162-cf6c-4ee9" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="0e49-8bac-e7fc-bf0c" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="0e49-8bac-e7fc-bf0c" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="ca24-b0d8-b5b2-9b13" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
         <categoryLink id="cd6c-1c55-0636-5fa1" name="Tyranid Warriors" hidden="false" targetId="404e-0160-4e12-fbdf" primary="false"/>
       </categoryLinks>
@@ -178,30 +180,30 @@
         <categoryLink id="e887-e86f-e8fd-507a" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="b765-ef4f-2e28-185e" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="beda-4cd4-50c2-2dd4" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="d478-2f2f-7926-a2ec" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="d478-2f2f-7926-a2ec" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="bcbb-f4f3-135d-d841" name="Genestealer" hidden="false" targetId="cf6e-9231-1de2-581a" primary="false"/>
-        <categoryLink id="56b1-46bf-0e4d-3621" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="56b1-46bf-0e4d-3621" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="976b-a903-b8aa-4890" name="Termagants" hidden="false" collective="false" import="true" targetId="9fc3-06cf-aaea-e1da" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8b95-e96b-370b-c233" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="8b95-e96b-370b-c233" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
         <categoryLink id="f998-d892-6c4a-9599" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="2861-f425-6f27-07d3" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="a0f0-bfaa-d260-230c" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="a155-0e42-50b0-d525" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="9602-22f5-d2fa-994a" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="9602-22f5-d2fa-994a" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="a060-822d-09d7-9f4d" name="Termagants" hidden="false" targetId="30fa-26cb-4dad-bf4f" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="d3a1-89b9-9f74-381a" name="Hormagaunts" hidden="false" collective="false" import="true" targetId="dc2e-53d8-8324-164b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="9ca5-3178-a29a-ce07" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="9ca5-3178-a29a-ce07" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
         <categoryLink id="b7de-879b-0992-47d7" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="b5b8-5b5a-8c45-2b2b" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="749d-15b8-9062-8394" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="3ece-ba3f-b9a5-1eb3" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="0efd-e2c2-9488-45a7" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="0efd-e2c2-9488-45a7" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="bb2a-d253-a032-cf00" name="Hormagaunts" hidden="false" targetId="e946-a1f1-62c1-4b1e" primary="false"/>
       </categoryLinks>
     </entryLink>
@@ -211,19 +213,19 @@
         <categoryLink id="6284-22d3-ae45-4675" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="bd17-9c30-2781-b122" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="a0be-205a-a046-d9a0" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="1730-e6b2-7c6b-85d7" name="Swarm" hidden="false" targetId="65b5-f311-b8c4-3721" primary="false"/>
+        <categoryLink id="1730-e6b2-7c6b-85d7" name="Swarm" hidden="false" targetId="65b5-f311-b8c4-3721" primary="true"/>
         <categoryLink id="2606-eead-5eb4-fc0d" name="Rippers" hidden="false" targetId="f9c2-e211-d57c-fdf6" primary="false"/>
-        <categoryLink id="dbcf-075b-2879-4847" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="dbcf-075b-2879-4847" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bd12-af40-1e8c-f378" name="Tyrant Guard" hidden="false" collective="false" import="true" targetId="250f-e0bb-9599-ebd4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="4c75-91aa-6fdf-2f80" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="4c75-91aa-6fdf-2f80" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="ad55-9757-d469-b196" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="b8e8-74f6-e854-0f39" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="d47f-96b0-c3eb-0efe" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="cf2a-1054-689d-6a90" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="f974-9599-4827-1736" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="f974-9599-4827-1736" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="7a9e-0071-b941-9c53" name="Tyrant Guard" hidden="false" targetId="e323-6716-f465-41f0" primary="false"/>
       </categoryLinks>
     </entryLink>
@@ -233,25 +235,25 @@
         <categoryLink id="caba-bb52-31e3-dbb3" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="29a3-75e1-3ac2-6ada" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="7d8f-66d7-9e94-9f21" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="0acd-e6e6-013c-3c08" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="0acd-e6e6-013c-3c08" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="af7c-178f-6057-5396" name="Hive Guard" hidden="false" targetId="c365-0644-5acc-f3da" primary="false"/>
-        <categoryLink id="7f90-0088-bbf5-21f7" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="7f90-0088-bbf5-21f7" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5b0e-f784-969d-cc8b" name="Lictor" hidden="false" collective="false" import="true" targetId="c7d0-43a0-929f-6821" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7a57-dc99-4294-0edf" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="7a57-dc99-4294-0edf" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="cebb-c48b-933d-8b49" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="036e-fbab-8b1e-8a28" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="ab6e-5f42-a1ed-31d2" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="37d0-83e8-f427-0ec3" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="5fea-6cb4-1091-572f" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="5fea-6cb4-1091-572f" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="f75e-b642-ea29-37f2" name="Lictor" hidden="false" targetId="a48d-d141-0b13-2711" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="055f-01a4-d352-734a" name="Deathleaper" hidden="false" collective="false" import="true" targetId="209d-8e3c-ac94-925f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="3f0d-bedc-d11c-d044" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="3f0d-bedc-d11c-d044" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="9a5f-c8b7-00f5-2a3c" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="6e68-c333-4210-e455" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="c2d8-9348-4a5b-218f" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
@@ -260,16 +262,17 @@
         <categoryLink id="e324-5c36-168c-a072" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="c4a7-cc4b-87ab-289a" name="Lictor" hidden="false" targetId="a48d-d141-0b13-2711" primary="false"/>
         <categoryLink id="a1e7-7470-53f7-ed09" name="Deathleaper" hidden="false" targetId="520d-d34b-9b80-3fe3" primary="false"/>
+        <categoryLink id="2251-8138-54e1-2e31" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b4f9-30a5-6989-9aac" name="Zoanthropes" hidden="false" collective="false" import="true" targetId="87a3-1753-4301-297d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="60b6-4fe6-9816-9d34" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="60b6-4fe6-9816-9d34" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="eaea-b412-221e-9914" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="44e1-b295-f68f-b2b8" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="de29-9709-b048-86e6" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="385c-a376-daa0-22f4" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="0aae-76f7-582e-4b22" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="0aae-76f7-582e-4b22" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="27fd-39fc-8f30-ff52" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="57c2-e5e3-e015-029b" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
         <categoryLink id="ead5-5a68-d589-3edb" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
@@ -278,12 +281,12 @@
     </entryLink>
     <entryLink id="9767-77fa-4209-42bd" name="Maleceptor" hidden="false" collective="false" import="true" targetId="c429-a5fd-0c49-f474" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="41fd-94e3-6d2c-ca8b" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="41fd-94e3-6d2c-ca8b" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="7b1b-d7bc-0614-0ef2" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="70da-2260-6392-3c68" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="c9c5-d52e-5450-91e2" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="90de-e24a-ef88-4c53" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="7d60-2a66-13eb-4817" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="7d60-2a66-13eb-4817" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
         <categoryLink id="701b-5e5c-2fa5-229c" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
         <categoryLink id="4fb4-6d05-fed3-c14e" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
         <categoryLink id="dd36-d512-1ec1-a036" name="Maleceptor" hidden="false" targetId="8012-57b7-8c3a-915c" primary="false"/>
@@ -291,35 +294,35 @@
     </entryLink>
     <entryLink id="d267-3564-77e9-8cc7" name="Venomthropes" hidden="false" collective="false" import="true" targetId="dc60-d40b-9e2c-6b86" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="2132-1806-0806-e26e" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="2132-1806-0806-e26e" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="3406-99e3-3223-971e" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="09d0-3ef1-af61-3a43" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="175c-f96f-dfee-6ae0" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="a43d-6cb4-826a-01fc" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="bb43-c734-a11c-4a73" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="bb43-c734-a11c-4a73" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="f64c-6b11-37fe-e133" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="73ba-2851-511b-5a93" name="Venomthropes" hidden="false" targetId="f64e-d8df-ebb0-6c3a" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9685-edd8-a333-a772" name="Pyrovores" hidden="false" collective="false" import="true" targetId="19d4-732b-f5ba-e38d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="98fd-1f66-d842-ac22" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="98fd-1f66-d842-ac22" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="db0c-72bc-cdd5-52be" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="b096-f623-46b9-7117" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="a497-44f2-2edf-9846" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="cc2f-a07b-ae80-2ff4" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="71d1-b87b-928f-9f65" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="71d1-b87b-928f-9f65" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="0ba9-c5a2-ab99-f63e" name="Pyrovores" hidden="false" targetId="9a32-df05-dd02-e085" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="c45f-c14b-ee71-c235" name="Haruspex" hidden="false" collective="false" import="true" targetId="2d39-164c-6e98-daa8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="fdbf-af03-117d-7ed3" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="fdbf-af03-117d-7ed3" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="ac72-23f9-35a4-f1e0" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="b702-c494-db52-cc85" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="f4a1-c7f6-1193-070c" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="8474-6f88-bc46-b7f4" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="ca3c-6ace-1799-4fae" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="ca3c-6ace-1799-4fae" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
         <categoryLink id="b567-9220-70b8-ca96" name="Haruspex" hidden="false" targetId="06a0-768e-a9b4-ef74" primary="false"/>
       </categoryLinks>
     </entryLink>
@@ -329,75 +332,77 @@
         <categoryLink id="0877-7c52-0304-ba92" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="92a0-63a5-2429-4fb4" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="5925-3b3b-6513-5e25" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="c074-909d-7819-c99e" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="c074-909d-7819-c99e" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="0dc6-87c0-1b9f-0f8e" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="e156-13e3-6681-e64f" name="Gargoyles" hidden="false" targetId="456d-2398-ba45-27d2" primary="false"/>
-        <categoryLink id="8e01-a704-4bb0-fd87" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="8e01-a704-4bb0-fd87" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f0b7-5258-3570-ae73" name="Raveners" hidden="false" collective="false" import="true" targetId="3298-12b2-0b27-9ee3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="ee65-664c-b8ea-fbc3" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="ee65-664c-b8ea-fbc3" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="a18f-6602-ee2c-399a" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="ee9d-9848-73c6-e401" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="7189-1436-f06c-eead" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="882b-dbef-6d92-9f38" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="75eb-378e-1690-ecae" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="75eb-378e-1690-ecae" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="15a3-769a-c903-7221" name="Ravener" hidden="false" targetId="9f26-1ebd-db0b-309b" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ce79-bfed-268e-a6c9" name="Mucolid Spores" hidden="false" collective="false" import="true" targetId="c686-b1e9-381c-8aa3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c87c-9212-6045-6afb" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="c87c-9212-6045-6afb" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="6c84-8c48-6fae-2097" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="6d28-04c4-ac3e-01ba" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="094f-013e-1a8a-c1f2" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="c903-590d-17aa-e8f1" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="e251-ad5c-397e-1c46" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="b480-8002-511c-9038" name="Mucolid Spores" hidden="false" targetId="3f3d-48d8-e02e-2326" primary="false"/>
+        <categoryLink id="d1d5-3bcf-289e-047e" name="New CategoryLink" hidden="false" targetId="65b5-f311-b8c4-3721" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7635-15fc-1a86-9790" name="Spore Mines" hidden="false" collective="false" import="true" targetId="112a-0156-78d0-9171" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="aded-d82b-5d18-9027" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="aded-d82b-5d18-9027" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="6fbd-3125-bea3-5d58" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="db04-46e8-2174-720a" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="bea4-38f9-ac1a-ba98" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="85ac-c573-101b-7df7" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="ad07-33ef-9707-77eb" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="ccd2-4e8f-bf16-71cf" name="Spore Mines" hidden="false" targetId="ebaf-42c0-8344-cb27" primary="false"/>
+        <categoryLink id="c2bd-d0e0-af6f-94b7" name="New CategoryLink" hidden="false" targetId="65b5-f311-b8c4-3721" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="d1c4-6274-355f-9c7c" name="Exocrine" hidden="false" collective="false" import="true" targetId="c1bf-af3f-fa0a-906a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="e9d0-f353-883b-10fe" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="e9d0-f353-883b-10fe" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="4bb7-cd40-870f-ce4b" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="9dce-8f28-3a3b-65e0" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="0ed2-8035-8205-17d7" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="a177-cab3-6f65-6a22" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="250c-d11d-d1ad-97aa" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="250c-d11d-d1ad-97aa" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
         <categoryLink id="64b6-f259-2c7c-d152" name="Exocrine" hidden="false" targetId="3e11-ae3c-9295-a7ee" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="043c-6b83-1d8f-968e" name="Tyrannofex" hidden="false" collective="false" import="true" targetId="b31d-8bec-4bab-21cd" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="9537-8fba-b546-6bc3" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="9537-8fba-b546-6bc3" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="2c3e-3dfe-5322-00f1" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="88dc-5c28-a988-bee6" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="47fc-8920-d5e6-6b21" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="8439-213d-3402-9676" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="4d49-db50-3968-3f1b" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="4d49-db50-3968-3f1b" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
         <categoryLink id="f1a4-3201-2d2d-01fa" name="Tyrannofex" hidden="false" targetId="6340-f815-dc33-8ef4" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="8a09-8800-22ed-9425" name="Biovores" hidden="false" collective="false" import="true" targetId="ac59-4e06-8ea9-9654" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="44c8-73a2-aa36-fe8f" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="44c8-73a2-aa36-fe8f" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="0108-0a02-51a8-d82d" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="68c5-68a7-7a75-badb" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="01b6-b5a2-eaef-628a" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="9779-72c3-c03a-a98d" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="7a05-c751-af3c-74d5" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="7a05-c751-af3c-74d5" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="e653-9462-2e69-9943" name="Biovores" hidden="false" targetId="f7e4-fbdf-74f7-a41e" primary="false"/>
       </categoryLinks>
     </entryLink>
@@ -407,9 +412,9 @@
         <categoryLink id="5275-d5d1-107f-818c" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="a638-9ece-4070-c755" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="0c3f-ee80-8a24-ac21" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="96f9-3e57-69d2-a5f6" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="96f9-3e57-69d2-a5f6" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
         <categoryLink id="6773-fa0e-eb81-8ea1" name="Toxicrene" hidden="false" targetId="f8da-8567-fd60-ad4e" primary="false"/>
-        <categoryLink id="bffb-5440-e368-6f4c" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="bffb-5440-e368-6f4c" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1402-ee3d-8e9a-2895" name="Mawloc" hidden="false" collective="false" import="true" targetId="a030-fdd8-d837-99f7" type="selectionEntry">
@@ -418,9 +423,9 @@
         <categoryLink id="35d1-bef1-aef0-35b5" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="b9fa-ecce-5303-e36d" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="aab5-77ad-fe1a-584e" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="5eb6-6add-ae09-39bb" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="5eb6-6add-ae09-39bb" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
         <categoryLink id="4031-2cc9-bed6-7ca5" name="Mawloc" hidden="false" targetId="8e04-8f92-e3c4-ed5b" primary="false"/>
-        <categoryLink id="c1e0-afe2-de6b-d674" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="c1e0-afe2-de6b-d674" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ca08-6e7e-95b7-53a1" name="Trygon" hidden="false" collective="false" import="true" targetId="a9f7-475d-fe91-1c8a" type="selectionEntry">
@@ -429,9 +434,9 @@
         <categoryLink id="fd56-23ef-8d70-2878" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="b84f-3301-ba22-9da5" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="32a0-1740-dc3c-3c7a" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="e143-d897-e5b7-0d13" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="e143-d897-e5b7-0d13" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
         <categoryLink id="d251-2e08-2a02-3691" name="Trygon" hidden="false" targetId="edfd-70f8-1b83-70fc" primary="false"/>
-        <categoryLink id="971b-528e-369f-2ddb" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="971b-528e-369f-2ddb" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="dde4-dac2-e1b7-c3c6" name="Trygon Prime" hidden="false" collective="false" import="true" targetId="7d96-c482-e632-6725" type="selectionEntry">
@@ -441,10 +446,10 @@
         <categoryLink id="bcb9-39c3-8dbe-8c69" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="34ae-a20d-91e1-4391" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="dd92-3206-793d-1296" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
-        <categoryLink id="6799-9b5a-6073-be17" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="6799-9b5a-6073-be17" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="4178-38ae-bfce-a9c3" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
         <categoryLink id="8a18-60fd-b676-069e" name="Trygon Prime" hidden="false" targetId="15b1-5a86-b0ad-e244" primary="false"/>
-        <categoryLink id="cdcd-b1c9-9200-90b8" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="cdcd-b1c9-9200-90b8" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0c23-5db7-e3bd-0336" name="Tyrannocyte" hidden="false" collective="false" import="true" targetId="5f42-a1d3-985d-e444" type="selectionEntry">
@@ -461,24 +466,24 @@
     </entryLink>
     <entryLink id="276e-c212-d20c-e16a" name="Harpy" hidden="false" collective="false" import="true" targetId="0cfb-a342-2577-c27b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="3668-5e7d-bedf-ef58" name="New CategoryLink" hidden="false" targetId="551a-ed52-fd35-9078" primary="true"/>
+        <categoryLink id="3668-5e7d-bedf-ef58" name="New CategoryLink" hidden="false" targetId="551a-ed52-fd35-9078" primary="false"/>
         <categoryLink id="2eb3-0478-3494-4ad8" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="a7e3-d351-94f9-19b1" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="5e73-d6a4-ea14-6e0c" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="46a8-7a90-288f-0393" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="ffb8-76f2-293a-b8ce" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="ffb8-76f2-293a-b8ce" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
         <categoryLink id="7784-28ad-cde3-4585" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="9a4b-f0d7-91aa-10da" name="Harpy" hidden="false" targetId="6a48-e085-3977-11c6" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="89e9-a91c-0ea5-ec74" name="Hive Crone" hidden="false" collective="false" import="true" targetId="6e6e-fbf6-e733-6f1f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b2ec-c05c-5855-1e18" name="New CategoryLink" hidden="false" targetId="551a-ed52-fd35-9078" primary="true"/>
+        <categoryLink id="b2ec-c05c-5855-1e18" name="New CategoryLink" hidden="false" targetId="551a-ed52-fd35-9078" primary="false"/>
         <categoryLink id="10f1-f966-f46c-b4d9" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="0cea-502d-7733-e10d" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="fd57-d2b2-4755-242b" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="567d-40f1-0ec3-3fe9" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="2f9d-3a12-464e-59e8" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="2f9d-3a12-464e-59e8" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
         <categoryLink id="4fe3-8481-3ec9-a2f0" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="72ba-0dbd-060a-9297" name="Hive Crone" hidden="false" targetId="9869-4aaf-a83a-52ea" primary="false"/>
       </categoryLinks>
@@ -497,47 +502,49 @@
     </entryLink>
     <entryLink id="4881-693e-3b99-9e2c" name="Carnifex Brood" hidden="false" collective="false" import="true" targetId="3787-e5ef-0999-71c7" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="9487-9dd1-dc70-31be" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="9487-9dd1-dc70-31be" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
+        <categoryLink id="0ede-961a-8659-e0e7" name="New CategoryLink" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e5d1-c006-790f-5686" name="Screamer-Killer Brood" hidden="false" collective="false" import="true" targetId="1bf4-12f3-72ba-e669" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="5d20-2aa7-7e3b-b915" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="5d20-2aa7-7e3b-b915" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
+        <categoryLink id="5064-5589-436b-da5f" name="New CategoryLink" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ceab-41d6-ed2c-39fa" name="Thornback Brood" hidden="false" collective="false" import="true" targetId="76ff-aa32-62ef-cb08" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="ac8e-f8e9-fdaf-5410" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="ac8e-f8e9-fdaf-5410" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
+        <categoryLink id="8de1-6398-6421-f351" name="New CategoryLink" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4f5b-35b6-6ccb-425b" name="Malanthrope" hidden="false" collective="false" import="true" targetId="8c56-8ef8-7cff-6e6d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="da68-0fc3-5914-5907" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="da68-0fc3-5914-5907" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="123e-5519-cc82-e9ce" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="407e-8bc6-c336-2fd7" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="ab1d-15df-c113-c7e1" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="7472-4242-c085-b687" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="dd21-1095-017d-2a8d" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="624e-5ef8-88d2-85c8" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-        <categoryLink id="72ba-566a-d1c3-273b" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="72ba-566a-d1c3-273b" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="5e05-0a41-d549-56b2" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
         <categoryLink id="acbd-5d0f-f06c-70d9" name="Malanthrope" hidden="false" targetId="8829-4d7a-a279-78ce" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bb99-c2f2-922f-4282" name="Dimachaeron" hidden="false" collective="false" import="true" targetId="145a-ef54-8727-8cf3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="04e9-58b9-41b5-d4bc" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="04e9-58b9-41b5-d4bc" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="3ee7-54ca-7825-7602" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="9508-0a1d-ecdb-04b3" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="89c2-98ec-4fcb-909e" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="f749-2aa8-e516-b2d9" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="ea14-6c36-5139-b8ac" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="ea14-6c36-5139-b8ac" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
         <categoryLink id="75be-d577-9605-deb5" name="Dimachaeron" hidden="false" targetId="c0a6-9b67-cab3-8ce9" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="37ba-62b7-c9ef-f7b7" name="Meiotic Spores" hidden="false" collective="false" import="true" targetId="d78d-1bf6-4d38-d6ef" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="d126-53ba-f9db-d1a0" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="d126-53ba-f9db-d1a0" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="d930-e56c-2eaa-06a1" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="60ae-dfae-3171-c813" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="118a-c92a-6b2d-e1a3" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
@@ -545,11 +552,13 @@
         <categoryLink id="2e5b-bd3b-ec6e-25af" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="1db4-50ef-5a5c-d39f" name="Spore Mines" hidden="false" targetId="ebaf-42c0-8344-cb27" primary="false"/>
         <categoryLink id="ed45-4b38-f34a-f9cb" name="Meiotic Spores" hidden="false" targetId="c533-ec93-b682-73c5" primary="false"/>
+        <categoryLink id="c9f3-4eec-00a1-f925" name="New CategoryLink" hidden="false" targetId="65b5-f311-b8c4-3721" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e363-2f27-6c19-b9d7" name="Stone Crusher Brood" hidden="false" collective="false" import="true" targetId="52d6-ec93-7d1b-525d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="e0c2-1be0-d8e6-b85a" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="e0c2-1be0-d8e6-b85a" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
+        <categoryLink id="de52-9482-407a-a196" name="New CategoryLink" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7f4a-3261-94dc-f899" name="Barbed Hierodule" hidden="false" collective="false" import="true" targetId="a8de-6b31-47d8-66e9" type="selectionEntry">
@@ -558,10 +567,10 @@
         <categoryLink id="7756-7cbc-a163-e95a" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="1694-c3da-3dcd-b488" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="5757-39ce-ada4-6826" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
-        <categoryLink id="a702-6103-3683-6733" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="a702-6103-3683-6733" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
         <categoryLink id="4582-4fb7-06be-fd34" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
         <categoryLink id="744a-62df-995d-9b0f" name="Barbed Hierodule" hidden="false" targetId="b3b9-329c-60f4-e81f" primary="false"/>
-        <categoryLink id="0e0d-ce62-2989-37e2" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="0e0d-ce62-2989-37e2" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2eaa-9723-4105-04f9" name="Scythed Hierodule" hidden="false" collective="false" import="true" targetId="dfc8-23b4-6714-4703" type="selectionEntry">
@@ -570,20 +579,20 @@
         <categoryLink id="c30b-d2c1-d7e7-a94e" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="5a78-bacd-ce76-5a24" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="18e3-42fa-54d5-4c19" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
-        <categoryLink id="9f7a-f47a-ffba-4a80" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="9f7a-f47a-ffba-4a80" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
         <categoryLink id="c612-1ec1-8b8c-05d3" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
         <categoryLink id="3266-304e-9d69-a1a0" name="Scythed Hierodule" hidden="false" targetId="308f-0380-f963-15fd" primary="false"/>
-        <categoryLink id="9058-8866-0156-01c1" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="9058-8866-0156-01c1" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="42da-df1c-d94d-fc26" name="Harridan" hidden="false" collective="false" import="true" targetId="27b1-be5d-75ba-1499" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8a19-6de5-c601-630f" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+        <categoryLink id="8a19-6de5-c601-630f" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
         <categoryLink id="beca-2923-4ff5-c5a7" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="c331-56a1-01eb-1d14" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="430f-9084-42cd-b9ab" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="d7df-dd9b-7edb-a665" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
-        <categoryLink id="fe5b-6459-6a0b-43e4" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="fe5b-6459-6a0b-43e4" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
         <categoryLink id="4ea3-b12c-4e9b-eda2" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="fe80-8606-b581-f271" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
         <categoryLink id="fdf1-9028-ff36-f6a2" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
@@ -592,12 +601,12 @@
     </entryLink>
     <entryLink id="a50c-678a-051b-218e" name="Hierophant Bio-titan" hidden="false" collective="false" import="true" targetId="8c1c-bb6d-89b4-7ba8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f98a-b6d7-4857-1c58" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+        <categoryLink id="f98a-b6d7-4857-1c58" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
         <categoryLink id="315c-335f-fcd8-546d" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="512f-5994-10d1-08b1" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="70b0-a04b-f50e-055a" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="21e0-e0a9-ca22-2a6d" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
-        <categoryLink id="7cc9-a802-d905-2632" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="7cc9-a802-d905-2632" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
         <categoryLink id="69e8-53bd-e808-8855" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
         <categoryLink id="f74f-0b18-bf93-76c4" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
         <categoryLink id="7b49-28d8-7973-dcda" name="Hierophant Bio-titan" hidden="false" targetId="e2d0-8e4e-b4dd-c8ce" primary="false"/>
@@ -605,8 +614,8 @@
     </entryLink>
     <entryLink id="7591-bf0e-5292-844d" name="Winged Hive Tyrant" hidden="false" collective="false" import="true" targetId="4b5e-ef6c-b377-638c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b1c2-9e72-6581-48da" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
-        <categoryLink id="1c65-d903-42af-55e7" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="b1c2-9e72-6581-48da" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="1c65-d903-42af-55e7" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="0d41-c006-ee1f-e80f" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="95de-30e9-1f33-8a7b" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="f6b4-ff4c-452e-9325" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
@@ -617,10 +626,10 @@
         <categoryLink id="e08a-1a5c-f77d-f221" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="cd7a-893f-2e05-4c80" name="Parasite of Mortrex" hidden="false" collective="false" import="true" targetId="9f9b-e536-e7b7-a662" type="selectionEntry">
+    <entryLink id="cd7a-893f-2e05-4c80" name="The Parasite of Mortrex" hidden="false" collective="false" import="true" targetId="9f9b-e536-e7b7-a662" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="2101-79d9-e946-48c5" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
-        <categoryLink id="5916-3b6b-15fa-4a2f" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="2101-79d9-e946-48c5" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="5916-3b6b-15fa-4a2f" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="79da-ad6a-266c-781b" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="9ff1-6db7-5f7e-acc4" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="49a1-3eeb-3c0f-4c36" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
@@ -632,18 +641,18 @@
     </entryLink>
     <entryLink id="58fb-1bcb-695e-f599" name="Sky-slasher Swarms" hidden="false" collective="false" import="true" targetId="3f62-da0a-c683-a460" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="9f85-9006-49e3-1616" name="Swarm" hidden="false" targetId="65b5-f311-b8c4-3721" primary="false"/>
+        <categoryLink id="9f85-9006-49e3-1616" name="Swarm" hidden="false" targetId="65b5-f311-b8c4-3721" primary="true"/>
         <categoryLink id="7466-1334-ade7-f511" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="1e5a-ed97-6d62-1471" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="c771-6987-2c7d-e5fa" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="7f6f-81d7-1b7f-b256" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
-        <categoryLink id="48e8-ee73-0652-917a" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="48e8-ee73-0652-917a" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6e66-032a-e51d-f2be" name="Von Ryan&apos;s Leapers" hidden="false" collective="false" import="true" targetId="41e6-a73a-3d3a-a3d4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="60a6-a894-8418-084a" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
-        <categoryLink id="c3a7-2bf6-09e7-4bf6" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="60a6-a894-8418-084a" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
+        <categoryLink id="c3a7-2bf6-09e7-4bf6" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="c732-e428-23ed-8eae" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="f668-7160-8c39-4d56" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
       </categoryLinks>
@@ -651,32 +660,33 @@
     <entryLink id="f352-0b4f-062a-82aa" name="Barbgaunts" hidden="false" collective="false" import="true" targetId="0f7b-8cbc-09b8-e55d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="47de-2cfd-4c62-6041" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="0a51-609d-f483-c8b1" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="0a51-609d-f483-c8b1" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="2656-7acf-f9c3-2380" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
+        <categoryLink id="b9b4-ebaf-2d5d-f027" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a1b1-a39e-e071-7544" name="Tyranid Warriors with Ranged Bio-Weapons" hidden="false" collective="false" import="true" targetId="0996-7bd0-d157-736a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b186-69ee-3f3d-ac9a" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="b186-69ee-3f3d-ac9a" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
         <categoryLink id="2238-4cd3-eb85-19b5" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="54a4-0c91-2d18-f6b1" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="b3c2-bbd8-19af-7726" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="441c-607e-f982-bdbe" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="bef3-0b01-a28f-5315" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="bef3-0b01-a28f-5315" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="7400-9c2e-6831-ca48" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
         <categoryLink id="0a46-1276-3e4b-6964" name="Tyranid Warriors" hidden="false" targetId="404e-0160-4e12-fbdf" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b93b-aaed-4333-36b3" name="Neurotyrant" hidden="false" collective="false" import="true" targetId="0e75-a93a-da2f-f350" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="fb18-8754-1f93-4421" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="fb18-8754-1f93-4421" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="3ecc-e870-b851-876f" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="2e93-8d4f-09eb-d568" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="9797-faab-bf9e-87a6" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="71b9-83d9-184f-0c27" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="7c96-fee9-e903-bc29" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="1adb-51d6-55d3-40a3" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="b66e-1d59-0fef-e6c2" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="b66e-1d59-0fef-e6c2" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="ea42-f54d-3ed6-4200" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
       </categoryLinks>
     </entryLink>
@@ -686,10 +696,10 @@
         <categoryLink id="5d22-fc5a-6477-00d1" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="1915-97d7-de31-df50" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="6827-a195-65dc-a045" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="1a9a-9112-72f3-5ff4" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="1a9a-9112-72f3-5ff4" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
         <categoryLink id="201f-1797-3a40-1279" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="47e8-d286-93ed-91eb" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
-        <categoryLink id="802c-3062-6ce2-6a0c" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="802c-3062-6ce2-6a0c" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f7d8-1520-e597-eb91" name="Norn Emissary" hidden="false" collective="false" import="true" targetId="cb33-d6ac-25ed-c1e9" type="selectionEntry">
@@ -698,11 +708,11 @@
         <categoryLink id="c4b0-e83c-d35b-2fd2" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="4e97-1577-6210-5c2b" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="43d8-1d0c-15fd-c218" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="1d60-aa26-0b1a-1b29" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="1d60-aa26-0b1a-1b29" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
         <categoryLink id="d65a-d98e-0382-8be8" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="7881-8796-b4e4-035c" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
         <categoryLink id="c7f2-532f-76b6-86ab" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="8541-979e-7e21-e03b" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="8541-979e-7e21-e03b" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ab69-a4b9-c166-9d3b" name="Psychophage" hidden="false" collective="false" import="true" targetId="3195-2ea3-c041-256b" type="selectionEntry">
@@ -710,30 +720,30 @@
         <categoryLink id="dc64-6ddb-f8a0-fc0c" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="f490-4f2f-d9b7-7d38" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="299b-a2b0-19fc-1b91" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
-        <categoryLink id="bade-0457-d751-2e60" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
-        <categoryLink id="116c-0a50-ae6e-e18b" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="bade-0457-d751-2e60" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
+        <categoryLink id="116c-0a50-ae6e-e18b" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="b753-ac52-5720-a76f" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="37f2-4b2d-b51b-9524" name="Neurolictor" hidden="false" collective="false" import="true" targetId="2eff-f8f1-b9a7-9835" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="d8de-363d-f50b-fb75" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="d8de-363d-f50b-fb75" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="122f-7e2b-ada9-9e7a" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="7699-b454-c917-501f" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="ae82-b7bd-7f97-d6dc" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="31bc-68b8-ec1e-c93a" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="45e5-072d-1b3f-8e40" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="45e5-072d-1b3f-8e40" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="b8d0-87db-c275-d509" name="Lictor" hidden="false" targetId="a48d-d141-0b13-2711" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2ff5-c3b8-a166-8930" name="Neurogaunts" hidden="false" collective="false" import="true" targetId="8898-4d33-aa55-7142" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="3b79-4271-b3e5-615c" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="3b79-4271-b3e5-615c" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
         <categoryLink id="facb-41b1-7b6c-8349" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="3805-1fc0-a696-2243" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="c44b-2995-8d86-2719" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="a4c6-78aa-2dba-262c" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="6e79-eff3-1a14-6ce6" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="6e79-eff3-1a14-6ce6" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -752,7 +762,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -814,7 +824,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -1086,7 +1096,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
           </characteristics>
         </profile>
@@ -1180,7 +1190,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1340,7 +1350,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1450,7 +1460,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -1468,7 +1478,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -1555,7 +1565,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">6+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -1573,7 +1583,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">6+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -1653,7 +1663,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -1671,7 +1681,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -1724,7 +1734,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -1742,7 +1752,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">8</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
                   </characteristics>
                 </profile>
@@ -1827,7 +1837,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">12+</characteristic>
                   </characteristics>
                 </profile>
@@ -1845,7 +1855,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">12+</characteristic>
                   </characteristics>
                 </profile>
@@ -1863,7 +1873,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">12+</characteristic>
                   </characteristics>
                 </profile>
@@ -1935,7 +1945,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -1953,7 +1963,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -2019,7 +2029,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -2037,7 +2047,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -2110,7 +2120,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">6+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
           </characteristics>
         </profile>
@@ -2260,7 +2270,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -2278,7 +2288,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -2312,7 +2322,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -2409,7 +2419,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -2427,7 +2437,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -2489,7 +2499,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -2507,7 +2517,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -2525,7 +2535,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -2553,7 +2563,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -2688,7 +2698,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">11+</characteristic>
                   </characteristics>
                 </profile>
@@ -2706,7 +2716,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">11+</characteristic>
                   </characteristics>
                 </profile>
@@ -2801,7 +2811,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -2819,7 +2829,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -2837,7 +2847,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -3040,7 +3050,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -3107,7 +3117,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -3279,7 +3289,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -3297,7 +3307,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -3315,7 +3325,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -3343,7 +3353,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -3409,7 +3419,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -3430,7 +3440,7 @@
                 <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                 <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                 <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                 <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
               </characteristics>
             </profile>
@@ -3566,7 +3576,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -3646,7 +3656,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -3671,7 +3681,7 @@
                 <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                 <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                 <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                 <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
               </characteristics>
             </profile>
@@ -3733,7 +3743,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -3811,7 +3821,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -3864,7 +3874,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -3918,7 +3928,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
           </characteristics>
         </profile>
@@ -3987,7 +3997,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
           </characteristics>
         </profile>
@@ -4086,7 +4096,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -4211,7 +4221,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
           </characteristics>
         </profile>
@@ -4343,7 +4353,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
           </characteristics>
         </profile>
@@ -4549,7 +4559,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -4666,7 +4676,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -4821,7 +4831,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">8</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -5084,7 +5094,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">11+</characteristic>
                   </characteristics>
                 </profile>
@@ -5102,7 +5112,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">11+</characteristic>
                   </characteristics>
                 </profile>
@@ -5120,7 +5130,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">11+</characteristic>
                   </characteristics>
                 </profile>
@@ -5222,7 +5232,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
           </characteristics>
         </profile>
@@ -5266,7 +5276,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -5342,7 +5352,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -5360,7 +5370,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -5441,7 +5451,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -5459,7 +5469,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -5504,7 +5514,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
                 </profile>
@@ -5522,7 +5532,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">12</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
                 </profile>
@@ -5555,7 +5565,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -5622,7 +5632,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -5694,7 +5704,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -5772,7 +5782,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">6+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -5819,7 +5829,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -5837,7 +5847,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
                   </characteristics>
                 </profile>
@@ -5928,6 +5938,6 @@ Each time an enemy unit makes a Normal Move, Advances, Falls Back or it makes a 
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="2c17-6538-35b6-8af9" name="Library - Weapons" targetId="02de-a64c-225d-8e88" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="2c17-6538-35b6-8af9" name="Library - Weapons" targetId="d2e9-8c51-33c4-d440" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

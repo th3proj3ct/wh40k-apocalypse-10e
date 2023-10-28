@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5514-6a66-a344-510b" name="Chaos - Chaos Knights" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5514-6a66-a344-510b" name="Chaos - Chaos Knights" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="21a9-75bf-0619-e801" name="Faction: Chaos Knights" hidden="false"/>
     <categoryEntry id="b868-0761-072e-7456" name="Faction: &lt;Questor Traitoris&gt;" hidden="false"/>
@@ -30,7 +30,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -49,7 +49,8 @@
         <categoryLink id="ef01-61a7-b35e-ea3d" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="dd23-8d0c-eb08-bc81" name="Abhorrent Class" hidden="false" targetId="9fc4-1a3a-b3ff-38e9" primary="false"/>
         <categoryLink id="a7c8-d98d-a811-bfa0" name="Knight Rampager" hidden="false" targetId="eeb5-c081-ec8e-527a" primary="false"/>
-        <categoryLink id="2d32-565c-b96b-9f38" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+        <categoryLink id="2d32-565c-b96b-9f38" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
+        <categoryLink id="01ad-4659-7419-5860" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6af1-b2fd-0189-2255" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="1896-0c3b-29df-97e4" type="selectionEntry">
@@ -70,7 +71,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5daf-46eb-259e-62d1" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="9dfe-2504-3721-428a" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="e7dc-c836-1090-a559" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="e37b-3c0f-c0f6-efc8" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
@@ -87,7 +87,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -137,7 +137,7 @@
         <infoLink id="f8a7-ac5d-befe-f37e" name="Diabolus Heavy Stubber" hidden="false" targetId="6a60-dfe7-0de3-7a32" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5c5e-22fa-383d-d677" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+        <categoryLink id="5c5e-22fa-383d-d677" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
         <categoryLink id="76d5-cfb9-975b-d986" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="7bf2-c7a4-4d9d-588f" name="Faction: Chaos Knights" hidden="false" targetId="21a9-75bf-0619-e801" primary="false"/>
         <categoryLink id="041b-5bed-3a6b-d5a5" name="Faction: &lt;Questor Traitoris&gt;" hidden="false" targetId="b868-0761-072e-7456" primary="false"/>
@@ -146,9 +146,9 @@
         <categoryLink id="06ae-eee6-b2de-2e79" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="b8fc-349d-a9d6-7c80" name="Abhorrent Class" hidden="false" targetId="9fc4-1a3a-b3ff-38e9" primary="false"/>
         <categoryLink id="4fc9-9aed-8613-7194" name="Knight Desecrator" hidden="false" targetId="eb48-08e4-3e1c-1f97" primary="false"/>
+        <categoryLink id="3c10-038d-502d-e5a9" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="a5e9-d93c-e75d-372f" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="84e0-eadd-c782-9f05" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
         <entryLink id="c694-631f-8a87-f0aa" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
@@ -165,7 +165,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -265,7 +265,6 @@
           </constraints>
         </entryLink>
         <entryLink id="66e6-5f53-cb7a-0277" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="7fc8-dae3-ec37-eb3f" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="e199-b530-1aa5-0103" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -277,7 +276,8 @@
         <infoLink id="29f6-a038-461e-afc2" name="Vehicle Squadron" hidden="false" targetId="4511-ac8f-1b8c-b430" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="cdf6-ba6a-c20e-79df" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+        <categoryLink id="cdf6-ba6a-c20e-79df" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
+        <categoryLink id="73f3-d00d-abe0-4ee4" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2b8d-217f-fb11-7652" name="War Dog Moirax" hidden="false" collective="false" import="true" type="upgrade">
@@ -293,7 +293,7 @@
                 <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                 <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                 <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                 <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
               </characteristics>
             </profile>
@@ -306,6 +306,7 @@
             <categoryLink id="ae4b-88a5-0a8f-7b6a" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
             <categoryLink id="16ae-00f8-c428-9c3c" name="War Dog" hidden="false" targetId="0fc9-abe9-7537-40fb" primary="false"/>
             <categoryLink id="8799-2860-6a7c-37b1" name="War Dog Moirax" hidden="false" targetId="d60b-0397-a52f-c9fb" primary="false"/>
+            <categoryLink id="529b-b3e0-e9ac-35e1" name="Battleline" hidden="false" targetId="21ec-008a-47d1-d863" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="e08f-1f5b-13fe-3bfc" name="Weapons" hidden="false" collective="false" import="true">
@@ -471,7 +472,6 @@
             </entryLink>
             <entryLink id="9f49-3cd3-e8dd-fa10" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
             <entryLink id="268c-0766-5667-6170" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
-            <entryLink id="fd65-67ec-f509-f296" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
@@ -491,7 +491,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -502,7 +502,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="96a0-97f8-3fc6-c843" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+        <categoryLink id="96a0-97f8-3fc6-c843" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
         <categoryLink id="d4a4-9458-06c4-64aa" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="f039-0a1d-8177-066b" name="Faction: Chaos Knights" hidden="false" targetId="21a9-75bf-0619-e801" primary="false"/>
         <categoryLink id="4f62-c490-a9f8-5d06" name="Faction: &lt;Questor Traitoris&gt;" hidden="false" targetId="b868-0761-072e-7456" primary="false"/>
@@ -511,6 +511,7 @@
         <categoryLink id="0714-7aae-b4f3-0ccc" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="f172-2932-d7e8-0f02" name="Abhorrent Class" hidden="false" targetId="9fc4-1a3a-b3ff-38e9" primary="false"/>
         <categoryLink id="b7a2-ca56-4d85-75f3" name="Knight Desecrator" hidden="false" targetId="eb48-08e4-3e1c-1f97" primary="false"/>
+        <categoryLink id="d745-a6b0-7992-88c0" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="56ce-ef0a-8cf1-df42" name="Laser Destructor" hidden="false" collective="false" import="true" type="upgrade">
@@ -557,7 +558,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f042-ec9e-b0d6-eca6" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="d6a7-f698-f440-b578" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="ce9c-b0c9-7d4d-aa96" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
         <entryLink id="cf1f-fcbe-af2c-fe39" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
@@ -574,7 +574,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -591,6 +591,7 @@
         <categoryLink id="c587-6457-e621-0da1" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="d31c-fcbb-ec32-4173" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="a78b-2edb-48f4-a107" name="War Dog" hidden="false" targetId="0fc9-abe9-7537-40fb" primary="false"/>
+        <categoryLink id="ec1d-d13c-d243-d73f" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="fe24-60cb-e650-02b0" name="Arm Weapon 2" hidden="false" collective="false" import="true">
@@ -713,7 +714,6 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="d117-9288-47e2-ec90" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="149d-b35a-7582-159b" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="e2c3-74a8-7956-26c2" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -729,7 +729,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -761,6 +761,7 @@
         <categoryLink id="8dd1-440a-465c-e06f" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="d425-c8a8-cd12-d102" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="4fa8-114f-c9d9-b754" name="War Dog" hidden="false" targetId="0fc9-abe9-7537-40fb" primary="false"/>
+        <categoryLink id="2044-16c0-066f-6eb3" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="67dd-94bd-f44e-2b6e" name="Carapace Weapon" hidden="false" collective="false" import="true">
@@ -799,7 +800,6 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="11da-f568-2fcf-96d3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="b0eb-b413-7cb3-f1ca" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="30d9-ce52-a1bc-ae68" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -815,7 +815,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -852,6 +852,7 @@
         <categoryLink id="4e25-7628-92a9-064b" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="369e-e3e2-2686-9d9b" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="86d2-4a82-ed31-17f4" name="War Dog" hidden="false" targetId="0fc9-abe9-7537-40fb" primary="false"/>
+        <categoryLink id="8a62-1670-1a8e-e2f9" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8d33-6f4c-580f-0041" name="Carapace Weapon" hidden="false" collective="false" import="true">
@@ -881,7 +882,6 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="e109-a570-d05b-3ffe" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="7c0a-38cf-562e-058d" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="938b-a69d-5a91-8aad" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -897,7 +897,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -914,6 +914,7 @@
         <categoryLink id="38f1-9605-444e-b5d4" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="8dd2-7b4d-c475-a22a" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="19ad-7030-ea44-bfc1" name="War Dog" hidden="false" targetId="0fc9-abe9-7537-40fb" primary="false"/>
+        <categoryLink id="13e0-26ad-46f2-d871" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="71aa-5e91-8918-1572" name="War Dog Autocannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -966,7 +967,6 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="5072-3321-739d-377d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="0dca-252d-2bec-fc2f" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="c23d-de92-3917-2238" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
         <entryLink id="a881-5d69-191a-b3d5" name="Armoured Feet" hidden="false" collective="false" import="true" targetId="c5c6-1c25-2e1e-c2d2" type="selectionEntry">
           <constraints>
@@ -987,7 +987,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1019,6 +1019,7 @@
         <categoryLink id="5ac5-1785-4197-eda8" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="2957-8e98-be13-1d0c" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="91a5-31d8-3d4a-ae69" name="War Dog" hidden="false" targetId="0fc9-abe9-7537-40fb" primary="false"/>
+        <categoryLink id="8c94-d3a7-35c5-2c41" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b96d-c54a-3dc3-c5f2" name="Carapace Weapon" hidden="false" collective="false" import="true">
@@ -1057,7 +1058,6 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="cabf-d9a7-2437-c471" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="7b51-0778-4baa-f7b9" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="26fa-d508-3c37-6cb9" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
         <entryLink id="e5cb-5be2-4c16-7431" name="Armoured Feet" hidden="false" collective="false" import="true" targetId="c5c6-1c25-2e1e-c2d2" type="selectionEntry">
           <constraints>
@@ -1078,7 +1078,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1089,7 +1089,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="3dc2-c3a8-8523-15da" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+        <categoryLink id="3dc2-c3a8-8523-15da" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
         <categoryLink id="7650-5c76-c30d-e6e0" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="c935-470a-24e3-6b86" name="Faction: Chaos Knights" hidden="false" targetId="21a9-75bf-0619-e801" primary="false"/>
         <categoryLink id="7dbb-54dd-1ec2-30a9" name="Faction: &lt;Questor Traitoris&gt;" hidden="false" targetId="b868-0761-072e-7456" primary="false"/>
@@ -1097,6 +1097,7 @@
         <categoryLink id="6fdf-33a9-c8d4-cc85" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
         <categoryLink id="5c79-dbed-a3a3-b71f" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="f42e-6268-a065-7d46" name="Knight Despoiler" hidden="false" targetId="0efa-fa9f-5660-9fdc" primary="false"/>
+        <categoryLink id="753a-6716-99f7-1425" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c73b-e116-47ad-5e73" name="Point Defence" hidden="false" collective="false" import="true">
@@ -1234,7 +1235,6 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="36c5-ced2-f9a9-b3df" name="Titanic Feet" hidden="false" collective="false" import="true" targetId="ffe4-d26c-71ad-694b" type="selectionEntry"/>
-        <entryLink id="0b40-0753-c5d0-ab47" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="f427-8861-1931-4340" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="ec72-28c9-b1dc-4e73" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
@@ -1244,14 +1244,46 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="6900-d6e5-1813-96ae" name="Knight Tyrant" hidden="false" collective="false" import="true" targetId="9f63-edf1-0c98-c9c4" type="selectionEntry"/>
-    <entryLink id="c07c-456d-1293-4fbd" name="Renegade Knight Acheron" hidden="false" collective="false" import="true" targetId="15a5-cb84-ffbd-e1d1" type="selectionEntry"/>
-    <entryLink id="8cdf-067f-379d-8cfb" name="Renegade Knight Magaera" hidden="false" collective="false" import="true" targetId="0106-e62a-82ca-a7f2" type="selectionEntry"/>
-    <entryLink id="08b0-4754-6e45-41f4" name="Renegade Knight Lancer" hidden="false" collective="false" import="true" targetId="7fe6-fce9-d479-e254" type="selectionEntry"/>
-    <entryLink id="cc91-9bba-b5b7-3c46" name="Renegade Knight Castigator" hidden="false" collective="false" import="true" targetId="a63c-b2c2-0c7f-e43a" type="selectionEntry"/>
-    <entryLink id="6780-b659-4c54-878e" name="Renegade Knight Atropos" hidden="false" collective="false" import="true" targetId="f2ac-4842-f2ba-f25e" type="selectionEntry"/>
-    <entryLink id="569c-684c-4721-57cd" name="Chaos Acastus Knight Porphyrion" hidden="false" collective="false" import="true" targetId="80b2-f53e-adf8-682c" type="selectionEntry"/>
-    <entryLink id="172e-3293-5378-2a80" name="Renegade Knight Styrix" hidden="false" collective="false" import="true" targetId="7fe3-1bdc-a4d7-d217" type="selectionEntry"/>
+    <entryLink id="6900-d6e5-1813-96ae" name="Knight Tyrant" hidden="false" collective="false" import="true" targetId="9f63-edf1-0c98-c9c4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3871-39e3-4066-1c41" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c07c-456d-1293-4fbd" name="Renegade Knight Acheron" hidden="false" collective="false" import="true" targetId="15a5-cb84-ffbd-e1d1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dc65-78dc-31c3-ff02" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8cdf-067f-379d-8cfb" name="Renegade Knight Magaera" hidden="false" collective="false" import="true" targetId="0106-e62a-82ca-a7f2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="48a3-47c6-de7a-8fdf" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="08b0-4754-6e45-41f4" name="Renegade Knight Lancer" hidden="false" collective="false" import="true" targetId="7fe6-fce9-d479-e254" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c353-4261-d316-f28f" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cc91-9bba-b5b7-3c46" name="Renegade Knight Castigator" hidden="false" collective="false" import="true" targetId="a63c-b2c2-0c7f-e43a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="da07-eb1f-2180-0055" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6780-b659-4c54-878e" name="Renegade Knight Atropos" hidden="false" collective="false" import="true" targetId="f2ac-4842-f2ba-f25e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f80d-925b-0221-376b" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="569c-684c-4721-57cd" name="Chaos Acastus Knight Porphyrion" hidden="false" collective="false" import="true" targetId="80b2-f53e-adf8-682c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="11b4-c97f-9ba4-992c" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="172e-3293-5378-2a80" name="Renegade Knight Styrix" hidden="false" collective="false" import="true" targetId="7fe3-1bdc-a4d7-d217" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b4a9-be94-0d40-6cf0" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule id="228d-e058-5c88-cba8" name="Fallen Courts" hidden="false">
@@ -1268,7 +1300,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1377,7 +1409,6 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23f5-a513-c8aa-3a1d" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="4db5-6697-c484-0202" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="0687-68eb-b35c-57e4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="db99-283d-7733-c9fd" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
@@ -1394,7 +1425,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1429,7 +1460,6 @@
           </constraints>
         </entryLink>
         <entryLink id="2618-41c8-1f71-e100" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="d5b5-f7e3-7c9c-7dfa" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="7946-6c7c-b383-bee3" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -1445,7 +1475,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1510,7 +1540,6 @@
           </constraints>
         </entryLink>
         <entryLink id="0b57-c9a7-2250-51b5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="ec0b-3097-8527-9454" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="03f9-e485-c8c0-3477" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -1531,7 +1560,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1554,7 +1583,6 @@
           </constraints>
         </entryLink>
         <entryLink id="03b1-de41-4a82-0db4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="c8e6-9afa-e0dd-f948" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="66ae-9ac0-ed32-34f1" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -1570,7 +1598,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1599,7 +1627,6 @@
           </constraints>
         </entryLink>
         <entryLink id="e5fe-78a2-f7b9-b218" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="0c24-5c15-0f2f-d3b4" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="cdb2-8076-7d80-c4d4" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -1620,7 +1647,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1653,7 +1680,6 @@
           </constraints>
         </entryLink>
         <entryLink id="c14b-6f59-37ee-c726" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="15e7-9ff9-bcc2-3369" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="7826-b23e-e99c-775e" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -1669,7 +1695,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1731,7 +1757,6 @@
           </constraints>
         </entryLink>
         <entryLink id="914b-3795-a7eb-a8ea" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="6d00-1816-a2f6-9be8" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="9d13-a530-a648-31fc" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -1747,7 +1772,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1812,43 +1837,17 @@
           </constraints>
         </entryLink>
         <entryLink id="88ee-9cb4-fdaf-4db9" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="d372-b912-c46b-0b64" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="2b2e-7d97-7964-a601" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c8da-2e77-79c0-db28" name="Character (Fallen Courts)" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ca8a-03ae-4312-9495" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ff90-e36b-ae5e-305c" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="7108-7970-d9bb-643b" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="b072-34bf-e854-6fb1" name="Warmaster Traits" hidden="false" collective="false" import="true" targetId="acd4-8bbf-d48d-1a62" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="f4a6-edd0-3a0d-fcca" name="Warmaster" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ba0-7df9-3f27-d4b1" type="instanceOf"/>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd2e-b7ed-76c8-a4d9" type="lessThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="69f5-c227-1b6d-e257" value="1.0">
           <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fb01-8e54-8822-7de4" type="instanceOf"/>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7347-5716-355f-9165" type="lessThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1915,6 +1914,6 @@
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="2ca8-4ad0-640e-d52e" name="Weapons" targetId="02de-a64c-225d-8e88" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="2ca8-4ad0-640e-d52e" name="Weapons" targetId="d2e9-8c51-33c4-d440" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

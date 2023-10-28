@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e51a-1e21-6ae4-2d6c" name="Chaos - Chaos Daemons" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e51a-1e21-6ae4-2d6c" name="Chaos - Chaos Daemons" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="bb5c-0fba-06fd-2fcb" name="Tally of Pestilence">
       <characteristicTypes>
@@ -120,7 +120,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -139,7 +139,7 @@
         <infoLink id="bb62-9ba3-8e35-2989" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e6d7-f642-c086-3148" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="e6d7-f642-c086-3148" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="f42d-e4e7-59f4-a889" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="b65f-f918-0338-8994" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="1a79-425b-cd98-1fab" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -149,6 +149,7 @@
         <categoryLink id="f3d2-f3df-aa32-75aa" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="e616-5a56-49c3-b52c" name="Bloodthirster" hidden="false" targetId="f022-0576-f1c4-d167" primary="false"/>
         <categoryLink id="d2fe-fa53-7a91-1716" name="Skarbrand" hidden="false" targetId="d442-7140-d6ed-ca3f" primary="false"/>
+        <categoryLink id="18c0-5b8a-d55b-5738" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="820e-2754-5320-fdb5" name="Bellow of Endless Fury" hidden="false" collective="false" import="true" type="upgrade">
@@ -225,7 +226,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -235,7 +236,7 @@
         <infoLink id="2933-9eb8-b547-14e0" name="Relentless Hunter" hidden="false" targetId="2dea-76ac-6b6b-a899" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7698-ff67-a2eb-b950" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="7698-ff67-a2eb-b950" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="ca73-e2c4-9931-7d09" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="e0f5-20d1-2bab-a015" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="ebe6-be93-3708-7c94" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -243,7 +244,7 @@
         <categoryLink id="6064-cee1-285f-e3c6" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="2597-d250-4d75-04df" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="5d45-4d73-c422-b333" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-        <categoryLink id="137c-ee67-0305-7661" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="137c-ee67-0305-7661" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="f313-6ab6-991f-8d78" name="Bloodthirster" hidden="false" targetId="f022-0576-f1c4-d167" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -332,7 +333,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -342,7 +343,7 @@
         <infoLink id="3637-34fe-0fda-e52b" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0c3e-894d-ca1a-cc15" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="0c3e-894d-ca1a-cc15" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="7f6c-1a2e-fc94-81e8" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="d48d-f220-e5d5-828f" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="8c3d-182c-ae8d-5a07" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -350,7 +351,7 @@
         <categoryLink id="9947-f4d9-45d9-2f7f" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="7905-c796-90b0-76de" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="ce58-0b1b-9204-557d" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-        <categoryLink id="f7f4-a4e4-63b8-569b" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="f7f4-a4e4-63b8-569b" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="75b8-88f5-52e1-f37e" name="Bloodthirster" hidden="false" targetId="f022-0576-f1c4-d167" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -487,7 +488,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -512,14 +513,14 @@
         <infoLink id="b9dc-866c-cf5c-2974" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8153-06b1-a11b-fd7c" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="8153-06b1-a11b-fd7c" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="b372-9f84-2226-d559" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="935b-5d2b-a734-0fd3" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="3c8e-3164-eebe-7514" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="5517-2e98-3ce2-bbec" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="8315-0ff2-18ad-065b" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="df81-0776-e9da-25f7" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="c4db-a4b9-38d7-0cf9" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="c4db-a4b9-38d7-0cf9" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="0fa4-4ad5-73f9-ac21" name="Bloodletter" hidden="false" targetId="dd59-3486-99b4-2a0d" primary="false"/>
         <categoryLink id="bc0a-43da-7d11-74b9" name="Herald of Khorne" hidden="false" targetId="a786-d920-79cf-f79d" primary="false"/>
         <categoryLink id="67bb-9e0b-0312-304d" name="Skulltaker" hidden="false" targetId="db1d-a421-b2df-f57d" primary="false"/>
@@ -575,7 +576,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
           </characteristics>
         </profile>
@@ -596,14 +597,14 @@
         <infoLink id="96d6-35fe-87dd-525a" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7de8-96fd-fd1b-ad3d" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="7de8-96fd-fd1b-ad3d" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="4067-3dd8-3b2a-5580" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="a39e-f4f5-f136-1779" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="98bf-183b-3c98-2323" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="e2aa-7ce0-dc54-6fd5" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="3a80-9b2e-c24a-def5" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="984d-14cf-6f9a-30d2" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="f250-1a82-36b6-dfd3" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="f250-1a82-36b6-dfd3" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="db4e-b14f-f03d-3dab" name="Bloodletter" hidden="false" targetId="dd59-3486-99b4-2a0d" primary="false"/>
         <categoryLink id="7a8d-3bea-e8dd-2d4b" name="Herald of Khorne" hidden="false" targetId="a786-d920-79cf-f79d" primary="false"/>
         <categoryLink id="2845-0eca-0b68-ec68" name="Bloodmaster" hidden="false" targetId="57d1-31d3-410f-1cfd" primary="false"/>
@@ -637,7 +638,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -657,7 +658,7 @@
         <infoLink id="74ae-6f75-b7ba-8ddf" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0456-bbcc-9b6d-9175" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="0456-bbcc-9b6d-9175" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="bc57-30d6-8bff-8b31" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="7ec4-fe98-fbeb-7c41" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="1932-06bb-8c1f-77dd" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -667,6 +668,7 @@
         <categoryLink id="93ce-0b69-c801-853e" name="Bloodletter" hidden="false" targetId="dd59-3486-99b4-2a0d" primary="false"/>
         <categoryLink id="29b7-8db6-65a8-e431" name="Herald of Khorne" hidden="false" targetId="a786-d920-79cf-f79d" primary="false"/>
         <categoryLink id="5d30-6d02-43dd-9c2c" name="Skullmaster" hidden="false" targetId="f857-7e07-3f9c-0393" primary="false"/>
+        <categoryLink id="c3b7-79d0-5d32-2220" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6fc1-f392-afd2-b7f3" name="Bladed Horn" hidden="false" collective="false" import="true" type="upgrade">
@@ -720,7 +722,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
           </characteristics>
         </profile>
@@ -729,14 +731,14 @@
         <infoLink id="964a-d9cc-0ecb-f522" name="Gorefeast" hidden="false" targetId="8837-d2cb-be32-4e11" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="018d-2c1a-7841-1920" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="018d-2c1a-7841-1920" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="aae1-b10c-9203-2d7f" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="6c3d-6af8-8570-993d" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="c2e8-9250-35cf-510d" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="9ab1-baea-ce0d-f371" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="abc0-18b6-7d08-169b" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="e516-9752-38b9-aa7e" name="Chariot" hidden="false" targetId="54ee-1b7e-6151-20ce" primary="false"/>
-        <categoryLink id="de30-22b6-37a7-e27f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="de30-22b6-37a7-e27f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="7d62-d041-73a8-8c36" name="Bloodletter" hidden="false" targetId="dd59-3486-99b4-2a0d" primary="false"/>
         <categoryLink id="a903-7245-5bf8-b359" name="Herald of Khorne" hidden="false" targetId="a786-d920-79cf-f79d" primary="false"/>
         <categoryLink id="aca4-5d48-238d-c82e" name="Blood Throne" hidden="false" targetId="d1cc-b544-5481-7b63" primary="false"/>
@@ -796,7 +798,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -821,7 +823,7 @@
         <infoLink id="61f0-64f8-5bc9-637b" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f3ed-e2ea-d2c3-0c65" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="f3ed-e2ea-d2c3-0c65" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="1a31-c485-d953-f852" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="9051-4218-8a53-d426" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="b93c-21d3-5881-5b5d" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -831,6 +833,7 @@
         <categoryLink id="9901-36f5-c820-efd4" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="4c13-5ef1-f6ab-93af" name="Flesh Hound" hidden="false" targetId="6cd7-4071-9eaa-6159" primary="false"/>
         <categoryLink id="14f9-a0ad-8ce7-deaa" name="Karanak" hidden="false" targetId="9ca5-313a-85cc-80c2" primary="false"/>
+        <categoryLink id="0984-3482-ad16-b412" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1d91-e195-bb0a-8b1b" name="Soul-rending Fangs" hidden="false" collective="false" import="true" type="upgrade">
@@ -933,7 +936,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -947,7 +950,7 @@
         <infoLink id="c4d5-65d0-cabb-57cf" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5fbf-a68b-74a1-c181" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="5fbf-a68b-74a1-c181" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="dd33-cbf1-1b9f-aa16" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="02e0-9f8c-c51d-9a43" name="Faction: Tzeentch" hidden="false" targetId="762a-9a68-1d7c-41a1" primary="false"/>
         <categoryLink id="8431-db3d-7fcf-9465" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -959,6 +962,7 @@
         <categoryLink id="3ed4-0704-a781-9a8e" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="e0b8-ceb1-3484-c36d" name="Lord of Change" hidden="false" targetId="13e2-4f5e-9729-5fe5" primary="false"/>
         <categoryLink id="f159-3193-4b1e-b0ed" name="Kairos Fateweaver" hidden="false" targetId="d05a-9d67-3ee6-2bf8" primary="false"/>
+        <categoryLink id="ded7-a702-4ab8-b966" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7c34-52f2-6871-7f0b" name="Purple Fires of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
@@ -1035,7 +1039,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -1050,7 +1054,7 @@
         <infoLink id="7407-ed02-9d53-fef9" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ef71-0c6b-e0a1-ab12" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="ef71-0c6b-e0a1-ab12" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="a5a3-d46c-e684-b958" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="2337-4359-6b9e-8b4d" name="Faction: Tzeentch" hidden="false" targetId="762a-9a68-1d7c-41a1" primary="false"/>
         <categoryLink id="9628-95fb-748c-2298" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -1059,7 +1063,7 @@
         <categoryLink id="851d-0f14-7384-4b37" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="0823-855e-960f-f833" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="6a9f-afca-c09a-1b54" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="dad9-080f-090a-fd8d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="dad9-080f-090a-fd8d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="2728-546f-da70-9a69" name="Lord of Change" hidden="false" targetId="13e2-4f5e-9729-5fe5" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -1190,7 +1194,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -1199,7 +1203,7 @@
         <infoLink id="3471-6a25-1684-dfed" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="589a-e136-9f07-d823" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="589a-e136-9f07-d823" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="3bee-b837-1d18-9978" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="6ba1-52df-062e-1f58" name="Faction: Tzeentch" hidden="false" targetId="762a-9a68-1d7c-41a1" primary="false"/>
         <categoryLink id="2f3b-b032-b2f3-00ec" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -1210,6 +1214,7 @@
         <categoryLink id="2e58-4436-18c6-bf34" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="1b56-c72f-8eb0-503a" name="Horror" hidden="false" targetId="ad10-11c9-c21a-d2c1" primary="false"/>
         <categoryLink id="be01-ab44-8985-77c3" name="The Blue Scribes" hidden="false" targetId="5bb1-eca3-2372-dbc9" primary="false"/>
+        <categoryLink id="3834-2e92-ba1d-c26e" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6a76-0c00-c06a-2562" name="Xirat&apos;p&apos;s Sorcerous Barrage" hidden="false" collective="false" import="true" type="upgrade">
@@ -1307,7 +1312,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -1328,7 +1333,7 @@
         <infoLink id="ffba-8df8-7164-3e3a" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1f9f-c945-2683-4c17" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="1f9f-c945-2683-4c17" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="3432-1c33-8f43-34f6" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="085c-23e4-2d4a-57ad" name="Faction: Tzeentch" hidden="false" targetId="762a-9a68-1d7c-41a1" primary="false"/>
         <categoryLink id="4fff-9a0a-12a1-7b3f" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -1336,7 +1341,7 @@
         <categoryLink id="bdb7-d098-81d4-b2f9" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="9d11-568b-1133-8fd7" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="736f-7abe-8c05-fd21" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="1a0b-dd47-d129-04e1" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="1a0b-dd47-d129-04e1" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="9039-143a-e33f-6971" name="Horror" hidden="false" targetId="ad10-11c9-c21a-d2c1" primary="false"/>
         <categoryLink id="18d0-6bf6-39cb-0768" name="Herald of Tzeentch" hidden="false" targetId="1ef7-ecf3-069e-ce5b" primary="false"/>
         <categoryLink id="963a-1b8c-3a68-5d4c" name="Changecaster" hidden="false" targetId="439a-077a-092b-6612" primary="false"/>
@@ -1371,7 +1376,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -1391,7 +1396,7 @@
         <infoLink id="8098-0782-8819-b6b6" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="69b8-b3e4-4ee0-c1e7" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="69b8-b3e4-4ee0-c1e7" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="c0a5-6a2b-388a-cec0" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="9f90-04c7-8fd2-6684" name="Faction: Tzeentch" hidden="false" targetId="762a-9a68-1d7c-41a1" primary="false"/>
         <categoryLink id="c722-6c77-b9e6-93f6" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -1400,7 +1405,7 @@
         <categoryLink id="6f44-43ff-b1d3-22b2" name="Chariot" hidden="false" targetId="54ee-1b7e-6151-20ce" primary="false"/>
         <categoryLink id="1de9-50dd-21d2-4eed" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="5adb-e58e-4539-a3b5" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="9f98-d11b-393d-a18b" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="9f98-d11b-393d-a18b" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="e050-b9d3-e934-cb43" name="Horror" hidden="false" targetId="ad10-11c9-c21a-d2c1" primary="false"/>
         <categoryLink id="31e8-3254-c5f5-a5e6" name="Herald of Tzeentch" hidden="false" targetId="1ef7-ecf3-069e-ce5b" primary="false"/>
         <categoryLink id="bd9f-6dfa-0f3d-f5db" name="Fateskimmer" hidden="false" targetId="04e6-0878-3ee5-3e5c" primary="false"/>
@@ -1436,7 +1441,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -1457,7 +1462,7 @@
         <infoLink id="4e6a-9123-bb69-2f98" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3671-d07e-e373-f41f" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="3671-d07e-e373-f41f" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="efd4-0ef4-28ce-dedd" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="cce5-c1be-658b-5e7c" name="Faction: Tzeentch" hidden="false" targetId="762a-9a68-1d7c-41a1" primary="false"/>
         <categoryLink id="c257-4387-cdde-35e0" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -1466,7 +1471,7 @@
         <categoryLink id="bf6d-c150-38a5-96ad" name="Cavalry" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
         <categoryLink id="5261-cc77-a5dc-9cd6" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="11da-3736-3e4c-8e66" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="2569-c30f-a295-1b68" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="2569-c30f-a295-1b68" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="62c0-c6bf-22f4-4578" name="Horror" hidden="false" targetId="ad10-11c9-c21a-d2c1" primary="false"/>
         <categoryLink id="a0c3-5535-81b1-cd3f" name="Herald of Tzeentch" hidden="false" targetId="1ef7-ecf3-069e-ce5b" primary="false"/>
         <categoryLink id="5234-4e03-c14b-cbed" name="Fluxmaster" hidden="false" targetId="262d-66b5-41c6-ce54" primary="false"/>
@@ -1505,7 +1510,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -1521,7 +1526,7 @@
         <infoLink id="f23c-b1fa-1ac6-a6a3" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0ba9-99af-bfaf-8dea" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="0ba9-99af-bfaf-8dea" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="b04d-d036-50ed-2aac" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="d66f-ede6-f2a6-d7de" name="Faction: Nurgle" hidden="false" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
         <categoryLink id="8342-0358-bbc1-4d60" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -1532,6 +1537,7 @@
         <categoryLink id="ddc7-5d92-2431-6830" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="1156-2949-434f-5676" name="Great Unclean One" hidden="false" targetId="848a-e9e2-95f6-f15d" primary="false"/>
         <categoryLink id="ddfd-06e5-233d-07db" name="Rotigus" hidden="false" targetId="94a9-61a5-bd7c-f553" primary="false"/>
+        <categoryLink id="aa97-dbd4-2b21-83b4" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="37bc-26e2-3d7b-8bb5" name="Streams of Brackish Filth" hidden="false" collective="false" import="true" type="upgrade">
@@ -1630,7 +1636,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -1641,7 +1647,7 @@
         <infoLink id="8a72-f8d7-4d6d-393d" name="Ignore Damage (5+)" hidden="false" targetId="958c-7037-989a-6da0" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="db6c-4e69-45ca-5956" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="db6c-4e69-45ca-5956" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="feb9-6d73-2ffe-69e6" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="f3c8-13d0-8e9b-114a" name="Faction: Nurgle" hidden="false" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
         <categoryLink id="3ad9-1ebd-df52-95d9" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -1649,7 +1655,7 @@
         <categoryLink id="c422-afeb-9b8f-de23" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="63c5-52ad-7cc7-bfe9" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="7d61-002f-9278-c237" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="2d72-978b-d14f-49aa" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="2d72-978b-d14f-49aa" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="fe4d-a6c9-4a84-bb2e" name="Great Unclean One" hidden="false" targetId="848a-e9e2-95f6-f15d" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -1816,7 +1822,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -1826,7 +1832,7 @@
         <infoLink id="9fe3-1ed9-1b20-7c53" name="Locus of Nurgle" hidden="false" targetId="de76-a6a3-77dc-b69b" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8245-863c-a9c3-31cb" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="8245-863c-a9c3-31cb" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="c5cd-764b-c3ee-aa87" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="5f1d-ba3a-9fce-7393" name="Faction: Nurgle" hidden="false" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
         <categoryLink id="0c69-4626-2138-7bc3" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -1837,6 +1843,7 @@
         <categoryLink id="84df-34f7-952d-75cd" name="Herald of Nurgle" hidden="false" targetId="ce0f-ef81-400c-45f9" primary="false"/>
         <categoryLink id="97f9-fb16-8702-5c0a" name="Plaguebearer" hidden="false" targetId="b16c-ec5a-b4a6-af3e" primary="false"/>
         <categoryLink id="bdee-7c2e-af65-bf48" name="Epidemius" hidden="false" targetId="aff1-936f-b004-8ee1" primary="false"/>
+        <categoryLink id="f441-3b2b-9215-292f" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ec2f-239e-a289-d21e" name="Balesword" hidden="false" collective="false" import="true" targetId="ee48-79b0-0c91-443b" type="selectionEntry"/>
@@ -1876,7 +1883,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -1886,7 +1893,7 @@
         <infoLink id="d4aa-12ba-5f4c-2934" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4085-057e-2ff5-c4b3" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="4085-057e-2ff5-c4b3" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="c010-2050-8bfb-87d5" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="045a-a8a6-480d-ad00" name="Faction: Nurgle" hidden="false" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
         <categoryLink id="9214-4d0f-a3ca-1afc" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -1897,6 +1904,7 @@
         <categoryLink id="e1b5-7301-143a-4e3e" name="Herald of Nurgle" hidden="false" targetId="ce0f-ef81-400c-45f9" primary="false"/>
         <categoryLink id="6b9f-10f4-7cd6-9f41" name="Plaguebearer" hidden="false" targetId="b16c-ec5a-b4a6-af3e" primary="false"/>
         <categoryLink id="3a91-445b-ead6-8ab1" name="Horticulous Slimux" hidden="false" targetId="0f9c-edbd-949c-4305" primary="false"/>
+        <categoryLink id="aa0c-02dc-3ebd-86b0" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3e78-e320-b1bf-55a2" name="Lopping Shears" hidden="false" collective="false" import="true" type="upgrade">
@@ -1970,7 +1978,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
           </characteristics>
         </profile>
@@ -1991,7 +1999,7 @@
         <infoLink id="0fc9-5a3d-fdd1-254d" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a334-982a-21e6-6b0a" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="a334-982a-21e6-6b0a" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="1082-000f-4370-07fc" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="93ee-ed9a-6ffc-cfc9" name="Faction: Nurgle" hidden="false" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
         <categoryLink id="0030-5888-50e6-6571" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -1999,7 +2007,7 @@
         <categoryLink id="beaf-65d3-20f3-c933" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="ee94-d088-2551-a4dd" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="508b-e022-dc7d-5b98" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="f7f9-650c-e36d-de3f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="f7f9-650c-e36d-de3f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="a6f0-a44e-bdc5-d96a" name="Herald of Nurgle" hidden="false" targetId="ce0f-ef81-400c-45f9" primary="false"/>
         <categoryLink id="be57-fe88-399c-66bc" name="Plaguebearer" hidden="false" targetId="b16c-ec5a-b4a6-af3e" primary="false"/>
         <categoryLink id="bd22-e046-6fcd-26df" name="Poxbringer" hidden="false" targetId="d9a3-d66b-386e-83b0" primary="false"/>
@@ -2033,7 +2041,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
           </characteristics>
         </profile>
@@ -2069,6 +2077,7 @@
         <categoryLink id="cfe8-4ae0-70ff-7c56" name="Herald of Nurgle" hidden="false" targetId="ce0f-ef81-400c-45f9" primary="false"/>
         <categoryLink id="12eb-e850-8c7a-792e" name="Plaguebearer" hidden="false" targetId="b16c-ec5a-b4a6-af3e" primary="false"/>
         <categoryLink id="af60-fa8b-ff88-026c" name="Sloppity Bilepiper" hidden="false" targetId="fa61-94ea-5fe4-677d" primary="false"/>
+        <categoryLink id="5c99-1698-733a-b46b" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5e8d-ab15-c7e6-9c50" name="Marotter" hidden="false" collective="false" import="true" type="upgrade">
@@ -2126,7 +2135,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
           </characteristics>
         </profile>
@@ -2141,7 +2150,7 @@
         <infoLink id="a40d-f4c4-7530-b36a" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="10aa-9e7a-8653-14b1" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="10aa-9e7a-8653-14b1" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="b539-19b0-0977-2692" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="d1a6-9983-5403-9bcf" name="Faction: Nurgle" hidden="false" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
         <categoryLink id="8da4-a87e-367a-a42f" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -2152,6 +2161,7 @@
         <categoryLink id="af27-ac2a-b494-9b8e" name="Herald of Nurgle" hidden="false" targetId="ce0f-ef81-400c-45f9" primary="false"/>
         <categoryLink id="5be7-e9d7-54db-7114" name="Plaguebearer" hidden="false" targetId="b16c-ec5a-b4a6-af3e" primary="false"/>
         <categoryLink id="2f96-c18a-7d13-adbc" name="Spoilpox Scrivener" hidden="false" targetId="4f5c-be52-df21-239a" primary="false"/>
+        <categoryLink id="ed71-eb73-ceb3-af51" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d10c-0927-1576-3c4c" name="Plaguesword" hidden="false" collective="false" import="true" type="upgrade">
@@ -2246,7 +2256,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
           </characteristics>
         </profile>
@@ -2260,13 +2270,13 @@
         <infoLink id="51dd-c059-00bc-fc29" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c150-4417-72a0-c818" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="c150-4417-72a0-c818" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="a177-575f-9f84-b1e6" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="e184-592d-69ab-f72a" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="a43f-34aa-d802-3c49" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="b997-5d5d-5adb-7c00" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="ae85-aa52-c973-bb6d" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
-        <categoryLink id="5a1b-d5da-c7f7-4b9d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="5a1b-d5da-c7f7-4b9d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="23ba-3949-35bf-e484" name="Daemon Prince of Chaos" hidden="false" targetId="f9f3-1f0e-3656-854e" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -2445,7 +2455,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
           </characteristics>
         </profile>
@@ -2459,7 +2469,7 @@
         <infoLink id="8a3f-1ba6-0dec-c048" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="cbb2-74bc-c96d-0c3d" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="cbb2-74bc-c96d-0c3d" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
         <categoryLink id="84e8-9917-ae29-673a" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="c86d-da82-c5dd-a84a" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="33e2-17fb-cf51-39ff" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -2467,6 +2477,7 @@
         <categoryLink id="24ea-6735-07e8-fbc7" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="177e-f578-ba04-5b30" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="ec6d-1a94-5889-2f6b" name="Bloodletters" hidden="false" targetId="5771-3a23-f126-513c" primary="false"/>
+        <categoryLink id="d613-4069-5e4c-7edc" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="bc01-89a5-dc6a-f9dc" name="Hellblades" hidden="false" collective="false" import="true" targetId="b597-0a47-5d03-be57" type="selectionEntry"/>
@@ -2500,13 +2511,13 @@
         <infoLink id="61b8-d146-7d64-5515" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="369b-295b-5178-c82c" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="369b-295b-5178-c82c" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
         <categoryLink id="3036-e4ba-ec7e-bbc3" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="f680-3c07-c849-f789" name="Faction: Tzeentch" hidden="false" targetId="762a-9a68-1d7c-41a1" primary="false"/>
         <categoryLink id="483e-28dc-6a59-85ab" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="53f3-a384-1e0d-4e93" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="de07-239f-db0f-540f" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="b0f2-4d63-13a2-17cc" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="b0f2-4d63-13a2-17cc" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="d5e9-6383-d0b2-2630" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
         <categoryLink id="0bc5-955f-d145-b968" name="Horrors" hidden="false" targetId="ee3e-41f6-ff59-0112" primary="false"/>
       </categoryLinks>
@@ -2562,7 +2573,7 @@
                 <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                 <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                 <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                 <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
               </characteristics>
             </profile>
@@ -2600,7 +2611,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -2611,7 +2622,7 @@
         <infoLink id="6a7b-2674-4343-69f2" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1c1f-0c7a-377b-63b1" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="1c1f-0c7a-377b-63b1" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="13d0-56a1-e8d7-a7d3" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="62da-db4b-94fc-c6c4" name="Faction: Slaanesh" hidden="false" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
         <categoryLink id="8849-1e57-877f-a311" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -2619,7 +2630,7 @@
         <categoryLink id="a4e1-a35b-b161-9e28" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="7d6c-35f4-e2c3-2d44" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="b0c1-a619-2bc5-89dc" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="929a-43fb-a6dd-4da5" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="929a-43fb-a6dd-4da5" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="b1fc-d15b-7dec-107d" name="Keeper of Secrets" hidden="false" targetId="03d7-9fc9-b780-4f62" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -2724,7 +2735,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -2740,7 +2751,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="f2be-7a77-9d91-e7e2" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="f2be-7a77-9d91-e7e2" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="2ab4-004f-07e7-bc4c" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="6438-a622-4537-6cf0" name="Faction: Slaanesh" hidden="false" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
         <categoryLink id="d385-e831-51ce-0d88" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -2751,6 +2762,7 @@
         <categoryLink id="f370-1169-5d28-fcbd" name="Daemonette" hidden="false" targetId="a297-fc88-ed8b-b247" primary="false"/>
         <categoryLink id="6171-d3ee-b174-cecd" name="Herald of Slaanesh" hidden="false" targetId="990a-6df4-b159-ed01" primary="false"/>
         <categoryLink id="7b13-8e22-39c4-425f" name="The Masque of Slaanesh" hidden="false" targetId="da4f-3175-e907-d9a5" primary="false"/>
+        <categoryLink id="1af8-6f9c-57b9-e3b7" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6459-f574-6ad9-8088" name="Serrated Claws" hidden="false" collective="false" import="true" type="upgrade">
@@ -2803,7 +2815,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
           </characteristics>
         </profile>
@@ -2812,7 +2824,7 @@
         <infoLink id="5c3c-edaa-f32f-260a" name="Locus of Slaanesh" hidden="false" targetId="8158-2752-cca7-18d7" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3683-7f4a-59a5-b96e" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="3683-7f4a-59a5-b96e" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="4937-4e1f-6d6d-504e" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="f0df-a418-8e32-dc9c" name="Faction: Slaanesh" hidden="false" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
         <categoryLink id="aa74-ebbb-8b38-7784" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -2820,7 +2832,7 @@
         <categoryLink id="d70e-7f20-ce9c-bf04" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="36da-6593-8f02-e09e" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="9fe6-5ce4-64e9-af65" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="32a1-5d7e-0cbc-c39d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="32a1-5d7e-0cbc-c39d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="176a-b41c-5a27-ecc5" name="Daemonette" hidden="false" targetId="a297-fc88-ed8b-b247" primary="false"/>
         <categoryLink id="b501-1e37-603f-1b8e" name="Herald of Slaanesh" hidden="false" targetId="990a-6df4-b159-ed01" primary="false"/>
       </categoryLinks>
@@ -2853,7 +2865,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
           </characteristics>
         </profile>
@@ -2863,7 +2875,7 @@
         <infoLink id="01b1-8a83-2eb5-43ab" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5e1e-93a0-94ac-ae1e" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="5e1e-93a0-94ac-ae1e" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
         <categoryLink id="9f0c-aba1-05db-e761" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="4640-08f8-9400-097a" name="Faction: Nurgle" hidden="false" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
         <categoryLink id="25d3-a9ef-c307-8555" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -2871,6 +2883,7 @@
         <categoryLink id="0547-58bd-a4cb-861d" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="ca02-fe0b-3973-aac6" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="ba8a-1ac3-dc6d-9b6b" name="Plaguebearers" hidden="false" targetId="2372-134e-d6e8-5712" primary="false"/>
+        <categoryLink id="b657-95d3-a8f2-8a8e" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="54ba-c224-9ea7-bbe5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
@@ -2905,13 +2918,13 @@
         <infoLink id="1ad8-983c-c84a-73ab" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b558-57e0-0db9-571c" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="b558-57e0-0db9-571c" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
         <categoryLink id="df7a-c4f8-3d51-4665" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="e2d0-3075-4c38-36a4" name="Faction: Nurgle" hidden="false" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
         <categoryLink id="5257-23c7-83e8-40ec" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="245b-7c5e-8b5c-f1a1" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="7565-c8c5-f45e-01c6" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="0a26-c5e3-c95c-2435" name="Swarm" hidden="false" targetId="65b5-f311-b8c4-3721" primary="false"/>
+        <categoryLink id="0a26-c5e3-c95c-2435" name="Swarm" hidden="false" targetId="65b5-f311-b8c4-3721" primary="true"/>
         <categoryLink id="9a5c-c095-1e99-7f3b" name="Nurglings" hidden="false" targetId="9c39-2e97-a750-0e44" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -2953,7 +2966,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
                   </characteristics>
                 </profile>
@@ -2971,7 +2984,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
                   </characteristics>
                 </profile>
@@ -2989,7 +3002,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
                   </characteristics>
                 </profile>
@@ -3032,13 +3045,13 @@
         <infoLink id="b934-c8dd-7774-f9fe" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6c30-a147-512b-2b52" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="6c30-a147-512b-2b52" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="87f3-096d-32a0-bc0e" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="af28-8581-934a-e2a0" name="Faction: Slaanesh" hidden="false" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
         <categoryLink id="0951-a3d9-c48f-1017" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="3a9f-e6b0-f1f6-94ab" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="019f-770f-b9c3-166d" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="20f5-d639-8356-11f6" name="Beasts" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="false"/>
+        <categoryLink id="20f5-d639-8356-11f6" name="Beasts" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
         <categoryLink id="7849-9dd7-71d8-8d51" name="Fiends of Slaanesh" hidden="false" targetId="7229-5d73-7bb7-fe77" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -3080,7 +3093,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">5</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -3098,7 +3111,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">10</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -3141,13 +3154,13 @@
         <infoLink id="c64e-71ef-39ef-85c6" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1426-e334-71ab-3792" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="1426-e334-71ab-3792" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="5548-2858-c762-0b82" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="a0c6-64ed-3fd3-cd81" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="c86e-01c2-d376-8f12" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="72f1-cbd1-6eca-7b3f" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="c890-a500-5187-6f3c" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="ec01-2209-63c0-6a12" name="Beasts" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="false"/>
+        <categoryLink id="ec01-2209-63c0-6a12" name="Beasts" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
         <categoryLink id="ddde-4a4a-3fd0-f697" name="Flesh Hounds" hidden="false" targetId="27a9-4780-9c51-2fa3" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -3189,7 +3202,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -3207,7 +3220,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -3250,13 +3263,13 @@
         <infoLink id="c96b-de01-4aa0-1723" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c4e1-d381-8e26-4a0d" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="c4e1-d381-8e26-4a0d" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="4c19-a579-3bf7-ddff" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="8965-c62f-2359-812c" name="Faction: Tzeentch" hidden="false" targetId="762a-9a68-1d7c-41a1" primary="false"/>
         <categoryLink id="29e3-7864-d9e9-b983" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="d3c1-e53d-5a75-fbcd" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="bfd6-45d2-94de-f26b" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="6767-7d52-9d21-0050" name="Beasts" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="false"/>
+        <categoryLink id="6767-7d52-9d21-0050" name="Beasts" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
         <categoryLink id="e996-f6db-9107-6e3b" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="cf51-029e-04da-5f9c" name="Screamers" hidden="false" targetId="1d71-95d0-51c6-bb25" primary="false"/>
       </categoryLinks>
@@ -3276,7 +3289,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
                 </profile>
@@ -3294,7 +3307,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
                 </profile>
@@ -3332,13 +3345,13 @@
         <infoLink id="c9ef-0987-802e-6587" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f404-8811-9471-5e75" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="f404-8811-9471-5e75" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="5dd0-b908-ab31-0573" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="78a3-b546-b017-d360" name="Faction: Nurgle" hidden="false" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
         <categoryLink id="3493-cea2-bd2e-c3f5" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="1c9e-4781-0fab-f346" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="9c1b-3a2b-61f9-a728" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="5c17-b208-93cf-c359" name="Cavalry" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="5c17-b208-93cf-c359" name="Cavalry" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
         <categoryLink id="9c49-9124-7bca-75ef" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="439f-f67d-a3c8-8fc4" name="Plague Drones" hidden="false" targetId="2f8e-a3a3-af92-8248" primary="false"/>
       </categoryLinks>
@@ -3384,7 +3397,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -3402,7 +3415,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">8</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -3439,13 +3452,13 @@
         <infoLink id="6d56-f44d-ee2d-37cb" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="d419-52a2-fc8d-7fdb" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="d419-52a2-fc8d-7fdb" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="06dd-ac20-181b-2e1a" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="3e31-fffa-7355-fcdb" name="Faction: Slaanesh" hidden="false" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
         <categoryLink id="926c-460e-5520-4b27" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="11e8-c05d-272c-54cc" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="2148-f4fe-af3f-a8d9" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="28eb-aa23-c871-fe36" name="Cavalry" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="28eb-aa23-c871-fe36" name="Cavalry" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
         <categoryLink id="118b-d3be-1d79-86a4" name="Seekers" hidden="false" targetId="4970-bbc0-de7c-066e" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -3464,7 +3477,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -3482,7 +3495,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -3528,7 +3541,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">10</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
           </characteristics>
         </profile>
@@ -3542,7 +3555,7 @@
         <infoLink id="9391-5267-ae1a-5b41" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0d7d-a4b1-a946-f766" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="0d7d-a4b1-a946-f766" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
         <categoryLink id="47e9-69c9-4410-4946" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="2fb2-260a-347c-664f" name="Faction: Slaanesh" hidden="false" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
         <categoryLink id="200d-51c7-403e-7d69" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -3550,6 +3563,7 @@
         <categoryLink id="ba23-7b7b-de0c-9386" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="f786-9186-cb05-61d7" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="a652-9e42-e070-63a5" name="Daemonettes" hidden="false" targetId="97e3-8762-4a82-f2aa" primary="false"/>
+        <categoryLink id="501d-b92c-4ad9-c74d" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="96c5-af1f-b5ba-e467" name="Piercing Claws" hidden="false" collective="false" import="true" targetId="2e25-3df6-540a-13c2" type="selectionEntry"/>
@@ -3583,13 +3597,13 @@
         <infoLink id="34b4-1a6f-fa1e-53d5" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ea9d-5a27-9df0-4e7f" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="ea9d-5a27-9df0-4e7f" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="9873-8627-8b2c-2030" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="f95d-b91d-1fd4-24f6" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="27c6-8829-f3cb-76be" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="d5af-9e00-e067-d9fc" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="31af-ffdc-c897-8763" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="c563-78c7-48de-abe6" name="Cavalry" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="c563-78c7-48de-abe6" name="Cavalry" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
         <categoryLink id="ca61-6760-e97a-6b1b" name="Bloodcrushers" hidden="false" targetId="f23e-921a-f294-a155" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -3631,7 +3645,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
                 </profile>
@@ -3649,7 +3663,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
                 </profile>
@@ -3692,13 +3706,13 @@
         <infoLink id="7059-7428-5180-1ac7" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4a9a-756f-eb77-21f1" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="4a9a-756f-eb77-21f1" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="07e1-f2d5-e9da-cd59" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="6a19-5035-a3ea-e356" name="Faction: Tzeentch" hidden="false" targetId="762a-9a68-1d7c-41a1" primary="false"/>
         <categoryLink id="c0fb-9e5d-e3fd-37e5" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="1c75-0282-902f-da8f" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="5677-7791-99e7-2672" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="824c-142d-f774-3f83" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="824c-142d-f774-3f83" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="449f-b4f0-39f5-8221" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="043b-9042-703e-55f7" name="Flamers" hidden="false" targetId="24e6-3468-2c62-13ab" primary="false"/>
       </categoryLinks>
@@ -3754,7 +3768,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
                 </profile>
@@ -3772,7 +3786,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
                 </profile>
@@ -3812,7 +3826,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -3832,13 +3846,13 @@
         <infoLink id="6ebb-2f05-c22d-1fd5" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c7e8-a613-a12b-527c" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="c7e8-a613-a12b-527c" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="e872-7978-a606-3284" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="2202-5cac-a485-fdf7" name="Faction: Tzeentch" hidden="false" targetId="762a-9a68-1d7c-41a1" primary="false"/>
         <categoryLink id="a7b4-1a02-6c3d-4c71" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="24e9-ea36-bbd5-e729" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="763b-5a11-4dd9-37d5" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="ec90-8ffb-ce88-43a1" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="ec90-8ffb-ce88-43a1" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="5e11-d1a1-8b67-2d2c" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="6154-8645-61be-ac5e" name="Exalted Flamer" hidden="false" targetId="a279-1019-b44f-fb19" primary="false"/>
       </categoryLinks>
@@ -3874,13 +3888,13 @@
         <infoLink id="1743-311f-bfc6-7d31" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9fc1-a693-7547-b904" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="9fc1-a693-7547-b904" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="36d9-bcd8-ecd2-be2d" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="055d-4ffb-a509-f377" name="Faction: Nurgle" hidden="false" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
         <categoryLink id="8467-c84c-010e-076c" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="da77-4000-834f-ed3b" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="dd05-e6b4-dd19-d91c" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="d565-bbf1-d952-2e9a" name="Beasts" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="false"/>
+        <categoryLink id="d565-bbf1-d952-2e9a" name="Beasts" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
         <categoryLink id="0bdd-42e4-51bc-f7aa" name="Beasts of Nurgle" hidden="false" targetId="9367-5c39-84b0-16d8" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -3922,7 +3936,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -3940,7 +3954,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -3980,13 +3994,13 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="10d2-0151-bdc1-aa66" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="10d2-0151-bdc1-aa66" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="9ebd-0257-05b6-c71f" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="fc76-f3dc-a246-1b99" name="Faction: Slaanesh" hidden="false" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
         <categoryLink id="a86a-bc5d-0d7c-2531" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -3995,6 +4009,7 @@
         <categoryLink id="cdc9-bf48-eb89-6558" name="Chariot" hidden="false" targetId="54ee-1b7e-6151-20ce" primary="false"/>
         <categoryLink id="aba3-c67e-230e-c7d2" name="Daemonette" hidden="false" targetId="a297-fc88-ed8b-b247" primary="false"/>
         <categoryLink id="abf5-160a-dfe2-9209" name="Hellflayer" hidden="false" targetId="1ca0-16bc-c8ae-b9f0" primary="false"/>
+        <categoryLink id="d0a3-ecdd-cb26-eaf0" name="New CategoryLink" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c163-3f79-269f-2d2b" name="Bladed Axle" hidden="false" collective="false" import="true" type="upgrade">
@@ -4046,13 +4061,13 @@
         <infoLink id="d71f-5838-69db-7ec0" name="Unstoppable Ferocity" hidden="false" targetId="5f04-526b-f9d8-bef8" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8d77-ba9b-6f48-99e5" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="8d77-ba9b-6f48-99e5" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="e5e7-0ec0-1720-1033" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="4309-afe5-385f-e558" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="9745-21b0-8339-d3b3" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="d7a8-6485-c5e1-c92b" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="8e12-f3e8-0e87-ff86" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="5965-aceb-2d4f-ab79" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="5965-aceb-2d4f-ab79" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="00a7-68ec-364b-b409" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="f769-9f8f-a644-4787" name="Furies" hidden="false" targetId="1df2-4af3-9265-59fb" primary="false"/>
       </categoryLinks>
@@ -4072,7 +4087,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -4090,7 +4105,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -4108,7 +4123,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -4126,7 +4141,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -4163,13 +4178,13 @@
         <infoLink id="8f34-964f-e458-c4b5" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5b22-f163-f441-1d05" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="5b22-f163-f441-1d05" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="af16-a059-0271-49b9" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="a839-f892-84ec-eb96" name="Faction: Nurgle" hidden="false" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
         <categoryLink id="59ec-ab91-aeaa-d69d" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="5175-2509-dbc6-96e6" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="db43-5aa0-2e25-a2dd" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="4225-4bc6-923c-bebb" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="4225-4bc6-923c-bebb" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="a17c-1196-3430-2908" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="a9e7-4641-8626-5fc8" name="Furies" hidden="false" targetId="1df2-4af3-9265-59fb" primary="false"/>
       </categoryLinks>
@@ -4189,7 +4204,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -4207,7 +4222,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -4225,7 +4240,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -4243,7 +4258,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -4277,13 +4292,13 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="cf6a-1015-ef8c-7308" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="cf6a-1015-ef8c-7308" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="4946-82ec-6746-97cd" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="474b-277e-e305-1bc9" name="Faction: Slaanesh" hidden="false" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
         <categoryLink id="9d87-4d20-a6a8-bb96" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="6074-39dc-9da7-e529" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="0b63-d451-d2ce-5169" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="4529-bc53-1cb3-c2da" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="4529-bc53-1cb3-c2da" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="5147-d564-c411-dff2" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="7e56-19ea-8870-1029" name="Furies" hidden="false" targetId="1df2-4af3-9265-59fb" primary="false"/>
       </categoryLinks>
@@ -4303,7 +4318,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -4321,7 +4336,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -4339,7 +4354,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -4357,7 +4372,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -4391,13 +4406,13 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="5c09-5b9a-4400-c4e4" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="5c09-5b9a-4400-c4e4" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="cf81-4cec-c642-5476" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="0264-1ff8-3e90-fcb7" name="Faction: Tzeentch" hidden="false" targetId="762a-9a68-1d7c-41a1" primary="false"/>
         <categoryLink id="3bca-93dc-36d7-2ac1" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="d590-badd-d9f2-6c09" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="d879-bd08-e320-5b6d" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="69e9-dc45-0ae8-2f1a" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="69e9-dc45-0ae8-2f1a" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="bd9d-59c2-0a72-68b9" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="2d53-3c21-283e-f9a2" name="Furies" hidden="false" targetId="1df2-4af3-9265-59fb" primary="false"/>
       </categoryLinks>
@@ -4417,7 +4432,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -4435,7 +4450,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -4453,7 +4468,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -4471,7 +4486,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -4512,7 +4527,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -4521,7 +4536,7 @@
         <infoLink id="72cc-7bdd-2e8d-5cb1" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="20dd-a8f2-a2e4-d993" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="20dd-a8f2-a2e4-d993" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="d83b-4b5f-6455-b66a" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="4ff6-9e32-cc40-cc1d" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="10a9-ddcb-cca4-857c" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -4530,6 +4545,7 @@
         <categoryLink id="42f2-acc8-2a54-ab4a" name="Chariot" hidden="false" targetId="54ee-1b7e-6151-20ce" primary="false"/>
         <categoryLink id="8e5a-83b6-5675-dbf8" name="Bloodletter" hidden="false" targetId="dd59-3486-99b4-2a0d" primary="false"/>
         <categoryLink id="0537-0d73-8ebf-940d" name="Skull Cannon" hidden="false" targetId="65b5-1a59-7393-1aab" primary="false"/>
+        <categoryLink id="1c97-79f6-a99f-eb60" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8b64-2384-67af-b0af" name="Skull Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -4603,7 +4619,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -4612,7 +4628,7 @@
         <infoLink id="b74e-1c6c-631b-8796" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1c52-11eb-fc03-4d08" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="1c52-11eb-fc03-4d08" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="7e15-53db-5fac-c80a" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="6c16-523d-787e-10c6" name="Faction: Tzeentch" hidden="false" targetId="762a-9a68-1d7c-41a1" primary="false"/>
         <categoryLink id="367f-6a55-e71c-eb06" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -4623,6 +4639,7 @@
         <categoryLink id="bf75-3129-0d0b-6706" name="Exalted Flamer" hidden="false" targetId="a279-1019-b44f-fb19" primary="false"/>
         <categoryLink id="5f51-0262-f883-8cc0" name="Flamer" hidden="false" targetId="5d5d-4057-8e50-84d2" primary="false"/>
         <categoryLink id="3e56-72eb-79eb-3cb9" name="Burning Chariot" hidden="false" targetId="c168-c049-d491-efbb" primary="false"/>
+        <categoryLink id="882b-246d-f1d9-173f" name="New CategoryLink" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="fede-daa7-b727-5a6c" name="Fires of Tzeentch" hidden="false" collective="false" import="true" targetId="e7af-a4fe-de12-3de4" type="selectionEntry"/>
@@ -4650,7 +4667,7 @@
         <infoLink id="889c-4674-60cc-e92d" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4d63-4cce-1a13-ad65" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="4d63-4cce-1a13-ad65" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="0b1f-e0cd-a9f2-04ce" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="9a07-d974-025b-e01e" name="Faction: Slaanesh" hidden="false" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
         <categoryLink id="87a3-26c8-8add-fb3c" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -4659,6 +4676,7 @@
         <categoryLink id="6896-d1b9-ae40-9c1d" name="Chariot" hidden="false" targetId="54ee-1b7e-6151-20ce" primary="false"/>
         <categoryLink id="df6b-2aea-0eba-e7a3" name="Daemonette" hidden="false" targetId="a297-fc88-ed8b-b247" primary="false"/>
         <categoryLink id="715e-928d-33fe-28df" name="Seeker Chariot" hidden="false" targetId="7e83-24cf-d32c-b726" primary="false"/>
+        <categoryLink id="06a4-81b3-744c-cd0b" name="New CategoryLink" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6526-068e-0245-5be6" name="Lashes of Torment" hidden="false" collective="false" import="true" type="upgrade">
@@ -4699,7 +4717,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
                 </profile>
@@ -4717,7 +4735,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
                 </profile>
@@ -4763,13 +4781,13 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="526a-03b8-57ba-b5c5" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="526a-03b8-57ba-b5c5" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="b6b3-9ccc-2a29-434f" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="e695-d9bf-5a3b-9cef" name="Faction: Slaanesh" hidden="false" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
         <categoryLink id="b40a-8339-0fc4-5796" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -4778,6 +4796,7 @@
         <categoryLink id="ae3a-e41b-ac20-c5eb" name="Chariot" hidden="false" targetId="54ee-1b7e-6151-20ce" primary="false"/>
         <categoryLink id="34c8-dd3f-18f5-a271" name="Daemonette" hidden="false" targetId="a297-fc88-ed8b-b247" primary="false"/>
         <categoryLink id="e795-4a76-50ad-883c" name="Exalted Seeker Chariot" hidden="false" targetId="027b-e99d-8502-4e48" primary="false"/>
+        <categoryLink id="0add-4fc5-2b1f-bcae" name="New CategoryLink" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="112c-2962-5f83-aab7" name="Lashes of Torment" hidden="false" collective="false" import="true" targetId="ab52-2a24-0de0-faa1" type="selectionEntry"/>
@@ -4810,7 +4829,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -4824,12 +4843,12 @@
         <infoLink id="56b6-280c-c208-3766" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="eac6-0ccc-217b-ebd5" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="eac6-0ccc-217b-ebd5" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="b280-4a1a-56b9-bb02" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="bab0-1f74-b7a4-6e3f" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="eeb3-1458-02bd-37f0" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="822d-96bc-3417-661d" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="244b-abb1-9bc3-dae9" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="244b-abb1-9bc3-dae9" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="042f-660d-4df7-d2a7" name="Soul Grinder" hidden="false" targetId="96ff-f4bd-cf6f-8945" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5155,7 +5174,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -5170,7 +5189,7 @@
         <infoLink id="7093-5e28-4ce0-808d" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1556-947c-8450-8c9d" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="1556-947c-8450-8c9d" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="1bbb-cc5d-e02a-31c2" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="270b-dedd-abde-af37" name="Faction: Slaanesh" hidden="false" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
         <categoryLink id="4817-7b93-3c2e-e163" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -5181,6 +5200,7 @@
         <categoryLink id="9355-d7a7-74d8-c4dc" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="40b4-c3c8-6e0b-b3ab" name="Keeper of Secrets" hidden="false" targetId="03d7-9fc9-b780-4f62" primary="false"/>
         <categoryLink id="1335-4428-8419-ad28" name="Shalaxi Helbane" hidden="false" targetId="a8f1-680a-4df3-2470" primary="false"/>
+        <categoryLink id="7df6-8c5c-e48b-73c9" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3535-ea1b-e01f-bb83" name="Soulpiercer" hidden="false" collective="false" import="true" type="upgrade">
@@ -5282,7 +5302,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -5301,7 +5321,7 @@
         <infoLink id="b7d4-5ceb-231c-e3eb" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4577-798a-3dcb-e0ff" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="4577-798a-3dcb-e0ff" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="8710-916a-2d8a-6a88" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="f7d0-0a88-107a-d313" name="Faction: Tzeentch" hidden="false" targetId="762a-9a68-1d7c-41a1" primary="false"/>
         <categoryLink id="6a80-db27-a798-2c5b" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -5313,6 +5333,7 @@
         <categoryLink id="f5de-bb80-8ffb-25cb" name="Herald of Tzeentch" hidden="false" targetId="1ef7-ecf3-069e-ce5b" primary="false"/>
         <categoryLink id="e0bd-c59b-818a-3dd7" name="Horror" hidden="false" targetId="ad10-11c9-c21a-d2c1" primary="false"/>
         <categoryLink id="20f1-ca85-879f-1e1c" name="The Changeling" hidden="false" targetId="dd1d-b3b4-0409-fce1" primary="false"/>
+        <categoryLink id="e088-a692-8bbd-f34d" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4ce8-36ed-0946-c58f" name="The Trickster&apos;s Staff" hidden="false" collective="false" import="true" type="upgrade">
@@ -5393,7 +5414,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -5418,7 +5439,7 @@
         <infoLink id="a06d-2a5a-7c98-7ee0" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="62e5-170e-3bf3-1d4d" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="62e5-170e-3bf3-1d4d" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="8f62-a5e5-70b0-bd02" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="78af-f9d3-96f7-1a44" name="Faction: Slaanesh" hidden="false" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
         <categoryLink id="1830-7122-757f-b591" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -5431,6 +5452,7 @@
         <categoryLink id="2f8b-111e-28da-5d70" name="Herald of Slaanesh" hidden="false" targetId="990a-6df4-b159-ed01" primary="false"/>
         <categoryLink id="024f-ca14-4823-2c07" name="Daemon Prince" hidden="false" targetId="6b0d-0721-2b56-887e" primary="false"/>
         <categoryLink id="83a4-0ef4-2434-545e" name="Syll&apos;esske" hidden="false" targetId="a8be-fa66-8b98-9d4d" primary="false"/>
+        <categoryLink id="b603-2a54-9c05-3d35" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8ad1-7892-e9c7-37a5" name="Scourging Whip" hidden="false" collective="false" import="true" type="upgrade">
@@ -5539,7 +5561,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
           </characteristics>
         </profile>
@@ -5553,7 +5575,7 @@
         <infoLink id="b16c-803b-c8cc-ea52" name="Locus of Slaanesh" hidden="false" targetId="8158-2752-cca7-18d7" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3143-f052-3d36-54fc" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="3143-f052-3d36-54fc" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="6528-2306-bc80-16d0" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="718b-4341-e561-8d1c" name="Faction: Slaanesh" hidden="false" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
         <categoryLink id="09bb-0c53-1c10-81e3" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -5564,6 +5586,7 @@
         <categoryLink id="d58c-a284-9211-3bf2" name="Daemonette" hidden="false" targetId="a297-fc88-ed8b-b247" primary="false"/>
         <categoryLink id="1227-372a-b880-f8b0" name="Herald of Slaanesh" hidden="false" targetId="990a-6df4-b159-ed01" primary="false"/>
         <categoryLink id="f102-64ff-d732-9a64" name="The Contorted Epitome" hidden="false" targetId="17c5-70c0-64f7-c14c" primary="false"/>
+        <categoryLink id="9724-0df5-7ac2-7835" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9f38-f418-7cc5-2ea5" name="Coiled Tentacles" hidden="false" collective="false" import="true" type="upgrade">
@@ -5637,7 +5660,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -5656,14 +5679,14 @@
         <infoLink id="fa34-f35b-829b-07c7" name="Psychic Backlash" hidden="false" targetId="beee-5681-84e1-6bfb" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="363a-c3b6-5c0c-9fb2" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="363a-c3b6-5c0c-9fb2" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="a528-19a0-f41b-380c" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="a0d0-db9b-9597-c107" name="Faction: Slaanesh" hidden="false" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
         <categoryLink id="e6a1-a0a4-7858-c4f1" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="3abc-96ad-dd1b-7b3e" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="532a-f99a-c49d-93e6" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="c6d7-b5ef-4d14-07ff" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="427d-c44e-e2d2-7236" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="427d-c44e-e2d2-7236" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="fc2e-6c04-6d05-79ba" name="Daemonette" hidden="false" targetId="a297-fc88-ed8b-b247" primary="false"/>
         <categoryLink id="319d-c87b-0422-2a59" name="Herald of Slaanesh" hidden="false" targetId="990a-6df4-b159-ed01" primary="false"/>
         <categoryLink id="c8ea-0086-7919-31c7" name="Infernal Enrapturess" hidden="false" targetId="b554-9928-c1f9-f392" primary="false"/>
@@ -5723,7 +5746,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -5737,7 +5760,7 @@
         <infoLink id="3d1b-72b6-0ccb-c598" name="Unstoppable Ferocity" hidden="false" targetId="5f04-526b-f9d8-bef8" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0ad7-d80a-986c-4c15" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+        <categoryLink id="0ad7-d80a-986c-4c15" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
         <categoryLink id="4342-c583-3b9a-b01e" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="d555-76fe-c3ee-77c1" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="7772-bdfe-8ffb-b137" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -5749,6 +5772,7 @@
         <categoryLink id="7afb-0e22-d993-41fa" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="fb33-442e-90c1-b657" name="Bloodthirster" hidden="false" targetId="f022-0576-f1c4-d167" primary="false"/>
         <categoryLink id="e37c-205c-ab71-95d5" name="An&apos;ggrath the Unbound" hidden="false" targetId="22c1-4d5c-d984-6087" primary="false"/>
+        <categoryLink id="2001-80cc-b650-ee05" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1d3f-9f34-3c25-89b1" name="Bloodlash" hidden="false" collective="false" import="true" type="upgrade">
@@ -5815,7 +5839,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -5824,7 +5848,7 @@
         <infoLink id="a2e6-a719-456f-cdad" name="Unstoppable Ferocity" hidden="false" targetId="5f04-526b-f9d8-bef8" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="76f0-96a5-1eab-02fe" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="76f0-96a5-1eab-02fe" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="a1b7-0dfd-1b1b-e159" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="05cd-9a4d-1abe-9d84" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="e477-ed68-1427-0a8f" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -5833,6 +5857,7 @@
         <categoryLink id="eeb1-f108-c16d-6ad5" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="86f1-b36a-10b9-30ab" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="9adb-3c86-5902-53e0" name="Uraka the Warfiend" hidden="false" targetId="bc64-42fa-8a77-c5de" primary="false"/>
+        <categoryLink id="976e-ea17-5947-49fe" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fcd1-da25-67e6-b053" name="Executioner&apos;s Axe" hidden="false" collective="false" import="true" type="upgrade">
@@ -5898,7 +5923,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -5912,7 +5937,7 @@
         <infoLink id="ede7-7855-a08b-614f" name="Unstoppable Ferocity" hidden="false" targetId="5f04-526b-f9d8-bef8" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c5d8-631d-09da-55d9" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="c5d8-631d-09da-55d9" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="3ada-c09f-3509-4310" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="f095-7bd7-ec6f-6537" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="9e3b-8705-93ba-981e" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -5922,6 +5947,7 @@
         <categoryLink id="1ab9-4015-1ad6-c02f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="e49c-33da-ff87-13b1" name="Prince of the Ruinstorm" hidden="false" targetId="1644-ed9a-e3d9-05eb" primary="false"/>
         <categoryLink id="1b2d-4db5-94cf-d5ed" name="Samus" hidden="false" targetId="2d3a-ec33-0892-01b7" primary="false"/>
+        <categoryLink id="ae15-308a-f88b-e68b" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7dea-337c-a7fa-824f" name="Slaughtering Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -5982,7 +6008,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -5992,7 +6018,7 @@
         <infoLink id="53ff-f966-751b-2e66" name="Daemonic Master Psyker" hidden="false" targetId="f322-35ac-c1ef-0ee4" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8857-bb33-cbdc-0ff9" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+        <categoryLink id="8857-bb33-cbdc-0ff9" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
         <categoryLink id="edab-99cc-7275-a42f" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="a11e-f6a5-5eda-458c" name="Faction: Slaanesh" hidden="false" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
         <categoryLink id="9edf-64db-8f21-da5a" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -6004,6 +6030,7 @@
         <categoryLink id="4923-902b-5dd1-a431" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="dfde-121b-8478-c804" name="Keeper of Secrets" hidden="false" targetId="03d7-9fc9-b780-4f62" primary="false"/>
         <categoryLink id="60f8-63ac-5afe-5889" name="Zarakynel" hidden="false" targetId="d561-4eb2-d476-6731" primary="false"/>
+        <categoryLink id="8d68-fa30-ab99-9b92" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bae4-b43b-892b-0397" name="Souleater Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -6095,13 +6122,13 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="f076-88cf-606d-3c2d" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+        <categoryLink id="f076-88cf-606d-3c2d" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
         <categoryLink id="9f33-c171-9c73-32e5" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="5edf-a8e6-4c4b-cebb" name="Faction: Tzeentch" hidden="false" targetId="762a-9a68-1d7c-41a1" primary="false"/>
         <categoryLink id="eb2a-dbc8-6003-0fca" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -6114,6 +6141,7 @@
         <categoryLink id="5771-2691-ec45-b2aa" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="1836-777b-dae4-777c" name="Lord of Change" hidden="false" targetId="13e2-4f5e-9729-5fe5" primary="false"/>
         <categoryLink id="0dbd-b7f3-4262-6377" name="Aetaos’rau’keres" hidden="false" targetId="1632-88b8-dc52-fb06" primary="false"/>
+        <categoryLink id="9e87-6bfc-ea7c-2a65" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="49a8-d72f-7953-3cef" name="Staff of Cataclysm" hidden="false" collective="false" import="true" type="upgrade">
@@ -6208,7 +6236,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -6217,7 +6245,7 @@
         <infoLink id="e7f7-f499-fe6b-d9eb" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="fa28-de21-ddb8-bc12" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="fa28-de21-ddb8-bc12" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="041e-3ccc-de33-75cc" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="b0ee-a394-8e1c-f8a7" name="Faction: Heretic Astartes" hidden="false" targetId="4fe8-db77-cd55-13f6" primary="false"/>
         <categoryLink id="6bab-ee47-ba0a-fdc1" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -6228,6 +6256,7 @@
         <categoryLink id="8b9c-3268-de42-7df4" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="9ac2-4acf-5916-310b" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="a4c4-727c-da02-b49e" name="Mamon Transfigured" hidden="false" targetId="ae2a-2af1-ce53-b825" primary="false"/>
+        <categoryLink id="2a7a-7f83-e0ce-eecf" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6133-f534-4ed5-7751" name="Contagion Spray" hidden="false" collective="false" import="true" type="upgrade">
@@ -6333,7 +6362,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -6342,7 +6371,7 @@
         <infoLink id="264b-1e4d-63de-514b" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="910d-3e30-c01c-9672" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="910d-3e30-c01c-9672" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="95fc-f3a6-5858-7046" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="2760-3dbd-d802-79ff" name="Faction: Nurgle" hidden="false" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
         <categoryLink id="ed99-7f4b-3575-be01" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -6352,6 +6381,7 @@
         <categoryLink id="040e-95c1-b8da-fac6" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="5c73-575c-3b8a-f874" name="Daemon Prince of the Ruinstorm" hidden="false" targetId="1644-ed9a-e3d9-05eb" primary="false"/>
         <categoryLink id="d46d-1fd6-3e93-66e5" name="Cor&apos;bax Utterblight" hidden="false" targetId="5689-554f-22d4-10a3" primary="false"/>
+        <categoryLink id="1690-7c23-16aa-7300" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b4be-4bf8-c717-f6fe" name="Gaping Maw &amp; Canker Worms" hidden="false" collective="false" import="true" type="upgrade">
@@ -6400,13 +6430,13 @@
         <infoLink id="bfe2-8f8c-df90-592f" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="107b-e56b-1884-7576" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="107b-e56b-1884-7576" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="c95a-66ab-8ccd-c61e" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="86fa-6517-5b66-a75a" name="Faction: Nurgle" hidden="false" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
         <categoryLink id="8a95-0bf1-d176-d597" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="e5ab-85a5-fc2d-ffb9" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
         <categoryLink id="f13e-dc0a-1856-bb2e" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="436f-f198-06bb-e9e5" name="Beasts" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="false"/>
+        <categoryLink id="436f-f198-06bb-e9e5" name="Beasts" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
         <categoryLink id="b2c1-906f-47a8-bcec" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="5b5b-7b02-2f12-a31a" name="Plague Toads of Nurgle" hidden="false" targetId="1810-bd3f-f86e-69da" primary="false"/>
       </categoryLinks>
@@ -6429,7 +6459,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -6447,7 +6477,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -6465,7 +6495,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -6503,7 +6533,7 @@
         <infoLink id="3c1a-93f7-7f6c-9ed3" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="d73c-e6e2-f19a-d417" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="d73c-e6e2-f19a-d417" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="32d5-fd80-199e-24f1" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="b7ee-f3ca-40ec-2577" name="Faction: Nurgle" hidden="false" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
         <categoryLink id="a0b6-4af0-76f1-8980" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -6513,6 +6543,7 @@
         <categoryLink id="8d8c-df93-528f-b0c8" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="7e8e-a54b-2d7c-a442" name="Plaguebearer" hidden="false" targetId="b16c-ec5a-b4a6-af3e" primary="false"/>
         <categoryLink id="30ee-5d10-ae94-dbd3" name="Pox Riders of Nurgle" hidden="false" targetId="5f57-3586-e0be-e4b1" primary="false"/>
+        <categoryLink id="6e63-e125-46f2-16f2" name="New CategoryLink" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="429f-d134-f8e3-0e14" name="3 - 9 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="6da8-3998-c306-87e5">
@@ -6533,7 +6564,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
@@ -6551,7 +6582,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -6569,7 +6600,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
@@ -6609,7 +6640,7 @@
         <infoLink id="c3b9-c2c8-9fad-f8d8" name="Spined Chaos Beast" hidden="false" targetId="76d3-d60d-41be-ce15" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a987-e28e-ccdb-1202" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="a987-e28e-ccdb-1202" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="7191-96b4-a623-251e" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="4dc5-221c-a8ee-02ad" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="b0cf-ab00-d96f-939d" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -6617,6 +6648,7 @@
         <categoryLink id="6e60-2450-00c7-9be0" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="3f3e-38fd-50e5-6141" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="c16e-b065-1fd3-6a0c" name="Spined Chaos Beast" hidden="false" targetId="b42b-c274-27e1-98bf" primary="false"/>
+        <categoryLink id="5184-612c-c9ab-d322" name="New CategoryLink" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0068-9cb4-1ca4-ab65" name="Jagged Claws" hidden="false" collective="false" import="true" targetId="8d18-c973-670f-f8fd" type="selectionEntry"/>
@@ -6645,7 +6677,7 @@
         <infoLink id="7447-d14b-7eb1-0e60" name="Spined Chaos Beast" hidden="false" targetId="76d3-d60d-41be-ce15" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4ac0-790e-3034-92d8" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="4ac0-790e-3034-92d8" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="922f-5c7c-0058-2939" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="64ff-4069-7685-bf9c" name="Faction: Nurgle" hidden="false" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
         <categoryLink id="8a3b-eeff-a861-12ab" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -6653,6 +6685,7 @@
         <categoryLink id="dd6d-108f-e61b-f035" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="d88f-9e17-c706-a9c5" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="af8d-4595-6386-7157" name="Spined Chaos Beast" hidden="false" targetId="b42b-c274-27e1-98bf" primary="false"/>
+        <categoryLink id="8653-ee33-b6b6-21e9" name="New CategoryLink" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9020-bdcb-c59a-d0cb" name="Jagged Claws" hidden="false" collective="false" import="true" targetId="8d18-c973-670f-f8fd" type="selectionEntry"/>
@@ -6684,7 +6717,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -6697,7 +6730,7 @@
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b123-53da-7c43-0989" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="b123-53da-7c43-0989" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="eeb6-09cc-32e0-e4be" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="418d-f345-cac8-fe9d" name="Faction: Slaanesh" hidden="false" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
         <categoryLink id="5852-f056-cc4e-ff7b" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -6705,6 +6738,7 @@
         <categoryLink id="7942-e616-b1db-8716" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="be49-3c76-7038-a221" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="eab1-48d1-5dc1-11db" name="Spined Chaos Beast" hidden="false" targetId="b42b-c274-27e1-98bf" primary="false"/>
+        <categoryLink id="643f-a42a-9ce1-a704" name="New CategoryLink" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="b359-b2c4-6148-5bc0" name="Jagged Claws" hidden="false" collective="false" import="true" targetId="8d18-c973-670f-f8fd" type="selectionEntry"/>
@@ -6733,7 +6767,7 @@
         <infoLink id="c746-61e7-d47f-1b3d" name="Spined Chaos Beast" hidden="false" targetId="76d3-d60d-41be-ce15" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="77c6-25aa-2c9b-e88c" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="77c6-25aa-2c9b-e88c" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="3edf-3dd6-0d83-a47a" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="585e-5e1f-3ffd-6575" name="Faction: Tzeentch" hidden="false" targetId="762a-9a68-1d7c-41a1" primary="false"/>
         <categoryLink id="ec54-198f-c9ec-e202" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -6741,6 +6775,7 @@
         <categoryLink id="5fca-984e-0d99-affb" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="1b1f-2c10-c055-2cea" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="eb9d-52e7-ac88-23d3" name="Spined Chaos Beast" hidden="false" targetId="b42b-c274-27e1-98bf" primary="false"/>
+        <categoryLink id="04b1-d9dc-2a0a-f963" name="New CategoryLink" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2562-8a7d-de6c-cb7a" name="Jagged Claws" hidden="false" collective="false" import="true" targetId="8d18-c973-670f-f8fd" type="selectionEntry"/>
@@ -6770,7 +6805,7 @@
         <infoLink id="84fb-db4b-4875-dbee" name="Eternal Torment" hidden="false" targetId="9d1a-39cb-8516-34f3" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a234-7421-fe2c-a017" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="a234-7421-fe2c-a017" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="66d9-03eb-1740-7c7c" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="ae1e-d05e-17fe-4ec3" name="Faction: Khorne" hidden="false" targetId="46c0-996e-ee14-7c0a" primary="false"/>
         <categoryLink id="c00c-6a7a-c527-2e81" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -6778,6 +6813,7 @@
         <categoryLink id="a19d-2129-26ea-9cb2" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="6eb1-aa80-295d-816c" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="278f-b06f-4937-3396" name="Giant Chaos Spawn" hidden="false" targetId="a984-f9de-3a4b-6033" primary="false"/>
+        <categoryLink id="d71a-3725-8b21-9524" name="New CategoryLink" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0c0e-8c6c-dbd8-f3bf" name="Churning Claws and Fangs" hidden="false" collective="false" import="true" targetId="a924-8847-897d-bc16" type="selectionEntry"/>
@@ -6806,7 +6842,7 @@
         <infoLink id="0400-784a-6f92-cc34" name="Eternal Torment" hidden="false" targetId="9d1a-39cb-8516-34f3" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ac6c-617e-2714-3391" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="ac6c-617e-2714-3391" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="e026-0280-985e-9504" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="bb98-ab7c-2004-c7db" name="Faction: Nurgle" hidden="false" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
         <categoryLink id="0973-566e-e5d3-1357" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -6814,6 +6850,7 @@
         <categoryLink id="e9c2-dfa2-1a17-1d9c" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="bace-de57-635b-dcc1" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="615b-7e22-e9f6-aa17" name="Giant Chaos Spawn" hidden="false" targetId="a984-f9de-3a4b-6033" primary="false"/>
+        <categoryLink id="3e65-037f-21b0-ed80" name="New CategoryLink" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ae89-283b-62d6-6f01" name="Churning Claws and Fangs" hidden="false" collective="false" import="true" targetId="a924-8847-897d-bc16" type="selectionEntry"/>
@@ -6844,7 +6881,7 @@
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c2e1-0f2d-81d3-35b7" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="c2e1-0f2d-81d3-35b7" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="f164-8a27-766d-532e" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="a628-7db9-efdd-5f66" name="Faction: Slaanesh" hidden="false" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
         <categoryLink id="c6f3-c7db-84c8-e491" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -6852,6 +6889,7 @@
         <categoryLink id="c1c7-5d0b-b3cc-f3e0" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="420c-2f32-bfda-b274" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="f037-2805-89c9-0dbe" name="Giant Chaos Spawn" hidden="false" targetId="a984-f9de-3a4b-6033" primary="false"/>
+        <categoryLink id="0226-2147-b69c-7688" name="New CategoryLink" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6b5c-5567-7cdb-8585" name="Churning Claws and Fangs" hidden="false" collective="false" import="true" targetId="a924-8847-897d-bc16" type="selectionEntry"/>
@@ -6887,6 +6925,7 @@
         <categoryLink id="fe55-4d74-842b-4731" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="efb9-d331-f49b-147f" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="f929-6de8-2f7a-db1f" name="Spined Chaos Beast" hidden="false" targetId="b42b-c274-27e1-98bf" primary="false"/>
+        <categoryLink id="52f8-14c3-0a81-bf92" name="Beast" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dafb-6dcf-b4bb-4e9c" name="Churning Claws and Fangs" hidden="false" collective="false" import="true" targetId="a924-8847-897d-bc16" type="selectionEntry"/>
@@ -6930,7 +6969,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
@@ -6940,7 +6979,7 @@
         <infoLink id="02df-53c4-76c4-d6fb" name="Ignore Damage (5+)" hidden="false" targetId="958c-7037-989a-6da0" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c861-3d88-24f8-1531" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+        <categoryLink id="c861-3d88-24f8-1531" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
         <categoryLink id="5f90-f129-4e11-d408" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="3b02-5206-40a7-c26f" name="Faction: Nurgle" hidden="false" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
         <categoryLink id="2ea5-0e13-cfbe-1312" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -6952,6 +6991,7 @@
         <categoryLink id="8fe5-b661-6174-c902" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="be49-ba36-3c2f-1b58" name="Great Unclean One" hidden="false" targetId="848a-e9e2-95f6-f15d" primary="false"/>
         <categoryLink id="aa37-89be-131b-c81f" name="Scabeiathrax the Bloated" hidden="false" targetId="68e0-d8a3-a5c1-74cd" primary="false"/>
+        <categoryLink id="29f7-1e64-4404-0d49" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e1ba-dd89-a3ba-c0eb" name="Swarm of Nurglings" hidden="false" collective="false" import="true" type="upgrade">
@@ -7048,7 +7088,7 @@
         <infoLink id="c37e-d947-0b7e-1445" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b52d-1c71-d214-06e1" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="b52d-1c71-d214-06e1" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
         <categoryLink id="43fa-71eb-80aa-7daa" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="c7e7-087d-2714-20a5" name="Faction: Tzeentch" hidden="false" targetId="762a-9a68-1d7c-41a1" primary="false"/>
         <categoryLink id="ea94-21f5-121b-de34" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
@@ -7057,6 +7097,7 @@
         <categoryLink id="23f7-8170-a338-1a9e" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="497d-7c6a-99e9-07f4" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
         <categoryLink id="8cdd-1d99-bab4-2106" name="Horrors" hidden="false" targetId="ee3e-41f6-ff59-0112" primary="false"/>
+        <categoryLink id="669b-8820-35a6-4e41" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2ef4-8d70-0d98-4b00" name="Coruscating Blue Flames" hidden="false" collective="false" import="true" type="upgrade">
@@ -7110,7 +7151,7 @@
                 <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                 <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                 <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                 <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
               </characteristics>
             </profile>
@@ -7146,7 +7187,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
@@ -7165,7 +7206,7 @@
         <infoLink id="1828-25d9-6926-5527" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3cbe-2cd5-10e2-b1d3" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="3cbe-2cd5-10e2-b1d3" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="e9bf-be57-d28d-cd84" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="d147-d650-7823-f7ff" name="Faction: Daemon" hidden="false" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
         <categoryLink id="f4da-f40e-c125-36c2" name="Faction: Legiones Daemonica" hidden="false" targetId="fab3-7acf-351d-537b" primary="false"/>
@@ -7176,6 +7217,7 @@
         <categoryLink id="6448-d21b-dde8-bfa6" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="6700-b7f8-5d71-94bc" name="Daemon Prince" hidden="false" targetId="6b0d-0721-2b56-887e" primary="false"/>
         <categoryLink id="f061-28f2-68f8-c5d5" name="Be&apos;lakor" hidden="false" targetId="61ef-f47c-b083-ce82" primary="false"/>
+        <categoryLink id="ea25-4115-da59-6910" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="08db-ec53-24cf-798d" name="The Blade of Shadows" hidden="false" collective="false" import="true" type="upgrade">
@@ -7951,7 +7993,7 @@
         <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
         <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
         <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-        <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6+</characteristic>
+        <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
         <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
       </characteristics>
     </profile>
@@ -7967,7 +8009,7 @@
         <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
         <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
         <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-        <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8+</characteristic>
+        <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
         <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
       </characteristics>
     </profile>
