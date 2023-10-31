@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="440c-9567-ca71-f95b" name="Warhammer 40,000 Apocalypse 10th Edition" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="440c-9567-ca71-f95b" name="Warhammer 40,000 Apocalypse 10th Edition" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8df9-0b3e-abea-3c15" name="Warhammer 40,000: Apocalypse" publicationDate="2019"/>
     <publication id="3434-17b5-4a22-f338" name="Fundapocalypse Custom Rules" shortName="Fundapocalypse Custom Rules" publisherUrl="https://github.com/normanthesquid/wh40k-fundapocalypse/wiki"/>
@@ -118,6 +118,7 @@
         <categoryLink id="58f9-0688-66de-b5e0" name="Beast" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="false"/>
         <categoryLink id="2b88-69ec-28a5-b031" name="Swarm" hidden="false" targetId="65b5-f311-b8c4-3721" primary="false"/>
         <categoryLink id="cfbb-afae-47b5-ff5a" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="false"/>
+        <categoryLink id="0965-4570-e271-ac28" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>

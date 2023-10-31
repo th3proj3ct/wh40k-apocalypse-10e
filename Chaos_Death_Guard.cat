@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5731-5979-9f63-f103" name="Chaos - Death Guard" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5731-5979-9f63-f103" name="Chaos - Death Guard" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="466a-33f5-0faf-5cd1" name="Faction: The Tainted" hidden="false"/>
     <categoryEntry id="f6d9-ab1f-fe48-ea06" name="Necrosius the Undying" hidden="false"/>
@@ -372,13 +372,6 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="4e0d-754e-2541-9a39" name="Deadly Demise (X)" hidden="false" targetId="edc1-b0c9-7ca6-0ba2" type="profile">
-          <modifiers>
-            <modifier type="set" field="name" value="Deadly Demise D3"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="77f8-fdbb-ed6f-a73c" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
         <categoryLink id="6d91-6112-1f2b-f7aa" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
@@ -523,20 +516,10 @@
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Hit roll</characteristic>
           </characteristics>
         </profile>
-        <profile id="faea-fce9-abba-bd7d" name="Abundance of Sickness" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model&apos;s Deadly Demise triggers on a dice roll of 3+ and does not affect DEATH GUARD units.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="60c5-bf9c-b80e-59d2" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
         <infoLink id="3b29-a834-691e-ab17" name="Manreaper" hidden="false" targetId="ad95-2143-6192-f1cb" type="profile"/>
-        <infoLink id="3456-703b-af1d-7fc9" name="Deadly Demise (X)" hidden="false" targetId="edc1-b0c9-7ca6-0ba2" type="profile">
-          <modifiers>
-            <modifier type="set" field="name" value="Deadly Demise 3&quot;"/>
-          </modifiers>
-        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="24ae-7387-c1f2-d965" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
@@ -937,17 +920,10 @@
         </profile>
         <profile id="01f8-7274-44ca-c63d" name="Explosive Maladies" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Select an enemy unit within 6&quot; of this model, roll a D6: On a 2+, place a blast marker next to that unit.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per turn when this unit activates in the Action phase, you can select an enemy unit within 6&quot; of this model, roll a D6: On a 2+, place a blast marker next to that unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="e419-db4e-826a-375d" name="Deadly Demise (X)" hidden="false" targetId="edc1-b0c9-7ca6-0ba2" type="profile">
-          <modifiers>
-            <modifier type="set" field="name" value="Deadly Demise 1&quot;"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="ee2e-00db-9b9b-b068" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
         <categoryLink id="652f-e153-a8c0-3e42" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
@@ -1208,7 +1184,7 @@
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
@@ -1222,11 +1198,11 @@
               <profiles>
                 <profile id="cd06-5077-10e5-ef22" name="Deathshroud Terminators (6 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">4&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">8</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
@@ -1250,7 +1226,7 @@
       <profiles>
         <profile id="2423-f96e-3784-e0c4" name="Blistering Fusillade" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a model in this unit makes a ranged attack, if it targets the closest eligible enemy unit, re-roll a Wound roll of 1.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a model in this unit makes a ranged attack, if it targets the closest eligible enemy unit, re-roll a Wound roll of 1 or 2.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2178,19 +2154,35 @@ or all modifiers to its characteristics and to any roll or test made for it (exc
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d2c-5388-d8bd-bdf4" type="max"/>
           </constraints>
+          <selectionEntries>
+            <selectionEntry id="a38e-f7d9-66d4-421f" name="Heavy Plague Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef09-27b4-1469-c756" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4bea-af89-1b5f-fe9d" name="Heavy Plague Weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Lethal Hits</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <entryLinks>
             <entryLink id="fbf5-e9eb-35d0-6e9b" name="Blight Launcher" hidden="false" collective="false" import="true" targetId="bac5-b33b-f0eb-ae75" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5c6-7d8b-b205-8814" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="58d5-ade3-4e2e-2ee3" name="Plague Spewer" hidden="false" collective="false" import="true" targetId="2cd7-4619-1257-e108" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bfa-7920-c070-7ab9" type="max"/>
               </constraints>
@@ -2596,11 +2588,6 @@ or all modifiers to its characteristics and to any roll or test made for it (exc
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="871d-db65-cd5a-1203" name="Deadly Demise (X)" hidden="false" targetId="edc1-b0c9-7ca6-0ba2" type="profile">
-          <modifiers>
-            <modifier type="set" field="name" value="Deadly Demise D3"/>
-          </modifiers>
-        </infoLink>
         <infoLink id="3457-5907-406a-55cb" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
         <infoLink id="f097-9eb1-6999-84b8" name="Terror Troops" hidden="false" targetId="e5e7-bd6d-fdb7-b022" type="profile"/>
       </infoLinks>

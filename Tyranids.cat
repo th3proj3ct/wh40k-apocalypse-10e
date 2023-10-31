@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0a97-63bd-1f47-6b26" name="Tyranids" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0a97-63bd-1f47-6b26" name="Tyranids" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="a37b-2844-afcc-f4eb" name="Tyranid Hive Fleets"/>
     <publication id="5101-ac41-4666-a01a" name="Forge World Tyranids"/>
@@ -749,7 +749,7 @@
   </entryLinks>
   <rules>
     <rule id="f389-8967-2fc7-4d94" name="Synapse" publicationId="8df9-0b3e-abea-3c15" page="53" hidden="false">
-      <description>TYRANID HIVE FLEETS units in this Detachment automatically pass Morale tests whilst they are within 12&quot; of a friendly SYNAPSE unit.</description>
+      <description>TYRANID HIVE FLEETS units in this Detachment roll 2D6 and take the lowest when making a Leadership test within 12&quot; of any SYNAPSE unit.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -805,8 +805,8 @@
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -5571,7 +5571,7 @@
         </profile>
         <profile id="9311-2638-8615-8988" name="Singular Purpose" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes an attack that targets a HEAVY unit, you can re-roll the Hit roll, and you can re-roll the Wound roll.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes an attack that targets a HEAVY or CHARACTER unit, you can re-roll the Hit roll, and you can re-roll the Wound roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5579,13 +5579,13 @@
         <infoLink id="8f45-9b18-ed26-9473" name="Synapse" hidden="false" targetId="9d6d-f7c0-56bf-55ba" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="b889-4f66-3c55-47ea" name="Toxinjector Harpoon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b889-4f66-3c55-47ea" name="Toxinjector Harpoon (Melee)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d8b-dcdb-c896-d16f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f7c-56fe-6cef-a151" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6580-f26d-7e0d-f431" name="Toxinjector Harpoon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+            <profile id="6580-f26d-7e0d-f431" name="Toxinjector Harpoon (Melee)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
@@ -5595,7 +5595,18 @@
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
-            <profile id="34f1-d9da-a0d8-a2ad" name="Toxinjector Harpoon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0467-38ad-51eb-f567" name="Toxinjector Harpoon (Ranged)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c92c-e9c4-1a61-9108" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47a6-f056-061d-69c3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ee5e-4b9a-8cfa-469a" name="Toxinjector Harpoon (Ranged)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
@@ -5661,7 +5672,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc5c-58ab-ef1b-a1eb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="06d3-5e3d-9963-312d" name="Toxinjector Harpoon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+            <profile id="06d3-5e3d-9963-312d" name="Psychic Tendril" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
@@ -5813,8 +5824,31 @@
           </characteristics>
         </profile>
       </profiles>
+      <selectionEntries>
+        <selectionEntry id="9e7c-a7e8-7415-e2c8" name="Claws &amp; Teeth" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="deef-cf72-5f82-696b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca16-f345-dbf6-d52a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ed1d-4aed-052e-1d81" name="Claws &amp; Teeth" page="" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="81e4-c190-8078-416b" name="Unit Size" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="81e4-c190-8078-416b" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="403e-d3ea-8117-c661">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67e3-3891-c73b-8636" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="438b-4653-cf26-9497" type="max"/>
@@ -5824,13 +5858,13 @@
               <profiles>
                 <profile id="f648-b288-8647-fbed" name="Neurogaunts (11 models)" publicationId="a37b-2844-afcc-f4eb" page="12" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">3</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">11+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5847,8 +5881,8 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">3</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">11+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5860,12 +5894,6 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="6ba9-fa1a-4a0f-57ad" name="Claws &amp; Teeth" hidden="false" collective="false" import="true" targetId="11a2-a2d7-3531-23ad" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ccf-ce78-2387-df88" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bc1-3ebf-f87a-19f2" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="18f5-6ce7-9210-6130" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -5928,7 +5956,7 @@ Each time an enemy unit makes a Normal Move, Advances, Falls Back or it makes a 
     </profile>
     <profile id="9d6d-f7c0-56bf-55ba" name="Synapse" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly HIVE FLEET unit is within 12&quot; of this unit, roll 3D6 when making a leadership test.</characteristic>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly HIVE FLEET unit is within 12&quot; of this unit, roll 2D6 and take the lowest when making Leadership tests.</characteristic>
       </characteristics>
     </profile>
     <profile id="4563-58a3-61a6-c1c5" name="Will of the Hive Mind" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d4ea-b52d-6a66-df94" name="Imperium - Adeptus Astartes" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d4ea-b52d-6a66-df94" name="Imperium - Adeptus Astartes" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -4590,119 +4590,6 @@ Whilst a Vehicle unit is being commanded by Sergeant Chronus, it has a 2+ Ballis
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9d31-e8fd-b856-fe72" name="Damned Legionnaires" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="2664-271e-b406-4676" name="Unyielding Spectres" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Roll D12s when making saving throws for this unit, irrespective of the size of the blast markers next to it.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="a379-e068-61e1-037e" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="35ef-3538-208d-9c10" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
-        <categoryLink id="a580-7934-e5ae-c050" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
-        <categoryLink id="e94e-5011-c3f6-36f1" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
-        <categoryLink id="bc27-f6a8-8b5e-34ae" name="Faction: Legion of the Damned" hidden="false" targetId="ac02-eb0a-342d-1908" primary="false"/>
-        <categoryLink id="0bc0-1e71-9980-b449" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="107b-5c07-6cbd-5c8a" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
-        <categoryLink id="9183-2122-5785-a754" name="Damned Legionnaires" hidden="false" targetId="2cc9-0fe0-e22b-ee06" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="d07e-a090-7200-05d9" name="Flaming Boltguns" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d327-082b-1bbb-fc59" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4612-ad5d-50f3-e6b8" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="c4a2-f90c-d091-5ce2" name="Flaming Boltguns" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="637b-eb9d-f058-47f3" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="40b3-52af-8822-0943" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="0a3e-2eda-b48e-988e">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c22-ee9b-f0ed-2ed1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bae0-24b3-d230-718b" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="0a3e-2eda-b48e-988e" name="5 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="e734-de5e-241b-3920" name="Damned Legionnaires (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="90ab-c4f5-af93-235d" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="ff0a-faf5-e127-3edb" name="Damned Legionnaires (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="cfb4-0ae6-b89f-8db8" name="Heavy Weapon" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd88-e0f8-2d7c-4c30" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="d143-8d6e-5c8d-70ac" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="46e7-d278-1268-caaf" type="selectionEntry"/>
-            <entryLink id="6bc4-2f15-088b-3f29" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="eea3-ee1b-2b59-d5f0" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="6144-aa85-b770-2f33" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f0c-be18-458b-a837" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdf2-3036-68c8-a4fe" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="f38f-027f-c700-58a0" name="Chief Librarian Tigurius" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -5741,7 +5628,7 @@ friendly IMPERIAL FISTS units that target VEHICLE or BUILDING units.</characteri
     </entryLink>
     <entryLink id="1393-3d07-7661-59b6" name="Techmarine" hidden="false" collective="false" import="true" targetId="6690-dae8-1ba2-9454" type="selectionEntry">
       <infoLinks>
-        <infoLink id="9101-6f07-1a4a-ee78" name="Blessing of the Omnissiah" hidden="false" targetId="ab23-9dca-5848-48e6" type="profile"/>
+        <infoLink id="1ecb-17cc-9b08-136d" name="Blessing of the Omnissiah" hidden="false" targetId="ab23-9dca-5848-48e6" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4293-5bcd-875b-c22a" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
@@ -5834,11 +5721,6 @@ friendly IMPERIAL FISTS units that target VEHICLE or BUILDING units.</characteri
       <categoryLinks>
         <categoryLink id="a812-beed-ebe9-ce39" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
         <categoryLink id="7225-4e69-918c-1c75" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="9844-d698-9f0b-156c" name="Imperial Space Marine" hidden="false" collective="false" import="true" targetId="8f20-d582-fdbe-37a5" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="0658-52c8-4c3b-9a8c" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ff7a-d3d6-5b0b-7622" name="Chapter Ancient" hidden="false" collective="false" import="true" targetId="7909-de04-0593-bdb0" type="selectionEntry">
@@ -6310,11 +6192,6 @@ friendly IMPERIAL FISTS units that target VEHICLE or BUILDING units.</characteri
         <categoryLink id="4bb1-f4bb-defe-132e" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8152-f0b2-6c9e-ce82" name="Veteran Intercessor Squad" hidden="false" collective="false" import="true" targetId="c0f5-7729-99f8-a2d0" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="1426-c5e6-7269-f4c5" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="2577-f3ed-0dc7-aeab" name="Bladeguard Veteran Squad" hidden="false" collective="false" import="true" targetId="531c-7893-3dab-280c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="005f-0839-93c4-76b7" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
@@ -6373,11 +6250,6 @@ friendly IMPERIAL FISTS units that target VEHICLE or BUILDING units.</characteri
       <categoryLinks>
         <categoryLink id="a525-cc37-a8c3-082f" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
         <categoryLink id="b088-2768-7a4e-dfab" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="40ac-fbd9-8d79-966e" name="Roboute Guilliman" hidden="false" collective="false" import="true" targetId="c56d-6b51-dcaa-a08a" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="6669-eeb3-dbc7-3297" name="Lord of War" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="91e1-25e5-60fd-d507" name="Roboute Guilliman" hidden="false" collective="false" import="true" targetId="c56d-6b51-dcaa-a08a" type="selectionEntry"/>

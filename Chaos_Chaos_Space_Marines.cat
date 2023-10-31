@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3568-97f7-47a9-5157" name="Chaos - Chaos Space Marines" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3568-97f7-47a9-5157" name="Chaos - Chaos Space Marines" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="9ce0-92a4-75e9-c09f" name="Faction: Skulltakers" hidden="false"/>
     <categoryEntry id="77e2-0635-9df5-4f43" name="Zhufor the Impaler" hidden="false"/>
@@ -1419,7 +1419,7 @@
         </profile>
         <profile id="0360-d8e5-f4ef-c976" name="Dark Destiny" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes a Dark Pact and does not fail the resulting Leadership test, roll one D6: on a 2+, you gain 1CP</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During each Orders phase, gain an extra Command Point if this model is still alive</characteristic>
           </characteristics>
         </profile>
         <profile id="898a-c530-db78-feb1" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -1701,7 +1701,7 @@
         </profile>
         <profile id="07bd-e247-3e37-6b34" name="Aspire to Glory" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes a Dark Pact, until the end of the phase, add 2 to the Attacks characteristics of this model.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per battle at the start of this units activation, until the end of the phase, add 2 to the Attacks characteristics of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="c75b-9a3c-7a85-a8dc" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -2212,7 +2212,7 @@
       <profiles>
         <profile id="a45f-cdc3-79bc-6888" name="Despoilers" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit makes a Dark Pact, until the end of the phase, each time a model in this unit makes an attack, you can re-roll the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit makes a ranged attack, if it targets the closest eligible target, you can re-roll the Hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3058,7 +3058,7 @@
       <profiles>
         <profile id="d5ce-d355-0b21-91c6" name="Warp Rift Firepower" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per battle, when this unit makes a Dark Pact, it can use this ability. If it does, until the end of the phase, ranged weapons models in this unit are equipped with have the [BARRAGE] ability.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per battle this can use this ability. If it does, until the end of the phase, ranged weapons models in this unit are equipped with have the [BARRAGE] ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4921,7 +4921,7 @@ When this unit is selected to perform its action, you may remove a damage marker
       <profiles>
         <profile id="aef2-2ea0-9253-2b22" name="Unholy Bloodshed" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit makes a Dark Pact, until the end of the phase, weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per battle this unit can use this ability, if it does, until the end of the phase, weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5137,7 +5137,7 @@ When this unit is selected to perform its action, you may remove a damage marker
       <profiles>
         <profile id="5277-464f-36f5-6536" name="Dark Ascension (Aura)" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly Heretic Astartes unit is within 6&quot; of this model, each time that unit makes a Dark Pact, until the end of the phase, its weapons gain both abilities conferred by that pact (instead of only one).</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly HERETIC ASTARTES LIGHT unit is within 6&quot; of this model, weapons equipped by models in that unit gain the [SUSTAINED HITS 1] ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
