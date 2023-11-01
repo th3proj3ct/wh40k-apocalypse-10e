@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b705-9ea8-d8d9-d3f3" name="Imperium - Dark Angels" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b705-9ea8-d8d9-d3f3" name="Imperium - Dark Angels" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -200,7 +200,7 @@
         <categoryLink id="9e06-c23a-ee76-9ef6" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9844-d698-9f0b-156c" name="Imperial Space Marine" hidden="false" collective="false" import="true" targetId="8f20-d582-fdbe-37a5" type="selectionEntry">
+    <entryLink id="9844-d698-9f0b-156c" name="Infernus Squad" hidden="false" collective="false" import="true" targetId="92b2-7e44-c99d-2692" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="19ea-be8d-d70e-9b1f" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
       </categoryLinks>
@@ -786,7 +786,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
         <categoryLink id="ef65-faef-609b-552a" name="Faction: Deathwing" hidden="false" targetId="d673-6f6d-5df6-035c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="14c9-467c-f0b7-497f" name="Veteran Intercessor Squad" hidden="false" collective="false" import="true" targetId="c0f5-7729-99f8-a2d0" type="selectionEntry">
+    <entryLink id="14c9-467c-f0b7-497f" name="Apothecary Biologis" hidden="false" collective="false" import="true" targetId="f677-894e-e27d-9c5a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a113-a7a6-d6d1-b010" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
       </categoryLinks>
@@ -959,14 +959,16 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
     <entryLink id="1683-f82b-2772-45cf" name="Lazarus" hidden="false" collective="false" import="true" targetId="b139-64d6-2db2-d741" type="selectionEntry"/>
     <entryLink id="6483-0271-b245-fab2" name="Lion El&apos;Jonson" hidden="false" collective="false" import="true" targetId="edd4-824f-943e-fcae" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="9a4a-ffb6-fd61-17c4" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="4800-f05b-dd27-63cd" primary="true"/>
+        <categoryLink id="9a4a-ffb6-fd61-17c4" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="4800-f05b-dd27-63cd" primary="false"/>
         <categoryLink id="1609-d1e4-4feb-f84f" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
         <categoryLink id="0453-e4e7-c659-4a05" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="b89c-f63f-54e3-93ec" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="71c4-9a95-d836-a6d8" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e3a5-f98b-24e8-9d32" name="Deathwing Strikemaster" hidden="false" collective="false" import="true" targetId="e12d-3541-c4c4-9a83" type="selectionEntry"/>
     <entryLink id="1b2b-e84e-a98b-53a5" name="Deathwing Command Squad" hidden="false" collective="false" import="true" targetId="84ab-dd8e-8b54-29e1" type="selectionEntry"/>
+    <entryLink id="6990-db47-e990-1093" name="Desolation Squad" hidden="false" collective="false" import="true" targetId="4ead-44eb-6689-31e0" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3cbe-c8ba-c8b4-3f8e" name="Azrael" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">

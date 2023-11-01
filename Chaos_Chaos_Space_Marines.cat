@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3568-97f7-47a9-5157" name="Chaos - Chaos Space Marines" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3568-97f7-47a9-5157" name="Chaos - Chaos Space Marines" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="9ce0-92a4-75e9-c09f" name="Faction: Skulltakers" hidden="false"/>
     <categoryEntry id="77e2-0635-9df5-4f43" name="Zhufor the Impaler" hidden="false"/>
@@ -2586,46 +2586,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e737-4047-2916-c7dd" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="1ec5-7a9f-dd6a-3bf5" name="Autocannon" hidden="false" collective="false" import="true" targetId="02f7-7194-f8cf-2299" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="434b-c448-c34b-3af9" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="a2a9-fc67-4207-82db" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73ca-fb2d-c587-1aae" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="ed8b-1270-f5b4-2258" name="Lascannon" hidden="false" collective="false" import="true" targetId="dd55-a2c1-238b-569f" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5163-dd6c-3661-bf32" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="a450-10a9-ec66-7037" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="a524-9ae0-16b9-cd61" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3aa-0149-663d-fc24" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="9b6b-5515-48f0-e823" name="Reaper Chaincannon" hidden="false" collective="false" import="true" targetId="f490-9d57-bd76-1a02" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82d6-44d2-fe99-7eae" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="1ec5-7a9f-dd6a-3bf5" name="Autocannon" hidden="false" collective="false" import="true" targetId="02f7-7194-f8cf-2299" type="selectionEntry"/>
+            <entryLink id="a2a9-fc67-4207-82db" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry"/>
+            <entryLink id="ed8b-1270-f5b4-2258" name="Lascannon" hidden="false" collective="false" import="true" targetId="dd55-a2c1-238b-569f" type="selectionEntry"/>
+            <entryLink id="a450-10a9-ec66-7037" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="a524-9ae0-16b9-cd61" type="selectionEntry"/>
+            <entryLink id="9b6b-5515-48f0-e823" name="Reaper Chaincannon" hidden="false" collective="false" import="true" targetId="f490-9d57-bd76-1a02" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3121,7 +3086,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="cd5e-ea1c-55d5-32ef" name="2 - 4 Models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="cd5e-ea1c-55d5-32ef" name="2 - 4 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="dd3d-de53-a53d-b63f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e7c-7085-5f7c-13be" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1460-ee55-3b25-bba2" type="max"/>
@@ -4961,7 +4926,7 @@ When this unit is selected to perform its action, you may remove a damage marker
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="888e-572a-b19b-3c5d" name="5 - 10 models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="888e-572a-b19b-3c5d" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="8dee-2b64-f825-f694">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="beb3-f39a-f13f-6cb0" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26f7-c678-9773-8ad2" type="max"/>
@@ -5471,6 +5436,67 @@ When this unit is selected to perform its action, you may remove a damage marker
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a43-67f1-b885-1a37" name="Traitor Guardsmen" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e6a1-5e52-df09-632f" name="Traitor Guardsmen (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3134-098e-d1e3-0809" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="0a7f-f5c7-b3b1-931a" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
+        <categoryLink id="eae3-4739-5690-5bbd" name="Faction: Servants of the Abyss" hidden="false" targetId="24b1-d03e-7c15-b914" primary="false"/>
+        <categoryLink id="b4bb-4807-caf1-b803" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="1eeb-733d-b0d9-6355" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="da47-cd88-77e4-2248" name="Traitor Guardsmen" hidden="false" targetId="62cf-a525-5eb0-30a3" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="aa88-51ef-f385-3dc4" name="Special Weapons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5887-8236-2210-2120" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bc1-52d9-2e7b-016a" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="6d78-4079-1afe-931d" name="Special Cultist Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">24&quot;</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Small Arms</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="90cd-1871-4d7e-e3a8" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="6144-aa85-b770-2f33" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39f5-074c-fb38-9bd9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b37e-096a-7b61-1fe3" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9b70-03bf-f57d-d8f7" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="745c-e5a8-ad86-103d" name="Las Weapons" hidden="false" collective="false" import="true" targetId="0bb7-054e-7e45-7162" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7486-ed15-66c8-a09e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe59-af4e-cf4c-5fb4" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

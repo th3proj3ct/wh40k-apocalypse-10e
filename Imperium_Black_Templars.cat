@@ -1,0 +1,2165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="c6da-2a53-58db-09a5" name="Imperium - Black Templars" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
+    <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
+    <categoryEntry id="c14e-03c1-110e-0051" name="Faction: Black Templars" hidden="false"/>
+  </categoryEntries>
+  <selectionEntries>
+    <selectionEntry id="a56e-faa1-4102-8b59" name="Unit Filter" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="ec5c-cdbb-bb01-e3ae" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8e33-d96b-5a28-5656" name="Hide Legacy units" hidden="false" collective="false" import="true" targetId="9608-768c-3955-8adf" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="fc3d-dd60-37ea-c9ef" name="Tactical Squad" hidden="false" collective="false" import="true" targetId="1fa2-88c4-2c7e-5d33" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6fdb-ec53-f974-6841" name="Scout Squad" hidden="false" collective="false" import="true" targetId="09fa-ab05-7be5-b266" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e16a-2b23-2fc1-24b0" name="Intercessor Squad" hidden="false" collective="false" import="true" targetId="a537-d541-d6d8-b998" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6521-8a95-c67f-6108" name="Infiltrator Squad" hidden="false" collective="false" import="true" targetId="de33-a08d-1882-154e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3b11-222b-8636-7b88" name="Librarian" hidden="false" collective="false" import="true" targetId="8896-4617-12f7-2495" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1393-3d07-7661-59b6" name="Techmarine" hidden="false" collective="false" import="true" targetId="6690-dae8-1ba2-9454" type="selectionEntry">
+      <profiles>
+        <profile id="b04c-9bc6-d679-ddaf" name="Blessing of the Omnissiah" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the end of the Action phase, this unit can attempt to repair one friendly BLACK TEMPLARS Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="6c75-9fba-7d92-b938" name="Land Raider Excelsior" hidden="false" collective="false" import="true" targetId="f1d3-df65-80bc-5292" type="selectionEntry">
+      <profiles>
+        <profile id="ede3-0f83-6180-22c2" name="Transport" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly BLACK TEMPLARS INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models. It cannot transport PRIMARIS units.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="76e3-e124-430c-f781" name="Data Augurs" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Change this unit’s Ballistic Skill characteristic to 2+ whilst it is within 6&quot; of any friendly BLACK TEMPLARS RHINO PRIMARIS units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="b768-96a2-3723-ce3d" name="Rhino Primaris" hidden="false" collective="false" import="true" targetId="6fdd-0f7d-c487-6743" type="selectionEntry">
+      <profiles>
+        <profile id="37bd-6fd0-be8f-957c" name="Servo-skull Hub" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the start of the Damage phase, you can remove one small blast marker from one friendly BLACK TEMPLARS Vehicle unit within 6&quot; of this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="66b4-1655-9e1d-1687" name="Transport" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly BLACK TEMPLARS INFANTRY models. It cannot transport PRIMARIS, TERMINATOR or JUMP PACK units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="0937-b575-b813-5ada" name="Lieutenant" hidden="false" collective="false" import="true" targetId="bbe6-4a4c-8477-4b34" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="21b9-18d8-b344-67e2" name="Tactical Precision" hidden="false" targetId="a59a-956d-9741-2423" type="profile"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink id="e5b1-8646-b9eb-c1ca" name="Servitors" hidden="false" collective="false" import="true" targetId="1407-a5e2-efbe-7a7c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="61d7-fb7c-46ae-c0b8" name="Apothecary" hidden="false" collective="false" import="true" targetId="47e5-110b-315c-0cb3" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="3b38-72d4-900d-e084" name="Narthecium" hidden="false" targetId="e29f-d600-021b-a7ec" type="profile"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink id="a839-ec31-04b8-dc47" name="Company Ancient" hidden="false" collective="false" import="true" targetId="4991-016c-9c24-34d3" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="8214-c044-9fc2-d790" name="Astartes Banner" hidden="false" targetId="e6e5-25f0-34b4-0fe8" type="profile"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink id="4dc6-574e-30a2-923f" name="Primaris Ancient" hidden="false" collective="false" import="true" targetId="ca50-b2c7-56ad-f6a3" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="5604-15d9-934f-9455" name="Astartes Banner" hidden="false" targetId="e6e5-25f0-34b4-0fe8" type="profile"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink id="4add-0f2c-6221-9781" name="Company Champion" hidden="false" collective="false" import="true" targetId="cdaa-fa38-e1f3-0555" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6f6e-eff7-68dc-9f49" name="Company Veterans" hidden="false" collective="false" import="true" targetId="b573-05bb-9d80-f130" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="afe7-babb-4fe9-d21e" name="Command Squad Bodyguard" hidden="false" targetId="5531-a308-d067-eba6" type="profile"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink id="32cd-64e0-635c-7636" name="Dreadnought" hidden="false" collective="false" import="true" targetId="bd59-298f-ca7d-a418" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9204-67fa-5174-a9dc" name="Venerable Dreadnought" hidden="false" collective="false" import="true" targetId="95ff-f0b4-5c6a-6d2b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1574-fee2-d868-afb8" name="Contemptor Dreadnought" hidden="false" collective="false" import="true" targetId="b2b9-dbc7-a71c-6665" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fdbd-980c-4a6b-9289" name="Redemptor Dreadnought" hidden="false" collective="false" import="true" targetId="d377-d88e-e86a-4c9d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f069-80a0-3eb1-1ae5" name="Primaris Apothecary" hidden="false" collective="false" import="true" targetId="daaf-718e-c540-13fa" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="e357-a6bb-f5a7-2f6d" name="Narthecium" hidden="false" targetId="e29f-d600-021b-a7ec" type="profile"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink id="dc4f-2ec3-0674-82dc" name="Reiver Squad" hidden="false" collective="false" import="true" targetId="30bf-60b7-7f9f-7a2c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="337b-78bb-bc37-12ff" name="Aggressor Squad" hidden="false" collective="false" import="true" targetId="5b03-42d3-7b13-3294" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9844-d698-9f0b-156c" name="Infernus Squad" hidden="false" collective="false" import="true" targetId="92b2-7e44-c99d-2692" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ff7a-d3d6-5b0b-7622" name="Chapter Ancient" hidden="false" collective="false" import="true" targetId="7909-de04-0593-bdb0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fffa-1e10-0c73-a758" name="Devastator Squad" hidden="false" collective="false" import="true" targetId="db91-485c-ca74-9d54" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="91f1-3fac-7f1a-3eb8" name="Hellblaster Squad" hidden="false" collective="false" import="true" targetId="8c07-83c7-971e-da50" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2b4c-3dfa-b169-5ec8" name="Hunter" hidden="false" collective="false" import="true" targetId="1bec-a9ec-587e-7dd2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2474-537e-e705-c6b2" name="Stalker" hidden="false" collective="false" import="true" targetId="2509-4c06-781e-7771" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2343-ae6b-1aa4-222d" name="Whirlwind" hidden="false" collective="false" import="true" targetId="d149-41f2-be2f-2236" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d34f-da54-c674-4901" name="Predator" hidden="false" collective="false" import="true" targetId="380b-365b-f724-e677" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="623d-d34a-ff02-57cc" name="Vindicator" hidden="false" collective="false" import="true" targetId="5b4f-6d59-d2cb-6004" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ee4b-b497-1d96-5e59" name="Land Raider" hidden="false" collective="false" import="true" targetId="03e6-d2f0-4433-9ecb" type="selectionEntry">
+      <profiles>
+        <profile id="9214-547c-618d-9f36" name="Transport " hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly BLACK TEMPLARS INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models. It cannot transport PRIMARIS units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="63fc-3b5f-1176-4943" name="Land Raider Crusader" hidden="false" collective="false" import="true" targetId="e090-e09a-3fc2-625e" type="selectionEntry">
+      <profiles>
+        <profile id="ecb7-680a-8a44-ac60" name="Transport " hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 16 friendly BLACK TEMPLARS INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models. It cannot transport PRIMARIS units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="3e72-db65-e138-b03f" name="Land Raider Redeemer" hidden="false" collective="false" import="true" targetId="2c85-0fe0-d71b-b759" type="selectionEntry">
+      <profiles>
+        <profile id="f8f8-85db-f625-9ad4" name="Transport " hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly BLACK TEMPLARS INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models. It cannot transport PRIMARIS units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="87da-1646-d484-17b3" name="Eliminator Squad" hidden="false" collective="false" import="true" targetId="0e7e-b907-6bf2-d536" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d1c2-24bd-2dec-874f" name="Assault Squad" hidden="false" collective="false" import="true" targetId="bfac-55c2-f1a4-838a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6ff5-3c32-2b3f-4a03" name="Scout Bike Squad" hidden="false" collective="false" import="true" targetId="681e-16e9-5f60-6245" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a1b5-0ab0-d358-ec37" name="Inceptor Squad" hidden="false" collective="false" import="true" targetId="de74-5084-23cb-8519" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7fc8-e3cc-51b5-d912" name="Suppressor Squad" hidden="false" collective="false" import="true" targetId="0da8-2ac6-c01c-24e9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3153-d31b-2f9a-ec44" name="Rhino" hidden="false" collective="false" import="true" targetId="7763-55dd-8812-7d23" type="selectionEntry">
+      <profiles>
+        <profile id="c10f-3708-6480-1292" name="Transport " hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly BLACK TEMPLARS INFANTRY models. It cannot transport PRIMARIS, TERMINATOR or JUMP PACK units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="e810-d1f0-2502-8f73" name="Razorback" hidden="false" collective="false" import="true" targetId="7621-272e-ffe5-27d8" type="selectionEntry">
+      <profiles>
+        <profile id="9890-61f7-b845-37a0" name="Transport " hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly BLACK TEMPLARS INFANTRY models. It cannot transport PRIMARIS, TERMINATOR or JUMP PACK units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="3efc-d8d4-a4ac-3802" name="Drop Pod" hidden="false" collective="false" import="true" targetId="3b41-4746-fc8a-35ce" type="selectionEntry">
+      <profiles>
+        <profile id="5989-0f11-1303-e72a" name="Transport " hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly BLACK TEMPLARS INFANTRY models. It cannot transport PRIMARIS, TERMINATOR or JUMP PACK units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="8ee7-2c1d-fbad-db52" name="Land Speeder Storm" hidden="false" collective="false" import="true" targetId="b166-97a1-112d-3a2f" type="selectionEntry">
+      <profiles>
+        <profile id="d528-bc94-772b-4320" name="Transport " hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 5 friendly BLACK TEMPLARS INFANTRY SCOUT models. It cannot transport PRIMARIS, TERMINATOR or JUMP PACK units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="e723-29c7-a66c-7a86" name="Repulsor" hidden="false" collective="false" import="true" targetId="5da0-0fe0-081a-1339" type="selectionEntry">
+      <profiles>
+        <profile id="73d2-1ba7-c506-f7a8" name="Transport " hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly BLACK TEMPLARS PRIMARIS INFANTRY models. Each MK X GRAVIS model takes up the space of 2 other models. It cannot transport JUMP PACK units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="ca52-3224-a8f3-2402" name="Stormraven Gunship" hidden="false" collective="false" import="true" targetId="70d0-691d-94eb-12d5" type="selectionEntry">
+      <profiles>
+        <profile id="bfea-1f94-b418-b1fb" name="Transport " hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly BLACK TEMPLARS INFANTRY models and 1 BLACK TEMPLARS Dreadnought. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models. It cannot transport PRIMARIS units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="84e2-64a1-7fca-9a87" name="Primaris Chaplain" hidden="false" collective="false" import="true" targetId="7813-d97a-0510-14e6" type="selectionEntry">
+      <modifiers>
+        <modifier type="add" field="category" value="e2b5-b600-9791-7010">
+          <conditions>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c8b5-9ad5-d8df-45f2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="fe5c-332b-9f7f-3bfe" name="Litanies of Hate" hidden="false" targetId="1020-199d-b194-0218" type="profile"/>
+        <infoLink id="d655-f16a-b2a1-7a9c" name="Spiritual Leader" hidden="false" targetId="74f7-3d04-b46b-7759" type="profile"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink id="2a14-6009-82e4-02a4" name="Land Speeders" hidden="false" collective="false" import="true" targetId="f1dc-9426-c419-5aa6" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="name" value="Ravenwing Land Speeders"/>
+      </modifiers>
+    </entryLink>
+    <entryLink id="8dfa-e075-f2d6-e8c3" name="Repulsor Executioner" hidden="false" collective="false" import="true" targetId="6d30-c860-3c7b-3357" type="selectionEntry">
+      <profiles>
+        <profile id="e343-2629-7ac9-7dc5" name="Transport" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly BLACK TEMPLARS PRIMARIS INFANTRY models. Each MK X GRAVIS model takes up the space of 2 other models. It cannot transport JUMP PACK units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="9a88-00f7-f4d8-c9ba" name="Deimos Pattern Relic Predator" hidden="false" collective="false" import="true" targetId="e5a7-51b9-e6c0-0486" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e3a0-dc6b-5a68-45ec" name="Deimos Pattern Vindicator Laser Destroyer" hidden="false" collective="false" import="true" targetId="3a5e-cfc0-318b-4da9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="363f-9623-c6ea-935c" name="Infernum Pattern Razorback" hidden="false" collective="false" import="true" targetId="fe60-c74c-37d0-edf3" type="selectionEntry">
+      <profiles>
+        <profile id="1c6d-ede6-b4b3-85a2" name="Transport" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly BLACK TEMPLARS INFANTRY models. It cannot transport TERMINATOR, JUMP PACK, CENTURION or PRIMARIS models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="5c11-a96b-def3-4134" name="Relic Land Raider Proteus" hidden="false" collective="false" import="true" targetId="2468-48de-617e-2258" type="selectionEntry">
+      <profiles>
+        <profile id="93b9-e45f-a956-bab4" name="Transport" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly BLACK TEMPLARS INFANTRY models. TERMINATOR and JUMP PACK models take up the space of 2 other models and each CENTURION model takes up the space of 3 other models. It cannot transport PRIMARIS models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="d424-4375-c648-ec52" name="Land Raider Helios" hidden="false" collective="false" import="true" targetId="81de-15ce-d9d3-f684" type="selectionEntry">
+      <profiles>
+        <profile id="7c6e-e74e-c431-3b99" name="Transport" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly BLACK TEMPLARS INFANTRY models. TERMINATOR and JUMP PACK models take up the space of 2 other models and each CENTURION model takes up the space of 3 other models. It cannot transport PRIMARIS models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="77b7-e9dd-9e62-6e3c" name="Terrax-pattern Termite Assault Drill" hidden="false" collective="false" import="true" targetId="2235-b44c-a7d2-d517" type="selectionEntry">
+      <profiles>
+        <profile id="a728-61e2-92e5-4a16" name="Transport" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly BLACK TEMPLARS INFANTRY models. It cannot transport JUMP PACK, TERMINATOR or PRIMARIS  models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="dd9b-afbb-b543-f7ef" name="Land Raider Prometheus" hidden="false" collective="false" import="true" targetId="2c96-5e9d-5061-c166" type="selectionEntry">
+      <profiles>
+        <profile id="eecd-d375-8432-280c" name="Transport" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly BLACK TEMPLARS INFANTRY models. TERMINATOR and JUMP PACK models take up the space of 2 other models and each CENTURION model takes up the space of 3 other models. It cannot transport PRIMARIS models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="238b-8847-b02f-83f4" name="Land Raider Achilles" hidden="false" collective="false" import="true" targetId="ba17-8566-b04c-09d3" type="selectionEntry">
+      <profiles>
+        <profile id="516e-c99b-cc4b-fcf6" name="Transport" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly BLACK TEMPLARS INFANTRY models. TERMINATOR and JUMP PACK models take up the space of 2 other models and each CENTURION model takes up the space of 3 other models. It cannot transport PRIMARIS models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="2bad-0032-1e90-84f3" name="Relic Sicaran Battle Tank" hidden="false" collective="false" import="true" targetId="486f-3047-10d1-a12a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c20d-ab87-74cf-61d2" name="Relic Sicaran Venator Tank Destroyer" hidden="false" collective="false" import="true" targetId="7f1f-08ac-f562-ee9f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="eb3a-027c-350d-de44" name="Relic Sicaran Punisher Assault Tank" hidden="false" collective="false" import="true" targetId="0f9f-7190-66d2-39bf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bdaf-cd4b-5daf-a355" name="Relic Spartan Assault Tank" hidden="false" collective="false" import="true" targetId="68f5-0eaf-e33d-6992" type="selectionEntry">
+      <profiles>
+        <profile id="754b-6ea7-8ff7-c484" name="Transport" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 25 friendly BLACK TEMPLARS INFANTRY models. TERMINATOR and JUMP PACK models take up the space of 2 other models and each CENTURION model takes up the space of 3 other models. It cannot transport PRIMARIS models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="3a5b-7eb8-2f34-c80e" name="Relic Typhon Heavy Siege Tank" hidden="false" collective="false" import="true" targetId="818c-71cb-91b8-14c6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3b13-d1e1-ee25-3ff2" name="Relic Cerberus Heavy Tank Destroyer" hidden="false" collective="false" import="true" targetId="33ad-2c9d-dca2-507a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6c74-4871-e9bc-72da" name="Relic Fellblade Super-heavy Tank" hidden="false" collective="false" import="true" targetId="a634-4723-ba51-60ca" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="33fa-5525-2325-bf43" name="Relic Falchion Super-heavy Tank Destroyer" hidden="false" collective="false" import="true" targetId="0f93-c25d-2b63-2f39" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2e7e-9816-7210-4ba1" name="Relic Mastodon Super-heavy Siege Transport" hidden="false" collective="false" import="true" targetId="bbb9-54eb-4f59-e9dc" type="selectionEntry">
+      <profiles>
+        <profile id="679b-9b57-89eb-150c" name="Transport" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport friendly BLACK TEMPLARS  models in one of the following combinations:
+-- Up to 40 INFANTRY models.
+-- Up to 30 INFANTRY models and 1 Dreadnought model.
+-- Up to 20 INFANTRY models and up to 2 Dreadnought models.
+Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CENTURION model takes the space of 3 other INFANTRY models. It cannot transport PRIMARIS models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="3078-db16-53cc-9453" name="Astraeus Super-heavy Tank" hidden="false" collective="false" import="true" targetId="0975-6a9a-ebe0-2feb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="364b-a15a-557e-dd4b" name="Mortis Dreadnought" hidden="false" collective="false" import="true" targetId="ab0b-3c90-cd3d-14e5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="eabf-01bb-3d0e-4b00" name="Siege Dreadnought" hidden="false" collective="false" import="true" targetId="07ed-fe1c-27d3-b5f8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5993-06e4-169b-7c6c" name="Contemptor Mortis Dreadnought" hidden="false" collective="false" import="true" targetId="3e0f-a71c-233c-5c6d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ccdc-6963-e40f-456d" name="Chaplain Venerable Dreadnought" hidden="false" collective="false" import="true" targetId="ab53-eec6-d4be-ab28" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5bf5-1a28-26ea-2dc3" name="Relic Contemptor Dreadnought" hidden="false" collective="false" import="true" targetId="0321-28ba-f11e-426c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="63e0-f34d-81c0-5506" name="Relic Deredeo Dreadnought" hidden="false" collective="false" import="true" targetId="710a-fbe4-6cac-3054" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c9b6-8cb1-94b8-7075" name="Relic Leviathan Dreadnought" hidden="false" collective="false" import="true" targetId="a40f-f1a8-4416-b632" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a0ef-923b-b363-91b4" name="Land Speeder Tempests" hidden="false" collective="false" import="true" targetId="ea0b-da21-710a-a0b8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="70b5-21dd-b593-67ea" name="Relic Javelin Attack Speeder" hidden="false" collective="false" import="true" targetId="ac7c-d4c4-d0bf-8d7b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dc7d-a7a1-f02b-b6db" name="Xiphon Interceptor" hidden="false" collective="false" import="true" targetId="7701-7457-621e-6f84" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e5a7-6656-5601-d1dc" name="Storm Eagle Assault Gunship" hidden="false" collective="false" import="true" targetId="a66b-42aa-4c20-300b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="54d4-5baa-dc4a-02c6" name="Storm Eagle Assault Gunship - ROC Pattern" hidden="false" collective="false" import="true" targetId="4ea6-f70e-97cd-fd75" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1b30-76ce-812c-e750" name="Fire Raptor Assault Gunship" hidden="false" collective="false" import="true" targetId="7afa-0a96-ea6d-7695" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a4f4-28ec-be73-f968" name="Caestus Assault Ram" hidden="false" collective="false" import="true" targetId="c0bc-b91c-1598-39d7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="27c7-2f00-c57b-a971" name="Thunderhawk Assault Gunship" hidden="false" collective="false" import="true" targetId="a2db-2d39-b71f-baad" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f0ca-14f2-9cd1-ab8d" name="Thunderhawk Transporter" hidden="false" collective="false" import="true" targetId="4944-fdb4-2e47-e4a5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9778-59f3-1b24-5b4e" name="Sokar Pattern Stormbird" hidden="false" collective="false" import="true" targetId="d978-4ed0-3aa8-ae11" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c3af-4e7e-c675-636d" name="Damocles Command Rhino" hidden="false" collective="false" import="true" targetId="8e5c-499e-a68c-ce86" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e671-bc84-d1b6-297d" name="Whirlwind Hyperios" hidden="false" collective="false" import="true" targetId="bd52-9f38-da26-61d5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="de4a-2a98-ce34-d79d" name="Relic Whirlwind Scorpius" hidden="false" collective="false" import="true" targetId="b3b9-7176-b67a-0531" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0168-1332-298c-40a7" name="Rapier Carrier" hidden="false" collective="false" import="true" targetId="d3d0-2acc-450c-fba7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="70bd-b957-3bf8-456b" name="Tarantula Battery" hidden="false" collective="false" import="true" targetId="8e13-a3be-f344-12ec" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e8d4-5c31-7e3e-d3e9" name="Tarantula Air Defence Battery" hidden="false" collective="false" import="true" targetId="d9f4-d203-bd9c-8b46" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7e23-6b7a-798b-1398" name="Lucius Pattern Dreadnought Drop Pod" hidden="false" collective="false" import="true" targetId="4a13-6a66-aa3a-4763" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d3fa-06ba-2702-d42d" name="Deathstorm Drop Pod" hidden="false" collective="false" import="true" targetId="8753-faf5-ddf9-6563" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="666e-81b8-bfd0-de7d" name="Castellum Stronghold - Tacticus Bunker" hidden="false" collective="false" import="true" targetId="c0ad-b807-9b3a-5075" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="70ce-e0a6-7201-5958" name="Castellum Stronghold - Bunker Annex" hidden="false" collective="false" import="true" targetId="1ccc-77b7-7298-8c9c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bbba-c189-89bf-be2a" name="Incursor Squad" hidden="false" collective="false" import="true" targetId="f2e6-ac69-ac7f-bc56" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bca0-0055-c138-2ead" name="Invictor Tactical Warsuit" hidden="false" collective="false" import="true" targetId="4730-6697-b894-e0de" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a05a-7543-c317-ffd5" name="Impulsor" hidden="false" collective="false" import="true" targetId="ed0d-c99c-3497-a919" type="selectionEntry">
+      <profiles>
+        <profile id="fc7c-974a-a1ed-d359" name="Impulsor" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly BLACK TEMPLARS PRIMARIS INFANTRY models. It cannot transport JUMP PACK or MK X GRAVIS units.
+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="fae4-7111-bd59-bff5" name="Captain" hidden="false" collective="false" import="true" targetId="b734-ce0c-dd48-e51f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2a05-07d7-980e-aa9b" name="Primaris Techmarine" hidden="false" collective="false" import="true" targetId="c4c4-5b9e-8ea6-1ca1" type="selectionEntry">
+      <profiles>
+        <profile id="885e-3196-6940-79cc" name="Blessing of the Omnissiah" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the end of the Action phase, this unit can attempt to repair one friendly BLACK TEMPLARS Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="2593-a988-c38d-c8ac" name="Assault Intercessor Squad" hidden="false" collective="false" import="true" targetId="811d-be8d-23fb-7100" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2f40-82db-ba28-21d1" name="Heavy Intercessor Squad" hidden="false" collective="false" import="true" targetId="daf6-0fd3-3356-b4cd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8b06-1a88-7d4b-9d5c" name="Bladeguard Ancient" hidden="false" collective="false" import="true" targetId="0cbf-a1e2-653b-48e7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5bf1-5fb5-152b-70de" name="Ancient In Terminator Armour" hidden="false" collective="false" import="true" targetId="1535-dab4-2aea-8137" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="14c9-467c-f0b7-497f" name="Apothecary Biologis" hidden="false" collective="false" import="true" targetId="f677-894e-e27d-9c5a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5f0e-1009-4695-7e39" name="Bladeguard Veteran Squad" hidden="false" collective="false" import="true" targetId="531c-7893-3dab-280c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8424-eb8c-030d-4db8" name="Judiciar" hidden="false" collective="false" import="true" targetId="a848-d1fb-7516-1180" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5952-4bd8-4657-d035" name="Terminator Assault Squad" hidden="false" collective="false" import="true" targetId="768d-883e-96a7-c2ce" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c9c9-d7bc-94f2-aeac" name="Terminator Squad" hidden="false" collective="false" import="true" targetId="c0b0-6b0b-7f09-d62c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a300-cb67-a6e8-bb0a" name="Centurion Assault Squad" hidden="false" collective="false" import="true" targetId="0fb2-fc72-9e69-d8ad" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b8fe-596a-b625-973f" name="Ironclad Dreadnought" hidden="false" collective="false" import="true" targetId="2ac2-7fbf-e62c-02ca" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d171-1a35-475d-b343" name="Outrider Squad" page="" hidden="false" collective="false" import="true" targetId="778d-e22c-27cb-5b1b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="05b0-e107-ac1c-0c8c" name="Invader ATV Squad" hidden="false" collective="false" import="true" targetId="9a45-0fb7-b6fa-db42" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="74f0-5dc0-e7e9-437e" name="Bike Squad" hidden="false" collective="false" import="true" targetId="10c9-b4bb-9816-ee1b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="315f-cb16-35ae-cdc1" name="Attack Bike Squad" hidden="false" collective="false" import="true" targetId="ea42-68aa-024e-2eaf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4beb-8902-25d2-46a1" name="Storm Speeder Hailstrike" hidden="false" collective="false" import="true" targetId="4d23-dd4d-799a-3c25" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c3da-eb77-309b-20da" name="Storm Speeder Thunderstrike" hidden="false" collective="false" import="true" targetId="d2f4-fc63-2dfc-5efa" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e881-b5bb-a3df-4768" name="Storm Speeder Hammerstrike" hidden="false" collective="false" import="true" targetId="5592-33ce-cd2a-dbea" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6cce-b2e9-0614-8d4a" name="Centurion Devastator Squad" hidden="false" collective="false" import="true" targetId="2471-f69b-08e2-34a7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0556-9c7a-6437-2657" name="Eradicator Squad" hidden="false" collective="false" import="true" targetId="7a4f-1b01-9979-5aef" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="eb2d-07db-8336-c57c" name="Thunderfire Cannon" hidden="false" collective="false" import="true" targetId="ba63-ab3f-8747-a3d1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b40b-77bc-19fe-b75a" name="Firestrike Servo-turrets" hidden="false" collective="false" import="true" targetId="52f3-77e4-8b3f-8a97" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d765-2b79-0277-4043" name="Gladiator Lancer" hidden="false" collective="false" import="true" targetId="7171-4360-380d-58d9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6558-43f1-6eae-c636" name="Gladiator Reaper" hidden="false" collective="false" import="true" targetId="fc2d-0c7f-e3e5-f51f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ad6f-4404-0b05-4325" name="Gladiator Valiant" hidden="false" collective="false" import="true" targetId="a80b-3524-b19e-e4f2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e47d-c9d1-6f4c-1372" name="Stormhawk Interceptor" hidden="false" collective="false" import="true" targetId="3d68-4564-f328-1694" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a113-99a1-05c8-0110" name="Stormtalon Gunship" hidden="false" collective="false" import="true" targetId="80e9-fdb3-c8be-0c11" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3b95-9202-0d6d-632e" name="Hammerfall Bunker" hidden="false" collective="false" import="true" targetId="cbce-7f99-5113-19d1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="692c-71ce-077b-9b78" name="Techmarine Rhino [Legends]" hidden="false" collective="false" import="true" targetId="6afe-3e6a-fcd8-76bf" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9608-768c-3955-8adf" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="e445-fc57-b171-eddb" name="Battlesmith" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">At the end of the Action phase, this unit can attempt to repair one friendly BLACK TEMPLARS VEHICLE unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that VEHICLE unit. Only one attempt to repair each unit can be made each turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cce2-2e4c-205a-acc1" name="Techmarine Rhino" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly BLACK TEMPLARS INFANTRY models. It cannot transport PRIMARIS, TERMINATOR or JUMP PACK units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9779-44bf-158d-54dd" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="f82e-cd66-b901-912a" name="Land Raider Ares [Legends]" hidden="false" collective="false" import="true" targetId="eac7-1986-6489-3934" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9608-768c-3955-8adf" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="6990-db47-e990-1093" name="Desolation Squad" hidden="false" collective="false" import="true" targetId="4ead-44eb-6689-31e0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="35bf-b884-e048-e8d4" name="Black Templars Gladiator Lancer" hidden="false" collective="false" import="true" targetId="c582-3e17-1f45-e9b5" type="selectionEntry"/>
+    <entryLink id="f30e-738b-e3d0-e5c3" name="Black Templars Gladiator Reaper" hidden="false" collective="false" import="true" targetId="6acb-8b52-3fa2-25d7" type="selectionEntry"/>
+    <entryLink id="f5f0-7a26-9c25-6089" name="Black Templars Gladiator Valiant" hidden="false" collective="false" import="true" targetId="506e-1695-11ba-96d8" type="selectionEntry"/>
+    <entryLink id="b3b2-aad2-1ae0-7534" name="Black Templars Impulsor" hidden="false" collective="false" import="true" targetId="15fa-150e-df6a-d561" type="selectionEntry"/>
+    <entryLink id="6265-2716-7904-f265" name="Black Templars Repulsor" hidden="false" collective="false" import="true" targetId="19df-af48-7f95-0344" type="selectionEntry"/>
+    <entryLink id="1300-fcd7-a487-03fe" name="Black Templars Repulsor" hidden="false" collective="false" import="true" targetId="19df-af48-7f95-0344" type="selectionEntry"/>
+    <entryLink id="2ad5-9c69-5c2d-4b2a" name="Black Templars Repulsor Executioner" hidden="false" collective="false" import="true" targetId="f548-f53e-705b-17d7" type="selectionEntry"/>
+    <entryLink id="9b6e-1de8-d0b7-3972" name="Castellan" hidden="false" collective="false" import="true" targetId="0fe0-0055-be7e-c428" type="selectionEntry"/>
+    <entryLink id="b857-618f-a6bb-9c77" name="Chaplain Grimaldus and Servitors" hidden="false" collective="false" import="true" targetId="2f5e-9cf2-4afe-6cf7" type="selectionEntry"/>
+    <entryLink id="76b6-c9ef-5739-6202" name="High Marshal Helbrecht" hidden="false" collective="false" import="true" targetId="d609-c7f0-5469-afe9" type="selectionEntry"/>
+    <entryLink id="c0b0-8436-9c47-9cfb" name="Marshal" hidden="false" collective="false" import="true" targetId="6031-3b5c-9488-a725" type="selectionEntry"/>
+    <entryLink id="49a6-72fa-5b99-47bc" name="Crusader Squad" hidden="false" collective="false" import="true" targetId="b571-d6ad-223b-65c0" type="selectionEntry"/>
+    <entryLink id="c822-dc14-3ed3-0cc2" name="Primaris Sword Bretheren" hidden="false" collective="false" import="true" targetId="391b-8bcb-9edf-7f91" type="selectionEntry"/>
+    <entryLink id="d7bc-1a12-8f26-c6b6" name="The Emperor’s Champion" hidden="false" collective="false" import="true" targetId="daa2-56aa-becf-8155" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="9608-768c-3955-8adf" name="Hide Legacy units" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2631-a995-2fe7-11a8" type="max"/>
+      </constraints>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d609-c7f0-5469-afe9" name="High Marshal Helbrecht" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5a29-8621-489a-f611" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="587d-70ed-d58c-f8db" name="High Marshal Helbrecht" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0d71-1b71-ac7f-96dd" name="High Marshal" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the start of this unit&apos;s activation in the Action phase, if it is in Engagement Range of any enemy units, select one and roll a D6: On a 2+ place a blast marker next to that unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="337c-0f83-57a5-02b3" name="Crusade of Wrath" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is leading a unit, whenever a model in that unit makes a Melee attack, add 2 to the Wound roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d673-848d-a4d1-cfb8" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
+• ASSAULT INTERCESSOR SQUAD
+• INTERCESSOR SQUAD
+• PRIMARIS CRUSADER SQUAD
+• PRIMARIS SWORD BRETHREN</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ed6e-10df-dc97-8c08" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="8046-b07a-2705-ef65" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="ed41-e6c0-c554-0513" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="196c-2321-8a99-3370" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="b5d8-0aca-4c4c-4b22" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="fe51-5bc0-155d-0d8e" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="61c7-0b7e-3812-895d" name="Chapter Master" hidden="false" targetId="b3fb-f781-c79e-900b" primary="false"/>
+        <categoryLink id="6a29-e81d-321f-c3f4" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="dd4f-bc84-c4d0-0c19" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a932-2739-8981-08c3" name="Sword of the High Marshals" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d868-6f25-7d53-959b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1de7-fd12-a57e-5af8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b0cc-cfb7-2391-0e46" name="Sword of the High Marshals" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Mele</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0ed5-7800-ade5-6933" name="Ferocity" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf9e-2eee-18e7-db26" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd32-aa53-c64f-5262" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0908-cb9a-6810-4598" name="Ferocity" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a0c1-eff4-5921-8772" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b571-d6ad-223b-65c0" name="Crusader Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7943-c3a2-1e93-dca1" name="Attached Unit" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If a CHARACTER from your army with the Leader ability can be attached to a TACTICAL SQUAD, it can be attached to this unit instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a066-12f8-7e7a-4e89" name="Righteous Zeal" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll Wound rolls of 1 for Attacks made with melee weapons equipped by this unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="76be-3425-50b4-7ef9" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+        <categoryLink id="1615-ceb8-e5a2-7f87" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="077f-488f-03b2-b13a" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="deff-9f66-cb0d-4d97" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="7f0d-863b-22c5-f57e" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="b665-751e-9ba4-1184" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
+        <categoryLink id="7a07-2c6d-7477-a2d0" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="307f-8600-40dd-a4ba" name="05 - 20 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="4b8f-0176-8dfa-77db">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3038-39b5-0b62-8184" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed96-8781-74f4-bb67" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4b8f-0176-8dfa-77db" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="438d-fd8f-ef08-11cb" name="Crusader Squad (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5835-7698-5042-98a6" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="8999-2dcb-0840-8e95" name="Crusader Squad (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">5</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bb2e-2e40-dbfa-c9a4" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f36a-9d1b-2653-6493" name="Crusader Squad (20 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">10</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">8</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c51e-e6c8-4811-c7bc" name="Heavy Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="369b-e231-0b7d-6324" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5c1d-5b19-f03f-39dc" name="Grav-Cannon" hidden="false" collective="false" import="true" targetId="2767-582b-0ce4-bab4" type="selectionEntry"/>
+            <entryLink id="af09-4084-0a36-c0f7" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry"/>
+            <entryLink id="9709-1895-c43b-ae30" name="Lascannon" hidden="false" collective="false" import="true" targetId="dd55-a2c1-238b-569f" type="selectionEntry"/>
+            <entryLink id="b09a-8e41-60f4-2e6e" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="a524-9ae0-16b9-cd61" type="selectionEntry"/>
+            <entryLink id="40e4-8a18-8c37-6a13" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry"/>
+            <entryLink id="87f3-e2aa-22e5-9ca2" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="257b-2e43-40d4-aebe" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b9c4-6aa8-c0ab-1123" name="Boltguns" hidden="false" collective="false" import="true" targetId="2d61-a814-63d8-0398" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2116-df53-5207-2ac4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae39-e166-40b8-0424" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2d0d-e131-285c-c553" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="6144-aa85-b770-2f33" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d98a-6d04-e3e2-636a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a683-1301-31b0-3b07" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="786a-7d60-d77f-b295" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="daa2-56aa-becf-8155" name="The Emperor’s Champion" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6aec-1a0a-d30f-35d5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c893-3f91-ca23-60e3" name="The Emperor’s Champion" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="45ee-3cd2-7258-430b" name="Sigismund’s Heir" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes a melee attack that targets a CHARACTER unit, add 1 to the Wound roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2185-4519-d1ec-9cdb" name="Skilful Parry" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per turn when this model is selected in the Damage phase, if this model is in Engagement Range of an enemy unit, you make remove a blast marker from this unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="bf73-e411-9d16-c860" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="bd30-97ac-6f0e-eb71" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="9fac-208a-64b2-9292" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="09e0-02bc-6b53-a28c" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="a201-0576-98e5-523f" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="12fe-7851-dc6f-d751" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="cb4a-9e9a-1789-6426" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ca1d-07e1-cec6-7e76" name="Black Sword" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a77c-1054-42ac-013c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa25-4fc8-d079-9b6c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d109-18b8-f74d-c09e" name="Black Sword" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="1685-4294-57d9-8f85" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f5e-9cf2-4afe-6cf7" name="Chaplain Grimaldus and Servitors" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1c9d-c1b2-79aa-0c52" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7f79-5ad3-1872-62dd" name="Litanies of the Devout" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While CHAPLAIN GRIMALDUS is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="df56-1999-71fa-9229" name="Remnants of the Fallen Temple" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Remnant of the Fallen Temple: Models in this unit have the IGNORE DAMAGE 6+ ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7cb0-736a-9760-fbcf" name="Chaplain Grimaldus and Servitors" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1e61-0b65-2c83-2fb7" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
+• ASSAULT INTERCESSOR SQUAD
+• INFERNUS SQUAD
+• INTERCESSOR SQUAD
+• PRIMARIS CRUSADER SQUAD
+• PRIMARIS SWORD BRETHREN</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4a37-1331-8d50-554f" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1c52-6bf1-5ffb-2d25" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="ab30-edd8-689a-9e8e" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="a388-52fd-169c-2a59" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="48f7-4f5f-38dd-cec8" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="6e51-64a0-8a05-e666" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="3432-3b80-386b-ca9e" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="6df7-7576-696c-2fac" name="Priest" hidden="false" targetId="0642-3d2d-db41-9ddd" primary="false"/>
+        <categoryLink id="4f6e-5787-c689-5535" name="Chaplain" hidden="false" targetId="89c1-3354-3e0d-279e" primary="false"/>
+        <categoryLink id="bedc-c75c-d118-c719" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="cd34-b55b-9580-c2bf" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f476-a147-7d14-b1e8" name="Artificer Crozius" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3edb-4af7-3d9a-3ea2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="176b-9339-156f-4841" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="f1fc-2485-dc91-1878" name="Artificer Crozius" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a2c1-dd26-7709-05b4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6031-3b5c-9488-a725" name="Marshal" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7270-a86b-aa06-64f4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b1d9-02f6-0bc7-e5da" name="Marshal" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d7a7-149d-47eb-29f7" name="Rites of Battle" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per battle round, one unit from your army with this ability can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="307c-ca6f-b843-2619" name="Finest Hour" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per battle, when this model is selected to Fight, add 1 to the Attacks characteristic of this model.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="306e-bbf5-8d97-137b" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
+• ASSAULT INTERCESSOR SQUAD
+• INFERNUS SQUAD
+• INTERCESSOR SQUAD
+• PRIMARIS CRUSADER SQUAD
+• PRIMARIS SWORD BRETHREN
+• STERNGUARD VETERAN SQUAD</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="93ef-9de0-6b9a-2ff2" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="bb86-9be5-f63e-c4c9" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="1f0a-bcfd-e52e-3b70" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="9cec-a18a-df10-502e" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="41a9-55fe-d948-36e2" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="9804-dfea-2e5e-0c8b" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4bca-00d5-d4db-a2a3" name="Master-Crafted Power Weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bf4-997c-6611-a5d3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71ca-c98c-c2e3-12fd" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fe35-ebb0-4645-432d" name="Master-Crafted Power Weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b8f3-cf9c-e009-687c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="5b43-37cb-71dd-a8f7" name="Combi-bolter" hidden="false" collective="false" import="true" targetId="f25f-41f2-ba88-cb85" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df0e-4fa6-7067-da58" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cdf-8cde-8bdc-71f1" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0fe0-0055-be7e-c428" name="Castellan" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b651-aaa4-a7c5-6ff2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="241f-29b2-0547-779d" name="Castellan" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="22f8-670a-fcc9-bd6f" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
+• ASSAULT INTERCESSOR SQUAD
+• INFERNUS SQUAD
+• INTERCESSOR SQUAD
+• PRIMARIS CRUSADER SQUAD
+• PRIMARIS SWORD BRETHREN
+• STERNGUARD VETERAN SQUAD
+*You can attach this model to a unit even if another CAPTAIN or CHAPTER MASTER is already attached</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6eb5-4f61-c7c3-621d" name="Tactical Precision" hidden="false" targetId="8c10-06ad-80b3-e11e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8ec5-04d9-3367-6fa2" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="3eb7-a6bb-b475-d57a" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="fe46-ec89-9057-e5f0" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="da04-db30-0760-9652" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="8036-8cc9-382e-ae99" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="1dc9-d508-8b62-02f6" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="ad24-227e-7bb3-5fd6" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b508-6b76-c89e-4338" name="Melee Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2bb-db48-4cc4-9e0f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ee5-6109-cc24-9c60" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2f14-b9ec-90a1-df92" name="Master-Crafted Power Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="7b3d-3638-bd15-75f2" name="Master-Crafted Power Weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="5c8b-96f6-3068-d4b2" name="Chainswords" hidden="false" collective="false" import="true" targetId="6d39-29c6-0022-b959" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="527f-ed53-4340-5845" name="Ranged Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5011-9ddc-f996-b1ec" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c55-0f77-c377-18a1" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b037-df69-9fc5-bee0" name="Heavy Bolt Pistols" hidden="false" collective="false" import="true" targetId="35bb-c4c0-0e46-cd22" type="selectionEntry"/>
+            <entryLink id="787b-ffa7-b1ba-32b0" name="Combi-bolter" hidden="false" collective="false" import="true" targetId="f25f-41f2-ba88-cb85" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ae03-6b2e-46bd-33b7" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="908a-7f00-6a3b-10d9" name="Primaris Crusader Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f9a1-765f-b9fb-7848" name="Attached Unit" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If a CHARACTER from your army with the Leader ability can be attached to a INTERCESSOR SQUAD, it can be attached to this unit instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="25e8-cba7-5854-99f1" name="Righteous Zeal" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll Wound rolls of 1 for Attacks made with melee weapons equipped by this unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4dda-497b-927f-60f6" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+        <categoryLink id="8d38-f924-ae04-0769" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="02e8-0ac8-75f7-5504" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="bc6c-0644-9a84-995a" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="12f6-94e2-eeb2-bbd5" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="2510-a79f-5d30-241b" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
+        <categoryLink id="016a-176d-5cdc-bf8f" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="df4c-bcee-7b9e-3ef8" name="10 - 20 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="d45a-d9fa-10b9-fa79">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b428-c83e-71f0-6ffa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7585-3f3d-fd52-936d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d45a-d9fa-10b9-fa79" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="78d0-dba0-dac7-37d2" name="Primaris Crusader Squad (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">5</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="16c3-c1e0-65f4-2dc1" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="8ee4-424b-98dd-458a" name="Primaris Crusader Squad (20 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">10</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">8</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="047c-179d-ff4e-4f21" name="Main Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec9a-a89a-5788-5829" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="646a-9a73-082c-a252" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="597b-8b83-c8c8-8e77" name="Chainswords and Bolt Pistols" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="d305-951c-7c9c-e8cf" name="Chainswords" hidden="false" collective="false" import="true" targetId="6d39-29c6-0022-b959" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f99-dc85-9470-1c14" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a50d-2c41-4047-158d" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="5b38-7e37-b64b-e6ad" name="Heavy Bolt Pistols" hidden="false" collective="false" import="true" targetId="35bb-c4c0-0e46-cd22" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a54-5117-08aa-3f6c" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06d6-e4c1-719b-7b95" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2625-f528-4bb6-3b6f" name="Boltguns" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="2552-d36f-0794-d1b4" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="6144-aa85-b770-2f33" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3775-8b44-e3a1-d439" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41a6-5591-f371-7936" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="cb34-3ba3-0f13-df4d" name="Boltguns" hidden="false" collective="false" import="true" targetId="2d61-a814-63d8-0398" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="555e-d9ac-ea61-c478" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5f2-e872-855a-15c2" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e2e5-d58d-9650-db23" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="15fa-150e-df6a-d561" name="Black Templars Impulsor" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4def-b0f6-c3fe-fcea" name="Impulsor" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="15fa-150e-df6a-d561" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f3fc-3682-273d-1901" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="a56f-38ae-3917-aadc" value="5+"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2ed0-47c0-52d7-61db" name="Impulsor" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly &lt;CHAPTER&gt; PRIMARIS INFANTRY models. It cannot transport JUMP PACK or MK X GRAVIS units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d86f-a7ca-8e74-ce83" name="Hover" hidden="false" targetId="5711-082b-6f95-d8ef" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f14c-8345-c1f7-f4a4" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
+        <categoryLink id="2c2b-f0ae-1d93-82c1" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="3e4f-9b5b-f6ae-4e68" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="8907-fec7-2f35-9bd0" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="d1bf-c813-13c4-bd0d" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="18f4-788e-67ed-a6a0" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="6b97-c18d-9522-6703" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="393c-b291-b40b-c904" name="Impulsor" hidden="false" targetId="3008-0f00-5961-31b7" primary="false"/>
+        <categoryLink id="931e-adfc-2885-b361" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="30d4-9c1c-c4d5-ceb2" name="Wargear" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb8f-1491-56c4-3b63" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="427d-7d3a-5db0-6d84" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="fbe2-a1bc-faec-5be7" name="Oribital Array" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2027-f3fe-2bef-dae5" name="Oribital Array" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">72&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">One Use Only, Barrage, Destroyer</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="8084-95a3-85d5-80c9" name="One Use Only" hidden="false" targetId="822c-cc23-b4b1-bcb2" type="rule"/>
+                <infoLink id="7ad3-e46a-0a38-fa97" name="Barrage" hidden="false" targetId="7296-134e-970b-4790" type="rule"/>
+                <infoLink id="02b6-1e6f-4d5a-b4be" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f3fc-3682-273d-1901" name="Shield Dome" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ee83-9628-d9e5-b70e" name="Impulsor Missile Array" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="5270-b2dc-71b3-710e" name="Impulsor Missile Array" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-Air</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="a17a-2ac8-1926-9807" name="Anti-air" hidden="false" targetId="48b8-058a-9085-0e80" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3069-baf0-ca2f-c6f2" name="Ironhail Skytalon Array" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="282f-39c2-cc29-255a" name="Ironhail Skytalon Array" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-Air</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="e162-c589-91b9-9579" name="Anti-air" hidden="false" targetId="48b8-058a-9085-0e80" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2d7e-da2c-8ba7-d393" name="Additional Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdf9-b117-a270-c808" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e96a-9855-bd8a-def7" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4144-7d9e-a961-36c9" name="Ironhail Heavy Stubber" hidden="false" collective="false" import="true" targetId="f2e6-2219-c71f-9401" type="selectionEntry"/>
+            <entryLink id="bb56-21a6-219b-88bc" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a6b4-3473-01ac-03a0" name="Repulsor Field" hidden="false" collective="false" import="true" targetId="01db-cc4c-6770-c042" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b74-176c-f77a-9b9a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f02a-9fc9-7630-82b4" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="adf4-3105-0796-0a87" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="7e43-30b0-5590-9b2e" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="6069-9596-0014-6808" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7239-7dad-22f7-bb19" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60a5-d45a-e923-f896" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c582-3e17-1f45-e9b5" name="Black Templars Gladiator Lancer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="69cc-63d5-5da9-00c0" name="Hover" hidden="false" targetId="5711-082b-6f95-d8ef" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5e46-69f1-1281-2a3f" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="f58d-daa9-becb-c15c" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="fe41-c223-a886-1b1f" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="8d0e-c506-298f-2570" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="ba84-8ac3-9535-46dd" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="ca57-728d-8cf3-9f06" name="Gladiator" hidden="false" targetId="e4aa-ca30-7e31-c323" primary="false"/>
+        <categoryLink id="fea5-8c57-1824-e30c" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
+        <categoryLink id="7c79-d472-c9f9-2bf3" name="Gladiator Lancer" hidden="false" targetId="4f6d-256a-d422-e707" primary="false"/>
+        <categoryLink id="db4c-9675-6b24-ed2b" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="efba-89f6-3e8d-fdbb" name="Additional Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63d0-7ee0-b13e-b5f1" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cb9-c988-97f6-face" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="aa76-282b-f4e3-fa1e" name="Ironhail Heavy Stubber" hidden="false" collective="false" import="true" targetId="f2e6-2219-c71f-9401" type="selectionEntry"/>
+            <entryLink id="570b-7c42-43bb-12b5" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f64e-9c74-c0be-e9b9" name="Repulsor Field" hidden="false" collective="false" import="true" targetId="01db-cc4c-6770-c042" type="selectionEntry"/>
+        <entryLink id="145f-bb13-2310-5c3e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="d613-41b9-e731-aa8a" name="Icarus Rocket Pod" hidden="false" collective="false" import="true" targetId="084d-262f-bd4b-0403" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="156a-f836-58cf-8e95" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b01-b94d-c6c1-faaf" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1c8e-6cf5-9ecd-045d" name="Lancer Aquilon Optics" hidden="false" collective="false" import="true" targetId="635e-9f28-f319-0f0e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce74-ecfc-9d7a-60f8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5385-a4ed-32d3-85ff" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="16ec-5c4b-9224-c043" name="Lancer Laser Destroyer" hidden="false" collective="false" import="true" targetId="7b69-42ae-16e3-cfd2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f22-82b6-deec-e6e4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d961-7582-f849-872f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="891e-a632-8e7a-9d16" name="Gladiator" hidden="false" collective="false" import="true" targetId="d1d9-b865-21d1-7019" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="111e-0916-98f6-eb5d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1c2-971e-dcbe-1993" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a4b9-d321-dcb3-210e" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="6069-9596-0014-6808" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad78-3fb2-80fa-51c8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2e7-6e7e-f6b8-166e" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6acb-8b52-3fa2-25d7" name="Black Templars Gladiator Reaper" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c437-95c5-c6ad-88d9" name="Rotating Death" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model’s twin heavy onslaught gatling cannon has the [SUSTAINED HITS 2] ability when targeting INFANTRY units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d8a6-81bc-a5e3-0de0" name="Hover" hidden="false" targetId="5711-082b-6f95-d8ef" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1600-0789-4602-3941" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="3e5c-148e-b72c-5445" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="d559-3667-b471-694c" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="969c-a46b-5341-e41d" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="8462-cbce-1e32-8c1d" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="87fc-34ef-27e9-50e1" name="Gladiator" hidden="false" targetId="e4aa-ca30-7e31-c323" primary="false"/>
+        <categoryLink id="bc8d-0aa0-aa85-ce95" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
+        <categoryLink id="f92e-b175-f68c-c2f8" name="Gladiator Reaper" hidden="false" targetId="f052-fae1-e97f-8ce2" primary="false"/>
+        <categoryLink id="de4a-beb6-546c-d4bb" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="963e-c695-7111-1ebb" name="Additional Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8079-e9dc-5610-84f5" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a71a-1d87-0909-bf64" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5c5e-53ab-59ca-3ed3" name="Ironhail Heavy Stubber" hidden="false" collective="false" import="true" targetId="f2e6-2219-c71f-9401" type="selectionEntry"/>
+            <entryLink id="bf54-e92e-3e3b-86bd" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8db0-cf9a-bbff-71bd" name="Repulsor Field" hidden="false" collective="false" import="true" targetId="01db-cc4c-6770-c042" type="selectionEntry"/>
+        <entryLink id="e17b-ba3e-f87e-bee9" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="cfdb-4be7-a12a-c0dd" name="Icarus Rocket Pod" hidden="false" collective="false" import="true" targetId="084d-262f-bd4b-0403" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ddc-cbc4-fdf5-d107" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="347e-6940-58ea-eb6c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4d6e-44e5-8a65-5193" name="Gladiator" hidden="false" collective="false" import="true" targetId="d1d9-b865-21d1-7019" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bde8-5471-86a8-0553" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a15-befe-3753-dbc5" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c8ff-0e66-0ffc-9681" name="Tempest Bolter" hidden="false" collective="false" import="true" targetId="5dcf-f660-3107-dbc5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a21-b154-1840-6305" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cb6-3c3d-7f77-bb57" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ac1f-6aa8-249e-fe30" name="Twin Heavy Onslaught Gatling Cannon" hidden="false" collective="false" import="true" targetId="e6a7-6972-d46b-6c06" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f993-c88f-9394-dde1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7477-18a0-8d92-efa1" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="506e-1695-11ba-96d8" name="Black Templars Gladiator Valiant" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="85eb-2e18-cee6-5b56" name="Feroceious Assault" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes an attack with its twin las-talon that targets the closest eligible HEAVY unit, add 1 to the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f55a-6576-70ed-3aea" name="Hover" hidden="false" targetId="5711-082b-6f95-d8ef" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4ddf-58bb-0333-1d26" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="be27-7d5e-cecc-8187" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="2cc6-e015-7561-79e8" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="6d67-0cf9-092e-9f58" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="40b8-9a0c-156f-a8e7" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="98b9-2237-4d11-099f" name="Gladiator" hidden="false" targetId="e4aa-ca30-7e31-c323" primary="false"/>
+        <categoryLink id="e4f5-3db6-7510-8e1d" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
+        <categoryLink id="851d-15a7-627c-ca3c" name="Gladiator Valiant" hidden="false" targetId="6214-edc1-318d-3246" primary="false"/>
+        <categoryLink id="751c-c372-d4ca-8492" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f857-04ca-1528-0865" name="Additional Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f6d-8053-b5df-da7f" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d84c-cb3b-8f38-3acb" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5d83-14f9-b812-4e77" name="Ironhail Heavy Stubber" hidden="false" collective="false" import="true" targetId="f2e6-2219-c71f-9401" type="selectionEntry"/>
+            <entryLink id="2fb7-fec5-0f63-fe13" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b2b0-036d-5a95-bb40" name="Repulsor Field" hidden="false" collective="false" import="true" targetId="01db-cc4c-6770-c042" type="selectionEntry"/>
+        <entryLink id="a1c7-ddc7-d4b3-e855" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="be30-4509-c559-3d36" name="Icarus Rocket Pod" hidden="false" collective="false" import="true" targetId="084d-262f-bd4b-0403" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92c1-5291-e6a7-f6db" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75fa-6cd9-4837-02ee" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a46d-9672-9690-093d" name="Gladiator" hidden="false" collective="false" import="true" targetId="d1d9-b865-21d1-7019" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca73-4a7e-1537-b7ba" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4726-0450-9c9f-4299" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e6de-98d7-86f5-0ec8" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="019b-5e3c-4b23-99fe" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98ff-dc06-d432-40ec" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="54c9-ed6c-83fa-d27a" name="Twin Las-talon" hidden="false" collective="false" import="true" targetId="1e0e-9bb8-531c-7e41" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91a0-4e08-0da9-bba0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bb5-1e24-0061-5767" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="19df-af48-7f95-0344" name="Black Templars Repulsor" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6000-8004-ffe1-b776" name="Repulsor" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a868-105c-96d9-e15a" name="Repulsor" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; PRIMARIS INFANTRY models. Each MK X GRAVIS model takes up the space of 2 other models. It cannot transport JUMP PACK units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9612-78ea-de7b-5ade" name="Hover" hidden="false" targetId="5711-082b-6f95-d8ef" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="eb44-d58d-e4e2-d334" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="c454-3239-7795-7a60" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="24ae-d2f8-88f6-7582" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
+        <categoryLink id="b374-2dbb-e504-867d" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="bdda-83de-8b70-7db6" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="f329-c6fe-8902-9306" name="Repulsor" hidden="false" targetId="d2e8-8e40-ce10-3661" primary="false"/>
+        <categoryLink id="ca16-f904-cc34-dd05" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="6622-e609-607b-6abb" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="7f7b-d822-4f9b-f977" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="079c-58ef-9bd9-44e7" name="Front Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="461f-6c8e-f29b-f86e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="564b-8c43-6051-8caf" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="841d-0b09-230e-9d6a" name="Twin Heavy Bolter" hidden="false" collective="false" import="true" targetId="6296-86a5-9a2b-3303" type="selectionEntry"/>
+            <entryLink id="8dff-e8f2-1958-0a1f" name="Twin Lascannon" hidden="false" collective="false" import="true" targetId="ca25-e5ce-34c4-ec69" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2de5-a783-93cc-8323" name="Turret Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7746-aee9-3401-8922" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af5e-43df-5275-f46a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6aa8-f171-e00f-3101" name="Heavy Onslaught Gatling Cannon" hidden="false" collective="false" import="true" targetId="0c51-98df-45c7-060a" type="selectionEntry"/>
+            <entryLink id="5b71-5df2-4486-50b0" name="Las-talon" hidden="false" collective="false" import="true" targetId="81e8-4ce7-961a-737a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c3c6-1879-050e-4fc1" name="Pintle Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a571-17d1-24f8-3a12" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6f3-7d70-0843-b67f" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d93f-1301-ed04-3538" name="Ironhail Heavy Stubber" hidden="false" collective="false" import="true" targetId="f2e6-2219-c71f-9401" type="selectionEntry"/>
+            <entryLink id="1127-c76c-cff3-0bfd" name="Onslaught Gatling Cannon" hidden="false" collective="false" import="true" targetId="7d65-bc0e-c6d8-a54d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="eda8-cd87-312d-103f" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b53-92ce-d394-3cb1" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="41b2-7c04-52bf-0c3b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="2389-a091-93e8-fa04" name="Repulsor Defensive Weapons System" hidden="false" collective="false" import="true" targetId="db3a-f391-4ba2-cefe" type="selectionEntry"/>
+        <entryLink id="b2db-d049-6568-f308" name="Repulsor Field" hidden="false" collective="false" import="true" targetId="01db-cc4c-6770-c042" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f548-f53e-705b-17d7" name="Black Templars Repulsor Executioner" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d5c3-2441-fbe0-8c10" name="Repulsor Executioner" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9876-30bb-e587-4ed8" name="Executioner" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes an attack that targets a unit that has a Damage marker next to it, add 1 to the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c51e-b378-6843-eaf1" name="Repulsor Executioner" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly &lt;CHAPTER&gt; PRIMARIS INFANTRY models. Each MK X GRAVIS model takes up the space of 2 other models. It cannot transport JUMP PACK units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="12ce-2938-60eb-85c5" name="Hover" hidden="false" targetId="5711-082b-6f95-d8ef" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="84e2-b2c4-0084-c784" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
+        <categoryLink id="b161-f99f-042b-fc1d" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="a88b-fec2-f6bc-ed1f" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="c7b4-f16d-1ccb-3745" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="e708-779d-3d8d-5bb6" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="2c34-f836-e5fc-46af" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="8fc2-a48b-5e2b-223b" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="1a38-e464-de9c-d53a" name="Repulsor Executioner" hidden="false" targetId="f605-f876-0e3a-b667" primary="false"/>
+        <categoryLink id="8f5c-ecd6-e05b-dce2" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a563-d860-a3b8-b460" name="Main Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b737-5be4-fb89-7db3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db93-04dd-fcd1-6db8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d20a-557b-19c1-f294" name="Heavy Laser Destroyer" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="6226-aeb6-8340-728d" name="Heavy Laser Destroyer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">72&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="b455-99dd-56e5-ab65" name="Macro Plasma Incinerator" hidden="false" collective="false" import="true" targetId="c155-f8af-a649-6407" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e3c0-8ac3-c10d-7ff9" name="Additional Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be79-d0d8-b4dd-21e6" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea93-f840-19e1-38f1" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e027-f52d-9bbc-0cd0" name="Ironhail Heavy Stubber" hidden="false" collective="false" import="true" targetId="f2e6-2219-c71f-9401" type="selectionEntry"/>
+            <entryLink id="450c-2a38-103c-f6ef" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7d71-0075-d137-24d5" name="Heavy Onslaught Gatling Cannon" hidden="false" collective="false" import="true" targetId="0c51-98df-45c7-060a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="076a-b3e4-621f-f45f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68c9-cebb-2a82-f21e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="df4a-9761-6a81-6f35" name="Ironhail Heavy Stubber" hidden="false" collective="false" import="true" targetId="f2e6-2219-c71f-9401" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e558-7c81-0792-555e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f799-e66b-0b55-4e2a" name="Repulsor Defensive Weapons System" hidden="false" collective="false" import="true" targetId="db3a-f391-4ba2-cefe" type="selectionEntry"/>
+        <entryLink id="24d4-1259-bf5b-85fc" name="Repulsor Field" hidden="false" collective="false" import="true" targetId="01db-cc4c-6770-c042" type="selectionEntry"/>
+        <entryLink id="0f9d-2540-7a00-d4c4" name="Icarus Weapons" hidden="false" collective="false" import="true" targetId="39ae-a3ed-eb99-567a" type="selectionEntry"/>
+        <entryLink id="74c3-87d9-e458-7388" name="Twin Heavy Bolter" hidden="false" collective="false" import="true" targetId="6296-86a5-9a2b-3303" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ba4-5cf7-4466-f3db" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c48-32a4-683a-5be8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b370-a5a8-21fb-28c7" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="391b-8bcb-9edf-7f91" name="Primaris Sword Bretheren" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="15e1-f01b-a1ea-4af8" name="Attached Unit" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If a CHARACTER from your army with the Leader ability can be attached to a INTERCESSOR SQUAD, it can be attached to this unit instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="eda4-5602-d59e-c987" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+        <categoryLink id="7261-ef42-adbe-3067" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="12c2-2d09-1b29-2a6c" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="0956-c665-7fd2-6239" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="ead7-ce4e-ee04-3e14" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="5316-c5b5-efb3-45e5" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a192-5205-2c66-aa80" name="Sword Bretheren Melee Weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f16f-6cad-b764-d6cd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67d7-49c8-799f-2bea" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6415-0672-1fa2-5e9f" name="Sword Bretheren Melee Weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="738f-ff38-6f50-355c" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="1b46-471e-aedc-24fa">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4012-69e5-a26f-ae0b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0979-ec80-b315-90e5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1b46-471e-aedc-24fa" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="905d-0bf3-79dc-1eec" name="Primaris Crusader Squad (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">5</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b3c7-104d-bab4-d162" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="c604-c033-abe3-a834" name="Primaris Crusader Squad (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">10</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b69a-f7a1-c99d-4a0f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="3b07-72c4-26f6-dca5" name="Heavy Bolt Pistols" hidden="false" collective="false" import="true" targetId="35bb-c4c0-0e46-cd22" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8130-e30d-ee79-d796" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f31-75d3-c719-0f45" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="a59a-956d-9741-2423" name="Tactical Precision" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll wound rolls of 1 for attacks made by friendly BLACK TEMPLARS units whilst they are within 6&quot; of this unit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1824-e730-c4b6-910a" name="No Escape" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Ravenwing units within 6&quot; of this unit do not suffer the penalty for attacks made with ranged weapons that target obscured units.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e29f-d600-021b-a7ec" name="Narthecium" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">After this unit activates, you may remove a damage marker from this unit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e998-eef2-2f4b-d053" name="Honour or Death" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll wound rolls for attacks made with melee weapons by this unit that target CHARACTER units.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1020-199d-b194-0218" name="Litanies of Hate" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll hit rolls for attacks made with melee weapons by friendly BLACK TEMPLARS units whilst they are within 6&quot; of this unit</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f2e9-2ae6-3afd-0024" name="Spiritual Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f"/>
+      </characteristics>
+    </profile>
+    <profile id="e6e5-25f0-34b4-0fe8" name="Astartes Banner" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f"> Morale tests taken for friendly BLACK TEMPLARS units are automatically passed whilst they are within 6&quot; of this unit.
+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5531-a308-d067-eba6" name="Command Squad Bodyguard" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the start of the Damage phase, you can select one friendly BLACK TEMPLARS LIGHT CHARACTER unit that has at least one blast marker next to it and is within 6&quot; of this unit. Remove up to D3 blast markers from that CHARACTER unit and place them next to this unit.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="849a-f744-5200-d47b" name="Library - Space Marines" targetId="7c79-7dbd-6585-0846" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

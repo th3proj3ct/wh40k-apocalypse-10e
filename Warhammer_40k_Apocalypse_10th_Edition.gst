@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="440c-9567-ca71-f95b" name="Warhammer 40,000 Apocalypse 10th Edition" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="440c-9567-ca71-f95b" name="Warhammer 40,000 Apocalypse 10th Edition" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8df9-0b3e-abea-3c15" name="Warhammer 40,000: Apocalypse" publicationDate="2019"/>
     <publication id="3434-17b5-4a22-f338" name="Fundapocalypse Custom Rules" shortName="Fundapocalypse Custom Rules" publisherUrl="https://github.com/normanthesquid/wh40k-fundapocalypse/wiki"/>
@@ -108,17 +108,17 @@
   <forceEntries>
     <forceEntry id="af5e-d646-110f-deb4" name="Detachment" hidden="false">
       <categoryLinks>
+        <categoryLink id="85ab-88e7-0924-c314" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="false"/>
         <categoryLink id="7dac-4463-2524-7121" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="false"/>
+        <categoryLink id="cff2-97aa-f271-98aa" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="0802-2b14-0de7-c9cc" name="Battleline" hidden="false" targetId="21ec-008a-47d1-d863" primary="false"/>
         <categoryLink id="d18c-ddc4-fbae-34ce" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="cff2-97aa-f271-98aa" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="8030-72fc-5b34-3bc1" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
         <categoryLink id="ddd5-2a3d-4fba-7725" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
-        <categoryLink id="85ab-88e7-0924-c314" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="false"/>
+        <categoryLink id="0965-4570-e271-ac28" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="58f9-0688-66de-b5e0" name="Beast" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="false"/>
         <categoryLink id="2b88-69ec-28a5-b031" name="Swarm" hidden="false" targetId="65b5-f311-b8c4-3721" primary="false"/>
         <categoryLink id="cfbb-afae-47b5-ff5a" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="false"/>
-        <categoryLink id="0965-4570-e271-ac28" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
