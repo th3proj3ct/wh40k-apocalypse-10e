@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cefd-23d8-33a7-a63b" name="Chaos - Thousand Sons" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cefd-23d8-33a7-a63b" name="Chaos - Thousand Sons" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="042b-9cd7-f7fa-78e0" name="Warp Vortex - D3 Roll">
       <characteristicTypes>
@@ -31,27 +31,6 @@
         <categoryLink id="804a-f720-ee61-3cd3" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b357-9a72-0c1a-2b9b" name="Chaos Contemptor Dreadnought" hidden="false" collective="false" import="true" targetId="a237-dcd0-5abf-c97f" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="3032-efc9-2ed4-3377" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
-        <categoryLink id="717e-cb34-c83c-3db0" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
-        <categoryLink id="8a3e-1269-f3dc-7cab" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="f4e0-be7a-0f57-9d45" name="Chaos Land Raider Proteus" hidden="false" collective="false" import="true" targetId="dc43-f0a2-58b7-b478" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="e7ec-2ecb-1702-e406" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
-        <categoryLink id="9c7e-8328-eaf0-3474" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
-        <categoryLink id="0f00-1c6e-e58c-298e" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="4e65-7065-af6a-1e57" name="Chaos Land Raider Achilles" hidden="false" collective="false" import="true" targetId="84f5-0ff1-0c1b-a0c6" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="1159-b5d4-d4e6-a893" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
-        <categoryLink id="fbd1-54f7-fe03-23ca" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
-        <categoryLink id="2fcb-e1f6-7582-535b" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="eb3a-1d38-6877-a11f" name="Chaos Whirlwind Scorpius" hidden="false" collective="false" import="true" targetId="660d-f9b6-ddc9-9946" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6919-2a5c-a1f2-1b27" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
@@ -59,60 +38,11 @@
         <categoryLink id="e7bf-15a9-b560-336b" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0e58-ce2f-593b-ea46" name="Chaos Deredeo Dreadnought" hidden="false" collective="false" import="true" targetId="b186-9dcb-3dc3-2454" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="4f5d-e1c8-f52d-9e6f" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
-        <categoryLink id="0d43-2be9-795c-0920" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
-        <categoryLink id="3df8-ff17-7631-241e" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="37de-b7cf-1659-ca5f" name="Chaos Leviathan Dreadnought" hidden="false" collective="false" import="true" targetId="ba52-d3a1-0032-94b0" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="4684-797f-fbf6-8091" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
-        <categoryLink id="3502-863c-946a-116c" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
-        <categoryLink id="a7e8-fe2f-85c6-ed86" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="5534-ca4d-8e41-c399" name="Dreadclaw Drop Pod" hidden="false" collective="false" import="true" targetId="6962-3f8f-63d3-803c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7c80-818b-c5a1-bb0a" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
         <categoryLink id="7191-005a-e14a-91b3" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
         <categoryLink id="4064-6dd0-b07c-5378" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="189b-2426-78eb-2866" name="Chaos Cerberus" hidden="false" collective="false" import="true" targetId="e39f-1bdb-b3aa-1d6c" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="1f56-a7c2-2230-747c" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
-        <categoryLink id="d024-114e-825c-1816" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
-        <categoryLink id="066c-60ba-49a6-4bb8" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="6eb6-730a-d79a-70ec" name="Chaos Typhon" hidden="false" collective="false" import="true" targetId="3503-4ef7-b6f7-6c37" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="4bd1-803e-113b-0986" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
-        <categoryLink id="e1de-fc1b-7724-9b88" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
-        <categoryLink id="b347-61ac-2fba-bf75" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="4159-4019-80e6-71b9" name="Chaos Fellblade" hidden="false" collective="false" import="true" targetId="1481-8054-00fd-6add" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="e2d5-383a-be90-9d44" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
-        <categoryLink id="a8b6-c698-5433-dc7f" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
-        <categoryLink id="e542-75af-0e42-114c" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="6fa9-aa23-0c66-9524" name="Chaos Falchion" hidden="false" collective="false" import="true" targetId="7c0d-9c5e-91ba-ced6" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="f7b4-b1b1-8594-465f" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
-        <categoryLink id="3987-a5a8-c468-e2a7" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
-        <categoryLink id="2d0f-d89b-64ee-e5b7" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="c1e4-1b3d-42c8-845b" name="Chaos Mastodon" hidden="false" collective="false" import="true" targetId="033e-f9c8-c4b0-2f34" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="60bf-8d20-d98c-7cbf" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
-        <categoryLink id="203f-1a4a-0adb-497f" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
-        <categoryLink id="46cc-3035-600b-1aea" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ea7e-2d7f-d6ef-2375" name="Hell Blade" hidden="false" collective="false" import="true" targetId="b299-fe4e-bf7e-f9b1" type="selectionEntry">
@@ -129,46 +59,11 @@
         <categoryLink id="cf81-3270-4875-6a3c" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c35c-fc9c-ed6e-bbfc" name="Chaos Storm Eagle Gunship" hidden="false" collective="false" import="true" targetId="e8ee-b78e-6d77-a8ad" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="0644-d1d8-536b-da4f" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
-        <categoryLink id="7b56-3afa-c0d9-84c5" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
-        <categoryLink id="72fa-abe3-26f7-7794" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="d820-a8c6-5ff3-5bfd" name="Chaos Fire Raptor Gunship" hidden="false" collective="false" import="true" targetId="a0f9-589e-8b1a-a844" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="f445-0c96-7a81-45cc" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
-        <categoryLink id="9a63-eabd-9976-205d" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
-        <categoryLink id="f2fc-1ede-3137-9470" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="9822-4d2e-bc9f-1a79" name="Chaos Thunderhawk Assault Gunship" hidden="false" collective="false" import="true" targetId="bb86-f1fb-b77f-2ba1" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="22c2-91c3-ec78-3ce4" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
-        <categoryLink id="1c68-daa3-441d-49b9" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
-        <categoryLink id="6762-a3a1-d354-3e00" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="1ca8-877e-0ae7-97c9" name="Chaos Xiphon Interceptor" hidden="false" collective="false" import="true" targetId="30f0-cfb8-37dd-16b0" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="eb09-3c2c-56ac-03a5" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
-        <categoryLink id="f4d3-f0c6-ce1d-f787" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
-        <categoryLink id="3d50-3c67-c3a8-59fb" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="b8ed-8408-f729-af93" name="Chaos Vindicator Laser Destroyer" hidden="false" collective="false" import="true" targetId="a89c-60d1-ab95-cb47" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3924-7bca-1a01-77f8" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
         <categoryLink id="2609-df0d-3a9f-c2fb" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
         <categoryLink id="8d09-a108-a919-1bd0" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="a052-146c-542e-2863" name="Chaos Terrax-Pattern Termite" hidden="false" collective="false" import="true" targetId="56e4-bce0-be0a-9f92" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="241b-4900-8bed-3b20" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
-        <categoryLink id="791e-9347-6f24-943b" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
-        <categoryLink id="b5c5-f2cf-081a-0953" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a440-48c7-79a5-1875" name="Ahriman" hidden="false" collective="false" import="true" targetId="f783-3b8c-244e-2784" type="selectionEntry">
@@ -300,6 +195,122 @@
         <categoryLink id="47e0-90ee-83d1-90ec" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="582b-fd49-ce92-cd81" name="Terrax-pattern Termite [Legends]" hidden="false" collective="false" import="true" targetId="2235-b44c-a7d2-d517" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d1c8-93d7-59a0-336a" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fd3c-526b-8c6d-fbc3" name="Cerberus [Legends]" hidden="false" collective="false" import="true" targetId="33ad-2c9d-dca2-507a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="27f0-b017-e69e-d91e" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e6d8-ae52-0c87-4873" name="Thunderhawk [Legends]" hidden="false" collective="false" import="true" targetId="a2db-2d39-b71f-baad" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="165d-67fd-3fca-3699" name="New CategoryLink" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7f06-dc61-9e5c-8e0e" name="Deredeo Dreadnought [Legends]" hidden="false" collective="false" import="true" targetId="710a-fbe4-6cac-3054" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="255f-7cbc-1565-6831" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9324-36d6-ab08-0f53" name="Falchion [Legends]" hidden="false" collective="false" import="true" targetId="0f93-c25d-2b63-2f39" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="eb0a-b834-b7dc-5c8d" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8705-d3e4-2d1f-047d" name="Fellblade [Legends]" hidden="false" collective="false" import="true" targetId="a634-4723-ba51-60ca" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d1c2-c90d-3762-54aa" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b8b6-701a-52dd-6743" name="Fire Raptor Gunship [Legends]" hidden="false" collective="false" import="true" targetId="7afa-0a96-ea6d-7695" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9b69-7080-26f8-4fb3" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c059-c717-6688-8f15" name="Kratos" hidden="false" collective="false" import="true" targetId="a062-2887-02f9-3cba" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="beb0-5e47-314b-c77c" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bfb6-e26f-7e4d-274a" name="Land Raider Achilles [Legends]" hidden="false" collective="false" import="true" targetId="ba17-8566-b04c-09d3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2a48-8836-65ec-15e3" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0771-2c10-7165-efe8" name="Land Raider Proteus [Legends]" hidden="false" collective="false" import="true" targetId="2468-48de-617e-2258" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f001-245c-a5c0-f66b" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7200-be8f-d472-491e" name="Leviathan Dreadnought [Legends]" hidden="false" collective="false" import="true" targetId="a40f-f1a8-4416-b632" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d80c-add5-ddac-daca" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f6bc-8327-4b31-c0c2" name="Mastodon [Legends]" hidden="false" collective="false" import="true" targetId="bbb9-54eb-4f59-e9dc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e2e7-858d-ced6-3450" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="21b8-2a57-5212-b847" name="Rapier Carrier [Legends]" hidden="false" collective="false" import="true" targetId="d3d0-2acc-450c-fba7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4ebd-d1ac-fc14-6748" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4f44-f15f-be4d-c10e" name="Show Legends" hidden="false" collective="false" import="true" targetId="c13b-ab88-b33f-dcd5" type="selectionEntry"/>
+    <entryLink id="cb28-3762-f44e-d8d0" name="Relic Contemptor Dreadnought [Legends]" hidden="false" collective="false" import="true" targetId="0321-28ba-f11e-426c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c42e-741a-9779-7c03" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="24b2-ec57-99ec-6abd" name="Sicaran Battle Tank [Legends]" hidden="false" collective="false" import="true" targetId="486f-3047-10d1-a12a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fe32-7fe1-99c5-a0ea" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d77e-65ed-37a4-c487" name="Sicaran Punisher [Legends]" hidden="false" collective="false" import="true" targetId="0f9f-7190-66d2-39bf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e235-f983-a45b-50cf" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a6e8-9e11-2b31-fb55" name="Sicaran Venator [Legends]" hidden="false" collective="false" import="true" targetId="7f1f-08ac-f562-ee9f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c02c-6d83-9388-fe71" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8e1e-7e65-aed5-86a8" name="Sokar Pattern Stormbird [Legends]" hidden="false" collective="false" import="true" targetId="d978-4ed0-3aa8-ae11" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7ed5-cf0e-8ab2-06b0" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1bf2-83d9-d2a2-f23c" name="Spartan [Legends]" hidden="false" collective="false" import="true" targetId="68f5-0eaf-e33d-6992" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a39e-3f73-7e35-8a3e" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="925e-1619-06f1-6911" name="Storm Eagle Assault Gunship [Legends]" hidden="false" collective="false" import="true" targetId="a66b-42aa-4c20-300b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5564-7510-e1ae-392b" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f096-5f67-b18e-08cd" name="Relic Typhon Heavy Siege Tank" hidden="false" collective="false" import="true" targetId="818c-71cb-91b8-14c6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="eae4-7de6-bb5f-8815" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6481-aaae-2769-e7d0" name="Whirlwind Scorpius" hidden="false" collective="false" import="true" targetId="b3b9-7176-b67a-0531" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1005-275c-0198-35f0" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7f0c-6efe-0ceb-dbb5" name="Xiphon Interceptor [Legends]" hidden="false" collective="false" import="true" targetId="7701-7457-621e-6f84" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0f5b-49e3-135f-20d3" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="f783-3b8c-244e-2784" name="Ahriman" hidden="false" collective="false" import="true" type="upgrade">
@@ -347,7 +358,8 @@
         <categoryLink id="b333-ba83-2536-3a04" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="91c1-15c7-2cfc-9392" name="Sorcerer" hidden="false" targetId="5c54-8b43-52eb-6259" primary="false"/>
         <categoryLink id="1bc5-d3e0-4898-58aa" name="Ahriman" hidden="false" targetId="1a83-f4ff-5858-dd84" primary="false"/>
-        <categoryLink id="e013-e1b7-cf3b-eb87" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="e013-e1b7-cf3b-eb87" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="fe60-4383-4969-8cf7" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9d07-ec7f-ff51-1bf2" name="The Black Staff of Ahriman" hidden="false" collective="false" import="true" type="upgrade">
@@ -413,7 +425,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="e366-5f7f-e1a7-7d04" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="e366-5f7f-e1a7-7d04" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="4137-21c0-bfa3-6320" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="f6f3-6cea-e206-3138" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
         <categoryLink id="cfc1-04bf-858e-5c22" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
@@ -421,7 +433,7 @@
         <categoryLink id="3512-3fed-3dad-10f8" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="f26c-f4b3-79a1-cf96" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="ce72-c0c5-fda5-ab7d" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="2ad7-6569-280c-1c64" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="2ad7-6569-280c-1c64" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="6b89-f9c8-667d-faf5" name="Daemon" hidden="false" targetId="8941-623f-a255-f440" primary="false"/>
         <categoryLink id="c73b-8853-e265-e40c" name="Daemon Prince" hidden="false" targetId="b457-340c-c8e2-d60b" primary="false"/>
       </categoryLinks>
@@ -498,14 +510,14 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="ff2d-00f0-838e-8a9c" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="ff2d-00f0-838e-8a9c" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="34c9-d738-6762-3a25" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="139e-15d3-ff6f-06d1" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
         <categoryLink id="9168-64ad-fff0-8844" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
         <categoryLink id="6451-beb4-38fc-7398" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
         <categoryLink id="de94-d0d8-08e0-1933" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="7c46-cc2f-e8e5-c655" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="153c-e3d4-7715-6042" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="153c-e3d4-7715-6042" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="cd27-714e-ce58-bd9c" name="Sorcerer" hidden="false" targetId="5c54-8b43-52eb-6259" primary="false"/>
         <categoryLink id="e451-7856-b79b-5cf8" name="Exalted Sorcerer" hidden="false" targetId="33e7-8379-52f8-f634" primary="false"/>
       </categoryLinks>
@@ -532,13 +544,13 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="cce3-7ec3-7e93-a9c7" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="cce3-7ec3-7e93-a9c7" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
         <categoryLink id="0fd3-2504-51ff-c928" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="f57a-e976-50ef-5d92" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
         <categoryLink id="c48d-54fb-3ed2-dd1d" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
         <categoryLink id="671b-66e3-53ec-7957" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
         <categoryLink id="a8a1-ba88-ae1a-325d" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="bfa0-f134-a887-4c72" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="bfa0-f134-a887-4c72" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="0e76-7b9b-d411-1a8e" name="Tzaangors" hidden="false" targetId="2a09-c2a3-f157-34df" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -658,7 +670,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="e77e-f854-8f61-ba6d" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="e77e-f854-8f61-ba6d" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="cede-c044-ce5c-53be" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="ceb2-9230-61ca-2f82" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
         <categoryLink id="da5c-b711-dbd5-4d15" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
@@ -667,7 +679,7 @@
         <categoryLink id="f21d-7491-200c-b17d" name="Cavalry" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
         <categoryLink id="3656-2300-261d-3542" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="8393-ad35-4dee-38d5" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="ed4b-3c65-8fb4-8334" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="ed4b-3c65-8fb4-8334" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="8797-8e54-8fb7-f74e" name="Daemon" hidden="false" targetId="8941-623f-a255-f440" primary="false"/>
         <categoryLink id="1050-b4c1-a304-15b1" name="Tzaangor" hidden="false" targetId="b49b-3860-8765-b3be" primary="false"/>
         <categoryLink id="7674-52f8-c86a-268b" name="Shaman" hidden="false" targetId="9b4d-6375-61d4-d195" primary="false"/>
@@ -710,13 +722,13 @@
         <infoLink id="c26d-ac47-7f9f-dda1" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="88d8-baa4-d862-57b8" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="88d8-baa4-d862-57b8" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="2f90-330c-f95e-d5f2" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="2e53-8014-0b06-61ca" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
         <categoryLink id="d9ab-9516-f915-6f0f" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
         <categoryLink id="72a0-8c45-d954-1cfc" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
         <categoryLink id="da30-cb54-dfb6-676d" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="54f1-295b-f3f8-db6f" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="54f1-295b-f3f8-db6f" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="f27b-aac9-96e6-a273" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
         <categoryLink id="cde6-33cc-f2d5-eb39" name="Terminator" hidden="false" targetId="24bd-5192-53cb-efe8" primary="false"/>
         <categoryLink id="6acd-8e7a-3092-8713" name="Scarab Occult Terminators" hidden="false" targetId="b813-7ff0-fa50-db34" primary="false"/>
@@ -893,13 +905,13 @@
     </selectionEntry>
     <selectionEntry id="7af6-8946-8594-5c02" name="Tzaangor Enlightened" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="e384-6f31-2db9-572c" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="e384-6f31-2db9-572c" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="0756-ac63-e41e-4b32" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="50b5-a9b3-afd0-ad89" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
         <categoryLink id="1c37-46b7-7341-4052" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
         <categoryLink id="422d-7e1b-73e1-388c" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
         <categoryLink id="b557-a7a2-52a4-40a4" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="f497-b09a-756f-c5b9" name="Cavalry" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="f497-b09a-756f-c5b9" name="Cavalry" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
         <categoryLink id="9bf5-a255-06b2-556a" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="3190-3d2d-34dd-0148" name="Daemon" hidden="false" targetId="8941-623f-a255-f440" primary="false"/>
         <categoryLink id="c5fa-6c43-df19-845c" name="Tzaangor" hidden="false" targetId="b49b-3860-8765-b3be" primary="false"/>
@@ -1093,13 +1105,13 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="11e5-32ae-9ebd-afc4" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="11e5-32ae-9ebd-afc4" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="f238-d9a5-d907-2e1f" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="e965-7740-c8cc-3026" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
         <categoryLink id="85f0-4a77-22ca-d7e2" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
         <categoryLink id="4ea0-2e57-0eca-0102" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
         <categoryLink id="02ec-bd1a-8ef9-c569" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="cfa8-c12e-eca7-d352" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="cfa8-c12e-eca7-d352" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
         <categoryLink id="a660-0d68-1674-5553" name="Mutalith Vortex Beast" hidden="false" targetId="4455-0f1d-c1c9-2e0a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -1200,6 +1212,7 @@
         <categoryLink id="aa98-5d79-fc2a-3c2a" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
         <categoryLink id="dbc5-ea7f-3b82-72b1" name="Magnus the Red" hidden="false" targetId="55ef-f7df-5c92-57b9" primary="false"/>
         <categoryLink id="46ec-3f24-3945-95ac" name="Lord of War" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
+        <categoryLink id="9da0-4d98-b882-faef" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b516-c459-cac6-3437" name="Gaze of Magnus" hidden="false" collective="false" import="true" type="upgrade">
@@ -1294,14 +1307,14 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="e4cd-e59e-19d3-b8e6" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="e4cd-e59e-19d3-b8e6" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="4d5f-0e5b-e88a-bef4" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="4672-2c06-f716-8b67" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
         <categoryLink id="5a36-da19-b286-2a10" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
         <categoryLink id="2bb2-ce3f-6e0a-b389" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
         <categoryLink id="7608-a1ce-92ba-b011" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="bc39-e6fb-f9fa-7fdf" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="afc9-56b5-8123-9be8" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="afc9-56b5-8123-9be8" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="aecd-55fc-dc2a-99da" name="Sorcerer" hidden="false" targetId="5c54-8b43-52eb-6259" primary="false"/>
         <categoryLink id="2ac5-b3d3-48f3-69ec" name="Exalted Sorcerer" hidden="false" targetId="33e7-8379-52f8-f634" primary="false"/>
       </categoryLinks>
@@ -1329,6 +1342,7 @@
         <categoryLink id="475a-1f86-78f3-ef22" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="2d01-6e64-8a86-ae25" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
         <categoryLink id="e5b0-6e72-e3b0-955a" name="Rubric Marines" hidden="false" targetId="886e-1a90-19c0-9d5a" primary="false"/>
+        <categoryLink id="754b-ac24-d8bb-1867" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="53b4-c02c-aa0f-fccd" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="78bf-c2f6-3833-db24">
@@ -1490,14 +1504,14 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="74f0-2bcf-ca7f-5601" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="74f0-2bcf-ca7f-5601" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="dc6a-3892-377b-e281" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="ab41-7009-ae1a-f72a" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
         <categoryLink id="83a5-845c-3af1-f368" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
         <categoryLink id="7dd5-5c8f-79fd-9a75" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
         <categoryLink id="a032-0f7c-bc8c-d99d" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="98ec-3686-a0ae-c18d" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="092d-db00-65fc-383a" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="092d-db00-65fc-383a" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="1a96-2f5c-8f0d-78ad" name="Sorcerer" hidden="false" targetId="5c54-8b43-52eb-6259" primary="false"/>
       </categoryLinks>
       <entryLinks>
@@ -1545,14 +1559,14 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="0672-6953-80ee-0f19" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="0672-6953-80ee-0f19" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="8125-b42f-14af-949a" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="9ff4-64b5-e843-f577" name="Faction: Tzeentch" hidden="false" targetId="3d04-d70d-4a1e-f3cc" primary="false"/>
         <categoryLink id="1a09-4808-81e1-540e" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
         <categoryLink id="6aff-1fd7-6408-f950" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
         <categoryLink id="2e9b-2582-8736-211a" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="4fe8-ef96-5e5a-524c" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-        <categoryLink id="0fc0-c192-3350-3e1a" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="0fc0-c192-3350-3e1a" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="e115-94e7-cf91-c2af" name="Sorcerer" hidden="false" targetId="5c54-8b43-52eb-6259" primary="false"/>
         <categoryLink id="0926-e32b-f38a-a3c4" name="Terminator" hidden="false" targetId="24bd-5192-53cb-efe8" primary="false"/>
       </categoryLinks>
@@ -1612,5 +1626,6 @@
   <catalogueLinks>
     <catalogueLink id="603f-b38c-e872-4870" name="Library - Chaos Space Marines" targetId="8a94-e862-c384-d68b" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="2958-e29d-870c-2808" name="Weapons" targetId="d2e9-8c51-33c4-d440" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="a3bb-986c-12ad-2435" name="Library - Space Marines" targetId="7c79-7dbd-6585-0846" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

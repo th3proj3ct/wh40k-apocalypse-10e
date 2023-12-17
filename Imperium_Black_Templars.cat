@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c6da-2a53-58db-09a5" name="Imperium - Black Templars" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c6da-2a53-58db-09a5" name="Imperium - Black Templars" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -43,15 +43,6 @@
       <categoryLinks>
         <categoryLink id="7210-a4e1-2825-8133" name="Faction: Black Templars" hidden="false" targetId="c14e-03c1-110e-0051" primary="false"/>
       </categoryLinks>
-    </entryLink>
-    <entryLink id="1393-3d07-7661-59b6" name="Techmarine" hidden="false" collective="false" import="true" targetId="6690-dae8-1ba2-9454" type="selectionEntry">
-      <profiles>
-        <profile id="b04c-9bc6-d679-ddaf" name="Blessing of the Omnissiah" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the end of the Action phase, this unit can attempt to repair one friendly BLACK TEMPLARS Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </entryLink>
     <entryLink id="6c75-9fba-7d92-b938" name="Land Raider Excelsior" hidden="false" collective="false" import="true" targetId="f1d3-df65-80bc-5292" type="selectionEntry">
       <profiles>
@@ -809,7 +800,6 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
     <entryLink id="f30e-738b-e3d0-e5c3" name="Black Templars Gladiator Reaper" hidden="false" collective="false" import="true" targetId="6acb-8b52-3fa2-25d7" type="selectionEntry"/>
     <entryLink id="f5f0-7a26-9c25-6089" name="Black Templars Gladiator Valiant" hidden="false" collective="false" import="true" targetId="506e-1695-11ba-96d8" type="selectionEntry"/>
     <entryLink id="b3b2-aad2-1ae0-7534" name="Black Templars Impulsor" hidden="false" collective="false" import="true" targetId="15fa-150e-df6a-d561" type="selectionEntry"/>
-    <entryLink id="6265-2716-7904-f265" name="Black Templars Repulsor" hidden="false" collective="false" import="true" targetId="19df-af48-7f95-0344" type="selectionEntry"/>
     <entryLink id="1300-fcd7-a487-03fe" name="Black Templars Repulsor" hidden="false" collective="false" import="true" targetId="19df-af48-7f95-0344" type="selectionEntry"/>
     <entryLink id="2ad5-9c69-5c2d-4b2a" name="Black Templars Repulsor Executioner" hidden="false" collective="false" import="true" targetId="f548-f53e-705b-17d7" type="selectionEntry"/>
     <entryLink id="9b6e-1de8-d0b7-3972" name="Castellan" hidden="false" collective="false" import="true" targetId="0fe0-0055-be7e-c428" type="selectionEntry"/>
@@ -819,6 +809,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
     <entryLink id="49a6-72fa-5b99-47bc" name="Crusader Squad" hidden="false" collective="false" import="true" targetId="b571-d6ad-223b-65c0" type="selectionEntry"/>
     <entryLink id="c822-dc14-3ed3-0cc2" name="Primaris Sword Bretheren" hidden="false" collective="false" import="true" targetId="391b-8bcb-9edf-7f91" type="selectionEntry"/>
     <entryLink id="d7bc-1a12-8f26-c6b6" name="The Emperor’s Champion" hidden="false" collective="false" import="true" targetId="daa2-56aa-becf-8155" type="selectionEntry"/>
+    <entryLink id="6c95-47bd-f3e4-0f8b" name="Primaris Crusader Squad" hidden="false" collective="false" import="true" targetId="908a-7f00-6a3b-10d9" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="9608-768c-3955-8adf" name="Hide Legacy units" hidden="false" collective="false" import="true" type="upgrade">
@@ -1430,7 +1421,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="047c-179d-ff4e-4f21" name="Main Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="047c-179d-ff4e-4f21" name="Main Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="597b-8b83-c8c8-8e77">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec9a-a89a-5788-5829" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="646a-9a73-082c-a252" type="min"/>
@@ -1855,7 +1846,6 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
       <categoryLinks>
         <categoryLink id="eb44-d58d-e4e2-d334" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="c454-3239-7795-7a60" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
-        <categoryLink id="24ae-d2f8-88f6-7582" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
         <categoryLink id="b374-2dbb-e504-867d" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="bdda-83de-8b70-7db6" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="f329-c6fe-8902-9306" name="Repulsor" hidden="false" targetId="d2e8-8e40-ce10-3661" primary="false"/>

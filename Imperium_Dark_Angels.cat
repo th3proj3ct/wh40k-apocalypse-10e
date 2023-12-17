@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b705-9ea8-d8d9-d3f3" name="Imperium - Dark Angels" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b705-9ea8-d8d9-d3f3" name="Imperium - Dark Angels" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -64,18 +64,6 @@
       <categoryLinks>
         <categoryLink id="e342-71df-6c63-8721" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
         <categoryLink id="598e-9765-33a3-a2a1" name="Faction: Deathwing" hidden="false" targetId="d673-6f6d-5df6-035c" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="1393-3d07-7661-59b6" name="Techmarine" hidden="false" collective="false" import="true" targetId="6690-dae8-1ba2-9454" type="selectionEntry">
-      <profiles>
-        <profile id="b04c-9bc6-d679-ddaf" name="Blessing of the Omnissiah" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the end of the Action phase, this unit can attempt to repair one friendly DARK ANGELS Vehicle unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that Vehicle unit. Only one attempt to repair each unit can be made each turn.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="4ace-3d05-e47b-7416" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6c75-9fba-7d92-b938" name="Land Raider Excelsior" hidden="false" collective="false" import="true" targetId="f1d3-df65-80bc-5292" type="selectionEntry">

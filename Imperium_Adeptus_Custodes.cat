@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1339-e553-0775-03de" name="Imperium - Adeptus Custodes" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1339-e553-0775-03de" name="Imperium - Adeptus Custodes" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a70b-b27c-4926-d99c" name="Faction: Adeptus Custodes" hidden="false"/>
     <categoryEntry id="e6c3-ba23-fdf0-2498" name="Captain-General Trajann Valoris" hidden="false"/>
@@ -382,7 +382,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <profiles>
         <profile id="0f17-6e27-7a3c-5d14" name="Quicksilver Execution" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit assaults, select a unit it moved over and roll one D6: on a 3+ place a blast marker next to that unit.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit assaults, select a LIGHT unit it moved over and roll one D6: on a 3+ place a blast marker next to that unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -397,21 +397,21 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <categoryLink id="7db1-e1d6-a74e-75f6" name="New CategoryLink" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f957-284e-1541-3cac" name="3 - 6 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="d7e0-b86e-d907-3395">
+        <selectionEntryGroup id="f957-284e-1541-3cac" name="2 - 3 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="d7e0-b86e-d907-3395">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7df1-5126-c4dd-d4ab" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b515-7dce-cfd7-996a" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d7e0-b86e-d907-3395" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d7e0-b86e-d907-3395" name="2 models" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="1550-7ad1-0cee-d029" name="Vertus Praetors (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                <profile id="1550-7ad1-0cee-d029" name="Vertus Praetors (2 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
@@ -421,62 +421,34 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9ca7-a7b7-fc24-5cad" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9ca7-a7b7-fc24-5cad" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="272d-eba1-8432-8bcd" name="Vertus Praetors (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                <profile id="272d-eba1-8432-8bcd" name="Vertus Praetors (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="497c-a242-e938-00ab" name="Jetbike Weapons" hidden="false" collective="false" import="true">
-          <modifierGroups>
-            <modifierGroup>
-              <conditions>
-                <condition field="selections" scope="5187-fac9-670d-e2ec" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ca7-a7b7-fc24-5cad" type="equalTo"/>
-              </conditions>
-              <modifiers>
-                <modifier type="set" field="5477-02e1-2695-8b73" value="5.0"/>
-                <modifier type="set" field="f86e-42cc-5469-bc99" value="5.0"/>
-              </modifiers>
-            </modifierGroup>
-            <modifierGroup>
-              <conditions>
-                <condition field="selections" scope="5187-fac9-670d-e2ec" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a21-12b2-895e-cd1a" type="equalTo"/>
-              </conditions>
-              <modifiers>
-                <modifier type="set" field="5477-02e1-2695-8b73" value="10.0"/>
-                <modifier type="set" field="f86e-42cc-5469-bc99" value="10.0"/>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
+        <selectionEntryGroup id="497c-a242-e938-00ab" name="Jetbike Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="9500-8dd2-3e02-62d9">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5477-02e1-2695-8b73" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f86e-42cc-5469-bc99" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5477-02e1-2695-8b73" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f86e-42cc-5469-bc99" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="9500-8dd2-3e02-62d9" name="Hurricane Bolter" hidden="false" collective="false" import="true" targetId="fc09-1632-01ae-e431" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f3-efb0-42be-e3eb" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="6ca5-37ba-53e8-0812" name="Salvo Launcher" hidden="false" collective="false" import="true" targetId="37d4-c8bb-5e25-6998" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f46-1a9a-4621-29ef" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="9500-8dd2-3e02-62d9" name="Hurricane Bolter" hidden="false" collective="false" import="true" targetId="fc09-1632-01ae-e431" type="selectionEntry"/>
+            <entryLink id="6ca5-37ba-53e8-0812" name="Salvo Launcher" hidden="false" collective="false" import="true" targetId="37d4-c8bb-5e25-6998" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -812,10 +784,12 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
+        <profile id="12a9-f8d0-0686-0449" name="Guardian Eternal" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per turn when making a saving throw for this model, you can roll a D12 for a large blast marker instead of a D6.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="ebf7-f597-9572-0a81" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="7e1a-59d1-1028-24dc" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="90c6-5ee6-6d94-4e42" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
@@ -839,7 +813,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Each time this weapon is selected to shoot with, if this model has not moved this turn, change this weapon&apos;s Attacks to 4.</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -848,6 +822,13 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
           </costs>
         </selectionEntry>
         <selectionEntry id="4c7e-42f5-2c6d-7b52" name="Armoured Feet" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="e0fc-23b7-4e9e-d89a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6281-21e1-b106-47a0" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87a9-3421-6eab-6f7b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b01c-057f-cc1f-f439" type="max"/>
@@ -888,23 +869,23 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
                   </characteristics>
                 </profile>
                 <profile id="d308-5f67-3f57-817d" name="Twin Plasma Projector" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno, Twin-Linked</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="9092-8ad2-0e6e-b88c" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
-                <infoLink id="563e-1f66-bd76-25a4" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+                <infoLink id="8de0-9f0c-42b6-6d85" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -918,14 +899,17 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 <profile id="a6c6-02a4-7ab3-94a0" name="Arachnus Storm Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Devastating Wounds</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="8d0c-4111-d610-db26" name="Devastating Wounds" hidden="false" targetId="5154-3b0e-f960-5cb3" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
               </costs>
@@ -1451,7 +1435,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -1516,7 +1500,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
@@ -1541,7 +1525,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
@@ -2533,19 +2517,20 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
   <sharedSelectionEntries>
     <selectionEntry id="fc09-1632-01ae-e431" name="Hurricane Bolter" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="c527-bad6-67cd-7ee5" name="Hurricane Bolter" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+        <profile id="c527-bad6-67cd-7ee5" name="Vertus Hurricane Bolter" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire, Twn-Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="d857-c17a-b688-3859" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
+        <infoLink id="cb8b-385a-b5e1-2506" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>

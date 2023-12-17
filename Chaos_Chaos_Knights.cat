@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5514-6a66-a344-510b" name="Chaos - Chaos Knights" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5514-6a66-a344-510b" name="Chaos - Chaos Knights" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="21a9-75bf-0619-e801" name="Faction: Chaos Knights" hidden="false"/>
     <categoryEntry id="b868-0761-072e-7456" name="Faction: &lt;Questor Traitoris&gt;" hidden="false"/>
@@ -174,13 +174,13 @@
         <infoLink id="319e-7bf5-2695-9c5d" name="Unstable Reactor" hidden="false" targetId="7605-79c5-c44b-fe95" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="da08-a377-b5ca-8c34" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+        <categoryLink id="da08-a377-b5ca-8c34" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
         <categoryLink id="7971-dd66-7fcc-6a67" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="4c96-39c7-0435-8181" name="Faction: Chaos Knights" hidden="false" targetId="21a9-75bf-0619-e801" primary="false"/>
         <categoryLink id="8578-41c8-4388-5dd5" name="Faction: &lt;Questor Traitoris&gt;" hidden="false" targetId="b868-0761-072e-7456" primary="false"/>
         <categoryLink id="e207-4a6c-f276-6cde" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
         <categoryLink id="bd9c-98ab-ebb2-3c08" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
-        <categoryLink id="5688-52fe-14ee-ce98" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="5688-52fe-14ee-ce98" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="f64c-52fd-2fe4-52e1" name="Renegade Knight Asterius" hidden="false" targetId="9643-4cf1-22b8-cede" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -1853,7 +1853,6 @@
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db2d-ac19-bb75-c269" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="69f5-c227-1b6d-e257" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="aee3-3305-8660-6968" name="Warmaster" hidden="false" targetId="3b0c-71a7-b28b-a310" primary="false"/>

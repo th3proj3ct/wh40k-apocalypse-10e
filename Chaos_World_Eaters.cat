@@ -1,5 +1,201 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="722e-4aa1-aa02-0a8e" name="Chaos - World Eaters" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="722e-4aa1-aa02-0a8e" name="Chaos - World Eaters" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="6b5c-ca1c-f4a0-fd1a" name="Kytan Ravager [Lengeds]" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="b0a4-8b72-deb6-690f" name="Kytan Ravager [Lengeds]" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="57eb-d104-ceb4-83e1" name="Bloodlust" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [SUSTAINED HITS 1] ability.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="02fe-c557-5a25-152f" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="620f-93d6-76ee-d0b8" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
+        <categoryLink id="a6e8-effa-2183-2135" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
+        <categoryLink id="bd6d-20dd-5293-3f7a" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f025-a953-25e3-00cd" name="Kytan Gatling Cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46a3-bfc5-33ed-346c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c05f-3794-eecf-f9c9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f92c-efdc-2156-5751" name="Kytan Gatling Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">6</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a701-7cf1-d223-89d3" name="Kytan Cleaver" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5492-7853-fd58-5fe1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fffd-de38-2bff-da30" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c4a1-c2d7-0dc7-edfe" name="Kytan Cleaver" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e5c0-3e76-d250-fee6" name="Greater Brass Scorpion [Legends]" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="7536-0677-51d5-9037" name="Greater Brass Scorpion" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3299-279b-67d0-c175" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="132a-fc68-4a1f-e05e" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
+        <categoryLink id="3788-9604-bb40-aea4" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
+        <categoryLink id="6b61-0a0c-e4f6-2296" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6982-f992-f4bb-730d" name="Hellcrusher Claws" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="aaaa-099c-1a0c-5d60" name="Hellcrusher Claws" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9d0a-b82c-7b6c-ceca" name="Demolisher Cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="b325-1899-b9c1-404f" name="Demolisher Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c5b6-87ab-1a36-15db" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6b97-1200-7c93-0ad6" name="Hellmaw Flame Cannons" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="5336-f86f-78b1-6fe3" name="Hellmaw Flame Cannons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="51bd-556b-f869-911e" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7b11-650f-2874-9bd2" name="Scorpion Cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="0ed0-bbdb-06e8-073b" name="Scorpion Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">5</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="bb68-12c2-3c7e-a866" name="Sustained Hits X" hidden="false" targetId="d0a7-26e1-b2cb-2bce" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Sustained Hits 1"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
   <entryLinks>
     <entryLink id="c913-9d94-a2e1-c4a0" name="Helbrute" hidden="false" collective="false" import="true" targetId="3ca7-9758-48ff-235b" type="selectionEntry">
       <categoryLinks>
@@ -130,12 +326,136 @@
         <categoryLink id="cca4-07d5-669b-a447" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bc70-3956-20a6-d66d" name="Greater Brass Scorpion" hidden="false" collective="false" import="true" targetId="f692-9c00-d320-323c" type="selectionEntry">
+    <entryLink id="aa3a-0295-0b36-6600" name="Cerberus [Legends]" hidden="false" collective="false" import="true" targetId="33ad-2c9d-dca2-507a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="813c-0fff-dec2-8e5b" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
-        <categoryLink id="3599-6274-640c-4889" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="db88-3a62-d3c0-40ba" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+        <categoryLink id="a947-7086-4182-67b7" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="4c4a-c8ec-e84f-b9a3" name="Terrax-pattern Termite Assault Drill" hidden="false" collective="false" import="true" targetId="2235-b44c-a7d2-d517" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9b8e-7e43-f517-0396" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+        <categoryLink id="5816-7458-9eca-c40d" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f0cf-e912-3025-d105" name="Thunderhawk Assault Gunship" hidden="false" collective="false" import="true" targetId="a2db-2d39-b71f-baad" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3fd9-d034-f06d-465f" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+        <categoryLink id="f5b4-12a0-1145-7ea4" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="483a-493a-216c-eae8" name="Deredeo Dreadnought [Legends]" hidden="false" collective="false" import="true" targetId="710a-fbe4-6cac-3054" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b358-effb-f586-9749" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+        <categoryLink id="171e-1df1-ce68-c3fc" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3cb4-3f23-4701-203c" name="Blood Slaughterer [Legends]" hidden="false" collective="false" import="true" targetId="16c4-2305-28d5-4b62" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8e19-0c4c-fcd4-49a9" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+        <categoryLink id="c654-c618-c8d1-ace7" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bfe3-8ddf-984f-4081" name="Falchion [Legends]" hidden="false" collective="false" import="true" targetId="0f93-c25d-2b63-2f39" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0f7f-af8a-ad4e-ac5b" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ab43-d28f-9ecd-3708" name="Fellblade [Legends]" hidden="false" collective="false" import="true" targetId="a634-4723-ba51-60ca" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2dc1-54a6-f82b-127f" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f3af-af51-0d1b-0378" name="Fire Raptor Gunship [Legends]" hidden="false" collective="false" import="true" targetId="7afa-0a96-ea6d-7695" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="26d9-142d-7353-db5a" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2059-e55a-a084-020a" name="Kratos" hidden="false" collective="false" import="true" targetId="a062-2887-02f9-3cba" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f49e-681d-4280-ed8a" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a81c-edb1-2542-6961" name="Land Raider Achilles [Legends]" hidden="false" collective="false" import="true" targetId="ba17-8566-b04c-09d3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0980-d61d-a62f-d5dd" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="51bf-73fa-02e0-74f3" name="Land Raider Proteus [Legends]" hidden="false" collective="false" import="true" targetId="2468-48de-617e-2258" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e434-b63f-f6f8-9223" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="305f-9a01-0673-f5e8" name="Leviathan Dreadnought [Legends]" hidden="false" collective="false" import="true" targetId="a40f-f1a8-4416-b632" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="93ac-a0bd-463e-e261" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="abbf-9fb4-5456-f2c6" name="Mastodon [Legends]" hidden="false" collective="false" import="true" targetId="bbb9-54eb-4f59-e9dc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5cb6-b9cf-e153-ff19" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3baf-72d8-f538-258d" name="Relic Contemptor Dreadnought [Legends]" hidden="false" collective="false" import="true" targetId="0321-28ba-f11e-426c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="da2c-4993-178e-7b7f" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6fc7-eb72-e5c7-e278" name="Sicaran Battle Tank [Legends]" hidden="false" collective="false" import="true" targetId="486f-3047-10d1-a12a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f731-35f5-3760-8aa9" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="47a4-3fe4-0502-7610" name="Sicaran Punisher [Legends]" hidden="false" collective="false" import="true" targetId="0f9f-7190-66d2-39bf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6f8b-4d10-f3a0-f631" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="65f9-2b91-be0f-7421" name="Sicaran Venator [Legends]" hidden="false" collective="false" import="true" targetId="7f1f-08ac-f562-ee9f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8101-2e54-1bbf-9ffd" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="556c-ffc3-1164-63fe" name="Sokar Pattern Stormbird [Legends]" hidden="false" collective="false" import="true" targetId="d978-4ed0-3aa8-ae11" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="32e4-6de5-75d6-1840" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="347d-3807-8969-99b2" name="Spartan [Legends]" hidden="false" collective="false" import="true" targetId="68f5-0eaf-e33d-6992" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5b26-c2ec-b5bf-2803" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c40f-7454-56c8-971e" name="Storm Eagle Assault Gunship [Legends]" hidden="false" collective="false" import="true" targetId="a66b-42aa-4c20-300b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5290-aece-00b1-2fb2" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0232-ec8c-4917-0315" name="Relic Typhon Heavy Siege Tank" hidden="false" collective="false" import="true" targetId="818c-71cb-91b8-14c6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1c11-1093-2901-e08e" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3156-8a38-989c-1ff3" name="Relic Whirlwind Scorpius" hidden="false" collective="false" import="true" targetId="b3b9-7176-b67a-0531" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9d39-84e5-d215-26ef" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6a07-d6a4-7e4b-ae4d" name="Xiphon Interceptor [Legends]" hidden="false" collective="false" import="true" targetId="7701-7457-621e-6f84" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6844-486f-f89c-12bd" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0ab4-0e86-b366-40a6" name="Thunderhawk [Legends]" hidden="false" collective="false" import="true" targetId="a2db-2d39-b71f-baad" type="selectionEntry">
+      <profiles>
+        <profile id="99ee-e4ae-5c12-f10b" name="Thunderhawk [Legends]" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model has a transport capacity of 30 WORLD EATERS INFANTRY or WORLD EATERS MOUNTED models. Each TERMINATOR model takes up the space of 2 models. Each MOUNTED model takes up the space of 4 models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
+    <entryLink id="df16-c210-4b79-7e6b" name="Show Legends" hidden="false" collective="false" import="true" targetId="c13b-ab88-b33f-dcd5" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="80f8-50fb-e106-f63a" name="Angron" hidden="false" collective="false" import="true" type="unit">
@@ -145,8 +465,7 @@
       <profiles>
         <profile id="d504-225f-fce6-b547" name="Wrathful Presence" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">- You can re-roll hit rolls for attacks made by friendly LIGHT WORLD EATER units while they are within 8&quot; of this unit.
-- While a friendly WORLD EATER unit is within 8&quot; of this model, each time a Charge roll is made for that unit, add 1 to the roll.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">- You can re-roll hit rolls for attacks made by friendly LIGHT WORLD EATER units while they are within 8&quot; of this unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="7665-bac4-900d-2ba7" name="Angron" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
@@ -195,7 +514,7 @@
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
               </characteristics>
@@ -271,6 +590,9 @@
         <categoryLink id="5e2b-917c-f164-4ce8" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="bbcb-e65e-13e1-030e" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="3acc-8146-ed57-39d6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
@@ -339,6 +661,9 @@
         <categoryLink id="5915-02d5-4a0d-f91d" name="Daemon" hidden="false" targetId="8941-623f-a255-f440" primary="false"/>
         <categoryLink id="5461-dd51-1fb5-b6d7" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="3ece-e41d-d5c7-4741" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
       </costs>
@@ -404,6 +729,9 @@
         <categoryLink id="0bb9-80da-dd38-fa0f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="0d3e-9561-9ddd-c0b7" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="e225-bcc6-dd1c-0c72" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
@@ -462,6 +790,9 @@
         <categoryLink id="7bd8-a996-5968-921e" name="Daemon" hidden="false" targetId="8941-623f-a255-f440" primary="false"/>
         <categoryLink id="f630-5024-6d95-378f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="e6e3-60e5-c656-5294" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
       </costs>
@@ -514,6 +845,9 @@
         <categoryLink id="3052-36f2-5ad1-fdff" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="344e-dc0e-fcaf-1333" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="e11f-c5e8-8445-136c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
@@ -915,6 +1249,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <entryLinks>
+        <entryLink id="3985-eff9-071c-9968" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
@@ -1052,8 +1389,8 @@
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
@@ -1110,7 +1447,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="7188-5c32-7dd2-3425" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="43b3-28a5-eaec-0dff" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -1345,6 +1682,9 @@ can re-roll the Hit roll and you can re-roll the Wound roll. If, at the end of t
         <categoryLink id="4596-9332-8e83-5584" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="b933-498f-9f46-0c44" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="f984-7dca-d648-3637" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
@@ -1364,7 +1704,7 @@ can re-roll the Hit roll and you can re-roll the Wound roll. If, at the end of t
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7264-84e5-bdac-a222" name="Deadly Demise (X)" hidden="false" targetId="edc1-b0c9-7ca6-0ba2" type="profile">
+        <infoLink id="7264-84e5-bdac-a222" name="Deadly Demise (X&quot;)" hidden="false" targetId="edc1-b0c9-7ca6-0ba2" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Deadly Demise D6"/>
           </modifiers>
@@ -1420,5 +1760,6 @@ can re-roll the Hit roll and you can re-roll the Wound roll. If, at the end of t
   <catalogueLinks>
     <catalogueLink id="603f-b38c-e872-4870" name="Library - Chaos Space Marines" targetId="8a94-e862-c384-d68b" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="2958-e29d-870c-2808" name="Weapons" targetId="d2e9-8c51-33c4-d440" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="538f-af8b-1ff6-fb70" name="Library - Space Marines" targetId="7c79-7dbd-6585-0846" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

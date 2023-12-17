@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e51a-1e21-6ae4-2d6c" name="Chaos - Chaos Daemons" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e51a-1e21-6ae4-2d6c" name="Chaos - Chaos Daemons" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="bb5c-0fba-06fd-2fcb" name="Tally of Pestilence">
       <characteristicTypes>
@@ -2244,10 +2244,31 @@
                 <condition field="selections" scope="dd83-3ecd-5829-fde1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b663-1187-2469-1b64" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="606d-344a-bc3d-9dce" value="10&quot;">
+            <modifier type="set" field="606d-344a-bc3d-9dce" value="14&quot;">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="dd83-3ecd-5829-fde1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="338f-472e-d301-0de0" type="equalTo"/>
+                    <condition field="selections" scope="dd83-3ecd-5829-fde1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a4f0-6a6a-c770-8066" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="606d-344a-bc3d-9dce" value="12">
               <conditions>
-                <condition field="selections" scope="dd83-3ecd-5829-fde1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0360-5815-d092-58df" type="equalTo"/>
+                <condition field="selections" scope="dd83-3ecd-5829-fde1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a4f0-6a6a-c770-8066" type="equalTo"/>
+                <condition field="selections" scope="dd83-3ecd-5829-fde1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="338f-472e-d301-0de0" type="notEqualTo"/>
               </conditions>
+            </modifier>
+            <modifier type="set" field="606d-344a-bc3d-9dce" value="10&quot;">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="dd83-3ecd-5829-fde1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="338f-472e-d301-0de0" type="equalTo"/>
+                    <condition field="selections" scope="dd83-3ecd-5829-fde1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a4f0-6a6a-c770-8066" type="notEqualTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -2340,6 +2361,11 @@
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="a4f0-6a6a-c770-8066" name="Wings" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3bf-1db7-234a-222f" type="max"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2694,11 +2720,7 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="9726-ca48-b01c-20ee" name="Living Whip" hidden="false" collective="false" import="true" targetId="2b8d-316d-3c66-95e6" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="2.0"/>
-              </modifiers>
-            </entryLink>
+            <entryLink id="9726-ca48-b01c-20ee" name="Living Whip" hidden="false" collective="false" import="true" targetId="2b8d-316d-3c66-95e6" type="selectionEntry"/>
             <entryLink id="1412-96ef-6a32-1320" name="Shining Aegis" hidden="false" collective="false" import="true" targetId="7e16-3cd1-ec98-2e56" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -7185,7 +7207,7 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
@@ -7196,14 +7218,10 @@
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly LEGIONES DAEMONICA unit is within 6&quot; of this model, you can re-roll Leadership tests taken for that unit.</characteristic>
           </characteristics>
         </profile>
-        <profile id="441c-069c-bad7-38c2" name="Wreathed in Shadows" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly LEGIONES DAEMONICA unit is within 6&quot; of this model, that unit can only be targeted by a ranged attack if the attacking model is within 24&quot;.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="1828-25d9-6926-5527" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
+        <infoLink id="7f2a-2581-a0c3-2db2" name="Terror Troops" hidden="false" targetId="e5e7-bd6d-fdb7-b022" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3cbe-2cd5-10e2-b1d3" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
@@ -7231,7 +7249,7 @@
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
               </characteristics>
@@ -7294,8 +7312,8 @@
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>

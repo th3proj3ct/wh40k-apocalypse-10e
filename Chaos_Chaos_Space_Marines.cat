@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3568-97f7-47a9-5157" name="Chaos - Chaos Space Marines" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3568-97f7-47a9-5157" name="Chaos - Chaos Space Marines" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="9ce0-92a4-75e9-c09f" name="Faction: Skulltakers" hidden="false"/>
     <categoryEntry id="77e2-0635-9df5-4f43" name="Zhufor the Impaler" hidden="false"/>
@@ -156,11 +156,6 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="5e3a-9e52-abb6-9692" name="Chaos Mastodon" hidden="false" collective="false" import="true" targetId="033e-f9c8-c4b0-2f34" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="bd41-fb31-d558-d0db" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="69ee-7e64-a5d6-88d6" name="Kytan Ravager" hidden="false" collective="false" import="true" targetId="43af-be45-7918-425b" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -171,18 +166,6 @@
       </modifiers>
       <categoryLinks>
         <categoryLink id="09af-7de8-bf28-0544" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="3ed5-c6f4-b557-0550" name="Blood Slaughterer" hidden="false" collective="false" import="true" targetId="e7d3-3095-e373-d4b3" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2886-149d-e9ed-45b0" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="e929-238e-27f1-c3b0" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2a7e-e6f1-7c71-7040" name="Greater Blight Drone" hidden="false" collective="false" import="true" targetId="77e3-c8b6-ae89-11fd" type="selectionEntry">
@@ -237,89 +220,14 @@
         <categoryLink id="95d6-a720-dd12-6a4b" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="734e-b1a1-afb9-cb91" name="Chaos Contemptor Dreadnought" hidden="false" collective="false" import="true" targetId="a237-dcd0-5abf-c97f" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="6426-e962-33f6-9587" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="47aa-da3e-34f5-292d" name="Chaos Cerberus" hidden="false" collective="false" import="true" targetId="e39f-1bdb-b3aa-1d6c" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="b999-d1b8-c74f-48be" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="51a1-5833-2922-d11c" name="Chaos Deredeo Dreadnought" hidden="false" collective="false" import="true" targetId="b186-9dcb-3dc3-2454" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="1dd5-4ccf-e42b-d85d" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="0550-6bc0-a338-3e88" name="Dreadclaw Drop Pod" hidden="false" collective="false" import="true" targetId="6962-3f8f-63d3-803c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="81f9-126f-2b9b-1290" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="194e-297b-685a-f7d2" name="Chaos Falchion" hidden="false" collective="false" import="true" targetId="7c0d-9c5e-91ba-ced6" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="277c-5864-25a4-ca7d" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="1c88-5737-0d07-b7de" name="Chaos Fellblade" hidden="false" collective="false" import="true" targetId="1481-8054-00fd-6add" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="2e91-4406-7161-f931" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="6e66-8d6b-9337-19ef" name="Kharybdis Assault Claw" hidden="false" collective="false" import="true" targetId="9b56-60e3-1ec2-2be6" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a847-98c2-77ea-db54" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="51ee-645a-8843-a836" name="Chaos Land Raider Achilles" hidden="false" collective="false" import="true" targetId="84f5-0ff1-0c1b-a0c6" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="435d-a6bc-6fb9-f147" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="db55-735f-36fa-8fe9" name="Chaos Land Raider Proteus" hidden="false" collective="false" import="true" targetId="dc43-f0a2-58b7-b478" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="448b-16d0-21cb-a326" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="af2e-88ad-66dc-5c64" name="Chaos Leviathan Dreadnought" hidden="false" collective="false" import="true" targetId="ba52-d3a1-0032-94b0" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="1458-fce9-a0b1-b06c" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="7c08-87ce-6a09-9044" name="Chaos Rapier Carrier" hidden="false" collective="false" import="true" targetId="b6f8-5507-d8a2-6cd1" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="e466-05db-0051-f9ad" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="0d8f-ca36-f0ac-bfb8" name="Chaos Whirlwind Scorpius" hidden="false" collective="false" import="true" targetId="660d-f9b6-ddc9-9946" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="57fc-5464-70e0-8fc7" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="094a-1564-8739-1789" name="Chaos Sicaran Battle Tank" hidden="false" collective="false" import="true" targetId="1234-dc9e-04cd-a218" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="ef29-34cd-cdf9-ff59" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="cee6-ae14-b5b8-18ef" name="Chaos Sicaran Venator" hidden="false" collective="false" import="true" targetId="721a-be95-29eb-4766" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="26b4-ef09-f0f9-9a18" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="9224-d21c-bd71-bee6" name="Chaos Spartan" hidden="false" collective="false" import="true" targetId="5f94-7327-3258-42fb" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="3c81-8e96-6150-d08a" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="b733-7a6c-3de7-275d" name="Chaos Typhon" hidden="false" collective="false" import="true" targetId="3503-4ef7-b6f7-6c37" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="d813-8dd1-fd86-0ef6" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="b7fc-ae1e-8e00-3248" name="Chaos Fire Raptor Gunship" hidden="false" collective="false" import="true" targetId="a0f9-589e-8b1a-a844" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="e760-7c63-0912-ea2a" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="c014-bf59-7f47-2230" name="Hell Blade" hidden="false" collective="false" import="true" targetId="b299-fe4e-bf7e-f9b1" type="selectionEntry">
@@ -330,26 +238,6 @@
     <entryLink id="4ca0-6ddb-2f4e-4064" name="Hell Talon" hidden="false" collective="false" import="true" targetId="b8d9-844d-d0fb-1ac2" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="537d-6d71-e9d6-c7db" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="58e0-472a-7239-821b" name="Chaos Sokar Pattern Stormbird" hidden="false" collective="false" import="true" targetId="ff97-c9c5-ad18-6f68" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="e645-f41b-fb91-8424" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="fa1e-270d-adb6-c2cf" name="Chaos Storm Eagle Gunship" hidden="false" collective="false" import="true" targetId="e8ee-b78e-6d77-a8ad" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="16a4-3753-c376-c797" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="33f6-e527-6541-4de4" name="Chaos Thunderhawk Assault Gunship" hidden="false" collective="false" import="true" targetId="bb86-f1fb-b77f-2ba1" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="2da2-587a-e494-508a" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="5b34-b36b-83d5-b5d9" name="Chaos Xiphon Interceptor" hidden="false" collective="false" import="true" targetId="30f0-cfb8-37dd-16b0" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="3ff5-4a02-ca34-9463" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a499-7820-b1e8-9241" name="Zhufor the Impaler" hidden="false" collective="false" import="true" targetId="4cdf-0f1f-0d39-5750" type="selectionEntry">
@@ -641,11 +529,6 @@
         <categoryLink id="a68a-8ecd-5780-315f" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="75ed-6a73-5a5f-d068" name="Chaos Terrax-Pattern Termite" hidden="false" collective="false" import="true" targetId="56e4-bce0-be0a-9f92" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="d565-0b59-3006-7393" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="2799-c482-f5cb-09f1" name="Obliterators" hidden="false" collective="false" import="true" targetId="7145-43ba-3475-5010" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="cacf-31c2-d404-1225" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
@@ -848,6 +731,121 @@
       </modifiers>
       <categoryLinks>
         <categoryLink id="c16a-902c-fce4-af2a" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dacf-c7cd-ce2d-7c2a" name="Terrax-pattern Termite [Legends]" hidden="false" collective="false" import="true" targetId="2235-b44c-a7d2-d517" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b9a6-252d-2ea2-0b91" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="aaf0-3882-be87-a210" name="Cerberus [Legends]" hidden="false" collective="false" import="true" targetId="33ad-2c9d-dca2-507a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d9d1-72cc-b890-59dc" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c22d-3ad1-7afb-43c2" name="Thunderhawk [Legends]" hidden="false" collective="false" import="true" targetId="a2db-2d39-b71f-baad" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="af4f-8dca-3763-1773" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fc99-4168-6452-7652" name="Deredeo Dreadnought [Legends]" hidden="false" collective="false" import="true" targetId="710a-fbe4-6cac-3054" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9b15-54e9-fcde-15c2" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="94b4-8e25-ac20-9f2a" name="Falchion [Legends]" hidden="false" collective="false" import="true" targetId="0f93-c25d-2b63-2f39" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ba8b-db7c-1440-2b69" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cb8b-3369-59f3-7d8f" name="Fellblade [Legends]" hidden="false" collective="false" import="true" targetId="a634-4723-ba51-60ca" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1c7c-b9a1-0742-63a0" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d57f-0f28-a1f8-5c1d" name="Fire Raptor Gunship [Legends]" hidden="false" collective="false" import="true" targetId="7afa-0a96-ea6d-7695" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ec74-d228-0d47-126b" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1b50-5a5f-f118-cb26" name="Kratos" hidden="false" collective="false" import="true" targetId="a062-2887-02f9-3cba" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ad61-cb8e-06d4-2206" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6374-371a-d0cb-c603" name="Land Raider Achilles [Legends]" hidden="false" collective="false" import="true" targetId="ba17-8566-b04c-09d3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2485-fcb0-09c0-434f" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="43de-1e38-0b24-8eb3" name="Land Raider Proteus [Legends]" hidden="false" collective="false" import="true" targetId="2468-48de-617e-2258" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e611-392e-acb2-6828" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="50ac-2d92-45e3-dc69" name="Leviathan Dreadnought [Legends]" hidden="false" collective="false" import="true" targetId="a40f-f1a8-4416-b632" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8cef-bc9d-b2d7-13fd" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d869-1e2e-a177-32d6" name="Mastodon [Legends]" hidden="false" collective="false" import="true" targetId="bbb9-54eb-4f59-e9dc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="87a0-6eed-32f3-9c00" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a2e0-19ae-c74f-5952" name="Rapier Carrier [Legends]" hidden="false" collective="false" import="true" targetId="d3d0-2acc-450c-fba7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0c2b-dfc4-d727-65b9" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="13a7-bd26-38e2-f244" name="Relic Contemptor Dreadnought [Legends]" hidden="false" collective="false" import="true" targetId="0321-28ba-f11e-426c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="357f-a19a-5d11-9001" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="45d6-56f1-9f43-2451" name="Sicaran Battle Tank [Legends]" hidden="false" collective="false" import="true" targetId="486f-3047-10d1-a12a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="84d2-20d9-1031-3785" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="32a6-d451-5138-203a" name="Sicaran Punisher [Legends]" hidden="false" collective="false" import="true" targetId="0f9f-7190-66d2-39bf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="01d3-ae5c-92a7-b562" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b8d7-e2d8-441c-0f82" name="Sicaran Venator [Legends]" hidden="false" collective="false" import="true" targetId="7f1f-08ac-f562-ee9f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fcbb-37fb-eab4-cb8d" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6724-80f7-2209-a133" name="Sokar Pattern Stormbird [Legends]" hidden="false" collective="false" import="true" targetId="d978-4ed0-3aa8-ae11" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0598-1514-75a0-aff4" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4025-9823-4e0f-fb55" name="Spartan [Legends]" hidden="false" collective="false" import="true" targetId="68f5-0eaf-e33d-6992" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="045b-602e-12e4-4caf" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4a63-4279-357c-5103" name="Storm Eagle Assault Gunship [Legends]" hidden="false" collective="false" import="true" targetId="a66b-42aa-4c20-300b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7d82-9231-94be-d896" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a378-0ccf-6b71-be24" name="Relic Typhon Heavy Siege Tank" hidden="false" collective="false" import="true" targetId="818c-71cb-91b8-14c6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f76a-76cc-458c-2118" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f98a-dd8a-b24e-5336" name="Whirlwind Scorpius" hidden="false" collective="false" import="true" targetId="b3b9-7176-b67a-0531" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="24a2-1d00-1b91-7b38" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c27a-27c8-44ae-6cab" name="Xiphon Interceptor [Legends]" hidden="false" collective="false" import="true" targetId="7701-7457-621e-6f84" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="efcb-19f0-0710-56ee" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -2212,7 +2210,7 @@
       <profiles>
         <profile id="a45f-cdc3-79bc-6888" name="Despoilers" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit makes a ranged attack, if it targets the closest eligible target, you can re-roll the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit makes an attack, if it targets the closest eligible target, you can re-roll the Hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2238,7 +2236,7 @@
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
@@ -2267,7 +2265,7 @@
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
@@ -4860,10 +4858,13 @@ When this unit is selected to perform its action, you may remove a damage marker
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Witchfire</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="c95f-72df-e1d7-92ce" name="Witchfire" hidden="false" targetId="8ce8-6dd3-c0a8-35ad" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="d3ed-fd74-ed08-f77a" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
         <categoryLink id="c736-bea8-af54-7ec2" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
@@ -5478,6 +5479,9 @@ When this unit is selected to perform its action, you may remove a damage marker
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -5651,5 +5655,6 @@ When this unit is selected to perform its action, you may remove a damage marker
   <catalogueLinks>
     <catalogueLink id="8a94-e862-c384-d68b" name="Library - Chaos Space Marines" targetId="8a94-e862-c384-d68b" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="a0ed-ec42-00ac-fd5b" name="Library - Weapons" targetId="d2e9-8c51-33c4-d440" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="6d96-08d9-459c-07ed" name="Library - Space Marines" targetId="7c79-7dbd-6585-0846" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

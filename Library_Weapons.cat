@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d2e9-8c51-33c4-d440" name="Library - Weapons" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d2e9-8c51-33c4-d440" name="Library - Weapons" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4b2d-6f39-3754-8981" name="Cypher" hidden="false"/>
     <categoryEntry id="fbe6-07fa-0346-50fa" name="Faction: Fallen" hidden="false"/>
@@ -139,12 +139,13 @@
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-air</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-air, Twin Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="e01a-3484-5f2c-55af" name="Anti-air" hidden="false" targetId="48b8-058a-9085-0e80" type="rule"/>
+        <infoLink id="c50d-157d-4e40-89ac" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -296,10 +297,13 @@
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">11+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="1723-5f97-e89d-aa27" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
@@ -313,10 +317,13 @@
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="2b21-2a5e-b34e-871b" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
@@ -370,10 +377,13 @@
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="8b34-9613-dd75-d11f" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
@@ -575,12 +585,13 @@
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno, Twin Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="dec3-a46c-8d00-ae90" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
+        <infoLink id="e9c4-3347-8b1d-512e" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -669,12 +680,13 @@
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer, Twin Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="4f39-4dd3-7e13-60fe" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+        <infoLink id="d4a1-6d68-2683-bec5" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -753,7 +765,7 @@
         <profile id="72f4-fe4f-f030-db81" name="Multi-melta" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
@@ -774,10 +786,13 @@
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Re-roll hit rolls when making attacks with this weapon</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="887f-2056-9025-5a47" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
@@ -829,6 +844,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="e6e3-cfce-aaf5-0cb4" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
@@ -842,12 +860,13 @@
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno, Twin Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="34e3-7ad4-77e7-0de9" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
+        <infoLink id="5d7d-898f-8ae3-36b7" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -858,14 +877,17 @@
         <profile id="078b-2900-4b84-6a4c" name="Twin Multi-melta" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="7ee4-9a71-aa62-f8a8" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
@@ -933,10 +955,17 @@
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="db4b-7d9c-d257-53e4" name="Sustained Hits X" hidden="false" targetId="d0a7-26e1-b2cb-2bce" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Sustained Hits 1"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
@@ -1004,12 +1033,13 @@
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-air</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-air, Twin Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="f99b-5ec3-6199-4c96" name="Anti-air" hidden="false" targetId="48b8-058a-9085-0e80" type="rule"/>
+        <infoLink id="be43-1d95-7d66-3e56" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -1022,15 +1052,12 @@
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="59e1-564b-2ae2-228c" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
@@ -1042,8 +1069,8 @@
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -1404,10 +1431,13 @@
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">12</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="0fc5-2e8b-41cc-5d85" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
@@ -1586,14 +1616,15 @@
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">120&quot;</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">3+</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer, Twin Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="05b0-9239-8d4b-5e4b" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+        <infoLink id="8282-7475-f00e-4d2f" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -1696,10 +1727,13 @@
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="96d5-2720-a07a-b27e" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
@@ -1895,12 +1929,13 @@
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire, Twin Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="e46d-07a1-548d-20d0" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
+        <infoLink id="bcf5-8249-7d60-da22" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -2185,7 +2220,7 @@
     <profile id="59d9-521f-7559-6fa6" name="Heavy Flamer" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
       <characteristics>
         <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">8&quot;</characteristic>
+        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
         <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
         <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
         <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>

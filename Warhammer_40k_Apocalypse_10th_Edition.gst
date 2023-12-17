@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="440c-9567-ca71-f95b" name="Warhammer 40,000 Apocalypse 10th Edition" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="440c-9567-ca71-f95b" name="Warhammer 40,000 Apocalypse 10th Edition" revision="12" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8df9-0b3e-abea-3c15" name="Warhammer 40,000: Apocalypse" publicationDate="2019"/>
     <publication id="3434-17b5-4a22-f338" name="Fundapocalypse Custom Rules" shortName="Fundapocalypse Custom Rules" publisherUrl="https://github.com/normanthesquid/wh40k-fundapocalypse/wiki"/>
@@ -104,6 +104,7 @@
     <categoryEntry id="bc98-2b56-f8f0-4817" name="Simon" hidden="false"/>
     <categoryEntry id="1926-ea62-3b12-977a" name="Epic Hero" hidden="false"/>
     <categoryEntry id="21ec-008a-47d1-d863" name="Battleline" hidden="false"/>
+    <categoryEntry id="f75d-9741-bdba-0bf6" name="Heresy" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="af5e-d646-110f-deb4" name="Detachment" hidden="false">
@@ -113,6 +114,7 @@
         <categoryLink id="cff2-97aa-f271-98aa" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="0802-2b14-0de7-c9cc" name="Battleline" hidden="false" targetId="21ec-008a-47d1-d863" primary="false"/>
         <categoryLink id="d18c-ddc4-fbae-34ce" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="6acf-1f63-6e2c-738d" name="Dedicated Transport" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="false"/>
         <categoryLink id="8030-72fc-5b34-3bc1" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
         <categoryLink id="ddd5-2a3d-4fba-7725" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="0965-4570-e271-ac28" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
@@ -156,6 +158,24 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c13b-ab88-b33f-dcd5" name="Show Legends" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Legends are visible"/>
+        <modifier type="set" field="ab0e-e1bd-e655-ff7f" value="0.0"/>
+        <modifier type="set" field="1643-307c-3603-3a59" value="0.0"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab0e-e1bd-e655-ff7f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1643-307c-3603-3a59" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f71-e2db-9201-b538" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ae7c-dd55-a43c-5a04" name="New CategoryLink" hidden="false" targetId="b1fd-719c-4789-4656" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
@@ -423,7 +443,7 @@ If this unit is garrisoning Defensible Terrain, unmodified saving throws of 5+ a
       <description>At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.</description>
     </rule>
     <rule id="5154-3b0e-f960-5cb3" name="Devastating Wounds" hidden="false">
-      <description>Weapons with [DEVASTATING WOUNDS] in their profile are known as Devastating Wounds weapons. Each time an attack is made with such a weapon, if that attack scores a Critical Wound, place an additional blast marker next to the target.</description>
+      <description>Weapons with [DEVASTATING WOUNDS] in their profile are known as Devastating Wounds weapons. Each time an attack is made with such a weapon, if the Wound roll for that is a 10+, place an additional blast marker next to the target.</description>
     </rule>
     <rule id="d0a7-26e1-b2cb-2bce" name="Sustained Hits X" hidden="false">
       <description>Weapons with [SUSTAINED HITS X] in their profile are known as Sustained Hits weapons. Each time an attack is made with such a weapon, if a Critical Hit is rolled, that attack scores a number of additional hits on the target as denoted by ‘x’.</description>
