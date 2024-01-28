@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3568-97f7-47a9-5157" name="Chaos - Chaos Space Marines" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3568-97f7-47a9-5157" name="Chaos - Chaos Space Marines" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="9ce0-92a4-75e9-c09f" name="Faction: Skulltakers" hidden="false"/>
     <categoryEntry id="77e2-0635-9df5-4f43" name="Zhufor the Impaler" hidden="false"/>
@@ -514,11 +514,6 @@
         <categoryLink id="fd43-d76a-f5cb-8b86" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e21a-0e02-aacf-f7bb" name="Chaos Predator Annihilator" hidden="false" collective="false" import="true" targetId="8dbc-6837-ede6-1e74" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="4dc2-2abb-1f66-23f5" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="3826-10b2-1bbf-6866" name="Chaos Rhino" hidden="false" collective="false" import="true" targetId="274e-d2a4-8f7b-e69d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="9521-16c5-7264-b508" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
@@ -734,6 +729,13 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="dacf-c7cd-ce2d-7c2a" name="Terrax-pattern Termite [Legends]" hidden="false" collective="false" import="true" targetId="2235-b44c-a7d2-d517" type="selectionEntry">
+      <profiles>
+        <profile id="35fe-a78b-d487-aa86" name="Terrax-pattern Termite" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This model has a transport capacity of 12 HERETIC ASTARTES INFANTRY models. It cannot transport JUMP PACK, TERMINATOR, OBLITERATOR, POSSESSED models </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="b9a6-252d-2ea2-0b91" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
       </categoryLinks>
@@ -774,11 +776,25 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="6374-371a-d0cb-c603" name="Land Raider Achilles [Legends]" hidden="false" collective="false" import="true" targetId="ba17-8566-b04c-09d3" type="selectionEntry">
+      <profiles>
+        <profile id="e766-a61f-36bb-3766" name="Land Raider Achilles [Legends]" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model has a transport capacity of 12 HERETIC ASTARTES INFANTRY models. Each JUMP PACK, POSSESSED or TERMINATOR model takes up the space of 2 models and each OBLITERATOR model takes up the space of 3 models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="2485-fcb0-09c0-434f" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="43de-1e38-0b24-8eb3" name="Land Raider Proteus [Legends]" hidden="false" collective="false" import="true" targetId="2468-48de-617e-2258" type="selectionEntry">
+      <profiles>
+        <profile id="6317-625e-ee7b-f638" name="Land Raider Proteus [Legends]" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model has a transport capacity of 12 HERETIC ASTARTES INFANTRY models. Each JUMP PACK, POSSESSED or TERMINATOR model takes up the space of 2 models and each OBLITERATOR model takes up the space of 3 models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="e611-392e-acb2-6828" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
       </categoryLinks>
@@ -824,11 +840,25 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="4025-9823-4e0f-fb55" name="Spartan [Legends]" hidden="false" collective="false" import="true" targetId="68f5-0eaf-e33d-6992" type="selectionEntry">
+      <profiles>
+        <profile id="a270-88bc-6cfc-8b35" name="Spartan [Legends]" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model has a transport capacity of 28 HERETIC ASTARTES INFANTRY models. Each JUMP PACK, POSSESSED or TERMINATOR model takes up the space of 2 models and each OBLITERATOR model takes up the space of 3 models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="045b-602e-12e4-4caf" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4a63-4279-357c-5103" name="Storm Eagle Assault Gunship [Legends]" hidden="false" collective="false" import="true" targetId="a66b-42aa-4c20-300b" type="selectionEntry">
+      <profiles>
+        <profile id="b064-81bb-20c5-624d" name="Storm Eagle Assault Gunship [Legends]" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model has a transport capacity of 22 HERETIC ASTARTES INFANTRY models and 1 DREADNOUGHT model. Each JUMP PACK, TERMINATOR or POSSESSED model takes up the space of 2 models and each OBLITERATOR model takes up the space of 3 models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="7d82-9231-94be-d896" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
       </categoryLinks>
@@ -846,6 +876,22 @@
     <entryLink id="c27a-27c8-44ae-6cab" name="Xiphon Interceptor [Legends]" hidden="false" collective="false" import="true" targetId="7701-7457-621e-6f84" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="efcb-19f0-0710-56ee" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0233-c5c9-2097-5b46" name="Show Legends" hidden="false" collective="false" import="true" targetId="c13b-ab88-b33f-dcd5" type="selectionEntry"/>
+    <entryLink id="5eb1-eb1e-0911-bb58" name="Deimos Predator [Legends]" hidden="false" collective="false" import="true" targetId="e5a7-51b9-e6c0-0486" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="19a5-ad03-5284-30ed" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f225-8f48-ce12-b978" name="Predator Annihilator" hidden="false" collective="false" import="true" targetId="380b-365b-f724-e677" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7f56-b91a-c4d9-727a" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2901-f1e2-fae9-1f9d" name="Predator Destructor" hidden="false" collective="false" import="true" targetId="5331-40c3-8845-70f7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="29c5-3ea2-0e90-f0f9" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

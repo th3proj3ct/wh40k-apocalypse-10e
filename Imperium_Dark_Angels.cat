@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b705-9ea8-d8d9-d3f3" name="Imperium - Dark Angels" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b705-9ea8-d8d9-d3f3" name="Imperium - Dark Angels" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -957,7 +957,13 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
     <entryLink id="e3a5-f98b-24e8-9d32" name="Deathwing Strikemaster" hidden="false" collective="false" import="true" targetId="e12d-3541-c4c4-9a83" type="selectionEntry"/>
     <entryLink id="1b2b-e84e-a98b-53a5" name="Deathwing Command Squad" hidden="false" collective="false" import="true" targetId="84ab-dd8e-8b54-29e1" type="selectionEntry"/>
     <entryLink id="6990-db47-e990-1093" name="Desolation Squad" hidden="false" collective="false" import="true" targetId="4ead-44eb-6689-31e0" type="selectionEntry"/>
+    <entryLink id="32bb-3921-ee15-1266" name="Show Legends" hidden="false" collective="false" import="true" targetId="c13b-ab88-b33f-dcd5" type="selectionEntry"/>
   </entryLinks>
+  <rules>
+    <rule id="90f6-3cd3-e02e-ac07" name="And They Shall Know No Fear" hidden="false">
+      <description>Re-roll failed Morale tests taken for ADEPTUS ASTARTES units in this Detachment.</description>
+    </rule>
+  </rules>
   <sharedSelectionEntries>
     <selectionEntry id="3cbe-c8ba-c8b4-3f8e" name="Azrael" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <constraints>

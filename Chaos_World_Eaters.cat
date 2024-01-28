@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="722e-4aa1-aa02-0a8e" name="Chaos - World Eaters" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="722e-4aa1-aa02-0a8e" name="Chaos - World Eaters" revision="6" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="6b5c-ca1c-f4a0-fd1a" name="Kytan Ravager [Lengeds]" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -465,7 +465,7 @@
       <profiles>
         <profile id="d504-225f-fce6-b547" name="Wrathful Presence" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">- You can re-roll hit rolls for attacks made by friendly LIGHT WORLD EATER units while they are within 8&quot; of this unit.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">- You can re-roll hit rolls for attacks made by friendly WORLD EATER units while they are within 8&quot; of this unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="7665-bac4-900d-2ba7" name="Angron" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
@@ -473,7 +473,7 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
@@ -481,17 +481,12 @@
         </profile>
         <profile id="6500-0872-27e2-9ead" name="Reborn in Blood" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the beginning of your turn, if Angron has been slain and is not on the battlefield, roll a D6: on a 4+, this unit can be placed in Tactical Reserves. When this unit arrives as reinforcements, set it up anywhere on the battlefield that is more than 9&quot; from any enemy units with 2 damage markers next to it.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the beginning of your turn, if Angron has been slain and is not on the battlefield, roll a D6: on a 5+, this unit can be placed in Tactical Reserves. When this unit arrives as reinforcements, set it up anywhere on the battlefield that is more than 9&quot; from any enemy units with 2 damage markers next to it.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="0740-71e4-62d6-165e" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
-        <infoLink id="3a9c-472f-fef1-b0cc" name="Deadly Demise (X&quot;)" hidden="false" targetId="edc1-b0c9-7ca6-0ba2" type="profile">
-          <modifiers>
-            <modifier type="set" field="name" value="Deadly Demise 3&quot;"/>
-          </modifiers>
-        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8c31-0f9c-19b7-8c4e" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
@@ -856,7 +851,7 @@
       <profiles>
         <profile id="71de-2eed-52cc-5585" name="Blood Surge" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time an enemy unit is selected to shoot, after that unit has finished making its attacks, if any blast markers were placed next to this unit, this unit can make a Blood Surge move. To do so, roll one D6: this unit can be moved a umber of inches up to the result but must finish as close as possible to the closest enemy unit.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time an enemy unit is selected to shoot, after that unit has finished making its attacks, if any blast markers were placed next to this unit, this unit can make a Blood Surge move. To do so, roll one D6: this unit can be moved a number of inches up to the result but must finish as close as possible to the closest enemy unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -953,7 +948,7 @@
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
@@ -971,7 +966,7 @@
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">8</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
@@ -1244,7 +1239,7 @@
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -1260,7 +1255,7 @@
       <profiles>
         <profile id="e8fa-2c7c-94cf-d18a" name="Beacons of Rage (Aura)" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly World Eaters unit is within 6&quot; of this unit, each time a model in that unit makes a melee attack, re-roll a Wound roll of 1. If that attack targets a unit that is Below Half-strength, you can re-roll the Wound roll instead.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly World Eaters unit is within 6&quot; of this unit, each time a model in that unit makes a melee attack, re-roll a Wound roll of 1. If that attack targets a unit that is critically wounded, you can re-roll the Wound roll instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>

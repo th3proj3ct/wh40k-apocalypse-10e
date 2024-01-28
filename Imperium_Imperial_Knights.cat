@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bc25-9b95-98d4-5b88" name="Imperium - Imperial Knights" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bc25-9b95-98d4-5b88" name="Imperium - Imperial Knights" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a6fe-fc09-5627-ff05" name="Faction: Imperial Knights" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="d37d-c3f9-f400-4093" name="Faction: &lt;Questor Allegiance&gt;" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
@@ -207,7 +207,7 @@
           <characteristics>
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">72&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid-Fire</characteristic>
@@ -341,7 +341,7 @@
           <characteristics>
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">6</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -575,7 +575,7 @@
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">60&quot;</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -648,6 +648,11 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
+        <profile id="cc89-2c3b-9c37-93ef" name="Acheron&apos;s Duty (Bondsman)" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During this unit&apos;s activation, pick a friendly Armiger in this unit&apos;s detachment within 12&quot;. This model and the armiger gain the following ability until the end of the round: This model gains the Terror Troops ability.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="2317-8f13-5ba7-8533" name="Destroyed" hidden="false" targetId="abd1-8c2e-fb0f-e980" type="rule"/>
@@ -695,6 +700,11 @@
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ede4-6fa2-5658-86b9" name="Castigator&apos;s Duty (Bondsman)" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During this unit&apos;s activation, pick a friendly Armiger in this unit&apos;s detachment within 12&quot;. This model and the armiger gain the following ability until the end of the round: This model&apos;s ranged weapons have the [Sustained Hits 2] ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -746,9 +756,9 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="7a69-d792-50cb-aa28" name="Ion Gauntlet Shield" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+        <profile id="e982-87dc-a2af-8dab" name="Lancer&apos;s Duty (Bondsman)" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Subtract 1 from hit rolls for attacks made with melee weapons by enemy SUPER-HEAVY units that target this unit.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During this unit&apos;s activation, pick a friendly Armiger in this unit&apos;s detachment within 12&quot;. This model and the armiger gain the following ability until the end of the round: When this model is selected to fight, its weapons have the [LANCE] keyword until the end of the turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -792,6 +802,11 @@
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="22bc-ede8-ea55-93fc" name="Styrix&apos;s Duty (Bondsman)" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During this unit&apos;s activation, pick a friendly Armiger in this unit&apos;s detachment within 12&quot;. This model and the armiger gain the following ability until the end of the round: When this model shoots, it ignores all penalties to the hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -868,6 +883,11 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
+        <profile id="b431-2f83-e367-25d1" name="Magaera&apos;s Duty (Bondsman)" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During this unit&apos;s activation, pick a friendly Armiger in this unit&apos;s detachment within 12&quot;. This model and the armiger gain the following ability until the end of the round: When this model shoots, it ignores all penalties to the hit roll.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="08fb-11f3-58b9-efa1" name="Unstable Reactor" hidden="false" targetId="f4f7-5504-2e70-f962" type="profile"/>
@@ -937,6 +957,11 @@
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6931-97ff-67d0-2c24" name="Atrapos&apos; Duty (Bondsman)" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During this unit&apos;s activation, pick a friendly Armiger in this unit&apos;s detachment within 12&quot;. This model and the armiger gain the following ability until the end of the round: When this model makes an attack that targets a SUPER-HEAVY or TITANIC model, you may re-roll the hit and wound rolls.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1359,7 +1384,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="069f-fa2c-d80f-cc0e" name="Reaper Chainfist w/ Twin Heavy Bolter" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
@@ -1657,9 +1682,9 @@
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per turn, you can re-roll one Hit roll or one Wound roll for this model.</characteristic>
           </characteristics>
         </profile>
-        <profile id="8b03-7525-fdba-ebb0" name="Paladin&apos;s Duty" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+        <profile id="8b03-7525-fdba-ebb0" name="Paladin&apos;s Duty (Bondsman)" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During this unit&apos;s activation, pick a friendly Armiger in this unit&apos;s detachment. When that model is selected to fight, its weapons have the [LANCE] keyword until the end of the turn.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During this unit&apos;s activation, pick a friendly Armiger in this unit&apos;s detachment within 12&quot;. This model and the armiger gain the following ability until the end of the round: When this model is selected to fight, its weapons have the [LANCE] keyword until the end of the turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1835,9 +1860,9 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="296c-119a-d78d-fcf4" name="Gallant&apos;s Duty" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+        <profile id="296c-119a-d78d-fcf4" name="Gallant&apos;s Duty (Bondsman)" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During this unit&apos;s activation, pick a friendly Armiger in this unit&apos;s detachment. When that model is selected to fight, that model can re-roll all hit rolls this turn.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During this unit&apos;s activation, pick a friendly Armiger in this unit&apos;s detachment within 12&quot;. This model and the armiger gain the following ability until the end of the round: When this model is selected to fight, that model can re-roll all hit rolls this turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="5069-dba1-9209-138f" name="Martial Pride" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -1920,9 +1945,9 @@
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During this unit&apos;s activation, pick a friendly Armiger in this unit&apos;s detachment. When that model is selected to shoot, add 1 to hit rolls made by that model.</characteristic>
           </characteristics>
         </profile>
-        <profile id="61ba-8aa1-99bc-00f9" name="Errant&apos;s Duty" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+        <profile id="61ba-8aa1-99bc-00f9" name="Errant&apos;s Duty (Bondsman)" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f"/>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During this unit&apos;s activation, pick a friendly Armiger in this unit&apos;s detachment within 12&quot;. This model and the armiger gain the following ability until the end of the round: When this model is selected to shoot, it ignores the hit penalty for having units within Engagement Range.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2011,9 +2036,9 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="b1b8-d694-a73e-7192" name="Mentor" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+        <profile id="b1b8-d694-a73e-7192" name="Mentor (Bondsman)" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During this unit&apos;s activation, pick a friendly Armiger in this unit&apos;s detachment. That model automatically passes leadership tests</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During this unit&apos;s activation, pick a friendly Armiger in this unit&apos;s detachment within 12&quot;. This model and the armiger gain the following ability until the end of the round: This model automatically passes leadership tests</characteristic>
           </characteristics>
         </profile>
         <profile id="f31c-a7cc-6534-5233" name="Exemplar of the Code" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -2174,9 +2199,9 @@ All weapons equipped by this model have [SUSTAINED HITS 1].</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="bc13-d733-9e39-e70d" name="Crusader&apos;s Duty" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+        <profile id="bc13-d733-9e39-e70d" name="Crusader&apos;s Duty (Bondsman)" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During this unit&apos;s activation, pick a friendly Armiger in this unit&apos;s detachment. When that model is selected to shoot, add 1 to the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During this unit&apos;s activation, pick a friendly Armiger in this unit&apos;s detachment within 12&quot;. This model and the armiger gain the following ability until the end of the round: When this model is selected to shoot, add 1 to the Hit roll.</characteristic>
           </characteristics>
         </profile>
         <profile id="abdc-8999-287f-992e" name="Punishing Salvoes" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -2278,7 +2303,7 @@ All weapons equipped by this model have [SUSTAINED HITS 1].</characteristic>
         </profile>
         <profile id="5c94-6b4e-b145-f6dc" name="Skyfire Protocols" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Add 2 to the SAT of weapons equipped by this model when targetting units with the FLY keyword</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">The SAT of Armiger Autocannons is considered a 3+ for this model when targetting units with the FLY keyword</characteristic>
           </characteristics>
         </profile>
       </profiles>

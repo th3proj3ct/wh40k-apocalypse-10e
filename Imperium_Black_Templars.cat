@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c6da-2a53-58db-09a5" name="Imperium - Black Templars" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c6da-2a53-58db-09a5" name="Imperium - Black Templars" revision="5" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -85,11 +85,6 @@
     <entryLink id="61d7-fb7c-46ae-c0b8" name="Apothecary" hidden="false" collective="false" import="true" targetId="47e5-110b-315c-0cb3" type="selectionEntry">
       <infoLinks>
         <infoLink id="3b38-72d4-900d-e084" name="Narthecium" hidden="false" targetId="e29f-d600-021b-a7ec" type="profile"/>
-      </infoLinks>
-    </entryLink>
-    <entryLink id="a839-ec31-04b8-dc47" name="Company Ancient" hidden="false" collective="false" import="true" targetId="4991-016c-9c24-34d3" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="8214-c044-9fc2-d790" name="Astartes Banner" hidden="false" targetId="e6e5-25f0-34b4-0fe8" type="profile"/>
       </infoLinks>
     </entryLink>
     <entryLink id="4dc6-574e-30a2-923f" name="Primaris Ancient" hidden="false" collective="false" import="true" targetId="ca50-b2c7-56ad-f6a3" type="selectionEntry">
@@ -810,7 +805,14 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
     <entryLink id="c822-dc14-3ed3-0cc2" name="Primaris Sword Bretheren" hidden="false" collective="false" import="true" targetId="391b-8bcb-9edf-7f91" type="selectionEntry"/>
     <entryLink id="d7bc-1a12-8f26-c6b6" name="The Emperor’s Champion" hidden="false" collective="false" import="true" targetId="daa2-56aa-becf-8155" type="selectionEntry"/>
     <entryLink id="6c95-47bd-f3e4-0f8b" name="Primaris Crusader Squad" hidden="false" collective="false" import="true" targetId="908a-7f00-6a3b-10d9" type="selectionEntry"/>
+    <entryLink id="e738-8ae0-747b-9bf5" name="Show Legends" hidden="false" collective="false" import="true" targetId="c13b-ab88-b33f-dcd5" type="selectionEntry"/>
+    <entryLink id="ffda-5b26-8357-5ab3" name="Vanguard Veteran Squad" hidden="false" collective="false" import="true" targetId="7690-88a6-cb08-4bcf" type="selectionEntry"/>
   </entryLinks>
+  <rules>
+    <rule id="5c67-78e0-c508-754f" name="And They Shall Know No Fear" hidden="false">
+      <description>Re-roll failed Morale tests taken for ADEPTUS ASTARTES units in this Detachment.</description>
+    </rule>
+  </rules>
   <sharedSelectionEntries>
     <selectionEntry id="9608-768c-3955-8adf" name="Hide Legacy units" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2034,9 +2036,9 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
@@ -2060,7 +2062,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">5</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
@@ -2078,7 +2080,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">10</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">8</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>

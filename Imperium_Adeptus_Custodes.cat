@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1339-e553-0775-03de" name="Imperium - Adeptus Custodes" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1339-e553-0775-03de" name="Imperium - Adeptus Custodes" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a70b-b27c-4926-d99c" name="Faction: Adeptus Custodes" hidden="false"/>
     <categoryEntry id="e6c3-ba23-fdf0-2498" name="Captain-General Trajann Valoris" hidden="false"/>
@@ -813,7 +813,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
           </profiles>
@@ -869,7 +869,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
                   </characteristics>
                 </profile>
                 <profile id="d308-5f67-3f57-817d" name="Twin Plasma Projector" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -959,7 +959,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
         <profile id="9392-0454-edef-0d39" name="Galatus Shield" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a melee attack targets this model, subtract 1 from the Wound roll.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">During the Damage phase, If this model is in Engagement Range of one or more enemy units it can use this ability. If it does, once per turn when making a saving throw for this model, you can roll a D12 for a large blast marker instead of a D6.</characteristic>
           </characteristics>
         </profile>
       </profiles>

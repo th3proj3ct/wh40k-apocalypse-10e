@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="440c-9567-ca71-f95b" name="Warhammer 40,000 Apocalypse 10th Edition" revision="12" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="440c-9567-ca71-f95b" name="Warhammer 40,000 Apocalypse 10th Edition" revision="14" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8df9-0b3e-abea-3c15" name="Warhammer 40,000: Apocalypse" publicationDate="2019"/>
     <publication id="3434-17b5-4a22-f338" name="Fundapocalypse Custom Rules" shortName="Fundapocalypse Custom Rules" publisherUrl="https://github.com/normanthesquid/wh40k-fundapocalypse/wiki"/>
@@ -121,6 +121,7 @@
         <categoryLink id="58f9-0688-66de-b5e0" name="Beast" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="false"/>
         <categoryLink id="2b88-69ec-28a5-b031" name="Swarm" hidden="false" targetId="65b5-f311-b8c4-3721" primary="false"/>
         <categoryLink id="cfbb-afae-47b5-ff5a" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="false"/>
+        <categoryLink id="de9f-e68f-4280-d263" name="Flyer" hidden="false" targetId="551a-ed52-fd35-9078" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -465,6 +466,12 @@ If this unit is garrisoning Defensible Terrain, unmodified saving throws of 5+ a
     </rule>
     <rule id="cdb7-f1e7-842f-a25f" name="Pistol" hidden="false">
       <description>Weapons with [PISTOL] in their profile can be shot even while in engagement range of enemy models, but can only target units within engagement range.</description>
+    </rule>
+    <rule id="f955-47cd-a5ed-9629" name="Ignores Cover" hidden="false">
+      <description>Attacks made with this weapon ignore penalties to the hit roll from cover.</description>
+    </rule>
+    <rule id="3d0c-5001-fa04-7313" name="Lone Operative" hidden="false">
+      <description>Unless part of an Attached unit (see Leader), this unit can only be selected as the target of a ranged attack if the attacking model is within 12&quot;.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

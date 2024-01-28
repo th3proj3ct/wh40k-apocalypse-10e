@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5014-071d-98d0-0768" name="Imperium - Astra Militarum" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5014-071d-98d0-0768" name="Imperium - Astra Militarum" revision="5" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="b6a1-41e3-5fe3-e661" name="Lord Castellan Creed" hidden="false"/>
     <categoryEntry id="b0a1-41e3-5fe3-e661" name="Colour Sergeant Kell" hidden="false"/>
@@ -1790,6 +1790,15 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1c8f-8642-4769-6c38" name="Pintle Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1de-cad8-f720-7ecd" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f1e8-8bef-f044-ec09" name="Twin Heavy Stubber" hidden="false" collective="false" import="true" targetId="c8c3-4489-66fc-d283" type="selectionEntry"/>
+            <entryLink id="7551-81be-84f3-21e0" name="Twin Meltagun" hidden="false" collective="false" import="true" targetId="f802-b5d6-9147-26ec" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -4554,6 +4563,11 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
+        <profile id="898a-a893-2071-d157" name="Titan-Killer" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes a ranged attack with its volcano cannon that targets a HEAVY unit, you may re-roll one hit and one would rolls of 1</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="955f-0a6b-f64a-8b2c" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
@@ -4576,12 +4590,12 @@
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Apocalyptic Destroyer</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="d38d-9049-f914-3d6f" name="Apocalyptic Destroyer" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
+            <infoLink id="d38d-9049-f914-3d6f" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
           </infoLinks>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -9050,9 +9064,6 @@ When targets would be picked for a Fight action made by this unit, it instead ta
               </constraints>
             </entryLink>
           </entryLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
-          </costs>
         </selectionEntry>
         <selectionEntry id="773e-9ef5-db72-fa98" name="Heavy Flamer Sponson" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -9072,9 +9083,6 @@ When targets would be picked for a Fight action made by this unit, it instead ta
               </constraints>
             </entryLink>
           </entryLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
-          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
