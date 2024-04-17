@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7c79-7dbd-6585-0846" name="Library - Space Marines" revision="15" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7c79-7dbd-6585-0846" name="Library - Space Marines" revision="16" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -1352,12 +1352,13 @@
       <profiles>
         <profile id="d5d7-34f2-3be7-5780" name="Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other Infantry models. It cannot transport PRIMARIS units.</characteristic>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="9bde-a10c-6549-bdb0" name="Land Raider" hidden="false" targetId="1de9-50a7-0fd9-6a37" type="profile"/>
+        <infoLink id="4af3-1af3-823f-69a2" name="Assault Ramp" hidden="false" targetId="cab7-972d-999b-62dc" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4366-546c-9755-2b5d" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
@@ -3578,12 +3579,13 @@
       <profiles>
         <profile id="0fbe-302b-3bbe-6a3b" name="Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other Infantry models. It cannot transport PRIMARIS units.</characteristic>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="c3f2-ea5d-1a64-04ef" name="Land Raider" hidden="false" targetId="1de9-50a7-0fd9-6a37" type="profile"/>
+        <infoLink id="3c99-6463-351f-9b49" name="Assault Ramp" hidden="false" targetId="cab7-972d-999b-62dc" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="599b-c87c-0d66-0db4" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
@@ -3628,7 +3630,7 @@
       <profiles>
         <profile id="ee3f-7054-99aa-d64c" name="Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other Infantry models. It cannot transport PRIMARIS units.</characteristic>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This model has a transport capacity of 16 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3638,6 +3640,7 @@
             <modifier type="set" field="name" value="Land Raider Crusader"/>
           </modifiers>
         </infoLink>
+        <infoLink id="e426-9982-9d55-27af" name="Assault Ramp" hidden="false" targetId="cab7-972d-999b-62dc" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0c6f-7e56-b702-08ae" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
@@ -3743,7 +3746,7 @@
       <profiles>
         <profile id="fe89-3b1d-a139-6c94" name="Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other Infantry models. It cannot transport PRIMARIS units.</characteristic>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This model has a transport capacity of 14 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3753,17 +3756,14 @@
             <modifier type="set" field="name" value="Land Raider Redeemer"/>
           </modifiers>
         </infoLink>
+        <infoLink id="cb69-7873-fce1-1d48" name="Assault Ramp" hidden="false" targetId="cab7-972d-999b-62dc" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ad3e-b000-2640-7ba0" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="814a-0417-8c2f-1751" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="cac0-e07a-761c-885c" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="1e0e-d495-fd11-9083" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
-        <categoryLink id="a09c-6d67-30fe-76fe" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
-        <categoryLink id="b4a5-69af-38b8-7439" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
-        <categoryLink id="c953-e8d1-6e04-91b9" name="Land Raider" hidden="false" targetId="e8c9-c1e3-8372-9280" primary="false"/>
-        <categoryLink id="4d8c-6265-e53e-6baf" name="Land Raider Redeemer" hidden="false" targetId="8b62-3d1a-6626-8b2e" primary="false"/>
-        <categoryLink id="9007-4d60-ab64-9731" name="New CategoryLink" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
+        <categoryLink id="a09c-6d67-30fe-76fe" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="1173-16c0-6d45-616e" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry">
@@ -6386,7 +6386,7 @@
         </profile>
         <profile id="134d-6620-9591-ba7f" name="Land Raider Proteus" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. TERMINATOR and JUMP PACK models take up the space of 2 other models and each CENTURION model takes up the space of 3 other models. It cannot transport PRIMARIS models.</characteristic>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6396,6 +6396,7 @@
             <modifier type="set" field="name" value="Land Raider Proteus"/>
           </modifiers>
         </infoLink>
+        <infoLink id="399f-cb41-3b69-e597" name="Assault Ramp" hidden="false" targetId="cab7-972d-999b-62dc" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="10ed-e77f-8622-ea8d" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
@@ -6466,10 +6467,13 @@
         </profile>
         <profile id="7b08-a409-260d-6be5" name="Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other Infantry models. It cannot transport PRIMARIS units.</characteristic>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="5d31-f7f8-164c-273a" name="Assault Ramp" hidden="false" targetId="cab7-972d-999b-62dc" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6248-8cbd-023c-5fd8" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="099e-caa4-4a93-500c" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
@@ -6694,10 +6698,13 @@
         </profile>
         <profile id="4327-e60b-8f03-6444" name="Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other Infantry models. It cannot transport PRIMARIS units.</characteristic>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="dec9-3dea-2779-5804" name="Assault Ramp" hidden="false" targetId="cab7-972d-999b-62dc" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="640e-7f10-2304-6b16" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="dea7-41c9-6e31-160c" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
@@ -6754,10 +6761,13 @@
         </profile>
         <profile id="9a3c-58d9-def1-17c0" name="Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 12 friendly &lt;CHAPTER&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of 2 other INFANTRY models, and each CENTURION model takes the space of 3 other Infantry models. It cannot transport PRIMARIS units.</characteristic>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="a9a4-cd91-30cd-61c9" name="Assault Ramp" hidden="false" targetId="cab7-972d-999b-62dc" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="7d43-1515-07ed-a97f" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="62b9-5c97-b184-5940" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
@@ -13742,12 +13752,20 @@ that target this unit.</characteristic>
     </selectionEntry>
     <selectionEntry id="eac7-1986-6489-3934" name="Land Raider Ares [Legends]" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Taken From https://chamber42.com/blog/archives/1268</comment>
+      <profiles>
+        <profile id="e8ff-06fd-a3b7-efce" name="Land Raider" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="28b6-d94b-1122-e2a2" name="Land Raider" hidden="false" targetId="1de9-50a7-0fd9-6a37" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Land Raider Ares"/>
           </modifiers>
         </infoLink>
+        <infoLink id="8210-fbc7-899f-a65f" name="Assault Ramp" hidden="false" targetId="cab7-972d-999b-62dc" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f35d-71db-6296-3a0a" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
@@ -14749,6 +14767,102 @@ that target this unit.</characteristic>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="257a-2875-c1cc-d2fd" name="Assault Intercessors with Jump Packs" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1a13-5ba9-ddf4-3554" name="Hammer of Wrath" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit ends an Assault move, select one enemy unit within Engagement Range of it, then roll one D6: on a 3+, place a blast marker next to that unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2d81-fb36-9cf9-d193" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="fa5c-1c7e-705d-ef2f" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="7f6a-ca14-dc8a-44e1" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="aab7-ae8b-2e81-c994" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="76b1-92d8-16db-a602" name="Chainswords" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb4d-016d-77e2-f47d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cab-b6d4-ffb9-ac29" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="38e3-b03a-91fa-014a" name="Chainswords" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4aac-fdf6-e46d-aabc" name="5 - 10 models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f474-631f-f05c-e3a0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d91f-7273-154e-036f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="990d-b449-6997-4fb5" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="cdf4-b57b-9a69-cc24" name="Assault Intercessor (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">12</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f657-c4c4-fadd-d275" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a7e8-dc0c-4032-6745" name="Assault Intercessor (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="395c-d303-75ab-ca88" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="2647-a968-fc20-14f6" name="Heavy Bolt Pistols" hidden="false" collective="false" import="true" targetId="35bb-c4c0-0e46-cd22" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4d8-f6b3-c495-aeef" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4be6-6ba0-3ac1-a464" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
