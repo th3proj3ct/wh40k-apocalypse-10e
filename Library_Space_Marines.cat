@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7c79-7dbd-6585-0846" name="Library - Space Marines" revision="16" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7c79-7dbd-6585-0846" name="Library - Space Marines" revision="18" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -11024,6 +11024,7 @@ TERMINATOR and JUMP PACK models take up the space of 2 other models and each CEN
       </profiles>
       <infoLinks>
         <infoLink id="1b17-47f3-3ff1-c8ed" name="Hover" hidden="false" targetId="5711-082b-6f95-d8ef" type="profile"/>
+        <infoLink id="7a87-3646-41b9-f391" name="Open-topped" hidden="false" targetId="e66d-fc46-6a89-4318" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="64f3-acd3-42f8-a815" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
@@ -14696,7 +14697,14 @@ that target this unit.</characteristic>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c69b-2a7a-aaec-4213" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c69b-2a7a-aaec-4213" name="Command Squad [Legends]" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="a4c0-3e5b-a30d-d296" name="Command Squad" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
@@ -14863,6 +14871,85 @@ that target this unit.</characteristic>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a62b-e49b-aa1c-be9a" name="Company Heroes" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="cf12-8104-6778-0379" name="Command Squad" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="22d4-5ea7-77ee-31f9" name="Command Squad" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a CHARACTER model is leading this unit, each time an attack targets this unit, add 1 to the Save characteristic of this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1768-726d-45d2-c936" name="Company Heroes" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You must attach one CAPTAIN or CHAPTER MASTER model to this unit. If this is not possible, this unit does not take part in the battle and counts as having been destroyed.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="70b3-98d0-054f-527c" name="Chapter Banner" hidden="false" targetId="2721-0db2-54ce-0db9" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="187c-e11b-9615-024c" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="0531-e8a6-bbc1-660f" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="19c9-765c-ad81-45d2" name="Champion Weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e0c-8798-c8d7-929a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1688-e399-665c-b4a7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c06f-6045-5d82-d6be" name="Champion Weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b662-72c3-5393-f650" name="Bolt Rifles" hidden="false" collective="false" import="true" targetId="29cb-36f3-3f72-ac2d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="964e-819a-a5f4-21be" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7a8-0ec0-7115-eb03" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e31a-1eef-0ff4-4ae5" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7481-7f30-c095-d7a1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21b3-682b-3c00-fa08" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

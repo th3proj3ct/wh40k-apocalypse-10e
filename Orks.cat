@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="259f-eae9-a08f-3b2b" name="Orks" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="259f-eae9-a08f-3b2b" name="Orks" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="0e91-de43-18ca-e190" name="Beast Snagga" hidden="false"/>
   </categoryEntries>
@@ -73,6 +73,17 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c1a2-7174-2405-f731" name="Sluggas and Choppas" hidden="false" collective="false" import="true" targetId="4bea-1cb2-b1fd-e017" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5374-696f-b1f1-3740" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f61f-c0c3-b293-a86c" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a11d-1427-3957-443d" name="Boyz" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -163,25 +174,28 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="bcbb-df3e-22d3-a25f" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="ef1b-afc3-0177-480f">
+        <selectionEntryGroup id="bcbb-df3e-22d3-a25f" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="a9bf-c01a-9878-2f19">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="329a-4d16-aaf4-6387" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="199c-1a93-2947-5b55" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="0ac1-e56a-15fb-21c1" name="Shootas and Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <entryLinks>
+            <entryLink id="a9bf-c01a-9878-2f19" name="Sluggas and Choppas" hidden="false" collective="false" import="true" targetId="4bea-1cb2-b1fd-e017" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30d4-0e9e-7779-c189" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7c8-705b-9c4e-3c44" type="max"/>
               </constraints>
-            </selectionEntry>
-            <selectionEntry id="ef1b-afc3-0177-480f" name="Sluggas and Choppas" hidden="false" collective="false" import="true" type="upgrade">
+            </entryLink>
+            <entryLink id="a85d-8866-1325-ce34" name="Shootas and Close Combat Weapon" hidden="false" collective="false" import="true" targetId="1dff-79d2-3d8b-e208" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d356-29a1-4b04-b69a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d15-b9a7-ee78-47be" type="max"/>
               </constraints>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="782a-40d2-3c55-a808" name="Trukk" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -273,7 +287,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="850d-543c-90e5-377c" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d84d-5c18-315b-455b" name="&apos;Ard Case" hidden="false" collective="false" import="true" type="upgrade"/>
+            <selectionEntry id="d84d-5c18-315b-455b" name="&apos;Ard Case" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <entryLinks>
             <entryLink id="bcec-80ce-34ae-9a2c" name="Open Topped" hidden="false" collective="false" import="true" targetId="9861-f4d6-cba5-6cae" type="selectionEntry">
@@ -346,9 +364,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1767-aed5-481b-57c4" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="df37-657a-0f1f-03cb" name="New CategoryLink" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="true"/>
+        <categoryLink id="df37-657a-0f1f-03cb" name="New CategoryLink" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="false"/>
         <categoryLink id="86e7-5807-2c90-741c" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-        <categoryLink id="d2f9-d35f-2be4-a42b" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="d2f9-d35f-2be4-a42b" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="852f-f99c-6e6c-c60e" name="Big Shoota" hidden="false" collective="false" import="true" targetId="a6d7-856b-0a8d-6116" type="selectionEntry">
@@ -398,9 +416,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="069c-6247-cd5b-0064" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="b2cc-4e62-b0ad-43e6" name="New CategoryLink" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="true"/>
+        <categoryLink id="b2cc-4e62-b0ad-43e6" name="New CategoryLink" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="false"/>
         <categoryLink id="a7cd-4de1-88cc-7082" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-        <categoryLink id="2f7b-c096-68e0-4fab" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="2f7b-c096-68e0-4fab" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0334-188d-36b5-228a" name="Skorcha Missile Rack" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
@@ -472,9 +490,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7653-8e26-78dc-19d2" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="64f2-4363-97bb-b21c" name="New CategoryLink" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="true"/>
+        <categoryLink id="64f2-4363-97bb-b21c" name="New CategoryLink" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="false"/>
         <categoryLink id="40a4-2c72-4cf0-f235" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-        <categoryLink id="91f8-fda9-dc48-befe" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="91f8-fda9-dc48-befe" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5aba-cd17-394f-244b" name="Twin Supa-Shoota" hidden="false" collective="false" import="true" targetId="0888-c044-c57a-9ed4" type="selectionEntry">
@@ -518,9 +536,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="30b0-2f83-dc5b-faeb" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="1039-368f-66b1-27cd" name="New CategoryLink" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="true"/>
+        <categoryLink id="1039-368f-66b1-27cd" name="New CategoryLink" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="false"/>
         <categoryLink id="d622-4c54-de0e-7761" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-        <categoryLink id="fd7f-e229-b128-0799" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="fd7f-e229-b128-0799" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="cae1-bb7d-316c-3acb" name="Small Bomms" hidden="false" collective="false" import="true" type="upgrade">
@@ -531,6 +549,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -580,9 +601,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e583-fc00-55df-05cc" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="56fa-9cbf-d89c-b0be" name="New CategoryLink" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="true"/>
+        <categoryLink id="56fa-9cbf-d89c-b0be" name="New CategoryLink" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="false"/>
         <categoryLink id="9c19-35a0-58b4-4c25" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-        <categoryLink id="ace8-6819-8a6c-8fca" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="ace8-6819-8a6c-8fca" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5c1f-7822-5886-7313" name="Grot-guided Bomm" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
@@ -617,6 +638,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -671,9 +695,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="602d-bad0-b499-6b0c" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="d9fd-2a78-9fc5-ce2b" name="New CategoryLink" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="true"/>
+        <categoryLink id="d9fd-2a78-9fc5-ce2b" name="New CategoryLink" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="false"/>
         <categoryLink id="7da0-ad6b-9411-302c" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-        <categoryLink id="c98b-578b-8b58-303e" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="c98b-578b-8b58-303e" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b2b5-2648-0e78-f256" name="Main Gun" hidden="false" collective="false" import="true" defaultSelectionEntryId="9916-28bd-68e4-07f2">
@@ -699,6 +723,9 @@
                 <infoLink id="468b-ce8f-5a86-ad7b" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
                 <infoLink id="925d-191c-5108-5802" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="fcee-115c-228a-d747" name="Twin Tellyport Mega-blasta" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -717,6 +744,9 @@
                 <infoLink id="e076-ea39-640b-dc34" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
                 <infoLink id="ba66-58e7-551b-ae26" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -881,6 +911,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -1156,6 +1189,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -1313,6 +1349,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e9bb-f54e-b199-c3d9" name="Burna Boyz" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1428,6 +1467,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b9e2-6ead-f03b-da98" name="Flash Gitz" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1469,6 +1511,9 @@
               </modifiers>
             </infoLink>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1531,6 +1576,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="946d-6c6c-b349-9d73" name="Gretchin" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1565,6 +1613,9 @@
           <infoLinks>
             <infoLink id="44e9-b57d-51a6-dffc" name="Pistol" hidden="false" targetId="cdb7-f1e7-842f-a25f" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1627,6 +1678,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f9cd-aaf8-c605-4079" name="Kommandos" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1786,6 +1840,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2487-be94-51e0-8983" name="Meganobz" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1817,6 +1874,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="c9b8-2c80-b1c8-789f" name="Kustom Shootas" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1838,6 +1898,9 @@
           <infoLinks>
             <infoLink id="d6a3-6342-748f-8a3f" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1892,6 +1955,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6ed0-378f-b061-e017" name="Nobz" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1974,6 +2040,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="467c-218f-74ac-200c" name="Stormboyz" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2047,6 +2116,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3a91-a343-8d34-f199" name="Tank Bustas" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2150,8 +2222,8 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="c45b-f491-1d93-b711" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="true"/>
-        <categoryLink id="4fa5-7578-ad96-9211" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="c45b-f491-1d93-b711" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="4fa5-7578-ad96-9211" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5d43-fe5b-c947-2ad6" name="Primary Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="c3fb-d181-ecd4-8844">
@@ -2223,6 +2295,9 @@
             <infoLink id="f973-a933-fae6-7b88" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
             <infoLink id="a695-8665-80ae-9652" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="19e9-0b75-861b-7f3e" name="Sluggas" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2244,6 +2319,9 @@
           <infoLinks>
             <infoLink id="a461-5226-33df-bc2f" name="Pistol" hidden="false" targetId="cdb7-f1e7-842f-a25f" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7b73-db60-5d2b-d734" name="Spinnin&apos; Blades" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2258,10 +2336,13 @@
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2310,6 +2391,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7143-f913-d5dc-29f6" name="Gorkanaut" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -2341,10 +2425,10 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="c27b-4b01-82bf-53eb" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="c27b-4b01-82bf-53eb" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="3eb7-9d46-a1e5-c0f3" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
         <categoryLink id="d623-7893-b5c0-5756" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
-        <categoryLink id="0248-c298-e7ac-cb4a" name="New CategoryLink" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="true"/>
+        <categoryLink id="0248-c298-e7ac-cb4a" name="New CategoryLink" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f25c-c555-8725-03db" name="Deffstorm Mega-shoota" hidden="false" collective="false" import="true" type="upgrade">
@@ -2367,6 +2451,9 @@
           <infoLinks>
             <infoLink id="a2cd-cab3-15b6-314d" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="ac95-0e68-c920-9791" name="Klaw of Gork" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2381,10 +2468,13 @@
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -2435,10 +2525,10 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="a337-a16c-7111-af88" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="a337-a16c-7111-af88" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="07cb-ac97-9a64-ab0a" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
         <categoryLink id="81ce-7d3d-8db9-ff4f" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
-        <categoryLink id="e10d-77af-38cf-b938" name="New CategoryLink" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="true"/>
+        <categoryLink id="e10d-77af-38cf-b938" name="New CategoryLink" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5ad9-c300-3339-1dbd" name="Kustom Mega-Zappa" hidden="false" collective="false" import="true" type="upgrade">
@@ -2462,6 +2552,9 @@
             <infoLink id="3f9d-d9dc-9f34-496e" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
             <infoLink id="61e3-55f2-b106-8ac3" name="Supercharge" hidden="false" targetId="9988-c2ea-2f30-09c1" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9857-f6cb-3e07-ccda" name="Klaw of Mork" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2476,10 +2569,13 @@
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -2536,6 +2632,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2623,6 +2722,9 @@
               <infoLinks>
                 <infoLink id="d6d1-93db-9129-afa2" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1229-4141-d8f4-917b" name="Traktor Kannin" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -2637,6 +2739,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e7ab-2ca5-fb26-6f21" name="BubleChukka" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -2670,6 +2775,9 @@
                 <infoLink id="8073-88b5-3281-ac20" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
                 <infoLink id="e360-ac65-fc64-d386" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d5c8-197a-d530-e53a" name="Kustom Mega-kannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -2688,10 +2796,16 @@
                 <infoLink id="098a-3af2-e7d6-d873" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
                 <infoLink id="cc82-622d-f849-1834" name="Supercharge" hidden="false" targetId="9988-c2ea-2f30-09c1" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0105-f972-8e19-d2cb" name="Stompa" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2718,9 +2832,9 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="5e30-f11c-f6af-6002" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="true"/>
+        <categoryLink id="5e30-f11c-f6af-6002" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
         <categoryLink id="e8a9-381b-eea9-62ef" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
-        <categoryLink id="e5fa-9a36-b43e-da53" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="e5fa-9a36-b43e-da53" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f8a2-35b0-24cb-2e17" name="Supa-gatler" hidden="false" collective="false" import="true" type="upgrade">
@@ -2747,6 +2861,9 @@
               </modifiers>
             </infoLink>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f5ce-73f3-ffdd-8b63" name="Deffkannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2768,6 +2885,9 @@
           <infoLinks>
             <infoLink id="bd22-d83f-1e7d-c5f4" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="c867-0dcf-adfd-c5c5" name="Supa-rokkits" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2789,6 +2909,9 @@
           <infoLinks>
             <infoLink id="ac30-82e7-8f73-007f" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="11d3-c98b-0bec-49f1" name="Mega-choppa" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
@@ -2803,6 +2926,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -2858,6 +2984,9 @@
             <infoLink id="9e24-bb0c-e135-6503" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
             <infoLink id="6cd5-7c7d-bd9a-462a" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2937,6 +3066,9 @@
               <infoLinks>
                 <infoLink id="6824-b5a6-8430-cd71" name="Pistol" hidden="false" targetId="cdb7-f1e7-842f-a25f" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -2944,6 +3076,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2831-976f-bb60-6ecc" name="Beastboss" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -3003,6 +3138,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -3068,6 +3206,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -3150,6 +3291,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -3265,6 +3409,9 @@
           <infoLinks>
             <infoLink id="fe37-d036-64c2-68bc" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -3327,13 +3474,16 @@
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="0449-ff8c-98ac-f2b9" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -3397,10 +3547,13 @@
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -3473,6 +3626,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -3529,10 +3685,13 @@
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d862-3464-89a7-82e8" name="Gork&apos;s Claw" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3547,10 +3706,13 @@
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -3627,6 +3789,9 @@
               </modifiers>
             </infoLink>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -3763,6 +3928,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -3819,6 +3987,9 @@
           <infoLinks>
             <infoLink id="9746-1479-474a-0820" name="Devastating Wounds" hidden="false" targetId="5154-3b0e-f960-5cb3" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -3971,6 +4142,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -4029,6 +4203,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -4089,6 +4266,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2b80-95d6-ff2b-1a8a" name="Twin Slugga" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4111,6 +4291,9 @@
             <infoLink id="ee67-99db-dd81-4dcb" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
             <infoLink id="22d1-d036-f7e4-eb32" name="Pistol" hidden="false" targetId="cdb7-f1e7-842f-a25f" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -4170,6 +4353,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0773-023c-ea84-71a8" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4191,6 +4377,9 @@
           <infoLinks>
             <infoLink id="6026-12b3-716a-b685" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -4250,6 +4439,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d0bd-4086-f3e3-efc1" name="Weirdboy Staff" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4268,6 +4460,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -4327,6 +4522,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -4400,6 +4598,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -4465,6 +4666,9 @@
           <infoLinks>
             <infoLink id="ca82-a3cd-8288-b620" name="Pistol" hidden="false" targetId="cdb7-f1e7-842f-a25f" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -4527,10 +4731,13 @@
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -4675,6 +4882,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1dff-79d2-3d8b-e208" name="Shootas and Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -4699,6 +4909,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="815f-869b-8e9e-75df" name="Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -4713,6 +4926,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="53af-58a9-7986-e8a5" name="Wreckin&apos; Ball" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -4727,6 +4943,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="53f3-3621-15c0-e258" name="Spiked Wheels" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -4741,6 +4960,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9861-f4d6-cba5-6cae" name="Open Topped" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -4750,6 +4972,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e621-6af3-e4ef-05b2" name="Zzap Gun" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -4864,6 +5089,9 @@
         </infoLink>
         <infoLink id="62c4-2187-8677-b4bf" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1c11-b06d-2056-740d" name="Armoured Hull" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -4878,6 +5106,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8f7b-f93f-5f3d-3dfb" name="Twin Big Shoota" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5023,6 +5254,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6172-2651-347e-6abf" name="Burnas" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5141,6 +5375,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>

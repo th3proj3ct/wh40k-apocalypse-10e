@@ -461,12 +461,11 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or 
         </profile>
         <profile id="b020-238b-1ebc-948c" name="Multi-Threat Eliminator" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per turn, in your opponent’s activation phase, when an enemy unit makes a ranged attack that targets a friendly NECRONS unit within 3&quot; of a model with this ability, after that enemy unit has shot, one model with this ability that is within 3&quot; of that target can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per game, this model may use this ability. If it does, instead of shooting normally, it may make a free Shoot action against all eligible targets within 8&quot;.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="5b1d-07e2-ba75-32d6" name="Lone Operative" hidden="false" targetId="3d0c-5001-fa04-7313" type="rule"/>
         <infoLink id="d0a3-99e1-cab8-ca1c" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -1793,6 +1792,10 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or 
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ebf8-f832-720c-05e5" name="Warscythe" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10a0-14fb-8a4f-9a48" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e29e-3206-1dee-325b" type="min"/>
+          </constraints>
           <profiles>
             <profile id="20c4-08ce-5d7a-6395" name="Warscythe" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
@@ -2633,7 +2636,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         </profile>
         <profile id="2552-c64b-6863-e061" name="Sentinel Construct" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per turn, if a friendky NECRONS INFANTRY within 3&quot; of this model is selected as the target of ranged attacks, after that enemy unit finished making attacks, this model may immediately make a Shoot action targetting that enemy unit.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When this model makes an attack, you may re-roll one hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>

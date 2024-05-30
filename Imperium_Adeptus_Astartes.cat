@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d4ea-b52d-6a66-df94" name="Imperium - Adeptus Astartes" revision="14" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d4ea-b52d-6a66-df94" name="Imperium - Adeptus Astartes" revision="15" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -5702,6 +5702,7 @@ friendly IMPERIAL FISTS units that target VEHICLE or BUILDING units.</characteri
     <entryLink id="c1c6-a68a-82b4-7e6b" name="Centurion Devastator Squad" hidden="false" collective="false" import="true" targetId="2471-f69b-08e2-34a7" type="selectionEntry"/>
     <entryLink id="f339-c1d1-b836-08ef" name="Centurion Assault Squad" hidden="false" collective="false" import="true" targetId="0fb2-fc72-9e69-d8ad" type="selectionEntry"/>
     <entryLink id="e1d1-b9b6-00c7-8977" name="Assault Intercessors with Jump Packs" hidden="false" collective="false" import="true" targetId="257a-2875-c1cc-d2fd" type="selectionEntry"/>
+    <entryLink id="67b4-56eb-9155-72ea" name="Company Heroes" hidden="false" collective="false" import="true" targetId="a62b-e49b-aa1c-be9a" type="selectionEntry"/>
   </entryLinks>
   <rules>
     <rule id="02b9-ab07-a8f6-0d3b" name="And They Shall Know No Fear" hidden="false">
