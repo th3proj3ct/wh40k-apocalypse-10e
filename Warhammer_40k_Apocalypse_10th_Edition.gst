@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="440c-9567-ca71-f95b" name="Warhammer 40,000 Apocalypse 10th Edition" revision="15" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="440c-9567-ca71-f95b" name="Warhammer 40,000 Apocalypse 10th Edition" revision="16" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8df9-0b3e-abea-3c15" name="Warhammer 40,000: Apocalypse" publicationDate="2019"/>
     <publication id="3434-17b5-4a22-f338" name="Fundapocalypse Custom Rules" shortName="Fundapocalypse Custom Rules" publisherUrl="https://github.com/normanthesquid/wh40k-fundapocalypse/wiki"/>
