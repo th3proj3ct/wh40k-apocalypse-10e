@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c6da-2a53-58db-09a5" name="Imperium - Black Templars" revision="6" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c6da-2a53-58db-09a5" name="Imperium - Black Templars" revision="7" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -808,6 +808,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
     <entryLink id="e738-8ae0-747b-9bf5" name="Show Legends" hidden="false" collective="false" import="true" targetId="c13b-ab88-b33f-dcd5" type="selectionEntry"/>
     <entryLink id="ffda-5b26-8357-5ab3" name="Vanguard Veteran Squad" hidden="false" collective="false" import="true" targetId="7690-88a6-cb08-4bcf" type="selectionEntry"/>
     <entryLink id="41f8-31fd-3234-b3c7" name="Assault Intercessors with Jump Packs" hidden="false" collective="false" import="true" targetId="257a-2875-c1cc-d2fd" type="selectionEntry"/>
+    <entryLink id="2990-87ed-9e45-c7d1" name="Kratos [Legends]" hidden="false" collective="false" import="true" targetId="a062-2887-02f9-3cba" type="selectionEntry"/>
   </entryLinks>
   <rules>
     <rule id="5c67-78e0-c508-754f" name="And They Shall Know No Fear" hidden="false">
