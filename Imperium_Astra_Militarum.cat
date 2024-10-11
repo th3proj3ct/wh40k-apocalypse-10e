@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5014-071d-98d0-0768" name="Imperium - Astra Militarum" revision="6" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5014-071d-98d0-0768" name="Imperium - Astra Militarum" revision="7" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="b6a1-41e3-5fe3-e661" name="Lord Castellan Creed" hidden="false"/>
     <categoryEntry id="b0a1-41e3-5fe3-e661" name="Colour Sergeant Kell" hidden="false"/>
@@ -91,6 +91,7 @@
     <categoryEntry id="7b10-8288-447c-b8b1" name="Faction: Astra Militarum" hidden="false"/>
     <categoryEntry id="f9db-fde0-9efb-2594" name="Cyllarus Armoured Car" publicationId="3434-17b5-4a22-f338" hidden="false"/>
     <categoryEntry id="53b8-c6df-785d-1679" name="Asterion Command Vehicle" publicationId="3434-17b5-4a22-f338" hidden="false"/>
+    <categoryEntry id="3f54-641a-0eee-fa9a" name="Officer" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="1df4-025c-99c1-3120" name="Hades Breaching Drill" hidden="false" collective="false" import="true" type="upgrade">
@@ -524,6 +525,7 @@
         <categoryLink id="9a38-00c4-301a-ca0b" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="4f8d-aeca-c6d7-f00d" name="Colonel &apos;Iron Hand&apos; Straken" hidden="false" targetId="b601-41e3-5fe3-e661" primary="false"/>
         <categoryLink id="e621-c797-5ea1-1d80" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="7986-c712-2a20-4a84" name="Officer" hidden="false" targetId="3f54-641a-0eee-fa9a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9d8f-370a-de80-d948" name="Bionic Arm" hidden="false" collective="false" import="true" type="upgrade">
@@ -1094,6 +1096,7 @@
         <categoryLink id="49ac-afd6-773f-0073" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="4c09-e189-ec13-9ac2" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="31e7-b8f7-9cbf-c306" name="Commissar" hidden="false" targetId="b6a1-81e3-5fe3-e661" primary="false"/>
+        <categoryLink id="0324-f1ca-d44c-24b5" name="Officer" hidden="false" targetId="3f54-641a-0eee-fa9a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="59eb-fe71-0573-c712" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
@@ -1559,6 +1562,7 @@
         <categoryLink id="a759-11db-1946-c511" name="Faction: Officio Prefectus" hidden="false" targetId="b6a8-41e3-5fe3-e661" primary="false"/>
         <categoryLink id="42d7-4973-b965-f056" name="Commissar" hidden="false" targetId="b6a1-81e3-5fe3-e661" primary="false"/>
         <categoryLink id="d735-9470-4613-dc84" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="5d5d-7d0c-1a27-bf76" name="Officer" hidden="false" targetId="3f54-641a-0eee-fa9a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5f1a-893a-42ab-8248" name="Larkin’s long-las" hidden="false" collective="false" import="true" type="upgrade">
@@ -1639,6 +1643,7 @@
         <categoryLink id="681e-ba4b-ae51-4566" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="5fcb-2aff-0455-e5aa" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="186b-1f5f-d098-0c47" name="Faction: Cadian" hidden="false" targetId="b6a1-41e3-0fe3-e661" primary="false"/>
+        <categoryLink id="6f88-4255-63d0-7ed9" name="Officer" hidden="false" targetId="3f54-641a-0eee-fa9a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="018f-dae1-f9e8-2999" name="Commissar Weapons" hidden="false" collective="false" import="true" type="upgrade">
@@ -1846,6 +1851,7 @@
         <categoryLink id="08c4-a266-de55-96ad" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="4beb-6cca-3279-8851" name="Faction: Cadian" hidden="false" targetId="b6a1-41e3-0fe3-e661" primary="false"/>
         <categoryLink id="291c-6db1-e030-8bad" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="3184-ff12-bf31-2661" name="Officer" hidden="false" targetId="3f54-641a-0eee-fa9a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7a6c-7fc6-5429-f57b" name="Regimental Standard" hidden="false" collective="false" import="true" type="upgrade">
@@ -1932,6 +1938,7 @@
         <categoryLink id="942c-3567-e7af-adf1" name="Militarum Tempestus Command Squad" hidden="false" targetId="b621-41e3-5fe3-e661" primary="false"/>
         <categoryLink id="ad9b-9ed3-e7e4-66af" name="Militarum Tempestus Scions" hidden="false" targetId="b6a2-41e3-5fe3-e661" primary="false"/>
         <categoryLink id="da92-258d-b4ec-ff1e" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="2ccf-0723-ce6c-c99d" name="Officer" hidden="false" targetId="3f54-641a-0eee-fa9a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3236-5297-3f06-fcd5" name="Regimental Standard" hidden="false" collective="false" import="true" type="upgrade">
@@ -1994,6 +2001,7 @@
         <categoryLink id="c779-28bf-9ac0-0e8b" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="d1b1-f0f3-7ba5-6424" name="Faction: Cadian" hidden="false" targetId="b6a1-41e3-0fe3-e661" primary="false"/>
         <categoryLink id="6f3c-4160-a494-f0b0" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="fea5-01db-4e54-bd47" name="Officer" hidden="false" targetId="3f54-641a-0eee-fa9a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7c7f-b06e-7262-904b" name="Regimental Standard" hidden="false" collective="false" import="true" type="upgrade">
@@ -2072,6 +2080,7 @@
         <categoryLink id="6db2-4ad5-9ebe-1c27" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="6b95-06ee-7307-bf28" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="df7b-99e5-e19b-6701" name="Battle Tank" hidden="false" targetId="aebc-fe1c-b0e7-26c1" primary="false"/>
+        <categoryLink id="73dc-937b-9107-6819" name="Officer" hidden="false" targetId="3f54-641a-0eee-fa9a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c19a-63d6-32f2-2166" name="Turret Weapon" hidden="false" collective="false" import="true" targetId="bb76-bd32-15c8-099c" type="selectionEntryGroup">
@@ -2137,6 +2146,7 @@
         <categoryLink id="9f24-8613-e91c-0eb6" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="c63b-d1d3-4187-f8b3" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="c566-b9fa-8f13-a7f6" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="29d6-f175-ec4a-385c" name="Officer" hidden="false" targetId="3f54-641a-0eee-fa9a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="893e-d8dd-b3ca-97da" name="Duty and Vengeance" hidden="false" collective="false" import="true" type="upgrade">
@@ -2311,6 +2321,9 @@
         <entryLink id="a22b-d54e-8879-eefe" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="1930-629e-1238-027f" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="1221-ff3c-5f9c-ac4f" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2199-3179-b6e9-d907" name="Death Korps of Krieg" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -2481,6 +2494,9 @@
         <entryLink id="a68a-b9a0-60ce-c3b7" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="5c59-46d4-1a64-41ed" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="1221-ff3c-5f9c-ac4f" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f3f3-39b2-b1bb-6707" name="Karskin" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -2679,6 +2695,7 @@
         <categoryLink id="f49a-d343-c6c2-13d7" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="ef8b-6165-0602-1b21" name="Faction: Catachan" hidden="false" targetId="b6a1-01e3-5fe3-e661" primary="false"/>
         <categoryLink id="72d8-1209-9025-771b" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="97f0-dba1-3783-34c2" name="Officer" hidden="false" targetId="3f54-641a-0eee-fa9a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="af40-88e8-2c34-9f56" name="Payback" hidden="false" collective="false" import="true" type="upgrade">
@@ -5244,6 +5261,7 @@
         <categoryLink id="4eec-ebca-fae1-2488" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="a042-4515-83b0-93a3" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="900f-3189-fe08-1cd5" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="4aea-1fe8-265f-e9e2" name="Officer" hidden="false" targetId="3f54-641a-0eee-fa9a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f60d-655d-162b-f77a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
@@ -7647,7 +7665,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         </profile>
         <profile id="a9bd-1226-f9dd-68ab" name="Lord Commander Solar" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly ASTRA MILITARUM unit is within 6&quot; of this model, each time a model in that unit makes an attack, you can re-roll the hit roll (if that unit is a LIGHT unit, you can also re-roll the wound roll).</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can Order two additional units.</characteristic>
           </characteristics>
         </profile>
         <profile id="10f4-a82b-ad08-d44b" name="Artificer Refractor Helm" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -7675,6 +7693,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <categoryLink id="bfc3-f513-055d-dc6a" name="Faction: Cadian" hidden="false" targetId="b6a1-41e3-0fe3-e661" primary="false"/>
         <categoryLink id="b976-e5cd-3f6c-0fb2" name="Cavalry" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
         <categoryLink id="fbcf-16fa-504b-c38c" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="516c-22ec-2a8b-cc4b" name="Officer" hidden="false" targetId="3f54-641a-0eee-fa9a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c92d-e6fd-6eb5-88ef" name="Conquest" hidden="false" collective="false" import="true" type="upgrade">
@@ -7750,6 +7769,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <categoryLink id="e3bb-e99c-fb04-2e97" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="b858-d1d7-a3ac-3a93" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="c8ec-44d9-51cc-4b78" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="e509-2506-6b4c-2617" name="Officer" hidden="false" targetId="3f54-641a-0eee-fa9a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="7839-6737-8534-2eee" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
@@ -7788,6 +7808,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <categoryLink id="f9e0-95c6-1a8c-cd41" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="83e1-ac16-9977-f34d" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="a931-fb6e-5679-d1c5" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="0b85-4277-b6b3-06db" name="Officer" hidden="false" targetId="3f54-641a-0eee-fa9a" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ab8e-77c7-b656-f9ed" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
@@ -8420,7 +8441,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
   </entryLinks>
   <rules>
     <rule id="f11b-80f6-238e-ba9e" name="Voice of Command" hidden="false">
-      <description>ASTRA MILITARUM units in this Detachment can use the Leadership characteristic of their Commander instead of their own.</description>
+      <description>ASTRA MILITARUM units in this Detachment can use the Leadership characteristic of their Commander instead of their own. Additionally, for each officer in the detachment, one unit within 12” of an that officer in the same detachment unit can be Ordered. Ordered units increase their Ballistic and Weapon skills by 1 until the end of the turn.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>

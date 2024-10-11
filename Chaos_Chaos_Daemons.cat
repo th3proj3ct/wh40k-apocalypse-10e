@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e51a-1e21-6ae4-2d6c" name="Chaos - Chaos Daemons" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e51a-1e21-6ae4-2d6c" name="Chaos - Chaos Daemons" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="bb5c-0fba-06fd-2fcb" name="Tally of Pestilence">
       <characteristicTypes>
@@ -2366,6 +2366,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3bf-1db7-234a-222f" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -7297,7 +7300,7 @@
   </selectionEntries>
   <rules>
     <rule id="123b-e7bd-7bec-db1e" name="Daemonic Invulnerability" hidden="false">
-      <description>Each time you roll damage for a LEGIONES DAEMONICA unit in the Detachment, you can roll one D12 for one of that unit&apos;s saving throws instead of one D6.</description>
+      <description>Each time you roll damage for a LEGIONES DAEMONICA unit in the Detachment, you can roll a D12 for one of that unit&apos;s saving throws instead of one D6.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b705-9ea8-d8d9-d3f3" name="Imperium - Dark Angels" revision="7" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b705-9ea8-d8d9-d3f3" name="Imperium - Dark Angels" revision="8" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -953,11 +953,9 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
     <entryLink id="acf2-b417-10e1-445e" name="Assault Intercessors with Jump Packs" hidden="false" collective="false" import="true" targetId="257a-2875-c1cc-d2fd" type="selectionEntry"/>
     <entryLink id="18db-b69d-9001-e807" name="Kratos [Legends]" hidden="false" collective="false" import="true" targetId="a062-2887-02f9-3cba" type="selectionEntry"/>
   </entryLinks>
-  <rules>
-    <rule id="90f6-3cd3-e02e-ac07" name="And They Shall Know No Fear" hidden="false">
-      <description>Re-roll failed Morale tests taken for ADEPTUS ASTARTES units in this Detachment.</description>
-    </rule>
-  </rules>
+  <infoLinks>
+    <infoLink id="c1ff-5850-f256-dc8a" name="And They Shall Know No Fear" hidden="false" targetId="547d-653d-0f2f-3b28" type="rule"/>
+  </infoLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3cbe-c8ba-c8b4-3f8e" name="Azrael" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <constraints>

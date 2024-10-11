@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1339-e553-0775-03de" name="Imperium - Adeptus Custodes" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1339-e553-0775-03de" name="Imperium - Adeptus Custodes" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a70b-b27c-4926-d99c" name="Faction: Adeptus Custodes" hidden="false"/>
     <categoryEntry id="e6c3-ba23-fdf0-2498" name="Captain-General Trajann Valoris" hidden="false"/>
@@ -2511,7 +2511,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
   </selectionEntries>
   <rules>
     <rule id="00bb-3bda-6bc2-144e" name="The Emperor&apos;s Chosen" hidden="false">
-      <description>ADEPTUS CUSTODES units in this Detachment do not suffer penalties for being critically damaged (p33).</description>
+      <description>ADEPTUS CUSTODES units in this Detachment do not suffer penalties for being critically damaged. Additionally, when a unit is chosen to Fight, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] or [LETHAL HITS] ability.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>

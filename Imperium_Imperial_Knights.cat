@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bc25-9b95-98d4-5b88" name="Imperium - Imperial Knights" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bc25-9b95-98d4-5b88" name="Imperium - Imperial Knights" revision="5" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a6fe-fc09-5627-ff05" name="Faction: Imperial Knights" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="d37d-c3f9-f400-4093" name="Faction: &lt;Questor Allegiance&gt;" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
@@ -143,7 +143,7 @@
   </entryLinks>
   <rules>
     <rule id="80c2-3449-cf92-a17d" name="Knight Lances" publicationId="8df9-0b3e-abea-3c15" hidden="false">
-      <description>One IMPERIAL KNIGHTS CHARACTER in the Detachment gains a Warmaster Trait if they are the Commander even if they are not your Warmaster (if the unit is your Warmaster, then they have two Warmaster Traits — re-roll any duplicate results when determining these).</description>
+      <description>IMPERIAL KNIGHT units are able to shoot AND fight when given an Advance order, instead of only picking one. Additionally, non-armiger class knights can re-roll one hit OR wound roll when selected to activate.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -2777,6 +2777,9 @@ All weapons equipped by this model have [SUSTAINED HITS 1].</characteristic>
                   </modifiers>
                 </infoLink>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="23f9-6dcb-68ce-b82b" name="Conversion Beam Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2806,6 +2809,9 @@ All weapons equipped by this model have [SUSTAINED HITS 1].</characteristic>
                   </modifiers>
                 </infoLink>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d4c5-1f24-6d75-7b3d" name="Siege Claw and Rad Cleanser" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2836,6 +2842,9 @@ All weapons equipped by this model have [SUSTAINED HITS 1].</characteristic>
               <infoLinks>
                 <infoLink id="712a-8087-2b14-724e" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="490a-15ca-02b7-7d96" name="Volkite Veuglaire" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2856,6 +2865,9 @@ All weapons equipped by this model have [SUSTAINED HITS 1].</characteristic>
               <infoLinks>
                 <infoLink id="17a0-8bc1-5e8d-7dbc" name="Devastating Wounds" hidden="false" targetId="5154-3b0e-f960-5cb3" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2884,6 +2896,9 @@ All weapons equipped by this model have [SUSTAINED HITS 1].</characteristic>
               <infoLinks>
                 <infoLink id="7264-34eb-0add-682d" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="fd72-bfdc-301d-cf90" name="Conversion Beam Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2913,6 +2928,9 @@ All weapons equipped by this model have [SUSTAINED HITS 1].</characteristic>
                   </modifiers>
                 </infoLink>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f8c1-c4bc-2528-8a53" name="Lightning Lock" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2937,6 +2955,9 @@ All weapons equipped by this model have [SUSTAINED HITS 1].</characteristic>
                   </modifiers>
                 </infoLink>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="eef6-4cf3-d45f-c91b" name="Siege Claw and Rad Cleanser" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2967,6 +2988,9 @@ All weapons equipped by this model have [SUSTAINED HITS 1].</characteristic>
               <infoLinks>
                 <infoLink id="7ea0-e15b-c029-e877" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a3b2-b1e4-7815-ac21" name="Aeldari - Drukhari" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a3b2-b1e4-7815-ac21" name="Aeldari - Drukhari" revision="5" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3cef-65f6-1938-6b57" name="Archon" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="052f-2cba-abf7-da92" name="Faction: &lt;KABAL&gt;" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
@@ -326,6 +326,11 @@
       </categoryLinks>
     </entryLink>
   </entryLinks>
+  <rules>
+    <rule id="2182-90a3-5203-9e55" name="Power From Pain" hidden="false">
+      <description>DRUKHARI units in this Detachment have the Ignore Damage (6+) ability</description>
+    </rule>
+  </rules>
   <sharedSelectionEntries>
     <selectionEntry id="17d0-1558-09cd-cb58" name="Archon" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>

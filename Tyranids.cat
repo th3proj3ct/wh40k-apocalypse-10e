@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0a97-63bd-1f47-6b26" name="Tyranids" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0a97-63bd-1f47-6b26" name="Tyranids" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="a37b-2844-afcc-f4eb" name="Tyranid Hive Fleets"/>
     <publication id="5101-ac41-4666-a01a" name="Forge World Tyranids"/>
@@ -2198,8 +2198,8 @@
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -3131,8 +3131,8 @@
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
@@ -3237,8 +3237,8 @@
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
                   </characteristics>
                 </profile>
@@ -5487,7 +5487,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fc7f-7ed4-b261-2d48" name="Unit Size" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="fc7f-7ed4-b261-2d48" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="7898-340d-4ab7-b755">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57c9-1134-519e-62de" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2ed-28d6-5770-1106" type="max"/>
@@ -5550,7 +5550,7 @@
         <infoLink id="1315-4daf-8fed-20d3" name="Stealth" hidden="false" targetId="b133-8e04-3e7b-9fd6" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ba80-060f-73a3-217c" name="Unit Size" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="ba80-060f-73a3-217c" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="9b73-c595-0e9b-8c48">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5d3-40ca-6d30-c260" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9952-d3a8-4371-4e00" type="max"/>
@@ -5683,6 +5683,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7f5b-1d39-20ce-66cb" name="Singular Purpose (Defend)" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -5692,6 +5695,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -5763,6 +5769,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b444-6d08-38ba-a519" name="Singular Purpose (Defend)" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -5772,6 +5781,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>

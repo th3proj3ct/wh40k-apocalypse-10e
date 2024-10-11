@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="722e-4aa1-aa02-0a8e" name="Chaos - World Eaters" revision="6" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="722e-4aa1-aa02-0a8e" name="Chaos - World Eaters" revision="7" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="6b5c-ca1c-f4a0-fd1a" name="Kytan Ravager [Lengeds]" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -457,6 +457,9 @@
     </entryLink>
     <entryLink id="df16-c210-4b79-7e6b" name="Show Legends" hidden="false" collective="false" import="true" targetId="c13b-ab88-b33f-dcd5" type="selectionEntry"/>
   </entryLinks>
+  <infoLinks>
+    <infoLink id="a0cc-97dc-a570-e2fa" name="Let The Galaxy Burn" hidden="false" targetId="cf83-b3f7-9062-f56d" type="rule"/>
+  </infoLinks>
   <sharedSelectionEntries>
     <selectionEntry id="80f8-50fb-e106-f63a" name="Angron" hidden="false" collective="false" import="true" type="unit">
       <constraints>

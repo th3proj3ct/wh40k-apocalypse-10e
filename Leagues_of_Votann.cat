@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="684e-754d-300c-cd1a" name="Leagues of Votann" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="684e-754d-300c-cd1a" name="Leagues of Votann" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="09a2-55a0-4d86-8452" name="Brôkhyr Iron-master" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -152,6 +152,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="0df5-94b3-d39a-68d0" name="Mass Hammer" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -166,6 +169,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -260,6 +266,9 @@
           <infoLinks>
             <infoLink id="d3d1-bb1c-40f5-da4c" name="Witchfire" hidden="false" targetId="8ce8-6dd3-c0a8-35ad" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -468,6 +477,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -586,7 +598,19 @@
 At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN WARRIORS unit from your army and split it into two units, each containing 5 models (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this TRANSPORT; the other can start the battle embarked within another TRANSPORT, or it can be deployed as a separate unit. Halve the Wounds and Attacks for both units of HEARTHKYN WARRIORS.</characteristic>
           </characteristics>
         </profile>
+        <profile id="730c-7d38-129a-c384" name="Blistering Advance" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Units can disembark from this TRANSPORT after it has Assaulted. Units that do so count as having made a Normal move that phase, and cannot disembark in engagement range, but can otherwise act normally in the remainder of the turn.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="dc5f-06d6-99fc-6758" name="Scouts X" hidden="false" targetId="d252-8f28-994e-d9b2" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Scouts 6&quot;"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="59c1-d3a2-b06f-99b9" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="5b85-a9fd-bd04-5430" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
@@ -639,7 +663,7 @@ At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits2</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 2</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="9167-ca11-93f8-73d8" name="Missile Launchers" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -839,7 +863,7 @@ At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN
     </selectionEntry>
     <selectionEntry id="c666-b8ab-2985-63e3" name="Cthonian Berserks" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="bd4b-5d8e-ed40-63e9" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
+        <infoLink id="bd4b-5d8e-ed40-63e9" name="Ignore Damage (5+)" hidden="false" targetId="958c-7037-989a-6da0" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2804-6610-7580-3960" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
@@ -1276,11 +1300,17 @@ At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN
                 <infoLink id="5200-bd6f-13f1-2324" name="Barrage" hidden="false" targetId="7296-134e-970b-4790" type="rule"/>
                 <infoLink id="09f1-b32e-1586-0437" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b624-843c-8fcd-5a40" name="Pan Spectral Scanner" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="9b8f-896a-95d5-22fe" name="Pan Spectral Scanner" hidden="false" targetId="f159-6f6b-500e-9917" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1327,7 +1357,7 @@ At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1351,7 +1381,7 @@ At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1482,7 +1512,10 @@ At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN
   </selectionEntries>
   <rules>
     <rule id="e833-d2da-d2f7-6ef7" name="Eye of the Ancestors" hidden="false">
-      <description>Each time an enemy unit destroys a VOTANN unit from your army, that enemy unit gains 1 Judgement token. Each time a VOTANN unit from your army makes an attack against a unit that has a Judgement token, on an unmodified hit roll of 6, that attack automatically wounds the target.</description>
+      <description>Each time a LEAGUES OF VOTANN detachment is activated, you can choose to judge one enemy unit, or two. Until the end of the turn, attacks made by friendly LEAGUES OF VOTANN units in this detachment gain a bonus against the target(s):
+If one unit is selected, add 1 to the Hit roll and 1 to the Wound roll 
+If two units are selected, add 1 to the Hit roll.
+</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -1494,6 +1527,9 @@ At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cc60-15cc-892e-1e58" name="Teleport Crest" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1503,6 +1539,9 @@ At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7e89-26ba-97fc-67d7" name="Autoch-Pattern Combi-Bolter" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1546,6 +1585,9 @@ At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5324-df53-6c54-1a34" name="Voilkite Disintegrator" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1574,8 +1616,8 @@ At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
           </characteristics>
         </profile>

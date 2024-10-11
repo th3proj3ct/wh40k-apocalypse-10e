@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3568-97f7-47a9-5157" name="Chaos - Chaos Space Marines" revision="7" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3568-97f7-47a9-5157" name="Chaos - Chaos Space Marines" revision="9" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="9ce0-92a4-75e9-c09f" name="Faction: Skulltakers" hidden="false"/>
     <categoryEntry id="77e2-0635-9df5-4f43" name="Zhufor the Impaler" hidden="false"/>
@@ -903,6 +903,11 @@
       </categoryLinks>
     </entryLink>
   </entryLinks>
+  <rules>
+    <rule id="19ce-9e2d-3598-9780" name="Let the Galaxy Burn" hidden="false">
+      <description>Re-roll wound rolls of 1 for attacks made by HERETIC ASTARTES units in this Detachment.</description>
+    </rule>
+  </rules>
   <sharedSelectionEntries>
     <selectionEntry id="4cdf-0f1f-0d39-5750" name="Zhufor the Impaler" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -1250,7 +1255,7 @@
         </profile>
         <profile id="bef5-96ee-9a0c-625b" name="Warp-sighted Butcher" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is leading a unit, each time a model in that unit makes a melee attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If that unit is Below Half-strength, you can re-roll the Wound roll as well</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is leading a unit, each time a model in that unit makes a melee attack that targets a unit that has a damage marker, you can re-roll the Hit roll.</characteristic>
           </characteristics>
         </profile>
         <profile id="ee9f-6e3a-dc98-9ec1" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -1617,7 +1622,7 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="161f-9924-a939-7d8e" name="Heretic Astartes Daemon Prince" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="161f-9924-a939-7d8e" name="Daemon Prince" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="1dc4-b8e1-050f-c95e" name="Daemon Prince" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
@@ -4590,7 +4595,7 @@ When this unit is selected to perform its action, you may remove a damage marker
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="997f-2335-7038-a5d5" name="Heretic Astartes Daemon Prince with Wings" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="997f-2335-7038-a5d5" name="Daemon Prince with Wings" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="86c3-be62-5f7b-54be" name="Heretic Astartes Daemon Prince with Wings" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>

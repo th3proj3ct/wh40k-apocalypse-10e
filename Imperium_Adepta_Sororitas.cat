@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="38f0-5578-883c-b62b" name="Imperium - Adepta Sororitas" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="38f0-5578-883c-b62b" name="Imperium - Adepta Sororitas" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="571e-a83e-e771-780a" name="Faction: Adeptus Ministorum" hidden="false"/>
     <categoryEntry id="21f5-1b47-2570-42d1" name="Faction: Adepta Sororitas" hidden="false"/>
@@ -2985,7 +2985,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
   </selectionEntries>
   <rules>
     <rule id="62a2-1477-295c-39e7" name="Martyrdom" hidden="false">
-      <description>Each time an ADEPTA SORORITAS CHARACTER in this Detachment is destroyed, you generate one Command Point.</description>
+      <description>Each time an ADEPTA SORORITAS CHARACTER unit in this Detachment is destroyed, roll a D6 and add it to your miracle dice pool. Before making a dice roll for a unit in with this ability, you can substitute that roll with a D6 from your miracle dice pool. </description>
     </rule>
   </rules>
   <sharedSelectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7c79-7dbd-6585-0846" name="Library - Space Marines" revision="19" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7c79-7dbd-6585-0846" name="Library - Space Marines" revision="22" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -1051,13 +1051,23 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f5a-376b-35cd-0eab" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5221-7b84-19eb-54e0" name="Master-crafted Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+        <profile id="5221-7b84-19eb-54e0" name="Master-crafted Weapons (Melee)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c182-5678-109e-9882" name="Master-crafted Weapons (Ranged)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -1530,29 +1540,6 @@
         <categoryLink id="ed72-647b-f6c6-31bb" name="Lieutenant" hidden="false" targetId="c1bc-cc91-15db-65fc" primary="false"/>
         <categoryLink id="f2a5-6f02-c3e0-38f6" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="0e6a-a636-71cd-b352" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a97e-adc7-f17f-ed4f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0219-3189-d30e-d246" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="b19f-e85c-625a-3af7" name="Close Combat Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="e9d6-2d5d-10f4-cb82" name="Wargear" hidden="false" collective="false" import="true" defaultSelectionEntryId="4440-4308-124e-9f0b">
           <constraints>
@@ -7025,6 +7012,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="4084-34a7-d071-6021" name="Assault Ramp" hidden="false" targetId="cab7-972d-999b-62dc" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6961-51da-3e8e-313c" name="Lord of War" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
         <categoryLink id="a85d-a494-5d78-fb05" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
@@ -11914,7 +11904,7 @@ Additionally, add 1 to that model&apos;s hit roll until the end of the turn.</ch
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="17f6-b7d4-696d-eec8" name="Models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="17f6-b7d4-696d-eec8" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="f83a-96de-3067-3997">
           <selectionEntries>
             <selectionEntry id="f83a-96de-3067-3997" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -14727,7 +14717,7 @@ that target this unit.</characteristic>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4aac-fdf6-e46d-aabc" name="5 - 10 models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4aac-fdf6-e46d-aabc" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="990d-b449-6997-4fb5">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f474-631f-f05c-e3a0" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d91f-7273-154e-036f" type="max"/>
@@ -15357,6 +15347,11 @@ that target this unit.</characteristic>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="547d-653d-0f2f-3b28" name="And They Shall Know No Fear" hidden="false">
+      <description>Re-roll failed Morale tests taken for ADEPTUS ASTARTES units in this Detachment.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles>
     <profile id="9fd5-e263-b9aa-02b7" name="Marine Profile" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
       <characteristics>

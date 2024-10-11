@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ae50-a764-7615-1124" name="Adeptus Titanicus" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ae50-a764-7615-1124" name="Adeptus Titanicus" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="05ad-0c67-98c4-ede3" name="Warhound Titan" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -68,7 +68,7 @@
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">6</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
@@ -108,7 +108,7 @@
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">72&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
@@ -128,7 +128,7 @@
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">7</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">8</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
@@ -696,6 +696,11 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <rules>
+    <rule id="c8cc-6ae8-9316-5631" name="Titanic Support" hidden="false">
+      <description>You may pick one IMPERIUM or CHAOS detachment in your army, this model gains that faction rule.</description>
+    </rule>
+  </rules>
   <sharedSelectionEntries>
     <selectionEntry id="20a1-8421-87e6-9b40" name="Reaver Gatling Blaster" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -785,7 +790,7 @@
   <sharedProfiles>
     <profile id="fadf-dce0-f10a-3ba6" name="Imperial God-engine" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll Morale tests taken for this unit.</characteristic>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll Morale tests taken for this unit. Additionally, each time this unit is selected to shoot or fight, you can re-roll one Hit roll when resolving those attacks.</characteristic>
       </characteristics>
     </profile>
     <profile id="a5c5-2853-d832-dc3a" name="Reactor Overload" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">

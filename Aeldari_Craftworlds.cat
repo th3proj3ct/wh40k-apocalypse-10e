@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2b16-2f50-0616-81bb" name="Aeldari - Craftworlds" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2b16-2f50-0616-81bb" name="Aeldari - Craftworlds" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e2fe-2446-61b7-11b3" name="Harlequin" hidden="false"/>
     <categoryEntry id="ed06-1726-894b-69cc" name="Farseer" hidden="false"/>
@@ -2506,13 +2506,114 @@ You can attach this model to one of the above units, even if one other Leader un
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7d1-99ae-9361-9031" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df2d-63f3-274d-9acb" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="4118-098d-30dd-7ad8" name="Shuriken Cannon" hidden="false" collective="false" import="true" targetId="3e29-aa56-b2a3-0587" type="selectionEntry"/>
-            <entryLink id="8236-879f-25ad-4038" name="Aeldari Missile Launcher" hidden="false" collective="false" import="true" targetId="0e74-9d9a-a6e1-5850" type="selectionEntry"/>
-            <entryLink id="60ec-5da5-4e15-e576" name="Bright Lance" hidden="false" collective="false" import="true" targetId="6c4e-3709-93e7-27ea" type="selectionEntry"/>
-            <entryLink id="46b2-8120-679c-ca2b" name="Scatter laser" hidden="false" collective="false" import="true" targetId="3174-aed7-f583-a076" type="selectionEntry"/>
-            <entryLink id="bec2-622f-f7a6-dbb7" name="Starcannon" hidden="false" collective="false" import="true" targetId="68ba-0eea-f9a0-ba19" type="selectionEntry"/>
-          </entryLinks>
+          <selectionEntries>
+            <selectionEntry id="34a2-bc56-75de-5002" name="Aeldari Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="5a7d-ea07-c7b1-840e" name="Aeldari Missile Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast, Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="ce10-1596-620f-2216" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
+                <infoLink id="194a-ab51-1ff4-d8b3" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b622-ed24-0157-0bab" name="Bright Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="196a-a0b7-4a73-3404" name="Bright Lance" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="33fa-98f7-fadf-fe0b" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="262f-db23-ea23-5e4e" name="Scatter laser" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="b943-b17a-7c44-03f3" name="Scatter laser" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="de36-9a57-1cb4-bfed" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="20ac-9d19-82af-1d80" name="Shuriken Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="241c-4128-2ed2-71c4" name="Shuriken Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1, Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="64ee-a983-e413-ae7d" name="Sustained Hits X" hidden="false" targetId="d0a7-26e1-b2cb-2bce" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Sustained Hits 1"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="f03d-313c-e77d-b64d" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="18c3-3c6d-c463-0c98" name="Starcannon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="9fbd-c484-c1c9-0c06" name="Starcannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="ab6f-c100-e593-df57" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -2902,7 +3003,7 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="dd26-da22-7721-11ec" name="Models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="dd26-da22-7721-11ec" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="a1d5-c352-a30f-7c4f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b29b-6f72-bfc9-f91c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="485d-d886-07f2-2742" type="max"/>
@@ -2923,7 +3024,7 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="938e-1a37-2791-8e98" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2941,7 +3042,7 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2956,7 +3057,7 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca40-f0c1-958e-72be" name="Falcon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3002,6 +3103,16 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
             <entryLink id="a6f8-737f-c86b-de31" name="Aeldari Missile Launcher" hidden="false" collective="false" import="true" targetId="0e74-9d9a-a6e1-5850" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="5403-a757-c667-7ea6" name="Secondary Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fd4-6de7-6788-8e84" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcb6-2fb0-fe45-8277" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="21cb-4616-2016-873e" name="Twin Shuriken Catapult" hidden="false" collective="false" import="true" targetId="5aef-2dca-a6fe-2d9b" type="selectionEntry"/>
+            <entryLink id="c4cd-623d-20c1-1804" name="Shuriken Cannon" hidden="false" collective="false" import="true" targetId="3e29-aa56-b2a3-0587" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="3fb9-e417-944f-c535" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="6b1a-ee7a-bf45-805f" type="selectionEntry">
@@ -3016,12 +3127,6 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6059-f844-26ab-7a29" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="5054-19b0-d6f2-9fb4" name="Twin Shuriken Catapult" hidden="false" collective="false" import="true" targetId="5aef-2dca-a6fe-2d9b" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6ee-f6c8-029f-31dc" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc3a-2604-cf92-6417" type="max"/>
-          </constraints>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
@@ -3031,7 +3136,7 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
       <profiles>
         <profile id="ceb6-74ba-12a8-2bce" name="Assured Destruction" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a model in this unit makes a ranged attack that targets a HEAVY unit, re-roll a Wound roll of 1 or 2.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a model in this unit makes a ranged attack that targets a HEAVY unit, re-roll Hit rolls of 1 and Wound rolls of 1 or 2.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3206,6 +3311,11 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This unit is eligible to end in Engagement Range of enemy units in a turn in which it Fell Back.</characteristic>
           </characteristics>
         </profile>
+        <profile id="85b8-d394-a005-9bf2" name="Dodge" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If this unit was in engagement range of an enemy unit at the start of the Damage phase, its Save characteristic becomes 4+ until the end of the turn.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="27ac-a9c6-8801-df19" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
@@ -3223,7 +3333,7 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
@@ -3251,7 +3361,7 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3269,7 +3379,7 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3811,8 +3921,8 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
               </characteristics>
             </profile>
@@ -4715,6 +4825,10 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="14b3-b881-65f0-e718" name="Devastating Wounds" hidden="false" targetId="5154-3b0e-f960-5cb3" type="rule"/>
+            <infoLink id="b679-cf0e-3bcb-c5f0" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
@@ -4985,7 +5099,7 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
       <profiles>
         <profile id="1b8e-93a7-9cd9-4977" name="War Construct" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per battle round, when an enemy unit targets this unit, after that unit has finished making its attacks, this unit can shoot as if it were your activation, even if it has already shot this round.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Models in this unit can make attacks with ranged weapons even while their unit is within Engagement Range of enemy units, but each model can only make such attacks against enemy units that they are within Engagement Range of. In such circumstances, models in this unit can target an enemy unit even if other friendly units are within Engagement Range of the same enemy unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5106,6 +5220,9 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="7cc3-6744-cd45-329f" name="Unparalleled Foresight" hidden="false" targetId="fac0-81ca-1934-7ceb" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="685c-7a3d-75b0-d84e" name="Wraith Construct" hidden="false" targetId="fd5c-ed91-973d-1166" primary="false"/>
         <categoryLink id="285a-f962-ecfd-d366" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
@@ -5138,8 +5255,8 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast, Destroyer</characteristic>
                   </characteristics>
                 </profile>
@@ -5194,8 +5311,8 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast, Destroyer</characteristic>
                   </characteristics>
                 </profile>
@@ -5435,10 +5552,915 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="5ebb-cfcd-85fd-372c" name="Hornet" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c987-c49e-1e7a-d50c" name="Lightning Assault" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model ends a Normal move, you can select one enemy LIGHT unit that it moved over during that move, then roll one D6: on a 4+, place a blast marker next to that unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1930-06bd-0b56-c698" name="Scorpion" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="cee8-fd98-486c-0d78" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="350d-fde9-dff9-a0d0" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="168e-bd5b-4ad5-5b9a" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="70ae-1d47-d175-fbad" name="Hornet Pulse Lasers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb26-ba72-08db-a4a0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d78-fac2-9b93-8185" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="e4d8-3091-2647-1860" name="Hornet Pulse Lasers" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="753a-bb97-d3d0-7322" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a765-8714-7a5b-8eef" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="6b1a-ee7a-bf45-805f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="994c-17c7-2579-4b52" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab00-d657-6af0-2d00" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c317-c7d4-360b-b345" name="Scorpion" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4251-3c26-d70b-d7c4" name="Lanced Obliteration" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When selecting targets for this model&apos;s Twin Scorpion Pulsar, if the target is HEAVY, that weapon has the [DEVASTATING WOUNDS] ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bbe2-657c-ac8f-1203" name="Scorpion" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8e49-05d7-064c-f735" name="Unparalleled Foresight" hidden="false" targetId="fac0-81ca-1934-7ceb" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c30a-2adc-dfbf-021a" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="6081-6a3d-9cd7-4431" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="cc38-45fd-a681-d7b9" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3628-be60-2f85-2d86" name="Twin Scorpion Pulsar" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb85-5ec4-c5aa-324d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaf4-4078-9543-823d" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="46cc-43f3-c52b-5687" name="Twin Scorpion Pulsar" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">60&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin-Linked</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a4a7-7d33-4c90-aa1c" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fc6a-6d8e-ba2c-9432" name="Secondary Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad4b-de08-e178-61e8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3f2-0f53-d6ba-e558" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5542-326c-740e-5b8f" name="Twin Shuriken Catapult" hidden="false" collective="false" import="true" targetId="5aef-2dca-a6fe-2d9b" type="selectionEntry"/>
+            <entryLink id="94a0-4c59-48c9-5493" name="Shuriken Cannon" hidden="false" collective="false" import="true" targetId="3e29-aa56-b2a3-0587" type="selectionEntry"/>
+            <entryLink id="4639-8381-1f2f-1508" name="Aeldari Missile Launcher" hidden="false" collective="false" import="true" targetId="0e74-9d9a-a6e1-5850" type="selectionEntry"/>
+            <entryLink id="4c94-7b06-93c1-e09c" name="Starcannon" hidden="false" collective="false" import="true" targetId="68ba-0eea-f9a0-ba19" type="selectionEntry"/>
+            <entryLink id="f8a4-939f-c244-aafe" name="Bright Lance" hidden="false" collective="false" import="true" targetId="6c4e-3709-93e7-27ea" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="eb1e-4ef0-18df-8364" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="6b1a-ee7a-bf45-805f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c89f-7559-8e06-20db" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fad-2c62-f3fc-bb4a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fd38-19b9-5ac7-f540" name="Revenant Titan" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e489-9882-5a25-e365" name="Titanic Advance" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4&quot; or less in height as if they were not there.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="89cb-2c28-31e4-891b" name="Revenant Titan" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">16&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f565-b36f-3d41-c0b2" name="Unparalleled Foresight" hidden="false" targetId="fac0-81ca-1934-7ceb" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c10d-4ad2-f8ce-47bc" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="c14a-daff-ca44-a5b4" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="c62f-f714-8adb-97e8" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3142-5b2c-88ee-8d1f" name="Revenant Feet" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9a0-b7f0-644c-d750" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9cb-1617-ddf9-8f54" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="bd6d-1437-c863-896a" name="Revenant Feet" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="acd6-abba-6e5a-a01c" name="Cloudburst Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c3f-7101-9372-83b6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70bb-0952-6b44-bdc5" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="d202-4797-8302-b450" name="Cloudburst Missile Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5dd4-ef36-c925-6aaa" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4d3d-334d-5b8d-90d4" name="Left Arm" hidden="false" collective="false" import="true" defaultSelectionEntryId="c1a1-1f4b-9caf-975a">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d569-d044-7bc4-283f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8226-eb1c-5815-fb5c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c1a1-1f4b-9caf-975a" name="Sonic Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1654-adbb-0120-e957" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5f8-bc3d-a32d-6b78" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="c9f8-6f55-e549-4d19" name="Sonic Lance" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">5</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="6d26-a154-1bbb-da7c" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0419-b3b4-ee15-9972" name="Revenant Pulsar" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d998-168b-ec68-85e3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07fa-a0d9-1061-8ef0" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="de23-5e1e-1f70-ab73" name="Revenant Pulsar" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">60&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="3492-29da-17a4-5d36" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6cbe-ea15-f05e-8027" name="Right Arm" hidden="false" collective="false" import="true" defaultSelectionEntryId="fa50-0b1e-3bd4-a1ae">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="919e-d1a8-b42f-c8c7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e85e-962b-d62b-17c6" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="fa50-0b1e-3bd4-a1ae" name="Revenant Pulsar" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58aa-493e-b570-8ae4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6df-bc86-049a-15b2" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="62a5-47ab-985c-c790" name="Revenant Pulsar" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">60&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="3e1b-d369-a740-55c4" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6639-1529-6a2f-6acb" name="Sonic Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4bc-67c6-8ba5-941f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fb8-28e7-e992-d4c5" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="f2cd-ec5d-04b5-274b" name="Sonic Lance" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">5</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="45fc-fd20-a5b1-5f40" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6213-8034-cc39-01f3" name="Phantom Titan" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="11de-0d17-3ab3-4a7e" name="Titanic Advance" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4&quot; or less in height as if they were not there.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2acd-eb84-7a78-5d3c" name="Phantom Titan" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">11</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6dc6-f674-d209-f195" name="Flawless Poise" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model is eligible to end in Engagement Range in a turn in which it Fell Back.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="285d-8c46-6844-5f96" name="Unparalleled Foresight" hidden="false" targetId="fac0-81ca-1934-7ceb" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="de6e-d44e-b2dc-be2f" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="1373-5629-2006-48eb" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="cc35-71d7-84d4-6937" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="86a3-6f69-857c-16b8" name="Phantom Feet" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aae-2d06-242a-5677" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a75-f888-362c-ff49" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="49f7-38a1-66a1-20ca" name="Revenant Feet" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="56c8-562e-9189-76fc" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="89e6-3d8f-7cc1-007f" name="Voidstorm Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdb0-a7c5-34a9-b1ef" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f91-f1e0-33aa-ece8" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b905-fda6-f943-c5cd" name="Voidstorm Missile Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f11c-9739-a3f0-8412" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b23a-9736-35f1-25ed" name="Right Arm" hidden="false" collective="false" import="true" defaultSelectionEntryId="2c6a-e4a0-5a93-673b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9311-e901-8da0-72d6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7af3-ec2f-7657-5a84" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7def-3664-e9de-9c74" name="Wraith Glaive" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbf2-bd90-e3c3-4c81" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4656-dbcf-4b79-0ed2" name="Wraith Glaive" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="f5d7-6adb-8002-480b" name="Wraith Glaive Guns" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="fbf1-e184-50c5-c681" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2c6a-e4a0-5a93-673b" name="Phantom Pulsar" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c88e-cd42-c093-6e91" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9264-3122-fd45-cc35" name="Phantom Pulsar" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">120&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="8639-d862-2d6f-5f91" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8ff5-b6b4-9fd3-1809" name="Chest Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="a640-de2a-0daa-084d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aae-333d-533d-bce0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dee7-b368-8f35-8621" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a640-de2a-0daa-084d" name="Starcannon" hidden="false" collective="false" import="true" targetId="68ba-0eea-f9a0-ba19" type="selectionEntry"/>
+            <entryLink id="b211-cb9e-3e4c-5a7b" name="Pulse Laser" hidden="false" collective="false" import="true" targetId="1de1-c771-504d-ced1" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="05b0-fe82-d9a5-8291" name="Left Arm" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="043b-b767-1c10-0166" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ab9-6746-c3a5-c26e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bc6d-8f8b-7fc1-c2ee" name="Wraith Glaive" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89ac-f1d9-1ace-0ceb" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="10ed-52a5-7b07-e7b4" name="Wraith Glaive" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="f398-24fb-d7ab-b034" name="Wraith Glaive Guns" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="682f-e495-719f-c26b" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fefa-2a75-e111-8d7c" name="Phantom Pulsar" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33b6-106a-9732-a3e3" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b343-790d-192a-f314" name="Phantom Pulsar" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">120&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="81b2-94d5-921e-e468" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="41a3-de5c-2e7f-1107" name="Warp Hunter" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a2f4-702c-4e1e-b70e" name="Warp Hunter" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ec1f-2d7c-a531-a537" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="8c86-9d0d-71ce-6f96" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="ecdf-ff0b-61f3-6601" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ee0f-5043-d186-f27a" name="D-flail" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79c5-c5ca-30fe-ebe1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c3e-1041-97ef-571d" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="2cb9-c0bb-04fd-5395" name="D-flail" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast, Devastating Wounds</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="49f7-44ad-6e84-8a1a" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
+            <infoLink id="0ccc-c4f4-77de-b2a2" name="Devastating Wounds" hidden="false" targetId="5154-3b0e-f960-5cb3" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f0ef-79d5-3498-34f6" name="Secondary Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a56-bc82-c16b-1fa9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f2b-bff4-c99d-8d1d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f011-d3e3-9793-503e" name="Twin Shuriken Catapult" hidden="false" collective="false" import="true" targetId="5aef-2dca-a6fe-2d9b" type="selectionEntry"/>
+            <entryLink id="fe53-320d-9d68-14ec" name="Shuriken Cannon" hidden="false" collective="false" import="true" targetId="3e29-aa56-b2a3-0587" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b370-ed34-851d-aaac" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="6b1a-ee7a-bf45-805f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3398-6628-87e7-6749" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34b2-2e11-b90b-8243" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="800d-64ce-3baf-4142" name="Cobra" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d3db-332c-9cc8-a529" name="D-Rift" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">In your Action phase, after hitting an enemy unit with this model’s D-impaler, roll one D6 for the target unit and every other unit within 3&quot; of that unit: on a 5+, place a blast marker next to that unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f95a-2b35-0b8a-0d5f" name="Cobra" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4f9c-5f6d-2534-3863" name="Unparalleled Foresight" hidden="false" targetId="fac0-81ca-1934-7ceb" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a73c-e8d5-9afc-9699" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="e108-d938-096f-2c4f" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="845a-8de9-1f76-6923" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="16cc-89d5-f0ec-e578" name="D-Impaler" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6da-0984-bf58-6b96" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4973-6ede-ab8e-1bd9" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="03fa-da8c-a2e1-1419" name="D-Impaler" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">60&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast, Devastating Wounds</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="fe80-9f91-abb3-3baa" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
+            <infoLink id="9aba-4adf-5390-c522" name="Devastating Wounds" hidden="false" targetId="5154-3b0e-f960-5cb3" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f73d-4b77-e2e5-bd0e" name="Secondary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="44ac-0616-f26c-e3ea">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e04-0493-b127-d08d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fbf-b293-6159-62e7" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4672-5a40-c95b-fa25" name="Twin Shuriken Catapult" hidden="false" collective="false" import="true" targetId="5aef-2dca-a6fe-2d9b" type="selectionEntry"/>
+            <entryLink id="44ac-0616-f26c-e3ea" name="Shuriken Cannon" hidden="false" collective="false" import="true" targetId="3e29-aa56-b2a3-0587" type="selectionEntry"/>
+            <entryLink id="9b7c-a0a2-fe60-1d31" name="Aeldari Missile Launcher" hidden="false" collective="false" import="true" targetId="0e74-9d9a-a6e1-5850" type="selectionEntry"/>
+            <entryLink id="7a77-0d3b-20d6-af11" name="Starcannon" hidden="false" collective="false" import="true" targetId="68ba-0eea-f9a0-ba19" type="selectionEntry"/>
+            <entryLink id="5a44-368b-b0fa-1f6e" name="Bright Lance" hidden="false" collective="false" import="true" targetId="6c4e-3709-93e7-27ea" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4dc4-8222-b570-8376" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="6b1a-ee7a-bf45-805f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc69-4b8c-0b61-34d9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c2e-8a4c-6f37-ddfc" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="699a-57d7-a991-bf9d" name="Wraithseer" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9068-3788-c4a2-8a6d" name="Wraithseer" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5c65-747b-a3f6-1cba" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="3450-bd0a-cd61-5c39" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="8878-33cc-bb9a-c5b7" name="Wraith Construct" hidden="false" targetId="fd5c-ed91-973d-1166" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="50c2-5c66-6862-b75e" name="Ghostspear" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf59-598b-9b00-25ab" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2803-97ef-e72e-72b5" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="eb72-a425-99ee-4a47" name="Ghostspear" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bb44-3369-81a7-660e" name="Destructor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a65e-28f3-5bab-b55e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db21-4a42-0380-104e" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="6338-6798-e07c-fbab" name="Destructor" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2611-a971-2eac-2037" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6691-8ce9-782c-db54" name="Optional Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd66-2244-2a4c-8283" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5c75-167d-cca2-4d76" name="Wraithseer D-cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="3a40-6919-3f09-6f0a" name="Wraithseer D-cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Devastating Wounds</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="f103-9778-9577-3f56" name="Aeldari Missile Launcher" hidden="false" collective="false" import="true" targetId="0e74-9d9a-a6e1-5850" type="selectionEntry"/>
+            <entryLink id="75d9-4a7b-c41d-3c96" name="Bright Lance" hidden="false" collective="false" import="true" targetId="6c4e-3709-93e7-27ea" type="selectionEntry"/>
+            <entryLink id="2341-78de-22eb-cdb5" name="Scatter laser" hidden="false" collective="false" import="true" targetId="3174-aed7-f583-a076" type="selectionEntry"/>
+            <entryLink id="76e1-bdb0-fdf9-44d7" name="Starcannon" hidden="false" collective="false" import="true" targetId="68ba-0eea-f9a0-ba19" type="selectionEntry"/>
+            <entryLink id="1a0b-c779-1354-4c8c" name="Shuriken Cannon" hidden="false" collective="false" import="true" targetId="3e29-aa56-b2a3-0587" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b662-7a04-35bc-f947" name="Jain Zar" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1362-dcbb-7ce5-5caa" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0c30-6fcd-5758-7407" name="Jain Zar" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="49a9-ec3c-d410-cb5c" name="Storm of Silence" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9915-7a06-4397-c070" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following unit:
+	Howling Banshees</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ac3a-cd79-da18-64e9" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="6227-6524-bb47-2beb" name="Faction: Aeldari" hidden="false" targetId="ce0a-bb90-8dd4-f52d" primary="false"/>
+        <categoryLink id="fb03-bfd8-255d-60e6" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="ab40-f96b-5c32-cdab" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="2021-ba0e-693a-ddd3" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5602-a361-07b9-cb6b" name="The Silent Death" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="595e-c883-a148-eef0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b68-66f7-050c-8908" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4b71-2df1-26f8-496f" name="The Silent Death" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fcb6-54a7-4b40-5aa0" name="The Blade of Destruction" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d6e-7eb3-586d-debd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5af-abe7-ded7-fed7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ebf9-e732-aac4-03b2" name="The Blade of Destruction" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="ff52-12b5-557c-5d5b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="a0aa-c236-1525-81a1" name="Show Legends" hidden="false" collective="false" import="true" targetId="c13b-ab88-b33f-dcd5" type="selectionEntry"/>
   </entryLinks>
+  <rules>
+    <rule id="be98-144d-aa8f-0419" name="Battle Focus" hidden="false">
+      <description>When carrying out an Assault order, after all units in this Detachment that you want to make a Move action have done so, ASURYANI units in this Detachment can make a Shoot action instead of a Fight action, but they can only make attacks with Small Arms weapons when doing so.</description>
+    </rule>
+  </rules>
   <sharedSelectionEntries>
     <selectionEntry id="26de-697f-cc34-bd28" name="Avenger Shuriken Catapults" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5971,7 +6993,7 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7336-560d-db2b-59e0" name="Starcannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7336-560d-db2b-59e0" name="Starcannons" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="3cb5-1168-2ffd-b2db" name="Starcannons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
@@ -6034,6 +7056,11 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
     <profile id="7596-ea42-a0a7-2a02" name="Path of Command" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is leading a unit, each time a model in that unit makes an attack, re-roll a hit roll of 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fac0-81ca-1934-7ceb" name="Unparalleled Foresight" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit is selected to shoot or fight, you can re-roll one Hit roll when resolving those attacks.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
