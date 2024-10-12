@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7c79-7dbd-6585-0846" name="Library - Space Marines" revision="22" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7c79-7dbd-6585-0846" name="Library - Space Marines" revision="23" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -2999,7 +2999,7 @@
       <profiles>
         <profile id="1804-daa2-1e38-f184" name="Signum" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit can ignore any hit roll modifiers.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3013,6 +3013,18 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5a2b-957d-a7b5-cf98" name="Heavy Weapons (cumulative)" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="8351-6b83-f506-49ee" value="4.0">
+              <conditions>
+                <condition field="selections" scope="db91-485c-ca74-9d54" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f8e0-2505-1371-9104" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="97bd-ee36-ab0f-54da" value="4.0">
+              <conditions>
+                <condition field="selections" scope="db91-485c-ca74-9d54" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f8e0-2505-1371-9104" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97bd-ee36-ab0f-54da" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8351-6b83-f506-49ee" type="max"/>
@@ -3807,7 +3819,7 @@
         <entryLink id="9c00-0fa8-23a4-cd7c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="646c-0b14-095d-f74c" name="Bolt Sniper Rifles" hidden="false" collective="false" import="true" type="upgrade">
@@ -5610,7 +5622,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e1d4-0470-cdab-dec1" name="5 - 10 models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e1d4-0470-cdab-dec1" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="c85c-b977-0eb3-3a72">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2843-35fd-e53e-7a9b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="307d-00cd-8b6a-722f" type="max"/>
@@ -10883,7 +10895,7 @@ TERMINATOR and JUMP PACK models take up the space of 2 other models and each CEN
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ed0d-c99c-3497-a919" name="Impulsor" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -11905,8 +11917,15 @@ Additionally, add 1 to that model&apos;s hit roll until the end of the turn.</ch
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="17f6-b7d4-696d-eec8" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="f83a-96de-3067-3997">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c603-d90f-9b6b-61dd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fba-7704-40ee-6429" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="f83a-96de-3067-3997" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac5b-a3e8-899f-eeb1" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="e629-fe39-3d25-9e71" name="Bladeguard Veteran (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
@@ -11925,6 +11944,9 @@ Additionally, add 1 to that model&apos;s hit roll until the end of the turn.</ch
               </costs>
             </selectionEntry>
             <selectionEntry id="c619-6898-e7e1-a30d" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c17-ef25-ad3f-bf1e" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="3d3f-5c1d-e6d3-d873" name="Bladeguard Veteran  (6 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
@@ -13740,7 +13762,7 @@ that target this unit.</characteristic>
         <entryLink id="b0fb-0a8f-3121-1927" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="92b2-7e44-c99d-2692" name="Infernus Squad" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -13934,7 +13956,7 @@ that target this unit.</characteristic>
         <categoryLink id="78ef-d702-598a-a9ee" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="970a-8d9c-dfb4-e7ee" name="Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="970a-8d9c-dfb4-e7ee" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="1575-598c-4cb9-1f34">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6fd-3de5-67e4-b58b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf89-3d95-5929-9c84" type="max"/>
@@ -13942,8 +13964,7 @@ that target this unit.</characteristic>
           <selectionEntries>
             <selectionEntry id="1575-598c-4cb9-1f34" name="Brutalis Fist" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8394-118b-2a48-5c07" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bed-d01c-04fc-8f28" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b042-010d-6b67-bbb1" type="max"/>
               </constraints>
               <profiles>
                 <profile id="5350-ce96-a278-164c" name="Brutalis Fist" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -13976,7 +13997,6 @@ that target this unit.</characteristic>
             </selectionEntry>
             <selectionEntry id="e74b-c63f-1563-202f" name="Brutalis Talons" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a901-45e4-0504-479d" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c54-b163-aa6c-6e28" type="max"/>
               </constraints>
               <profiles>
