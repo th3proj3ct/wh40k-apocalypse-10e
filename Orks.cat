@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="259f-eae9-a08f-3b2b" name="Orks" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="259f-eae9-a08f-3b2b" name="Orks" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="0e91-de43-18ca-e190" name="Beast Snagga" hidden="false"/>
   </categoryEntries>
@@ -2822,7 +2822,7 @@
         </profile>
         <profile id="ebf9-e26f-f058-8ca5" name="Waaagh! Effigy" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly ORKS unit is within 12&quot; of this model, each time you take a Morale test for that unit, subtract 1 from that test.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Whenever this model makes an attack, you may re-roll hit rolls of 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="984d-0da2-b772-eafe" name="Stompin&apos; Forward" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">

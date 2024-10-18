@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="440c-9567-ca71-f95b" name="Warhammer 40,000 Apocalypse 10th Edition" revision="18" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="440c-9567-ca71-f95b" name="Warhammer 40,000 Apocalypse 10th Edition" revision="19" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8df9-0b3e-abea-3c15" name="Warhammer 40,000: Apocalypse" publicationDate="2019"/>
     <publication id="3434-17b5-4a22-f338" name="Fundapocalypse Custom Rules" shortName="Fundapocalypse Custom Rules" publisherUrl="https://github.com/normanthesquid/wh40k-fundapocalypse/wiki"/>
@@ -463,7 +463,7 @@ If this unit is garrisoning Defensible Terrain, unmodified saving throws of 5+ a
       <description>Weapons with [TWIN-LINKED] in their profile are known as Twin-linked weapons. Each time an attack is made with such a weapon, you can re-roll that attack’s Wound roll.</description>
     </rule>
     <rule id="5d69-1b8b-1a4c-8e59" name="Blast" hidden="false">
-      <description>When targetting an enemy unit with 6 or more models, add 1 to the attacks of this weapon. </description>
+      <description>When targetting an enemy unit with 6 or more models, add 1 to the attacks of this weapon. This weapon cannot be used on LIGHT enemies in engagement range of friendly models (including this)</description>
     </rule>
     <rule id="cdb7-f1e7-842f-a25f" name="Pistol" hidden="false">
       <description>Weapons with [PISTOL] in their profile can be shot even while in engagement range of enemy models, but can only target units within engagement range.</description>
@@ -533,7 +533,7 @@ If this unit is garrisoning Defensible Terrain, unmodified saving throws of 5+ a
     </profile>
     <profile id="cab7-972d-999b-62dc" name="Assault Ramp" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to Assault this turn, but must end in Engagement Range if it does so.</characteristic>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to Assault this turn, but must end in Engagement Range if it does so, and can only move up to its Movement characteristic instead of double as usual.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
