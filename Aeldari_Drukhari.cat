@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a3b2-b1e4-7815-ac21" name="Aeldari - Drukhari" revision="5" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a3b2-b1e4-7815-ac21" name="Aeldari - Drukhari" revision="6" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3cef-65f6-1938-6b57" name="Archon" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="052f-2cba-abf7-da92" name="Faction: &lt;KABAL&gt;" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
@@ -875,7 +875,7 @@
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If this unit was in engagement range of an enemy unit at the start of the Damage phase, its Save characteristic becomes 4+ until the end of the turn.</characteristic>
           </characteristics>
         </profile>
-        <profile id="e565-48e7-65a2-7699" name="Wyches" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="e565-48e7-65a2-7699" name="10 Wyches" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
