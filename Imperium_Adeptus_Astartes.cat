@@ -5755,6 +5755,21 @@ friendly IMPERIAL FISTS units that target VEHICLE or BUILDING units.</characteri
           </constraints>
         </selectionEntry>
       </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="0cb6-4d82-b69c-886a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="3452-3268-cdfd-b119" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -6006,11 +6021,17 @@ friendly IMPERIAL FISTS units that target VEHICLE or BUILDING units.</characteri
       <categoryLinks>
         <categoryLink id="9729-4646-4c90-bc3c" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15"/>
+      </costs>
     </entryLink>
     <entryLink id="ca52-3224-a8f3-2402" name="Stormraven Gunship" hidden="false" collective="false" import="true" targetId="70d0-691d-94eb-12d5" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="d7e1-ec58-29c6-30e5" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14"/>
+      </costs>
     </entryLink>
     <entryLink id="455a-6f79-459c-737e" name="Stormtalon Gunship" hidden="false" collective="false" import="true" targetId="80e9-fdb3-c8be-0c11" type="selectionEntry">
       <categoryLinks>
