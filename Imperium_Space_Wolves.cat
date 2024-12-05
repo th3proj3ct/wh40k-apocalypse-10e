@@ -1248,8 +1248,8 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="7eb1-73ba-2de4-ca9b" id="9084-330e-44d2-03e7" primary="true" name="Light"/>
-        <categoryLink targetId="2d6e-c03a-7a58-74ce" id="fe13-95f7-cc0b-911d" primary="false" name="Infantry"/>
+        <categoryLink targetId="7eb1-73ba-2de4-ca9b" id="9084-330e-44d2-03e7" primary="false" name="Light"/>
+        <categoryLink targetId="2d6e-c03a-7a58-74ce" id="fe13-95f7-cc0b-911d" primary="true" name="Infantry"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Wulfen Dreadnought" hidden="false" id="fbfb-66ef-c5a3-38d0">
