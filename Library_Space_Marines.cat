@@ -793,6 +793,9 @@
               <costs>
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Deep Strike" id="7437-9ec9-af5b-a4a3" hidden="false" type="profile" targetId="8fc3-5045-3aa5-00ce"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry id="7158-79bb-62af-deb2" name="Primaris Armor" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -970,6 +973,9 @@
               <costs>
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Deep Strike" id="be3c-74bc-2e8b-8e80" hidden="false" type="profile" targetId="8fc3-5045-3aa5-00ce"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry id="5926-09cb-bc0d-b6e7" name="Primaris Armor" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -1181,6 +1187,9 @@
               <costs>
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Deep Strike" id="f874-69d0-3360-63a3" hidden="false" type="profile" targetId="8fc3-5045-3aa5-00ce"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry id="de58-a418-a0d5-c24c" name="Tactical Armor" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -12601,6 +12610,7 @@ that target this unit.</characteristic>
     <selectionEntry id="4d23-dd4d-799a-3c25" name="Storm Speeder Hailstrike" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="4682-767a-b203-71f7" name="Storm Speeder" hidden="false" targetId="7934-c3d7-6271-1f18" type="profile"/>
+        <infoLink name="Deep Strike" id="8e4f-d1d4-95c2-7771" hidden="false" type="profile" targetId="8fc3-5045-3aa5-00ce"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="163a-0efc-b455-e09a" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
@@ -12680,6 +12690,7 @@ that target this unit.</characteristic>
     <selectionEntry id="d2f4-fc63-2dfc-5efa" name="Storm Speeder Thunderstrike" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3d55-dfb1-1aca-2f60" name="Storm Speeder" hidden="false" targetId="7934-c3d7-6271-1f18" type="profile"/>
+        <infoLink name="Deep Strike" id="7b99-a1ad-3132-2684" hidden="false" type="profile" targetId="8fc3-5045-3aa5-00ce"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1366-d6c1-3e34-ad61" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
@@ -12764,6 +12775,7 @@ that target this unit.</characteristic>
     <selectionEntry id="5592-33ce-cd2a-dbea" name="Storm Speeder Hammerstrike" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="d4b0-1f08-43b8-c889" name="Storm Speeder" hidden="false" targetId="7934-c3d7-6271-1f18" type="profile"/>
+        <infoLink name="Deep Strike" id="29ce-30c1-cf51-40c2" hidden="false" type="profile" targetId="8fc3-5045-3aa5-00ce"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a61d-fc55-61e8-4307" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
