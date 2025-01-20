@@ -399,7 +399,7 @@
         </profile>
         <profile name="Enforcer Commander" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="bbb8-a367-9cd4-16a7">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is leading a unit, each time a ranged attack targets that unit, if that unit is the closest eligible target, add 1 to the Wound roll.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is leading a unit, each time a that unit makes a ranged attack against the closest eligible target, add 1 to the Wound roll.</characteristic>
           </characteristics>
         </profile>
         <profile name="Battlesuit Support System" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="e6f9-a9e4-bc2e-81a8">
@@ -1573,7 +1573,7 @@
       <profiles>
         <profile name="Breach and Clear" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="f3fd-5a3f-f222-3291">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a model in this unit makes a ranged attack that targets an enemy unit within range of an objective marker, you can re-roll the Wound roll.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a model in this unit makes a ranged attack that targets an enemy unit within range of an objective marker, you can re-roll a Wound roll of 1 or 2.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2239,9 +2239,6 @@
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <infoLinks>
-        <infoLink name="Deep Strike" id="1cae-593c-cf61-ffda" hidden="false" type="profile" targetId="8fc3-5045-3aa5-00ce"/>
-      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Crisis Fireknife Battlesuits" hidden="false" id="d289-77d1-0d72-626a">
       <categoryLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ae50-a764-7615-1124" name="Adeptus Titanicus" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ae50-a764-7615-1124" name="Adeptus Titanicus" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry id="05ad-0c67-98c4-ede3" name="Warhound Titan" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -35,8 +35,8 @@
       <selectionEntries>
         <selectionEntry id="cab0-fc9a-5003-9e31" name="Warhound Feet" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dacc-4f0f-e7ad-ced6" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4f5-9813-2d47-a6c9" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dacc-4f0f-e7ad-ced6" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4f5-9813-2d47-a6c9" type="min"/>
           </constraints>
           <profiles>
             <profile id="57ed-4f9a-2f83-41b5" name="Warhound Feet" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -51,15 +51,15 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="0a89-2989-bb95-06b7" name="Primary Weapon Mounts" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d01-6a0c-3d59-e6a4" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb16-9512-1ffe-d632" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d01-6a0c-3d59-e6a4" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb16-9512-1ffe-d632" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="983d-b170-2097-be6b" name="Warhound Inferno Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -68,18 +68,19 @@
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">6</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">5</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer, Inferno</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="3c3b-f792-9f51-daf2" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
+                <infoLink name="Destroyer" id="5608-7d46-d918-1a5b" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="53f3-bcd4-6e71-09fc" name="Warhound Plasma Blastgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -91,15 +92,16 @@
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Supercharge</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer, Supercharge</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="d9e6-f529-a659-432e" name="Supercharge" hidden="false" targetId="9988-c2ea-2f30-09c1" type="rule"/>
+                <infoLink name="Destroyer" id="f4f3-0866-3b40-2595" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c004-08e4-0600-cfd8" name="Warhound Turbo-Laser Destructor" hidden="false" collective="false" import="true" type="upgrade">
@@ -109,7 +111,7 @@
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">72&quot;</characteristic>
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
                   </characteristics>
@@ -119,7 +121,7 @@
                 <infoLink id="1fc0-c696-b03c-121c" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fb52-19a2-f964-6a25" name="Warhound Vulcan Mega-Bolter" hidden="false" collective="false" import="true" type="upgrade">
@@ -143,7 +145,7 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -153,7 +155,7 @@
         <entryLink id="88cd-cbe7-9125-98f5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="55.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="55"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b9d9-a08a-1a7b-409d" name="Reaver Titan" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -190,8 +192,8 @@
       <selectionEntries>
         <selectionEntry id="6ecf-9c81-0461-1eef" name="Reaver Feet" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8150-90a2-4e1c-1fdb" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="346c-abab-ef6a-cee1" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8150-90a2-4e1c-1fdb" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="346c-abab-ef6a-cee1" type="min"/>
           </constraints>
           <profiles>
             <profile id="c1d0-fa1b-585a-5265" name="Reaver Feet" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -206,13 +208,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6561-05cf-aff2-4848" name="Reaver Apocalypse Launcher" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="095e-719a-6e76-fa42" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59b8-f93e-0d41-2811" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="095e-719a-6e76-fa42" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59b8-f93e-0d41-2811" type="max"/>
           </constraints>
           <profiles>
             <profile id="ccde-a2d9-dec7-6430" name="Reaver Apocalypse Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -231,15 +233,15 @@
             <infoLink id="30e2-db36-9f67-ad43" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="e130-5dea-307f-0573" name="Arm Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="cf84-e8b9-cfb1-1ef5">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fb3-e8e0-7f78-5d0b" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12df-998c-3e18-9606" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fb3-e8e0-7f78-5d0b" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12df-998c-3e18-9606" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="4872-2645-5c1b-57ad" name="Reaver Power Fist" hidden="false" collective="false" import="true" type="upgrade">
@@ -259,7 +261,7 @@
                 <infoLink id="9f95-5b67-810d-a827" name="Apocalyptic Destroyer" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -275,7 +277,7 @@
         <entryLink id="f20f-dbe4-a757-0ebe" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="110.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="110"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f009-12f0-87e1-5be5" name="Warbringer Nemesis Titan" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -312,8 +314,8 @@
       <selectionEntries>
         <selectionEntry id="5d01-f227-bf4d-0244" name="Nemisis Feet" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59ae-5749-a3f8-c243" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cff-a405-bd5e-7824" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59ae-5749-a3f8-c243" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cff-a405-bd5e-7824" type="min"/>
           </constraints>
           <profiles>
             <profile id="67d6-afae-4f40-1316" name="Nemisis Feet" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -328,13 +330,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="aaf7-6b86-687a-9a91" name="Anvillus Defence Battery" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="278a-e6bb-25bb-2463" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3159-a790-55d4-c5a3" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="278a-e6bb-25bb-2463" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3159-a790-55d4-c5a3" type="min"/>
           </constraints>
           <profiles>
             <profile id="3bb4-c77c-21b4-0af5" name="Anvillus Defence Battery" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -352,13 +354,13 @@
             <infoLink id="b1fd-be42-efd1-a816" name="Anti-air" hidden="false" targetId="48b8-058a-9085-0e80" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="069c-b2f5-e9b4-05ee" name="Ardex-Defensor Mauler" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a512-88de-e9d1-e032" type="max"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de73-b245-32dd-7dfe" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a512-88de-e9d1-e032" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de73-b245-32dd-7dfe" type="min"/>
           </constraints>
           <profiles>
             <profile id="6661-8dd7-cd6c-8444" name="Ardex-Defensor Mauler" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -373,15 +375,15 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="242a-f0db-0ef7-1210" name="Arm Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="36ba-9bef-fdb5-865c">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d597-9a93-7f08-aac4" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37d5-a7f6-dbf1-7902" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d597-9a93-7f08-aac4" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37d5-a7f6-dbf1-7902" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="36ba-9bef-fdb5-865c" name="Reaver Gatling Blaster" hidden="false" collective="false" import="true" targetId="20a1-8421-87e6-9b40" type="selectionEntry"/>
@@ -392,8 +394,8 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="aa60-d8be-09c2-9512" name="Carapace Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="c8b9-cab0-5dc6-987e">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abb3-1f63-1c70-c438" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31ee-5260-04eb-ef43" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abb3-1f63-1c70-c438" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31ee-5260-04eb-ef43" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="c8b9-cab0-5dc6-987e" name="Nemisis Quake Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -414,7 +416,7 @@
                 <infoLink id="87ce-df02-dbad-a479" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -427,7 +429,7 @@
         <entryLink id="5c69-3394-65ec-ed5b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="130.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="130"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1b90-2429-240e-d89e" name="Warlord Titan" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -464,8 +466,8 @@
       <selectionEntries>
         <selectionEntry id="0474-1d9c-2696-5566" name="Warlord Feet" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f55-190e-5bfa-5302" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5c5-0665-bc09-7525" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f55-190e-5bfa-5302" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5c5-0665-bc09-7525" type="min"/>
           </constraints>
           <profiles>
             <profile id="8756-3d35-f417-d72a" name="Warlord Feet" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -480,13 +482,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="38f1-f28c-98e5-a837" name="Ardex-Defensor Mauler" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6557-292b-0a60-5c05" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b039-cb5f-71d4-f2f1" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6557-292b-0a60-5c05" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b039-cb5f-71d4-f2f1" type="min"/>
           </constraints>
           <profiles>
             <profile id="1d10-75f9-bc71-a2b2" name="Ardex-Defensor Mauler" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -501,13 +503,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6777-5bee-dc0d-6107" name="Ardex-Defensor Lascannons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0da4-3a16-b7df-6f99" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5346-1d9e-fcb2-4bbd" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0da4-3a16-b7df-6f99" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5346-1d9e-fcb2-4bbd" type="min"/>
           </constraints>
           <profiles>
             <profile id="9504-1cae-f288-b53e" name="Ardex-Defensor Lascannons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -522,15 +524,15 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="8a40-550c-b842-b2fa" name="Arm Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="92e3-13d4-f4bd-0d4b">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39ee-6054-fde7-8b65" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a73-777b-c8c9-ad73" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39ee-6054-fde7-8b65" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a73-777b-c8c9-ad73" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="4a1c-bb10-f9e4-0a70" name="Belicosa Volcano Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -550,7 +552,7 @@
                 <infoLink id="4d73-b8b6-690e-8a93" name="Apocalyptic Destroyer" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="92e3-13d4-f4bd-0d4b" name="Macro Gatling Blaster" hidden="false" collective="false" import="true" type="upgrade">
@@ -574,7 +576,7 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1244-e358-028e-f25a" name="Mori Quake Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -595,7 +597,7 @@
                 <infoLink id="1ea5-7fa4-3ca3-16c7" name="Barrage" hidden="false" targetId="7296-134e-970b-4790" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="85b4-b2a8-4d0a-4aa1" name="Sunfury Plasma Annihilator" hidden="false" collective="false" import="true" type="upgrade">
@@ -616,12 +618,12 @@
                 <infoLink id="b3db-4417-c053-79cf" name="Supercharge" hidden="false" targetId="9988-c2ea-2f30-09c1" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c500-bcad-154f-d64c" name="Ariorch Power Claw" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="1231-63f3-55b1-06cd" name="Ariorch Power Claw" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                <profile id="1231-63f3-55b1-06cd" name="Ariorch Power Claw (Melee)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
@@ -631,20 +633,31 @@
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Apocalyptic Destroyer</characteristic>
                   </characteristics>
                 </profile>
+                <profile name="Ariorch Power Claw (Ranged)" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="7b84-3cde-c2a6-29eb">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">6</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
+                  </characteristics>
+                </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="2cd8-ff68-a554-119b" name="Apocalyptic Destroyer" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
+                <infoLink name="Sustained Hits X" id="6889-1f71-8e30-6824" hidden="false" targetId="d0a7-26e1-b2cb-2bce" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="c90d-31c0-39bf-1d9f" name="Carapace Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="b0cc-8f66-47d9-acae">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ebb-d4bb-ea61-62f5" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0c0-7cbd-c8e1-d1fc" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ebb-d4bb-ea61-62f5" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0c0-7cbd-c8e1-d1fc" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="b0cc-8f66-47d9-acae" name="Apocalypse Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -665,7 +678,7 @@
                 <infoLink id="3d70-0a16-c468-62a5" name="Barrage" hidden="false" targetId="7296-134e-970b-4790" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9218-b934-0576-c882" name="Laser Blaster" hidden="false" collective="false" import="true" type="upgrade">
@@ -682,7 +695,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -692,7 +705,7 @@
         <entryLink id="88aa-94ea-7111-f2fc" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="175.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="175"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -723,7 +736,7 @@
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a5d1-6e3c-71d8-2a63" name="Reaver Laser Blaster" hidden="false" collective="false" import="true" type="upgrade">
@@ -743,7 +756,7 @@
         <infoLink id="5862-2603-04f5-37ed" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b9a-6d74-0a93-f3f3" name="Reaver Melta Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -763,7 +776,7 @@
         <infoLink id="8536-35d0-11d2-be17" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cf81-362f-7868-6765" name="Reaver Volcano Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -783,7 +796,7 @@
         <infoLink id="77f8-2105-3302-c8da" name="Apocalyptic Destroyer" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
