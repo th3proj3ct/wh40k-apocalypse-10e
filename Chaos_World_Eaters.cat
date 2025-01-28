@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="722e-4aa1-aa02-0a8e" name="Chaos - World Eaters" revision="7" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="722e-4aa1-aa02-0a8e" name="Chaos - World Eaters" revision="7" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry id="6b5c-ca1c-f4a0-fd1a" name="Kytan Ravager [Lengeds]" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -28,7 +28,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="02fe-c557-5a25-152f" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="02fe-c557-5a25-152f" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="620f-93d6-76ee-d0b8" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
         <categoryLink id="a6e8-effa-2183-2135" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
         <categoryLink id="bd6d-20dd-5293-3f7a" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
@@ -36,8 +36,8 @@
       <selectionEntries>
         <selectionEntry id="f025-a953-25e3-00cd" name="Kytan Gatling Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46a3-bfc5-33ed-346c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c05f-3794-eecf-f9c9" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46a3-bfc5-33ed-346c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c05f-3794-eecf-f9c9" type="max"/>
           </constraints>
           <profiles>
             <profile id="f92c-efdc-2156-5751" name="Kytan Gatling Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -52,13 +52,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a701-7cf1-d223-89d3" name="Kytan Cleaver" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5492-7853-fd58-5fe1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fffd-de38-2bff-da30" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5492-7853-fd58-5fe1" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fffd-de38-2bff-da30" type="max"/>
           </constraints>
           <profiles>
             <profile id="c4a1-c2d7-0dc7-edfe" name="Kytan Cleaver" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -73,19 +73,19 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e5c0-3e76-d250-fee6" name="Greater Brass Scorpion [Legends]" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -103,7 +103,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="3299-279b-67d0-c175" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="3299-279b-67d0-c175" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="132a-fc68-4a1f-e05e" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
         <categoryLink id="3788-9604-bb40-aea4" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
         <categoryLink id="6b61-0a0c-e4f6-2296" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
@@ -123,7 +123,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9d0a-b82c-7b6c-ceca" name="Demolisher Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -143,7 +143,7 @@
             <infoLink id="c5b6-87ab-1a36-15db" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6b97-1200-7c93-0ad6" name="Hellmaw Flame Cannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -163,7 +163,7 @@
             <infoLink id="51bd-556b-f869-911e" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7b11-650f-2874-9bd2" name="Scorpion Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -187,12 +187,12 @@
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -201,28 +201,28 @@
       <categoryLinks>
         <categoryLink id="c861-e3c3-d126-e460" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
         <categoryLink id="057e-ad21-6023-a8f3" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
-        <categoryLink id="95a2-752f-e9bc-f49d" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="95a2-752f-e9bc-f49d" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bfe1-68f2-b3e8-eb73" name="Chaos Spawn" hidden="false" collective="false" import="true" targetId="ed66-68de-c8bb-af54" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ef17-07d6-5298-2536" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
         <categoryLink id="17a5-3051-8a49-bc66" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
-        <categoryLink id="3195-038b-9541-e9ea" name="New CategoryLink" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
+        <categoryLink id="3195-038b-9541-e9ea" name="Beast" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="32ae-67b9-197e-bb81" name="Defiler" hidden="false" collective="false" import="true" targetId="7278-4a41-c1ee-16f3" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="db40-cb01-c321-b240" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
         <categoryLink id="0572-182a-5073-3631" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
-        <categoryLink id="88c0-c3f3-acab-de20" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="88c0-c3f3-acab-de20" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9826-4d83-3488-0808" name="Forgefiend" hidden="false" collective="false" import="true" targetId="c977-6ee2-730c-59f6" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0651-fdf8-899c-d1f7" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
         <categoryLink id="79ce-62d7-1bd1-41cc" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
-        <categoryLink id="765c-a145-3daa-412f" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="765c-a145-3daa-412f" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0345-7e43-3227-cfa8" name="Maulerfiend" hidden="false" collective="false" import="true" targetId="a3df-c6a8-8b25-46ee" type="selectionEntry">
@@ -236,94 +236,94 @@
       <categoryLinks>
         <categoryLink id="554d-22fd-c50a-71ce" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
         <categoryLink id="e7af-e1a0-2131-b1cc" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
-        <categoryLink id="0279-1fa1-1dec-4364" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
+        <categoryLink id="0279-1fa1-1dec-4364" name="Dedicated Transport" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f163-4249-df63-591d" name="Heldrake" hidden="false" collective="false" import="true" targetId="92bd-5224-16c2-5754" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="d942-6c6d-334c-fafe" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
         <categoryLink id="2500-9234-b1a0-8df2" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
-        <categoryLink id="2080-539e-179d-1da9" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="2080-539e-179d-1da9" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="cc4d-e75e-3ac1-dbc9" name="Angron" hidden="false" collective="false" import="true" targetId="80f8-50fb-e106-f63a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0da9-b7ef-72e2-e429" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
-        <categoryLink id="c49c-5b2f-820a-6bed" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="0da9-b7ef-72e2-e429" name="Lord of War" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false"/>
+        <categoryLink id="c49c-5b2f-820a-6bed" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5f2c-44bf-08e9-3fc4" name="Eightbound" hidden="false" collective="false" import="true" targetId="c326-87d1-b2bd-f1d5" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f7ac-a1dd-231f-2b33" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="f7ac-a1dd-231f-2b33" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a152-ddc7-7fcd-605b" name="Exalted Eightbound" hidden="false" collective="false" import="true" targetId="a1a3-e2c8-cb04-9011" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="d800-8e49-76b4-5843" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="d800-8e49-76b4-5843" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6ee4-240b-c01a-60fd" name="Kharn the Betrayer" hidden="false" collective="false" import="true" targetId="a7af-8df1-b912-c801" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="967f-2849-c8f7-962b" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="967f-2849-c8f7-962b" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="57c4-b4aa-aa21-6cd9" name="Lord Invocatus" hidden="false" collective="false" import="true" targetId="ea70-026b-0f33-ab4d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0409-f1aa-9ea5-7d34" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="0409-f1aa-9ea5-7d34" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a4e0-c6e6-e422-c334" name="World Eaters Daemon Prince" hidden="false" collective="false" import="true" targetId="36b4-26df-117e-04f4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="1960-8b74-6945-431b" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="1960-8b74-6945-431b" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="d51b-74bc-1a04-9da5" name="World Eaters Lord on Juggernaut" hidden="false" collective="false" import="true" targetId="e7c0-7fdc-c72b-80d9" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6121-ebd1-8376-bbb1" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="6121-ebd1-8376-bbb1" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="996c-d648-762b-78af" name="World Eaters Master of Executions" hidden="false" collective="false" import="true" targetId="5b7c-2563-e494-458a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f9b3-3bae-68d3-60f2" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="f9b3-3bae-68d3-60f2" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6b4d-9b0a-7f65-2a07" name="Jakhals" hidden="false" collective="false" import="true" targetId="9bf9-e308-cfa2-32ec" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="52a5-82f8-c8c8-136f" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
+        <categoryLink id="52a5-82f8-c8c8-136f" name="Battleline" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ee36-ae7e-98bc-5727" name="Khorne Berzerkers" hidden="false" collective="false" import="true" targetId="d230-ec57-8507-7c32" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="5f14-1581-48d9-712b" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
+        <categoryLink id="5f14-1581-48d9-712b" name="Battleline" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bed8-5235-49d2-0773" name="World Eaters Terminator Squad" hidden="false" collective="false" import="true" targetId="7c4c-eae3-69bb-e23a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="09b0-954e-a504-a569" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="09b0-954e-a504-a569" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3031-ecaa-fb1f-fe3a" name="Khorne Lord of Skulls" hidden="false" collective="false" import="true" targetId="2e75-ac4c-1430-5baf" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7d8c-528f-f656-2de4" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="7d8c-528f-f656-2de4" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="828b-3bbc-85ae-4fbe" name="Chaos Predator Annihilator" hidden="false" collective="false" import="true" targetId="8dbc-6837-ede6-1e74" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="9a86-53f0-c608-1aba" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
         <categoryLink id="0d83-e059-4f76-c8e2" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
-        <categoryLink id="dcb2-bf67-60b5-ec75" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="dcb2-bf67-60b5-ec75" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="12a3-2a55-8386-d063" name="Chaos Predator Destructor" hidden="false" collective="false" import="true" targetId="2646-38f6-549d-e80d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f61c-31c4-6208-f02d" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
         <categoryLink id="1efd-3a64-8bd2-2ce2" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
-        <categoryLink id="0071-d8b5-f3b2-837e" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="0071-d8b5-f3b2-837e" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5034-f2f0-4cc7-0f2e" name="World Eaters Land Raider" hidden="false" collective="false" import="true" targetId="a764-69a9-9820-694b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="cca4-07d5-669b-a447" name="New CategoryLink" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="cca4-07d5-669b-a447" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="aa3a-0295-0b36-6600" name="Cerberus [Legends]" hidden="false" collective="false" import="true" targetId="33ad-2c9d-dca2-507a" type="selectionEntry">
@@ -332,13 +332,13 @@
         <categoryLink id="a947-7086-4182-67b7" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4c4a-c8ec-e84f-b9a3" name="Terrax-pattern Termite Assault Drill" hidden="false" collective="false" import="true" targetId="2235-b44c-a7d2-d517" type="selectionEntry">
+    <entryLink id="4c4a-c8ec-e84f-b9a3" name="Terrax-pattern Termite [Legends]" hidden="false" collective="false" import="true" targetId="2235-b44c-a7d2-d517" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="9b8e-7e43-f517-0396" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
         <categoryLink id="5816-7458-9eca-c40d" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f0cf-e912-3025-d105" name="Thunderhawk Assault Gunship" hidden="false" collective="false" import="true" targetId="a2db-2d39-b71f-baad" type="selectionEntry">
+    <entryLink id="f0cf-e912-3025-d105" name="Thunderhawk [Legends]" hidden="false" collective="false" import="true" targetId="a2db-2d39-b71f-baad" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3fd9-d034-f06d-465f" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
         <categoryLink id="f5b4-12a0-1145-7ea4" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
@@ -371,7 +371,7 @@
         <categoryLink id="26d9-142d-7353-db5a" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2059-e55a-a084-020a" name="Kratos" hidden="false" collective="false" import="true" targetId="a062-2887-02f9-3cba" type="selectionEntry">
+    <entryLink id="2059-e55a-a084-020a" name="Kratos [Legends]" hidden="false" collective="false" import="true" targetId="a062-2887-02f9-3cba" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f49e-681d-4280-ed8a" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
       </categoryLinks>
@@ -436,7 +436,7 @@
         <categoryLink id="1c11-1093-2901-e08e" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3156-8a38-989c-1ff3" name="Relic Whirlwind Scorpius" hidden="false" collective="false" import="true" targetId="b3b9-7176-b67a-0531" type="selectionEntry">
+    <entryLink id="3156-8a38-989c-1ff3" name="Whirlwind Scorpius [Legends]" hidden="false" collective="false" import="true" targetId="b3b9-7176-b67a-0531" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="9d39-84e5-d215-26ef" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
       </categoryLinks>
@@ -456,6 +456,7 @@
       </profiles>
     </entryLink>
     <entryLink id="df16-c210-4b79-7e6b" name="Show Legends" hidden="false" collective="false" import="true" targetId="c13b-ab88-b33f-dcd5" type="selectionEntry"/>
+    <entryLink import="true" name="World Eaters Daemon Prince with Wings" hidden="false" id="cd6d-99e5-17bc-d2af" type="selectionEntry" targetId="5b63-fb67-defe-d2b2"/>
   </entryLinks>
   <infoLinks>
     <infoLink id="a0cc-97dc-a570-e2fa" name="Let The Galaxy Burn" hidden="false" targetId="cf83-b3f7-9062-f56d" type="rule"/>
@@ -463,7 +464,7 @@
   <sharedSelectionEntries>
     <selectionEntry id="80f8-50fb-e106-f63a" name="Angron" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d43a-af4a-37b5-0fcc" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d43a-af4a-37b5-0fcc" type="max"/>
       </constraints>
       <profiles>
         <profile id="d504-225f-fce6-b547" name="Wrathful Presence" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -503,8 +504,8 @@
       <selectionEntries>
         <selectionEntry id="38d4-a973-4aae-a585" name="Samni&apos;arius and Spinegrinder" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0168-0f74-7173-1eaa" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f654-acd1-6750-14f3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0168-0f74-7173-1eaa" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f654-acd1-6750-14f3" type="max"/>
           </constraints>
           <profiles>
             <profile id="f821-958c-e842-795d" name="Samni&apos;arius and Spinegrinder" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -519,7 +520,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -527,7 +528,7 @@
         <entryLink id="a38b-e392-ce69-65f8" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a7af-8df1-b912-c801" name="Kharn the Betrayer" hidden="false" collective="false" import="true" type="upgrade">
@@ -581,7 +582,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="fef8-64f5-0df2-d6b1" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="fef8-64f5-0df2-d6b1" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
         <categoryLink id="24e1-5814-1996-c537" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="71fb-d15f-4636-42fe" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
         <categoryLink id="7fa0-ad3d-4cab-9434" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
@@ -592,7 +593,7 @@
         <entryLink id="3acc-8146-ed57-39d6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ea70-026b-0f33-ab4d" name="Lord Invocatus" hidden="false" collective="false" import="true" type="upgrade">
@@ -650,12 +651,12 @@
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9e9c-1561-852a-d95c" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="9e9c-1561-852a-d95c" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
         <categoryLink id="f758-5a26-53da-5450" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="cb5b-cb0e-d01e-8f39" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
         <categoryLink id="bd30-2b99-2373-7e49" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="5536-d012-6df1-b5cf" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="2e65-170e-b6ff-171b" name="Cavalry" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="2e65-170e-b6ff-171b" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
         <categoryLink id="5915-02d5-4a0d-f91d" name="Daemon" hidden="false" targetId="8941-623f-a255-f440" primary="false"/>
         <categoryLink id="5461-dd51-1fb5-b6d7" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
       </categoryLinks>
@@ -663,7 +664,7 @@
         <entryLink id="3ece-e41d-d5c7-4741" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="36b4-26df-117e-04f4" name="World Eaters Daemon Prince" hidden="false" collective="false" import="true" type="upgrade">
@@ -711,14 +712,14 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="14b4-15b9-a47a-b1fd" name="Deadly Demise 1&quot;" hidden="false" targetId="edc1-b0c9-7ca6-0ba2" type="profile">
+        <infoLink id="14b4-15b9-a47a-b1fd" name="Deadly Demise (X&quot;)" hidden="false" targetId="edc1-b0c9-7ca6-0ba2" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Deadly Demise D3"/>
           </modifiers>
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0149-6336-0045-940a" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="0149-6336-0045-940a" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
         <categoryLink id="5549-fca8-836f-e6da" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
         <categoryLink id="7273-7be3-e283-ee83" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="8500-4b66-28ea-e651" name="Daemon" hidden="false" targetId="dfc6-5d64-127f-97a1" primary="false"/>
@@ -731,7 +732,7 @@
         <entryLink id="e225-bcc6-dd1c-0c72" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e7c0-7fdc-c72b-80d9" name="World Eaters Lord on Juggernaut" hidden="false" collective="false" import="true" type="upgrade">
@@ -780,11 +781,11 @@
         <infoLink id="0740-abf8-aaaf-9589" name="Plasma Pistol" hidden="false" targetId="5007-301d-199d-25f3" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6835-c230-10cd-a446" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="6835-c230-10cd-a446" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
         <categoryLink id="5012-be48-4cc5-a577" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="4663-2f4d-e0c7-ca8e" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
         <categoryLink id="1634-c295-8597-2b05" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="b72f-6d79-2999-3228" name="Cavalry" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="b72f-6d79-2999-3228" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
         <categoryLink id="7bd8-a996-5968-921e" name="Daemon" hidden="false" targetId="8941-623f-a255-f440" primary="false"/>
         <categoryLink id="f630-5024-6d95-378f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
       </categoryLinks>
@@ -792,7 +793,7 @@
         <entryLink id="e6e3-60e5-c656-5294" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5b7c-2563-e494-458a" name="World Eaters Master of Executions" hidden="false" collective="false" import="true" type="upgrade">
@@ -836,7 +837,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="56e3-b6b0-acb4-6495" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="56e3-b6b0-acb4-6495" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
         <categoryLink id="8d02-34c9-ffce-12b7" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="ba75-b8b5-9c8c-23d2" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
         <categoryLink id="dc61-323f-87d2-a9e5" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
@@ -847,7 +848,7 @@
         <entryLink id="e11f-c5e8-8445-136c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d230-ec57-8507-7c32" name="Khorne Berzerkers" hidden="false" collective="false" import="true" type="unit">
@@ -864,13 +865,13 @@
         <categoryLink id="15cf-8f8a-f26c-636d" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="8109-d06e-5c04-bc64" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
         <categoryLink id="0321-5577-a239-76d9" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
-        <categoryLink id="9d1c-792c-0624-b338" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="9d1c-792c-0624-b338" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fc8a-31c4-3682-8823" name="Berzerker Chainblade" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad78-a7cd-f8c6-6546" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3ad-3bb2-d4a4-dd95" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad78-a7cd-f8c6-6546" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3ad-3bb2-d4a4-dd95" type="min"/>
           </constraints>
           <profiles>
             <profile id="5511-684e-638c-c80a" name="Berzerker Chainblade" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -885,13 +886,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4e77-3e46-93bf-2204" name="Bolt Pistol" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f12e-1846-87c8-b60f" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0173-9494-6b9e-12d6" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f12e-1846-87c8-b60f" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0173-9494-6b9e-12d6" type="min"/>
           </constraints>
           <profiles>
             <profile id="62d3-15b9-1541-4ae8" name="Bolt Pistol" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -906,19 +907,19 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9c8f-31f3-ad93-565c" name="Khornate Eviscerator" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
-            <modifier type="set" field="0cd4-59ad-185e-3a5a" value="2.0">
+            <modifier type="set" field="0cd4-59ad-185e-3a5a" value="2">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1c00-be4d-0551-3e4c" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1c00-be4d-0551-3e4c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cd4-59ad-185e-3a5a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cd4-59ad-185e-3a5a" type="max"/>
           </constraints>
           <profiles>
             <profile id="c20c-f2e6-94f6-a039" name="Khornate Eviscerator" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -933,15 +934,15 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="adfa-a7ce-9c99-4bc8" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="9fbc-447c-712c-8bcb">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3013-699d-64e2-445e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0165-6712-c09e-9983" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3013-699d-64e2-445e" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0165-6712-c09e-9983" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="9fbc-447c-712c-8bcb" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -959,7 +960,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1c00-be4d-0551-3e4c" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -977,7 +978,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -987,7 +988,7 @@
         <entryLink id="070e-3bea-c006-c03c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9bf9-e308-cfa2-32ec" name="Jakhals" hidden="false" collective="false" import="true" type="unit">
@@ -1004,7 +1005,7 @@
         <infoLink id="b40e-c5eb-3c40-ca9d" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="31a3-46d6-11c6-c67a" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="31a3-46d6-11c6-c67a" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
         <categoryLink id="10a6-266f-26d2-ecf0" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="0fd2-a676-c7c1-975b" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="f228-bcc8-c0dc-c964" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
@@ -1014,8 +1015,8 @@
       <selectionEntries>
         <selectionEntry id="296d-c626-9e5d-0397" name="Jakhal Chainblades" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3aa-a818-0198-5959" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6328-06c7-e50e-d901" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3aa-a818-0198-5959" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6328-06c7-e50e-d901" type="max"/>
           </constraints>
           <profiles>
             <profile id="8f0c-eaa5-c245-f4e4" name="Jakhal Chainblades" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1030,13 +1031,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8336-01e8-91f4-2cc2" name="Autopistols" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2b6-3c25-aad5-1c45" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c2b-3415-6e23-a70d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2b6-3c25-aad5-1c45" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c2b-3415-6e23-a70d" type="max"/>
           </constraints>
           <profiles>
             <profile id="e52e-4b69-fe5c-1ace" name="Autopistols" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1051,15 +1052,15 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="5899-fbe5-c6a2-cc97" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="ccda-ccbd-a311-bafb">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a67a-4ad7-8bed-b3a1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2be-7ddc-def7-9a81" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a67a-4ad7-8bed-b3a1" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2be-7ddc-def7-9a81" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="ccda-ccbd-a311-bafb" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1077,7 +1078,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cccf-e20a-e6d1-748e" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1095,7 +1096,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1105,7 +1106,7 @@
         <entryLink id="af8e-6070-7f90-6b90" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7c4c-eae3-69bb-e23a" name="World Eaters Terminator Squad" hidden="false" collective="false" import="true" type="unit">
@@ -1120,7 +1121,7 @@
         <infoLink id="d489-263f-2692-0bb1" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c014-4cfa-3b43-b6fe" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="c014-4cfa-3b43-b6fe" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
         <categoryLink id="f72d-306b-2d0c-03ff" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="1999-98fb-4057-ef0d" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="7fa4-98fa-6f05-ddf9" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
@@ -1129,8 +1130,8 @@
       <selectionEntries>
         <selectionEntry id="f4c5-0712-18de-6449" name="Combi-bolters" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2799-d525-d641-2fb5" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e50b-22de-a67a-7fef" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2799-d525-d641-2fb5" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e50b-22de-a67a-7fef" type="max"/>
           </constraints>
           <profiles>
             <profile id="900e-5b5e-b886-d297" name="Combi-bolters" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1148,15 +1149,15 @@
             <infoLink id="0764-ceb3-aea9-7559" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="49a2-862d-0efb-5167" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="dbd1-ee39-d1cf-4128">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70e4-19c8-5165-7cce" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72a3-178a-d790-05b6" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70e4-19c8-5165-7cce" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72a3-178a-d790-05b6" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="dbd1-ee39-d1cf-4128" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1174,7 +1175,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b010-d01d-4909-5740" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1192,31 +1193,31 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="2a41-e238-993f-4b63" name="Heavy Weapons" hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="increment" field="3f14-ff25-c2b9-ed6d" value="1.0">
+            <modifier type="increment" field="3f14-ff25-c2b9-ed6d" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b010-d01d-4909-5740" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b010-d01d-4909-5740" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f14-ff25-c2b9-ed6d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f14-ff25-c2b9-ed6d" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="9e0a-b308-9979-7a5c" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="46e7-d278-1268-caaf" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8be0-94fa-a80b-1ad0" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8be0-94fa-a80b-1ad0" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="1765-2b32-2c0c-4be5" name="Reaper Autocannon" hidden="false" collective="false" import="true" targetId="4335-f054-c6ae-0368" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a65d-69dc-7e11-f722" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a65d-69dc-7e11-f722" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1227,13 +1228,13 @@
         <entryLink id="af63-796a-bf26-a90d" name="Accursed Weapons" hidden="false" collective="false" import="true" targetId="c3fd-17e8-1410-f7db" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c3fd-17e8-1410-f7db" name="Accursed Weapons" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ded7-e0c7-73ca-68a0" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c9f-d891-b44a-313c" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ded7-e0c7-73ca-68a0" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c9f-d891-b44a-313c" type="max"/>
       </constraints>
       <profiles>
         <profile id="83bb-5b43-9a70-97e0" name="Accursed Weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1251,7 +1252,7 @@
         <entryLink id="3985-eff9-071c-9968" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c326-87d1-b2bd-f1d5" name="Eightbound" hidden="false" collective="false" import="true" type="unit">
@@ -1270,8 +1271,8 @@
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="17fb-64a8-a8c4-4624" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
-        <categoryLink id="d96f-90e5-2922-5f14" name="New CategoryLink" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
+        <categoryLink id="17fb-64a8-a8c4-4624" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="d96f-90e5-2922-5f14" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="f6e8-55ed-ae0c-a79b" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="ed95-2d63-a540-0c7f" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="21d2-4cd9-caad-c488" name="Daemon" hidden="false" targetId="8941-623f-a255-f440" primary="false"/>
@@ -1281,8 +1282,8 @@
       <selectionEntries>
         <selectionEntry id="f38a-cb94-8426-1e0f" name="Eightbound Eviscerator" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8864-6cb9-9222-9128" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36aa-e3b9-e4cf-9a3e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8864-6cb9-9222-9128" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36aa-e3b9-e4cf-9a3e" type="max"/>
           </constraints>
           <profiles>
             <profile id="ff5b-73b0-ebd6-f2d3" name="Eightbound Eviscerator" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1297,15 +1298,15 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="bad1-cb0b-b1bc-5151" name="3 - 6 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="0ef1-b4fe-0f90-abda">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e26-6744-2e4d-9137" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e471-cb28-44bd-ede9" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e26-6744-2e4d-9137" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e471-cb28-44bd-ede9" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="0ef1-b4fe-0f90-abda" name="03 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1323,7 +1324,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1772-a660-1030-48e2" name="06 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1341,7 +1342,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1351,7 +1352,7 @@
         <entryLink id="71a4-192e-523c-3556" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a1a3-e2c8-cb04-9011" name="Exalted Eightbound" hidden="false" collective="false" import="true" type="unit">
@@ -1367,8 +1368,8 @@
         <infoLink id="3443-f64c-802c-9cb9" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="daeb-77c0-41ec-ed19" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
-        <categoryLink id="c83e-2cda-4a32-6b11" name="New CategoryLink" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
+        <categoryLink id="daeb-77c0-41ec-ed19" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="c83e-2cda-4a32-6b11" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="7491-9491-b444-ff47" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="7b90-9acd-7fe1-0817" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="9f98-d71e-6caa-548c" name="Daemon" hidden="false" targetId="8941-623f-a255-f440" primary="false"/>
@@ -1378,8 +1379,8 @@
       <selectionEntries>
         <selectionEntry id="7a00-8beb-90eb-257f" name="Eightbound Chainfist" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d91-8422-2ca8-f2b2" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a2d-1c25-8b02-8e7f" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d91-8422-2ca8-f2b2" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a2d-1c25-8b02-8e7f" type="max"/>
           </constraints>
           <profiles>
             <profile id="9880-c64e-826a-4827" name="Eightbound Chainfist" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1394,15 +1395,15 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="1615-8c53-ba21-d34c" name="3 - 6 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="a39c-399a-3790-9df7">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83e6-dbcd-4878-a4c7" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1626-466d-2505-4a2a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83e6-dbcd-4878-a4c7" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1626-466d-2505-4a2a" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="a39c-399a-3790-9df7" name="03 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1420,7 +1421,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="969b-65ba-7506-e207" name="06 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1438,7 +1439,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1448,7 +1449,7 @@
         <entryLink id="43b3-28a5-eaec-0dff" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2e75-ac4c-1430-5baf" name="Khorne Lord of Skulls" hidden="false" collective="false" import="true" type="unit">
@@ -1469,7 +1470,7 @@
         <infoLink id="4908-1056-3de9-6164" name="Infernal Regeneration" hidden="false" targetId="3fae-f59b-a76c-6bd2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="36af-f780-bbff-adfb" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+        <categoryLink id="36af-f780-bbff-adfb" name="Lord of War" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
         <categoryLink id="266f-e6f2-b936-7c72" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="88d7-8f25-a230-a619" name="Faction: Khorne" hidden="false" targetId="70d2-a4c3-e002-9bbe" primary="false"/>
         <categoryLink id="c8f2-4046-ec8d-b21f" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
@@ -1481,8 +1482,8 @@
       <selectionEntries>
         <selectionEntry id="bb8d-dc12-da15-1cdf" name="Great Cleaver of Khorne" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29b4-4141-fddf-1ee6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0f0-9f23-2425-93f3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29b4-4141-fddf-1ee6" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0f0-9f23-2425-93f3" type="max"/>
           </constraints>
           <profiles>
             <profile id="9ff6-3bca-6afa-f4eb" name="Great Cleaver of Khorne" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1500,15 +1501,15 @@
             <infoLink id="8128-5eed-6af6-25f7" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="d580-4734-e45d-da99" name="Cannon" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a566-2df6-b328-7dbd" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c44c-00a3-c9ed-9ef2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a566-2df6-b328-7dbd" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c44c-00a3-c9ed-9ef2" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="659f-6e3c-5959-401a" name="Gorestorm Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1528,7 +1529,7 @@
                 <infoLink id="3c94-025f-ab9a-3af3" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="052c-1a53-fd6c-fad2" name="Daemongore Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1548,7 +1549,7 @@
                 <infoLink id="3c26-ada4-abee-aa6e" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="912c-c5e2-8278-458d" name="Ichor Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1565,15 +1566,15 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="7628-9cd6-c6a6-9e80" name="Arm Weapon" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b1d-d57f-9ae8-eacf" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e590-1054-ccfb-b996" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b1d-d57f-9ae8-eacf" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e590-1054-ccfb-b996" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="e800-bcf1-fc59-f52b" name="Hades Gatling Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1590,7 +1591,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="85c0-5711-f491-47ae" name="Skullhurler" hidden="false" collective="false" import="true" type="upgrade">
@@ -1607,7 +1608,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1617,7 +1618,7 @@
         <entryLink id="9374-628a-e6f2-4906" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5b63-fb67-defe-d2b2" name="World Eaters Daemon Prince with Wings" hidden="false" collective="false" import="true" type="upgrade">
@@ -1663,14 +1664,14 @@ can re-roll the Hit roll and you can re-roll the Wound roll. If, at the end of t
       <infoLinks>
         <infoLink id="1905-ceb0-2b2a-d242" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
         <infoLink id="6cb2-097d-9205-25de" name="Terror Troops" hidden="false" targetId="e5e7-bd6d-fdb7-b022" type="profile"/>
-        <infoLink id="549b-798c-aaff-fa39" name="Deadly Demise (X)" hidden="false" targetId="edc1-b0c9-7ca6-0ba2" type="profile">
+        <infoLink id="549b-798c-aaff-fa39" name="Deadly Demise (X&quot;)" hidden="false" targetId="edc1-b0c9-7ca6-0ba2" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Deadly Demise 1&quot;"/>
           </modifiers>
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="aa31-aa92-7d17-2307" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="aa31-aa92-7d17-2307" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
         <categoryLink id="8dfd-2aff-8b8b-a118" name="Faction: World Eaters" hidden="false" targetId="f93a-a857-d0c4-0fed" primary="false"/>
         <categoryLink id="67aa-6728-f2d2-2a72" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="7c57-0413-0af6-8610" name="Daemon" hidden="false" targetId="dfc6-5d64-127f-97a1" primary="false"/>
@@ -1684,7 +1685,7 @@ can re-roll the Hit roll and you can re-roll the Wound roll. If, at the end of t
         <entryLink id="f984-7dca-d648-3637" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a764-69a9-9820-694b" name="World Eaters Land Raider" hidden="false" collective="false" import="true" type="unit">
@@ -1709,7 +1710,7 @@ can re-roll the Hit roll and you can re-roll the Wound roll. If, at the end of t
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a461-8666-5905-60cb" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="a461-8666-5905-60cb" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
         <categoryLink id="c63d-2429-2730-1ced" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="0f3c-3e1b-6bf6-7892" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="7f66-c124-628c-6336" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
@@ -1720,26 +1721,26 @@ can re-roll the Hit roll and you can re-roll the Wound roll. If, at the end of t
       <entryLinks>
         <entryLink id="19ae-1ea4-909f-a45a" name="Armoured Tracks" hidden="false" collective="false" import="true" targetId="7e58-d7f5-8d06-d98b" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="585e-cbd9-be3e-0173" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8616-7d11-def2-46a9" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="585e-cbd9-be3e-0173" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8616-7d11-def2-46a9" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="0822-06f2-d06c-3245" name="Twin Heavy Bolter" hidden="false" collective="false" import="true" targetId="6296-86a5-9a2b-3303" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06b2-9669-0f95-14f0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8867-4ff2-15d3-f744" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06b2-9669-0f95-14f0" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8867-4ff2-15d3-f744" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="6e9c-71e9-c0a5-4d46" name="Twin Lascannon" hidden="false" collective="false" import="true" targetId="ca25-e5ce-34c4-ec69" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="716a-bf34-69fd-6426" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13f2-b2c8-3238-44f9" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="716a-bf34-69fd-6426" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13f2-b2c8-3238-44f9" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="3b1b-7e05-8c2c-022f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
