@@ -902,6 +902,7 @@
         <categoryLink id="f0d6-de5d-f506-26c5" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Daemon Prince with Wings" hidden="false" id="6a3e-6069-e83c-d33f" type="selectionEntry" targetId="997f-2335-7038-a5d5"/>
   </entryLinks>
   <rules>
     <rule id="19ce-9e2d-3598-9780" name="Let the Galaxy Burn" hidden="false">

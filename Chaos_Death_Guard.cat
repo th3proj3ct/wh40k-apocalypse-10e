@@ -77,7 +77,7 @@
         <categoryLink id="1187-297c-d2ad-22aa" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a850-8730-bd60-e0c1" name="Death Guard Daemon Prince" hidden="false" collective="false" import="true" targetId="e830-e821-04db-978a" type="selectionEntry">
+    <entryLink id="a850-8730-bd60-e0c1" name="Death Guard Daemon Prince with Wings" hidden="false" collective="false" import="true" targetId="e829-da98-8a47-14c8" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b2b9-f7d2-adbc-4b3e" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
       </categoryLinks>
@@ -358,6 +358,11 @@
     <entryLink id="bb4d-bf2e-6cc5-c000" name="Xiphon Interceptor [Legends]" hidden="false" collective="false" import="true" targetId="7701-7457-621e-6f84" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3d9c-682b-00e8-4296" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Death Guard Daemon Prince" hidden="false" id="83d0-30ee-f718-9243" collective="false" targetId="e830-e821-04db-978a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="57c8-b2b3-9312-4a5b" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

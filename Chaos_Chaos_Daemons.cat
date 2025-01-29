@@ -2232,6 +2232,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+<<<<<<< HEAD
       </costs>
     </selectionEntry>
     <selectionEntry id="dd83-3ecd-5829-fde1" name="Daemon Prince of Chaos" hidden="false" collective="false" import="true" type="unit">
@@ -2460,6 +2461,8 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
+=======
+>>>>>>> 55a41dfce8435206c1b8a135bf12d1a4d9ed04c0
       </costs>
     </selectionEntry>
     <selectionEntry id="fddf-a09a-0247-d2e7" name="Bloodletters" hidden="false" collective="false" import="true" type="unit">
@@ -7294,6 +7297,418 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18"/>
+<<<<<<< HEAD
+=======
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Daemon Prince of Chaos" hidden="false" id="dd83-3ecd-5829-fde1" collective="false">
+      <profiles>
+        <profile name="Daemon Prince of Chaos" typeId="758b-2459-9a46-721a" typeName="Unit" hidden="false" id="4242-bd58-9783-e6d4">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="7+" field="a56f-38ae-3917-aadc">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="dd83-3ecd-5829-fde1" childId="1814-02f4-176f-b698" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="10&quot;" field="606d-344a-bc3d-9dce">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="dd83-3ecd-5829-fde1" childId="4be0-236e-58ed-b155" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Prince of Darkness" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="b5c3-37f2-1eff-7c07">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly LEGIONES DAEMONICA unit is within 6&quot; of this model, you may re-roll saving throws of 1 made for that unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Unholy Vigour" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="f5a4-6d8f-4127-3ccd">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per battle, during the Damage phase, this model can use this ability. If it does, until the end of the phase, this model has a 5+ save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="51dd-c059-00bc-fc29" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Faction: Chaos" hidden="false" id="a177-575f-9f84-b1e6" targetId="841f-fc30-da92-90cf" primary="false"/>
+        <categoryLink name="Faction: Daemon" hidden="false" id="e184-592d-69ab-f72a" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
+        <categoryLink name="Faction: Legiones Daemonica" hidden="false" id="a43f-34aa-d802-3c49" targetId="fab3-7acf-351d-537b" primary="false"/>
+        <categoryLink name="Heavy" hidden="false" id="b997-5d5d-5adb-7c00" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink name="Monster" hidden="false" id="ae85-aa52-c973-bb6d" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="5a1b-d5da-c7f7-4b9d" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink name="Daemon Prince of Chaos" hidden="false" id="23ba-3949-35bf-e484" targetId="f9f3-1f0e-3656-854e" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Hellforged Weapons" hidden="false" id="60f4-ea5a-530b-73df" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7098-5c57-1267-7b57" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c8e-a1aa-f8eb-d963" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Hellforged Weapons" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="d18d-b6c2-8145-512c">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="6+" field="74b1-f85d-ede5-c758">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="dd83-3ecd-5829-fde1" childId="7081-b817-c860-4c4a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="6+" field="4b6c-996a-d317-affb">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="dd83-3ecd-5829-fde1" childId="7081-b817-c860-4c4a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Infernal Cannon" hidden="false" id="907e-e672-f6fc-be87" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9857-09f6-66d1-97ac" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d75f-97de-217b-acd1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Daemonic Weapons" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="9f4f-0d7a-e0a2-9a34">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="3" field="2883-af07-d4e8-d8d0">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="dd83-3ecd-5829-fde1" childId="db8d-f12a-d62a-8b2d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Allegiance" id="7af1-e945-ed23-0ffe" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ecc0-27e4-0214-55f9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a38-d103-96f1-3c3a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Khorne" hidden="false" id="7081-b817-c860-4c4a" collective="false">
+              <modifiers>
+                <modifier type="set" value="1" field="3327-8f63-8253-03a3">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="1d3b-e535-814d-65f5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3327-8f63-8253-03a3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink name="Faction: Khorne" hidden="false" id="c049-06f4-8be9-6841" targetId="46c0-996e-ee14-7c0a" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nurgle" hidden="false" id="1814-02f4-176f-b698" collective="false">
+              <modifiers>
+                <modifier type="set" value="1" field="6b18-9e7d-4ee1-05dd">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="13dd-e8b8-5428-f7c9" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="6b18-9e7d-4ee1-05dd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink name="Faction: Nurgle" hidden="false" id="3323-14c4-9327-c2ab" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
+                <categoryLink name="Psyker" hidden="false" id="5597-91b7-808b-458c" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Slaanesh" hidden="false" id="4be0-236e-58ed-b155" collective="false">
+              <modifiers>
+                <modifier type="set" value="1" field="2d9b-22d2-068e-07a4">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="1891-299a-5601-b5a2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2d9b-22d2-068e-07a4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink name="Faction: Slaanesh" hidden="false" id="9e2a-e76e-da43-eb44" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
+                <categoryLink name="Psyker" hidden="false" id="0008-5258-fd76-9b64" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tzeentch" hidden="false" id="db8d-f12a-d62a-8b2d" collective="false">
+              <modifiers>
+                <modifier type="set" value="1" field="7984-59c5-c549-70a1">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="777b-470f-f311-0fad" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7984-59c5-c549-70a1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink name="Faction: Tzeentch" hidden="false" id="6af7-2d1f-5cad-44de" targetId="762a-9a68-1d7c-41a1" primary="false"/>
+                <categoryLink name="Psyker" hidden="false" id="9275-a89a-f913-7b41" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Commander" hidden="false" id="cd1f-c527-1223-203a" collective="false" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Daemon Prince of Chaos with Wings" hidden="false" id="2d26-7085-e1ff-fd70" collective="false">
+      <profiles>
+        <profile name="Daemon Prince of Chaos" typeId="758b-2459-9a46-721a" typeName="Unit" hidden="false" id="fa01-f0a7-aade-7a31">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="7+" field="a56f-38ae-3917-aadc">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="2d26-7085-e1ff-fd70" childId="a53b-d582-6a42-f23f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="14&quot;" field="606d-344a-bc3d-9dce">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="2d26-7085-e1ff-fd70" childId="1c39-4b08-8142-ef87" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Malefic Destruction" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="0827-8795-5759-ed73">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per battle, when this model is chosen to Fight, this model can use this ability. If it does, until the end of the phase, add 2 to the Attacks characteristic of this model’s hellforged weapons.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Harbringer of Death" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="4294-112a-d981-0651">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model is selected to fight, select one of the following abilities. Until the end of the phase, this model’s hellforged weapons have that ability:
+    [LETHAL HITS]
+    [SUSTAINED HITS 1]
+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="e473-c3c3-9c4a-a326" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Faction: Chaos" hidden="false" id="87ba-ecd0-c335-83df" targetId="841f-fc30-da92-90cf" primary="false"/>
+        <categoryLink name="Faction: Daemon" hidden="false" id="7479-b5af-dc3f-d097" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
+        <categoryLink name="Faction: Legiones Daemonica" hidden="false" id="b909-e1bc-ad83-9a41" targetId="fab3-7acf-351d-537b" primary="false"/>
+        <categoryLink name="Heavy" hidden="false" id="f9a5-9afe-5282-17a3" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink name="Monster" hidden="false" id="2c3f-dd2a-c9ab-5ab5" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="84d3-cd26-115e-44e5" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink name="Daemon Prince of Chaos" hidden="false" id="524b-2f8e-4a8b-2e67" targetId="f9f3-1f0e-3656-854e" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Hellforged Weapons" hidden="false" id="cc87-20ff-e611-84f7" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="15b1-deb7-dfeb-c02f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8581-349b-803d-c4ab" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Hellforged Weapons" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="a29d-db20-92d6-391d">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="6+" field="74b1-f85d-ede5-c758">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="2d26-7085-e1ff-fd70" childId="c2c8-d663-bd95-ae33" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="6+" field="4b6c-996a-d317-affb">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="2d26-7085-e1ff-fd70" childId="c2c8-d663-bd95-ae33" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Infernal Cannon" hidden="false" id="2778-b388-ded0-0860" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5d80-df31-371e-6baa" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b416-e22b-2c15-04e4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Daemonic Weapons" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="838c-b028-a1f3-30fb">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="3" field="2883-af07-d4e8-d8d0">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="2d26-7085-e1ff-fd70" childId="415f-88b8-baef-0bdd" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Allegiance" id="cda9-1eb0-1b9f-9079" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1217-843c-426d-65a5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b77-89d8-7d0f-474c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Khorne" hidden="false" id="c2c8-d663-bd95-ae33" collective="false">
+              <modifiers>
+                <modifier type="set" value="1" field="6ad4-ff43-6f7c-1d9a">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="1d3b-e535-814d-65f5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="6ad4-ff43-6f7c-1d9a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink name="Faction: Khorne" hidden="false" id="f2e1-a57a-5826-22f5" targetId="46c0-996e-ee14-7c0a" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nurgle" hidden="false" id="a53b-d582-6a42-f23f" collective="false">
+              <modifiers>
+                <modifier type="set" value="1" field="6499-0b38-94f7-70f0">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="13dd-e8b8-5428-f7c9" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="6499-0b38-94f7-70f0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink name="Faction: Nurgle" hidden="false" id="9fec-1d12-6bee-1681" targetId="deea-5fa0-0ab5-be6f" primary="false"/>
+                <categoryLink name="Psyker" hidden="false" id="3501-d89f-ff1b-a660" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Slaanesh" hidden="false" id="1c39-4b08-8142-ef87" collective="false">
+              <modifiers>
+                <modifier type="set" value="1" field="bfb1-82ab-ea04-3cd4">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="1891-299a-5601-b5a2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="bfb1-82ab-ea04-3cd4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink name="Faction: Slaanesh" hidden="false" id="70b7-64c2-30aa-eead" targetId="c30a-4fee-d3ab-29bc" primary="false"/>
+                <categoryLink name="Psyker" hidden="false" id="0697-dbd6-993a-19a3" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tzeentch" hidden="false" id="415f-88b8-baef-0bdd" collective="false">
+              <modifiers>
+                <modifier type="set" value="1" field="7920-43ed-7164-a63f">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="777b-470f-f311-0fad" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7920-43ed-7164-a63f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink name="Faction: Tzeentch" hidden="false" id="46f6-c5e1-787d-c992" targetId="762a-9a68-1d7c-41a1" primary="false"/>
+                <categoryLink name="Psyker" hidden="false" id="813a-d390-7c99-d0aa" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Commander" hidden="false" id="9ecf-c1a6-f2f6-fb21" collective="false" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
+>>>>>>> 55a41dfce8435206c1b8a135bf12d1a4d9ed04c0
       </costs>
     </selectionEntry>
   </selectionEntries>

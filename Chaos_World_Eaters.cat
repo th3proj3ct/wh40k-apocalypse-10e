@@ -456,6 +456,7 @@
       </profiles>
     </entryLink>
     <entryLink id="df16-c210-4b79-7e6b" name="Show Legends" hidden="false" collective="false" import="true" targetId="c13b-ab88-b33f-dcd5" type="selectionEntry"/>
+    <entryLink import="true" name="World Eaters Daemon Prince with Wings" hidden="false" id="cd6d-99e5-17bc-d2af" type="selectionEntry" targetId="5b63-fb67-defe-d2b2"/>
   </entryLinks>
   <infoLinks>
     <infoLink id="a0cc-97dc-a570-e2fa" name="Let The Galaxy Burn" hidden="false" targetId="cf83-b3f7-9062-f56d" type="rule"/>

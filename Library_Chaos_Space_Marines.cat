@@ -2229,6 +2229,11 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
+        <profile name="Siege Crawler" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="4f41-0e57-0b20-6b36">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes an attack that targets a HEAVY unit, you may re-roll the hit roll.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="55cf-1b86-9208-6d1c" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
