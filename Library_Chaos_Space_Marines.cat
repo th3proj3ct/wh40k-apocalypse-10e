@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8a94-e862-c384-d68b" name="Library - Chaos Space Marines" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8a94-e862-c384-d68b" name="Library - Chaos Space Marines" revision="5" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <profileTypes>
     <profileType id="4b4e-76cf-b61c-81df" name="Mutated Beyond Reason - D3">
       <characteristicTypes>
@@ -123,8 +123,8 @@
       <selectionEntries>
         <selectionEntry id="44b7-183d-2978-16b9" name="Bile Maw" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b6d-314a-ca26-80e5" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b40-64aa-58af-072b" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b6d-314a-ca26-80e5" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b40-64aa-58af-072b" type="min"/>
           </constraints>
           <profiles>
             <profile id="9ed2-c54a-f6c0-2b91" name="Bile Maw" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -139,13 +139,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="96b9-b682-aa7d-de94" name="Blightreaper Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="824a-daf3-9d2f-675a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f97c-515f-c5cb-32e1" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="824a-daf3-9d2f-675a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f97c-515f-c5cb-32e1" type="min"/>
           </constraints>
           <profiles>
             <profile id="a9a5-b1be-5b41-3cc6" name="Blightreaper Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -160,13 +160,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a533-583f-1f34-66e4" name="Plague Probe" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad8f-9426-935a-3a2e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f674-e064-43ea-2e9f" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad8f-9426-935a-3a2e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f674-e064-43ea-2e9f" type="min"/>
           </constraints>
           <profiles>
             <profile id="9bd0-2dbd-4c88-73ec" name="Plague Probe" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -181,7 +181,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -189,7 +189,7 @@
         <entryLink id="00ab-6e0c-3e5f-e502" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9e88-67db-d4e3-fb01" name="Decimator" hidden="false" collective="false" import="true" type="unit">
@@ -222,13 +222,13 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="34e5-9d86-dfa6-6c93" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="80cf-554d-375f-7f09">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd1c-4b3d-d0ce-8db4" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="854b-3a33-faa0-3324" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd1c-4b3d-d0ce-8db4" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="854b-3a33-faa0-3324" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="80cf-554d-375f-7f09" name="Decimator Siege Claw and Hellflamer" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4497-93a8-33cd-66e4" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4497-93a8-33cd-66e4" type="max"/>
               </constraints>
               <profiles>
                 <profile id="847d-67cd-2ffc-4339" name="Decimator Siege Claw" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -247,12 +247,12 @@
                 <infoLink id="a116-4adc-623d-5e5c" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a7d9-f615-4050-2a45" name="Decimator Storm Laser" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e60d-d3d3-3b0e-8186" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e60d-d3d3-3b0e-8186" type="max"/>
               </constraints>
               <profiles>
                 <profile id="43c8-da94-c344-4429" name="Decimator Storm Laser" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -267,24 +267,24 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
             <entryLink id="56e5-88d5-c781-a5ee" name="Butcher Cannon" hidden="false" collective="false" import="true" targetId="857c-e506-babd-d2da" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7854-40d7-52b3-0a4f" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7854-40d7-52b3-0a4f" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="4b5e-7d23-779b-685c" name="C-beam Cannon" hidden="false" collective="false" import="true" targetId="229a-7522-471b-45de" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a365-165a-3c12-73e8" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a365-165a-3c12-73e8" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="a1cc-7925-8ed2-a1c9" name="Soulburner Petard" hidden="false" collective="false" import="true" targetId="4e62-806f-b896-cc68" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4e3-780d-7142-24ce" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4e3-780d-7142-24ce" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -294,7 +294,7 @@
         <entryLink id="4870-6023-4249-e5af" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="857c-e506-babd-d2da" name="Butcher Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -311,7 +311,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4e62-806f-b896-cc68" name="Soulburner Petard" hidden="false" collective="false" import="true" type="upgrade">
@@ -328,7 +328,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8268-103d-a625-da03" name="Plague Hulk of Nurgle" hidden="false" collective="false" import="true" type="unit">
@@ -363,8 +363,8 @@
       <selectionEntries>
         <selectionEntry id="5d09-2187-abc7-9f04" name="Rancid Vomit" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ce6-019a-347b-491a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="556f-ae76-08e0-e70d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ce6-019a-347b-491a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="556f-ae76-08e0-e70d" type="max"/>
           </constraints>
           <profiles>
             <profile id="9a08-0d2c-eb1f-2637" name="Rancid Vomit" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -382,13 +382,13 @@
             <infoLink id="b9af-f8ca-1c05-f5e6" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="589f-c9cb-b52b-9880" name="Rot Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0b0-543d-8792-16c6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0f6-c7f9-9ac2-c2cf" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0b0-543d-8792-16c6" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0f6-c7f9-9ac2-c2cf" type="max"/>
           </constraints>
           <profiles>
             <profile id="e601-f0f5-8c6e-d504" name="Rot Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -403,15 +403,15 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="c6ad-6eb3-b843-a543" name="Melee weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="470a-cae3-8217-ea37">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd2c-2376-ad93-2390" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3d3-3fe5-fcd5-1b7f" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd2c-2376-ad93-2390" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3d3-3fe5-fcd5-1b7f" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="470a-cae3-8217-ea37" name="Iron Claw" hidden="false" collective="false" import="true" type="upgrade">
@@ -428,7 +428,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d730-e788-ff54-2c25" name="Warpsword" hidden="false" collective="false" import="true" type="upgrade">
@@ -445,7 +445,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -455,7 +455,7 @@
         <entryLink id="0022-4354-ba2a-c800" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="43af-be45-7918-425b" name="Kytan Ravager" hidden="false" collective="false" import="true" type="unit">
@@ -490,8 +490,8 @@
       <selectionEntries>
         <selectionEntry id="754f-398c-830e-d9c4" name="Kytan Gatling Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e62-5f7e-6cbb-5b81" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa64-06da-f2c7-adc2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e62-5f7e-6cbb-5b81" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa64-06da-f2c7-adc2" type="max"/>
           </constraints>
           <profiles>
             <profile id="cefa-83e8-7531-74fc" name="Kytan Gatling Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -506,13 +506,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4613-eec3-a4da-89b5" name="Great Cleaver of Khorne" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="093e-809b-2043-9578" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4654-fd80-aa87-43fb" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="093e-809b-2043-9578" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4654-fd80-aa87-43fb" type="max"/>
           </constraints>
           <profiles>
             <profile id="329d-8288-cbd1-04b7" name="Great Cleaver of Khorne" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -530,7 +530,7 @@
             <infoLink id="0930-d0c9-f504-1637" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -538,7 +538,7 @@
         <entryLink id="6670-4ef2-1732-1038" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f692-9c00-d320-323c" name="Greater Brass Scorpion" hidden="false" collective="false" import="true" type="unit">
@@ -583,8 +583,8 @@
       <selectionEntries>
         <selectionEntry id="04aa-eba8-ccbb-156b" name="Scorpion Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1569-2b79-e675-8ccb" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efd0-0ab8-7e2b-fbc0" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1569-2b79-e675-8ccb" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efd0-0ab8-7e2b-fbc0" type="max"/>
           </constraints>
           <profiles>
             <profile id="389d-9e34-0360-2d21" name="Scorpion Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -599,13 +599,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3b3d-38df-f805-cca0" name="Soulshatter Bombard" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9645-b14e-9c93-8c44" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0000-fec9-8ef6-7179" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9645-b14e-9c93-8c44" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0000-fec9-8ef6-7179" type="max"/>
           </constraints>
           <profiles>
             <profile id="0b18-44c3-139d-c4a8" name="Soulshatter Bombard" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -620,13 +620,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="76d6-ba82-d934-1a6d" name="Twin Hellmaw Blasters" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83c8-6b5b-993e-c213" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce87-f464-5680-58f1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83c8-6b5b-993e-c213" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce87-f464-5680-58f1" type="max"/>
           </constraints>
           <profiles>
             <profile id="2757-459c-5aa2-3900" name="Twin Hellmaw Blasters" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -644,13 +644,13 @@
             <infoLink id="6c2d-c683-2438-f672" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3b00-5d36-abfb-46b3" name="Hellcrusher Claws" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c2b-0f61-3f5c-19ad" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a65c-c088-d8fb-183c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c2b-0f61-3f5c-19ad" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a65c-c088-d8fb-183c" type="max"/>
           </constraints>
           <profiles>
             <profile id="14f7-34ae-b26b-66ff" name="Hellcrusher Claws" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -665,7 +665,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -673,7 +673,7 @@
         <entryLink id="b9f0-38a4-949f-c685" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="27.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="27"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f06-66b9-535a-fb5d" name="Hellflamer" hidden="false" collective="false" import="true" type="upgrade">
@@ -682,12 +682,12 @@
         <infoLink id="1d7e-b4bd-40d6-f289" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a07d-031c-6cd1-7a23" name="Havoc Launcher" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a30-2662-42e8-b3a1" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a30-2662-42e8-b3a1" type="max"/>
       </constraints>
       <profiles>
         <profile id="04a4-3807-c9f2-4c86" name="Havoc Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -702,13 +702,13 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3605-e17c-9a43-200d" name="Infernal Hunger" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2099-5371-4326-6445" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4874-45cf-80d2-5f63" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2099-5371-4326-6445" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4874-45cf-80d2-5f63" type="max"/>
       </constraints>
       <profiles>
         <profile id="3f94-685e-d8c7-f936" name="Infernal Hunger" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -723,7 +723,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="660d-f9b6-ddc9-9946" name="Chaos Whirlwind Scorpius" hidden="false" collective="false" import="true" type="unit">
@@ -752,22 +752,22 @@
       <entryLinks>
         <entryLink id="3b39-1392-1b34-f1c7" name="Scorpius Multi-launcher" hidden="false" collective="false" import="true" targetId="3efa-bc50-e3e0-a6c5" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a95-2bd5-e016-c91b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ae6-4366-b3f1-e693" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a95-2bd5-e016-c91b" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ae6-4366-b3f1-e693" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="2f9c-ff39-6480-556c" name="Havoc Launcher" hidden="false" collective="false" import="true" targetId="a07d-031c-6cd1-7a23" type="selectionEntry"/>
         <entryLink id="ada4-ef09-7c85-cc78" name="Combi-bolter" hidden="false" collective="false" import="true" targetId="f25f-41f2-ba88-cb85" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43a2-5cbc-3616-83c1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46ed-3d06-ca83-f135" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43a2-5cbc-3616-83c1" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46ed-3d06-ca83-f135" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="20dc-0b5e-aed7-5659" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="ff46-0156-60e5-9407" name="Armoured Tracks" hidden="false" collective="false" import="true" targetId="7e58-d7f5-8d06-d98b" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc78-3fd8-a305-ab01" name="Butcher Cannon Array" hidden="false" collective="false" import="true" type="upgrade">
@@ -784,7 +784,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3627-6f4b-6f82-b078" name="Armoured Feet" hidden="false" collective="false" import="true" type="upgrade">
@@ -801,7 +801,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8e81-49f0-bd2b-f680" name="Ectoplasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -818,7 +818,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6962-3f8f-63d3-803c" name="Dreadclaw Drop Pod" hidden="false" collective="false" import="true" type="unit">
@@ -858,8 +858,8 @@
       <selectionEntries>
         <selectionEntry id="9b7a-17b5-ec67-fc34" name="Thermal Jets" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f96-a555-65ef-d937" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="428d-f693-f8f3-f4cd" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f96-a555-65ef-d937" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="428d-f693-f8f3-f4cd" type="max"/>
           </constraints>
           <profiles>
             <profile id="6dcf-54b3-62f9-f257" name="Thermal Jets" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -877,13 +877,13 @@
             <infoLink id="92fe-c333-f7fd-c094" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="afaa-c597-b835-b67d" name="Blade Struts" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d661-45b4-89b0-fd05" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5720-4a66-2725-26bd" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d661-45b4-89b0-fd05" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5720-4a66-2725-26bd" type="max"/>
           </constraints>
           <profiles>
             <profile id="eb1c-55b9-ff29-a6c1" name="Blade Struts" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -898,7 +898,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -906,7 +906,7 @@
         <entryLink id="2524-50a8-7380-02b8" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9b56-60e3-1ec2-2be6" name="Kharybdis Assault Claw" hidden="false" collective="false" import="true" type="unit">
@@ -947,8 +947,8 @@
       <selectionEntries>
         <selectionEntry id="1ac2-6188-b209-4f6c" name="Blade Struts" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8504-b29d-d85a-be44" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16e3-66a7-791b-ccf3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8504-b29d-d85a-be44" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16e3-66a7-791b-ccf3" type="max"/>
           </constraints>
           <profiles>
             <profile id="eb28-6ee7-6a4e-d35d" name="Blade Struts" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -963,13 +963,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4fdc-f92e-82cd-b179" name="Thermal Jet Array" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0855-d3f5-ce40-6043" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b77-ebba-a991-526a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0855-d3f5-ce40-6043" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b77-ebba-a991-526a" type="max"/>
           </constraints>
           <profiles>
             <profile id="ca2e-e5db-37b1-7f96" name="Thermal Jet Array" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -987,13 +987,13 @@
             <infoLink id="629d-2e80-09e4-e3f0" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e08e-1bd7-adb1-0fc6" name="Melta Cutters" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7619-b093-5823-87a8" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a21-2dd2-7d51-c088" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7619-b093-5823-87a8" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a21-2dd2-7d51-c088" type="max"/>
           </constraints>
           <profiles>
             <profile id="573c-5bcf-e300-ed52" name="Melta Cutters" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1008,13 +1008,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="947b-6968-132a-54df" name="Kharybdis Storm Launcher" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73f8-f081-00bc-2e8c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88ec-6030-b401-18ac" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73f8-f081-00bc-2e8c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88ec-6030-b401-18ac" type="max"/>
           </constraints>
           <profiles>
             <profile id="2d7a-a17a-07c1-8d48" name="Kharybdis Storm Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1029,7 +1029,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1037,13 +1037,13 @@
         <entryLink id="7fbc-9920-9b54-d2ff" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4225-0de4-57c9-5d38" name="Eternal Hunger" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5695-e371-caaa-2540" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ba4-5cff-9324-0a63" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5695-e371-caaa-2540" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ba4-5cff-9324-0a63" type="max"/>
       </constraints>
       <profiles>
         <profile id="3ac9-623e-3227-78fe" name="Eternal Hunger" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1058,7 +1058,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b299-fe4e-bf7e-f9b1" name="Hell Blade" hidden="false" collective="false" import="true" type="unit">
@@ -1093,16 +1093,16 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="bbc0-e383-9bdf-86fe" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="e069-d8fc-3b83-38c1">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaab-ef0c-eef6-f515" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b200-45a4-8dee-46d7" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaab-ef0c-eef6-f515" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b200-45a4-8dee-46d7" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="e069-d8fc-3b83-38c1" name="Two Helstorm Cannons" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
                 <selectionEntry id="9425-55d0-fb4d-fedc" name="Helstorm Cannon" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff1b-389d-7d3b-8b3d" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f06-81c2-ba1b-53de" type="max"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff1b-389d-7d3b-8b3d" type="min"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f06-81c2-ba1b-53de" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="108e-b8a7-bb2c-4f10" name="Helstorm Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1117,25 +1117,25 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8a6c-3afa-dab2-715d" name="Two Lascannons" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="53be-0125-5bb8-4efb" name="Lascannon" hidden="false" collective="false" import="true" targetId="dd55-a2c1-238b-569f" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abc0-5db6-89ad-5f81" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74af-543b-e1a7-4c78" type="max"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abc0-5db6-89ad-5f81" type="min"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74af-543b-e1a7-4c78" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1146,7 +1146,7 @@
         <entryLink id="54cf-65e2-b473-6054" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b8d9-844d-d0fb-1ac2" name="Hell Talon" hidden="false" collective="false" import="true" type="unit">
@@ -1185,8 +1185,8 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="b59f-0586-f2b5-3395" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8bd8-b5fb-764b-ac83">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33e1-a2cd-82f5-cda8" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08b4-e81c-b23f-aff9" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33e1-a2cd-82f5-cda8" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08b4-e81c-b23f-aff9" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="8bd8-b5fb-764b-ac83" name="Helstorm Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1203,7 +1203,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1220,20 +1220,20 @@
         <entryLink id="4ad0-5857-6505-0e09" name="Bladed Wings" hidden="false" collective="false" import="true" targetId="69a3-6c7c-432b-0342" type="selectionEntry"/>
         <entryLink id="f1c2-95ee-cd63-f51c" name="Twin Lascannon" hidden="false" collective="false" import="true" targetId="ca25-e5ce-34c4-ec69" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3628-de37-6df8-26bd" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8824-fee2-e597-3bde" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3628-de37-6df8-26bd" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8824-fee2-e597-3bde" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="3ad9-ef04-7679-4650" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="69a3-6c7c-432b-0342" name="Bladed Wings" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4efd-cde0-9cbc-8ae8" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f01-b684-4f29-0c52" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4efd-cde0-9cbc-8ae8" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f01-b684-4f29-0c52" type="max"/>
       </constraints>
       <profiles>
         <profile id="9bd6-23be-3cce-76a1" name="Bladed Wings" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1248,7 +1248,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4335-f054-c6ae-0368" name="Reaper Autocannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1272,7 +1272,7 @@
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a3d-b8e1-d710-6159" name="Balefire Missiles" hidden="false" collective="false" import="true" type="upgrade">
@@ -1289,13 +1289,13 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="810b-7cdf-1a14-a480" name="Armoured Bulk" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="999c-9602-65f5-9771" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a22c-90ff-18ca-7388" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="999c-9602-65f5-9771" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a22c-90ff-18ca-7388" type="max"/>
       </constraints>
       <profiles>
         <profile id="79fe-8cee-c08d-3f70" name="Armoured Bulk" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1310,13 +1310,13 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3690-6cf0-8024-b5f1" name="Massively Armoured Bulk" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bdf-c011-76fa-3f50" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20bb-1af7-c657-40a0" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bdf-c011-76fa-3f50" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20bb-1af7-c657-40a0" type="max"/>
       </constraints>
       <profiles>
         <profile id="65a9-2f05-d38e-ce42" name="Massively Armoured Bulk" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1331,7 +1331,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ca7-9758-48ff-235b" name="Helbrute" hidden="false" collective="false" import="true" type="unit">
@@ -1359,7 +1359,7 @@
         <entryLink id="0c3f-02c5-f223-199d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0de5-74b3-8e23-e51e" name="Ferrum Infernus Chaos Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -1386,7 +1386,7 @@
         <entryLink id="aa80-414d-f545-9c26" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0bb5-c411-fce8-4b76" name="Sonic Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -1417,13 +1417,13 @@
             <modifier type="set" field="1466-da3f-0d27-dace" value="1"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62bc-f7fa-116b-93c0" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62bc-f7fa-116b-93c0" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="b7b4-b5c8-a83f-77e6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad0d-f930-ae7f-f255" name="Blastmaster" hidden="false" collective="false" import="true" type="upgrade">
@@ -1440,7 +1440,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1b86-ea5b-efad-7859" name="Doom Siren" hidden="false" collective="false" import="true" type="upgrade">
@@ -1460,7 +1460,7 @@
         <infoLink id="484e-b4a3-495c-2c0b" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a89c-60d1-ab95-cb47" name="Chaos Vindicator Laser Destroyer" hidden="false" collective="false" import="true" type="unit">
@@ -1490,8 +1490,8 @@
       <selectionEntries>
         <selectionEntry id="d46f-54a1-048e-4b7e" name="Laser Volley Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6dd-f51f-11d6-2518" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01c0-09ce-ae40-24dd" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6dd-f51f-11d6-2518" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01c0-09ce-ae40-24dd" type="max"/>
           </constraints>
           <profiles>
             <profile id="c83a-3f04-c564-74eb" name="Laser Volley Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1510,22 +1510,22 @@
             <infoLink id="6bd9-f199-8eb2-81b1" name="Supercharge" hidden="false" targetId="9988-c2ea-2f30-09c1" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="111e-72f5-91dc-6dd7" name="Storm Bolter" hidden="false" collective="false" import="true" targetId="7457-58c5-d5f1-11a0" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e8b-9cb2-6992-7db1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8316-e883-5936-a02e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e8b-9cb2-6992-7db1" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8316-e883-5936-a02e" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="6f60-ba60-036f-066a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="88e3-bdbe-b74c-3125" name="Armoured Tracks" hidden="false" collective="false" import="true" targetId="7e58-d7f5-8d06-d98b" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f8fa-3ec8-92bd-35de" name="Chaos Lord" hidden="false" collective="false" import="true" type="unit">
@@ -1559,7 +1559,7 @@
         <entryLink id="897c-809d-f1b1-9a74" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4ce-9e34-70f0-5ae7" name="Jump Pack" hidden="false" collective="false" import="true" type="upgrade">
@@ -1572,7 +1572,7 @@
         <categoryLink id="008a-92ec-a939-d539" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1065-3188-3879-2055" name="Terminator Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -1584,7 +1584,7 @@
         <categoryLink id="b9dc-17bf-35bb-b389" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c140-bd30-4dbe-9907" name="Bike" hidden="false" collective="false" import="true" type="upgrade">
@@ -1592,7 +1592,7 @@
         <categoryLink id="007c-380e-e3a1-cb24" name="Biker" hidden="false" targetId="c8b5-9ad5-d8df-45f2" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="57e6-a330-44cd-642b" name="Baleflamer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1612,13 +1612,13 @@
         <infoLink id="8f71-8937-d3a5-f8d9" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fb4c-7116-4f16-b27e" name="Force Weapon" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a6-4bb6-1e81-47eb" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a8c-29f1-65d7-ba45" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a6-4bb6-1e81-47eb" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a8c-29f1-65d7-ba45" type="max"/>
       </constraints>
       <profiles>
         <profile id="cc85-51d3-548c-8c57" name="Force Weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1633,7 +1633,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ccff-966b-bc9a-05c8" name="Chaos Cultists" hidden="false" collective="false" import="true" type="unit">
@@ -1648,8 +1648,8 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="e896-aeb5-e3dc-4b85" name="10 - 40 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="01ae-7709-6634-b865">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="385b-e6e3-c699-64b8" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="995c-e276-c23e-146c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="385b-e6e3-c699-64b8" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="995c-e276-c23e-146c" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="01ae-7709-6634-b865" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1667,7 +1667,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e124-97cc-6c29-9fc8" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1685,7 +1685,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4135-87e0-8856-c4fa" name="30 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1703,7 +1703,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="536a-5e7f-deba-afe3" name="40 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1721,23 +1721,23 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="7618-68f1-dc4d-82f8" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="5f16-b194-fc63-eb71">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bedf-8f1c-f118-3460" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4258-c679-6f81-0b6e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bedf-8f1c-f118-3460" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4258-c679-6f81-0b6e" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="5f16-b194-fc63-eb71" name="Autoguns and Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
                 <selectionEntry id="94da-5311-5ccb-c6c0" name="Autoguns" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94fa-72ad-f8d0-54dd" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6cf-ade1-9487-e23e" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94fa-72ad-f8d0-54dd" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6cf-ade1-9487-e23e" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="d945-5ba1-2b9d-e681" name="Autoguns" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1755,28 +1755,28 @@
                     <infoLink id="f539-c088-af33-83dd" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
                 <entryLink id="b43c-3a6b-1df5-f736" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="6144-aa85-b770-2f33" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01e0-0842-d1ec-aa06" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4848-0fc6-9ad0-1193" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01e0-0842-d1ec-aa06" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4848-0fc6-9ad0-1193" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="18d2-55d5-3f7a-3750" name="Autopistols and Brutal Assault Weapons" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
                 <selectionEntry id="013b-a727-ef63-23db" name="Autopistols" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a02-b7a0-9213-1b95" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ba2-98f1-d5bf-aab9" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a02-b7a0-9213-1b95" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ba2-98f1-d5bf-aab9" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="0b74-4818-1a2f-b835" name="Autopistols" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1791,13 +1791,13 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="e8ca-2250-363f-1f71" name="Brutal Assault Weapons" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f545-775c-0436-9354" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="764d-0df8-366e-71af" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f545-775c-0436-9354" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="764d-0df8-366e-71af" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="29fd-42f2-5761-2432" name="Brutal Assault Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1812,12 +1812,12 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1829,28 +1829,28 @@
             <modifier type="set" field="1466-da3f-0d27-dace" value="1"/>
             <modifier type="set" field="86d7-a0c9-784e-6811" value="2">
               <conditions>
-                <condition field="selections" scope="ccff-966b-bc9a-05c8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e124-97cc-6c29-9fc8" type="equalTo"/>
+                <condition field="selections" scope="ccff-966b-bc9a-05c8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e124-97cc-6c29-9fc8" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="86d7-a0c9-784e-6811" value="3">
               <conditions>
-                <condition field="selections" scope="ccff-966b-bc9a-05c8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4135-87e0-8856-c4fa" type="equalTo"/>
+                <condition field="selections" scope="ccff-966b-bc9a-05c8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4135-87e0-8856-c4fa" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="86d7-a0c9-784e-6811" value="4">
               <conditions>
-                <condition field="selections" scope="ccff-966b-bc9a-05c8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="536a-5e7f-deba-afe3" type="equalTo"/>
+                <condition field="selections" scope="ccff-966b-bc9a-05c8" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="536a-5e7f-deba-afe3" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86d7-a0c9-784e-6811" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86d7-a0c9-784e-6811" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="5a9c-f564-d6c6-69d8" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ed66-68de-c8bb-af54" name="Chaos Spawn" hidden="false" collective="false" import="true" type="upgrade">
@@ -1890,15 +1890,15 @@
       <selectionEntries>
         <selectionEntry id="a08f-c4a2-229e-a3d3" name="Chaos Spawn" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb40-097f-9fe0-1010" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d352-a879-a7c9-15e4" type="min"/>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb40-097f-9fe0-1010" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d352-a879-a7c9-15e4" type="min"/>
           </constraints>
           <profiles>
             <profile id="9a8c-6977-b20b-1229" name="Chaos Spawn" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
               <modifierGroups>
                 <modifierGroup>
                   <conditions>
-                    <condition field="selections" scope="ed66-68de-c8bb-af54" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                    <condition field="selections" scope="ed66-68de-c8bb-af54" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
                   </conditions>
                   <modifiers>
                     <modifier type="set" field="7c7f-f763-1f39-410c" value="3"/>
@@ -1907,7 +1907,7 @@
                 </modifierGroup>
                 <modifierGroup>
                   <conditions>
-                    <condition field="selections" scope="ed66-68de-c8bb-af54" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                    <condition field="selections" scope="ed66-68de-c8bb-af54" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
                   </conditions>
                   <modifiers>
                     <modifier type="set" field="7c7f-f763-1f39-410c" value="2"/>
@@ -1916,7 +1916,7 @@
                 </modifierGroup>
                 <modifierGroup>
                   <conditions>
-                    <condition field="selections" scope="ed66-68de-c8bb-af54" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                    <condition field="selections" scope="ed66-68de-c8bb-af54" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
                   </conditions>
                   <modifiers>
                     <modifier type="set" field="ddfe-6a9e-32c1-a51c" value="4"/>
@@ -1925,7 +1925,7 @@
                 </modifierGroup>
                 <modifierGroup>
                   <conditions>
-                    <condition field="selections" scope="ed66-68de-c8bb-af54" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+                    <condition field="selections" scope="ed66-68de-c8bb-af54" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
                   </conditions>
                   <modifiers>
                     <modifier type="set" field="ddfe-6a9e-32c1-a51c" value="5"/>
@@ -1947,8 +1947,8 @@
           <selectionEntries>
             <selectionEntry id="cd8b-cb88-b471-5985" name="Hideous Mutations" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a45b-be0e-a1d3-5736" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1157-71b5-ef52-be35" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a45b-be0e-a1d3-5736" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1157-71b5-ef52-be35" type="max"/>
               </constraints>
               <profiles>
                 <profile id="fa83-425d-ffa0-e85e" name="Hideous Mutations" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1963,12 +1963,12 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1976,7 +1976,7 @@
         <entryLink id="f24f-02dd-0824-fc64" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7278-4a41-c1ee-16f3" name="Defiler" hidden="false" collective="false" import="true" type="unit">
@@ -2009,8 +2009,8 @@
       <selectionEntries>
         <selectionEntry id="cea3-578a-77ad-d0ea" name="Defiler Claws" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="409e-474b-f3f8-e42c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fdf-c518-e084-61e9" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="409e-474b-f3f8-e42c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fdf-c518-e084-61e9" type="max"/>
           </constraints>
           <profiles>
             <profile id="3442-cc94-f491-152e" name="Defiler Claws" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2025,15 +2025,15 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="ca05-8156-6912-09dd" name="Heavy Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="4157-5a0d-aba2-c187">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0118-22ab-86a3-3b05" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe8f-90e3-f19c-4b6a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0118-22ab-86a3-3b05" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe8f-90e3-f19c-4b6a" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="4157-5a0d-aba2-c187" name="Reaper Autocannon" hidden="false" collective="false" import="true" targetId="4335-f054-c6ae-0368" type="selectionEntry"/>
@@ -2043,8 +2043,8 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="51a3-0508-ffdf-a471" name="Arm weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6a6d-c00d-04bf-4eb9">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ccd-b6da-0b75-7148" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e066-e537-3113-91e0" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ccd-b6da-0b75-7148" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e066-e537-3113-91e0" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="43fc-d529-1fb9-6881" name="Defiler Scourge" hidden="false" collective="false" import="true" type="upgrade">
@@ -2061,7 +2061,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2073,14 +2073,14 @@
       <entryLinks>
         <entryLink id="a160-d39e-6416-cfc3" name="Battle Cannon" hidden="false" collective="false" import="true" targetId="c421-b72d-bf12-38b0" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d7e-0f1d-4f39-526c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc75-81a2-90e4-ffa3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d7e-0f1d-4f39-526c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc75-81a2-90e4-ffa3" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="49cf-70b3-3b87-be24" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c977-6ee2-730c-59f6" name="Forgefiend" hidden="false" collective="false" import="true" type="unit">
@@ -2115,8 +2115,8 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="af44-2fc6-e985-16a0" name="Jaws Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="bd47-c92c-461c-926c">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a51-5476-8c4a-7cb6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2998-fb5c-ef01-15d9" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a51-5476-8c4a-7cb6" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2998-fb5c-ef01-15d9" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="bd47-c92c-461c-926c" name="Daemon Jaws" hidden="false" collective="false" import="true" type="upgrade">
@@ -2133,60 +2133,60 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f77c-79c6-39c3-a458" name="Ectoplasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="c51d-8be8-a81e-9072" name="Ectoplasma Cannon" hidden="false" collective="false" import="true" targetId="8e81-49f0-bd2b-f680" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d2a-9743-db3a-2a63" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a68-aab4-e7c1-4599" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d2a-9743-db3a-2a63" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a68-aab4-e7c1-4599" type="max"/>
                   </constraints>
                 </entryLink>
                 <entryLink id="8fa7-a2f2-e24e-394b" name="Armoured Feet" hidden="false" collective="false" import="true" targetId="3627-6f4b-6f82-b078" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="152c-e506-34da-bed1" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21d8-7076-217d-edfc" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="152c-e506-34da-bed1" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21d8-7076-217d-edfc" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="6537-3045-93cd-b073" name="Arm Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="5ec6-b970-4eb0-b130">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0420-3f74-7795-11dd" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e197-f160-93cd-2d58" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0420-3f74-7795-11dd" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e197-f160-93cd-2d58" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="5ec6-b970-4eb0-b130" name="Two Ectoplasma Cannons" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="2078-e991-5d79-eacc" name="Ectoplasma Cannon" hidden="false" collective="false" import="true" targetId="8e81-49f0-bd2b-f680" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="102d-ab69-bcfd-f96a" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac7c-2f91-2a09-1a77" type="max"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="102d-ab69-bcfd-f96a" type="min"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac7c-2f91-2a09-1a77" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="21f7-d17e-8e92-dd74" name="Two Hades Autocannon" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="0144-75e1-6e8a-2fd5" name="Hades Autocannon" hidden="false" collective="false" import="true" targetId="3bea-15a3-ca58-e113" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df2c-1882-d646-7c7a" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51bc-3635-d2ae-1778" type="max"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df2c-1882-d646-7c7a" type="min"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51bc-3635-d2ae-1778" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2196,7 +2196,7 @@
         <entryLink id="60d3-fedb-9555-bb65" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3bea-15a3-ca58-e113" name="Hades Autocannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2213,7 +2213,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a3df-c6a8-8b25-46ee" name="Maulerfiend" hidden="false" collective="false" import="true" type="unit">
@@ -2243,8 +2243,8 @@
       <selectionEntries>
         <selectionEntry id="c58f-262f-b7b5-8d4d" name="Maulerfiend Fists" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="752b-ec18-8504-9b0e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7389-54a9-c785-26a1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="752b-ec18-8504-9b0e" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7389-54a9-c785-26a1" type="max"/>
           </constraints>
           <profiles>
             <profile id="d63e-5650-5b8f-d3bf" name="Maulerfiend Fists" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2259,15 +2259,15 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="3b79-aa53-ede3-6e40" name="Carapace Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="2203-22a4-c50a-f791">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee5a-6eda-7a6b-318b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1dd-eacf-88de-95a4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee5a-6eda-7a6b-318b" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1dd-eacf-88de-95a4" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="2203-22a4-c50a-f791" name="Magma Cutters" hidden="false" collective="false" import="true" type="upgrade">
@@ -2284,7 +2284,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ecd0-d69a-1a91-c5fd" name="Lasher Tendrils" hidden="false" collective="false" import="true" type="upgrade">
@@ -2301,7 +2301,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2311,7 +2311,7 @@
         <entryLink id="1f05-f43e-3a7a-505d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8dbc-6837-ede6-1e74" name="Chaos Predator Annihilator" hidden="false" collective="false" import="true" type="unit">
@@ -2349,34 +2349,34 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="8c56-deb7-c51f-edee" name="Sponson Weapons" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68f0-353c-b189-bc01" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d325-34c4-3340-383c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68f0-353c-b189-bc01" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d325-34c4-3340-383c" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="7945-d802-6f37-90ec" name="Two Heavy Bolters" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="c187-ec6c-872c-ed70" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69ad-2904-a71e-5493" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fd5-06ca-7d0e-dbd2" type="max"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69ad-2904-a71e-5493" type="min"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fd5-06ca-7d0e-dbd2" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dee1-4ad6-6b63-fda1" name="Two Lascannons" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="2145-3d45-7c81-c744" name="Lascannon" hidden="false" collective="false" import="true" targetId="dd55-a2c1-238b-569f" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bdd-3ce7-34eb-ab0e" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8d5-16ad-eb83-db95" type="max"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bdd-3ce7-34eb-ab0e" type="min"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8d5-16ad-eb83-db95" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2385,14 +2385,14 @@
       <entryLinks>
         <entryLink id="5db0-4f19-05c3-6536" name="Armoured Tracks" hidden="false" collective="false" import="true" targetId="7e58-d7f5-8d06-d98b" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7591-c17e-2879-7b85" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb79-a5f9-e28e-fe9a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7591-c17e-2879-7b85" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb79-a5f9-e28e-fe9a" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="6a41-4b91-8ab3-ff61" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="54cb-7a5f-9c51-8129" name="Chaos Vindicator" hidden="false" collective="false" import="true" type="unit">
@@ -2401,7 +2401,7 @@
           <modifiers>
             <modifier type="set" field="a56f-38ae-3917-aadc" value="4+">
               <conditions>
-                <condition field="selections" scope="54cb-7a5f-9c51-8129" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3121-2357-5afe-607e" type="equalTo"/>
+                <condition field="selections" scope="54cb-7a5f-9c51-8129" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3121-2357-5afe-607e" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2427,25 +2427,25 @@
       <entryLinks>
         <entryLink id="da6b-90ba-722e-8f7c" name="Demolisher Cannon" hidden="false" collective="false" import="true" targetId="46ec-984c-3ea6-8f83" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fc7-47c8-038f-6741" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d1a-6ba0-b969-753f" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fc7-47c8-038f-6741" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d1a-6ba0-b969-753f" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="2da6-4234-2efa-cf98" name="Armoured Tracks" hidden="false" collective="false" import="true" targetId="7e58-d7f5-8d06-d98b" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f512-9c5c-633a-e38c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="395c-85ef-7cfd-4db5" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f512-9c5c-633a-e38c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="395c-85ef-7cfd-4db5" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="175e-edff-cc45-98e9" name="Siege Shield" hidden="false" collective="false" import="true" targetId="3121-2357-5afe-607e" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82d8-f47d-02c1-6bac" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82d8-f47d-02c1-6bac" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="3f5c-64d2-2590-455d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e58-d7f5-8d06-d98b" name="Armoured Tracks" hidden="false" collective="false" import="true" type="upgrade">
@@ -2462,7 +2462,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="274e-d2a4-8f7b-e69d" name="Chaos Rhino" hidden="false" collective="false" import="true" type="unit">
@@ -2496,20 +2496,20 @@
       <entryLinks>
         <entryLink id="038e-3e4a-3f0b-9984" name="Armoured Tracks" hidden="false" collective="false" import="true" targetId="7e58-d7f5-8d06-d98b" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdce-0f59-1408-fb30" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="197a-49d7-bcca-28a8" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdce-0f59-1408-fb30" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="197a-49d7-bcca-28a8" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="a677-5d04-ef68-043a" name="Combi-bolter" hidden="false" collective="false" import="true" targetId="f25f-41f2-ba88-cb85" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d22f-a972-2ffc-a439" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1978-ecc5-ad19-d646" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d22f-a972-2ffc-a439" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1978-ecc5-ad19-d646" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="6c65-85c5-e3f0-36dc" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a0a7-ca99-f182-aa7c" name="Chaos Land Raider" hidden="false" collective="false" import="true" type="unit">
@@ -2543,26 +2543,26 @@
       <entryLinks>
         <entryLink id="6af9-9784-3fb9-16af" name="Armoured Tracks" hidden="false" collective="false" import="true" targetId="7e58-d7f5-8d06-d98b" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9136-ff8c-7a39-0b80" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9bd-0e10-065f-5980" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9136-ff8c-7a39-0b80" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9bd-0e10-065f-5980" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="bc7b-aff3-7e23-3216" name="Twin Heavy Bolter" hidden="false" collective="false" import="true" targetId="6296-86a5-9a2b-3303" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="972a-feae-a855-2eaa" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e9c-67eb-bdd0-f21f" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="972a-feae-a855-2eaa" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e9c-67eb-bdd0-f21f" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="8feb-5f34-21a8-d27d" name="Twin Lascannon" hidden="false" collective="false" import="true" targetId="ca25-e5ce-34c4-ec69" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e32-1906-a1ab-439a" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd56-07d5-3b99-3642" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e32-1906-a1ab-439a" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd56-07d5-3b99-3642" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="f398-6272-84b1-da27" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="92bd-5224-16c2-5754" name="Heldrake" hidden="false" collective="false" import="true" type="unit">
@@ -2598,8 +2598,8 @@
       <selectionEntries>
         <selectionEntry id="4801-06b0-e24f-662b" name="Heldrake Claws" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec88-bae0-34da-6011" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1357-657f-95d2-7a94" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec88-bae0-34da-6011" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1357-657f-95d2-7a94" type="max"/>
           </constraints>
           <profiles>
             <profile id="de0a-e25a-2767-2a35" name="Heldrake Claws" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2617,15 +2617,15 @@
             <infoLink id="bfce-468b-0372-4f72" name="Anti-air" hidden="false" targetId="48b8-058a-9085-0e80" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="12af-411d-415c-c9ab" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="a5bb-fa3c-7f5b-c19b">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d375-f051-ba2a-e171" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f6d-d01e-ab36-eecd" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d375-f051-ba2a-e171" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f6d-d01e-ab36-eecd" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="03e5-1567-3ca4-0b62" name="Baleflamer" hidden="false" collective="false" import="true" targetId="57e6-a330-44cd-642b" type="selectionEntry">
@@ -2641,7 +2641,7 @@
         <entryLink id="37e2-b803-64a8-4b03" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d31e-96b7-567b-db1d" name="Plague Marines" hidden="false" collective="false" import="true" type="unit">
@@ -2659,8 +2659,8 @@
       <selectionEntries>
         <selectionEntry id="0296-704c-71de-d1c4" name="Plague weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da91-e656-401e-ea6b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7321-dae4-43fa-3f6c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da91-e656-401e-ea6b" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7321-dae4-43fa-3f6c" type="max"/>
           </constraints>
           <profiles>
             <profile id="e825-8e19-402d-7559" name="Plague weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2675,15 +2675,15 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="4889-3abd-d7e4-27b6" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="726b-8305-8efa-06e2">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85fd-0e35-7346-3da1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b23a-8aee-4f81-eee2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85fd-0e35-7346-3da1" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b23a-8aee-4f81-eee2" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="726b-8305-8efa-06e2" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2701,7 +2701,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1af0-bf0b-c3eb-1e81" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2719,14 +2719,14 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="e783-0695-3a39-5d5d" name="Heavy Weapons" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f8f-b9d1-678d-1818" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f8f-b9d1-678d-1818" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="770a-566c-d643-6afa" name="Blight Launcher" hidden="false" collective="false" import="true" targetId="bac5-b33b-f0eb-ae75" type="selectionEntry">
@@ -2734,7 +2734,7 @@
                 <modifier type="set" field="1466-da3f-0d27-dace" value="1"/>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d159-dd98-419e-d229" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d159-dd98-419e-d229" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="bcfb-0b3d-4bca-1d2d" name="Plague Spewer" hidden="false" collective="false" import="true" targetId="2cd7-4619-1257-e108" type="selectionEntry">
@@ -2742,7 +2742,7 @@
                 <modifier type="set" field="1466-da3f-0d27-dace" value="1"/>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f55e-032c-8d73-ba06" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f55e-032c-8d73-ba06" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -2751,14 +2751,14 @@
       <entryLinks>
         <entryLink id="9066-40d6-3841-2bbc" name="Boltguns" hidden="false" collective="false" import="true" targetId="2d61-a814-63d8-0398" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b98-7cfc-4745-7438" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f8b-6350-1b77-4ac1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b98-7cfc-4745-7438" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f8b-6350-1b77-4ac1" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="cb2c-b0b9-30ba-84d6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bac5-b33b-f0eb-ae75" name="Blight Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -2778,7 +2778,7 @@
         <infoLink id="3f7b-0c7d-3572-03ac" name="Lethal Hits" hidden="false" targetId="20f9-1ef3-c635-7deb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2cd7-4619-1257-e108" name="Plague Spewer" hidden="false" collective="false" import="true" type="upgrade">
@@ -2798,7 +2798,7 @@
         <infoLink id="4e64-3105-cc66-e812" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="245e-1cea-9d5d-0e2a" name="Rubric Marines" hidden="false" collective="false" import="true" type="unit">
@@ -2814,8 +2814,8 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="a349-bd7b-8564-4e80" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="9848-6d54-efbb-3224">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="012d-6128-d7cc-96f6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b41f-64f9-ab21-dbf2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="012d-6128-d7cc-96f6" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b41f-64f9-ab21-dbf2" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="9848-6d54-efbb-3224" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2833,7 +2833,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dd69-7a33-dbd6-b922" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2851,15 +2851,15 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="1f5f-14d5-8865-9419" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="0a51-dfb0-8286-0c3b">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d45b-940c-7c56-adfd" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="506a-4a4b-3b48-9326" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d45b-940c-7c56-adfd" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="506a-4a4b-3b48-9326" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="0a51-dfb0-8286-0c3b" name="Inferno Boltguns" hidden="false" collective="false" import="true" type="upgrade">
@@ -2879,7 +2879,7 @@
                 <infoLink id="d4a6-3664-e4e1-f3de" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f4e8-ab07-ea89-9314" name="Warpflamers" hidden="false" collective="false" import="true" type="upgrade">
@@ -2899,7 +2899,7 @@
                 <infoLink id="d914-bfcc-87e9-78e3" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2912,23 +2912,23 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="245e-1cea-9d5d-0e2a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dd69-7a33-dbd6-b922" type="equalTo"/>
+                    <condition field="selections" scope="245e-1cea-9d5d-0e2a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dd69-7a33-dbd6-b922" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25e9-dc9b-e614-7d01" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25e9-dc9b-e614-7d01" type="max"/>
           </constraints>
           <costs>
-            <cost name="PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+            <cost name="PL" typeId="1466-da3f-0d27-dace" value="1"/>
           </costs>
         </entryLink>
         <entryLink id="ed55-e51f-2a37-8300" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3880-a251-e54e-063c" name="Soulreaper Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2945,13 +2945,13 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="928c-a316-0e0f-302c" name="Helwrought Weapons" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d394-1d6c-f659-7be6" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76fa-efcb-0a32-85b8" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d394-1d6c-f659-7be6" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76fa-efcb-0a32-85b8" type="max"/>
       </constraints>
       <profiles>
         <profile id="fbac-060a-0175-6b14" name="Helwrought Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2966,7 +2966,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="03b5-aa62-96d1-1610" name="Chaos Lord in Terminator Armor" hidden="false" collective="false" import="true" type="unit">
@@ -3001,7 +3001,7 @@
         <entryLink id="e0f1-5087-aab9-e540" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2646-38f6-549d-e80d" name="Chaos Predator Destructor" hidden="false" collective="false" import="true" type="unit">
@@ -3039,34 +3039,34 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="dbfb-d945-81e6-fd6a" name="Sponson Weapons" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8867-a169-a520-cbf9" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1a0-6285-dae3-2c24" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8867-a169-a520-cbf9" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1a0-6285-dae3-2c24" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="1339-f4a1-8665-cbd3" name="Two Heavy Bolters" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="1a3b-9682-10a9-79fc" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d9c-0ce8-4457-cfbb" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acc7-381d-3f35-4585" type="max"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d9c-0ce8-4457-cfbb" type="min"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acc7-381d-3f35-4585" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f8b0-ad5b-d7b0-7428" name="Two Lascannons" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="fa65-1828-aa2a-e10b" name="Lascannon" hidden="false" collective="false" import="true" targetId="dd55-a2c1-238b-569f" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5bd-e12f-b5ca-f8d8" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b89-cb40-494b-ac63" type="max"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5bd-e12f-b5ca-f8d8" type="min"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b89-cb40-494b-ac63" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3075,22 +3075,22 @@
       <entryLinks>
         <entryLink id="dd2d-0fbf-e84a-beb7" name="Armoured Tracks" hidden="false" collective="false" import="true" targetId="7e58-d7f5-8d06-d98b" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef82-a0ad-16f3-09d4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d2e-eb0e-8ef2-771a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef82-a0ad-16f3-09d4" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d2e-eb0e-8ef2-771a" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="7d01-0815-1b69-d9ec" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="90e6-f66f-ee82-6b1c" name="Helbrute Arm 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="b196-0fd9-1865-7859">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d05d-3522-bed2-52bb" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="142d-1d71-9e26-a3fc" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d05d-3522-bed2-52bb" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="142d-1d71-9e26-a3fc" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="b196-0fd9-1865-7859" name="Helbrute Fist" hidden="false" collective="false" import="true" type="upgrade">
@@ -3109,12 +3109,12 @@
           <entryLinks>
             <entryLink id="792f-b36f-316c-08c6" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="46e7-d278-1268-caaf" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6334-c6ae-a1d9-37d0" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6334-c6ae-a1d9-37d0" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="69a3-032b-5628-b763" name="Helbrute Hammer" hidden="false" collective="false" import="true" type="upgrade">
@@ -3131,7 +3131,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2864-0db2-e48a-9318" name="Power Scourge" hidden="false" collective="false" import="true" type="upgrade">
@@ -3148,29 +3148,29 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8491-f32d-12da-d582" name="Missile Launcher and Armoured Feet" hidden="false" collective="false" import="true" type="upgrade">
           <entryLinks>
             <entryLink id="8434-950c-5b9e-c5fb" name="Armoured Feet" hidden="false" collective="false" import="true" targetId="3627-6f4b-6f82-b078" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f3b-c6b5-3065-6163" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73de-ebc0-a197-a959" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f3b-c6b5-3065-6163" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73de-ebc0-a197-a959" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="d912-ed41-b4b4-99ef" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="a524-9ae0-16b9-cd61" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="22bb-5910-c91a-0208" name="Helbrute Arm 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="bf29-e811-b6fa-18ab">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8cc-c9d6-e38a-5a22" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67a6-00dc-271f-1d60" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8cc-c9d6-e38a-5a22" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67a6-00dc-271f-1d60" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="5d9b-d418-25a0-cc45" name="Helbrute Fist" hidden="false" collective="false" import="true" type="upgrade">
@@ -3189,17 +3189,17 @@
           <entryLinks>
             <entryLink id="5e36-e6d3-4eee-6dfb" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="46e7-d278-1268-caaf" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8405-2536-264b-cfec" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8405-2536-264b-cfec" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4ee9-8fbe-8579-4db4" name="Helbrute Hammer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebe2-ddaf-41ba-1f7b" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebe2-ddaf-41ba-1f7b" type="max"/>
           </constraints>
           <profiles>
             <profile id="3e91-38bd-1b0b-0a31" name="Helbrute Hammer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -3214,7 +3214,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0a3b-ded5-4d39-e437" name="Power Scourge" hidden="false" collective="false" import="true" type="upgrade">
@@ -3231,27 +3231,27 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8e73-dbda-d084-a1a1" name="Two Blastmasters" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3a87-3e18-3968-8a08" type="notInstanceOf"/>
+                <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3a87-3e18-3968-8a08" type="notInstanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
           <entryLinks>
             <entryLink id="707c-3e5a-bbfe-99be" name="Blastmaster" hidden="false" collective="false" import="true" targetId="ad0d-f930-ae7f-f255" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2f1-e251-5733-c229" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c4c-1a40-56e1-a790" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2f1-e251-5733-c229" type="min"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c4c-1a40-56e1-a790" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8b02-f0c8-bec7-39a1" name="Imperium - Grey Knights" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8b02-f0c8-bec7-39a1" name="Imperium - Grey Knights" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry id="b810-a479-8ab6-bf86" name="Brother-Captain" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -36,15 +36,15 @@
         <infoLink id="2c96-0804-7984-8aea" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b733-1052-6a43-8b3c" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="b733-1052-6a43-8b3c" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="04da-1719-d4a1-9174" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="4179-84a0-4e33-296c" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2ed6-b809-43a4-5e0a" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="bdca-5a3a-b10a-a71f">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0928-4e70-2ba4-c436" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea5e-f4a9-3c9e-2bed" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0928-4e70-2ba4-c436" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea5e-f4a9-3c9e-2bed" type="min"/>
           </constraints>
           <entryLinks>
             <entryLink id="bdca-5a3a-b10a-a71f" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="2b83-ddca-dea3-0bce" type="selectionEntry"/>
@@ -55,15 +55,15 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="7ae7-2cab-2e3d-eedc" name="Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="6022-2659-55e8-a20a" type="selectionEntry">
+        <entryLink id="7ae7-2cab-2e3d-eedc" name="Relic Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="6022-2659-55e8-a20a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b41c-8e10-a717-51e6" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4bf-8035-8ffe-7a9f" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b41c-8e10-a717-51e6" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4bf-8035-8ffe-7a9f" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d843-0860-db2b-10b3" name="Brother-Captain Stern" hidden="false" collective="false" import="true" type="upgrade">
@@ -101,16 +101,16 @@
         <infoLink id="a916-b56a-823f-3a7e" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="cb1e-0d9d-a480-162b" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="cb1e-0d9d-a480-162b" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="e974-7251-aca7-9734" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="a1a6-84aa-f5c5-f060" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="61e2-19e5-a07b-74b8" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="61e2-19e5-a07b-74b8" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f897-9dfc-0fb3-8cea" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="4544-434d-e848-1940">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bdb-74dc-08a0-2254" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f760-301b-5c9f-bb13" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bdb-74dc-08a0-2254" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f760-301b-5c9f-bb13" type="min"/>
           </constraints>
           <entryLinks>
             <entryLink id="4544-434d-e848-1940" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="2b83-ddca-dea3-0bce" type="selectionEntry"/>
@@ -118,15 +118,15 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="635e-01cd-6667-e880" name="Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="6022-2659-55e8-a20a" type="selectionEntry">
+        <entryLink id="635e-01cd-6667-e880" name="Relic Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="6022-2659-55e8-a20a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84e5-04bf-574c-972c" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b3d-1a89-c4f9-d70e" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84e5-04bf-574c-972c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b3d-1a89-c4f9-d70e" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4676-88b0-ab1c-db8d" name="Brotherhood Champion" hidden="false" collective="false" import="true" type="upgrade">
@@ -164,15 +164,15 @@
         <infoLink id="4cb3-8fc9-c7f1-9f84" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e563-88c7-2b0b-a31d" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="e563-88c7-2b0b-a31d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="6ed5-ca9d-67f2-5148" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="bcf0-ba22-c5a3-9d09" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="04bd-c4ce-455a-bb62" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="4a63-671e-18e2-2347">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc05-8969-e09e-559c" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecbe-f7f0-dee1-3ea0" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc05-8969-e09e-559c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecbe-f7f0-dee1-3ea0" type="min"/>
           </constraints>
           <entryLinks>
             <entryLink id="4a63-671e-18e2-2347" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="2b83-ddca-dea3-0bce" type="selectionEntry"/>
@@ -180,15 +180,15 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b63d-4a16-12dd-4ef7" name="Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="6022-2659-55e8-a20a" type="selectionEntry">
+        <entryLink id="b63d-4a16-12dd-4ef7" name="Relic Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="6022-2659-55e8-a20a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1677-6057-7cd7-3a8e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a1b-a658-9993-369a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1677-6057-7cd7-3a8e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a1b-a658-9993-369a" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="22a1-4205-71c4-1d44" name="Brotherhood Chaplain" hidden="false" collective="false" import="true" type="upgrade">
@@ -211,7 +211,7 @@
         </profile>
         <profile id="3ca2-6c2d-6ddf-4121" name="Dread Bearing" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f"> While this model is leading a unit, each time a model in that unit makes a Leadership test, subtract 1 from the roll.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is leading a unit, each time a model in that unit makes a Leadership test, subtract 1 from the roll.</characteristic>
           </characteristics>
         </profile>
         <profile id="fe4f-80df-3231-71e5" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -226,15 +226,15 @@
         <infoLink id="02b2-a3bb-9a8c-a994" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8881-4e5c-27e7-b8b7" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="8881-4e5c-27e7-b8b7" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="4b32-c7d3-03c7-b111" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="4297-88b9-6607-50a9" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4996-f728-7b8b-39df" name="Crozius Arcanum" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="895d-8809-f7c3-e594" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9211-7f2e-0903-ca8d" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="895d-8809-f7c3-e594" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9211-7f2e-0903-ca8d" type="min"/>
           </constraints>
           <profiles>
             <profile id="c5b1-2b16-ce9b-e199" name="Crozius Arcanum" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -249,15 +249,15 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="ad23-a1bb-a47f-2a59" name="Ranged Weapon" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d985-6270-4b64-a310" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bbc-4235-b09e-4793" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d985-6270-4b64-a310" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bbc-4235-b09e-4793" type="min"/>
           </constraints>
           <entryLinks>
             <entryLink id="adde-3eee-9295-4d58" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="2b83-ddca-dea3-0bce" type="selectionEntry"/>
@@ -265,15 +265,15 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="561f-6790-2d13-04a2" name="Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="6022-2659-55e8-a20a" type="selectionEntry">
+        <entryLink id="561f-6790-2d13-04a2" name="Relic Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="6022-2659-55e8-a20a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25c1-2f5f-7bb6-cca9" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0b4-a9b1-0464-8fc7" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25c1-2f5f-7bb6-cca9" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0b4-a9b1-0464-8fc7" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8944-6cf1-be70-ee52" name="Brotherhood Librarion" hidden="false" collective="false" import="true" type="upgrade">
@@ -306,15 +306,15 @@
         <infoLink id="0e01-50c2-8d6f-ee36" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a035-1d68-42d2-93ab" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="a035-1d68-42d2-93ab" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="70d9-927a-11eb-9660" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="d61c-f3fc-a706-3071" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="af08-0c6d-cc55-1776" name="Purge Soul" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eef2-3ac8-2d75-d803" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8dc-437c-f322-726e" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eef2-3ac8-2d75-d803" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8dc-437c-f322-726e" type="min"/>
           </constraints>
           <profiles>
             <profile id="16b3-267e-733a-edeb" name="Purge Soul" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -329,25 +329,25 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="fe27-35f2-9d3f-fece" name="Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="6022-2659-55e8-a20a" type="selectionEntry">
+        <entryLink id="fe27-35f2-9d3f-fece" name="Relic Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="6022-2659-55e8-a20a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed97-0b19-bc39-6016" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09a1-86ff-02ae-7aef" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed97-0b19-bc39-6016" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09a1-86ff-02ae-7aef" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="2339-187b-1d60-1494" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="2b83-ddca-dea3-0bce" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca16-5a85-d219-ae50" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca16-5a85-d219-ae50" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3a2a-f47a-aa2e-a88d" name="Brotherhood Techmarine" hidden="false" collective="false" import="true" type="upgrade">
@@ -392,15 +392,15 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         <infoLink id="b389-23b8-69c3-d82c" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2d20-a6f5-e9f3-543f" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="2d20-a6f5-e9f3-543f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="bba2-4a77-adc1-74ad" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="6f99-608a-7b34-0c8e" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="661c-58a4-7938-7dae" name="Techmarine Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f52a-071d-0510-70d4" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="750b-d57f-cd33-e1b4" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f52a-071d-0510-70d4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="750b-d57f-cd33-e1b4" type="min"/>
           </constraints>
           <profiles>
             <profile id="87c9-e46a-9a45-a2b6" name="Techmarine Weapons (Melee)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -425,12 +425,12 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f3f-f3a3-3e8a-5c53" name="Castellan Crowe" hidden="false" collective="false" import="true" type="upgrade">
@@ -467,16 +467,16 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         <infoLink id="0889-efad-fe12-e54f" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6bba-30c0-b680-f081" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="6bba-30c0-b680-f081" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="9c26-2f0b-9365-1aba" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="bb68-72e9-29c7-fecb" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="3f6e-8264-0d22-31f8" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="3f6e-8264-0d22-31f8" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3319-8ddc-3dc1-916d" name="Black Blade of Antwyr " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59c6-9aa5-efe6-350a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dad4-62a4-5424-726b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59c6-9aa5-efe6-350a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dad4-62a4-5424-726b" type="max"/>
           </constraints>
           <profiles>
             <profile id="2b0c-828e-a54c-594c" name="Black Blade of Antwyr " hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -494,26 +494,26 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
             <infoLink id="f161-c703-0db5-f7b8" name="Devastating Wounds" hidden="false" targetId="5154-3b0e-f960-5cb3" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="9158-8462-fff3-bf87" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="2b83-ddca-dea3-0bce" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8dd-a6d3-1662-95ff" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b88-c27d-10b1-4a8c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8dd-a6d3-1662-95ff" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b88-c27d-10b1-4a8c" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="7e93-8970-0352-0506" name="Purifying Flame" hidden="false" collective="false" import="true" targetId="9b70-758f-b9bd-163a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="299f-0a50-215c-e94a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f6e-c270-d121-e5f5" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="299f-0a50-215c-e94a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f6e-c270-d121-e5f5" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f1c-cdb5-d899-9bd9" name="Grand Master" hidden="false" collective="false" import="true" type="upgrade">
@@ -551,15 +551,15 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         <infoLink id="8fa0-addd-4edd-23ad" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c103-db0f-f444-36dd" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="c103-db0f-f444-36dd" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="e39c-ae3d-8eba-0345" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="2a1f-6bee-7ee6-b0ee" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6e72-3132-837a-22c9" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="7017-73ff-4b5c-ded9">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cefa-5699-dc5c-365f" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61c0-46ee-8608-4a46" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cefa-5699-dc5c-365f" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61c0-46ee-8608-4a46" type="min"/>
           </constraints>
           <entryLinks>
             <entryLink id="7017-73ff-4b5c-ded9" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="2b83-ddca-dea3-0bce" type="selectionEntry"/>
@@ -570,15 +570,15 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="f2c7-df1f-3ce9-5e78" name="Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="6022-2659-55e8-a20a" type="selectionEntry">
+        <entryLink id="f2c7-df1f-3ce9-5e78" name="Relic Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="6022-2659-55e8-a20a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8810-9740-277d-62a7" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d32c-92e3-5cbb-dbdd" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8810-9740-277d-62a7" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d32c-92e3-5cbb-dbdd" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ce3-1592-85c4-28f7" name="Nemesis Dreadknight" hidden="false" collective="false" import="true" type="upgrade">
@@ -610,22 +610,22 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <selectionEntryGroups>
         <selectionEntryGroup id="098b-5108-8eca-9e78" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="d0a8-0190-d9ae-76ee">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4c4-efc2-83aa-f161" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4c4-efc2-83aa-f161" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="d0a8-0190-d9ae-76ee" name="Heavy Psycannon" hidden="false" collective="false" import="true" targetId="7b25-ddeb-7387-1bbb" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9e4-1b1e-9b37-639c" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9e4-1b1e-9b37-639c" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="1e4f-a7bc-7bec-59cf" name="Heavy Incinerator" hidden="false" collective="false" import="true" targetId="e0a0-a6cc-c6fb-b5cf" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8e6-663f-6bb8-24c1" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8e6-663f-6bb8-24c1" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="cf2e-1a1d-f235-bd61" name="Gatling Psilencer" hidden="false" collective="false" import="true" targetId="5668-e05d-d884-592f" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5153-7183-c2cf-707d" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5153-7183-c2cf-707d" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -634,13 +634,13 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <entryLinks>
         <entryLink id="db3b-0eff-4ab8-d8b0" name="Dreadknight Melee Weapon" hidden="false" collective="false" import="true" targetId="8b66-4e81-37e7-5db6" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f57-9c11-106f-40bf" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b6d-4b04-21be-dd53" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f57-9c11-106f-40bf" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b6d-4b04-21be-dd53" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="175a-00db-f25e-630a" name="Grand Master Voldus" hidden="false" collective="false" import="true" type="upgrade">
@@ -678,16 +678,16 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         <infoLink id="f995-6ce4-bd4a-0007" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="24c3-72cc-56fc-873d" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="24c3-72cc-56fc-873d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="3a2d-48ad-b832-c2e6" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="f3ba-f38b-0cf0-0bd0" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="6c1c-d284-238f-c71d" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="6c1c-d284-238f-c71d" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f8e8-d9f6-4bcc-ea07" name="Malleus Argyrum" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8af3-faf0-5be3-5be0" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c2d-dfcd-f94a-4990" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8af3-faf0-5be3-5be0" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c2d-dfcd-f94a-4990" type="min"/>
           </constraints>
           <profiles>
             <profile id="2199-68fe-65d4-d340" name="Malleus Argyrum" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -702,20 +702,20 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="14a5-234e-56db-8501" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="2b83-ddca-dea3-0bce" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="438e-6646-f971-204e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d480-739b-e4b9-4f0c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="438e-6646-f971-204e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d480-739b-e4b9-4f0c" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0eab-4d33-9ae5-fd9d" name="Kaldor Draigo" hidden="false" collective="false" import="true" type="upgrade">
@@ -753,16 +753,16 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         <infoLink id="1be9-332a-5067-46b5" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ad25-b314-66a6-c704" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="ad25-b314-66a6-c704" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="0ede-068e-495b-be8b" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="77b2-fbe6-b47a-6657" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="d18b-9493-40fc-0f86" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="d18b-9493-40fc-0f86" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a5e7-7ebb-5533-7d4b" name="The Titansword" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3649-7153-0797-178c" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38b7-1413-b1e2-2d37" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3649-7153-0797-178c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38b7-1413-b1e2-2d37" type="min"/>
           </constraints>
           <profiles>
             <profile id="d3cf-4558-39d6-abc0" name="Black Blade of Antwyr " hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -780,13 +780,13 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
             <infoLink id="8326-e7f9-a4bb-9ee2" name="Devastating Wounds" hidden="false" targetId="5154-3b0e-f960-5cb3" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cf53-3656-283e-9192" name="Scourging" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28db-c4a4-78aa-3392" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a45f-73ae-c900-c763" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28db-c4a4-78aa-3392" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a45f-73ae-c900-c763" type="min"/>
           </constraints>
           <profiles>
             <profile id="76ad-be74-9bbf-80fd" name="Scourging" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -801,20 +801,20 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="404c-f0fe-b030-3cf5" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="2b83-ddca-dea3-0bce" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfb0-b6df-e5c6-7935" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="809a-b727-23eb-a559" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfb0-b6df-e5c6-7935" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="809a-b727-23eb-a559" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="35e6-1f32-8705-3755" name="Strike Squad" hidden="false" collective="false" import="true" type="upgrade">
@@ -836,19 +836,19 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <categoryLinks>
         <categoryLink id="2959-369e-2c23-1173" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="df06-ee76-afd2-0e2b" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="232e-87a5-0902-11bf" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
+        <categoryLink id="232e-87a5-0902-11bf" name="Battleline" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="e104-7986-6861-4f9f" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="932d-55e5-469d-c6b3">
           <modifiers>
-            <modifier type="set" field="ec30-7bde-fb3a-0185" value="1.0">
+            <modifier type="set" field="ec30-7bde-fb3a-0185" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e66a-4770-3e37-b008" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e66a-4770-3e37-b008" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec30-7bde-fb3a-0185" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec30-7bde-fb3a-0185" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="932d-55e5-469d-c6b3" name="Psilencer" hidden="false" collective="false" import="true" targetId="6d22-fbae-5ff6-39f8" type="selectionEntry"/>
@@ -858,8 +858,8 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         </selectionEntryGroup>
         <selectionEntryGroup id="c2c7-cf02-2a32-be2c" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="e66a-4770-3e37-b008">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dee-47fd-2d48-eabb" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a76d-89f4-27fa-6eda" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dee-47fd-2d48-eabb" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a76d-89f4-27fa-6eda" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="e66a-4770-3e37-b008" name="05 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -877,7 +877,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c9db-5d7e-5ecf-c967" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -895,7 +895,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -904,19 +904,19 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <entryLinks>
         <entryLink id="fcf7-877c-4690-d557" name="Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="aefd-6327-0ef5-b22f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f47b-5ab3-ea70-2bf4" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bb3-367b-c721-bb91" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f47b-5ab3-ea70-2bf4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bb3-367b-c721-bb91" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="eb7d-d8c8-65fd-3e17" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="2b83-ddca-dea3-0bce" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="339e-921b-e1f4-fab6" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b4f-3a6d-73e3-b6af" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="339e-921b-e1f4-fab6" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b4f-3a6d-73e3-b6af" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c989-6c75-6498-f20d" name="Brotherhood Terminator Squad" hidden="false" collective="false" import="true" type="upgrade">
@@ -938,19 +938,19 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <categoryLinks>
         <categoryLink id="42b5-329e-093f-7947" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="436b-04c8-bdd9-808a" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="b710-884b-54c2-ffee" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
+        <categoryLink id="b710-884b-54c2-ffee" name="Battleline" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0d5a-0857-03ed-6b53" name="Ranged Weapon" hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="set" field="02be-cd48-ee4c-b7da" value="1.0">
+            <modifier type="set" field="02be-cd48-ee4c-b7da" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d59-0e5d-14f4-ed0c" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d59-0e5d-14f4-ed0c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02be-cd48-ee4c-b7da" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02be-cd48-ee4c-b7da" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="c2fe-6d92-2989-0a64" name="Psilencer" hidden="false" collective="false" import="true" targetId="6d22-fbae-5ff6-39f8" type="selectionEntry"/>
@@ -960,8 +960,8 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         </selectionEntryGroup>
         <selectionEntryGroup id="a0da-b4e7-e4be-39ba" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="1d59-0e5d-14f4-ed0c">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e9b-5fa2-f5e2-0075" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b67-5a68-736e-f61f" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e9b-5fa2-f5e2-0075" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b67-5a68-736e-f61f" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="1d59-0e5d-14f4-ed0c" name="05 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -979,7 +979,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1d7d-905e-9a92-fe8d" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -997,7 +997,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1006,19 +1006,19 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <entryLinks>
         <entryLink id="4b09-2c74-d8a0-bb80" name="Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="aefd-6327-0ef5-b22f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c722-4ff4-eacc-8d50" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="218e-696c-e406-310a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c722-4ff4-eacc-8d50" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="218e-696c-e406-310a" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="98d2-9f7b-af3a-41fe" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="2b83-ddca-dea3-0bce" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8be4-0f54-1dc0-7b81" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a49c-d020-c4a8-d7da" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8be4-0f54-1dc0-7b81" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a49c-d020-c4a8-d7da" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="be14-e4f2-b8d3-5f43" name="Grand Master in Nemesis Dreadknight" hidden="false" collective="false" import="true" type="upgrade">
@@ -1056,29 +1056,29 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         <infoLink id="ce31-6793-2b8e-1966" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="48f8-5f64-93b7-2291" name="New CategoryLink" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="48f8-5f64-93b7-2291" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="7b50-6222-84e6-4088" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="dac1-25d4-5135-cc85" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="de92-a2fe-ea25-f3a6" name="Ranged Weapon" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8154-7af0-b627-5b56" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8154-7af0-b627-5b56" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="3333-3421-e2dd-2492" name="Heavy Psycannon" hidden="false" collective="false" import="true" targetId="7b25-ddeb-7387-1bbb" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f31-900f-9ec4-6641" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f31-900f-9ec4-6641" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="ed58-d1c8-462e-b2cc" name="Heavy Incinerator" hidden="false" collective="false" import="true" targetId="e0a0-a6cc-c6fb-b5cf" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9772-18fd-2ae5-5dfe" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9772-18fd-2ae5-5dfe" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="5ea9-cbfc-5e15-e838" name="Gatling Psilencer" hidden="false" collective="false" import="true" targetId="5668-e05d-d884-592f" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b37d-ff0d-6937-813b" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b37d-ff0d-6937-813b" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1087,13 +1087,13 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <entryLinks>
         <entryLink id="c007-71be-7f4a-f209" name="Dreadknight Melee Weapon" hidden="false" collective="false" import="true" targetId="8b66-4e81-37e7-5db6" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e41a-f73c-ab34-400c" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c3b-4db0-5606-fee1" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e41a-f73c-ab34-400c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c3b-4db0-5606-fee1" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ed5a-ae42-1f05-e786" name="Interceptor Squad" hidden="false" collective="false" import="true" type="upgrade">
@@ -1114,14 +1114,14 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <selectionEntryGroups>
         <selectionEntryGroup id="7d04-ab24-9e26-afe1" name="Ranged Weapon" hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="set" field="d2d4-95df-a9f2-c9ea" value="1.0">
+            <modifier type="set" field="d2d4-95df-a9f2-c9ea" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cdb0-b608-7c78-b932" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cdb0-b608-7c78-b932" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d4-95df-a9f2-c9ea" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d4-95df-a9f2-c9ea" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="934a-c0c5-a852-9f2f" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="2b83-ddca-dea3-0bce" type="selectionEntry"/>
@@ -1132,8 +1132,8 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         </selectionEntryGroup>
         <selectionEntryGroup id="827e-9003-4236-95b0" name="Models" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a147-7a07-1532-5baf" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4965-ec34-4387-e881" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a147-7a07-1532-5baf" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4965-ec34-4387-e881" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="cdb0-b608-7c78-b932" name="05 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1151,7 +1151,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="75ae-2a67-6e18-ece3" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1169,7 +1169,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1178,13 +1178,13 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <entryLinks>
         <entryLink id="ffaf-fb81-6ffa-1273" name="Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="aefd-6327-0ef5-b22f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3c8-bf2f-1244-5764" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65ca-5581-6d47-f6de" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3c8-bf2f-1244-5764" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65ca-5581-6d47-f6de" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="79fd-98ee-6679-836e" name="Paladin Squad" hidden="false" collective="false" import="true" type="upgrade">
@@ -1205,14 +1205,14 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <selectionEntryGroups>
         <selectionEntryGroup id="d312-1076-8a89-0abd" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="aeee-1577-a500-5c20">
           <modifiers>
-            <modifier type="set" field="e17d-f202-c213-df7f" value="1.0">
+            <modifier type="set" field="e17d-f202-c213-df7f" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3060-ad24-d7ef-9c97" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3060-ad24-d7ef-9c97" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e17d-f202-c213-df7f" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e17d-f202-c213-df7f" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="aeee-1577-a500-5c20" name="Psilencer" hidden="false" collective="false" import="true" targetId="6d22-fbae-5ff6-39f8" type="selectionEntry"/>
@@ -1222,8 +1222,8 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         </selectionEntryGroup>
         <selectionEntryGroup id="3240-3e61-3cb6-16c2" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="3060-ad24-d7ef-9c97">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56fa-beb4-546a-a4c8" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f424-e9bc-0112-4cbb" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56fa-beb4-546a-a4c8" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f424-e9bc-0112-4cbb" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="3060-ad24-d7ef-9c97" name="05 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1241,7 +1241,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3532-4c4a-fa3c-3f68" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1259,7 +1259,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1268,19 +1268,19 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <entryLinks>
         <entryLink id="ea22-ae28-adb8-efdc" name="Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="aefd-6327-0ef5-b22f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a58-26a0-644a-84e6" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae04-fbe2-2af3-7793" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a58-26a0-644a-84e6" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae04-fbe2-2af3-7793" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="211a-090c-d87b-0f01" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="2b83-ddca-dea3-0bce" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="366e-0d82-13ee-43c5" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccb5-54f3-10b4-3625" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="366e-0d82-13ee-43c5" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccb5-54f3-10b4-3625" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c78d-c3ee-c2fd-56e3" name="Purgation Squad" hidden="false" collective="false" import="true" type="upgrade">
@@ -1301,8 +1301,8 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <selectionEntries>
         <selectionEntry id="5aa5-e537-1e53-facb" name="Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="066a-702f-a556-fdf3" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5811-7298-1700-aabc" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="066a-702f-a556-fdf3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5811-7298-1700-aabc" type="min"/>
           </constraints>
           <profiles>
             <profile id="a5f3-150a-bebe-e886" name="Close Combat Weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1317,21 +1317,21 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="552b-3887-7349-cf53" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="c981-150c-be5f-1930">
           <modifiers>
-            <modifier type="set" field="9ad9-88d4-e9e4-7ff2" value="8.0">
+            <modifier type="set" field="9ad9-88d4-e9e4-7ff2" value="8">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0f38-6149-d1bd-60c4" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0f38-6149-d1bd-60c4" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ad9-88d4-e9e4-7ff2" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ad9-88d4-e9e4-7ff2" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="c981-150c-be5f-1930" name="Psilencer" hidden="false" collective="false" import="true" targetId="6d22-fbae-5ff6-39f8" type="selectionEntry"/>
@@ -1341,8 +1341,8 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         </selectionEntryGroup>
         <selectionEntryGroup id="d3dd-0804-926a-3faf" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="5dd3-530c-1206-e892">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f43-b08d-3bed-83df" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="242e-ebf3-18fb-0979" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f43-b08d-3bed-83df" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="242e-ebf3-18fb-0979" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="5dd3-530c-1206-e892" name="05 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1360,7 +1360,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0f38-6149-d1bd-60c4" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1378,7 +1378,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1387,25 +1387,25 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <entryLinks>
         <entryLink id="77f5-91b2-4276-d078" name="Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="aefd-6327-0ef5-b22f" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="5de6-afeb-e6c5-532b" value="0.0">
+            <modifier type="set" field="5de6-afeb-e6c5-532b" value="0">
               <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="552b-3887-7349-cf53" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="552b-3887-7349-cf53" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5de6-afeb-e6c5-532b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5de6-afeb-e6c5-532b" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="08fd-e5ea-e60c-a97f" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="2b83-ddca-dea3-0bce" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f231-42cf-7d79-708d" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="069a-6a91-b215-151d" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f231-42cf-7d79-708d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="069a-6a91-b215-151d" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9e92-44b1-c009-1d1a" name="Purifier Squad" hidden="false" collective="false" import="true" type="upgrade">
@@ -1426,8 +1426,8 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <selectionEntries>
         <selectionEntry id="4445-a0bd-9436-be47" name="Purifying Flame" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2ee-5669-6642-66ad" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b610-fd54-9f6a-7f21" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2ee-5669-6642-66ad" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b610-fd54-9f6a-7f21" type="min"/>
           </constraints>
           <profiles>
             <profile id="03cc-3c53-2ada-c3c6" name="Purifying Flame" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1442,21 +1442,21 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="eef0-8a06-e641-4d5f" name="Ranged Weapon" hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="set" field="baaa-b25c-a9e2-c82b" value="2.0">
+            <modifier type="set" field="baaa-b25c-a9e2-c82b" value="2">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d98-5ba8-2b8d-70c1" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d98-5ba8-2b8d-70c1" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baaa-b25c-a9e2-c82b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baaa-b25c-a9e2-c82b" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="195d-407a-bcae-0cb5" name="Psilencer" hidden="false" collective="false" import="true" targetId="6d22-fbae-5ff6-39f8" type="selectionEntry"/>
@@ -1466,8 +1466,8 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         </selectionEntryGroup>
         <selectionEntryGroup id="3c0e-5d5c-db00-1b78" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="eb43-a4ab-506a-1937">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2be5-9cc4-bbea-c36c" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e15-b9ba-ef22-bc7c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2be5-9cc4-bbea-c36c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e15-b9ba-ef22-bc7c" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="eb43-a4ab-506a-1937" name="05 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1485,7 +1485,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6d98-5ba8-2b8d-70c1" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1503,7 +1503,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1512,19 +1512,19 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <entryLinks>
         <entryLink id="fac7-2735-564b-233f" name="Nemesis Force Weapon" hidden="false" collective="false" import="true" targetId="aefd-6327-0ef5-b22f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d0c-beba-288d-1d78" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8701-c17e-75cc-6af8" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d0c-beba-288d-1d78" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8701-c17e-75cc-6af8" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="fbf8-d67e-f240-c11b" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="2b83-ddca-dea3-0bce" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c12-4902-ce01-6d59" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7ea-8e87-ee3b-7f30" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c12-4902-ce01-6d59" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7ea-8e87-ee3b-7f30" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="12de-1836-c237-00d9" name="Servitors" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -1550,8 +1550,8 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <selectionEntries>
         <selectionEntry id="588f-d814-d624-afe4" name="Servo-arms" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dbc-8cf9-f53c-01f0" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8c2-526f-0d15-ec5d" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dbc-8cf9-f53c-01f0" type="min"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8c2-526f-0d15-ec5d" type="max"/>
           </constraints>
           <profiles>
             <profile id="18a9-471a-6e58-da08" name="Servo-arms" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1566,14 +1566,14 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="469d-3c40-3533-d4fa" name="Weapons" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57fa-6177-7ea1-56c7" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57fa-6177-7ea1-56c7" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="05c6-8f9f-3517-8f0f" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
@@ -1581,7 +1581,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 <modifier type="set" field="1466-da3f-0d27-dace" value="1"/>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54d0-1896-7f1d-ca91" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54d0-1896-7f1d-ca91" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="3d3d-b8c7-d0ad-8583" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry">
@@ -1589,7 +1589,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 <modifier type="set" field="1466-da3f-0d27-dace" value="1"/>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc2e-d341-d8f3-17ce" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc2e-d341-d8f3-17ce" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="dfc4-7897-34a8-22fa" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="257b-2e43-40d4-aebe" type="selectionEntry">
@@ -1597,14 +1597,14 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 <modifier type="set" field="1466-da3f-0d27-dace" value="1"/>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91fe-187c-189c-2f0a" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91fe-187c-189c-2f0a" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1629,7 +1629,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         <infoLink id="b09d-5254-e8ea-63f8" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d22-fbae-5ff6-39f8" name="Psilencer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1653,7 +1653,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="af06-aaeb-712f-1faf" name="Psycannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1670,7 +1670,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6022-2659-55e8-a20a" name="Relic Nemesis Force Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1687,13 +1687,13 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b83-ddca-dea3-0bce" name="Storm Bolters" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c09-da12-cdf0-9cfd" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99be-16fc-92c5-c822" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c09-da12-cdf0-9cfd" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99be-16fc-92c5-c822" type="max"/>
       </constraints>
       <profiles>
         <profile id="5abd-eb49-50fd-1acd" name="Storm Bolters" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1711,7 +1711,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         <infoLink id="9d92-b845-4416-61f8" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9b70-758f-b9bd-163a" name="Purifying Flame" hidden="false" collective="false" import="true" type="upgrade">
@@ -1728,7 +1728,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5668-e05d-d884-592f" name="Gatling Psilencer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1752,7 +1752,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e0a0-a6cc-c6fb-b5cf" name="Heavy Incinerator" hidden="false" collective="false" import="true" type="upgrade">
@@ -1772,7 +1772,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         <infoLink id="7a9d-a9fb-765d-94d3" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7b25-ddeb-7387-1bbb" name="Heavy Psycannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1789,7 +1789,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8b66-4e81-37e7-5db6" name="Dreadknight Melee Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1806,7 +1806,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aefd-6327-0ef5-b22f" name="Nemesis Force Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1823,7 +1823,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

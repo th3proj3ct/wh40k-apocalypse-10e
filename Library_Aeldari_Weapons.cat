@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="298e-5a2f-c2dc-013e" name="AeldariWeapons" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="298e-5a2f-c2dc-013e" name="AeldariWeapons" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="b3cf-7747-c0da-770b" name="Faction: Asuryani" hidden="false"/>
     <categoryEntry id="fb21-5552-52d6-42e7" name="Faction: Drukhari" hidden="false"/>
@@ -13,7 +13,7 @@
         <infoLink id="6291-c639-08b5-bddc" name="Aeldari Missile Launcher" hidden="false" targetId="33ac-473c-5198-10af" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="48e5-6b9d-8c24-42bd" name="Bright Lance" hidden="false" collective="false" import="true" type="upgrade">
@@ -21,7 +21,7 @@
         <infoLink id="3119-011b-5613-118f" name="Bright Lance" hidden="false" targetId="f1e4-ef5a-807b-3df8" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2d61-6762-98c2-c84c" name="D-cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -29,7 +29,7 @@
         <infoLink id="1bb6-14be-e9ef-3d02" name="D-cannon" hidden="false" targetId="2b57-47af-218c-2212" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0ed2-0608-7a18-bbb8" name="Scatter Laser" hidden="false" collective="false" import="true" type="upgrade">
@@ -37,7 +37,7 @@
         <infoLink id="9c45-2a49-7c06-14a2" name="Scatter Laser (Hv)" hidden="false" targetId="4c31-6532-2a18-96ae" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="446d-8d64-5ada-49e9" name="Shuriken Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -45,7 +45,7 @@
         <infoLink id="fd1b-a0b2-e34a-334d" name="Shuriken Cannon (Hv)" hidden="false" targetId="5c17-053b-654b-28b0" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="286e-1019-90a6-9e4d" name="Sonic Lance" hidden="false" collective="false" import="true" type="upgrade">
@@ -53,7 +53,7 @@
         <infoLink id="0e23-ccb8-8653-de1a" name="Sonic Lance" hidden="false" targetId="3d28-18d0-07b1-440c" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="754a-eeb3-5170-a03f" name="Starcannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -61,7 +61,7 @@
         <infoLink id="b746-9bbf-a80a-478d" name="Starcannon" hidden="false" targetId="f5cc-18ea-8ccd-835e" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f4ea-67e2-d7a9-3bbd" name="Webway Gate" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -96,13 +96,13 @@
       <categoryLinks>
         <categoryLink id="db28-8c3a-6102-0617" name="Faction: Aeldari" hidden="false" targetId="ce0a-bb90-8dd4-f52d" primary="false"/>
         <categoryLink id="bccb-ba6b-edb8-c7b7" name="Building" hidden="false" targetId="8951-2d88-3b2b-4de4" primary="false"/>
-        <categoryLink id="4517-d4ee-d738-3f30" name="New CategoryLink" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="4517-d4ee-d738-3f30" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
         <categoryLink id="d9a8-3164-6080-509c" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="91d3-17d9-c41b-cf73" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="6b5c-9f1e-f3a6-06dc" name="Webway Gate" hidden="false" targetId="9f35-fef0-1703-530f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9a02-7219-768e-dee6" name="Splinter Cannon" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
@@ -110,7 +110,7 @@
         <infoLink id="6102-de75-1153-a070" name="Splinter Cannon" publicationId="8df9-0b3e-abea-3c15" hidden="false" targetId="1c62-acbd-cd9d-1f83" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3c9c-8811-9520-6178" name="Twin Splinter Rifle" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
@@ -118,7 +118,7 @@
         <infoLink id="76d9-2478-8db2-d51b" name="Twin Splinter Rifle" publicationId="8df9-0b3e-abea-3c15" hidden="false" targetId="7b9a-9d1c-7465-666d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d357-2319-e092-bf3b" name="Bladevanes" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
@@ -126,7 +126,7 @@
         <infoLink id="733d-a311-b242-7b92" name="Bladevanes" publicationId="8df9-0b3e-abea-3c15" hidden="false" targetId="e0eb-a08a-4608-4979" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aacc-4f88-7aab-37ef" name="Corsair Weapons" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
@@ -134,7 +134,7 @@
         <infoLink id="9ad5-80cb-dd4d-8a29" name="Corsair Weapons" publicationId="8df9-0b3e-abea-3c15" hidden="false" targetId="fc80-52dc-975c-5a88" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4978-78a3-f29b-4d53" name="Dark Lance" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
@@ -142,7 +142,7 @@
         <infoLink id="5472-2e1e-3e50-2ead" name="Dark Lance" publicationId="8df9-0b3e-abea-3c15" hidden="false" targetId="23d8-0184-73c2-f964" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

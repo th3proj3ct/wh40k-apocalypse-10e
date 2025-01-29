@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d9e7-2955-7c97-d7cd" name="Imperium - Blood Angels" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="d9e7-2955-7c97-d7cd" name="Imperium - Blood Angels" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry id="8974-55aa-68b2-2a38" name="Chief Librarian Mephiston" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>

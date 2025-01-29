@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="440c-9567-ca71-f95b" name="Warhammer 40,000 Apocalypse 10th Edition" revision="19" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="440c-9567-ca71-f95b" name="Warhammer 40,000 Apocalypse 10th Edition" revision="20" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <publications>
     <publication id="8df9-0b3e-abea-3c15" name="Warhammer 40,000: Apocalypse" publicationDate="2019"/>
     <publication id="3434-17b5-4a22-f338" name="Fundapocalypse Custom Rules" shortName="Fundapocalypse Custom Rules" publisherUrl="https://github.com/normanthesquid/wh40k-fundapocalypse/wiki"/>
@@ -11,7 +11,7 @@
     <publication id="d219-022c-3b23-cf52" name="Apocalypse Reload 2008" publicationDate="2008"/>
   </publications>
   <costTypes>
-    <costType id="1466-da3f-0d27-dace" name=" PL" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="1466-da3f-0d27-dace" name=" PL" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="758b-2459-9a46-721a" name="Unit">
@@ -87,12 +87,12 @@
     <categoryEntry id="cdf9-175a-b31b-44a1" name="Jump Pack" hidden="false"/>
     <categoryEntry id="dd2e-b7ed-76c8-a4d9" name="Commander" hidden="false">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2ad4-f227-4b05-c4a9" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2ad4-f227-4b05-c4a9" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="3b0c-71a7-b28b-a310" name="Warmaster" publicationId="8df9-0b3e-abea-3c15" hidden="false">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="752e-936b-ba7f-061e" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="752e-936b-ba7f-061e" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="041b-bb02-a8be-3c9c" name="Special Detachment" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
@@ -131,13 +131,13 @@
       <modifiers>
         <modifier type="set" field="name" value="Warlord">
           <conditions>
-            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4b9a-33b1-3b42-e3f8" type="instanceOf"/>
+            <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4b9a-33b1-3b42-e3f8" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d167-bf92-8882-4e36" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7245-873d-dd49-1753" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d167-bf92-8882-4e36" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7245-873d-dd49-1753" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="865e-ecad-5e83-4551" name="Commander" hidden="false" targetId="dd2e-b7ed-76c8-a4d9" primary="false"/>
@@ -145,9 +145,9 @@
       <selectionEntries>
         <selectionEntry id="67cb-6187-3983-fecd" name="Warmaster" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="41d5-9f02-50fb-a7a4" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="428a-a3ad-c7ab-8804" type="max"/>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="72e5-0a1a-fd39-81a7" type="min"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="41d5-9f02-50fb-a7a4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="428a-a3ad-c7ab-8804" type="max"/>
+            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="72e5-0a1a-fd39-81a7" type="min"/>
           </constraints>
           <categoryLinks>
             <categoryLink id="0c6b-65c1-b506-01bd" name="Warmaster" hidden="false" targetId="3b0c-71a7-b28b-a310" primary="false"/>
@@ -156,44 +156,44 @@
             <entryLink id="d941-561f-3b7f-9eb0" name="Warmaster Traits" hidden="false" collective="false" import="true" targetId="acd4-8bbf-d48d-1a62" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c13b-ab88-b33f-dcd5" name="Show Legends" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="name" value="Legends are visible"/>
-        <modifier type="set" field="ab0e-e1bd-e655-ff7f" value="0.0"/>
-        <modifier type="set" field="1643-307c-3603-3a59" value="0.0"/>
+        <modifier type="set" field="ab0e-e1bd-e655-ff7f" value="0"/>
+        <modifier type="set" field="1643-307c-3603-3a59" value="0"/>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab0e-e1bd-e655-ff7f" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1643-307c-3603-3a59" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f71-e2db-9201-b538" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab0e-e1bd-e655-ff7f" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1643-307c-3603-3a59" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f71-e2db-9201-b538" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="ae7c-dd55-a43c-5a04" name="New CategoryLink" hidden="false" targetId="b1fd-719c-4789-4656" primary="true"/>
+        <categoryLink id="ae7c-dd55-a43c-5a04" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="acd4-8bbf-d48d-1a62" name="Warmaster Traits" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="222a-fd95-0208-bb77" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f89a-8f79-1de4-8ac9" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="222a-fd95-0208-bb77" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f89a-8f79-1de4-8ac9" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="ff1b-fab5-8c75-89dc" name="01 - Master Strategist" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c76-f498-2598-3134" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7c4e-ee1a-0a29-80a5" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c76-f498-2598-3134" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7c4e-ee1a-0a29-80a5" type="max"/>
           </constraints>
           <profiles>
             <profile id="2838-7f5e-7bac-5104" name="01 - Master Strategist" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="96ed-cabc-a90c-b284" typeName="Warmaster Trait">
@@ -203,13 +203,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7a24-0103-6606-2d37" name="11 - Born Survivor" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a42-5551-03f1-097f" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2695-9f40-4afe-49c6" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a42-5551-03f1-097f" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2695-9f40-4afe-49c6" type="max"/>
           </constraints>
           <profiles>
             <profile id="52d9-58d8-1438-d962" name="11 - Born Survivor" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="96ed-cabc-a90c-b284" typeName="Warmaster Trait">
@@ -222,13 +222,13 @@
             <infoLink id="5e6f-a05b-8bb4-7fbc" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0208-af20-305b-f98a" name="12 - Relic Force Field" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df9f-2bf1-2c15-52b9" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d5d6-08eb-6547-31bd" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df9f-2bf1-2c15-52b9" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d5d6-08eb-6547-31bd" type="max"/>
           </constraints>
           <profiles>
             <profile id="481a-3600-858e-fb6b" name="12 - Relic Force Field" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="96ed-cabc-a90c-b284" typeName="Warmaster Trait">
@@ -238,13 +238,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2c6c-21ae-487d-1755" name="10 - Head-taker" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5172-8d2d-3cd1-34bc" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45ec-66c6-a521-a7c2" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5172-8d2d-3cd1-34bc" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45ec-66c6-a521-a7c2" type="max"/>
           </constraints>
           <profiles>
             <profile id="8ea5-f835-89da-e501" name="10 - Head-taker" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="96ed-cabc-a90c-b284" typeName="Warmaster Trait">
@@ -254,13 +254,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="768d-3f65-8ef4-c4bb" name="09 - Martial Discipline" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4eb-7953-1334-a147" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a84d-2c2e-aa7b-87fa" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4eb-7953-1334-a147" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a84d-2c2e-aa7b-87fa" type="max"/>
           </constraints>
           <profiles>
             <profile id="0a04-d1d8-1d96-1278" name="09 - Martial Discipline" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="96ed-cabc-a90c-b284" typeName="Warmaster Trait">
@@ -270,13 +270,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bfd4-d210-74af-550b" name="04 - Master-crafted Weapons" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c037-91ed-7f00-8a2f" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c1cb-73eb-7e71-1599" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c037-91ed-7f00-8a2f" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c1cb-73eb-7e71-1599" type="max"/>
           </constraints>
           <profiles>
             <profile id="b361-157e-948d-9350" name="04 - Master-crafted Weapons" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="96ed-cabc-a90c-b284" typeName="Warmaster Trait">
@@ -286,13 +286,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3821-a34b-cca3-4370" name="05 - Supreme Tactician" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f934-9656-ea1d-57c1" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9897-5a71-bab4-2857" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f934-9656-ea1d-57c1" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9897-5a71-bab4-2857" type="max"/>
           </constraints>
           <profiles>
             <profile id="0fc7-76fe-d60e-988d" name="05 - Supreme Tactician" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="96ed-cabc-a90c-b284" typeName="Warmaster Trait">
@@ -302,13 +302,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1bf0-ce52-2831-870d" name="06 - Heroic Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b40b-6dc0-faaa-862f" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1104-1ccd-27ae-cf94" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b40b-6dc0-faaa-862f" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1104-1ccd-27ae-cf94" type="max"/>
           </constraints>
           <profiles>
             <profile id="dc40-bd79-c705-c04b" name="06 - Heroic Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="96ed-cabc-a90c-b284" typeName="Warmaster Trait">
@@ -318,13 +318,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1c02-f4fc-4236-83fe" name="03 - Stealth Adept" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="005e-06b9-37b6-1bd6" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="04eb-76f9-0416-f0da" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="005e-06b9-37b6-1bd6" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="04eb-76f9-0416-f0da" type="max"/>
           </constraints>
           <profiles>
             <profile id="abd3-108e-be30-808a" name="03 - Stealth Adept" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="96ed-cabc-a90c-b284" typeName="Warmaster Trait">
@@ -337,13 +337,13 @@
             <infoLink id="d11f-b8b2-16e5-7501" name="Stealth" hidden="false" targetId="b133-8e04-3e7b-9fd6" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c735-9280-eda5-c96f" name="07 - Inspiring Presence" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4749-ba8d-84be-13ba" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1a49-8ff2-ece1-1e30" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4749-ba8d-84be-13ba" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1a49-8ff2-ece1-1e30" type="max"/>
           </constraints>
           <profiles>
             <profile id="185e-2b3c-d477-3c88" name="07 - Inspiring Presence" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="96ed-cabc-a90c-b284" typeName="Warmaster Trait">
@@ -353,13 +353,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b08a-a1b0-63d4-4c6a" name="02 - Righteous Fury" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a29f-5af3-3b82-bb06" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3b7c-e91e-0d83-0057" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a29f-5af3-3b82-bb06" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3b7c-e91e-0d83-0057" type="max"/>
           </constraints>
           <profiles>
             <profile id="aba4-9608-c19b-b70b" name="02 - Righteous Fury" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="96ed-cabc-a90c-b284" typeName="Warmaster Trait">
@@ -369,13 +369,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="faa8-cc49-b9d5-afe7" name="08 - Fearsome Reputation" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03ec-632d-fd4e-5c5d" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7146-1331-a836-24d2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03ec-632d-fd4e-5c5d" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7146-1331-a836-24d2" type="max"/>
           </constraints>
           <profiles>
             <profile id="7432-94bd-1039-188a" name="08 - Fearsome Reputation" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="96ed-cabc-a90c-b284" typeName="Warmaster Trait">
@@ -385,7 +385,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -399,7 +399,7 @@
       <description>If a wound roll for an attack made with a weapon with this ability is successful, place two blast markers next to the target unit instead of one.</description>
     </rule>
     <rule id="8ce8-6dd3-c0a8-35ad" name="Witchfire" publicationId="8df9-0b3e-abea-3c15" hidden="false">
-      <description>This weapon can target enemies even if they are within engagement range of friendly models, and can be used even if this unit is in engagement range of enemy models. </description>
+      <description>This weapon can target enemies even if they are within engagement range of friendly models, and can be used even if this unit is in engagement range of enemy models.</description>
     </rule>
     <rule id="f3a7-fc0c-a9e3-d382" name="Inferno" publicationId="8df9-0b3e-abea-3c15" hidden="false">
       <description>Attacks made with this weapon automatically score a hit (no hit roll is made).</description>

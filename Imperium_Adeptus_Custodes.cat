@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1339-e553-0775-03de" name="Imperium - Adeptus Custodes" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1339-e553-0775-03de" name="Imperium - Adeptus Custodes" revision="5" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="a70b-b27c-4926-d99c" name="Faction: Adeptus Custodes" hidden="false"/>
     <categoryEntry id="e6c3-ba23-fdf0-2498" name="Captain-General Trajann Valoris" hidden="false"/>
@@ -33,7 +33,7 @@
   <selectionEntries>
     <selectionEntry id="4723-62f6-a2f8-2990" name="Trajann Valoris" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a875-210c-66ba-6c43" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a875-210c-66ba-6c43" type="max"/>
       </constraints>
       <profiles>
         <profile id="7d79-c978-04aa-7a7f" name="Legendary Commander" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -67,20 +67,20 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="5bff-a8b5-a5f3-bf90" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="5bff-a8b5-a5f3-bf90" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="d21c-6ddd-dcca-1dd5" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="18d8-7d89-bfb5-222b" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="f7b8-3e10-ef4c-f429" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="ada8-2b39-6d70-cdff" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="a720-2dcb-5670-def0" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="966f-2013-9e31-dc1e" name="Captain-General Trajann Valoris" hidden="false" targetId="e6c3-ba23-fdf0-2498" primary="false"/>
-        <categoryLink id="bffe-5114-b489-fc65" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="bffe-5114-b489-fc65" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="341d-a26b-cc8b-82aa" name="Watcher&apos;s Axe" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="530e-e6cb-0d99-47a9" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c91-4fce-223b-50b3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="530e-e6cb-0d99-47a9" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c91-4fce-223b-50b3" type="max"/>
           </constraints>
           <profiles>
             <profile id="6c23-aa1f-5f68-b527" name="Watcher&apos;s Axe" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -95,7 +95,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -103,7 +103,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="752c-c75d-2c56-dd3b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3658-f1ed-90dd-68b4" name="Shield Captain" hidden="false" collective="false" import="true" type="unit">
@@ -131,7 +131,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="6315-18d6-74da-4bcf" name="Inspirational Fighter" hidden="false" targetId="0b3c-9c63-6141-f2e8" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c3b2-eca6-0619-c7bb" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="c3b2-eca6-0619-c7bb" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="a8fb-636b-6040-dd59" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="d7b6-561e-94ea-cb58" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="27f5-22a3-20c4-daba" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
@@ -143,7 +143,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="dcf2-c9d0-bc0a-dffe" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="265d-5a70-e8ba-b3d1" name="Shield Captain in Allarus Terminator Armour" hidden="false" collective="false" import="true" type="unit">
@@ -171,7 +171,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="fb9e-e464-4f0a-1975" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1f2a-e4fe-1d04-d31e" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="1f2a-e4fe-1d04-d31e" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="cb4f-5777-88fe-319f" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="3b2b-c49a-4f2b-0cbf" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="87a4-67d3-86bf-a21d" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
@@ -186,7 +186,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="d1e7-89f4-0afe-09c3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="142f-6af3-6633-5284" name="Shield Captain on Dawneagle Jetbike" hidden="false" collective="false" import="true" type="unit">
@@ -213,7 +213,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="f054-eea8-87ae-72e7" name="Inspirational Fighter" hidden="false" targetId="0b3c-9c63-6141-f2e8" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e722-2c85-8ea6-f1e6" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="e722-2c85-8ea6-f1e6" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="1708-6e27-6766-36e3" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="e92f-e5e6-fcb4-51ed" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="c134-9a36-0fe5-4864" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
@@ -225,8 +225,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntryGroups>
         <selectionEntryGroup id="faad-31ce-255e-ffc5" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="bd50-2d8b-e1d4-86b6">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f3e-a36c-2f03-c8d9" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c64d-44de-4d16-dda6" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f3e-a36c-2f03-c8d9" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c64d-44de-4d16-dda6" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="bd50-2d8b-e1d4-86b6" name="Hurricane Bolter" hidden="false" collective="false" import="true" targetId="fc09-1632-01ae-e431" type="selectionEntry"/>
@@ -239,7 +239,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="2334-86e5-2b11-edf4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d20-9ff9-5cb6-b9b9" name="Custodian Guard" hidden="false" collective="false" import="true" type="unit">
@@ -248,7 +248,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
           <modifiers>
             <modifier type="set" field="7c7f-f763-1f39-410c" value="4">
               <conditions>
-                <condition field="selections" scope="6d20-9ff9-5cb6-b9b9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa1-c28d-5865-d565" type="equalTo"/>
+                <condition field="selections" scope="6d20-9ff9-5cb6-b9b9" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa1-c28d-5865-d565" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -269,7 +269,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="a002-cf5b-9117-37ef" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+        <categoryLink id="a002-cf5b-9117-37ef" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
         <categoryLink id="edb5-9f24-ec8b-8930" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="c27a-9485-52e6-1a22" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="5dee-9144-93b9-2b0e" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
@@ -279,10 +279,10 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntries>
         <selectionEntry id="bfa1-c28d-5865-d565" name="Storm Shields" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c112-0e81-e91d-8bf3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c112-0e81-e91d-8bf3" type="max"/>
           </constraints>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -290,13 +290,13 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="b0f1-7e2e-35bc-1dd6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="af09-262b-1931-78ee" name="Custodian Weapons" hidden="false" collective="false" import="true" targetId="ae45-a4e0-1c0f-5cf1" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4271-c8d4-60d0-6332" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96db-286b-5633-5e4f" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4271-c8d4-60d0-6332" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96db-286b-5633-5e4f" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46d7-5983-563e-70b2" name="Allarus Custodians" hidden="false" collective="false" import="true" type="unit">
@@ -311,7 +311,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="f3a6-19e9-cbc9-2c75" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9bf8-69b2-e7c4-203f" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
+        <categoryLink id="9bf8-69b2-e7c4-203f" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="9ef3-4ba2-dcfd-a145" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="125d-6328-0fe6-49fc" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="bd09-cd1b-b8b6-0a56" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
@@ -321,8 +321,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntryGroups>
         <selectionEntryGroup id="361c-115b-9c6d-7504" name="3 - 6 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="9a58-e7b5-3a9e-2ec2">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9925-6514-54e5-20e4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf1a-76c0-e6d5-2dac" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9925-6514-54e5-20e4" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf1a-76c0-e6d5-2dac" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="6069-f1d5-c2e7-f967" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -340,7 +340,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9a58-e7b5-3a9e-2ec2" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -358,7 +358,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -369,13 +369,13 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="5467-01c6-67c1-5ca5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="a7cb-1a00-1aed-b061" name="Custodian Weapons" hidden="false" collective="false" import="true" targetId="ae45-a4e0-1c0f-5cf1" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa7d-8032-9fe7-f25e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a21-f300-a8e8-1111" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa7d-8032-9fe7-f25e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a21-f300-a8e8-1111" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5187-fac9-670d-e2ec" name="Vertus Praetors" hidden="false" collective="false" import="true" type="unit">
@@ -387,20 +387,20 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="758f-9d52-4843-416c" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
+        <categoryLink id="758f-9d52-4843-416c" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="78ae-6ca1-86d9-372e" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="002d-b211-b5e4-313e" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="6d5e-2b45-a87c-4e6c" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="df47-635c-e3e5-8e4e" name="Biker" hidden="false" targetId="c8b5-9ad5-d8df-45f2" primary="false"/>
         <categoryLink id="b088-5b47-29d0-bd28" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="c9ea-552b-bfe6-f9a2" name="Vertus Praetors" hidden="false" targetId="3811-d9a2-9b79-15b7" primary="false"/>
-        <categoryLink id="7db1-e1d6-a74e-75f6" name="New CategoryLink" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
+        <categoryLink id="7db1-e1d6-a74e-75f6" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f957-284e-1541-3cac" name="2 - 3 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="d7e0-b86e-d907-3395">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7df1-5126-c4dd-d4ab" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b515-7dce-cfd7-996a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7df1-5126-c4dd-d4ab" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b515-7dce-cfd7-996a" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="d7e0-b86e-d907-3395" name="2 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -418,7 +418,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9ca7-a7b7-fc24-5cad" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -436,15 +436,15 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="497c-a242-e938-00ab" name="Jetbike Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="9500-8dd2-3e02-62d9">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5477-02e1-2695-8b73" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f86e-42cc-5469-bc99" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5477-02e1-2695-8b73" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f86e-42cc-5469-bc99" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="9500-8dd2-3e02-62d9" name="Hurricane Bolter" hidden="false" collective="false" import="true" targetId="fc09-1632-01ae-e431" type="selectionEntry"/>
@@ -457,7 +457,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="4577-a0b2-3a1f-edc3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6e2-e0d7-8604-d50f" name="Venerable Contemptor Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -478,7 +478,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="7130-b60e-c424-d176" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5fff-fed4-e797-6754" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
+        <categoryLink id="5fff-fed4-e797-6754" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="df96-4598-8bdf-8e45" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="a90e-52f4-5290-d3ec" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="1991-a0bf-7e0b-0582" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
@@ -490,8 +490,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntryGroups>
         <selectionEntryGroup id="ce3f-6764-9ab5-2886" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="5181-5109-988f-f0e9">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8701-ba7a-3bc8-2f7b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a00-73d4-95a4-de8d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8701-ba7a-3bc8-2f7b" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a00-73d4-95a4-de8d" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="5181-5109-988f-f0e9" name="Kheres Assault Cannon" hidden="false" collective="false" import="true" targetId="4973-6b10-677c-7cc2" type="selectionEntry"/>
@@ -502,14 +502,14 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <entryLinks>
         <entryLink id="9244-869f-8896-70bd" name="Dreadnought Combat Weapon" hidden="false" collective="false" import="true" targetId="266f-d751-a54f-6676" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d6d-58d4-e4d8-bd3f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be22-9cfe-e4f1-81d4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d6d-58d4-e4d8-bd3f" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be22-9cfe-e4f1-81d4" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="3ad6-2f19-db85-9918" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cbef-f61e-e25d-ba11" name="Venerable Land Raider" hidden="false" collective="false" import="true" type="unit">
@@ -535,7 +535,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="d9ae-566d-4c20-5a52" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e534-4d1a-3025-ade9" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
+        <categoryLink id="e534-4d1a-3025-ade9" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="866e-54a0-6de9-0db5" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="b44d-afac-6278-89d7" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="79e7-568c-66e0-2330" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
@@ -546,8 +546,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntries>
         <selectionEntry id="36ad-5e7a-4fff-640b" name="Armoured Tracks" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="134e-11be-bec5-1170" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e98a-972a-a29d-7486" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="134e-11be-bec5-1170" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e98a-972a-a29d-7486" type="max"/>
           </constraints>
           <profiles>
             <profile id="c304-8b0c-ae28-cbcd" name="Armoured Tracks" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -562,35 +562,35 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="200e-66f6-57b3-165c" name="Twin Heavy Bolter" hidden="false" collective="false" import="true" targetId="6296-86a5-9a2b-3303" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdb9-22af-ef83-1534" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b69-8e38-2ee1-a77b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdb9-22af-ef83-1534" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b69-8e38-2ee1-a77b" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="ccb6-990f-e965-7839" name="Twin Lascannon" hidden="false" collective="false" import="true" targetId="ca25-e5ce-34c4-ec69" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74dc-dde2-bd64-a76f" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a39-d388-f6a9-8204" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74dc-dde2-bd64-a76f" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a39-d388-f6a9-8204" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="3b51-cc29-fb58-fbbe" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
+            <modifier type="set" field="1466-da3f-0d27-dace" value="1"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="381b-9540-babc-529b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="381b-9540-babc-529b" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="285c-0ea0-7eed-b459" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca40-6db4-4692-fa6a" name="Contemptor-Achillus Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -613,8 +613,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="2791-3374-c52d-961d" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
-        <categoryLink id="92cd-64c7-4e53-9eb5" name="New CategoryLink" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="2791-3374-c52d-961d" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
+        <categoryLink id="92cd-64c7-4e53-9eb5" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="3387-4f15-b5fa-7ad3" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="2e12-d279-12c6-bc9a" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="8d82-2c88-0fbb-32b4" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
@@ -624,8 +624,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntries>
         <selectionEntry id="bf7f-8d40-8cc2-9d1a" name="Achillus Dreadspear" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f70-4f16-72ae-d146" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd31-5a43-83e6-331e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f70-4f16-72ae-d146" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd31-5a43-83e6-331e" type="max"/>
           </constraints>
           <profiles>
             <profile id="6c0e-7270-2c1b-41b0" name="Achillus Dreadspear (Ranged)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -650,30 +650,30 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="53d3-c485-bdbb-3929" name="Wrist Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="18a4-d413-4862-fa62">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1871-d5dc-d045-c51f" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0343-7f1c-20b9-ca30" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1871-d5dc-d045-c51f" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0343-7f1c-20b9-ca30" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="18a4-d413-4862-fa62" name="Lastrum Storm Bolter" hidden="false" collective="false" import="true" targetId="2468-6d4c-c9ed-489e" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62c1-330d-e035-479e" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62c1-330d-e035-479e" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="071e-3a7b-3ee8-d111" name="Infernus Incinerator" hidden="false" collective="false" import="true" targetId="690a-727e-2bf0-9078" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdb1-6698-1edf-9d28" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdb1-6698-1edf-9d28" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="d17d-60ca-8158-4139" name="Twin Adrathic Destructor" hidden="false" collective="false" import="true" targetId="9117-52f6-79e0-6832" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="201e-7a5a-ea39-836a" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="201e-7a5a-ea39-836a" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -683,7 +683,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="1de3-702c-7709-b559" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c527-26c3-6519-b9da" name="Caladius Grav-tank" hidden="false" collective="false" import="true" type="unit">
@@ -705,7 +705,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="3b71-c24f-7af3-3202" name="Hover" hidden="false" targetId="d5d4-86a1-899f-a7b9" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5f34-961e-e682-452c" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
+        <categoryLink id="5f34-961e-e682-452c" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="f7af-352a-09a6-ac5f" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="72d8-470d-48b4-6815" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="9559-7283-edcf-7d6f" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
@@ -716,8 +716,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntryGroups>
         <selectionEntryGroup id="13c0-10a6-b259-4fcf" name="Main Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="75c9-50b0-9a73-5f00">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3851-7f1e-a277-923d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0a1-7a0a-6027-7b66" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3851-7f1e-a277-923d" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0a1-7a0a-6027-7b66" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="75c9-50b0-9a73-5f00" name="Twin Iliastus Accelerator Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -734,7 +734,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8dc1-0327-3491-e4b9" name="Twin Arachnus Heavy Blaze Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -751,7 +751,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -761,14 +761,14 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="34be-c956-60ff-3fff" name="Armoured Hull" hidden="false" collective="false" import="true" targetId="7f1b-d939-5f11-dff7" type="selectionEntry"/>
         <entryLink id="dcb8-9e4f-6c21-0b0a" name="Twin Lastrum Bolt Cannon" hidden="false" collective="false" import="true" targetId="d91e-c8b0-72c0-a128" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="373d-c34a-348d-ff5d" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="493d-7654-d7d9-6b12" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="373d-c34a-348d-ff5d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="493d-7654-d7d9-6b12" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="a684-6362-2b1e-d57b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e0fc-23b7-4e9e-d89a" name="Telemon Heavy Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -791,7 +791,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="7e1a-59d1-1028-24dc" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
+        <categoryLink id="7e1a-59d1-1028-24dc" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="90c6-5ee6-6d94-4e42" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="9d87-2f78-0843-b864" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="1b34-aba1-08a1-6cfd" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
@@ -802,8 +802,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntries>
         <selectionEntry id="94b9-b97a-2603-d4d2" name="Spiculus Bolt Launcher" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9e9-2251-1c8b-2a33" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cab-2d0c-f45b-e1de" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9e9-2251-1c8b-2a33" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cab-2d0c-f45b-e1de" type="max"/>
           </constraints>
           <profiles>
             <profile id="4b9e-1976-a97c-e533" name="Spiculus Bolt Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -818,20 +818,20 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4c7e-42f5-2c6d-7b52" name="Armoured Feet" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="e0fc-23b7-4e9e-d89a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6281-21e1-b106-47a0" type="equalTo"/>
+                <condition field="selections" scope="e0fc-23b7-4e9e-d89a" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6281-21e1-b106-47a0" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87a9-3421-6eab-6f7b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b01c-057f-cc1f-f439" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87a9-3421-6eab-6f7b" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b01c-057f-cc1f-f439" type="max"/>
           </constraints>
           <profiles>
             <profile id="c986-f32d-8879-3da8" name="Armoured Feet" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -846,20 +846,20 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="c2ff-cfe7-2b44-634c" name="Arm Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="de7c-66a4-4c24-b7b2">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d75f-c031-6823-0a94" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b149-e31c-0686-d1c3" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d75f-c031-6823-0a94" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b149-e31c-0686-d1c3" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="6281-21e1-b106-47a0" name="Telemon Caestus &amp; Twin Plasma Projector" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ff4-eaf2-a742-4cb9" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ff4-eaf2-a742-4cb9" type="max"/>
               </constraints>
               <profiles>
                 <profile id="a4a2-874a-5893-1199" name="Telemon Caestus" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -888,12 +888,12 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 <infoLink id="8de0-9f0c-42b6-6d85" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="de7c-66a4-4c24-b7b2" name="Arachnus Storm Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5d1-b688-1e9b-cf11" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5d1-b688-1e9b-cf11" type="max"/>
               </constraints>
               <profiles>
                 <profile id="a6c6-02a4-7ab3-94a0" name="Arachnus Storm Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -911,12 +911,12 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 <infoLink id="8d0c-4111-d610-db26" name="Devastating Wounds" hidden="false" targetId="5154-3b0e-f960-5cb3" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="de3b-ba9a-e1ed-c405" name="Iliastus Accelerator Culverin" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f781-816f-fde8-f674" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f781-816f-fde8-f674" type="max"/>
               </constraints>
               <profiles>
                 <profile id="a4d2-e61d-cde8-de77" name="Iliastus Accelerator Culverin" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -931,7 +931,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -941,7 +941,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="ba4f-0a8c-7c1a-5369" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4bad-db16-e577-f7e5" name="Contemptor-Galatus Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -967,7 +967,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="8bde-04ea-244e-d46b" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="40f5-49f6-61c1-6fec" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
+        <categoryLink id="40f5-49f6-61c1-6fec" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="80bf-396c-6f70-0d27" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="67d4-bfd8-f8ad-592b" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="f77c-4ff1-60f9-b3b4" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
@@ -978,8 +978,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntries>
         <selectionEntry id="ef02-2dca-6571-de2b" name="Galatus Warblade" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07cb-7a23-421a-dd0b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bed4-5656-165d-dddf" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07cb-7a23-421a-dd0b" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bed4-5656-165d-dddf" type="max"/>
           </constraints>
           <profiles>
             <profile id="356f-a90b-9a1e-fd01" name="Galatus Warblade (Ranged)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1007,7 +1007,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             <infoLink id="9cc7-a230-4335-a2e1" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1015,7 +1015,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="e333-f1ad-10d8-8aec" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1373-dbc1-a920-c9b5" name="Aquilon Custodians" hidden="false" collective="false" import="true" type="unit">
@@ -1035,7 +1035,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="8a83-c69d-d5ff-293a" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c139-69db-8203-58a3" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
+        <categoryLink id="c139-69db-8203-58a3" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="cdc6-e773-4535-ef09" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="42cc-b4fa-594f-2bef" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="f140-1419-e25d-e391" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
@@ -1046,8 +1046,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntries>
         <selectionEntry id="e1a6-513f-2844-d822" name="Solerite Power Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f232-de1d-92b2-5824" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f59b-4bd9-e95b-de54" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f232-de1d-92b2-5824" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f59b-4bd9-e95b-de54" type="max"/>
           </constraints>
           <profiles>
             <profile id="98ad-e98a-d8b2-0f3d" name="Solerite Power Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1062,15 +1062,15 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="3e7e-86e0-85dc-ff05" name="3 -6 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="391e-a67d-e867-243d">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e052-1576-11c0-cd5c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6845-3f4e-671e-da79" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e052-1576-11c0-cd5c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6845-3f4e-671e-da79" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="391e-a67d-e867-243d" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1088,7 +1088,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="59a1-1510-48dc-ef2e" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1106,7 +1106,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1115,22 +1115,22 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
           <modifierGroups>
             <modifierGroup>
               <conditions>
-                <condition field="selections" scope="1373-dbc1-a920-c9b5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="59a1-1510-48dc-ef2e" type="equalTo"/>
+                <condition field="selections" scope="1373-dbc1-a920-c9b5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="59a1-1510-48dc-ef2e" type="equalTo"/>
               </conditions>
               <modifiers>
-                <modifier type="set" field="847f-e5e4-154b-baca" value="6.0"/>
-                <modifier type="set" field="9144-ea29-27e2-ec16" value="6.0"/>
+                <modifier type="set" field="847f-e5e4-154b-baca" value="6"/>
+                <modifier type="set" field="9144-ea29-27e2-ec16" value="6"/>
               </modifiers>
             </modifierGroup>
           </modifierGroups>
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="847f-e5e4-154b-baca" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9144-ea29-27e2-ec16" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="847f-e5e4-154b-baca" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9144-ea29-27e2-ec16" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="1115-daa5-3c48-6f63" name="Infernus Firepike" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0404-5dd4-a00b-2ca5" type="max"/>
+                <constraint field="selections" scope="parent" value="6" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0404-5dd4-a00b-2ca5" type="max"/>
               </constraints>
               <profiles>
                 <profile id="f9ed-2127-e2fc-8a13" name="Infernus Firepike" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1148,19 +1148,19 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 <infoLink id="0f9d-e1b8-edfd-92fb" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
             <entryLink id="8c7a-c47b-2f20-4784" name="Lastrum Storm Bolter" hidden="false" collective="false" import="true" targetId="2468-6d4c-c9ed-489e" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c27-0783-fc23-2553" type="max"/>
+                <constraint field="selections" scope="parent" value="6" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c27-0783-fc23-2553" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="f198-a551-3c72-aad1" name="Twin Adrathic Destructor" hidden="false" collective="false" import="true" targetId="9117-52f6-79e0-6832" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c5a-790b-8b27-b3ec" type="max"/>
+                <constraint field="selections" scope="parent" value="6" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c5a-790b-8b27-b3ec" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1170,7 +1170,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="9e16-a493-2836-bda8" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="de85-ad4a-7831-8bb3" name="Custodian Guard w/ Spears" hidden="false" collective="false" import="true" type="unit">
@@ -1193,7 +1193,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="3c56-2e62-1b73-7eb9" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+        <categoryLink id="3c56-2e62-1b73-7eb9" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
         <categoryLink id="3eca-8cd3-0201-8431" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="74fe-5720-ad2e-d1c3" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="e883-a0bc-3831-4cd2" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
@@ -1203,8 +1203,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntryGroups>
         <selectionEntryGroup id="0ccd-dd1b-8fbc-1cfe" name="Spears" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2945-eac2-16a7-56d7" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94a3-0d76-2be3-f267" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2945-eac2-16a7-56d7" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94a3-0d76-2be3-f267" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="3bc6-3ecd-6822-00af" name="Adrasite Spear" hidden="false" collective="false" import="true" type="upgrade">
@@ -1221,7 +1221,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="00cd-9333-b6ee-ef3f" name="Pyrithite Spear" hidden="false" collective="false" import="true" type="upgrade">
@@ -1238,7 +1238,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1248,31 +1248,31 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="9d72-3ca8-6e6b-df2e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="6892-f249-9df3-ad0f" name="Custodian Weapons" hidden="false" collective="false" import="true" targetId="ae45-a4e0-1c0f-5cf1" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02e7-ee88-2f45-ab92" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9122-61a7-46c0-4632" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02e7-ee88-2f45-ab92" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9122-61a7-46c0-4632" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6ef6-19e6-f44f-35ff" name="Agamatus Custodians" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="0f17-66a3-33cc-b397" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
+        <categoryLink id="0f17-66a3-33cc-b397" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="8968-e7dd-49ec-82f5" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="8a09-5d3b-129d-ff5b" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="16a7-0368-f085-ee0a" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="5c37-e516-eb26-5fae" name="Biker" hidden="false" targetId="c8b5-9ad5-d8df-45f2" primary="false"/>
         <categoryLink id="4a1d-12d3-516b-6956" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="2b42-f136-4f64-7149" name="Agamatus Custodians" hidden="false" targetId="e2be-4700-de43-419a" primary="false"/>
-        <categoryLink id="6faf-e255-d025-1ec9" name="New CategoryLink" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="6faf-e255-d025-1ec9" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="1ac9-2bdf-57e9-50d6" name="3 -6 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="48c0-6470-1eaf-de39">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f02-4585-2128-417d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c28-a173-9e29-c125" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f02-4585-2128-417d" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c28-a173-9e29-c125" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="48c0-6470-1eaf-de39" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1290,7 +1290,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="af01-3220-6c98-1188" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1308,7 +1308,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1317,22 +1317,22 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
           <modifierGroups>
             <modifierGroup>
               <conditions>
-                <condition field="selections" scope="6ef6-19e6-f44f-35ff" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="af01-3220-6c98-1188" type="equalTo"/>
+                <condition field="selections" scope="6ef6-19e6-f44f-35ff" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="af01-3220-6c98-1188" type="equalTo"/>
               </conditions>
               <modifiers>
-                <modifier type="set" field="e0a7-d010-8e76-a45b" value="6.0"/>
-                <modifier type="set" field="0aad-06f2-a861-3c3e" value="6.0"/>
+                <modifier type="set" field="e0a7-d010-8e76-a45b" value="6"/>
+                <modifier type="set" field="0aad-06f2-a861-3c3e" value="6"/>
               </modifiers>
             </modifierGroup>
           </modifierGroups>
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0a7-d010-8e76-a45b" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aad-06f2-a861-3c3e" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0a7-d010-8e76-a45b" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aad-06f2-a861-3c3e" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="4ec7-00a7-3a53-60bb" name="Adrathic Devastator" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7574-6478-9ee4-032a" type="max"/>
+                <constraint field="selections" scope="parent" value="6" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7574-6478-9ee4-032a" type="max"/>
               </constraints>
               <profiles>
                 <profile id="01c9-9385-05cf-908e" name="Adrathic Devastator" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1347,12 +1347,12 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3861-6e80-6c26-fc7b" name="Lastrum Bolt Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dd1-afd1-41bf-8205" type="max"/>
+                <constraint field="selections" scope="parent" value="6" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dd1-afd1-41bf-8205" type="max"/>
               </constraints>
               <profiles>
                 <profile id="4d47-911c-cf4c-62c0" name="Lastrum Bolt Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1367,17 +1367,17 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
             <entryLink id="f3d4-3ce5-b06f-643c" name="Twin Las-pulser" hidden="false" collective="false" import="true" targetId="47e2-9600-ab0a-073c" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
+                <modifier type="set" field="1466-da3f-0d27-dace" value="1"/>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9666-7829-01a7-81a0" type="max"/>
+                <constraint field="selections" scope="parent" value="6" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9666-7829-01a7-81a0" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1388,7 +1388,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="3766-b517-d01c-a9ac" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5bc7-c8ae-5c4f-87e8" name="Venatari Custodians" hidden="false" collective="false" import="true" type="unit">
@@ -1403,7 +1403,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="12b1-19a2-debf-2c29" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="bb59-416f-4206-7c0d" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
+        <categoryLink id="bb59-416f-4206-7c0d" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="15d7-ae49-0256-baba" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="27a8-1f6c-7318-a7df" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="2000-8559-d24a-35b0" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
@@ -1415,8 +1415,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntries>
         <selectionEntry id="e17c-c0c2-710a-c3b5" name="Venatari Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10e5-0412-7ba8-9bfd" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f64-d287-0745-6227" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10e5-0412-7ba8-9bfd" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f64-d287-0745-6227" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="b54e-9323-221f-6472" name="Kinetic Destroyer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1443,7 +1443,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4bdd-4189-764a-55c0" name="Venatari Lance" hidden="false" collective="false" import="true" type="upgrade">
@@ -1470,20 +1470,20 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="2748-fe30-7f2e-c75e" name="3 - 6 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="b4bf-187d-9263-2f6c">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9af7-7416-8d83-a0a1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af2c-564b-bea5-0509" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9af7-7416-8d83-a0a1" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af2c-564b-bea5-0509" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="b4bf-187d-9263-2f6c" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1492,7 +1492,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                   <modifiers>
                     <modifier type="set" field="a56f-38ae-3917-aadc" value="4">
                       <conditions>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b54e-9323-221f-6472" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b54e-9323-221f-6472" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -1508,7 +1508,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f798-41f1-015b-7f07" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1517,7 +1517,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                   <modifiers>
                     <modifier type="set" field="a56f-38ae-3917-aadc" value="4">
                       <conditions>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b54e-9323-221f-6472" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b54e-9323-221f-6472" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -1533,7 +1533,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1543,7 +1543,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="972b-22df-ac30-9255" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="417a-1479-d88c-227f" name="Pallas Grav-attack" hidden="false" collective="false" import="true" type="unit">
@@ -1564,7 +1564,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="464d-7207-0cc5-05e3" name="Hover" hidden="false" targetId="d5d4-86a1-899f-a7b9" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="10f4-0161-5a1a-6be9" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
+        <categoryLink id="10f4-0161-5a1a-6be9" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="1e6a-1ffb-8bb0-4054" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="59b6-0097-8075-b6d3" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="a53a-aa06-6651-1640" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
@@ -1575,8 +1575,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntries>
         <selectionEntry id="f969-fc40-633c-83a0" name="Twin Arachnus Blaze Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d10c-069a-4754-3dbf" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="222c-ab9e-e441-4fcb" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d10c-069a-4754-3dbf" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="222c-ab9e-e441-4fcb" type="max"/>
           </constraints>
           <profiles>
             <profile id="3210-195c-96d0-fd4e" name="Twin Arachnus Blaze Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1591,7 +1591,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1600,7 +1600,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="372b-8fb5-f673-4182" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e18-468c-7f79-f3d5" name="Sagittarum Custodians" hidden="false" collective="false" import="true" type="unit">
@@ -1638,8 +1638,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntries>
         <selectionEntry id="19a6-cb5a-9541-59a4" name="Adrastus Bolt Calivers" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1978-4c7e-878c-6a48" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c518-6671-7e82-94b2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1978-4c7e-878c-6a48" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c518-6671-7e82-94b2" type="max"/>
           </constraints>
           <profiles>
             <profile id="5ac8-d9b0-a1ec-458c" name="Adrastus Bolt Calivers" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1661,13 +1661,13 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8e5e-84db-453c-f760" name="Misericordias" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49f8-62b3-544f-ca69" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c12b-e629-0ceb-7ecb" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49f8-62b3-544f-ca69" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c12b-e629-0ceb-7ecb" type="max"/>
           </constraints>
           <profiles>
             <profile id="444c-f8a3-0873-6937" name="Misericordias" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1682,7 +1682,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1690,7 +1690,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="8416-d35d-5a46-0966" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1d47-3f5e-71fe-b006" name="Coronus Grav-carrier" hidden="false" collective="false" import="true" type="unit">
@@ -1721,7 +1721,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="142b-2445-1dfe-9136" name="Hover" hidden="false" targetId="d5d4-86a1-899f-a7b9" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6cb3-abd2-ba11-812f" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
+        <categoryLink id="6cb3-abd2-ba11-812f" name="Dedicated Transport" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
         <categoryLink id="93c2-b4dc-c9d5-2d40" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="2397-d5c8-f530-0273" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="f61d-0a78-3b59-837a" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
@@ -1733,8 +1733,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntries>
         <selectionEntry id="6baa-5f96-1bb6-a0f3" name="Twin Arachnus Blaze Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4561-4c61-d32f-9627" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b2d-a4e0-b996-015c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4561-4c61-d32f-9627" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b2d-a4e0-b996-015c" type="max"/>
           </constraints>
           <profiles>
             <profile id="885b-1fe1-18b1-b11e" name="Twin Arachnus Blaze Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1749,7 +1749,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1757,14 +1757,14 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="dd2c-fe1c-8c77-fb9d" name="Armoured Hull" hidden="false" collective="false" import="true" targetId="7f1b-d939-5f11-dff7" type="selectionEntry"/>
         <entryLink id="0a19-b64a-df85-e52e" name="Twin Lastrum Bolt Cannon" hidden="false" collective="false" import="true" targetId="d91e-c8b0-72c0-a128" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6396-4e15-3e00-c6c2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d52e-b37b-f349-faa4" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6396-4e15-3e00-c6c2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d52e-b37b-f349-faa4" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="984a-b338-d19c-407a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="08ad-775b-1fd7-f631" name="Orion Assault Dropship" hidden="false" collective="false" import="true" type="unit">
@@ -1808,8 +1808,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntries>
         <selectionEntry id="8d86-cf63-baf6-992a" name="Spiculus Heavy Bolt Launcher" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="963b-40e6-944f-f552" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c7a-27a4-89f1-9010" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="963b-40e6-944f-f552" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c7a-27a4-89f1-9010" type="max"/>
           </constraints>
           <profiles>
             <profile id="3844-c492-3e29-7db9" name="Spiculus Heavy Bolt Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1824,13 +1824,13 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c3ad-84b4-e1ab-a3e4" name="Arachnus Heavy Blaze Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="732a-f9e5-e5f7-0864" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd58-0bf1-22de-f489" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="732a-f9e5-e5f7-0864" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd58-0bf1-22de-f489" type="max"/>
           </constraints>
           <profiles>
             <profile id="6ed2-b24a-5609-0e75" name="Arachnus Heavy Blaze Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1845,7 +1845,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1853,14 +1853,14 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="53e3-00b0-2003-a7bb" name="Armoured Hull" hidden="false" collective="false" import="true" targetId="7f1b-d939-5f11-dff7" type="selectionEntry"/>
         <entryLink id="4119-b457-875c-c57d" name="Twin Lastrum Bolt Cannon" hidden="false" collective="false" import="true" targetId="d91e-c8b0-72c0-a128" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37e6-2c02-8bf5-5e58" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="645d-826a-9430-3604" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37e6-2c02-8bf5-5e58" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="645d-826a-9430-3604" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="7cf2-b39d-e4ca-6cb5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="35.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="35"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c67-2dfb-3b57-68f8" name="Blade Champion" hidden="false" collective="false" import="true" type="unit">
@@ -1888,7 +1888,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="b21d-6fb2-80ef-4b4d" name="Consummate Swordsman" hidden="false" targetId="9309-9d65-304e-5c9c" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="930a-7abd-7206-7e30" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="930a-7abd-7206-7e30" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="9b54-ec91-ae4d-3752" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="e5e4-9823-3f84-8986" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="5ab3-0a05-3e93-ee2b" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
@@ -1900,7 +1900,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="44b3-fb8e-882f-659b" name="Vaultswords" hidden="false" collective="false" import="true" targetId="357a-109c-069d-7869" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="deda-d909-3586-fa12" name="Custodian Wardens" hidden="false" collective="false" import="true" type="unit">
@@ -1926,8 +1926,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="bac3-3d80-c78d-f79c" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="bb9d-2421-d2d0-9ff9" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
-        <categoryLink id="55d8-df05-ee15-7f21" name="New CategoryLink" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="bb9d-2421-d2d0-9ff9" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
+        <categoryLink id="55d8-df05-ee15-7f21" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="b103-bd93-eae9-3a78" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="c432-1d7f-eeb8-23ae" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="be8d-36f9-4cb2-5f44" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
@@ -1937,13 +1937,13 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="f8b7-1ed4-de55-0ffe" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="b201-8d2a-0c49-0b8b" name="Custodian Weapons" hidden="false" collective="false" import="true" targetId="ae45-a4e0-1c0f-5cf1" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8753-d0ee-29be-3aaa" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ff0-b2cf-891c-6d14" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8753-d0ee-29be-3aaa" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ff0-b2cf-891c-6d14" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c5b3-330d-7e6c-3165" name="Prosecutors" hidden="false" collective="false" import="true" type="unit">
@@ -1951,7 +1951,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="e686-7766-08df-6d7c" name="Daughters of the Abyss" hidden="false" targetId="9009-87c1-91e5-b7b3" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="39ff-7680-6bf1-6e64" name="New CategoryLink" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="39ff-7680-6bf1-6e64" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="9e3e-e184-e07d-2f79" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="f749-e8b0-ab0e-b066" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="1287-3dda-3eb5-02c4" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
@@ -1961,8 +1961,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntryGroups>
         <selectionEntryGroup id="6950-cd24-ae0a-a5b7" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="c02d-36f7-bb1f-1b50">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49a6-bcba-afc0-aeb2" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9741-7b6a-4d77-6945" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49a6-bcba-afc0-aeb2" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9741-7b6a-4d77-6945" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="c02d-36f7-bb1f-1b50" name="5 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1980,7 +1980,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4fbb-b9be-0fb4-e223" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1998,7 +1998,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2009,7 +2009,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="37dc-df9a-9b83-761a" name="Boltguns" hidden="false" collective="false" import="true" targetId="2d61-a814-63d8-0398" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="07d7-dea5-c6e9-c429" name="Vigilators" hidden="false" collective="false" import="true" type="unit">
@@ -2029,8 +2029,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="0009-e129-0cc4-92fb" name="Daughters of the Abyss" hidden="false" targetId="9009-87c1-91e5-b7b3" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="09d7-9021-bedb-e0ab" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
-        <categoryLink id="52ed-8a7b-230f-0308" name="New CategoryLink" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="09d7-9021-bedb-e0ab" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
+        <categoryLink id="52ed-8a7b-230f-0308" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="7193-1287-d11e-c65f" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="cbe2-8316-2b90-7ef3" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="3cc1-162d-8c8a-54d6" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
@@ -2039,8 +2039,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntryGroups>
         <selectionEntryGroup id="1823-6170-b0e6-cb01" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="da64-31e1-fd9c-964c">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ae-462d-a0b4-104a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0d3-cb96-28ae-1766" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ae-462d-a0b4-104a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0d3-cb96-28ae-1766" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="da64-31e1-fd9c-964c" name="5 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2058,7 +2058,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ba63-d9ca-26a7-d305" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2076,7 +2076,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2086,7 +2086,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="02c1-3349-af09-e7ba" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fffc-1064-3a14-3edd" name="Witchseekers" hidden="false" collective="false" import="true" type="unit">
@@ -2108,7 +2108,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="fccc-68e2-9b26-9bde" name="Infiltrators" hidden="false" targetId="f07d-6c22-ac83-604c" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b5af-7c9e-6161-85c4" name="New CategoryLink" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="b5af-7c9e-6161-85c4" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="1751-607e-674b-efe9" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="4e3b-7c88-a046-dc28" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="1ed1-5d4c-a167-c6cf" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
@@ -2118,8 +2118,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntryGroups>
         <selectionEntryGroup id="7341-5ebd-a7c3-058c" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="7a4e-4887-1c57-fc1a">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5728-d420-dd3f-aad0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6e2-c98a-f381-ca8a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5728-d420-dd3f-aad0" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6e2-c98a-f381-ca8a" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="7a4e-4887-1c57-fc1a" name="5 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2137,7 +2137,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7aee-d8ed-42ad-637d" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2155,7 +2155,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2165,7 +2165,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="e504-4453-fa93-59db" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4346-18ce-e038-24c7" name="Valerian" hidden="false" collective="false" import="true" type="unit">
@@ -2199,20 +2199,20 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="67ca-548d-f994-d4b1" name="Inspirational Fighter" hidden="false" targetId="0b3c-9c63-6141-f2e8" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5095-320a-bef1-f563" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="5095-320a-bef1-f563" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="89c3-b693-feef-2686" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="4dbe-6055-2469-80c2" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="9799-2057-f415-677d" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="a978-acc2-c3f3-8352" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="87e4-a491-f874-4c9e" name="Shield Captain" hidden="false" targetId="af37-16cc-82fd-38b6" primary="false"/>
-        <categoryLink id="f29d-2193-753e-25b5" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="f29d-2193-753e-25b5" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f167-b65d-02fa-017d" name="Relics of Terra" hidden="false" collective="false" import="true" targetId="2376-49ec-e176-a257" type="selectionEntry"/>
         <entryLink id="ca96-0617-0025-75ed" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bb94-d39c-f2ab-6076" name="Aleya" hidden="false" collective="false" import="true" type="unit">
@@ -2238,7 +2238,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="1559-eee6-1143-43e0" name="Daughters of the Abyss" hidden="false" targetId="9009-87c1-91e5-b7b3" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="bbd7-ec33-a8d5-48e2" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="bbd7-ec33-a8d5-48e2" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="e3a5-bc7a-8128-9828" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="7ef2-2bd5-4694-5e8d" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="cb5c-18c8-f93f-68fa" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
@@ -2246,13 +2246,13 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <categoryLink id="1286-617b-c324-c83d" name="Anathema Psykana" hidden="false" targetId="6232-30be-371f-0538" primary="false"/>
         <categoryLink id="c998-cf32-0462-6bae" name="Knight Centura" hidden="false" targetId="3406-ba3e-88bc-198f" primary="false"/>
         <categoryLink id="867a-bd0f-53d0-3c22" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="0429-fe6f-1b5d-bc01" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="0429-fe6f-1b5d-bc01" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ce1d-90a3-e007-5075" name="Somnus" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="833e-c856-985f-7c45" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0351-dc3d-8c81-e439" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="833e-c856-985f-7c45" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0351-dc3d-8c81-e439" type="max"/>
           </constraints>
           <profiles>
             <profile id="42a1-8caf-410c-0034" name="Somnus" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2267,7 +2267,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2276,7 +2276,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="f14b-c213-f14b-0cb9" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a1f0-f6cb-dd1e-7ed0" name="Knight-Centura" hidden="false" collective="false" import="true" type="unit">
@@ -2302,7 +2302,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="0517-340f-aa87-62a1" name="Daughters of the Abyss" hidden="false" targetId="9009-87c1-91e5-b7b3" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5f28-7a07-afac-08fc" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="5f28-7a07-afac-08fc" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="a204-492a-6c98-effe" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="869f-526d-97fb-c35b" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="0847-672a-def6-3695" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
@@ -2314,14 +2314,14 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntryGroups>
         <selectionEntryGroup id="4acf-c55a-6a26-7c32" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="36af-8b93-6097-6295">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d729-b51b-3d2d-2bc4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bf7-0a3b-de6c-e94e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d729-b51b-3d2d-2bc4" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bf7-0a3b-de6c-e94e" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="c057-6426-df4c-d114" name="Witchseeker Flamer" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a56d-5f94-bc95-7936" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f0a-c6b3-3c2c-1b3b" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a56d-5f94-bc95-7936" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f0a-c6b3-3c2c-1b3b" type="min"/>
               </constraints>
               <profiles>
                 <profile id="8337-2e0c-1f15-1966" name="Witchseeker Flamer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2336,13 +2336,13 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="36af-8b93-6097-6295" name="Executioner Greatblade" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="561a-fe75-6afd-2b80" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="661f-299b-690a-7e0b" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="561a-fe75-6afd-2b80" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="661f-299b-690a-7e0b" type="min"/>
               </constraints>
               <profiles>
                 <profile id="090d-90c4-a3f9-3974" name="Executioner Greatblade" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2357,7 +2357,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2368,7 +2368,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="5021-323d-7013-a5ca" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4b5-7cef-a02d-a685" name="Anathema Psykana Rhino" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" type="upgrade">
@@ -2386,7 +2386,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
         <profile id="127d-dda6-850e-a195" name="Anathema Psykana Rhino (Transport)" publicationId="3434-17b5-4a22-f338" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model has a transport capacity of 10 ANATHEMA PSYKANA INFANTRY models. </characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model has a transport capacity of 10 ANATHEMA PSYKANA INFANTRY models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2405,15 +2405,15 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <entryLinks>
         <entryLink id="73cb-a40a-6e1f-ed09" name="Storm Bolter" hidden="false" collective="false" import="true" targetId="7457-58c5-d5f1-11a0" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="155f-deb1-a0ce-9454" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ca7-a7d8-ffb6-8b62" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="155f-deb1-a0ce-9454" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ca7-a7d8-ffb6-8b62" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="f103-05a9-20bd-5b35" name="Armoured Hull" hidden="false" collective="false" import="true" targetId="7f1b-d939-5f11-dff7" type="selectionEntry"/>
         <entryLink id="efc9-1240-c6b2-6f89" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7805-1a62-2e62-8131" name="Ares Gunship" hidden="false" collective="false" import="true" type="unit">
@@ -2456,8 +2456,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       <selectionEntries>
         <selectionEntry id="c0c8-0cbf-1be3-6785" name="Arachnus Heavy Blaze Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53f8-cce9-3e50-8771" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60e6-7b89-1194-8a89" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53f8-cce9-3e50-8771" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60e6-7b89-1194-8a89" type="max"/>
           </constraints>
           <profiles>
             <profile id="5348-a588-ea80-be7f" name="Arachnus Heavy Blaze Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2472,13 +2472,13 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="34b4-1805-6429-0690" name="Arachnus Magna-Blaze Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8806-59d3-812b-a767" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5bf-1aa2-9034-18ef" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8806-59d3-812b-a767" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5bf-1aa2-9034-18ef" type="max"/>
           </constraints>
           <profiles>
             <profile id="d13b-d578-3de4-a88e" name="Arachnus Heavy Blaze Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2496,7 +2496,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             <infoLink id="a0b9-6963-7a34-4147" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2505,7 +2505,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="430b-0bff-7632-a7d5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="29.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="29"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -2533,7 +2533,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="cb8b-385a-b5e1-2506" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="37d4-c8bb-5e25-6998" name="Salvo Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -2553,13 +2553,13 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="e145-1311-15d1-a3a7" name="Anti-air" hidden="false" targetId="48b8-058a-9085-0e80" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2376-49ec-e176-a257" name="Relics of Terra" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5677-017b-a0ce-393b" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b5f-62c2-c9cc-d18a" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5677-017b-a0ce-393b" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b5f-62c2-c9cc-d18a" type="max"/>
       </constraints>
       <profiles>
         <profile id="f461-19b3-030f-e13e" name="Relics of Terra" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2574,13 +2574,13 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="10e9-73fa-837f-03ab" name="Vexilus Weapons" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="674d-20cf-d67d-559e" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0ca-75b9-35b8-79d2" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="674d-20cf-d67d-559e" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0ca-75b9-35b8-79d2" type="max"/>
       </constraints>
       <profiles>
         <profile id="004b-d9f1-e89e-6795" name="Vexilus Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2595,7 +2595,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2468-6d4c-c9ed-489e" name="Lastrum Storm Bolter" hidden="false" collective="false" import="true" type="upgrade">
@@ -2615,7 +2615,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="5fbf-3f00-6364-730f" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="690a-727e-2bf0-9078" name="Infernus Incinerator" hidden="false" collective="false" import="true" type="upgrade">
@@ -2635,7 +2635,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="cbef-115c-0332-6c0c" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9117-52f6-79e0-6832" name="Twin Adrathic Destructor" hidden="false" collective="false" import="true" type="upgrade">
@@ -2652,7 +2652,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="266f-d751-a54f-6676" name="Dreadnought Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2669,7 +2669,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="47e2-9600-ab0a-073c" name="Twin Las-pulser" hidden="false" collective="false" import="true" type="upgrade">
@@ -2686,13 +2686,13 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f1b-d939-5f11-dff7" name="Armoured Hull" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cba5-5381-abe7-8e81" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b43-4339-4935-d709" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cba5-5381-abe7-8e81" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b43-4339-4935-d709" type="max"/>
       </constraints>
       <profiles>
         <profile id="dd10-90a6-5d76-4431" name="Armoured Hull" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2707,7 +2707,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d91e-c8b0-72c0-a128" name="Twin Lastrum Bolt Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2724,13 +2724,13 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d9cb-a69a-8ab8-d402" name="Interceptor Lances" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d972-c933-afba-4846" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09bc-0c1c-b17b-2b2b" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d972-c933-afba-4846" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09bc-0c1c-b17b-2b2b" type="max"/>
       </constraints>
       <profiles>
         <profile id="3f37-bc94-d8ac-7d36" name="Interceptor Lances" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2748,13 +2748,13 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <infoLink id="90c6-90bd-5e94-5949" name="Lance" hidden="false" targetId="ddb8-a308-92c6-c90a" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="357a-109c-069d-7869" name="Vaultswords" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f458-ef39-cd5c-373d" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e1c-2f3e-f6c5-6b68" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f458-ef39-cd5c-373d" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e1c-2f3e-f6c5-6b68" type="max"/>
       </constraints>
       <profiles>
         <profile id="b188-7917-76c1-4afb" name="Vaultswords" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2769,7 +2769,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="abd2-6bb4-e68b-ac85" name="Vexilus Praetor" hidden="false" collective="false" import="true" type="unit">
@@ -2792,7 +2792,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="cba6-418f-5588-deee" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="cba6-418f-5588-deee" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
         <categoryLink id="9179-ed06-1cd6-3cfb" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="e3c2-f9f2-c3e9-12e8" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="9a64-15ad-40e7-0d02" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
@@ -2804,13 +2804,13 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="d3dd-b289-8fb1-1439" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ae45-a4e0-1c0f-5cf1" name="Custodian Weapons" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f56-87dc-4126-5a8c" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4400-c3a9-ed43-7c05" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f56-87dc-4126-5a8c" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4400-c3a9-ed43-7c05" type="max"/>
       </constraints>
       <profiles>
         <profile id="9f47-4a0a-d449-a17b" name="Custodian Weapons (Ranged)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2835,13 +2835,13 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a78f-f0a0-a839-4468" name="Balistus Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="807d-e4da-be13-dd53" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8845-7e49-f91e-3d8a" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="807d-e4da-be13-dd53" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8845-7e49-f91e-3d8a" type="max"/>
       </constraints>
       <profiles>
         <profile id="fae2-3df7-a4aa-acd3" name="Balistus Grenade Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2856,7 +2856,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="38f0-5578-883c-b62b" name="Imperium - Adepta Sororitas" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="38f0-5578-883c-b62b" name="Imperium - Adepta Sororitas" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="571e-a83e-e771-780a" name="Faction: Adeptus Ministorum" hidden="false"/>
     <categoryEntry id="21f5-1b47-2570-42d1" name="Faction: Adepta Sororitas" hidden="false"/>
@@ -46,7 +46,7 @@
   <selectionEntries>
     <selectionEntry id="09b2-d0ac-5c76-b710" name="Saint Celestine" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="171e-e7a8-eb7e-7cfa" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="171e-e7a8-eb7e-7cfa" type="max"/>
       </constraints>
       <profiles>
         <profile id="1e56-b0ae-39aa-f5fa" name="Miraculous Intervention" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -71,7 +71,7 @@
         <infoLink id="93be-8674-785b-fbd3" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c616-5f62-b9a4-a51d" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="c616-5f62-b9a4-a51d" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="d531-8839-bb2b-b528" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="9398-ad94-8571-7798" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="2855-c104-2c84-27ec" name="Faction: Adepta Sororitas" hidden="false" targetId="21f5-1b47-2570-42d1" primary="false"/>
@@ -81,13 +81,13 @@
         <categoryLink id="f67e-7179-11ae-205e" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="168a-b5f7-03f7-4aaf" name="Jump Pack" hidden="false" targetId="cdf9-175a-b31b-44a1" primary="false"/>
         <categoryLink id="9286-eda2-8491-ed70" name="Celestine" hidden="false" targetId="b6cb-539d-aa9d-dcae" primary="false"/>
-        <categoryLink id="1b24-33f9-9ea6-4712" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="1b24-33f9-9ea6-4712" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f1cc-33ca-d49f-25d6" name="Celestine and Geminae Superia" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bbd-d1af-cf94-69b4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4a6-d156-a46c-060d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bbd-d1af-cf94-69b4" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4a6-d156-a46c-060d" type="max"/>
           </constraints>
           <profiles>
             <profile id="85cb-289f-57fa-35bf" name="Celestine and Geminae Superia" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
@@ -103,13 +103,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="75dc-31cd-c803-f251" name="The Ardent Blade" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c826-bd2c-2d32-78a6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b988-2c86-eb8d-2dc3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c826-bd2c-2d32-78a6" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b988-2c86-eb8d-2dc3" type="max"/>
           </constraints>
           <profiles>
             <profile id="f5d0-d3ec-7069-b74d" name="The Ardent Blade (Ranged)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -137,13 +137,13 @@
             <infoLink id="880b-6522-454b-0f0f" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="be43-7304-43b0-0040" name="Power Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cff-6615-ce33-68b7" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a89-5706-5682-c907" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cff-6615-ce33-68b7" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a89-5706-5682-c907" type="min"/>
           </constraints>
           <profiles>
             <profile id="de5a-3d3a-0d5f-a27e" name="Power Weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -158,7 +158,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -166,13 +166,13 @@
         <entryLink id="76f5-ba65-b027-d059" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="36ab-539f-c88c-1d06" name="Bolt Pistols" hidden="false" collective="false" import="true" targetId="470f-196a-65be-f649" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93d0-6e23-6ca4-2861" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca5b-980f-29b8-bc7c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93d0-6e23-6ca4-2861" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca5b-980f-29b8-bc7c" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="29cb-a16d-860b-9fce" name="Canoness" hidden="false" collective="false" import="true" type="unit">
@@ -218,8 +218,8 @@
       <selectionEntries>
         <selectionEntry id="8e3b-19eb-e6ba-38c1" name="Master-crafted Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccc1-4a97-3a88-5fb4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99b1-866a-2821-99da" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccc1-4a97-3a88-5fb4" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99b1-866a-2821-99da" type="max"/>
           </constraints>
           <profiles>
             <profile id="3db6-c28b-5649-a3de" name="Master-crafted Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -234,7 +234,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -242,7 +242,7 @@
         <entryLink id="2c73-9695-f9c2-faf8" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d099-bc6d-aa7c-d48a" name="Imagifier" hidden="false" collective="false" import="true" type="unit">
@@ -275,7 +275,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="c60d-7127-45c4-91fd" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
+        <categoryLink id="c60d-7127-45c4-91fd" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="400b-b378-70a5-8986" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="484e-6603-2cfd-8f2d" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="871a-6660-ce57-587a" name="Faction: Adepta Sororitas" hidden="false" targetId="21f5-1b47-2570-42d1" primary="false"/>
@@ -288,8 +288,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntries>
         <selectionEntry id="529b-faf2-f83d-8f0a" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4308-e46b-7d0f-af11" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94cd-dd75-47e2-5caf" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4308-e46b-7d0f-af11" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94cd-dd75-47e2-5caf" type="max"/>
           </constraints>
           <profiles>
             <profile id="987d-96ce-020c-b008" name="Close Combat Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -304,7 +304,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -312,13 +312,13 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="207f-0822-6691-8d95" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="0a39-2fa4-b48a-1067" name="Boltguns" hidden="false" collective="false" import="true" targetId="2d61-a814-63d8-0398" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ac7-58a3-37a8-b2c8" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5a7-53bc-b2d8-ac44" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ac7-58a3-37a8-b2c8" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5a7-53bc-b2d8-ac44" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6ff0-e4ae-dcb9-4124" name="Hospitaller" hidden="false" collective="false" import="true" type="unit">
@@ -371,8 +371,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntries>
         <selectionEntry id="292f-b926-f3bb-9d5f" name="Chirurgeon&apos;s Tools" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="736f-0264-b965-06d7" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d930-c368-bbf6-273b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="736f-0264-b965-06d7" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d930-c368-bbf6-273b" type="max"/>
           </constraints>
           <profiles>
             <profile id="9ffa-0f89-5204-cb49" name="Chirurgeon&apos;s Tools" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -387,7 +387,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -395,13 +395,13 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="392a-9af0-ed52-9a4b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="7895-5f02-7caf-8d82" name="Bolt Pistols" hidden="false" collective="false" import="true" targetId="470f-196a-65be-f649" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3503-b473-2178-3e19" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="872f-cbff-98ac-6c5c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3503-b473-2178-3e19" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="872f-cbff-98ac-6c5c" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="15d5-f11a-4e19-209e" name="Dialogus" hidden="false" collective="false" import="true" type="unit">
@@ -419,7 +419,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         </profile>
         <profile id="9ccf-3686-4415-9179" name="Laud Hailer" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f"> While this model is leading a unit,  you can re-roll Morale tests taken for that unit.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is leading a unit,  you can re-roll Morale tests taken for that unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="343b-91fe-5693-cc48" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -446,8 +446,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntries>
         <selectionEntry id="6303-ae45-40f6-0d3b" name="Dialogus Staff" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05d5-e6a2-2327-4f6a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9cc-e6b9-a029-7fc6" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05d5-e6a2-2327-4f6a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9cc-e6b9-a029-7fc6" type="max"/>
           </constraints>
           <profiles>
             <profile id="a508-82fb-602b-83bf" name="Dialogus Staff" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -462,7 +462,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -470,18 +470,18 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="b434-2469-c56c-5c0f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="5b30-a0ad-73ed-f813" name="Bolt Pistols" hidden="false" collective="false" import="true" targetId="470f-196a-65be-f649" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05ed-9999-a957-8ea7" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da06-bd9e-7efd-d7fa" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05ed-9999-a957-8ea7" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da06-bd9e-7efd-d7fa" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d104-0699-3baf-aa42" name="Battle Sisters Squad" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink id="4482-450a-6974-d057" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+        <categoryLink id="4482-450a-6974-d057" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
         <categoryLink id="8475-a997-cdad-c6fb" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="ee1f-2743-bd3d-59fb" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="c6c1-bb73-bbda-49fc" name="Faction: Adepta Sororitas" hidden="false" targetId="21f5-1b47-2570-42d1" primary="false"/>
@@ -489,13 +489,13 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="b5f2-4254-e6d4-9487" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="550a-f0bb-3d3a-a498" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="3ba4-c14d-a355-69ef" name="Battle Sisters Squad" hidden="false" targetId="ce40-0aca-a128-777e" primary="false"/>
-        <categoryLink id="6544-40de-19ff-3c84" name="New CategoryLink" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
+        <categoryLink id="6544-40de-19ff-3c84" name="Battleline" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c17e-31be-b07f-f832" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10c9-92f0-dcf6-8ffc" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf28-8068-83ce-b902" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10c9-92f0-dcf6-8ffc" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf28-8068-83ce-b902" type="max"/>
           </constraints>
           <profiles>
             <profile id="6238-73e1-0988-4158" name="Battle Sisters Squad (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
@@ -511,27 +511,27 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="4206-4325-0457-d24b" name="Heavy Weapons" hidden="false" collective="false" import="true" targetId="d261-1682-80d1-47cb" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c09d-72e1-f581-baa4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c09d-72e1-f581-baa4" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="4fb8-cb59-5c64-a80b" name="Boltguns" hidden="false" collective="false" import="true" targetId="2d61-a814-63d8-0398" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aed-4621-3aee-ae12" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eaa-fa98-f0a2-1f7c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aed-4621-3aee-ae12" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eaa-fa98-f0a2-1f7c" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="12bf-40b5-1f01-fc96" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="a558-e259-5105-97eb" type="selectionEntry"/>
         <entryLink id="7c29-5cc4-b9d9-126c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5c8a-828e-8ebc-4f74" name="Seraphim Squad" hidden="false" collective="false" import="true" type="unit">
@@ -546,7 +546,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <infoLink id="f32e-66ba-6fa9-84a2" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8784-c033-5adf-fb33" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
+        <categoryLink id="8784-c033-5adf-fb33" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="4d24-cd3a-481e-eee7" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="80a5-744a-707c-5df7" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="fe9f-61fa-4934-fab9" name="Faction: Adepta Sororitas" hidden="false" targetId="21f5-1b47-2570-42d1" primary="false"/>
@@ -560,8 +560,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntries>
         <selectionEntry id="3646-d9bc-6876-e5e2" name="Twin Bolt Pistols" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5563-6d73-f1d0-47de" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60cd-1451-dc88-f018" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5563-6d73-f1d0-47de" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60cd-1451-dc88-f018" type="max"/>
           </constraints>
           <profiles>
             <profile id="a376-b562-09c4-9503" name="Twin Bolt Pistols" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -576,15 +576,15 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="2897-2c3a-4292-b037" name="5 - 10 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="cd9a-2565-044c-73cb">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35fe-c00e-63c7-fcb5" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f813-edfd-67b7-6295" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35fe-c00e-63c7-fcb5" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f813-edfd-67b7-6295" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="cd9a-2565-044c-73cb" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -602,7 +602,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2a07-114f-6154-386e" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -620,22 +620,22 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="3582-8290-3dd7-0180" name="Special Weapons" hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="set" field="761c-2c60-6bc3-c06b" value="4.0">
+            <modifier type="set" field="761c-2c60-6bc3-c06b" value="4">
               <conditions>
-                <condition field="selections" scope="5c8a-828e-8ebc-4f74" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a07-114f-6154-386e" type="equalTo"/>
+                <condition field="selections" scope="5c8a-828e-8ebc-4f74" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a07-114f-6154-386e" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9ee-ad04-d18c-57f5" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="761c-2c60-6bc3-c06b" type="max"/>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9ee-ad04-d18c-57f5" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="761c-2c60-6bc3-c06b" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="a282-ecc1-fc85-efa6" name="Inferno Pistols" hidden="false" collective="false" import="true" type="upgrade">
@@ -652,7 +652,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8350-f09c-1a64-f66f" name="Ministorum Hand Flamers" hidden="false" collective="false" import="true" type="upgrade">
@@ -672,7 +672,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 <infoLink id="0265-1464-0d72-8fb5" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -683,7 +683,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="aa42-4d1c-73ef-1781" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="95bb-2100-684f-d2c6" name="Celestian Squad [obsolete]" hidden="true" collective="false" import="true" type="unit">
@@ -700,7 +700,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="66c1-1d37-538e-9ef7" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
+        <categoryLink id="66c1-1d37-538e-9ef7" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="5e42-1276-6d61-f857" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="de0b-e3a8-2ae7-0c42" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="9fce-2d34-9281-c141" name="Faction: Adepta Sororitas" hidden="false" targetId="21f5-1b47-2570-42d1" primary="false"/>
@@ -712,8 +712,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntries>
         <selectionEntry id="9b93-5d14-7867-69b6" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e222-f2e5-074e-93aa" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa02-429b-b127-51fa" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e222-f2e5-074e-93aa" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa02-429b-b127-51fa" type="max"/>
           </constraints>
           <profiles>
             <profile id="23e4-aa3f-0b51-ef2f" name="Close Combat Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -728,15 +728,15 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="0328-2bb2-a7cf-d894" name="5 - 10 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="ae9a-64a4-9602-eae4">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f516-77f6-ebad-2e8d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e55-68c2-6b78-6516" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f516-77f6-ebad-2e8d" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e55-68c2-6b78-6516" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="ae9a-64a4-9602-eae4" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -754,7 +754,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4f79-b367-6d34-4935" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -772,7 +772,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -781,19 +781,19 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <entryLinks>
         <entryLink id="4909-08c9-b6d7-c3ad" name="Boltguns" hidden="false" collective="false" import="true" targetId="2d61-a814-63d8-0398" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd26-34ab-736e-4aa0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3ce-ac98-7c21-603f" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd26-34ab-736e-4aa0" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3ce-ac98-7c21-603f" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="2457-0bdd-3fee-8f87" name="Heavy Weapons" hidden="false" collective="false" import="true" targetId="d261-1682-80d1-47cb" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4045-c43b-878e-5620" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4045-c43b-878e-5620" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="03fb-de5f-131f-5df2" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9d8e-855d-df50-6727" name="Repentia Squad" hidden="false" collective="false" import="true" type="unit">
@@ -808,7 +808,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <infoLink id="e44d-db96-536d-1381" name="Ignore Damage (5+)" hidden="false" targetId="958c-7037-989a-6da0" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="d09d-0655-0eac-b225" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
+        <categoryLink id="d09d-0655-0eac-b225" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="97b0-3a62-7f9c-6adc" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="531f-78b3-bfb5-9e83" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="261a-330b-4c51-967f" name="Faction: Adepta Sororitas" hidden="false" targetId="21f5-1b47-2570-42d1" primary="false"/>
@@ -820,8 +820,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntries>
         <selectionEntry id="4e21-3607-c1b8-b240" name="Penitent Eviscerators" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abd7-81e3-ba8c-f7a3" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28ba-f7d0-2dcf-02dd" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abd7-81e3-ba8c-f7a3" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28ba-f7d0-2dcf-02dd" type="max"/>
           </constraints>
           <profiles>
             <profile id="8c4e-6997-30b7-7a1f" name="Penitent Eviscerators" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -836,15 +836,15 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="6b9b-08ea-c9ce-792b" name="4 - 9 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="0615-a20b-dc4d-450e">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="059f-1db8-2095-ef6a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="956a-e478-0d1b-b138" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="059f-1db8-2095-ef6a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="956a-e478-0d1b-b138" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="0615-a20b-dc4d-450e" name="4 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -862,7 +862,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="276d-91be-b0fa-e5bc" name="9 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -880,7 +880,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -890,7 +890,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="505a-e561-f63c-ad41" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4eed-3d3f-ef5b-8c69" name="Retributor Squad" hidden="false" collective="false" import="true" type="unit">
@@ -913,26 +913,26 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="ec59-3bf2-11e7-91bf" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
+        <categoryLink id="ec59-3bf2-11e7-91bf" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="ba6d-455a-945c-866d" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="ae81-0881-6dd8-543b" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="5d39-5b59-23c6-92e2" name="Faction: Adepta Sororitas" hidden="false" targetId="21f5-1b47-2570-42d1" primary="false"/>
         <categoryLink id="179d-2c46-5b35-c186" name="Faction: &lt;Order&gt;" hidden="false" targetId="9b46-3491-e9b0-952c" primary="false"/>
         <categoryLink id="50e8-91d8-6be3-5798" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="626f-2ed2-c112-dd00" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
-        <categoryLink id="6629-df4a-83c0-971b" name="Retibutor Squad" hidden="false" targetId="4f83-9f0c-b49e-e4af" primary="false"/>
+        <categoryLink id="6629-df4a-83c0-971b" name="Retributor Squad" hidden="false" targetId="4f83-9f0c-b49e-e4af" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="43d4-3f8d-d467-5fc4" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="a558-e259-5105-97eb" type="selectionEntry"/>
         <entryLink id="4528-fc77-5d29-4e98" name="Heavy Weapons" hidden="false" collective="false" import="true" targetId="d261-1682-80d1-47cb" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b32a-b41a-c1a9-8f37" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b32a-b41a-c1a9-8f37" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="d20f-7a31-cd69-0b75" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8284-79c4-2005-9e92" name="Dominion Squad" hidden="false" collective="false" import="true" type="unit">
@@ -953,7 +953,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <infoLink id="08fe-03f2-932b-0065" name="Infiltrators" hidden="false" targetId="f07d-6c22-ac83-604c" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8ec4-e65a-282c-4502" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
+        <categoryLink id="8ec4-e65a-282c-4502" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="bc2d-d52c-2d5f-3e2e" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="581f-f4bd-77f9-e223" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="8f38-6cef-bfc6-0fb7" name="Faction: Adepta Sororitas" hidden="false" targetId="21f5-1b47-2570-42d1" primary="false"/>
@@ -965,31 +965,31 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntryGroups>
         <selectionEntryGroup id="4a4c-c01c-1e10-844c" name="Special Weapons" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80eb-4aa5-a4a5-cae6" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80eb-4aa5-a4a5-cae6" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="4d78-c05d-3355-ef77" name="Flamer" hidden="false" collective="false" import="true" targetId="0367-a01f-0c7d-7b64" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
+                <modifier type="set" field="1466-da3f-0d27-dace" value="1"/>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbcc-25ea-f2aa-38d7" type="max"/>
+                <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbcc-25ea-f2aa-38d7" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="a8e5-f67b-99d5-571f" name="Meltagun" hidden="false" collective="false" import="true" targetId="aa7e-cb86-0ed9-1244" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
+                <modifier type="set" field="1466-da3f-0d27-dace" value="1"/>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de3-8faa-4307-d3e5" type="max"/>
+                <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de3-8faa-4307-d3e5" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="6147-c7da-cd8b-753d" name="Storm Bolter" hidden="false" collective="false" import="true" targetId="7457-58c5-d5f1-11a0" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
+                <modifier type="set" field="1466-da3f-0d27-dace" value="1"/>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfaf-b308-ee60-b717" type="max"/>
+                <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfaf-b308-ee60-b717" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -999,14 +999,14 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="e6a2-f254-a14f-ecf5" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="a558-e259-5105-97eb" type="selectionEntry"/>
         <entryLink id="7574-5d33-aa3e-6b78" name="Boltguns" hidden="false" collective="false" import="true" targetId="2d61-a814-63d8-0398" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93a2-556f-4027-b478" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5195-4762-7934-a535" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93a2-556f-4027-b478" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5195-4762-7934-a535" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="2dbe-74dd-b40e-051e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e61f-9055-ade5-9f39" name="Sororitas Rhino" hidden="false" collective="false" import="true" type="unit">
@@ -1029,7 +1029,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="8fa4-9362-9cb1-cef3" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
+        <categoryLink id="8fa4-9362-9cb1-cef3" name="Dedicated Transport" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
         <categoryLink id="7246-1a18-4bb4-1fc8" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="a418-26b3-e66f-7fd2" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="909c-7890-2c0e-a641" name="Faction: Adepta Sororitas" hidden="false" targetId="21f5-1b47-2570-42d1" primary="false"/>
@@ -1043,15 +1043,15 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <entryLinks>
         <entryLink id="fb85-c05c-7082-bf8a" name="Storm Bolter" hidden="false" collective="false" import="true" targetId="7457-58c5-d5f1-11a0" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d838-5ac2-41d7-d9ef" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb30-3a2c-ee96-7ebb" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d838-5ac2-41d7-d9ef" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb30-3a2c-ee96-7ebb" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="3a02-ec92-99a7-64e1" name="Armoured Tracks" hidden="false" collective="false" import="true" targetId="f341-9de2-368a-56c4" type="selectionEntry"/>
         <entryLink id="f7eb-38d5-bf3a-f09c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e59e-3b41-35d5-49c4" name="Immolator" hidden="false" collective="false" import="true" type="unit">
@@ -1074,7 +1074,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="e8ca-8ea0-ec3b-9ee7" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
+        <categoryLink id="e8ca-8ea0-ec3b-9ee7" name="Dedicated Transport" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
         <categoryLink id="914b-be47-621c-a095" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="c9ba-8380-17b5-f96c" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="de1b-9753-af1a-2651" name="Faction: Adepta Sororitas" hidden="false" targetId="21f5-1b47-2570-42d1" primary="false"/>
@@ -1087,8 +1087,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntryGroups>
         <selectionEntryGroup id="e994-a3d3-74e3-237c" name="Turret Weapon" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0afe-678d-0668-0fbe" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="537f-1c4b-3ad7-0315" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0afe-678d-0668-0fbe" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="537f-1c4b-3ad7-0315" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="132b-3dde-3f56-f6dd" name="Immolation Flamer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1108,13 +1108,13 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 <infoLink id="9fa1-f291-7414-d936" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
             <entryLink id="60b3-175d-1c37-adac" name="Twin Heavy Bolter" hidden="false" collective="false" import="true" targetId="6296-86a5-9a2b-3303" type="selectionEntry"/>
-            <entryLink id="502e-86ff-e8b0-2363" name="Twin Multi-meltas" hidden="false" collective="false" import="true" targetId="8db9-b9be-885f-5a5f" type="selectionEntry"/>
+            <entryLink id="502e-86ff-e8b0-2363" name="Twin Multi-melta" hidden="false" collective="false" import="true" targetId="8db9-b9be-885f-5a5f" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1123,13 +1123,13 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="310c-44e9-8487-09db" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="61e4-53e2-4cd1-4b6b" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b42-97a3-26cc-2876" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c116-2da6-5c50-3591" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b42-97a3-26cc-2876" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c116-2da6-5c50-3591" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9c8e-67c6-cda8-c421" name="Exorcist" hidden="false" collective="false" import="true" type="unit">
@@ -1152,7 +1152,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="821b-5cb3-568c-0edb" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
+        <categoryLink id="821b-5cb3-568c-0edb" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="392d-6620-4c42-efe5" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="ba91-5162-ce6a-6c82" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="9a24-39f3-4594-d53e" name="Faction: Adepta Sororitas" hidden="false" targetId="21f5-1b47-2570-42d1" primary="false"/>
@@ -1164,8 +1164,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntryGroups>
         <selectionEntryGroup id="dc0c-39cc-0955-dd3c" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="850a-4714-b6ae-39df">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60d0-e624-640f-0936" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9259-6ae4-b00c-11c9" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60d0-e624-640f-0936" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9259-6ae4-b00c-11c9" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="850a-4714-b6ae-39df" name="Exorcist Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -1185,7 +1185,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 <infoLink id="1082-c913-eb23-0b0f" name="Barrage" hidden="false" targetId="7296-134e-970b-4790" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2f16-9955-03d6-6fb8" name="Exorcist Conflagration Rockets" hidden="false" collective="false" import="true" type="upgrade">
@@ -1205,7 +1205,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 <infoLink id="a215-5313-d512-f8db" name="Barrage" hidden="false" targetId="7296-134e-970b-4790" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1214,20 +1214,20 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <entryLinks>
         <entryLink id="160d-df13-fea3-12af" name="Armoured Tracks" hidden="false" collective="false" import="true" targetId="f341-9de2-368a-56c4" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d70e-9c45-5ff0-d7c6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af0e-859c-5259-30ad" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d70e-9c45-5ff0-d7c6" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af0e-859c-5259-30ad" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="3430-7c8d-6766-7bd4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="08bc-1c50-ad8a-0e1e" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f232-de6a-eb5e-690e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9340-0af0-2640-7768" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f232-de6a-eb5e-690e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9340-0af0-2640-7768" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eee4-03c8-0097-22eb" name="Missionary" hidden="false" collective="false" import="true" type="unit">
@@ -1275,13 +1275,13 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="ecd3-a8c9-60da-0b58" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="79b0-4457-befa-6b77" name="Ministorum Priest" hidden="false" targetId="3649-ee2c-d401-047d" primary="false"/>
         <categoryLink id="0a8e-f418-e957-2e33" name="Missionary" hidden="false" targetId="c65e-3c36-96a7-7da4" primary="false"/>
-        <categoryLink id="0e92-f3ca-0fb2-0637" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="0e92-f3ca-0fb2-0637" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5727-a3ec-1f23-20e1" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2ff-57cb-be04-9231" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5c2-9714-4887-1910" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2ff-57cb-be04-9231" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5c2-9714-4887-1910" type="max"/>
           </constraints>
           <profiles>
             <profile id="4b2a-f6a1-a38a-c102" name="Close Combat Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1296,7 +1296,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1304,7 +1304,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="e45f-785c-96f3-a17b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c6ff-70ce-1e82-ecf0" name="Penitent Engines" hidden="false" collective="false" import="true" type="unit">
@@ -1313,7 +1313,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <infoLink id="b798-0101-bb1b-98ba" name="Zealot" hidden="false" targetId="f96a-ae7c-9e11-c7bc" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a5f5-b7a0-5c25-666a" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
+        <categoryLink id="a5f5-b7a0-5c25-666a" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="90e1-a2a6-ebd2-66b5" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="2a4f-1fdd-baed-eaff" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="db9c-724a-cd9b-b6ca" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
@@ -1323,8 +1323,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntries>
         <selectionEntry id="5d2c-f24a-5ddd-714b" name="Penitent Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3206-2886-1f46-5503" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8b3-47f4-d7b8-d73e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3206-2886-1f46-5503" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8b3-47f4-d7b8-d73e" type="max"/>
           </constraints>
           <profiles>
             <profile id="0a1c-8edf-1ede-9dea" name="Penitent Engine Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1339,15 +1339,15 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="c7b8-55ac-0fde-bbdf" name="1 - 2 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="eff2-a9ca-2075-6773">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30f7-ba6c-25fc-6c7c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8c9-c2c8-2dfa-ce9c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30f7-ba6c-25fc-6c7c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8c9-c2c8-2dfa-ce9c" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="eff2-a9ca-2075-6773" name="1 model" hidden="false" collective="false" import="true" type="upgrade">
@@ -1367,19 +1367,19 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
               <selectionEntries>
                 <selectionEntry id="195b-b083-73b6-576b" name="Heavy Flamer" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9508-f1b4-e7b3-fc5b" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e654-608c-9e5c-56b7" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9508-f1b4-e7b3-fc5b" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e654-608c-9e5c-56b7" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="e49e-6b75-7273-20b7" name="Heavy Flamer" hidden="false" targetId="59d9-521f-7559-6fa6" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e85e-5387-32ae-70e9" name="2 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1399,19 +1399,19 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
               <selectionEntries>
                 <selectionEntry id="d39c-9512-03da-08cb" name="Heavy Flamer" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f4a-987a-79bd-be5e" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d64-5a34-4d79-3352" type="max"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f4a-987a-79bd-be5e" type="min"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d64-5a34-4d79-3352" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="6a5b-4389-1ffd-5a02" name="Heavy Flamer" hidden="false" targetId="59d9-521f-7559-6fa6" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1421,12 +1421,12 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="baec-efc8-21f9-dd86" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bced-599f-d944-2f11" name="Junith Eruita" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0ff1-2f18-6271-f392" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0ff1-2f18-6271-f392" type="max"/>
       </constraints>
       <profiles>
         <profile id="c441-27a7-fb09-9d19" name="Junith Eruita" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
@@ -1467,13 +1467,13 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="3451-4b15-ded6-8170" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="67ec-b96f-ca1c-b856" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="eb87-d559-8fae-7a69" name="Junith Eruita" hidden="false" targetId="7628-365f-a6b9-b564" primary="false"/>
-        <categoryLink id="0c2f-18c7-1f8c-bcd7" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="0c2f-18c7-1f8c-bcd7" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="147b-3b6d-ecae-28fd" name="The Mace of Castigation" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b91-1cd5-d7c2-98a6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba84-a1b2-871e-0688" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b91-1cd5-d7c2-98a6" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba84-a1b2-871e-0688" type="max"/>
           </constraints>
           <profiles>
             <profile id="c9b1-d61b-78ef-9d18" name="The Mace of Castigation" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1488,21 +1488,21 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="1af4-f481-e652-f127" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="46e7-d278-1268-caaf" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="237d-18a5-37ff-2df3" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="441e-d8f5-bff6-9703" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="237d-18a5-37ff-2df3" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="441e-d8f5-bff6-9703" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="875b-5f5f-97c0-d9dc" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b984-fffe-9436-c129" name="Triumph of Saint Katherine" hidden="false" collective="false" import="true" type="unit">
@@ -1542,14 +1542,14 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="96cd-4272-faa9-9231" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="cacd-6577-5036-bce1" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="216b-a325-c365-c145" name="Triumph of Saint Katherine" hidden="false" targetId="3dd1-7ccf-df45-e908" primary="false"/>
-        <categoryLink id="4b3b-f5a0-6d6e-a22d" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
-        <categoryLink id="d80e-e27d-f9d7-8c3d" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="4b3b-f5a0-6d6e-a22d" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="d80e-e27d-f9d7-8c3d" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7c70-134c-bb47-470f" name="Relic Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b016-4ca9-2a3b-6272" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f596-38aa-90c3-c4a8" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b016-4ca9-2a3b-6272" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f596-38aa-90c3-c4a8" type="max"/>
           </constraints>
           <profiles>
             <profile id="bd62-f92c-1b43-6684" name="Relic Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1564,21 +1564,21 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="ed89-9d88-ea04-d849" name="Bolt Pistols" hidden="false" collective="false" import="true" targetId="470f-196a-65be-f649" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb7b-876e-9489-e9eb" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a27-78a8-bcff-d273" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb7b-876e-9489-e9eb" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a27-78a8-bcff-d273" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="0c6d-197b-08bd-f550" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b24-165d-c134-b0e1" name="Preacher" hidden="false" collective="false" import="true" type="unit">
@@ -1612,7 +1612,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <infoLink id="74ee-e947-d933-9308" name="Zealot" hidden="false" targetId="f96a-ae7c-9e11-c7bc" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8451-ed92-fcb1-944c" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
+        <categoryLink id="8451-ed92-fcb1-944c" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="dccd-fdb4-da2b-4231" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="e58e-d067-c478-a24e" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="1669-ef08-23fe-2288" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
@@ -1623,8 +1623,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntries>
         <selectionEntry id="7ae4-e086-68d9-6f6a" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6565-c1c0-1da9-27c8" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7607-0862-b0d9-b2ea" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6565-c1c0-1da9-27c8" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7607-0862-b0d9-b2ea" type="max"/>
           </constraints>
           <profiles>
             <profile id="6404-4b85-f64a-ebd0" name="Close Combat Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1639,7 +1639,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1647,7 +1647,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="a470-5f1b-2aa3-c4d6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="001c-9e13-b3b7-76c5" name="Zephyrim Squad" hidden="false" collective="false" import="true" type="unit">
@@ -1668,13 +1668,13 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="1918-66eb-3cd1-2723" name="Jump Pack" hidden="false" targetId="cdf9-175a-b31b-44a1" primary="false"/>
         <categoryLink id="c850-fef2-4bd2-106f" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="ed3b-2ac3-a895-73d4" name="Zephyrim Squad" hidden="false" targetId="ce62-6952-14f9-bbce" primary="false"/>
-        <categoryLink id="8e61-3c72-e9d7-d536" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
+        <categoryLink id="8e61-3c72-e9d7-d536" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ae1e-d9cb-502e-e859" name="Zephyrim Power Swords" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27c5-9093-a660-2ec6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cb2-e648-1bf6-1cb1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27c5-9093-a660-2ec6" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cb2-e648-1bf6-1cb1" type="max"/>
           </constraints>
           <profiles>
             <profile id="5149-b5bc-db49-87f5" name="Zephyrim Power Swords" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1689,15 +1689,15 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="b5ee-f449-2984-e0fd" name="5 - 10 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="d5a9-3fc0-bdb9-31c0">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdbc-3c74-141a-769c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b457-2616-55e1-99c8" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdbc-3c74-141a-769c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b457-2616-55e1-99c8" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="d5a9-3fc0-bdb9-31c0" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1715,7 +1715,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a0ba-e9d3-255a-8fd2" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1733,7 +1733,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1743,13 +1743,13 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="ba08-b076-4809-1db4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="72f8-f975-92e3-5623" name="Bolt Pistols" hidden="false" collective="false" import="true" targetId="470f-196a-65be-f649" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b25-7c5c-a0fd-6a0e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bcb-eca1-4905-98b2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b25-7c5c-a0fd-6a0e" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bcb-eca1-4905-98b2" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8850-8c4e-1da8-561c" name="Mortifiers" hidden="false" collective="false" import="true" type="unit">
@@ -1757,7 +1757,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <infoLink id="1cd6-1587-f6ff-45c1" name="Zealot" hidden="false" targetId="f96a-ae7c-9e11-c7bc" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7f5c-0d8a-92fb-334c" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
+        <categoryLink id="7f5c-0d8a-92fb-334c" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="a677-96de-4cbd-b0ce" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="46c9-382e-3f91-5694" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="90ad-781a-5a3e-9418" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
@@ -1766,8 +1766,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntries>
         <selectionEntry id="4ab2-d5ad-fb58-3366" name="Mortifier Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b22b-ef29-051d-64db" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce25-4694-3d07-f4cc" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b22b-ef29-051d-64db" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce25-4694-3d07-f4cc" type="max"/>
           </constraints>
           <profiles>
             <profile id="c02a-cefa-5731-e95d" name="Mortifier Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1789,15 +1789,15 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="86e8-8441-cbba-864f" name="1 - 2 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="31e0-1bd6-7e4f-d4bb">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0423-a55d-fc89-b62d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90fc-64dd-9046-9c35" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0423-a55d-fc89-b62d" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90fc-64dd-9046-9c35" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="31e0-1bd6-7e4f-d4bb" name="1 model" hidden="false" collective="false" import="true" type="upgrade">
@@ -1815,7 +1815,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8aa7-be08-cfdf-c9f4" name="2 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1833,7 +1833,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1842,27 +1842,27 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
           <modifierGroups>
             <modifierGroup>
               <conditions>
-                <condition field="selections" scope="8850-8c4e-1da8-561c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="31e0-1bd6-7e4f-d4bb" type="equalTo"/>
+                <condition field="selections" scope="8850-8c4e-1da8-561c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="31e0-1bd6-7e4f-d4bb" type="equalTo"/>
               </conditions>
               <modifiers>
-                <modifier type="set" field="f340-9ed5-83a6-c5f3" value="1.0"/>
-                <modifier type="set" field="1014-8fa0-3ca7-de95" value="1.0"/>
+                <modifier type="set" field="f340-9ed5-83a6-c5f3" value="1"/>
+                <modifier type="set" field="1014-8fa0-3ca7-de95" value="1"/>
               </modifiers>
             </modifierGroup>
           </modifierGroups>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1014-8fa0-3ca7-de95" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f340-9ed5-83a6-c5f3" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1014-8fa0-3ca7-de95" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f340-9ed5-83a6-c5f3" type="min"/>
           </constraints>
           <entryLinks>
             <entryLink id="9495-1e80-bc0a-25ff" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aee-5f1f-6e52-9500" type="max"/>
+                <constraint field="selections" scope="parent" value="8" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aee-5f1f-6e52-9500" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="716b-c0fb-85f7-3655" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="46e7-d278-1268-caaf" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a68-a15c-ce9c-7c3e" type="max"/>
+                <constraint field="selections" scope="parent" value="8" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a68-a15c-ce9c-7c3e" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1872,7 +1872,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="ca4e-c08f-038d-bc59" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4626-18fc-bc1a-14a6" name="Daemonifuge" hidden="false" collective="false" import="true" type="unit">
@@ -1894,7 +1894,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       </infoLinks>
       <categoryLinks>
         <categoryLink id="72b5-b35f-6b4f-31a8" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
-        <categoryLink id="0b24-e741-0715-f7b9" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="0b24-e741-0715-f7b9" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
         <categoryLink id="2b0f-e03a-6776-70c5" name="Faction: Adepta Sororitas" hidden="false" targetId="21f5-1b47-2570-42d1" primary="false"/>
         <categoryLink id="50a3-e528-109c-1943" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="47b9-4b8a-beb0-097f" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
@@ -1902,8 +1902,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntries>
         <selectionEntry id="1ab6-e375-a36e-e1fa" name="Ephrael Stern" hidden="false" collective="false" import="true" type="unit">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8391-290a-4604-9184" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c22-4440-844a-8b89" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8391-290a-4604-9184" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c22-4440-844a-8b89" type="max"/>
           </constraints>
           <profiles>
             <profile id="ea20-615b-78f7-4d33" name="Ephrael Stern and Kyganil" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
@@ -1928,8 +1928,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
           <selectionEntries>
             <selectionEntry id="1adf-2206-7ab6-7684" name="Daemonifuge Weapons" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6de6-6c85-a8f1-dbdb" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ba9-4b9e-a296-4dc6" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6de6-6c85-a8f1-dbdb" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ba9-4b9e-a296-4dc6" type="max"/>
               </constraints>
               <profiles>
                 <profile id="668e-1bd2-39bf-1a9f" name="Daemonifuge Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -1944,20 +1944,20 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
             <entryLink id="259f-1a8e-833f-8f90" name="Bolt Pistols" hidden="false" collective="false" import="true" targetId="470f-196a-65be-f649" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bb5-0be8-f81a-37e3" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8708-92f4-d5ee-f8d3" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bb5-0be8-f81a-37e3" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8708-92f4-d5ee-f8d3" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1965,7 +1965,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="cf50-4297-b2c2-9564" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1289-6068-e515-3c3b" name="Palatine" hidden="false" collective="false" import="true" type="unit">
@@ -2001,7 +2001,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <infoLink id="d7e8-ee21-af2a-9bf6" name="Lethal Hits" hidden="false" targetId="20f9-1ef3-c635-7deb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ba4e-16a7-0f06-1cb6" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink id="ba4e-16a7-0f06-1cb6" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="5748-1801-1352-f95e" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="c04e-630e-4a24-5131" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="df2e-b7f1-c169-a513" name="Faction: Adepta Sororitas" hidden="false" targetId="21f5-1b47-2570-42d1" primary="false"/>
@@ -2013,8 +2013,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntries>
         <selectionEntry id="5a9c-2ade-3b07-10ca" name="Master-crafted Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="537f-6cae-7692-491e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ab1-4637-d406-2227" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="537f-6cae-7692-491e" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ab1-4637-d406-2227" type="max"/>
           </constraints>
           <profiles>
             <profile id="d9e4-a491-ff5f-0e92" name="Master-crafted Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2029,7 +2029,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2037,7 +2037,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="544b-d4d4-a041-0b67" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4417-36e6-95ba-911e" name="Morvenn Vahl" hidden="false" collective="false" import="true" type="unit">
@@ -2081,14 +2081,14 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="4dec-a453-c329-bcf1" name="Morvenn Vahl" hidden="false" targetId="88b7-4270-9350-1f83" primary="false"/>
         <categoryLink id="307c-6763-d39d-bab0" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="023f-7423-a8ad-15bf" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
-        <categoryLink id="6ccc-d167-f54b-0968" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="6ccc-d167-f54b-0968" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
         <categoryLink id="14dc-b55e-897a-edd8" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2ab8-9629-335f-51d2" name="Fidelis" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3be2-21a7-2fa9-d524" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8696-d9b8-3f31-a751" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3be2-21a7-2fa9-d524" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8696-d9b8-3f31-a751" type="max"/>
           </constraints>
           <profiles>
             <profile id="20e5-6c44-9c57-be93" name="Fidelis" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2103,13 +2103,13 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7161-3fe2-2e73-4952" name="Paragon Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfcb-a26c-fb31-1248" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89ad-86f8-bdca-b6e9" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfcb-a26c-fb31-1248" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89ad-86f8-bdca-b6e9" type="max"/>
           </constraints>
           <profiles>
             <profile id="ddf7-12d0-cf22-a32d" name="Paragon Missile Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2124,13 +2124,13 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6fad-0b4d-2d0e-a5dd" name="Lance of Illumination" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f232-a408-f700-8671" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f9f-237e-e4b6-4f56" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f232-a408-f700-8671" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f9f-237e-e4b6-4f56" type="max"/>
           </constraints>
           <profiles>
             <profile id="c2cc-8d71-7080-4ddb" name="Lance of Illumination" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2145,7 +2145,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2153,7 +2153,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="54cf-a34c-590d-e80b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="49bc-94a8-5405-5a78" name="Sisters Novitiate" hidden="false" collective="false" import="true" type="upgrade">
@@ -2176,7 +2176,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="b165-fb44-4dac-205c" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+        <categoryLink id="b165-fb44-4dac-205c" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
         <categoryLink id="f28e-f62c-fd63-58d0" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="b301-f9d5-86f8-5bd7" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="5ecf-7652-5265-07d8" name="Faction: Adepta Sororitas" hidden="false" targetId="21f5-1b47-2570-42d1" primary="false"/>
@@ -2188,8 +2188,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntries>
         <selectionEntry id="2b51-7944-4871-54b8" name="Autoguns" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c16-0e72-edbf-078e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06c7-c443-d5ac-79ed" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c16-0e72-edbf-078e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06c7-c443-d5ac-79ed" type="min"/>
           </constraints>
           <profiles>
             <profile id="0178-099c-2012-e29e" name="Autoguns" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2204,7 +2204,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2213,7 +2213,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="535c-8a93-a997-858d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f240-8f53-5200-364b" name="Paragon Warsuits" hidden="false" collective="false" import="true" type="unit">
@@ -2248,8 +2248,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntries>
         <selectionEntry id="d8c8-4998-a56d-c049" name="Paragon Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcf2-b8d9-d40f-af88" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ebf-08cc-a99c-b974" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcf2-b8d9-d40f-af88" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ebf-08cc-a99c-b974" type="max"/>
           </constraints>
           <profiles>
             <profile id="3590-2549-41f4-12a7" name="Paragon Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2264,30 +2264,30 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="6e86-1cc2-6524-6e6e" name="Ranged Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="c079-166d-5912-7e30">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b4e-c20d-91e4-b4de" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="408c-434d-afb3-aef6" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b4e-c20d-91e4-b4de" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="408c-434d-afb3-aef6" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="c079-166d-5912-7e30" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab5f-f654-225d-37bd" type="max"/>
+                <constraint field="selections" scope="parent" value="8" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab5f-f654-225d-37bd" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="0f3b-e284-9221-21e3" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="46e7-d278-1268-caaf" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3826-5b8e-e281-4da2" type="max"/>
+                <constraint field="selections" scope="parent" value="8" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3826-5b8e-e281-4da2" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="cf0a-b0e3-261c-6ac8" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc5a-864b-3f5d-7f88" type="max"/>
+                <constraint field="selections" scope="parent" value="8" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc5a-864b-3f5d-7f88" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -2297,7 +2297,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="76de-f3d5-2ba9-fd26" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f0fe-bc0b-df48-d677" name="Celestian Sacresants" hidden="false" collective="false" import="true" type="upgrade">
@@ -2321,8 +2321,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntries>
         <selectionEntry id="71a2-61b0-a606-47be" name="Hallowed Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d1a-40cb-e362-a6c1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7848-8933-6930-4d67" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d1a-40cb-e362-a6c1" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7848-8933-6930-4d67" type="max"/>
           </constraints>
           <profiles>
             <profile id="1f84-5387-33d8-40f6" name="Hallowed Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2337,15 +2337,15 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="879b-bd8b-f1fd-e131" name="5 - 10 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="1c2f-024d-7aed-24df">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d715-484b-e6c0-b0fd" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1689-1df1-ecce-55a0" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d715-484b-e6c0-b0fd" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1689-1df1-ecce-55a0" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="1c2f-024d-7aed-24df" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2363,7 +2363,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1b58-42f0-e466-a623" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2381,7 +2381,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2390,14 +2390,14 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <entryLinks>
         <entryLink id="8bbb-98f4-1173-07dc" name="Bolt Pistols" hidden="false" collective="false" import="true" targetId="470f-196a-65be-f649" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d701-8165-1190-3772" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3cf-3d8a-898d-4d11" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d701-8165-1190-3772" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3cf-3d8a-898d-4d11" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="c6f5-7633-4667-a613" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7abe-6bf6-c9e9-a3ca" name="Castigator" hidden="false" collective="false" import="true" type="unit">
@@ -2421,7 +2421,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="3d8f-1b11-06e0-0447" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
+        <categoryLink id="3d8f-1b11-06e0-0447" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="de37-a287-2a82-04a1" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="0baa-9895-0c34-9e60" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="97c2-cccb-b2bb-0548" name="Faction: Adepta Sororitas" hidden="false" targetId="21f5-1b47-2570-42d1" primary="false"/>
@@ -2432,7 +2432,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
       <selectionEntries>
         <selectionEntry id="5836-b8a3-c671-e256" name="Hunter Killer Missile" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d5f-bd64-12da-9c34" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d5f-bd64-12da-9c34" type="max"/>
           </constraints>
           <profiles>
             <profile id="212e-1394-df62-02dc" name="Hunter Killer Missile" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2450,15 +2450,15 @@ Each time this model makes an attack with its Castigator battle cannon that targ
             <infoLink id="bb48-1056-da6e-854d" name="One Use Only" hidden="false" targetId="822c-cc23-b4b1-bcb2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="44ed-69e2-9eec-6e43" name="Turret Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="64bf-2ce7-3bb3-4946">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc89-dc26-f7bb-9154" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2365-e3dc-fdda-2904" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc89-dc26-f7bb-9154" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2365-e3dc-fdda-2904" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="489c-1ee0-f5dd-468c" name="Castigator Autocannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -2479,7 +2479,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
                 <infoLink id="c6ec-7e48-a203-166d" name="Twin-Linked" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="64bf-2ce7-3bb3-4946" name="Castigator Battle Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2496,7 +2496,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2507,13 +2507,13 @@ Each time this model makes an attack with its Castigator battle cannon that targ
         <entryLink id="02b8-bcdd-a1ad-9919" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="8fb4-e639-7c04-f578" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d60-3325-7ed5-3da9" type="max"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a20-dc7d-3500-316c" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d60-3325-7ed5-3da9" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a20-dc7d-3500-316c" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a956-a163-7591-34a5" name="Arco-flagellants" hidden="false" collective="false" import="true" type="unit">
@@ -2536,8 +2536,8 @@ Each time this model makes an attack with its Castigator battle cannon that targ
       <selectionEntries>
         <selectionEntry id="12f4-1db3-8c56-3dd1" name="Arco-flails" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="756f-c2a0-9b40-bc53" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b115-0991-2e7e-a728" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="756f-c2a0-9b40-bc53" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b115-0991-2e7e-a728" type="max"/>
           </constraints>
           <profiles>
             <profile id="123f-4fa8-159f-06ab" name="Arco-flails" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2552,15 +2552,15 @@ Each time this model makes an attack with its Castigator battle cannon that targ
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="cea2-9929-5c03-ce11" name="3 - 10 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="9e94-3697-4fda-d729">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57b5-3f36-054c-6975" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a83-1015-2f45-665e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57b5-3f36-054c-6975" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a83-1015-2f45-665e" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="04c0-82fb-eb7b-b23b" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2578,7 +2578,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9e94-3697-4fda-d729" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2596,7 +2596,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2606,7 +2606,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
         <entryLink id="7da2-8670-72c7-0900" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ae07-85bf-234b-c028" name="Crusaders" hidden="false" collective="false" import="true" type="unit">
@@ -2628,8 +2628,8 @@ Each time this model makes an attack with its Castigator battle cannon that targ
       <selectionEntries>
         <selectionEntry id="6831-4e0e-7638-37c3" name="Crusader Power Swords" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e08-c204-c772-1c7c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3df-0990-bfe9-fd19" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e08-c204-c772-1c7c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3df-0990-bfe9-fd19" type="max"/>
           </constraints>
           <profiles>
             <profile id="2cfc-4cdb-4483-9b35" name="Crusader Power Swords" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2644,15 +2644,15 @@ Each time this model makes an attack with its Castigator battle cannon that targ
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="46c6-5e16-8406-970a" name="2 -6 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="771d-4b4f-2527-d76a">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b39-bf3c-e62e-b44d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05e0-6410-6ec4-a174" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b39-bf3c-e62e-b44d" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05e0-6410-6ec4-a174" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="771d-4b4f-2527-d76a" name="2 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2670,7 +2670,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ad11-e4ec-6b22-d791" name="4 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2688,7 +2688,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="39de-28a5-9648-f218" name="6 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2706,7 +2706,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2716,7 +2716,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
         <entryLink id="2d36-6f7d-9eb7-de2b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6181-341a-ed6a-88dd" name="Death Cult Assassins" hidden="false" collective="false" import="true" type="unit">
@@ -2736,13 +2736,13 @@ Each time this model makes an attack with its Castigator battle cannon that targ
         <categoryLink id="619f-dadf-a5d1-9966" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="7b6c-6dfb-4b6e-9034" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="cb00-0ab2-93fc-4a52" name="Ecclesiarchy Battle Conclave" hidden="false" targetId="68c4-0ea8-103f-7456" primary="false"/>
-        <categoryLink id="9c18-0b36-52a6-97a0" name="Daeth Cult Assassins" hidden="false" targetId="729e-4051-3193-d12e" primary="false"/>
+        <categoryLink id="9c18-0b36-52a6-97a0" name="Death Cult Assassins" hidden="false" targetId="729e-4051-3193-d12e" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="37c2-4a87-41d9-3cff" name="Death Cult Power Blades" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4b0-cad4-b251-27ab" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="240a-feed-8f0a-edfa" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4b0-cad4-b251-27ab" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="240a-feed-8f0a-edfa" type="max"/>
           </constraints>
           <profiles>
             <profile id="8258-acc2-bf17-092c" name="Death Cult Power Blades" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2757,15 +2757,15 @@ Each time this model makes an attack with its Castigator battle cannon that targ
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="984b-c0dc-c8a0-db0a" name="2 -6 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="783a-8cdb-f1f9-22a4">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="063b-1a3c-a4f9-85df" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3701-3656-371b-92bd" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="063b-1a3c-a4f9-85df" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3701-3656-371b-92bd" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="783a-8cdb-f1f9-22a4" name="2 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2783,7 +2783,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e18e-8851-bdfb-a94e" name="4 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2801,7 +2801,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d905-93ba-7dfa-44e5" name="6 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2819,7 +2819,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2829,7 +2829,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
         <entryLink id="ded7-ee77-8eb9-3463" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c09-d638-cacd-f287" name="Dogmata" hidden="false" collective="false" import="true" type="unit">
@@ -2870,8 +2870,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <selectionEntries>
         <selectionEntry id="eac0-4019-572c-8935" name="Mace of the Righteous" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86df-827a-be1f-f09a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bb5-ae59-d6d8-3d25" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86df-827a-be1f-f09a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bb5-ae59-d6d8-3d25" type="max"/>
           </constraints>
           <profiles>
             <profile id="4334-aec7-d325-993a" name="Mace of the Righteous" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2886,7 +2886,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2894,13 +2894,13 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="7bfb-0ec0-bfbf-9c88" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="ac47-c799-4f14-5eb6" name="Bolt Pistols" hidden="false" collective="false" import="true" targetId="470f-196a-65be-f649" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b412-41f3-543f-eab2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81c0-cbe5-9906-dce1" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b412-41f3-543f-eab2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81c0-cbe5-9906-dce1" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce2a-5431-9a8a-47f0" name="Aestred Thurga and Agathae Dolan" hidden="false" collective="false" import="true" type="unit">
@@ -2944,13 +2944,13 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="b237-03e5-f53e-46e6" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="653e-2d7f-66c4-07de" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="476a-a955-2da6-4f75" name="Hospitaller" hidden="false" targetId="f4af-b4e6-1f73-6c84" primary="false"/>
-        <categoryLink id="73dd-25e4-92ff-99af" name="New CategoryLink" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="73dd-25e4-92ff-99af" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e352-818a-0554-d0af" name="Blade of Vigil" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de1c-2814-4ce9-f853" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9da1-f59e-f9e7-c52c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de1c-2814-4ce9-f853" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9da1-f59e-f9e7-c52c" type="max"/>
           </constraints>
           <profiles>
             <profile id="c4f4-8b18-eb2d-4d23" name="Blade of Vigil" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2965,7 +2965,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2973,26 +2973,26 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="1c6a-423b-593d-1928" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="e2ea-918e-fffa-15a7" name="Bolt Pistols" hidden="false" collective="false" import="true" targetId="470f-196a-65be-f649" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e6b-9ed2-2ca2-ee74" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61f5-233e-2abf-913f" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e6b-9ed2-2ca2-ee74" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61f5-233e-2abf-913f" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="62a2-1477-295c-39e7" name="Martyrdom" hidden="false">
-      <description>Each time an ADEPTA SORORITAS CHARACTER unit in this Detachment is destroyed, roll a D6 and add it to your miracle dice pool. Before making a dice roll for a unit in with this ability, you can substitute that roll with a D6 from your miracle dice pool. </description>
+      <description>Each time an ADEPTA SORORITAS CHARACTER unit in this Detachment is destroyed, roll a D6 and add it to your miracle dice pool. Before making a dice roll for a unit in with this ability, you can substitute that roll with a D6 from your miracle dice pool.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
     <selectionEntry id="a558-e259-5105-97eb" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7f9-7d1c-27d7-c185" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7741-c470-2065-5f4b" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7f9-7d1c-27d7-c185" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7741-c470-2065-5f4b" type="max"/>
       </constraints>
       <profiles>
         <profile id="6a9f-12cd-10a3-d8d6" name="Close Combat Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -3007,13 +3007,13 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f341-9de2-368a-56c4" name="Armoured Tracks" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69de-ab61-d935-4f29" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad17-3d62-632d-2515" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69de-ab61-d935-4f29" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad17-3d62-632d-2515" type="max"/>
       </constraints>
       <profiles>
         <profile id="cbbc-9bcc-1b19-f628" name="Armoured Tracks" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -3028,7 +3028,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -3037,17 +3037,17 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       <entryLinks>
         <entryLink id="db74-cd37-b4bd-90d9" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88cc-df0e-2c4b-bc7a" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88cc-df0e-2c4b-bc7a" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="3d66-af73-3a3c-fdf4" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="46e7-d278-1268-caaf" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cf6-4407-91af-40ab" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cf6-4407-91af-40ab" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="c7f8-2c6c-266a-b8f6" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47b6-33b1-1066-fe10" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47b6-33b1-1066-fe10" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
