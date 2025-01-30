@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cefd-23d8-33a7-a63b" name="Chaos - Thousand Sons" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="f98f-1858-6798-b267" name="Chaos - Thousand Sons" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <profileTypes>
     <profileType id="042b-9cd7-f7fa-78e0" name="Warp Vortex - D3 Roll">
       <characteristicTypes>
@@ -1627,8 +1627,8 @@
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="603f-b38c-e872-4870" name="Library - Chaos Space Marines" targetId="8a94-e862-c384-d68b" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="2958-e29d-870c-2808" name="Weapons" targetId="d2e9-8c51-33c4-d440" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="a3bb-986c-12ad-2435" name="Library - Space Marines" targetId="7c79-7dbd-6585-0846" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="603f-b38c-e872-4870" name="Chaos - Chaos Space Marines" targetId="a344-676a-c53b-5e5b" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="2958-e29d-870c-2808" name="Library - Weapons" targetId="0543-042a-a48c-3875" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="a3bb-986c-12ad-2435" name="Library - Space Marines" targetId="5443-da67-a38f-1b23" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

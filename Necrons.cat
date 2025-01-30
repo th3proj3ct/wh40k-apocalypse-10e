@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7a27-e697-d70c-1a46" name="Necrons" revision="4" battleScribeVersion="2.03" authorName="th3proj3ct" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="1943-f050-58ad-7d88" name="Necrons" revision="4" battleScribeVersion="2.03" authorName="th3proj3ct" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="4eda-9ba2-6d0f-0775" name="Faction: Necrons" hidden="false"/>
     <categoryEntry id="8840-ea82-b73d-58fb" name="Cryptek" hidden="false"/>

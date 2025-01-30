@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8b02-f0c8-bec7-39a1" name="Imperium - Grey Knights" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="b5f7-7d07-9d3b-1c24" name="Imperium - Grey Knights" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry id="b810-a479-8ab6-bf86" name="Brother-Captain" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1828,7 +1828,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
-    <catalogueLink id="3a4a-3c96-237d-275c" name="Library - Weapons" targetId="d2e9-8c51-33c4-d440" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="30d7-e946-3585-1d0c" name="Library - Space Marines" targetId="7c79-7dbd-6585-0846" type="catalogue" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Library - Weapons" id="3c4e-d37e-f42e-c7d4" targetId="0543-042a-a48c-3875" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Library - Space Marines" id="a648-e630-6756-a4f6" targetId="5443-da67-a38f-1b23" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

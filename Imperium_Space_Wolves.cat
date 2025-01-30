@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="133f-8f53-9985-c160" name="Imperium - Space Wolves" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="480c-1d9e-2e81-eb48" name="Imperium - Space Wolves" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Blood Claws" hidden="false" id="238b-6983-c297-54e8">
       <selectionEntries>
@@ -1763,7 +1763,7 @@ You can attach this model to one of the above units even if one CAPTAIN or CHAPT
     <infoLink id="6f01-df48-c42b-3229" name="And They Shall Know No Fear" hidden="false" targetId="547d-653d-0f2f-3b28" type="rule"/>
   </infoLinks>
   <catalogueLinks>
-    <catalogueLink id="e653-6c30-06ab-2414" name="Library - Space Marines" targetId="7c79-7dbd-6585-0846" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="d5e8-ae13-dbca-612d" name="Library - Weapons" targetId="d2e9-8c51-33c4-d440" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="e653-6c30-06ab-2414" name="Library - Space Marines" targetId="5443-da67-a38f-1b23" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="d5e8-ae13-dbca-612d" name="Library - Weapons" targetId="0543-042a-a48c-3875" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

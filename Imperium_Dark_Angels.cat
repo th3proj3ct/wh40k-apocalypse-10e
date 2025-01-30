@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b705-9ea8-d8d9-d3f3" name="Imperium - Dark Angels" revision="9" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="5350-4b52-ee7f-e4c8" name="Imperium - Dark Angels" revision="9" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -3460,6 +3460,7 @@ Hit roll</characteristic>
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="849a-f744-5200-d47b" name="Library - Space Marines" targetId="7c79-7dbd-6585-0846" type="catalogue" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Library - Weapons" id="ac6f-9f44-b866-7edd" targetId="0543-042a-a48c-3875" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Library - Space Marines" id="108c-a694-8eea-a606" targetId="5443-da67-a38f-1b23" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

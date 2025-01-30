@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5731-5979-9f63-f103" name="Chaos - Death Guard" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="66da-b78c-aac5-e9f0" name="Chaos - Death Guard" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="466a-33f5-0faf-5cd1" name="Faction: The Tainted" hidden="false"/>
     <categoryEntry id="f6d9-ab1f-fe48-ea06" name="Necrosius the Undying" hidden="false"/>
@@ -2887,8 +2887,8 @@
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="4099-0c9f-eae7-0a14" name="Chaos - Chaos Space Marines" targetId="8a94-e862-c384-d68b" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="7369-fef8-6ea5-e989" name="Weapons" targetId="d2e9-8c51-33c4-d440" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="4163-b630-7e75-1ec4" name="Library - Space Marines" targetId="7c79-7dbd-6585-0846" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="4099-0c9f-eae7-0a14" name="Chaos - Chaos Space Marines" targetId="a344-676a-c53b-5e5b" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="7369-fef8-6ea5-e989" name="Library - Weapons" targetId="0543-042a-a48c-3875" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="4163-b630-7e75-1ec4" name="Library - Space Marines" targetId="5443-da67-a38f-1b23" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

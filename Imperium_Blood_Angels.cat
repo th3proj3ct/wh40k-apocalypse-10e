@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d9e7-2955-7c97-d7cd" name="Imperium - Blood Angels" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="37eb-776c-a55c-48b4" name="Imperium - Blood Angels" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry id="8974-55aa-68b2-2a38" name="Chief Librarian Mephiston" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1549,7 +1549,7 @@ You can attach this model to one of the above units, even if one Captain, CHAPTE
     <infoLink id="6f01-df48-c42b-3229" name="And They Shall Know No Fear" hidden="false" targetId="547d-653d-0f2f-3b28" type="rule"/>
   </infoLinks>
   <catalogueLinks>
-    <catalogueLink id="e653-6c30-06ab-2414" name="Library - Space Marines" targetId="7c79-7dbd-6585-0846" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="d5e8-ae13-dbca-612d" name="Library - Weapons" targetId="d2e9-8c51-33c4-d440" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="d5e8-ae13-dbca-612d" name="Library - Weapons" targetId="0543-042a-a48c-3875" type="catalogue" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Library - Space Marines" id="8391-d605-c61e-87e4" targetId="5443-da67-a38f-1b23" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

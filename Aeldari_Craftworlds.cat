@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2b16-2f50-0616-81bb" name="Aeldari - Craftworlds" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="3628-f6df-a798-80b1" name="Aeldari - Craftworlds" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="e2fe-2446-61b7-11b3" name="Harlequin" hidden="false"/>
     <categoryEntry id="ed06-1726-894b-69cc" name="Farseer" hidden="false"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c6da-2a53-58db-09a5" name="Imperium - Black Templars" revision="9" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="7451-058b-2f1e-3328" name="Imperium - Black Templars" revision="9" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -2150,6 +2150,6 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="849a-f744-5200-d47b" name="Library - Space Marines" targetId="7c79-7dbd-6585-0846" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="849a-f744-5200-d47b" name="Library - Space Marines" targetId="5443-da67-a38f-1b23" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

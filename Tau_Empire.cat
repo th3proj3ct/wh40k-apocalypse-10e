@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="92bc-2e61-942d-297f" name="Tau Empire" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="19" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="a673-0e78-d3ad-5c27" name="Tau Empire" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="19" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Kroot Trail Shaper" hidden="false" id="25a1-df41-0093-6965">
       <profiles>

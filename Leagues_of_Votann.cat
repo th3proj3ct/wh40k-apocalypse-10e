@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="684e-754d-300c-cd1a" name="Leagues of Votann" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="f987-45fa-a3a1-9f1b" name="Leagues of Votann" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry id="09a2-55a0-4d86-8452" name="Brôkhyr Iron-master" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
