@@ -1127,7 +1127,7 @@
         <infoLink id="4661-ee30-6922-86ce" name="Synapse" hidden="false" targetId="9d6d-f7c0-56bf-55ba" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="672c-a691-6964-74a7" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="672c-a691-6964-74a7" name="Prime Talons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee8-d18c-64ef-00e3" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3d5-5f65-3ec5-850e" type="max"/>
@@ -2147,8 +2147,8 @@
       <selectionEntries>
         <selectionEntry id="2554-ddd1-6726-ab5c" name="Lictor Claws and Talons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bbd0-6dd6-ac0a-88da" type="min"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5227-7764-971d-0bf9" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbd0-6dd6-ac0a-88da" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5227-7764-971d-0bf9" type="max"/>
           </constraints>
           <profiles>
             <profile id="2f87-daaa-d49c-e552" name="Lictor Claws and Talons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -2198,7 +2198,7 @@
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
@@ -5547,7 +5547,6 @@
     <selectionEntry id="41e6-a73a-3d3a-a3d4" name="Von Ryan&apos;s Leapers" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2d4d-4451-c53f-2966" name="Infiltrators" hidden="false" targetId="f07d-6c22-ac83-604c" type="rule"/>
-        <infoLink id="1315-4daf-8fed-20d3" name="Stealth" hidden="false" targetId="b133-8e04-3e7b-9fd6" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ba80-060f-73a3-217c" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="9b73-c595-0e9b-8c48">
@@ -5582,7 +5581,7 @@
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">12</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
@@ -5606,6 +5605,13 @@
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
+      <profiles>
+        <profile name="Hard to Hit" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="19cb-41b0-3047-3e8b">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If this unit is not in Engagement Range in the Damage phase, you may roll one D12 for a blast marker next to this unit irrespective of the size of the blast marker.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry id="b49f-7d69-f28e-6747" name="Norn Assimilator" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
