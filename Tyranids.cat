@@ -2144,31 +2144,9 @@
         <infoLink id="8786-dea1-8996-6991" name="Stealth" hidden="false" targetId="b133-8e04-3e7b-9fd6" type="profile"/>
         <infoLink id="5903-a716-c155-ecca" name="Lone Operative" hidden="false" targetId="3d0c-5001-fa04-7313" type="rule"/>
       </infoLinks>
-      <selectionEntries>
-        <selectionEntry id="2554-ddd1-6726-ab5c" name="Lictor Claws and Talons" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbd0-6dd6-ac0a-88da" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5227-7764-971d-0bf9" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="2f87-daaa-d49c-e552" name="Lictor Claws and Talons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="c4d5-8beb-8f27-d9f9" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink import="true" name="Lictor Claws and Talons" hidden="false" id="81b8-24a7-dbcf-84dd" type="selectionEntry" targetId="1c2d-7d9b-293f-7223"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
@@ -2240,31 +2218,9 @@
         <infoLink id="c860-4ea1-8264-ac9b" name="Stealth" hidden="false" targetId="b133-8e04-3e7b-9fd6" type="profile"/>
         <infoLink id="e0fc-4b2b-5794-7a0a" name="Lone Operative" hidden="false" targetId="3d0c-5001-fa04-7313" type="rule"/>
       </infoLinks>
-      <selectionEntries>
-        <selectionEntry id="2f18-800b-8eb5-b714" name="Lictor Claws and Talons" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="21b3-345d-86f0-323b" type="min"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a9e5-59ba-3bd2-d6be" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="9774-9524-fb22-2534" name="Lictor Claws and Talons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="218c-af07-879c-fe46" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink import="true" name="Lictor Claws and Talons" hidden="false" id="292d-9570-9ae9-2df8" type="selectionEntry" targetId="1c2d-7d9b-293f-7223"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
@@ -5914,31 +5870,9 @@
         <infoLink id="6935-0fb8-d4bf-1618" name="Infiltrators" hidden="false" targetId="f07d-6c22-ac83-604c" type="rule"/>
         <infoLink id="06c4-561f-8d55-7235" name="Lone Operative" hidden="false" targetId="3d0c-5001-fa04-7313" type="rule"/>
       </infoLinks>
-      <selectionEntries>
-        <selectionEntry id="90f5-39f4-f481-a6c0" name="Lictor Claws and Talons" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9200-526f-0d48-7fba" type="min"/>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1af7-b205-f8f5-8e13" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="48db-c987-2fee-e5cc" name="Lictor Claws and Talons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="67d9-f0ed-ff04-e91b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink import="true" name="Lictor Claws and Talons" hidden="false" id="715b-cf8f-767f-7375" type="selectionEntry" targetId="1c2d-7d9b-293f-7223"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
@@ -6024,6 +5958,27 @@
       <entryLinks>
         <entryLink id="18f5-6ce7-9210-6130" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lictor Claws and Talons" hidden="false" id="1c2d-7d9b-293f-7223" collective="false">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5c61-1552-fbf0-3384" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6de-20fa-6b49-5400" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Lictor Claws and Talons" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="40e2-0f4e-9b01-06cc">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>

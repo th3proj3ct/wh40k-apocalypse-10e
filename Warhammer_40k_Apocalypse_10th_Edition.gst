@@ -498,7 +498,7 @@ If this unit is garrisoning Defensible Terrain, unmodified saving throws of 5+ a
     </profile>
     <profile id="b133-8e04-3e7b-9fd6" name="Stealth" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Subtract 1 from hit rolls for attacks made with ranged weapons that target this unit.</characteristic>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Subtract 1 from hit rolls targeting this unit with Ranged weapons.</characteristic>
       </characteristics>
     </profile>
     <profile id="a828-c8a3-c4ed-f34b" name="Supersonic" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
