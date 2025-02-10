@@ -105,10 +105,11 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="c3e4-f512-7141-508a" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+        <profile name="Leader" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="bb3f-ae6f-2121-ad1e">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
-    Windriders</characteristic>
+    Guardian Defenders
+    Storm Guardians</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -188,11 +189,10 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="6529-8115-44f3-95f3" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+        <profile name="Leader" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="c3e4-f512-7141-508a">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
-    Guardian Defenders
-    Storm Guardians</characteristic>
+    Windriders</characteristic>
           </characteristics>
         </profile>
       </profiles>
