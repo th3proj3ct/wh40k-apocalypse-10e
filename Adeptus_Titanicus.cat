@@ -9,14 +9,9 @@
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">8</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">7</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="af20-8c67-f50d-d014" name="Warhound Void Shields" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the start of the Damage phase, remove one blast marker from this unit. Small blast markers must be removed before large blast markers.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -25,6 +20,7 @@
         <infoLink id="593a-3cc1-e867-a055" name="Engines of War" hidden="false" targetId="976e-f8cb-6d17-de4e" type="rule"/>
         <infoLink id="f4cd-f649-cb47-d41c" name="Reactor Overload" hidden="false" targetId="a5c5-2853-d832-dc3a" type="profile"/>
         <infoLink id="fc5a-e36f-f6f9-905e" name="Imperial God-engine" hidden="false" targetId="fadf-dce0-f10a-3ba6" type="profile"/>
+        <infoLink name="Void Shields" id="2de0-b35b-bfef-04ee" hidden="false" type="profile" targetId="17dd-4ff2-57ab-2294"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4dcd-3f45-0080-8079" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
@@ -46,13 +42,16 @@
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Destroyer" id="71a7-bc07-2d67-c0f5" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -130,7 +129,7 @@
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">8</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">6</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
@@ -165,15 +164,10 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">12</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">5</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">11</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="cf5a-4e20-ba91-493e" name="Reaver Void Shields" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the start of the Damage phase, remove one blast marker from this unit. Large blast markers must be removed before small blast markers.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -182,6 +176,7 @@
         <infoLink id="be0a-7c87-75cd-7643" name="Engines of War" hidden="false" targetId="976e-f8cb-6d17-de4e" type="rule"/>
         <infoLink id="2bc8-0d11-c709-9388" name="Reactor Overload" hidden="false" targetId="a5c5-2853-d832-dc3a" type="profile"/>
         <infoLink id="89a8-406f-3555-bd3c" name="Imperial God-engine" hidden="false" targetId="fadf-dce0-f10a-3ba6" type="profile"/>
+        <infoLink name="Void Shields" id="742d-d763-b6bd-0b22" hidden="false" type="profile" targetId="17dd-4ff2-57ab-2294"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="fe88-db85-0b34-ea4f" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
@@ -203,13 +198,16 @@
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Destroyer" id="b4e2-7c5c-83cd-a894" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry id="6561-05cf-aff2-4848" name="Reaver Apocalypse Launcher" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -222,7 +220,7 @@
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">200&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Barrage, Blast</characteristic>
               </characteristics>
@@ -243,33 +241,12 @@
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fb3-e8e0-7f78-5d0b" type="min"/>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12df-998c-3e18-9606" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="4872-2645-5c1b-57ad" name="Reaver Power Fist" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="22d3-67c7-0f11-b2bb" name="Reaver Power Fist" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">3+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Apocalyptic Destroyer</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="9f95-5b67-810d-a827" name="Apocalyptic Destroyer" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <entryLinks>
             <entryLink id="cf84-e8b9-cfb1-1ef5" name="Reaver Gatling Blaster" hidden="false" collective="false" import="true" targetId="20a1-8421-87e6-9b40" type="selectionEntry"/>
             <entryLink id="2f11-a723-b046-7fe9" name="Reaver Laser Blaster" hidden="false" collective="false" import="true" targetId="a5d1-6e3c-71d8-2a63" type="selectionEntry"/>
             <entryLink id="06b0-4160-d21e-76d7" name="Reaver Melta Cannon" hidden="false" collective="false" import="true" targetId="0b9a-6d74-0a93-f3f3" type="selectionEntry"/>
             <entryLink id="a694-ecf4-3a1b-ffa0" name="Reaver Volcano Cannon" hidden="false" collective="false" import="true" targetId="cf81-362f-7868-6765" type="selectionEntry"/>
+            <entryLink import="true" name="Reaver Power Fist" hidden="false" id="92d8-d302-fe83-6022" type="selectionEntry" targetId="bd9a-9ae5-e24c-ad27"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -287,15 +264,10 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">16</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">15</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="5fa4-c271-b83c-7cd1" name="Warbringer Void Shields" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the start of the Damage phase, remove one blast marker from this unit. Large blast markers must be removed before small blast markers.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -304,6 +276,7 @@
         <infoLink id="f008-50c5-3cdd-eb73" name="Engines of War" hidden="false" targetId="976e-f8cb-6d17-de4e" type="rule"/>
         <infoLink id="6e89-ab6e-7624-14b2" name="Reactor Overload" hidden="false" targetId="a5c5-2853-d832-dc3a" type="profile"/>
         <infoLink id="da3b-c12e-f8dd-7296" name="Imperial God-engine" hidden="false" targetId="fadf-dce0-f10a-3ba6" type="profile"/>
+        <infoLink name="Void Shields" id="09a1-6165-6d70-7aa6" hidden="false" type="profile" targetId="17dd-4ff2-57ab-2294"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4f90-3cb3-eb96-3c8a" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
@@ -325,13 +298,16 @@
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Destroyer" id="5cab-c25d-33b8-ccd5" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry id="aaf7-6b86-687a-9a91" name="Anvillus Defence Battery" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -390,6 +366,7 @@
             <entryLink id="d5ab-171e-de5f-f5e7" name="Reaver Laser Blaster" hidden="false" collective="false" import="true" targetId="a5d1-6e3c-71d8-2a63" type="selectionEntry"/>
             <entryLink id="c700-cda2-626f-5416" name="Reaver Melta Cannon" hidden="false" collective="false" import="true" targetId="0b9a-6d74-0a93-f3f3" type="selectionEntry"/>
             <entryLink id="e1e4-9773-2b33-511b" name="Reaver Volcano Cannon" hidden="false" collective="false" import="true" targetId="cf81-362f-7868-6765" type="selectionEntry"/>
+            <entryLink import="true" name="Reaver Power Fist" hidden="false" id="f09a-93e0-ac19-2d17" type="selectionEntry" targetId="bd9a-9ae5-e24c-ad27"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="aa60-d8be-09c2-9512" name="Carapace Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="c8b9-cab0-5dc6-987e">
@@ -398,14 +375,14 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31ee-5260-04eb-ef43" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c8b9-cab0-5dc6-987e" name="Nemisis Quake Cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c8b9-cab0-5dc6-987e" name="Nemesis Quake Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="43e5-2f0c-2715-1821" name="Nemisis Quake Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                <profile id="43e5-2f0c-2715-1821" name="Nemesis Quake Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">480&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Barrage, Destroyer</characteristic>
                   </characteristics>
@@ -419,10 +396,27 @@
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nemesis Volcano Cannon" hidden="false" id="e53d-c9f7-090d-66d8" collective="false">
+              <profiles>
+                <profile name="Nemesis Volcano Cannon" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="e78d-f862-f7f8-f150">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">120&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">11+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Apocalyptic Destroyer</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Apocalyptic Destroyer" id="2c4a-dba5-c387-f3dc" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
-          <entryLinks>
-            <entryLink id="ad16-86fe-aa33-beb2" name="Reaver Volcano Cannon" hidden="false" collective="false" import="true" targetId="cf81-362f-7868-6765" type="selectionEntry"/>
-          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -439,15 +433,10 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">20</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">18</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="c7d5-c69c-66a1-ece1" name="Warlord Void Shields" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the start of the Damage phase, remove one blast marker from this unit. Large blast markers must be removed before small blast markers.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -456,6 +445,7 @@
         <infoLink id="f1f1-afaa-301e-72f7" name="Engines of War" hidden="false" targetId="976e-f8cb-6d17-de4e" type="rule"/>
         <infoLink id="91ad-17cf-6ab1-9fb7" name="Reactor Overload" hidden="false" targetId="a5c5-2853-d832-dc3a" type="profile"/>
         <infoLink id="8023-b89a-b088-e5d8" name="Imperial God-engine" hidden="false" targetId="fadf-dce0-f10a-3ba6" type="profile"/>
+        <infoLink name="Void Shields" id="0122-4e43-96e5-3d61" hidden="false" type="profile" targetId="17dd-4ff2-57ab-2294"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8ef6-0382-f9f5-b629" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
@@ -541,9 +531,9 @@
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">120&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">2+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Apocalyptic Destroyer</characteristic>
                   </characteristics>
                 </profile>
@@ -564,7 +554,7 @@
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">10</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 2</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer, Sustained Hits 2</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -585,7 +575,7 @@
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">280&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">6</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Barrage, Destroyer</characteristic>
@@ -609,12 +599,12 @@
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">5</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer, Supercharge</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Apocalyptic Destroyer, Supercharge</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="4d3c-867f-8a32-dfbb" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+                <infoLink id="4d3c-867f-8a32-dfbb" name="Apocalyptic Destroyer" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
                 <infoLink id="b3db-4417-c053-79cf" name="Supercharge" hidden="false" targetId="9988-c2ea-2f30-09c1" type="rule"/>
               </infoLinks>
               <costs>
@@ -627,7 +617,7 @@
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">3+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Apocalyptic Destroyer</characteristic>
@@ -666,16 +656,17 @@
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">200&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">7</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Barrage, Blast</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Barrage, Blast, Destroyer</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="af8e-feff-516c-e8b4" name="Blast" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
-                <infoLink id="3d70-0a16-c468-62a5" name="Barrage" hidden="false" targetId="7296-134e-970b-4790" type="rule"/>
+                <infoLink id="3d70-0a16-c468-62a5" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+                <infoLink name="Barrage" id="a375-194d-41c0-b384" hidden="false" targetId="7296-134e-970b-4790" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
@@ -690,13 +681,16 @@
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Apocalyptic Destroyer</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Apocalyptic Destroyer" id="37dc-5468-8993-0eb5" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -721,9 +715,9 @@
           <characteristics>
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">72&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">5</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">8</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 2</characteristic>
           </characteristics>
         </profile>
@@ -745,15 +739,15 @@
           <characteristics>
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Apocalyptic Destroyer</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="5862-2603-04f5-37ed" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+        <infoLink name="Apocalyptic Destroyer" id="d3cb-196c-ea68-9582" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
@@ -765,7 +759,7 @@
           <characteristics>
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">5</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
@@ -773,7 +767,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="8536-35d0-11d2-be17" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+        <infoLink name="Apocalyptic Destroyer" id="abb5-5488-17d6-758e" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
@@ -785,7 +779,7 @@
           <characteristics>
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">120&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">11+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Apocalyptic Destroyer</characteristic>
@@ -793,11 +787,28 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="77f8-2105-3302-c8da" name="Apocalyptic Destroyer" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
+        <infoLink name="Apocalyptic Destroyer" id="1d2b-317f-7b45-1928" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Reaver Power Fist" hidden="false" id="bd9a-9ae5-e24c-ad27">
+      <profiles>
+        <profile name="Reaver Power Fist" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="e448-cd1c-5d83-07f7">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">3+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Apocalyptic Destroyer</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Apocalyptic Destroyer" id="e607-aaff-8c2f-0245" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
@@ -809,6 +820,11 @@
     <profile id="a5c5-2853-d832-dc3a" name="Reactor Overload" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When this unit is destroyed, if it explodes, place two blast markers next to every unit (excluding SUPER-HEAVY units) that is within 6&quot; of this unit, instead of one.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Void Shields" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="17dd-4ff2-57ab-2294">
+      <characteristics>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per turn you may roll a D12 for a blast marker next to this model, irrespective of the size of the blast marker</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
