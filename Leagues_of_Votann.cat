@@ -84,6 +84,9 @@
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="Commander" hidden="false" id="8ab0-46d1-d88a-e6b7" type="selectionEntry" targetId="7347-5716-355f-9165"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry id="aaae-c60a-45ce-c7d7" name="Einhyr Champion" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -278,6 +281,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58c1-5b8d-805e-a98e" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Commander" hidden="false" id="e0e4-b21d-da5a-b765" type="selectionEntry" targetId="7347-5716-355f-9165"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
@@ -435,6 +439,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="417e-b74f-8d37-acd8" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Commander" hidden="false" id="735f-3dc5-3216-24ed" type="selectionEntry" targetId="7347-5716-355f-9165"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
@@ -1588,9 +1593,9 @@ If two units are selected, add 1 to the Hit roll.</description>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5324-df53-6c54-1a34" name="Voilkite Disintegrator" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5324-df53-6c54-1a34" name="Volkanite Disintegrator" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="f0f5-3c3c-107a-a496" name="Voilkite Disintegrator" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+        <profile id="f0f5-3c3c-107a-a496" name="Volkanite Disintegrator" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
