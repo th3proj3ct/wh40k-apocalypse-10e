@@ -1199,6 +1199,10 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db0b-3bc8-a0ec-0962" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20a8-4686-b353-f95d" includeChildSelections="false"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <profiles>
@@ -1276,6 +1280,10 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9341-7f49-da6e-1dde" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3298-905c-cee5-264c" includeChildSelections="false"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <profiles>
@@ -2374,6 +2382,10 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
             <infoLink name="Pistol" id="bc39-f9da-4979-f611" hidden="false" type="rule" targetId="cdb7-f1e7-842f-a25f"/>
             <infoLink name="Twin-Linked" id="8117-f5b3-0daf-dc8c" hidden="false" type="rule" targetId="90b6-9d4b-d503-5e51"/>
           </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bb4b-6ae5-5880-2371" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce9f-59e1-3a3e-9831" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -2690,6 +2702,10 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
               </modifiers>
             </infoLink>
           </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ef3d-3951-aca0-bb66" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0b4-c74b-95be-f58a" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
