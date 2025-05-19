@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3628-f6df-a798-80b1" name="Aeldari - Craftworlds" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="3628-f6df-a798-80b1" name="Aeldari - Craftworlds" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="e2fe-2446-61b7-11b3" name="Harlequin" hidden="false"/>
     <categoryEntry id="ed06-1726-894b-69cc" name="Farseer" hidden="false"/>
@@ -108,8 +108,13 @@
         <profile name="Leader" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="bb3f-ae6f-2121-ad1e">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
-    Guardian Defenders
-    Storm Guardians</characteristic>
+■ Dark Reapers
+■ Dire Avengers
+■ Fire Dragons
+■ Guardian Defenders
+■ Howling Banshees
+■ Storm Guardians
+■ Striking Scorpions</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -192,7 +197,8 @@
         <profile name="Leader" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="c3e4-f512-7141-508a">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
-    Windriders</characteristic>
+■ Shining Spears
+■ Windriders</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -279,7 +285,9 @@
         <profile id="2521-2a18-29d0-1ee2" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
-    Windriders</characteristic>
+■ Swooping Hawks
+■ Warp Spiders
+■ Windriders</characteristic>
           </characteristics>
         </profile>
       </profiles>

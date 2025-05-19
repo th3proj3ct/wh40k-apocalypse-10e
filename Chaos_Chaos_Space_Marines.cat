@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a344-676a-c53b-5e5b" name="Chaos - Chaos Space Marines" revision="11" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="a344-676a-c53b-5e5b" name="Chaos - Chaos Space Marines" revision="11" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="9ce0-92a4-75e9-c09f" name="Faction: Skulltakers" hidden="false"/>
     <categoryEntry id="77e2-0635-9df5-4f43" name="Zhufor the Impaler" hidden="false"/>
@@ -369,7 +369,9 @@
     </entryLink>
     <entryLink id="97e1-45ef-af83-8a1d" name="Daemon Prince" hidden="false" collective="false" import="true" targetId="161f-9924-a939-7d8e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c191-b554-008e-6dea" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
+        <categoryLink id="c191-b554-008e-6dea" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink targetId="4b9a-33b1-3b42-e3f8" id="563d-e171-d0da-160b" primary="true" name="Character"/>
+        <categoryLink targetId="25c7-3353-2028-72b2" id="9207-8fc5-8ad5-7134" primary="false" name="Heavy"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3b91-4ffc-c583-5f9f" name="Sorcerer" hidden="false" collective="false" import="true" targetId="4b24-a3f2-703a-3f86" type="selectionEntry">
@@ -377,6 +379,9 @@
         <categoryLink id="b7dc-73ea-9b36-d4f9" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="f38e-ff94-98fd-15d3" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Witchfire" id="271e-c23a-b5e7-b387" hidden="false" targetId="8ce8-6dd3-c0a8-35ad" type="rule"/>
+      </infoLinks>
     </entryLink>
     <entryLink id="e435-c0e9-796c-2593" name="Dark Apostle" hidden="false" collective="false" import="true" targetId="edcf-66a0-3dda-fabd" type="selectionEntry">
       <categoryLinks>
@@ -902,7 +907,19 @@
         <categoryLink id="f0d6-de5d-f506-26c5" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Daemon Prince with Wings" hidden="false" id="6a3e-6069-e83c-d33f" type="selectionEntry" targetId="997f-2335-7038-a5d5"/>
+    <entryLink import="true" name="Daemon Prince with Wings" hidden="false" id="6a3e-6069-e83c-d33f" type="selectionEntry" targetId="997f-2335-7038-a5d5">
+      <categoryLinks>
+        <categoryLink targetId="4b9a-33b1-3b42-e3f8" id="41e8-2102-2813-7670" primary="true" name="Character"/>
+        <categoryLink targetId="25c7-3353-2028-72b2" id="c14f-6020-b809-beb7" primary="false" name="Heavy"/>
+        <categoryLink targetId="3bbd-6bb7-b214-6dca" id="7b87-1ec2-0dc9-7b04" primary="false" name="Monster"/>
+        <categoryLink targetId="b408-d848-fa84-cfb9" id="ec6a-9dd0-93e4-84a5" primary="false" name="Fly"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chaos Lord with Jump Pack" hidden="false" id="69ca-5467-c7b6-5936" type="selectionEntry" targetId="e5c8-442b-169d-e0b5">
+      <categoryLinks>
+        <categoryLink targetId="4b9a-33b1-3b42-e3f8" id="0ba3-9862-c827-39e2" primary="true" name="Character"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule id="19ce-9e2d-3598-9780" name="Let the Galaxy Burn" hidden="false">
@@ -2260,7 +2277,12 @@
       <entryLinks>
         <entryLink id="ccca-5580-87f7-e34c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="515e-bef0-a49d-ab24" name="Accursed Weapons" hidden="false" collective="false" import="true" targetId="1409-3304-40d8-164d" type="selectionEntry"/>
-        <entryLink id="b513-e097-57f7-9359" name="Boltguns" hidden="false" collective="false" import="true" targetId="2d61-a814-63d8-0398" type="selectionEntry"/>
+        <entryLink id="b513-e097-57f7-9359" name="Boltguns" hidden="false" collective="false" import="true" targetId="2d61-a814-63d8-0398" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d82-0698-712f-c8cc" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0cf8-18e1-b4d4-83e9" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
@@ -4767,7 +4789,7 @@ When this unit is selected to perform its action, you may remove a damage marker
         </profile>
         <profile id="0444-d8ae-bbb2-d500" name="Chance for Glory" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When this model is selected to fight, it can use this ability. If it does, add 1 to hit and wound rolls this phase, then take a leadership test. If the test is failed. place a blast marker next to this unit.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When this model is selected to fight, it can use this ability. If it does, add 1 to hit and wound rolls this phase, then take a leadership test. If the test is failed, place a blast marker next to this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4859,7 +4881,7 @@ When this unit is selected to perform its action, you may remove a damage marker
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Witchfire</characteristic>
           </characteristics>
         </profile>
         <profile id="9b0c-bd79-4b61-0851" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -5561,6 +5583,53 @@ When this unit is selected to perform its action, you may remove a damage marker
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chaos Lord with Jump Pack" hidden="false" id="e5c8-442b-169d-e0b5" collective="false">
+      <profiles>
+        <profile name="Chaos Lord" typeId="758b-2459-9a46-721a" typeName="Unit" hidden="false" id="00fd-aade-9b62-95f3">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Chaos Lord" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="f163-ec49-f46e-e486">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="0460-ac58-62c5-2292">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
+• Raptors</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Chance for Glory" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="5a99-24ba-0b14-a1cf">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When this model is selected to fight, it can use this ability. If it does, add 1 to hit and wound rolls this phase, then take a leadership test. If the test is failed, place a blast marker next to this unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Faction: Chaos" hidden="false" id="34c1-486e-0876-3c76" targetId="841f-fc30-da92-90cf" primary="false"/>
+        <categoryLink name="Faction: Heretic Astartes" hidden="false" id="899b-28c4-80bf-d36a" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+        <categoryLink name="Light" hidden="false" id="ed14-5c16-d793-404c" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="30e6-29b2-14b2-1565" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink name="Chaos Lord" hidden="false" id="b0eb-13e6-948e-dd09" targetId="2f53-570e-fcef-604b" primary="false"/>
+        <categoryLink name="HQ" hidden="false" id="e841-c79d-9a1a-1084" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink targetId="b408-d848-fa84-cfb9" id="70b3-a3e2-6830-95b3" primary="false" name="Fly"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Commander" hidden="false" id="eb84-e9dd-a60e-ba14" collective="false" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink import="true" name="Helwrought Weapons" hidden="false" id="6a57-8e6d-fe89-c259" collective="false" targetId="928c-a316-0e0f-302c" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
