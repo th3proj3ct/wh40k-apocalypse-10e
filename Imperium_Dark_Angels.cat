@@ -132,6 +132,10 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="2d6e-c03a-7a58-74ce" id="51b1-364d-48b5-a402" primary="true" name="Infantry"/>
+        <categoryLink targetId="7eb1-73ba-2de4-ca9b" id="7782-7432-56a1-5d18" primary="false" name="Light"/>
+      </categoryLinks>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
