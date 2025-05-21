@@ -38,6 +38,101 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Inner Circle Companions" hidden="false" id="5634-169e-fd90-44ac">
+      <profiles>
+        <profile name="Enmity for the Unworthy" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="b61a-247e-b30a-4bd4">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a model in this unit makes an attack that targets a CHARACTER unit, add 1 to the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Heavy Bolt Pistols" hidden="false" id="98c1-fb6b-2edf-2f76" collective="false" targetId="35bb-c4c0-0e46-cd22" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="37ee-9077-31dc-5c07" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5538-8e8e-6d19-19f0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Calibanite Greatsword" hidden="false" id="56e3-41c8-64d7-8299" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c341-8cc4-8f72-a8e4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="421d-35b4-1b11-d195" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Calibanite Greatsword" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="c083-201d-9652-a144">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Sustained Hits X" id="d837-09a1-b9fe-198c" hidden="false" type="rule" targetId="d0a7-26e1-b2cb-2bce"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Models" id="2abf-a7ce-93b8-3533" hidden="false" collective="false" import="true" defaultSelectionEntryId="2f4d-7475-0bd1-3ba1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a74-5bc8-07e4-f5ae" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5c2d-9b99-b351-bd07" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="3 models" hidden="false" id="2f4d-7475-0bd1-3ba1" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b9c-c05d-eb4a-e586" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Inner Circle Companions (3 models)" typeId="758b-2459-9a46-721a" typeName="Unit" hidden="false" id="b7e0-5bcb-1920-2f95">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="6 models" hidden="false" id="7407-4654-69d1-0992" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcdf-3fd0-5050-d4e3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Inner Circle Companions (6 models)" typeId="758b-2459-9a46-721a" typeName="Unit" hidden="false" id="8604-0ddc-8e09-869b">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="fc3d-dd60-37ea-c9ef" name="Tactical Squad" hidden="false" collective="false" import="true" targetId="1fa2-88c4-2c7e-5d33" type="selectionEntry">
@@ -803,7 +898,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
         <categoryLink id="ec77-04a2-033b-7d44" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d171-1a35-475d-b343" name="Outrider Squad" page="" hidden="false" collective="false" import="true" targetId="778d-e22c-27cb-5b1b" type="selectionEntry">
+    <entryLink id="d171-1a35-475d-b343" name="Outrider Squad" hidden="false" collective="false" import="true" targetId="778d-e22c-27cb-5b1b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="765a-0fe8-6418-fde4" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
         <categoryLink id="a9c3-981e-9d75-8a15" name="Faction: Ravenwing" hidden="false" targetId="e2b5-b600-9791-7010" primary="false"/>
