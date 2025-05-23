@@ -4895,12 +4895,6 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df78-a9a4-2fb6-dbb5" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="5183-d8fa-26be-e565" name="Reaper Launcher" hidden="false" collective="false" import="true" targetId="dca4-d426-c991-b80f" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b23b-ec6f-0ba7-13c7" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad42-40f8-ebd9-6271" type="min"/>
-          </constraints>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>

@@ -1676,8 +1676,7 @@ You can attach this model to one of the above units even if one CAPTAIN or CHAPT
         <profile name="Leader" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="d6f4-18ac-bb8c-f630">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following unit:
-    Thunderwolf Cavalry
-</characteristic>
+    Thunderwolf Cavalry</characteristic>
           </characteristics>
         </profile>
         <profile name="Speed of the Hunter" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="e5ea-ad0c-7ac5-dd15">
@@ -1740,6 +1739,78 @@ You can attach this model to one of the above units even if one CAPTAIN or CHAPT
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Iron Priest" hidden="false" id="75d1-14dc-8acf-ce53">
+      <entryLinks>
+        <entryLink import="true" name="Commander" hidden="false" id="c8cd-2f13-a945-1c82" collective="false" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink import="true" name="Servo-arm &amp; Power Weapon" hidden="false" id="5d37-c3c0-7e74-5ee6" collective="false" targetId="410b-ee29-894b-f4c3" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d093-a063-fe1b-91d4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="03f5-6fa7-9e84-fe0f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="Blessing of the Omnissiah" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="3f68-ce76-83dc-b218">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This unit can attempt to repair one friendly ADEPTUS ASTARTES unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage or blast marker from that VEHICLE unit. Each model can only be repaired once per turn. 
+
+Additionally, add 1 to that model&apos;s hit roll until the end of the turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="99ad-92b6-8ff1-b62a">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
+Blood Claws
+Grey Hunters
+Long Fangs</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Techmarine" typeId="758b-2459-9a46-721a" typeName="Unit" hidden="false" id="b48d-5cb6-3276-c226">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Techmarine" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="8103-5144-21e9-b5f2">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is within 3&quot; of one or more friendly ADEPTUS ASTARTES VEHICLE units, this model has the Lone Operative ability.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Hellfrost Pistol" hidden="false" id="0e65-141b-805f-69bd">
+          <profiles>
+            <profile name="Hellfrost Pistol" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="48b0-2478-7304-cf31">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2765-6336-56cd-b883" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b052-ab67-d597-d944" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="4b9a-33b1-3b42-e3f8" id="8407-5390-923b-1418" primary="true" name="Character"/>
+        <categoryLink targetId="2d6e-c03a-7a58-74ce" id="994d-dce7-1c0d-4cb3" primary="false" name="Infantry"/>
+        <categoryLink targetId="7eb1-73ba-2de4-ca9b" id="800a-80e2-4f0d-004e" primary="false" name="Light"/>
+      </categoryLinks>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
