@@ -399,7 +399,7 @@
       <description>If a wound roll for an attack made with a weapon with this ability is successful, place two blast markers next to the target unit instead of one.</description>
     </rule>
     <rule id="8ce8-6dd3-c0a8-35ad" name="Witchfire" publicationId="8df9-0b3e-abea-3c15" hidden="false">
-      <description>This weapon can target enemies even if they are within engagement range of friendly models, and can be used even if this unit is in engagement range of enemy models.</description>
+      <description>Witchfire weapons can be shot even while in engagement range of enemy models, but can only target units within engagement range if so. Witchfire weapons can also shoot with an Advance order and do not prevent the unit from performing Fight actions.</description>
     </rule>
     <rule id="f3a7-fc0c-a9e3-d382" name="Inferno" publicationId="8df9-0b3e-abea-3c15" hidden="false">
       <description>Attacks made with this weapon automatically score a hit (no hit roll is made).</description>
@@ -466,7 +466,7 @@ If this unit is garrisoning Defensible Terrain, unmodified saving throws of 5+ a
       <description>When targetting an enemy unit with 6 or more models, add 1 to the attacks of this weapon. This weapon cannot be used on LIGHT enemies in engagement range of friendly models (including this)</description>
     </rule>
     <rule id="cdb7-f1e7-842f-a25f" name="Pistol" hidden="false">
-      <description>Weapons with [PISTOL] in their profile can be shot even while in engagement range of enemy models, but can only target units within engagement range.</description>
+      <description>Pistol weapons can be shot even while in engagement range of enemy models, but can only target units within engagement range if so. Pistol weapons can also shoot with an Advance order and do not prevent the unit from performing Fight actions.</description>
     </rule>
     <rule id="f955-47cd-a5ed-9629" name="Ignores Cover" hidden="false">
       <description>Attacks made with this weapon ignore penalties to the hit roll from cover.</description>

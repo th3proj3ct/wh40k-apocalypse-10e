@@ -2486,11 +2486,6 @@ You can attach this model to one of the above units, even if one other Leader un
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per battle, after this unit has activated, you can select one enemy unit that is within 12&quot; of and visible to this model and roll one D6: on a 3+, place a blast marker next to that unit</characteristic>
           </characteristics>
         </profile>
-        <profile id="3a1b-62a5-6f4e-9036" name="Twin-linked Hull" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Weapons equipped by thos model have the Twin Linked ability.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="1147-d2e7-d82d-634f" name="Dedicated Transport" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
@@ -2842,7 +2837,7 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
         </profile>
         <profile id="a721-1c47-e050-79dd" name="Skyhunter" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll and add 1 to the Wound roll.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll and add 2 to the Wound roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3008,6 +3003,10 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="189f-9db9-feb7-a7b5" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d003-7dea-a12a-dfaa" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3945,6 +3944,10 @@ Fortification: While an enemy unit is only within Engagement Range of one or mor
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bcf7-c1d8-df0c-09a2" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5042-4c49-1379-6493" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
