@@ -923,7 +923,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <profiles>
         <profile id="654a-e2ec-c1df-f822" name="Hammerhead" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a model in this unit makes a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a model in this unit makes an Assault move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="33f0-fbbd-e749-e3ef" name="Narthecium" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -971,7 +971,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
@@ -979,7 +979,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1d7d-905e-9a92-fe8d" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -989,7 +989,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">12</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
@@ -997,7 +997,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1816,8 +1816,8 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
           </characteristics>
         </profile>
