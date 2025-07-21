@@ -1124,7 +1124,6 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d4-95df-a9f2-c9ea" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="934a-c0c5-a852-9f2f" name="Storm Bolters" hidden="false" collective="false" import="true" targetId="2b83-ddca-dea3-0bce" type="selectionEntry"/>
             <entryLink id="6e7a-2137-fab8-5c29" name="Psilencer" hidden="false" collective="false" import="true" targetId="6d22-fbae-5ff6-39f8" type="selectionEntry"/>
             <entryLink id="c625-351a-8c40-170e" name="Incinerator" hidden="false" collective="false" import="true" targetId="a8ca-a5aa-5f6e-330d" type="selectionEntry"/>
             <entryLink id="6789-121b-4f63-0dbf" name="Psycannon" hidden="false" collective="false" import="true" targetId="af06-aaeb-712f-1faf" type="selectionEntry"/>
@@ -1182,6 +1181,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65ca-5581-6d47-f6de" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Storm Bolters" hidden="false" id="934a-c0c5-a852-9f2f" collective="false" targetId="2b83-ddca-dea3-0bce" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
