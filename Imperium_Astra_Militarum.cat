@@ -5480,68 +5480,67 @@
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18db-e6ca-37ba-7aad" type="min"/>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7148-9ff2-5278-c61b" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="4346-9270-c307-9e8d" name="Bombast Field Gun" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e230-88ee-f3cb-e976" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <profiles>
-                <profile id="6947-6efe-60c2-4787" name="Bombast Field Gun" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3704-014e-7b09-d5c5" name="Malleus Rocket Launcher" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="54a6-8928-7f2b-a74d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <profiles>
-                <profile id="8365-b3dc-f010-fdd3" name="Malleus Rocket Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Heavy Lascannon" hidden="false" id="fcbd-6cf3-85e9-ed6c">
-              <profiles>
-                <profile name="Heavy Lascannon" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="b76e-4c6d-f639-6438" publicationId="8df9-0b3e-abea-3c15">
-                  <characteristics>
-                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="eeb9-9513-5ad9-0540" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Cannon Weapon" id="c15a-3fa1-1be1-4091" hidden="false" defaultSelectionEntryId="3704-014e-7b09-d5c5">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Malleus Rocket Launcher" hidden="false" id="3704-014e-7b09-d5c5" collective="false">
+                  <profiles>
+                    <profile name="Malleus Rocket Launcher" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="8365-b3dc-f010-fdd3">
+                      <characteristics>
+                        <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+                        <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
+                        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                        <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bombast Field Gun" hidden="false" id="4346-9270-c307-9e8d" collective="false">
+                  <profiles>
+                    <profile name="Bombast Field Gun" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="6947-6efe-60c2-4787">
+                      <characteristics>
+                        <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+                        <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                        <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Lascannon" hidden="false" id="fcbd-6cf3-85e9-ed6c">
+                  <profiles>
+                    <profile name="Heavy Lascannon" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="b76e-4c6d-f639-6438" publicationId="8df9-0b3e-abea-3c15">
+                      <characteristics>
+                        <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+                        <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+                        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+                        <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cfff-21bc-cc46-3de7" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ae3-87e7-d791-3868" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
