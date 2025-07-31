@@ -5477,14 +5477,13 @@
       <selectionEntries>
         <selectionEntry id="6bbe-cbc9-01e3-45f8" name="Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18db-e6ca-37ba-7aad" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7148-9ff2-5278-c61b" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18db-e6ca-37ba-7aad" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7148-9ff2-5278-c61b" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="4346-9270-c307-9e8d" name="Bombast Field Gun" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f79c-be5d-2194-6b29" type="min"/>
-                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a71e-76ac-c15c-b712" type="max"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e230-88ee-f3cb-e976" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <profiles>
                 <profile id="6947-6efe-60c2-4787" name="Bombast Field Gun" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -5504,8 +5503,7 @@
             </selectionEntry>
             <selectionEntry id="3704-014e-7b09-d5c5" name="Malleus Rocket Launcher" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3249-f77c-fbb9-a32f" type="max"/>
-                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="932f-b031-6a7e-4fce" type="min"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="54a6-8928-7f2b-a74d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <profiles>
                 <profile id="8365-b3dc-f010-fdd3" name="Malleus Rocket Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -5523,15 +5521,24 @@
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
-          <entryLinks>
-            <entryLink id="bdf1-9eaf-b7f8-2494" name="Lascannon" hidden="false" collective="false" import="true" targetId="dd55-a2c1-238b-569f" type="selectionEntry">
+            <selectionEntry type="upgrade" import="true" name="Heavy Lascannon" hidden="false" id="fcbd-6cf3-85e9-ed6c">
+              <profiles>
+                <profile name="Heavy Lascannon" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="b76e-4c6d-f639-6438" publicationId="8df9-0b3e-abea-3c15">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <constraints>
-                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d56-af9d-fda5-6a0d" type="max"/>
-                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e231-1d2c-a6d4-2ecd" type="min"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="eeb9-9513-5ad9-0540" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
-            </entryLink>
-          </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
           </costs>
@@ -5543,12 +5550,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7f6-2ca3-00bb-d6ce" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12ad-e293-fffd-7923" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="2ad2-88a5-a147-6b31" name="Hull Weapon" hidden="false" collective="false" import="true" targetId="fce0-a4e4-168e-5f19" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e77-9a26-aba7-3d6f" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5877-e06e-6b8e-5ce6" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
