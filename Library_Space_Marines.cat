@@ -1536,6 +1536,13 @@
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="5+" field="a56f-38ae-3917-aadc">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="bbe6-4a4c-8477-4b34" childId="5afc-8c89-561d-73e2" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -1567,11 +1574,18 @@
                 </profile>
                 <profile id="7c1b-03ae-3ab4-d123" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
-• Assault Squad
-• Command Squad
-• Tactical Squad
-• Vanguard Veteran Squad
+                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">his model can be attached to the following units:
+    Assault Intercessor Squad
+    Bladeguard Veteran Squad
+    Company Heroes
+    Hellblaster Squad
+    Infernus Squad
+    Intercessor Squad
+    Sternguard Veteran Squad
+    Tactical Squad
+    Assault Squad
+    Command Squad
+    Vanguard Veteran Squad
 *You can attach this model to a unit even if another CAPTAIN or CHAPTER MASTER is already attached</characteristic>
                   </characteristics>
                 </profile>
@@ -1592,13 +1606,18 @@
                 </profile>
                 <profile id="23f0-84ec-64ba-b4c8" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
-• Assault Intercessor Squad
-• Bladeguard Veteran Squad
-• Hellblaster Squad
-• Sternguard Veteran Squad
-• Infernus Squad
-• Intercessor Squad
+                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">his model can be attached to the following units:
+    Assault Intercessor Squad
+    Bladeguard Veteran Squad
+    Company Heroes
+    Hellblaster Squad
+    Infernus Squad
+    Intercessor Squad
+    Sternguard Veteran Squad
+    Tactical Squad
+    Assault Squad
+    Command Squad
+    Vanguard Veteran Squad
 *You can attach this model to a unit even if another CAPTAIN or CHAPTER MASTER is already attached</characteristic>
                   </characteristics>
                 </profile>
@@ -1623,6 +1642,27 @@
 • Incursor Squad
 • Infiltrator Squad
 • Reiver Squad
+*You can attach this model to a unit even if another CAPTAIN or CHAPTER MASTER is already attached</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </entryLink>
+            <entryLink import="true" name="Storm Shield" hidden="false" id="5afc-8c89-561d-73e2" type="selectionEntry" targetId="00ff-947b-e05e-be1b">
+              <profiles>
+                <profile name="Leader" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="6242-fbb8-0b24-b586">
+                  <characteristics>
+                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">his model can be attached to the following units:
+    Assault Intercessor Squad
+    Bladeguard Veteran Squad
+    Company Heroes
+    Hellblaster Squad
+    Infernus Squad
+    Intercessor Squad
+    Sternguard Veteran Squad
+    Tactical Squad
+    Assault Squad
+    Command Squad
+    Vanguard Veteran Squad
 *You can attach this model to a unit even if another CAPTAIN or CHAPTER MASTER is already attached</characteristic>
                   </characteristics>
                 </profile>
@@ -11952,6 +11992,12 @@ Additionally, add 1 to that model&apos;s hit roll until the end of the turn.</ch
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bce-dfa5-b9ab-0aa1" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6226-7a7d-6b13-f7a7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Storm Shield" hidden="false" id="d270-7e11-2db1-605e" type="selectionEntry" targetId="00ff-947b-e05e-be1b">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3cef-e555-1151-0021" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a78-220f-27e0-0c51" includeChildSelections="false"/>
           </constraints>
         </entryLink>
       </entryLinks>
