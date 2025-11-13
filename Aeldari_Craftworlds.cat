@@ -1665,24 +1665,6 @@ You can attach this unit to one of the above units, even if YVRAINE has already 
         <categoryLink id="1589-efba-e3ce-d19d" name="Harlequin" hidden="false" targetId="e2fe-2446-61b7-11b3" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="834a-9f1d-3ebd-c66c" name="Melee Weapon" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccac-20a6-4bd5-d0cf" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4852-dd81-df00-6e9d" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="55fe-f4bb-c1d8-6453" name="Troupe Master’s blade" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntryGroup>
         <selectionEntryGroup id="0722-3278-a2cf-eb89" name="Ranged Weapon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c62-5451-4205-86dd" type="min"/>
@@ -1701,6 +1683,26 @@ You can attach this unit to one of the above units, even if YVRAINE has already 
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Melee Weapon" hidden="false" id="dee1-bf8b-f019-b051">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ccac-20a6-4bd5-d0cf" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4852-dd81-df00-6e9d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Troupe Master’s blade" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="55fe-f4bb-c1d8-6453">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry id="eb8e-14b6-1b7f-dc49" name="Warlock" hidden="false" collective="false" import="true" type="unit">
       <profiles>
