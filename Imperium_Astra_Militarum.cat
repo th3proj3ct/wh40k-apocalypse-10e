@@ -5571,9 +5571,9 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="ea3d-a911-d090-1af5" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="ea3d-a911-d090-1af5" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="6e4e-d831-1346-9cec" name="Artillery" hidden="false" targetId="c2cd-6e10-a4dd-093c" primary="false"/>
-        <categoryLink id="4a96-fbe9-2a3a-1a3f" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="4a96-fbe9-2a3a-1a3f" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="false"/>
         <categoryLink id="64c4-8f59-e34d-c691" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="cf1e-5fdc-9470-9ff1" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
       </categoryLinks>
