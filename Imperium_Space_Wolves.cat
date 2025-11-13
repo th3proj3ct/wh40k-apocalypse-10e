@@ -1193,7 +1193,6 @@
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Wulfen Claws" hidden="false" id="a29c-e629-db41-2013" collective="false">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="59a3-3bdc-34d2-6bb2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="11dc-d785-412c-357b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <profiles>
@@ -1214,7 +1213,6 @@
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Wulfen Hammer" hidden="false" id="424f-07c9-a5f0-ed8b" collective="false">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a43c-55cd-bb3a-80e1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ea0-7c8c-6740-96f1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <profiles>
