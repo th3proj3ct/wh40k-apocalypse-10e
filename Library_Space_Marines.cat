@@ -836,8 +836,9 @@
                 <profile id="5d7b-4296-a24a-bd9c" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
                   <characteristics>
                     <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
-• Assault Squad with Jump Packs
-• Vanguard Veteran Squad with Jump Packs</characteristic>
+• Assault Intercessors With Jump Packs
+• Vanguard Veteran Squad With Jump Packs
+• Assault Squad with Jump Packs</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1257,8 +1258,9 @@
                 <profile id="2032-19b3-e92f-2122" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
                   <characteristics>
                     <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following units:
-• Assault Squad with Jump Packs
-• Vanguard Veteran Squad with Jump Packs</characteristic>
+• Assault Intercessors With Jump Packs
+• Vanguard Veteran Squad With Jump Packs
+• Assault Squad with Jump Packs</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
