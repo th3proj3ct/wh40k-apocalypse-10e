@@ -2469,8 +2469,6 @@
       </selectionEntryGroups>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Gore-drenched fangs" hidden="false" id="6799-bda0-c8cb-27a5">
-          <comment>
-</comment>
           <profiles>
             <profile name="Gore-drenched fangs" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="bca7-3160-b006-dbc8">
               <characteristics>
@@ -2562,8 +2560,6 @@
       </selectionEntryGroups>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Juggernaut’s bladed horn" hidden="false" id="1d3e-593f-53b8-5717">
-          <comment>
-</comment>
           <profiles>
             <profile name="Juggernaut’s bladed horn" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="460f-cb02-9e15-55f3">
               <characteristics>
@@ -2658,8 +2654,6 @@
       </selectionEntryGroups>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Barbed tail and dissecting claws " hidden="false" id="462e-7bdd-23fb-e176">
-          <comment>
-</comment>
           <profiles>
             <profile name="Barbed tail and dissecting claws " typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="7e48-62c9-d20c-e27d">
               <characteristics>
@@ -3487,5 +3481,180 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Keeper of Secrets" hidden="false" id="71ed-0c42-6afb-0c26" collective="false">
+      <profiles>
+        <profile name="Keeper of Secrets" typeId="758b-2459-9a46-721a" typeName="Unit" hidden="false" id="9a05-3864-80a5-37a8">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Greater Daemon of Slaanesh" id="3089-7eba-2d03-9802" hidden="false" targetId="da07-31f8-18ac-23ae" type="profile"/>
+        <infoLink name="Deep Strike" id="751e-f949-978b-bfa3" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
+        <infoLink name="Ignore Damage (6+)" id="3c67-f848-ad83-44e0" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="HQ" hidden="false" id="0731-f2f5-f6b1-36e9" targetId="08d9-07e5-2b35-57b0" primary="false"/>
+        <categoryLink name="Faction: Chaos" hidden="false" id="c8ab-ea26-2b40-a63e" targetId="841f-fc30-da92-90cf" primary="false"/>
+        <categoryLink name="Faction: Daemon" hidden="false" id="7cbb-9c34-4621-a994" targetId="87a6-0f8f-7d40-7deb" primary="false"/>
+        <categoryLink name="Faction: Legiones Daemonica" hidden="false" id="8c78-0e40-5f72-e2d9" targetId="fab3-7acf-351d-537b" primary="false"/>
+        <categoryLink name="Heavy" hidden="false" id="208b-64c5-e224-c0f3" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink name="Monster" hidden="false" id="ccb0-d9fb-eca8-5177" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink name="Psyker" hidden="false" id="b33e-d5ce-719d-0d15" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="3bbf-fc93-4840-b3f4" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink targetId="c30a-4fee-d3ab-29bc" id="7ce4-3c93-d5ba-2565" primary="false" name="Faction: Slaanesh"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Phantasmagoria" hidden="false" id="6d77-3c30-7ae0-2f12" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ff30-8453-7d9c-40d5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b229-a5d4-bce1-7023" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Phantasmagoria" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="a55e-cb06-d797-5d03">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Devastating Wounds</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Devastating Wounds" id="08e4-be1f-aef4-0aba" hidden="false" targetId="5154-3b0e-f960-5cb3" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Snapping Claws" hidden="false" id="fc83-a6ab-2fe9-2fe8" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2828-2885-e587-316a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d6c-5f2e-6ee3-51ed" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Snapping Claws" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="6e9e-0115-8648-3f69">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Devastating Wounds, Extra Attacks</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Devastating Wounds" id="6f6f-09ee-a837-bc2f" hidden="false" targetId="5154-3b0e-f960-5cb3" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Witstealer Sword" hidden="false" id="3494-60a9-66bd-3798" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8252-9fcd-d175-2f87" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a4e-ae3e-96a2-0378" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Witstealer Sword" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="9a2b-5b5b-7c47-bcbb">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Wargear Option" id="6701-7c32-8444-7ef2" hidden="false" collective="false" import="true" defaultSelectionEntryId="a4e7-a717-5fb9-9a34">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="76e0-97be-0610-ef60" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f9ae-6e47-f0e6-2975" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Living Whip" hidden="false" id="f6ba-84b7-44b9-b067" collective="false">
+              <profiles>
+                <profile name="Living Whip" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="f7d3-ac9c-1553-0b31">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ritual Knife" hidden="false" id="cd7f-07e9-8754-990c" collective="false">
+              <profiles>
+                <profile name="Ritual Knife" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="4c6d-1d7e-a6f3-e91e">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Extra Attacks</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Commander" hidden="false" id="5b63-cdfe-c4bf-a03d" collective="false" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Keeper of Secrets" hidden="false" id="4c44-f959-4cb5-1346" type="selectionEntry" targetId="71ed-0c42-6afb-0c26">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="d3bc-bcf7-740c-9d56" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="1891-299a-5601-b5a2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="3bbd-6bb7-b214-6dca" id="2e71-6184-5c61-46b2" primary="false" name="Monster"/>
+        <categoryLink targetId="4de4-bea8-4f0e-7f9c" id="3d17-ba00-085c-5702" primary="false" name="Psyker"/>
+        <categoryLink targetId="25c7-3353-2028-72b2" id="baf5-ef6d-e532-aac7" primary="false" name="Heavy"/>
+        <categoryLink targetId="08d9-07e5-2b35-57b0" id="44cd-f77b-a382-8e26" primary="false" name="HQ"/>
+        <categoryLink targetId="4b9a-33b1-3b42-e3f8" id="284d-3a24-b153-3af2" primary="true" name="Character"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>
