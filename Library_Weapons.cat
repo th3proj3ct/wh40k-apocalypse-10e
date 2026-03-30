@@ -1327,7 +1327,7 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9b46-259d-da49-8c60" name="Nemesis Quake Cannon" publicationId="8df9-0b3e-abea-3c15" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9b46-259d-da49-8c60" name="Nemesis Quake Cannon" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="13fe-4c55-16cd-62b0" name="Nemesis Quake Cannon" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
@@ -1348,7 +1348,7 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b551-5ff8-98c1-da95" name="Anvillus-pattern Defence Battery" publicationId="8df9-0b3e-abea-3c15" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b551-5ff8-98c1-da95" name="Anvillus-pattern Defence Battery" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="c39a-1ec7-5f4f-6e7f" name="Anvillus-pattern Defence Battery" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
@@ -1368,7 +1368,7 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a32b-3d2c-c4a7-bacb" name="Ardex-defensor Mauler" publicationId="8df9-0b3e-abea-3c15" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a32b-3d2c-c4a7-bacb" name="Ardex-defensor Mauler" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="33a1-14c2-48e4-99c9" name="Ardex-defensor Mauler" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
@@ -1385,7 +1385,7 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8f98-d458-6b7b-3e77" name="Arioch Power Claw" publicationId="8df9-0b3e-abea-3c15" page="" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="8f98-d458-6b7b-3e77" name="Arioch Power Claw" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="6cfd-adc9-34e2-e2b2" name="Arioch Power Claw" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
@@ -1405,7 +1405,7 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a949-dcd0-55a7-7317" name="Warlord Gatling Blaster" publicationId="8df9-0b3e-abea-3c15" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a949-dcd0-55a7-7317" name="Warlord Gatling Blaster" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="2285-04b8-a459-4275" name="Warlord Gatling Blaster" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
@@ -1422,7 +1422,7 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5ed1-fe6c-b4dd-286f" name="Twin Titan Vulcan Mega-bolter" publicationId="8df9-0b3e-abea-3c15" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5ed1-fe6c-b4dd-286f" name="Twin Titan Vulcan Mega-bolter" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="a2ec-e2a7-2174-75fb" name="Twin Titan Vulcan Mega-bolter" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
@@ -1442,7 +1442,7 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af86-65ea-8da0-f049" name="Sunfury Plasma Annihilator" publicationId="8df9-0b3e-abea-3c15" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="af86-65ea-8da0-f049" name="Sunfury Plasma Annihilator" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="b964-2691-c583-95e4" name="Sunfury Plasma Annihilator" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
@@ -1463,7 +1463,7 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="acba-7b00-b626-2e54" name="Saturnyne Lascutter" publicationId="8df9-0b3e-abea-3c15" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="acba-7b00-b626-2e54" name="Saturnyne Lascutter" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="c6e7-1867-0741-af44" name="Saturnyne Lascutter (Ranged)" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
@@ -1494,7 +1494,7 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e060-de75-d57d-223f" name="Mori Quake Cannon" publicationId="8df9-0b3e-abea-3c15" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e060-de75-d57d-223f" name="Mori Quake Cannon" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="4c51-01d9-978e-d4d4" name="Mori Quake Cannon" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
@@ -1515,7 +1515,7 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3998-4a53-388a-898c" name="Belicosa Volcano Cannon" publicationId="8df9-0b3e-abea-3c15" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3998-4a53-388a-898c" name="Belicosa Volcano Cannon" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="d246-ba83-3973-0bf9" name="Belicosa Volcano Cannon" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
@@ -1535,7 +1535,7 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="72da-e750-edcc-f6e6" name="Ardex-defensor Twin Lascannon" publicationId="8df9-0b3e-abea-3c15" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="72da-e750-edcc-f6e6" name="Ardex-defensor Twin Lascannon" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="66a3-ab5f-6e33-4431" name="Ardex-defensor Twin Lascannon" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
@@ -2200,6 +2200,27 @@
       <infoLinks>
         <infoLink id="7293-7fc6-bef5-df52" name="Witchfire" hidden="false" targetId="8ce8-6dd3-c0a8-35ad" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Master-crafted Power Swords" hidden="false" id="b6e9-f21b-ec89-af5e" collective="false">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="45e6-4234-3a0f-fc9b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3042-06ec-66b5-59db" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Master-crafted Power Swords" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="952d-0da4-1d28-af71">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
