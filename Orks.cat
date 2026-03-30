@@ -1936,15 +1936,15 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab94-411b-d630-8ded" type="max"/>
               </constraints>
               <profiles>
-                <profile id="35ff-e53d-79b1-ea43" name="Meganobz (06 Models)" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                <profile name="Meganobz (06 Models)" typeId="758b-2459-9a46-721a" typeName="Unit" hidden="false" id="5356-1e03-75fc-fd5f" publicationId="8df9-0b3e-abea-3c15">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2957,9 +2957,9 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="a537-5d6b-b55e-f3bf" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="e5a7-311e-cbc0-a24f" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="df87-bbe5-a499-a5e1" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink targetId="351c-b6fa-4d4f-70f3" id="c9e6-cee1-78d0-f6f8" primary="true" name="Mounted"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4e34-d28b-27a9-3279" name="Twin Dakkagun" hidden="false" collective="false" import="true" type="upgrade">
@@ -3513,7 +3513,7 @@
         <profile id="bb07-0996-5f54-d464" name="Leader" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following unit:
-    Kommandos</characteristic>
+     Stormboyz</characteristic>
           </characteristics>
         </profile>
         <profile id="8348-db7c-9f0c-7915" name="Drill Boss" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -3952,6 +3952,12 @@
         <profile id="dadf-1258-452c-3545" name="Da Bigger Dey iz..." hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes an attack that targets a HEAVY unit, add 1 to wound roll. Each time this model makes an attack that targets a TITANIC or SUPER-HEAVY unit, add 2 to the Wound roll instead..</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="a002-7096-0641-b935">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model can be attached to the following unit:
+    Squighog Boyz</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4742,6 +4748,231 @@
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kustom Boosta-Blasta" hidden="false" id="cf4b-87dc-2150-b3b6" collective="false">
+      <profiles>
+        <profile name="Kustom Boosta-Blasta" typeId="758b-2459-9a46-721a" typeName="Unit" hidden="false" id="b5ce-a64e-2d72-5a78" publicationId="8df9-0b3e-abea-3c15">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Rivetin’ Dakka" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="0c70-5ed1-2a49-8bc7" publicationId="8df9-0b3e-abea-3c15">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with a rivet kannon. Until the start of your next turn, add 1 to hit rolls for Ranged attacks in this unit&apos;s detachment when attacking that model.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Heavy" hidden="false" id="365c-a86f-7372-6ef6" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="f293-f168-338c-14c7" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Burna Exhaust" hidden="false" id="4150-a406-6a8d-0fb7" publicationId="8df9-0b3e-abea-3c15" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b320-2d6d-405b-de72" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fd6f-b30c-31b8-3ee1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Burna Exhaust" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="32ab-d6be-4036-f2b3" publicationId="8df9-0b3e-abea-3c15">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">6&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">3</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignored Cover, Inferno, Twin-Linked</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Twin-Linked" id="94e9-e5ad-404d-ba4e" hidden="false" targetId="90b6-9d4b-d503-5e51" type="rule"/>
+            <infoLink name="Ignores Cover" id="e8fb-04d0-cf6b-5eda" hidden="false" targetId="f955-47cd-a5ed-9629" type="rule"/>
+            <infoLink name="Inferno" id="677f-5d22-0047-0879" hidden="false" type="rule" targetId="f3a7-fc0c-a9e3-d382"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Rivet kannon" hidden="false" id="6249-3967-fd97-c192">
+          <profiles>
+            <profile name="Rivet kannon" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="414e-ab2c-075e-339f">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Rapid Fire" id="515a-bc55-bbfb-e9a8" hidden="false" type="rule" targetId="5b2f-f499-bdcd-e45d"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bb42-3467-6264-a6eb" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a003-ecf3-7fbf-b571" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Spiked Ram" hidden="false" id="734a-18d8-c664-6756" collective="false" targetId="8654-6b45-4396-afd8" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aa77-f3b8-c348-7fca" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94dc-180a-5b98-67c1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Grot Blastas" hidden="false" id="ba53-78f0-c209-5f61" collective="false" targetId="e309-f9bd-0039-198a" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e028-8b5b-c6ff-666a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8966-2352-8922-da7a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Killa Kans" hidden="false" id="8533-d2a4-17f6-b796" collective="false">
+      <profiles>
+        <profile name="Shooty Power Trip" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="0bf1-47e0-384b-7010">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Shooty Power Trip: Each time this unit is selected to shoot, you can roll one D6:
+    On a 1-2, place a blast marker next to this unit
+    On a 3-4, until the end of the phase, add 1 to the SAT and SAP characteristic of ranged weapons equipped by models in this unit.
+    On a 5-6, until the end of the phase, add 1 to the Attacks characteristic of this unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Light" hidden="false" id="5008-2567-d669-b3ea" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink targetId="5aeb-0fa6-9427-2144" id="62ec-377a-3f7d-5746" primary="true" name="Vehicle"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Unit Size" id="d2e3-9a9f-71e6-0d0f" hidden="false" publicationId="8df9-0b3e-abea-3c15" collective="false" import="true" defaultSelectionEntryId="f533-4c8d-a36f-ae86">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83f9-8ad6-ed0b-78cb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b9c6-bd38-6a7d-476c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Killa Kans (03 Models)" hidden="false" id="6244-206a-793c-a23b" publicationId="8df9-0b3e-abea-3c15" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb9e-7183-5030-4bb3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Killa Kans (03 Models)" typeId="758b-2459-9a46-721a" typeName="Unit" hidden="false" id="882c-324e-d59b-9b32" publicationId="8df9-0b3e-abea-3c15">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Killa Kans (06 Models)" hidden="false" id="363e-ada1-bd71-126f" publicationId="8df9-0b3e-abea-3c15" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa78-bc93-2753-3e6c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Killa Kans (06 Models)" typeId="758b-2459-9a46-721a" typeName="Unit" hidden="false" id="72e2-7d7d-e4f7-f406" publicationId="8df9-0b3e-abea-3c15">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="fdd4-059d-5e6c-92d7" hidden="false" defaultSelectionEntryId="0802-3ad7-202c-0d80">
+          <entryLinks>
+            <entryLink import="true" name="Rokkit Launcha" hidden="false" id="d7cd-8a45-9244-3e9e" type="selectionEntry" targetId="2ee2-b138-41ac-cc34"/>
+            <entryLink import="true" name="Skorcha" hidden="false" id="4e35-b6db-b657-0b6b" type="selectionEntry" targetId="5cc3-f547-b32d-fa7e"/>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Grotzooka" hidden="false" id="8d0d-6dd7-3ebe-d063">
+              <profiles>
+                <profile name="Grotzooka" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="4be3-1334-1d47-5f1f" publicationId="8df9-0b3e-abea-3c15">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast, Ignores Cover</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Blast" id="0839-243e-3465-40ac" hidden="false" targetId="5d69-1b8b-1a4c-8e59" type="rule"/>
+                <infoLink name="Ignores Cover" id="e192-b95c-2fd9-798e" hidden="false" type="rule" targetId="f955-47cd-a5ed-9629"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Kan shoota" hidden="false" id="0802-3ad7-202c-0d80">
+              <profiles>
+                <profile name="Kan shoota" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="7821-128d-f12e-95b5">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Devastating Wounds, Rapid Fire</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Devastating Wounds" id="e0eb-5e5b-8d68-a92c" hidden="false" type="rule" targetId="5154-3b0e-f960-5cb3"/>
+                <infoLink name="Rapid Fire" id="48c6-eb51-a321-5651" hidden="false" type="rule" targetId="5b2f-f499-bdcd-e45d"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d997-7fbd-d1f6-9acf" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3785-a047-d06d-7114" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Kan Klaw" hidden="false" id="1875-87c7-ebef-37da">
+          <profiles>
+            <profile name="Kan Klaw" typeId="c9f1-094d-9681-28f3" typeName="Weapons" hidden="false" id="5448-52ac-6cce-4a38">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </selectionEntries>
   <rules>
